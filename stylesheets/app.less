@@ -6,6 +6,49 @@ h3 {
     font-size: 24px;
 }
 
+.top-bar{
+    text-align: left;
+    padding: 5px 0;
+    background-color: #584b4f;
+    color: #efeae1;
+    font-size: 14px;
+    height: 43px;
+    
+    .wrapper{
+        width: 860px;
+        margin: 0 auto;
+        padding-left: 40px;
+        padding-right: 40px;
+        overflow: hidden;
+        
+        .navigation{
+            display: block;
+            list-style-type: none;
+            -webkit-margin-before: 1em;
+            -webkit-margin-after: 1em;
+            -webkit-margin-start: 0px;
+            -webkit-margin-end: 0px;
+            -webkit-padding-start: 40px;
+            
+            li{
+                display: inline-block;
+                padding-right: 5px;
+                height: 33px;
+                vertical-align: top;
+            }
+            
+            a {
+                padding:0px 5px;
+                color: #FFFFFF;
+                display: inline-block;
+                text-decoration: none;
+            }
+        }
+    }
+    
+}
+
+
 .app-downloads {
     .large {
         font-size: 18px;
@@ -62,4 +105,55 @@ h3 {
 
 .site-footer{
     float: none;
+}
+
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+
+.text-muted{
+    color: #767676;
+}
+
+.octicon{
+    font: normal normal normal 16px/1 octicons;
+    display: inline-block;
+    text-decoration: none;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.release-downloads-header {
+	margin-top: 30px;
+}
+.release-downloads{
+    margin-top: 10px;
+    font-size: 14px;
+    border-top: 1px solid #eee;
+    
+    .octicon{
+        margin-top: 2px;
+        margin-right: 5px;
+    }
+    
+    li{
+        display: block;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #eee;
+        
+        a{
+            color: #4078c0;
+            text-decoration: none;
+            background-color: transparent;
+        }
+    }
 }
