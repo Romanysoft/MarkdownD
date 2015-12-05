@@ -135,3 +135,6 @@ h3 {
   text-decoration: none;
   background-color: transparent;
 }
+.release-downloads li img {
+  vertical-align: middle;
+}
