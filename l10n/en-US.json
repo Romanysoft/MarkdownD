@@ -1,0 +1,115 @@
+{
+    "TopBar":{
+        "Home":"Home",
+        "Feature":"Feature",
+        "Documents":"Documents",
+        "ReleaseNotes":"ReleaseNotes",
+        "Downloads":"Downloads",
+        "Buy":"Buy",
+        "Roadmap":"Roadmap",
+        "ReportIssue":"ReportIssue"
+    },
+    
+    "Footer":{
+        
+    },
+    
+    "HomePage":{
+        "Screens":[
+            "images/screens/en_US/MacOS10.7en_US.png"
+        ],
+        
+        "Features":{
+            "SectionName":"MarkdownD Features",
+            "list":[
+                "Support standard Markdown/CommonMark and GFM (GitHub Flavored Markdown)",
+                "Live preview support",
+                "Support formatted text, code blocks, tables, code folding, search and replace, multiple languages, HTML entity code syntax highlighting",
+                "Support Toc (Table of Contents), Emoji expression, TaskLists (task map), @Links (link)",
+                "Support decoding and filtering HTML tags and attributes",
+                "Support Tex (LaTex expression, KaTeX), flow diagram and sequence diagram",
+                "Support Document Recovery Mechanism",
+                "Support multiple simultaneous editing, unlimited number"
+            ]
+        },
+        
+        "UserReviews":{
+            "SectionName":"Wonderful things people are saying about MarkdownD",
+            "list":[
+                {
+                    "reviewContent":"MarkdownD is stunning. Simple. Clean. Perfect. Well done.",
+                    "userName":"evanw ",
+                    "professional":"Technology Evangelist"
+                },
+                {
+                    "reviewContent":"MarkdownD is what I do pretty much all of my writing in. It's a great little app.",
+                    "userName":"Peter Bright ",
+                    "professional":"Writer at Ars Technica"
+                },
+                {
+                    "reviewContent":"If you have any interest in Markdown, MarkdownD is definitely worth a download.",
+                    "userName":"LifeHacker ",
+                    "professional":"Web Developer and Designer"
+                },
+                {
+                    "reviewContent":"I really like MarkdownD, has brought much convenience for my work.",
+                    "userName":"jeruss ",
+                    "professional":"PHP Framework Developer"
+                }
+            ]
+        }
+    },
+    
+    "FeaturePage":{
+        
+    },
+    
+    "DocumentsPage":{
+        
+    },
+    
+    "ReleaseNotePage":{
+        
+    },
+    
+    "VersionPage":{
+        "labelVersion":"Version"
+    },
+    
+    "BuyPage":{
+            "SectionName":"Buy Way",
+            "list":[
+                {
+                    "name":"MarkdownD for windows (x86 or x64) for Vista, Win7,Win8,Win8.1,Win10",
+                    "logo":"images/buy/taobao.png",
+                    "price":"60 RMB",
+                    "buyURL":"https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-5212847973.11.gsNe6w&id=524924021533"
+                },
+                {
+                    "name":"MarkdownD for windows(x86) for Vista, Win7,Win8,Win8.1,Win10",
+                    "logo":"images/buy/buy.png",
+                    "price":"$9.9",
+                    "buyURL":"https://shopper.mycommerce.com/checkout/cart/new/55399-37"
+                },
+                {
+                    "name":"MarkdownD for MacOSX, for MacOSX 10.7 and later",
+                    "logo":"images/buy/buy.png",
+                    "price":"$19.9",
+                    "buyURL":"https://shopper.mycommerce.com/checkout/cart/new/55399-32"
+                },
+                {
+                     "name":"MarkdownD for MacOSX (Mac App Store), for MacOSX 10.7 and later",
+                    "logo":"images/buy/mas.png",
+                    "price":"$19.9",
+                    "buyURL":"https://itunes.apple.com/us/app/markdownd-is-full-featured/id975071094?l=zh&ls=1&mt=12"
+                }
+            ]
+    },
+    
+    "RoadMapPage":{
+        
+    }
+    
+
+  
+}

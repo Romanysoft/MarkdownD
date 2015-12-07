@@ -25,130 +25,86 @@
 
 <body>
     <section class="top-bar">
-        <div class="wrapper no-pad">
-            <ul class="navigation">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./feature.html">Feature</a></li>
-                <li><a href="./documents.html">Documents</a></li>
-                <li><a href="./releasenotes.html">ReleaseNotes</a></li>
-                <li><a href="./versions.html">Downloads</a></li>
-                <li><a href="./roadmap.html">Roadmap</a></li>
-                <li><a href="https://github.com/Romanysoft/MarkdownD/issues">ReportIssue</a></li>
-            </ul>
-        </div>
     </section>
     
     <section class="page-header">
         <h1 class="project-name">MarkdownD</h1>
         <h2 class="project-tagline">Is a full-featured Markdown editor.</h2>
-
-        <a href="./index_ja_JP.html" target="_blank" class="btn">日本語</a>
-        <a href="./index_de_DE.html" target="_blank" class="btn">Deutsch</a>
-        <a href="./index_zh_CN.html" target="_blank" class="btn">中文简体</a>
-        <a href="./index_zh_TW.html" target="_blank" class="btn">中文繁體</a>
     </section>
 
     <section class="main-content">
         <div class="app-screens">
-            <img src="images/screens/en_US/MacOS10.7en_US.png">
         </div>
-        <div class="app-downloads">
-            <!--MacOSX Download-->
-            <a class="btn btn-download" href="http://hotdownloads.com/trialware/download/Download_MarkdownD.zip?item=55399-32" target="_blank"> <span class="large">Download</span>
-                <br>
-                <span class="small">MacOS x 10.7.5 or later.</span>
-            </a>
-            <!--MacOSX Buy-->
-            <a class="btn btn-download" href="https://shopper.mycommerce.com/checkout/cart/add/55399-32" target="_blank"> <span class="large">Buy</span>
-                <br>
-                <span class="small">MacOS x 10.7.5 or later.</span>
-            </a>
-
-            <!--MacOSX AppStore Download-->
-            <a class="btn btn-store-buy" href="https://itunes.apple.com/us/app/markdownd/id975071094?l=zh&ls=1&mt=12" target="_blank"> <span class="large">Get from the Apple app store </span>
-                <br>
-                <span class="small">MacOS x 10.7.5 or later.</span>
-            </a>
+        <div class="section-features">
         </div>
-        <h3>
-<a id="app-features" class="anchor" href="#app-features" aria-hidden="true"><span class="octicon octicon-link"></span></a>MarkdownD Features</h3>
-
-        <div>
-            <ul>
-                <li>Support standard Markdown/CommonMark and GFM (GitHub Flavored Markdown</li>
-                <li>Live preview support</li>
-                <li>Support formatted text, code blocks, tables, code folding, search and replace, multiple languages, HTML entity code syntax highlighting</li>
-                <li>Support Toc (Table of Contents), Emoji expression, TaskLists (task map), @Links (link)</li>
-                <li>Support decoding and filtering HTML tags and attributes</li>
-                <li>Support Tex (LaTex expression, KaTeX), flow diagram and sequence diagram</li>
-                <li>Support Document Recovery Mechanism</li>
-                <li>Support multiple simultaneous editing, unlimited number</li>
+        <div class="section-reviews">
         </div>
-
-        <h3>
-<a id="people-saying" class="anchor" href="#people-saying" aria-hidden="true"><span class="octicon octicon-link"></span></a>Wonderful things people are saying about MarkdownD</h3>
-
-        <div class="people-saying-content">
-            <div class="row quotes">
-                <div class="span3">
-                    <blockquote>
-                        <p>
-                            MarkdownD is stunning. Simple. Clean. Perfect. Well done,
-                            <a href=""></a>
-                        </p>
-                        <small><a>evanw</a>
-							<br>
-							Technology Evangelist</small>
-                    </blockquote>
-                </div>
-                <div class="span3">
-                    <blockquote>
-                        <p>
-                            MarkdownD is what I do pretty much all of my writing in. It's a great little app.
-                            <a href=""></a>
-                        </p>
-                        <small><a>Peter Bright</a>
-							<br>
-							Writer at Ars Technica</small>
-                    </blockquote>
-                </div>
-                <div class="span3">
-                    <blockquote>
-                        <p>
-                            If you have any interest in Markdown, MarkdownD is definitely worth a download.
-                            <a href=""></a>
-                        </p>
-                        <small><a>LifeHacker</a>
-							<br>
-							Web Developer and Designer</small>
-                    </blockquote>
-                </div>
-                <div class="span3">
-                    <blockquote>
-                        <p>
-                            I really like MarkdownD, has brought much convenience for my work.
-                            <a href=""></a>
-                        </p>
-                        <small><a>jeruss</a>
-							<br>
-							PHP Framework Developer</small>
-                    </blockquote>
-                </div>
-
-            </div>
-        </div>
-
-
-
-        <h3>
-</h3>
-
+        <h3></h3>
         <footer class="site-footer">
         </footer>
 
     </section>
+        
+    <!-- TopBar template -->
+     <script id="topbar-content-tmpl" type="text/html">
+          <div class="wrapper no-pad">
+               <ul class="navigation">
+                 {{each list as navigation}}
+                     <li><a href="{{#navigation.url}}">{{navigation.name}}</a></li>
+                 {{/each}}
+              </ul>
+         </div>
+    </script>
+    
+    <!-- Scrrens template -->
+    <script id="screen-content-tmpl" type="text/html">
+        {{each list as imgUrl}}
+         <img src="{{imgUrl}}">
+        {{/each}}
+    </script>
+    
+    <!--- Features template --->
+    <script id="features-content-tmpl" type="text/html">
+        <h3><a id="app-features" class="anchor" href="" aria-hidden="true"><span class="octicon octicon-link"></span></a>{{SectionName}}</h3>
+        <div>
+            <ul class="features-list">
+                {{each list as oneFeature}}
+                <li>
+                    <strong>{{oneFeature}}</strong>
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+    </script>
+    
+    <!-- Reviews template--->
+    <script id="review-content-tmpl" type="text/html">
+        <h3><a id="app-features" class="anchor" href="" aria-hidden="true"><span class="octicon octicon-link"></span></a>{{SectionName}}</h3>
+        <div class="people-saying-content">
+            <div class="row quotes">
+                {{each list as review}}
+                <div class="span3">
+                    <blockquote>
+                        <p>
+                            {{review.reviewContent}}
+                            <a href=""></a>
+                        </p>
+                        <small><a>{{review.userName}}</a>
+							<br>
+							{{review.professional}}
+                        </small>
+                    </blockquote>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </script>
 
+    <script src="js/l10n.js"></script>
+    <script src="js/views/top-bar.js"></script>
     <script src="js/views/footer.js"></script>
+    <script src="js/views/view-index-page.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>

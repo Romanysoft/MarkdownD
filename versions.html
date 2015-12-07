@@ -25,18 +25,6 @@
 
 <body>
     <section class="top-bar">
-        <div class="wrapper no-pad">
-            <ul class="navigation">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./feature.html">Feature</a></li>
-                <li><a href="./documents.html">Documents</a></li>
-                <li><a href="./releasenotes.html">ReleaseNotes</a></li>
-                <li><a href="./versions.html">Downloads</a></li>
-                <li><a href="./buy.html">Buy</a></li>
-                <li><a href="./roadmap.html">Roadmap</a></li>
-                <li><a href="https://github.com/Romanysoft/MarkdownD/issues">ReportIssue</a></li>
-            </ul>
-        </div>
     </section>
 
 
@@ -46,15 +34,27 @@
 
         <footer class="site-footer">
         </footer>
-
     </section>
     <section>
     </section>
     
+    
+    
+    <!-- TopBar template -->
+     <script id="topbar-content-tmpl" type="text/html">
+          <div class="wrapper no-pad">
+               <ul class="navigation">
+                 {{each list as navigation}}
+                     <li><a href="{{#navigation.url}}">{{navigation.name}}</a></li>
+                 {{/each}}
+              </ul>
+         </div>
+    </script>
+    
     <!-- Version template -->
     <script id="version-content-tmpl" type="text/html">
         {{each list as oneVersion}}
-        <h3><a id="app-features" class="anchor" href="" aria-hidden="true"><span class="octicon octicon-link"></span></a>Version {{#oneVersion.version}}</h3>
+        <h3><a id="app-features" class="anchor" href="" aria-hidden="true"><span class="octicon octicon-link"></span></a>{{labelVersion}} {{#oneVersion.version}}</h3>
         <div>
             <ul class="release-downloads">
                 {{each oneVersion.zipList as zip}}
@@ -72,8 +72,11 @@
         {{/each}}
     </script>
     
+    <script src="js/l10n.js"></script>
     <script src="js/views/view-versions-page.js"></script>
+    <script src="js/views/top-bar.js"></script>
     <script src="js/views/footer.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
