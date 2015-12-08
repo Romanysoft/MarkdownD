@@ -50,23 +50,22 @@
     </script>
     
     
-    <!--- Buy template --->
-    <script id="buy-content-tmpl" type="text/html">
-        <h3><a id="app-features" class="anchor" href="" aria-hidden="true"><span class="octicon octicon-link"></span></a>{{SectionName}}</h3>
+    <!--- Changelog template --->
+    <script id="changelog-content-tmpl" type="text/html">
+        {{each list as oneVersion}}
+        <h3><a id="app-features" class="anchor" href="" aria-hidden="true"><span class="octicon octicon-link"></span></a>{{labelVersion}} {{#oneVersion.version}}</h3>
         <div>
-            <ul class="buy-list">
-                {{each list as buy}}
+            <ul class="changelog-list">
+                {{each oneVersion.list as changelog}}
                 <li>
-                    <a href="{{#buy.buyURL}}">
-                        <small class="text-muted right">{{buy.price}}</small>
-                        <span class="octicon octicon-package left text-muted "></span>
-                        <img src="{{#buy.logo}}"/>
-                        <strong>{{buy.name}}</strong>
-                    </a>
+                    <small class="text-muted right">{{changelog.platform}}</small>
+                    <span class="octicon octicon-package left text-muted "></span>
+                    <strong>{{changelog.content}}</strong>
                 </li>
                 {{/each}}
             </ul>
         </div>
+        {{/each}}
     </script>
     
     <script src="js/l10n.js"></script>
