@@ -30,7 +30,6 @@
     <section class="main-content">
         <div class="section-features">
         </div>
-
       
         <h3></h3>
         <footer class="site-footer">
@@ -49,6 +48,19 @@
          </div>
     </script>
     
+    <!--- Features template --->
+    <script id="features-content-tmpl" type="text/html">
+        <h3><a id="app-features" class="anchor" href="" aria-hidden="true"><span class="octicon octicon-link"></span></a>{{SectionName}}</h3>
+        <div>
+            <ul class="features-list">
+                {{each list as oneFeature}}
+                <li>
+                    <strong>{{oneFeature}}</strong>
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+    </script>    
     
     <!--- Buy template --->
     <script id="buy-content-tmpl" type="text/html">
