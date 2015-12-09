@@ -74,9 +74,10 @@
             "version":"2.2.0",
             "list":[
                 {"platform":"all", "content":"Fixed some bugs."},
-                {"platform":"Windows", "content":"First released."}
+                {"platform":"Windows", "content":"First released."},
+                {"platform":"linux", "content":"First released."}
             ]
-        }]        
+        }]
     },
     
     "VersionPage":{
@@ -109,6 +110,12 @@
                     "logo":"images/buy/mas.png",
                     "price":"$19.9",
                     "buyURL":"https://itunes.apple.com/us/app/markdownd-is-full-featured/id975071094?l=zh&ls=1&mt=12"
+                },
+                {
+                    "name":"MarkdownD for linux(x86)",
+                    "logo":"images/buy/buy.png",
+                    "price":"$19.9",
+                    "buyURL":"https://shopper.mycommerce.com/checkout/cart/new/55399-38"
                 }
             ]
     },

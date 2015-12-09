@@ -23,6 +23,8 @@
                     {osUrl:win32Url, name:"MarkdownD-v2.2.0-win32-x86-setup.exe", size:"45.5MB", downURL:"http://pan.baidu.com/s/1o7a7N9w"},
                     {osUrl:win32Url,name:"MarkdownD-v2.2.0-win32-x64-setup.exe", size:"54.4MB", downURL:"http://pan.baidu.com/s/1c0V252o"},
                     {osUrl:osxUrl,name:"MarkdownD-v2.2.0-darwin-x64.zip", size:"6.9MB", downURL:"http://pan.baidu.com/s/1c0JXm5U"},
+                    {osUrl:linuxUrl,name:"MarkdownD-v2.2.0-ia32.tar.gz", size:"40.1MB", downURL:"http://pan.baidu.com/s/1hrgjXty"},
+                    {osUrl:linuxUrl,name:"MarkdownD-v2.2.0-x64.tar.gz", size:"40.1MB", downURL:"http://pan.baidu.com/s/1dEjDRET"},
                 ]
             }
         ];        
