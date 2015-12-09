@@ -12,23 +12,15 @@ h3 {
     background-color: #584b4f;
     color: #efeae1;
     font-size: 14px;
-    height: 43px;
+    height: auto;
     
     .wrapper{
-        width: 860px;
-        margin: 0 auto;
-        padding-left: 40px;
-        padding-right: 40px;
         overflow: hidden;
+        margin: 0 auto;
         
         .navigation{
             display: block;
             list-style-type: none;
-            -webkit-margin-before: 1em;
-            -webkit-margin-after: 1em;
-            -webkit-margin-start: 0px;
-            -webkit-margin-end: 0px;
-            -webkit-padding-start: 40px;
             
             li{
                 display: inline-block;
@@ -48,6 +40,18 @@ h3 {
     
 }
 
+@media screen and (min-width: 64em) {
+  .top-bar {.wrapper{
+      max-width: 64rem;
+      padding: 0rem 6rem; } }}
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .top-bar {.wrapper{
+      padding: 0rem 4rem; } }}
+
+@media screen and (max-width: 42em) {
+  .top-bar {.wrapper{
+      padding: 0rem 1rem; } }}
 
 .app-downloads {
     .large {
