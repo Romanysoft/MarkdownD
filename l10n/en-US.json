@@ -75,7 +75,7 @@
             "list":[
                 {"platform":"all", "content":"Fixed some bugs."},
                 {"platform":"Windows", "content":"First released."},
-                {"platform":"linux", "content":"First released."}
+                {"platform":"Linux", "content":"First released."}
             ]
         }]
     },
