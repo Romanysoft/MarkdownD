@@ -15,8 +15,15 @@
     },
     
     "HomePage":{
+        "ProjectTagline":"Very useful App. Full-featured Markdown editor.For Windows, Linux, MacOSX.",
+        "BtnDownload":"Download",
+        "BtnBuy":"Purchase",
         "Screens":[
-            "images/screens/en_US/MacOS10.7en_US.png"
+            "images/screens/c1.jpg",
+            "images/screens/c2.jpg",
+            "images/screens/c3.jpg",
+            "images/screens/c4.jpg",
+            "images/screens/c5.jpg"
         ],
         
         "Features":{
@@ -70,18 +77,48 @@
     
     "ReleaseNotePage":{
         "labelVersion":"Version ",
-        "list":[{
-            "version":"2.2.0",
-            "list":[
-                {"platform":"all", "content":"Fixed some bugs."},
-                {"platform":"Windows", "content":"First released."},
-                {"platform":"Linux", "content":"First released."}
-            ]
-        }]
+        "list":[
+            {
+                 "version":"2.3.0",
+                "list":[
+                    {"platform":"", "content":"Fixed some bugs."}
+                ]
+            },
+            {
+                "version":"2.2.0",
+                "list":[
+                    {"platform":"", "content":"Fixed some bugs."},
+                    {"platform":"Windows", "content":"First released."},
+                    {"platform":"Linux", "content":"First released."}
+                ]
+            }
+        ]
     },
     
     "VersionPage":{
-        "labelVersion":"Version"
+        "labelVersion":"Version",
+        "list":[
+            {
+                "version":"2.3.0",
+                "zipList":[
+                    {"osUrl":"images/download/win32.png", "name":"MarkdownD-v2.3-win32-x86-setup.exe", "size":"44.7MB", "downURL":"http://www.filefactory.com/file/ani4s9myzd5/MarkdownD-v2.3-win32-x86-setup.exe"},
+                    {"osUrl":"images/download/win32.png","name":"MarkdownD-v2.3-win32-x64-setup.exe", "size":"53.4MB", "downURL":"http://www.filefactory.com/file/nhangqor1h7/MarkdownD-v2.3-win32-x64-setup.exe"},
+                    {"osUrl":"images/download/osx.png", "name":"MarkdownD-v2.3.0-darwin-x64.zip", "size":"5.0MB", "downURL":"http://www.filefactory.com/file/4rm0fk19d40v/MarkdownD-v2.3.0-darwin-x64.zip"},
+                    {"osUrl":"images/download/linux.png", "name":"MarkdownD-v2.3-linux-ia32-install.tar.gz", "size":"40.1MB", "downURL":"http://www.filefactory.com/file/40xwmjpdx8p7/MarkdownD-v2.3-linux-ia32-install.tar.gz"},
+                    {"osUrl":"images/download/linux.png","name":"MarkdownD-v2.3-linux-x64-install.tar.gz", "size":"40.1MB", "downURL":"http://www.filefactory.com/file/13xacb38a5pz/MarkdownD-v2.3-linux-x64-install.tar.gz"}
+                ]
+            },
+            {
+                "version":"2.2.0",
+                "zipList":[
+                    {"osUrl":"images/download/win32.png", "name":"MarkdownD-v2.2.0-win32-x86-setup.exe", "size":"45.5MB", "downURL":"http://pan.baidu.com/s/1pKhXBFP"},
+                    {"osUrl":"images/download/win32.png","name":" MarkdownD-v2.2.0-win32-x64-setup.exe", "size":"54.4MB", "downURL":"http://pan.baidu.com/s/1c1rh4yc"},
+                    {"osUrl":"images/download/osx.png", "name":"MarkdownD-v2.2.0-darwin-x64.zip", "size":"6.9MB", "downURL":"http://pan.baidu.com/s/1c0JXm5U"},
+                    {"osUrl":"images/download/linux.png", "name":"MarkdownD-v2.2.0-ia32.tar.gz", "size":"40.1MB", "downURL":"http://pan.baidu.com/s/1qXbPWny"},
+                    {"osUrl":"images/download/linux.png","name":"MarkdownD-v2.2.0-x64.tar.gz", "size":"40.1MB", "downURL":"http://pan.baidu.com/s/1qWSw5w4"}
+                ]
+            }
+        ]
     },
     
     "BuyPage":{

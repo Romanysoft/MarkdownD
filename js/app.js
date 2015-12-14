@@ -8,7 +8,12 @@
     var c$ = {};
     c$ = $.extend(window.UI.c$, {});
     
+    c$.initTitleAndVersion = function () {
+        document.title = window.RTYConfig.documentTitle;
+    };
+    
     c$.launch = function(){
+        c$.initTitleAndVersion();
         c$.loadL10n();
     }
     

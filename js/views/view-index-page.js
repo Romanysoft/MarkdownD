@@ -13,6 +13,14 @@
         var l10n = c$.l10n["HomePage"] || {};
         var htmlContent = "";
         
+        // 更新        <h1 class="project-name"></h1>
+        //             <h2 class="project-tagline"></h2>
+        $('.project-name').html(window.RTYConfig.appName);
+        $('.project-tagline').html(l10n["ProjectTagline"]);
+        
+        $('.btn-download-link').html(l10n['BtnDownload']);
+        $('.btn-buy-link').html(l10n['BtnBuy']);
+        
         // 更新Screents
         htmlContent = template('screen-content-tmpl', {list:l10n["Screens"]});
         $('.app-screens').html(htmlContent);
