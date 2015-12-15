@@ -16,12 +16,12 @@
     c$.loadL10n = function(){
         try{
            //加载默认语言
-            $.getJSON("l10n/en-US.json", function(data){
+            $.getJSON("l10n/en-us.json", function(data){
                 c$.l10n = data;
                 c$.MC_l10n.fire();
 
                //根据浏览器的语言标识进行加载
-                $.getJSON("l10n/" + navigator.language + ".json", function (data) {
+                $.getJSON("l10n/" + navigator.language.toLowerCase() + ".json", function (data) {
                     c$.l10n = data;
                     c$.MC_l10n.fire();
                 });
