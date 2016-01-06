@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "বাড়ি",
+        "Home": "হোমপেজে",
         "Feature": "বৈশিষ্ট্য",
         "Documents": "কাগজপত্র",
         "ReleaseNotes": "অব্যাহতি পত্র",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "সংস্করণ",
+        "labelVersion": "সংস্করণ সংখ্যা",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "কিছু বাগ সংশোধন করা হয়েছে."
                     },
                     {
-                        "platform": "উইন্ডোজ",
+                        "platform": "{{Windows}}",
                         "content": "প্রথম প্রকাশ."
                     },
                     {
-                        "platform": "লিনাক্স",
+                        "platform": "{{Linux}}",
                         "content": "প্রথম প্রকাশ."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "সংস্করণ",
+        "labelVersion": "সংস্করণ সংখ্যা",
         "list": [
             {
                 "version": "{{2.4}}",

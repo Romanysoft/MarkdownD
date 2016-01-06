@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "У дома",
+        "Home": "HomePage",
         "Feature": "Особеност",
         "Documents": "Документи",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Версия",
+        "labelVersion": "Version Number",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Фиксирани някои бъгове."
                     },
                     {
-                        "platform": "Windows",
+                        "platform": "{{Windows}}",
                         "content": "Първо освободен."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Първо освободен."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Версия",
+        "labelVersion": "Version Number",
         "list": [
             {
                 "version": "{{2.4}}",

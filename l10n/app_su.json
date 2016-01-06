@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Imah",
+        "Home": "HomePage",
         "Feature": "Feature",
         "Documents": "Dokumén",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Vérsi",
+        "labelVersion": "Vérsi Number",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Maneuh sababaraha bug."
                     },
                     {
-                        "platform": "Windows",
+                        "platform": "{{Windows}}",
                         "content": "Kahiji dileupaskeun."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Kahiji dileupaskeun."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Vérsi",
+        "labelVersion": "Vérsi Number",
         "list": [
             {
                 "version": "{{2.4}}",

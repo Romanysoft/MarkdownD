@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "ទំព័រ​ដើម",
+        "Home": "គេ​ហ​ទំព័រ",
         "Feature": "លក្ខណៈ​ពិសេស",
         "Documents": "ឯកសារ",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "កំណែ",
+        "labelVersion": "លេខ​កំណែ",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "ជួសជុល​កំហុស​មួយ​ចំនួន​។"
                     },
                     {
-                        "platform": "ប្រព័ន្ធ​ប្រតិបត្តិការ Windows",
+                        "platform": "{{Windows}}",
                         "content": "ដែល​បាន​ចេញ​ផ្សាយ​ជា​លើក​ដំបូង​។"
                     },
                     {
-                        "platform": "លីនុច",
+                        "platform": "{{Linux}}",
                         "content": "ដែល​បាន​ចេញ​ផ្សាយ​ជា​លើក​ដំបូង​។"
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "កំណែ",
+        "labelVersion": "លេខ​កំណែ",
         "list": [
             {
                 "version": "{{2.4}}",

@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "خانه",
+        "Home": "صفحه اصلی وب سایت",
         "Feature": "خصوصیات",
         "Documents": "اسناد",
         "ReleaseNotes": "به ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "نسخه",
+        "labelVersion": "شماره نسخه",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "ثابت برخی از اشکالات."
                     },
                     {
-                        "platform": "پنجره ها",
+                        "platform": "{{Windows}}",
                         "content": "برای اولین بار منتشر شد."
                     },
                     {
-                        "platform": "لینوکس",
+                        "platform": "{{Linux}}",
                         "content": "برای اولین بار منتشر شد."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "نسخه",
+        "labelVersion": "شماره نسخه",
         "list": [
             {
                 "version": "{{2.4}}",

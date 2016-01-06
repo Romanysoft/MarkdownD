@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Huis",
+        "Home": "HomePage",
         "Feature": "Funksie",
         "Documents": "Dokumente",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Weergawe",
+        "labelVersion": "Weergawe nommer",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Vaste n paar foute."
                     },
                     {
-                        "platform": "Windows",
+                        "platform": "{{Windows}}",
                         "content": "Eerste vrygestel."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Eerste vrygestel."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Weergawe",
+        "labelVersion": "Weergawe nommer",
         "list": [
             {
                 "version": "{{2.4}}",

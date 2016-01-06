@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Главная",
+        "Home": "Главная страница",
         "Feature": "Особенность",
         "Documents": "Документы",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Версия",
+        "labelVersion": "Номер версии",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Исправлены некоторые ошибки."
                     },
                     {
-                        "platform": "Windows",
+                        "platform": "{{Windows}}",
                         "content": "Первый релиз."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Первый релиз."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Версия",
+        "labelVersion": "Номер версии",
         "list": [
             {
                 "version": "{{2.4}}",

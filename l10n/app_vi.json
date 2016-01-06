@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Nhà",
+        "Home": "Trang chủ",
         "Feature": "Tính năng",
         "Documents": "Các tài liệu",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Version",
+        "labelVersion": "Phiên bản Số",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Sửa một số lỗi."
                     },
                     {
-                        "platform": "Cửa sổ",
+                        "platform": "{{Windows}}",
                         "content": "Đầu tiên phát hành."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Đầu tiên phát hành."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Version",
+        "labelVersion": "Phiên bản Số",
         "list": [
             {
                 "version": "{{2.4}}",

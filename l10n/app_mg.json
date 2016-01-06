@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Home",
+        "Home": "Pejy fandraisana",
         "Feature": "Endri-javatra",
         "Documents": "Documents",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Version",
+        "labelVersion": "Version Number",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Raikitra bibikely sasany."
                     },
                     {
-                        "platform": "Windows",
+                        "platform": "{{Windows}}",
                         "content": "Navoaka voalohany."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Navoaka voalohany."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Version",
+        "labelVersion": "Version Number",
         "list": [
             {
                 "version": "{{2.4}}",

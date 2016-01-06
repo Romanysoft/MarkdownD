@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "집",
+        "Home": "홈페이지",
         "Feature": "특색",
         "Documents": "서류",
         "ReleaseNotes": "릴리즈 노트",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "번역",
+        "labelVersion": "버전 번호",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "몇 가지 버그가 수정되었습니다."
                     },
                     {
-                        "platform": "윈도우",
+                        "platform": "{{Windows}}",
                         "content": "첫 번째 발표했다."
                     },
                     {
-                        "platform": "리눅스",
+                        "platform": "{{Linux}}",
                         "content": "첫 번째 발표했다."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "번역",
+        "labelVersion": "버전 번호",
         "list": [
             {
                 "version": "{{2.4}}",

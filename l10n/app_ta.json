@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "முகப்பு",
+        "Home": "முகப்புப்பக்கம்",
         "Feature": "வசதிகள்",
         "Documents": "ஆவணங்கள்",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "பதிப்பு",
+        "labelVersion": "பதிப்பு எண்",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "சில பிழைகள் சரி."
                     },
                     {
-                        "platform": "விண்டோஸ்",
+                        "platform": "{{Windows}}",
                         "content": "முதலில் வெளிவந்தது."
                     },
                     {
-                        "platform": "லினக்ஸ்",
+                        "platform": "{{Linux}}",
                         "content": "முதலில் வெளிவந்தது."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "பதிப்பு",
+        "labelVersion": "பதிப்பு எண்",
         "list": [
             {
                 "version": "{{2.4}}",

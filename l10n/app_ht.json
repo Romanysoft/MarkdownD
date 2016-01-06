@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Kay",
+        "Home": "HomePage",
         "Feature": "Feature",
         "Documents": "Dokiman",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Version",
+        "labelVersion": "Version Nimewo",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Fiks kèk pinèz."
                     },
                     {
-                        "platform": "Windows",
+                        "platform": "{{Windows}}",
                         "content": "Premye lage."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Premye lage."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Version",
+        "labelVersion": "Version Nimewo",
         "list": [
             {
                 "version": "{{2.4}}",

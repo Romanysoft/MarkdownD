@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Inici",
+        "Home": "Pàgina d'Inici",
         "Feature": "Característica",
         "Documents": "Documents",
         "ReleaseNotes": "Releasenotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Versió",
+        "labelVersion": "Número de versió",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "S'han solucionat alguns errors."
                     },
                     {
-                        "platform": "Finestres",
+                        "platform": "{{Windows}}",
                         "content": "Llançat per primera vegada."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Llançat per primera vegada."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Versió",
+        "labelVersion": "Número de versió",
         "list": [
             {
                 "version": "{{2.4}}",

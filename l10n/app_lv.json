@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Mājas",
+        "Home": "Mājaslapa",
         "Feature": "Iezīme",
         "Documents": "Dokumenti",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Versija",
+        "labelVersion": "Versijas numurs",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Fiksētie daži bugs."
                     },
                     {
-                        "platform": "Windows",
+                        "platform": "{{Windows}}",
                         "content": "Pirmais atbrīvots."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Pirmais atbrīvots."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Versija",
+        "labelVersion": "Versijas numurs",
         "list": [
             {
                 "version": "{{2.4}}",

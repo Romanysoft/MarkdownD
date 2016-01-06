@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Home",
+        "Home": "Homepage",
         "Feature": "Karatteristika",
         "Documents": "Dokumenti",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Verżjoni",
+        "labelVersion": "Verżjoni Numru",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Fissi xi bugs."
                     },
                     {
-                        "platform": "Windows",
+                        "platform": "{{Windows}}",
                         "content": "Ewwel rilaxxati."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Ewwel rilaxxati."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Verżjoni",
+        "labelVersion": "Verżjoni Numru",
         "list": [
             {
                 "version": "{{2.4}}",

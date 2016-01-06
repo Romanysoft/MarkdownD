@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Dom",
+        "Home": "Strona WWW",
         "Feature": "Cecha",
         "Documents": "Dokumenty",
         "ReleaseNotes": "Informacje o wydaniu",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Wersja",
+        "labelVersion": "Numer wersji",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Poprawiono kilka błędów."
                     },
                     {
-                        "platform": "Okna",
+                        "platform": "{{Windows}}",
                         "content": "Po raz pierwszy wydany."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Po raz pierwszy wydany."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Wersja",
+        "labelVersion": "Numer wersji",
         "list": [
             {
                 "version": "{{2.4}}",

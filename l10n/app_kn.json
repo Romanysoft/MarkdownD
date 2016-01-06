@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "ಆವೃತ್ತಿ",
+        "labelVersion": "ಆವೃತ್ತಿ ಸಂಖ್ಯೆ",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "ಕೆಲವು ದೋಷಗಳನ್ನು ಪರಿಹರಿಸಲಾಗಿದೆ."
                     },
                     {
-                        "platform": "ವಿಂಡೋಸ್",
+                        "platform": "{{Windows}}",
                         "content": "ಮೊದಲ ಬಿಡುಗಡೆ."
                     },
                     {
-                        "platform": "ಲಿನಕ್ಸ್",
+                        "platform": "{{Linux}}",
                         "content": "ಮೊದಲ ಬಿಡುಗಡೆ."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "ಆವೃತ್ತಿ",
+        "labelVersion": "ಆವೃತ್ತಿ ಸಂಖ್ಯೆ",
         "list": [
             {
                 "version": "{{2.4}}",

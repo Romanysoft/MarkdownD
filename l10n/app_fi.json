@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Kotiin",
+        "Home": "HomePage",
         "Feature": "Ominaisuus",
         "Documents": "Asiakirjat",
         "ReleaseNotes": "Julkaisutiedot",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Versio",
+        "labelVersion": "Versionumero",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Korjatuksi."
                     },
                     {
-                        "platform": "Windows",
+                        "platform": "{{Windows}}",
                         "content": "Ensimmäinen julkaistiin."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Ensimmäinen julkaistiin."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Versio",
+        "labelVersion": "Versionumero",
         "list": [
             {
                 "version": "{{2.4}}",

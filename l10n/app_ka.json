@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "მთავარი",
+        "Home": "მთავარი გვერდი",
         "Feature": "მხატვრული",
         "Documents": "დოკუმენტები",
         "ReleaseNotes": "გამოშვების შენიშვნები",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "ვერსია",
+        "labelVersion": "ვერსია ნომერი",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "ფიქსირებული რამდენიმე შეცდომებს."
                     },
                     {
-                        "platform": "Windows",
+                        "platform": "{{Windows}}",
                         "content": "პირველი გამოვიდა."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "პირველი გამოვიდა."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "ვერსია",
+        "labelVersion": "ვერსია ნომერი",
         "list": [
             {
                 "version": "{{2.4}}",

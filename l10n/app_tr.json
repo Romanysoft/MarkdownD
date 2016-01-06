@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Ev",
+        "Home": "Ana",
         "Feature": "Özellik",
         "Documents": "Belgeler",
         "ReleaseNotes": "Sürüm notları",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Sürüm",
+        "labelVersion": "Sürüm Numarası",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Bazı hatalar düzeltildi."
                     },
                     {
-                        "platform": ", Windows",
+                        "platform": "{{Windows}}",
                         "content": "İlk yayımladı."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "İlk yayımladı."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Sürüm",
+        "labelVersion": "Sürüm Numarası",
         "list": [
             {
                 "version": "{{2.4}}",

@@ -1,8 +1,8 @@
 {
     "TopBar": {
-        "Home": "家",
-        "Feature": "特征",
-        "Documents": "文件",
+        "Home": "首页",
+        "Feature": "产品特性",
+        "Documents": "文档",
         "ReleaseNotes": "发行说明",
         "Downloads": "免费试用",
         "Buy": "购买",
@@ -12,9 +12,9 @@
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "非常有用的应用程序。全功能的编辑器。在Windows，Linux，MacOSX的。",
+        "ProjectTagline": "非常有用的应用程序。全功能的编辑器。适用于Windows，Linux，MacOSX操作系统。",
         "BtnDownload": "免费试用",
-        "BtnBuy": "采购",
+        "BtnBuy": "购买",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -28,7 +28,7 @@
             "list": [
                 "支持导出为PDF文件",
                 "支持打印文档",
-                "支持标准的降价/ CommonMark和GFM（GitHub的香料降价）",
+                "支持标准的降价/ CommonMark和GFM（GitHub的Markdown）",
                 "实时预览支持",
                 "支持格式的文本，代码块，表格，代码折叠，搜索和替换，多国语言，HTML实体代码语法高亮",
                 "支持TOC（目录），表情符号的表达，任务列表（任务地图），@链接（链接）",
@@ -39,7 +39,7 @@
             ]
         },
         "UserReviews": {
-            "SectionName": "奇妙的东西的人是如何评价MarkdownD",
+            "SectionName": "如何评价MarkdownD",
             "list": [
                 {
                     "reviewContent": "MarkdownD是惊人的。简单。清洁。完善。干得漂亮。",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "版",
+        "labelVersion": "版本号",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "修正了一些错误。"
                     },
                     {
-                        "platform": "视窗",
+                        "platform": "{{Windows}}",
                         "content": "首次发布。"
                     },
                     {
-                        "platform": "Linux的",
+                        "platform": "{{Linux}}",
                         "content": "首次发布。"
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "版",
+        "labelVersion": "版本号",
         "list": [
             {
                 "version": "{{2.4}}",

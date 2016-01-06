@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Laman",
+        "Home": "HomePage",
         "Feature": "Ciri",
         "Documents": "Dokumen",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Versi",
+        "labelVersion": "Nombor Versi",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Tetap beberapa bug."
                     },
                     {
-                        "platform": "Windows",
+                        "platform": "{{Windows}}",
                         "content": "Pertama dikeluarkan."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Pertama dikeluarkan."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Versi",
+        "labelVersion": "Nombor Versi",
         "list": [
             {
                 "version": "{{2.4}}",

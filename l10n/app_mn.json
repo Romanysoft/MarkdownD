@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Хувилбар",
+        "labelVersion": "Хувилбар тоо",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Зарим алдааг нь залруулсан."
                     },
                     {
-                        "platform": "Windows-",
+                        "platform": "{{Windows}}",
                         "content": "Эхний гаргасан."
                     },
                     {
-                        "platform": "Линукс",
+                        "platform": "{{Linux}}",
                         "content": "Эхний гаргасан."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Хувилбар",
+        "labelVersion": "Хувилбар тоо",
         "list": [
             {
                 "version": "{{2.4}}",

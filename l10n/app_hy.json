@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Տուն",
+        "Home": "Հիմնական էջ",
         "Feature": "Առանձնահատկություն",
         "Documents": "Documents",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Տարբերակ",
+        "labelVersion": "Ծանոթություններ Միավորների",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Ֆիքսված որոշ bugs."
                     },
                     {
-                        "platform": "Windows",
+                        "platform": "{{Windows}}",
                         "content": "Առաջին ազատ է արձակվել."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Առաջին ազատ է արձակվել."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Տարբերակ",
+        "labelVersion": "Ծանոթություններ Միավորների",
         "list": [
             {
                 "version": "{{2.4}}",

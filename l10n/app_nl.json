@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Huis",
+        "Home": "Startpagina",
         "Feature": "Feature",
         "Documents": "Documenten",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Versie",
+        "labelVersion": "Versie Aantal",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Vast een aantal bugs."
                     },
                     {
-                        "platform": "Windows",
+                        "platform": "{{Windows}}",
                         "content": "Voor het eerst uitgebracht."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Voor het eerst uitgebracht."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Versie",
+        "labelVersion": "Versie Aantal",
         "list": [
             {
                 "version": "{{2.4}}",

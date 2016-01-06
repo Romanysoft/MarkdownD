@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Home",
+        "Home": "Tsamba lofikira",
         "Feature": "Mbali",
         "Documents": "Zikalata",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Version",
+        "labelVersion": "Version Number",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Anakakonza china nsikidzi."
                     },
                     {
-                        "platform": "Mawindo",
+                        "platform": "{{Windows}}",
                         "content": "Choyamba anamasulidwa."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Choyamba anamasulidwa."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Version",
+        "labelVersion": "Version Number",
         "list": [
             {
                 "version": "{{2.4}}",

@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Hem",
+        "Home": "Hemsida",
         "Feature": "Särdrag",
         "Documents": "Dokument",
         "ReleaseNotes": "Releasenotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Version",
+        "labelVersion": "Versionsnummer",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Fast en del buggar."
                     },
                     {
-                        "platform": "Windows",
+                        "platform": "{{Windows}}",
                         "content": "Först släpptes."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Först släpptes."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Version",
+        "labelVersion": "Versionsnummer",
         "list": [
             {
                 "version": "{{2.4}}",

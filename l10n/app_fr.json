@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Accueil",
+        "Home": "HomePage",
         "Feature": "Fonctionnalité",
         "Documents": "Documents",
         "ReleaseNotes": "Notes de version",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Version",
+        "labelVersion": "Numéro de version",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Correction de quelques bugs."
                     },
                     {
-                        "platform": "Fenêtres",
+                        "platform": "{{Windows}}",
                         "content": "D'abord publié."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "D'abord publié."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Version",
+        "labelVersion": "Numéro de version",
         "list": [
             {
                 "version": "{{2.4}}",

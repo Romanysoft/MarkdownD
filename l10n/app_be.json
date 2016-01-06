@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Дадому",
+        "Home": "Галоўная старонка",
         "Feature": "Асаблівасць",
         "Documents": "Дакументы",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Версія",
+        "labelVersion": "Нумар версіі",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Выпраўленыя некаторыя памылкі."
                     },
                     {
-                        "platform": "Windows",
+                        "platform": "{{Windows}}",
                         "content": "Першы рэліз."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Першы рэліз."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Версія",
+        "labelVersion": "Нумар версіі",
         "list": [
             {
                 "version": "{{2.4}}",

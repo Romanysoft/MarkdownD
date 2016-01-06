@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Casa",
+        "Home": "Homepage",
         "Feature": "Característica",
         "Documents": "Documentos",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Versión",
+        "labelVersion": "Número de versión",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Corrixido algúns erros."
                     },
                     {
-                        "platform": "Windows",
+                        "platform": "{{Windows}}",
                         "content": "Lanzado por primeira vez."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Lanzado por primeira vez."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Versión",
+        "labelVersion": "Número de versión",
         "list": [
             {
                 "version": "{{2.4}}",

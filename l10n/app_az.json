@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Ev",
+        "Home": "Əsas",
         "Feature": "Xüsusiyyət",
         "Documents": "Sənədlər",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Variant",
+        "labelVersion": "Version sayı",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Bəzi hataları Sabit."
                     },
                     {
-                        "platform": "Windows",
+                        "platform": "{{Windows}}",
                         "content": "Ilk azad."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Ilk azad."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Variant",
+        "labelVersion": "Version sayı",
         "list": [
             {
                 "version": "{{2.4}}",

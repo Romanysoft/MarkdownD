@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Hasiera",
+        "Home": "HomePage",
         "Feature": "Ezaugarri",
         "Documents": "Dokumentuak",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Bertsioa",
+        "labelVersion": "Bertsio zenbakia",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Zenbait akats konponduta."
                     },
                     {
-                        "platform": "Windows",
+                        "platform": "{{Windows}}",
                         "content": "Lehenengoa kaleratu."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Lehenengoa kaleratu."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Bertsioa",
+        "labelVersion": "Bertsio zenbakia",
         "list": [
             {
                 "version": "{{2.4}}",

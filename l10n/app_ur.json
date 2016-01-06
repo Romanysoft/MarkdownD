@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "گھر",
+        "Home": "ہوم پیج",
         "Feature": "نمایاں کریں",
         "Documents": "دستاویزات",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "ورژن",
+        "labelVersion": "ورژن نمبر",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "کچھ کیڑے مقرر."
                     },
                     {
-                        "platform": "ونڈوز",
+                        "platform": "{{Windows}}",
                         "content": "سب سے پہلے جاری."
                     },
                     {
-                        "platform": "لینکس",
+                        "platform": "{{Linux}}",
                         "content": "سب سے پہلے جاری."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "ورژن",
+        "labelVersion": "ورژن نمبر",
         "list": [
             {
                 "version": "{{2.4}}",

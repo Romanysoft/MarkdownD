@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "घर",
+        "Home": "मुखपृष्ठ",
         "Feature": "फ़ीचर",
         "Documents": "दस्तावेज़",
         "ReleaseNotes": "रिलीज नोट्स",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "संस्करण",
+        "labelVersion": "संस्करण संख्या",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "कुछ कीड़े फिक्स्ड।"
                     },
                     {
-                        "platform": "विंडोज",
+                        "platform": "{{Windows}}",
                         "content": "पहली बार जारी की।"
                     },
                     {
-                        "platform": "लिनक्स",
+                        "platform": "{{Linux}}",
                         "content": "पहली बार जारी की।"
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "संस्करण",
+        "labelVersion": "संस्करण संख्या",
         "list": [
             {
                 "version": "{{2.4}}",

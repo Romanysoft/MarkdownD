@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "บ้าน",
+        "Home": "โฮมเพจ",
         "Feature": "คุณสมบัติ",
         "Documents": "เอกสาร",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "รุ่น",
+        "labelVersion": "จำนวนรุ่น",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "แก้ไขข้อบกพร่องบางอย่าง"
                     },
                     {
-                        "platform": "หน้าต่าง",
+                        "platform": "{{Windows}}",
                         "content": "เปิดตัวครั้งแรก"
                     },
                     {
-                        "platform": "ลินุกซ์",
+                        "platform": "{{Linux}}",
                         "content": "เปิดตัวครั้งแรก"
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "รุ่น",
+        "labelVersion": "จำนวนรุ่น",
         "list": [
             {
                 "version": "{{2.4}}",

@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "בַּיִת",
+        "Home": "דף הבית",
         "Feature": "תכונה",
         "Documents": "מסמכים",
         "ReleaseNotes": "מכתבי שחרור",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "גִרְסָה",
+        "labelVersion": "מספר הגרסה",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "תוקן כמה באגים."
                     },
                     {
-                        "platform": "Windows",
+                        "platform": "{{Windows}}",
                         "content": "ראשון שפורסם."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "ראשון שפורסם."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "גִרְסָה",
+        "labelVersion": "מספר הגרסה",
         "list": [
             {
                 "version": "{{2.4}}",

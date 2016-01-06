@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Үй",
+        "Home": "HomePage",
         "Feature": "Ерекшелік",
         "Documents": "Құжаттар",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Нұсқа",
+        "labelVersion": "Version саны",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Кейбір қателер."
                     },
                     {
-                        "platform": "Windows",
+                        "platform": "{{Windows}}",
                         "content": "Бірінші шығарды."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Бірінші шығарды."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Нұсқа",
+        "labelVersion": "Version саны",
         "list": [
             {
                 "version": "{{2.4}}",

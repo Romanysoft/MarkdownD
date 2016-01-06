@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Pagrindinis",
+        "Home": "Titulinis",
         "Feature": "Žanras",
         "Documents": "Dokumentai",
         "ReleaseNotes": "Releasenotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Variantas",
+        "labelVersion": "Versija skaičius",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Fiksuoto kai kurių klaidų."
                     },
                     {
-                        "platform": "Langai",
+                        "platform": "{{Windows}}",
                         "content": "Pirma paleistas."
                     },
                     {
-                        "platform": "\"Linux\"",
+                        "platform": "{{Linux}}",
                         "content": "Pirma paleistas."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Variantas",
+        "labelVersion": "Versija skaičius",
         "list": [
             {
                 "version": "{{2.4}}",

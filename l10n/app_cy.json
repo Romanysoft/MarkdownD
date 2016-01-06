@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Cartref",
+        "Home": "HomePage",
         "Feature": "Nodwedd",
         "Documents": "Dogfennau",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Fersiwn",
+        "labelVersion": "Rhif Fersiwn",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Sefydlog rhai chwilod."
                     },
                     {
-                        "platform": "Windows",
+                        "platform": "{{Windows}}",
                         "content": "A gyhoeddwyd gyntaf."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "A gyhoeddwyd gyntaf."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Fersiwn",
+        "labelVersion": "Rhif Fersiwn",
         "list": [
             {
                 "version": "{{2.4}}",

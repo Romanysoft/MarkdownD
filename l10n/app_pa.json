@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "ਮੁੱਖ",
+        "Home": "ਮੁੱਖ ਸਫ਼ਾ",
         "Feature": "ਵਿਸ਼ੇਸ਼ਤਾ",
         "Documents": "ਦਸਤਾਵੇਜ਼",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "ਵਰਜਨ",
+        "labelVersion": "ਵਰਜਨ ਨੰਬਰ",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "ਕੁਝ ਬੱਗ ਸਥਿਰ."
                     },
                     {
-                        "platform": "Windows ਨੂੰ",
+                        "platform": "{{Windows}}",
                         "content": "ਪਹਿਲੀ ਜਾਰੀ ਕੀਤੀ."
                     },
                     {
-                        "platform": "ਲੀਨਕਸ",
+                        "platform": "{{Linux}}",
                         "content": "ਪਹਿਲੀ ਜਾਰੀ ਕੀਤੀ."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "ਵਰਜਨ",
+        "labelVersion": "ਵਰਜਨ ਨੰਬਰ",
         "list": [
             {
                 "version": "{{2.4}}",

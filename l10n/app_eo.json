@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Hejmo",
+        "Home": "CxefaPagxo",
         "Feature": "Trajto",
         "Documents": "Dokumentoj",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Versio",
+        "labelVersion": "Versio Nombro",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Korektitaj kelkaj cimoj."
                     },
                     {
-                        "platform": "Vindozo",
+                        "platform": "{{Windows}}",
                         "content": "Unue liberigita."
                     },
                     {
-                        "platform": "Linukso",
+                        "platform": "{{Linux}}",
                         "content": "Unue liberigita."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Versio",
+        "labelVersion": "Versio Nombro",
         "list": [
             {
                 "version": "{{2.4}}",

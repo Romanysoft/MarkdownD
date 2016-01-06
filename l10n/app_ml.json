@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "ഹോം",
+        "Home": "ഹോംപേജ്",
         "Feature": "ഫീച്ചർ",
         "Documents": "പ്രമാണങ്ങൾ",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "പതിപ്പ്",
+        "labelVersion": "പതിപ്പ് നമ്പർ",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "ചില ബഗുകൾ പരിഹരിച്ചിരിക്കുന്നു."
                     },
                     {
-                        "platform": "വിൻഡോസ്",
+                        "platform": "{{Windows}}",
                         "content": "ആദ്യം പുറത്തിറക്കിയ."
                     },
                     {
-                        "platform": "ലിനക്സ്",
+                        "platform": "{{Linux}}",
                         "content": "ആദ്യം പുറത്തിറക്കിയ."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "പതിപ്പ്",
+        "labelVersion": "പതിപ്പ് നമ്പർ",
         "list": [
             {
                 "version": "{{2.4}}",

@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Baile",
+        "Home": "Leathanach Baile",
         "Feature": "Gné",
         "Documents": "Doiciméid",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Leagan",
+        "labelVersion": "Leagan Uimhir",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Seasta roinnt bugs."
                     },
                     {
-                        "platform": "Windows",
+                        "platform": "{{Windows}}",
                         "content": "An Chéad scaoileadh."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "An Chéad scaoileadh."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Leagan",
+        "labelVersion": "Leagan Uimhir",
         "list": [
             {
                 "version": "{{2.4}}",

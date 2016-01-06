@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Хона",
+        "Home": "Сафҳаи",
         "Feature": "Хусусияти",
         "Documents": "Ҳуҷҷатҳои",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Нусхаи",
+        "labelVersion": "Рақами нусхаи",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Собит баъзе хатоҳои."
                     },
                     {
-                        "platform": "Windows",
+                        "platform": "{{Windows}}",
                         "content": "Аввал озод карда мешаванд."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Аввал озод карда мешаванд."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Нусхаи",
+        "labelVersion": "Рақами нусхаи",
         "list": [
             {
                 "version": "{{2.4}}",

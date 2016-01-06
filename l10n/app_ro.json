@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Acasă",
+        "Home": "Pagina de start",
         "Feature": "Trăsătură",
         "Documents": "Documente",
         "ReleaseNotes": "Note de lansare",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Versiune",
+        "labelVersion": "Versiunea Numărul",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Fixed unele bug-uri."
                     },
                     {
-                        "platform": "Ferestre",
+                        "platform": "{{Windows}}",
                         "content": "Primul lansat."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Primul lansat."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Versiune",
+        "labelVersion": "Versiunea Numărul",
         "list": [
             {
                 "version": "{{2.4}}",

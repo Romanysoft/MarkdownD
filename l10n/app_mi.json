@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Kāinga",
+        "Home": "WhārangiKāinga",
         "Feature": "Āhuahira",
         "Documents": "Tuhinga",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Putanga",
+        "labelVersion": "Tau Putanga",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Pūmau ētahi."
                     },
                     {
-                        "platform": "Windows",
+                        "platform": "{{Windows}}",
                         "content": "Tukua Tuatahi."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Tukua Tuatahi."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Putanga",
+        "labelVersion": "Tau Putanga",
         "list": [
             {
                 "version": "{{2.4}}",

@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Nyumbani",
+        "Home": "Ukurasa wa Nyumbani",
         "Feature": "Kipengele",
         "Documents": "Hati",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Toleo la",
+        "labelVersion": "Toleo la Idadi",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Fasta baadhi ya mende."
                     },
                     {
-                        "platform": "Madirisha",
+                        "platform": "{{Windows}}",
                         "content": "Kwanza iliyotolewa."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Kwanza iliyotolewa."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Toleo la",
+        "labelVersion": "Toleo la Idadi",
         "list": [
             {
                 "version": "{{2.4}}",

@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "الصفحة الرئيسية",
+        "Home": "صفحته",
         "Feature": "خاصية",
         "Documents": "الوثائق",
         "ReleaseNotes": "ملاحظات الإصدار",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "الإصدار",
+        "labelVersion": "رقم الإصدار",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "إصلاح بعض الخلل."
                     },
                     {
-                        "platform": "نوافذ",
+                        "platform": "{{Windows}}",
                         "content": "صدر لأول مرة."
                     },
                     {
-                        "platform": "لينكس",
+                        "platform": "{{Linux}}",
                         "content": "صدر لأول مرة."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "الإصدار",
+        "labelVersion": "رقم الإصدار",
         "list": [
             {
                 "version": "{{2.4}}",

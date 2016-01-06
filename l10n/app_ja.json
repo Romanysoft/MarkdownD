@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "ホーム",
+        "Home": "ホームページ",
         "Feature": "特徴",
         "Documents": "ドキュメント",
         "ReleaseNotes": "リリースノート",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "バージョン",
+        "labelVersion": "バージョン番号",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "いくつかのバグを修正しました。"
                     },
                     {
-                        "platform": "Windowsの",
+                        "platform": "{{Windows}}",
                         "content": "最初にリリース。"
                     },
                     {
-                        "platform": "リナックス",
+                        "platform": "{{Linux}}",
                         "content": "最初にリリース。"
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "バージョン",
+        "labelVersion": "バージョン番号",
         "list": [
             {
                 "version": "{{2.4}}",

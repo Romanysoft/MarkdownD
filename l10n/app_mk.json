@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Почетна",
+        "Home": "HomePage",
         "Feature": "Функција",
         "Documents": "Документи",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Верзија",
+        "labelVersion": "Верзија број",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Фиксна некои грешки."
                     },
                     {
-                        "platform": "Прозорци",
+                        "platform": "{{Windows}}",
                         "content": "Прв пат е објавен."
                     },
                     {
-                        "platform": "Линукс",
+                        "platform": "{{Linux}}",
                         "content": "Прв пат е објавен."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Верзија",
+        "labelVersion": "Верзија број",
         "list": [
             {
                 "version": "{{2.4}}",

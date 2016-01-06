@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Hjem",
+        "Home": "Homepage",
         "Feature": "Trekk",
         "Documents": "Dokumenter",
         "ReleaseNotes": "Versjonsmerknadene",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Versjon",
+        "labelVersion": "Versjonsnummer",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Fikset noen bugs."
                     },
                     {
-                        "platform": "Windows",
+                        "platform": "{{Windows}}",
                         "content": "Først utgitt."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Først utgitt."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Versjon",
+        "labelVersion": "Versjonsnummer",
         "list": [
             {
                 "version": "{{2.4}}",

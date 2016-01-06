@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Ngarep",
+        "Home": "Homepage",
         "Feature": "Fitur",
         "Documents": "Dokumen",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Versi",
+        "labelVersion": "Versi Panggil",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Telpon sawetara kewan omo."
                     },
                     {
-                        "platform": "Windows",
+                        "platform": "{{Windows}}",
                         "content": "Pisanan dirilis."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Pisanan dirilis."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Versi",
+        "labelVersion": "Versi Panggil",
         "list": [
             {
                 "version": "{{2.4}}",

@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "שטוב",
+        "Home": "האָמעפּאַגע",
         "Feature": "שטריך",
         "Documents": "דאָקומענץ",
         "ReleaseNotes": "רעלעאַסענאָטעס",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "ווערסיע",
+        "labelVersion": "ווערסיע נומער",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "פאַרפעסטיקט עטלעכע באַגז."
                     },
                     {
-                        "platform": "פֿענצטער",
+                        "platform": "{{Windows}}",
                         "content": "ערשטער רעלעאַסעד."
                     },
                     {
-                        "platform": "לינוקס",
+                        "platform": "{{Linux}}",
                         "content": "ערשטער רעלעאַסעד."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "ווערסיע",
+        "labelVersion": "ווערסיע נומער",
         "list": [
             {
                 "version": "{{2.4}}",

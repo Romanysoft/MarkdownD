@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Σπίτι",
+        "Home": "Αρχική Σελίδα",
         "Feature": "Χαρακτηριστικό",
         "Documents": "Έγγραφα",
         "ReleaseNotes": "Σημειώσεις έκδοσης",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Έκδοση",
+        "labelVersion": "Αριθμός έκδοσης",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Διόρθωσε κάποια σφάλματα."
                     },
                     {
-                        "platform": "Παράθυρα",
+                        "platform": "{{Windows}}",
                         "content": "Κυκλοφόρησε για πρώτη φορά."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Κυκλοφόρησε για πρώτη φορά."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Έκδοση",
+        "labelVersion": "Αριθμός έκδοσης",
         "list": [
             {
                 "version": "{{2.4}}",

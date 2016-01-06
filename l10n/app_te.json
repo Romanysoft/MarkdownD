@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "హోం",
+        "Home": "హోమ్పేజీ",
         "Feature": "ఫీచర్",
         "Documents": "పత్రాలు",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "వెర్షన్",
+        "labelVersion": "వెర్షన్ నెంబర్",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "కొన్ని దోషాలను సరిచేయడానికి."
                     },
                     {
-                        "platform": "Windows",
+                        "platform": "{{Windows}}",
                         "content": "మొదటి విడుదల."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "మొదటి విడుదల."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "వెర్షన్",
+        "labelVersion": "వెర్షన్ నెంబర్",
         "list": [
             {
                 "version": "{{2.4}}",

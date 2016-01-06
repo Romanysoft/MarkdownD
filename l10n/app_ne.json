@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "घर",
+        "Home": "होमपेज",
         "Feature": "सुविधा",
         "Documents": "दस्तावेज",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "संस्करण",
+        "labelVersion": "संस्करण नम्बर",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "केही बग निश्चित।"
                     },
                     {
-                        "platform": "विन्डोज",
+                        "platform": "{{Windows}}",
                         "content": "पहिलो जारी।"
                     },
                     {
-                        "platform": "लिनक्स",
+                        "platform": "{{Linux}}",
                         "content": "पहिलो जारी।"
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "संस्करण",
+        "labelVersion": "संस्करण नम्बर",
         "list": [
             {
                 "version": "{{2.4}}",

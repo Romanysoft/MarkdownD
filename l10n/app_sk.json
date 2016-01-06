@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Domov",
+        "Home": "Úvodná stránka",
         "Feature": "Rys",
         "Documents": "Dokumenty",
         "ReleaseNotes": "Releasenotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Znenie",
+        "labelVersion": "Číslo verzie",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Opravené niektoré chyby."
                     },
                     {
-                        "platform": "Windows",
+                        "platform": "{{Windows}}",
                         "content": "Najprv povolený."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Najprv povolený."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Znenie",
+        "labelVersion": "Číslo verzie",
         "list": [
             {
                 "version": "{{2.4}}",

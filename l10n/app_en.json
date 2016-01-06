@@ -1,6 +1,6 @@
 {
   "TopBar": {
-    "Home": "Home",
+    "Home": "HomePage",
     "Feature": "Feature",
     "Documents": "Documents",
     "ReleaseNotes": "ReleaseNotes",
@@ -87,7 +87,7 @@
   },
     
     "ReleaseNotePage":{
-        "labelVersion":"Version ",
+        "labelVersion":"Version Number ",
         "list":[
             {
               "version":"{{2.4}}",
@@ -147,16 +147,16 @@
             {
                 "version":"{{2.2}}",
                 "list":[
-                    {"platform":"", "content":"Fixed some bugs."},
-                    {"platform":"Windows", "content":"First released."},
-                    {"platform":"Linux", "content":"First released."}
+                    {"platform":"{{MacOSX,Linux,Windows}}", "content":"Fixed some bugs."},
+                    {"platform":"{{Windows}}", "content":"First released."},
+                    {"platform":"{{Linux}}", "content":"First released."}
                 ]
             }
         ]
     },
     
     "VersionPage":{
-        "labelVersion":"Version",
+        "labelVersion":"Version Number",
         "list":[
           {
             "version":"{{2.4}}",

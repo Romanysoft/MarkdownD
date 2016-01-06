@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Otthon",
+        "Home": "HomePage",
         "Feature": "Funkció",
         "Documents": "Dokumentumok",
         "ReleaseNotes": "Kiadási megjegyzések",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Változat",
+        "labelVersion": "Verzió száma",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Javítva néhány hiba."
                     },
                     {
-                        "platform": "ablakok",
+                        "platform": "{{Windows}}",
                         "content": "Első megjelent."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Első megjelent."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Változat",
+        "labelVersion": "Verzió száma",
         "list": [
             {
                 "version": "{{2.4}}",

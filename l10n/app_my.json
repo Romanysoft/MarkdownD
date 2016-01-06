@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "မူလစာမျက်နှာ",
+        "Home": "homepage",
         "Feature": "Feature ကို",
         "Documents": "documents",
         "ReleaseNotes": "ReleaseNotes တွင်",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Version ကို",
+        "labelVersion": "version ကိုနံပါတ်",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "အချို့သော bug တွေ Fixed ။"
                     },
                     {
-                        "platform": "Windows ကို",
+                        "platform": "{{Windows}}",
                         "content": "ပထမဦးစွာထုတ်ပြန်ခဲ့သည်။"
                     },
                     {
-                        "platform": "Linux ကို",
+                        "platform": "{{Linux}}",
                         "content": "ပထမဦးစွာထုတ်ပြန်ခဲ့သည်။"
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Version ကို",
+        "labelVersion": "version ကိုနံပါတ်",
         "list": [
             {
                 "version": "{{2.4}}",

@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Version",
+        "labelVersion": "ຈໍາ​ນວນ Version",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "ມີ​ກໍາ​ນົດ​ແມງ​ໄມ້​ບາງ​."
                     },
                     {
-                        "platform": "Windows",
+                        "platform": "{{Windows}}",
                         "content": "ປ່ອຍ​ອອກ​ມາ​ເມື່ອ​ຄັ້ງ​ທໍາ​ອິດ​."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "ປ່ອຍ​ອອກ​ມາ​ເມື່ອ​ຄັ້ງ​ທໍາ​ອິດ​."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Version",
+        "labelVersion": "ຈໍາ​ນວນ Version",
         "list": [
             {
                 "version": "{{2.4}}",

@@ -1,6 +1,6 @@
 {
     "TopBar": {
-        "Home": "Dom",
+        "Home": "HomePage",
         "Feature": "Značajka",
         "Documents": "Dokumenti",
         "ReleaseNotes": "ReleaseNotes",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Verzija",
+        "labelVersion": "Verzija broj",
         "list": [
             {
                 "version": "{{2.4}}",
@@ -144,15 +144,15 @@
                 "version": "{{2.2}}",
                 "list": [
                     {
-                        "platform": "",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "Fiksni neke bugove."
                     },
                     {
-                        "platform": "Windows",
+                        "platform": "{{Windows}}",
                         "content": "Prva izdana."
                     },
                     {
-                        "platform": "Linux",
+                        "platform": "{{Linux}}",
                         "content": "Prva izdana."
                     }
                 ]
@@ -160,7 +160,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Verzija",
+        "labelVersion": "Verzija broj",
         "list": [
             {
                 "version": "{{2.4}}",
