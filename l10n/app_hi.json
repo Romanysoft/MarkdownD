@@ -12,7 +12,7 @@
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "बहुत ही उपयोगी अनुप्रयोग। पूर्ण विशेषताओं Markdown editor.For विंडोज, लिनक्स, MacOSX।",
+        "ProjectTagline": "बहुत ही उपयोगी अनुप्रयोग। संपादक पूर्ण विशेषताओं। विंडोज, लिनक्स, MacOSX।",
         "BtnDownload": "मुफ्त आज़माइश",
         "BtnBuy": "क्रय",
         "Screens": [
@@ -69,10 +69,10 @@
         "list": [
             {
                 "hrefID": "{{export_as_pdf}}",
-                "section": "निर्यात - पीडीएफ के लिए निर्यात Markdown पूर्वावलोकन दस्तावेज़",
+                "section": "{{Export - export markdown preview document to pdf}}",
                 "videos": [
                     {
-                        "description": "पीडीएफ फाइल करने के लिए निर्यात Markdown पूर्वावलोकन दस्तावेज़",
+                        "description": "{{Export markdown preview document to pdf file}}",
                         "url": "{{videos/docs/export_as_pdf.mp4}}"
                     }
                 ]
@@ -86,47 +86,47 @@
                 "version": "{{2.4}}",
                 "list": [
                     {
-                        "platform": "MacOSX, लिनक्स, विंडोज",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{katex upgrade to ver 0.5.1}}"
                     },
                     {
-                        "platform": "MacOSX, लिनक्स, विंडोज",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{intl upgrade to ver 1.0.0}}"
                     },
                     {
-                        "platform": "MacOSX, लिनक्स, विंडोज",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{Backbone upgrade to ver 1.2.3}}"
                     },
                     {
-                        "platform": "MacOSX, लिनक्स, विंडोज",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{editor.md upgrade to ver 1.5.0}}"
                     },
                     {
-                        "platform": "MacOSX, लिनक्स, विंडोज",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{bs and util upgrade}}"
                     },
                     {
-                        "platform": "MacOSX, लिनक्स, विंडोज",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[Bug] Fixed flowChart, sequenceDiagram plugin}}"
                     },
                     {
-                        "platform": "MacOSX, लिनक्स, विंडोज",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[Bug] NativeEngine process_task contions is '&&' run error.}}"
                     },
                     {
-                        "platform": "MacOSX, लिनक्स, विंडोज",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[Bug] Open the most recently used documents that use dock appliction icon, not normal to open.}}"
                     },
                     {
-                        "platform": "MacOSX, लिनक्स, विंडोज",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[Bug] NativeEngine process_task must run success, application can't launch.}}"
                     },
                     {
-                        "platform": "MacOSX, लिनक्स, विंडोज",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[New features] Support print}}"
                     },
                     {
-                        "platform": "MacOSX, लिनक्स, विंडोज",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[New features] Support export markdown preview document to pdf file.}}"
                     }
                 ]

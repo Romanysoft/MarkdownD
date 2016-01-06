@@ -12,7 +12,7 @@
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "זייער נוצלעך אַפּ. גאַנץ-ארויסגעשטעלטע מאַרקדאָוון עדיטאָר.פאָר ווינדאָוז, לינוקס, מאַקאָסקס.",
+        "ProjectTagline": "זייער נוצלעך אַפּ. גאַנץ-ארויסגעשטעלטע רעדאַקטאָר. ווינדאָוז, לינוקס, מאַקאָסקס.",
         "BtnDownload": "פּאָטער פּראָצעס",
         "BtnBuy": "קויפן",
         "Screens": [
@@ -69,10 +69,10 @@
         "list": [
             {
                 "hrefID": "{{export_as_pdf}}",
-                "section": "עקספּאָרט - עקספּאָרט מאַרקדאָוון פאָרויסיקע ווייַזונג דאָקומענט צו פּדף",
+                "section": "{{Export - export markdown preview document to pdf}}",
                 "videos": [
                     {
-                        "description": "עקספּאָרט מאַרקדאָוון פאָרויסיקע ווייַזונג דאָקומענט צו פּדף טעקע",
+                        "description": "{{Export markdown preview document to pdf file}}",
                         "url": "{{videos/docs/export_as_pdf.mp4}}"
                     }
                 ]
@@ -86,47 +86,47 @@
                 "version": "{{2.4}}",
                 "list": [
                     {
-                        "platform": "מאַקאָסקס, לינוקס, ווינדאָוז",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{katex upgrade to ver 0.5.1}}"
                     },
                     {
-                        "platform": "מאַקאָסקס, לינוקס, ווינדאָוז",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{intl upgrade to ver 1.0.0}}"
                     },
                     {
-                        "platform": "מאַקאָסקס, לינוקס, ווינדאָוז",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{Backbone upgrade to ver 1.2.3}}"
                     },
                     {
-                        "platform": "מאַקאָסקס, לינוקס, ווינדאָוז",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{editor.md upgrade to ver 1.5.0}}"
                     },
                     {
-                        "platform": "מאַקאָסקס, לינוקס, ווינדאָוז",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{bs and util upgrade}}"
                     },
                     {
-                        "platform": "מאַקאָסקס, לינוקס, ווינדאָוז",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[Bug] Fixed flowChart, sequenceDiagram plugin}}"
                     },
                     {
-                        "platform": "מאַקאָסקס, לינוקס, ווינדאָוז",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[Bug] NativeEngine process_task contions is '&&' run error.}}"
                     },
                     {
-                        "platform": "מאַקאָסקס, לינוקס, ווינדאָוז",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[Bug] Open the most recently used documents that use dock appliction icon, not normal to open.}}"
                     },
                     {
-                        "platform": "מאַקאָסקס, לינוקס, ווינדאָוז",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[Bug] NativeEngine process_task must run success, application can't launch.}}"
                     },
                     {
-                        "platform": "מאַקאָסקס, לינוקס, ווינדאָוז",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[New features] Support print}}"
                     },
                     {
-                        "platform": "מאַקאָסקס, לינוקס, ווינדאָוז",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[New features] Support export markdown preview document to pdf file.}}"
                     }
                 ]

@@ -12,7 +12,7 @@
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "نرم افزار بسیار مفید است. کامل شامل مدل های نشانه گذاری editor.For ویندوز، لینوکس، MacOSX برای.",
+        "ProjectTagline": "نرم افزار بسیار مفید است. ویرایشگر کامل شامل. ویندوز، لینوکس، MacOSX برای.",
         "BtnDownload": "امتحان رایگان",
         "BtnBuy": "خرید",
         "Screens": [
@@ -69,10 +69,10 @@
         "list": [
             {
                 "hrefID": "{{export_as_pdf}}",
-                "section": "صادرات - صادرات سند پیش نمایش مدل های نشانه گذاری به پی دی اف",
+                "section": "{{Export - export markdown preview document to pdf}}",
                 "videos": [
                     {
-                        "description": "مدل های نشانه گذاری صادرات سند پیش نمایش فایل پی دی اف",
+                        "description": "{{Export markdown preview document to pdf file}}",
                         "url": "{{videos/docs/export_as_pdf.mp4}}"
                     }
                 ]
@@ -86,47 +86,47 @@
                 "version": "{{2.4}}",
                 "list": [
                     {
-                        "platform": "MacOSX برای، لینوکس، ویندوز",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{katex upgrade to ver 0.5.1}}"
                     },
                     {
-                        "platform": "MacOSX برای، لینوکس، ویندوز",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{intl upgrade to ver 1.0.0}}"
                     },
                     {
-                        "platform": "MacOSX برای، لینوکس، ویندوز",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{Backbone upgrade to ver 1.2.3}}"
                     },
                     {
-                        "platform": "MacOSX برای، لینوکس، ویندوز",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{editor.md upgrade to ver 1.5.0}}"
                     },
                     {
-                        "platform": "MacOSX برای، لینوکس، ویندوز",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{bs and util upgrade}}"
                     },
                     {
-                        "platform": "MacOSX برای، لینوکس، ویندوز",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[Bug] Fixed flowChart, sequenceDiagram plugin}}"
                     },
                     {
-                        "platform": "MacOSX برای، لینوکس، ویندوز",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[Bug] NativeEngine process_task contions is '&&' run error.}}"
                     },
                     {
-                        "platform": "MacOSX برای، لینوکس، ویندوز",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[Bug] Open the most recently used documents that use dock appliction icon, not normal to open.}}"
                     },
                     {
-                        "platform": "MacOSX برای، لینوکس، ویندوز",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[Bug] NativeEngine process_task must run success, application can't launch.}}"
                     },
                     {
-                        "platform": "MacOSX برای، لینوکس، ویندوز",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[New features] Support print}}"
                     },
                     {
-                        "platform": "MacOSX برای، لینوکس، ویندوز",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[New features] Support export markdown preview document to pdf file.}}"
                     }
                 ]

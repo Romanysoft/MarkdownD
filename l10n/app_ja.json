@@ -12,7 +12,7 @@
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "非常に便利なアプリ。 Markdownをeditor.Forは、Windows、Linux、MacOSXのフル機能。",
+        "ProjectTagline": "非常に便利なアプリ。フル機能のエディタ。 Windows、Linux、MacOSXの。",
         "BtnDownload": "フリートライアル",
         "BtnBuy": "購入",
         "Screens": [
@@ -69,10 +69,10 @@
         "list": [
             {
                 "hrefID": "{{export_as_pdf}}",
-                "section": "エクスポート -  PDFにエクスポート値下げプレビュードキュメント",
+                "section": "{{Export - export markdown preview document to pdf}}",
                 "videos": [
                     {
-                        "description": "pdfファイルにエクスポート値下げプレビュードキュメント",
+                        "description": "{{Export markdown preview document to pdf file}}",
                         "url": "{{videos/docs/export_as_pdf.mp4}}"
                     }
                 ]
@@ -86,47 +86,47 @@
                 "version": "{{2.4}}",
                 "list": [
                     {
-                        "platform": "MacOSXは、Linuxでは、Windowsの",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{katex upgrade to ver 0.5.1}}"
                     },
                     {
-                        "platform": "MacOSXは、Linuxでは、Windowsの",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{intl upgrade to ver 1.0.0}}"
                     },
                     {
-                        "platform": "MacOSXは、Linuxでは、Windowsの",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{Backbone upgrade to ver 1.2.3}}"
                     },
                     {
-                        "platform": "MacOSXは、Linuxでは、Windowsの",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{editor.md upgrade to ver 1.5.0}}"
                     },
                     {
-                        "platform": "MacOSXは、Linuxでは、Windowsの",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{bs and util upgrade}}"
                     },
                     {
-                        "platform": "MacOSXは、Linuxでは、Windowsの",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[Bug] Fixed flowChart, sequenceDiagram plugin}}"
                     },
                     {
-                        "platform": "MacOSXは、Linuxでは、Windowsの",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[Bug] NativeEngine process_task contions is '&&' run error.}}"
                     },
                     {
-                        "platform": "MacOSXは、Linuxでは、Windowsの",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[Bug] Open the most recently used documents that use dock appliction icon, not normal to open.}}"
                     },
                     {
-                        "platform": "MacOSXは、Linuxでは、Windowsの",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[Bug] NativeEngine process_task must run success, application can't launch.}}"
                     },
                     {
-                        "platform": "MacOSXは、Linuxでは、Windowsの",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[New features] Support print}}"
                     },
                     {
-                        "platform": "MacOSXは、Linuxでは、Windowsの",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[New features] Support export markdown preview document to pdf file.}}"
                     }
                 ]

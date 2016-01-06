@@ -12,7 +12,7 @@
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "ಉಪಯುಕ್ತ ಅಪ್ಲಿಕೇಶನ್. ಪೂರ್ಣ ವೈಶಿಷ್ಟ್ಯಗೊಳಿಸಿದ Markdown editor.For ವಿಂಡೋಸ್, ಲಿನಕ್ಸ್, MacOSX.",
+        "ProjectTagline": "ಉಪಯುಕ್ತ ಅಪ್ಲಿಕೇಶನ್. ಸಂಪಾದಕ ಪೂರ್ಣ ವೈಶಿಷ್ಟ್ಯಗೊಳಿಸಿದ. ವಿಂಡೋಸ್, ಲಿನಕ್ಸ್, MacOSX.",
         "BtnDownload": "ಉಚಿತ ಪ್ರಯೋಗ",
         "BtnBuy": "ಖರೀದಿ",
         "Screens": [
@@ -69,10 +69,10 @@
         "list": [
             {
                 "hrefID": "{{export_as_pdf}}",
-                "section": "ರಫ್ತು - ಪಿಡಿಎಫ್ ರಫ್ತು Markdown ಮುನ್ನೋಟ ದಾಖಲೆ",
+                "section": "{{Export - export markdown preview document to pdf}}",
                 "videos": [
                     {
-                        "description": "ಪಿಡಿಎಫ್ ಫೈಲ್ ರಫ್ತು Markdown ಮುನ್ನೋಟ ದಾಖಲೆ",
+                        "description": "{{Export markdown preview document to pdf file}}",
                         "url": "{{videos/docs/export_as_pdf.mp4}}"
                     }
                 ]
@@ -86,47 +86,47 @@
                 "version": "{{2.4}}",
                 "list": [
                     {
-                        "platform": "MacOSX, ಲಿನಕ್ಸ್, ವಿಂಡೋಸ್",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{katex upgrade to ver 0.5.1}}"
                     },
                     {
-                        "platform": "MacOSX, ಲಿನಕ್ಸ್, ವಿಂಡೋಸ್",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{intl upgrade to ver 1.0.0}}"
                     },
                     {
-                        "platform": "MacOSX, ಲಿನಕ್ಸ್, ವಿಂಡೋಸ್",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{Backbone upgrade to ver 1.2.3}}"
                     },
                     {
-                        "platform": "MacOSX, ಲಿನಕ್ಸ್, ವಿಂಡೋಸ್",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{editor.md upgrade to ver 1.5.0}}"
                     },
                     {
-                        "platform": "MacOSX, ಲಿನಕ್ಸ್, ವಿಂಡೋಸ್",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{bs and util upgrade}}"
                     },
                     {
-                        "platform": "MacOSX, ಲಿನಕ್ಸ್, ವಿಂಡೋಸ್",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[Bug] Fixed flowChart, sequenceDiagram plugin}}"
                     },
                     {
-                        "platform": "MacOSX, ಲಿನಕ್ಸ್, ವಿಂಡೋಸ್",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[Bug] NativeEngine process_task contions is '&&' run error.}}"
                     },
                     {
-                        "platform": "MacOSX, ಲಿನಕ್ಸ್, ವಿಂಡೋಸ್",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[Bug] Open the most recently used documents that use dock appliction icon, not normal to open.}}"
                     },
                     {
-                        "platform": "MacOSX, ಲಿನಕ್ಸ್, ವಿಂಡೋಸ್",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[Bug] NativeEngine process_task must run success, application can't launch.}}"
                     },
                     {
-                        "platform": "MacOSX, ಲಿನಕ್ಸ್, ವಿಂಡೋಸ್",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[New features] Support print}}"
                     },
                     {
-                        "platform": "MacOSX, ಲಿನಕ್ಸ್, ವಿಂಡೋಸ್",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[New features] Support export markdown preview document to pdf file.}}"
                     }
                 ]

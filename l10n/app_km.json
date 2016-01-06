@@ -12,7 +12,7 @@
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "កម្មវិធី​ដែល​មាន​សារៈ​ប្រយោជន៍​ខ្លាំង​ណាស់​។ មាន​លក្ខណៈ​ពិសេស​ពេញលេញ markdowns editor.For វីនដូ​, លីនុច​, MacOSX ។",
+        "ProjectTagline": "កម្មវិធី​ដែល​មាន​សារៈ​ប្រយោជន៍​ខ្លាំង​ណាស់​។ មាន​លក្ខណៈ​ពិសេស​ពេញលេញ​កម្មវិធី​និពន្ធ​។ វីនដូ​, លីនុច​, MacOSX ។",
         "BtnDownload": "សាកល្បង​ដោយសេរី",
         "BtnBuy": "ការ​ទិញ",
         "Screens": [
@@ -69,10 +69,10 @@
         "list": [
             {
                 "hrefID": "{{export_as_pdf}}",
-                "section": "ការ​នាំ​ចេញ - នាំ​ចេញ​ជា​ឯកសារ​ទៅ​ជា PDF ការ​មើល​ជាមុន markdowns",
+                "section": "{{Export - export markdown preview document to pdf}}",
                 "videos": [
                     {
-                        "description": "ការ​នាំ​ចេញ markdowns ទៅ​កាន់​ឯកសារ​ដែល​ការ​មើល​ជាមុន​ឯកសារ​ជា pdf",
+                        "description": "{{Export markdown preview document to pdf file}}",
                         "url": "{{videos/docs/export_as_pdf.mp4}}"
                     }
                 ]
@@ -86,47 +86,47 @@
                 "version": "{{2.4}}",
                 "list": [
                     {
-                        "platform": "ប្រព័ន្ធ​ប្រតិបត្តិការ Windows MacOSX​, លីនុច​,",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{katex upgrade to ver 0.5.1}}"
                     },
                     {
-                        "platform": "ប្រព័ន្ធ​ប្រតិបត្តិការ Windows MacOSX​, លីនុច​,",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{intl upgrade to ver 1.0.0}}"
                     },
                     {
-                        "platform": "ប្រព័ន្ធ​ប្រតិបត្តិការ Windows MacOSX​, លីនុច​,",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{Backbone upgrade to ver 1.2.3}}"
                     },
                     {
-                        "platform": "ប្រព័ន្ធ​ប្រតិបត្តិការ Windows MacOSX​, លីនុច​,",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{editor.md upgrade to ver 1.5.0}}"
                     },
                     {
-                        "platform": "ប្រព័ន្ធ​ប្រតិបត្តិការ Windows MacOSX​, លីនុច​,",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{bs and util upgrade}}"
                     },
                     {
-                        "platform": "ប្រព័ន្ធ​ប្រតិបត្តិការ Windows MacOSX​, លីនុច​,",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[Bug] Fixed flowChart, sequenceDiagram plugin}}"
                     },
                     {
-                        "platform": "ប្រព័ន្ធ​ប្រតិបត្តិការ Windows MacOSX​, លីនុច​,",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[Bug] NativeEngine process_task contions is '&&' run error.}}"
                     },
                     {
-                        "platform": "ប្រព័ន្ធ​ប្រតិបត្តិការ Windows MacOSX​, លីនុច​,",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[Bug] Open the most recently used documents that use dock appliction icon, not normal to open.}}"
                     },
                     {
-                        "platform": "ប្រព័ន្ធ​ប្រតិបត្តិការ Windows MacOSX​, លីនុច​,",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[Bug] NativeEngine process_task must run success, application can't launch.}}"
                     },
                     {
-                        "platform": "ប្រព័ន្ធ​ប្រតិបត្តិការ Windows MacOSX​, លីនុច​,",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[New features] Support print}}"
                     },
                     {
-                        "platform": "ប្រព័ន្ធ​ប្រតិបត្តិការ Windows MacOSX​, លីនុច​,",
+                        "platform": "{{MacOSX,Linux,Windows}}",
                         "content": "{{[New features] Support export markdown preview document to pdf file.}}"
                     }
                 ]
