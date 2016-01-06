@@ -10,7 +10,7 @@
     
     c$.updateReleasenotesPage = function(){
         
-        var l10n = c$.l10n["ReleaseNotePage"] || {};
+        var l10n = c$.l10nFormatObj(c$.l10n["ReleaseNotePage"] || {});
         var htmlContent = "";
         
         // 更新Features(引用主页内容)

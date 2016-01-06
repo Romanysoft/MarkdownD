@@ -10,7 +10,7 @@
     
     c$.updateBuyPage = function(){
         
-        var l10n = c$.l10n["BuyPage"] || {};
+        var l10n = c$.l10nFormatObj(c$.l10n["BuyPage"] || {});
         var htmlContent = "";
                         
         // 更新Buy

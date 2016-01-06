@@ -9,7 +9,7 @@
     c$ = $.extend(window.UI.c$, {});
     
     c$.updateTopBarUI = function(){
-        var l10n = c$.l10n["TopBar"] || {};
+        var l10n = c$.l10nFormatObj(c$.l10n["TopBar"] || {});
 
         var  navgList = [
             {name:l10n["Home"] || "Home", url:"./index.html"},
@@ -20,6 +20,7 @@
             {name:l10n["Buy"] || "Buy", url:"./buy.html"},
             {name:l10n["Roadmap"] || "Roadmap", url:"./roadmap.html"},
             {name:l10n["ReportIssue"] || "ReportIssue", url:"https://github.com/Romanysoft/MarkdownD/issues"},
+            {name:l10n["Languages"] || "Languages", url:"./languages.html"},
         ];
         
         var htmlContent = template('topbar-content-tmpl', {list:navgList});

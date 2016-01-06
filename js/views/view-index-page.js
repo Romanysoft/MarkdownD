@@ -10,7 +10,7 @@
     
     c$.updateHomePage = function(){
         
-        var l10n = c$.l10n["HomePage"] || {};
+        var l10n = c$.l10nFormatObj(c$.l10n["HomePage"] || {});
         var htmlContent = "";
         
         // 更新        <h1 class="project-name"></h1>

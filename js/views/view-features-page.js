@@ -10,7 +10,7 @@
     
     c$.updateFeaturesPage = function(){
         
-        var l10n_doc = c$.l10n["HomePage"] || {};
+        var l10n_doc = c$.l10nFormatObj(c$.l10n["HomePage"] || {});
         var htmlContent = "";
         
         // 更新Features(引用主页内容)

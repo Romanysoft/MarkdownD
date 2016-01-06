@@ -1,0 +1,324 @@
+{
+    "TopBar": {
+        "Home": "హోం",
+        "Feature": "ఫీచర్",
+        "Documents": "పత్రాలు",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "ఉచిత ప్రయత్నం",
+        "Buy": "కొనుగోలు",
+        "Roadmap": "రోడ్మ్యాప్",
+        "ReportIssue": "సమస్యను నివేదించు",
+        "Languages": "భాషా"
+    },
+    "Footer": {},
+    "HomePage": {
+        "ProjectTagline": "చాలా ఉపయోగకరమైన App. పూర్తి ఫీచర్ Markdown editor.For Windows, Linux, MacOSX.",
+        "BtnDownload": "ఉచిత ప్రయత్నం",
+        "BtnBuy": "కొనుగోలు",
+        "Screens": [
+            "{{images/screens/common/c1.png}}",
+            "{{images/screens/common/c2.png}}",
+            "{{images/screens/common/c3.png}}",
+            "{{images/screens/common/c4.png}}",
+            "{{images/screens/common/c5.png}}",
+            "{{images/screens/common/c6.png}}"
+        ],
+        "Features": {
+            "SectionName": "ప్రధాన ఫీచర్లు",
+            "list": [
+                "పిడిఎఫ్ పత్రం మద్దతు ఎగుమతి",
+                "మద్దతు ముద్రణ పత్రం",
+                "మద్దతు ప్రామాణిక Markdown / CommonMark మరియు GFM (GitHub ఫ్లేవర్డ్ Markdown)",
+                "ప్రత్యక్ష ప్రివ్యూ మద్దతు",
+                "మద్దతు ఆకృతీకరణ టెక్స్ట్ సంకేత భాగాల, పట్టికలు, కోడ్ మడత, శోధన మరియు భర్తీ బహుళ భాషలు, HTML పరిధి కోడ్ సింటాక్స్ హైలైటింగ్",
+                "మద్దతు Toc (విషయ పట్టిక), ఎమోజి వ్యక్తీకరణ, TaskLists (విధిని మ్యాప్),Links (లింక్)",
+                "మద్దతు డీకోడింగ్ మరియు వడపోత HTML టాగ్లు మరియు లక్షణాలను",
+                "మద్దతు టెక్స్ (LaTeX వ్యక్తీకరణ, KaTeX), రేఖాచిత్రం మరియు క్రమం రేఖాచిత్రం ప్రవాహం",
+                "మద్దతు డాక్యుమెంట్ రికవరీ మెకానిజం",
+                "బహుళ ఏకకాల సవరణకు మద్దతు, అపరిమిత సంఖ్య"
+            ]
+        },
+        "UserReviews": {
+            "SectionName": "అద్భుతమైన విషయాలను ప్రజలు MarkdownD గురించి చెప్తున్నావు",
+            "list": [
+                {
+                    "reviewContent": "MarkdownD అద్భుతమైన ఉంది. సింపుల్. క్లీన్. పర్ఫెక్ట్. అభినందనలు.",
+                    "userName": "evanw",
+                    "professional": "టెక్నాలజీ మత ప్రచారకుడు"
+                },
+                {
+                    "reviewContent": "MarkdownD నేను అందంగా చాలా అన్ని లో నా రచన చేసేది. ఇది ఒక గొప్ప కొద్దిగా అప్లికేషన్.",
+                    "userName": "పీటర్ బ్రైట్",
+                    "professional": "ఆర్స్ టెక్నికా రైటర్"
+                },
+                {
+                    "reviewContent": "మీరు Markdown ఆసక్తి కలిగి ఉంటే, MarkdownD ఖచ్చితంగా ఒక డౌన్లోడ్ విలువ.",
+                    "userName": "LifeHacker",
+                    "professional": "వెబ్ డెవలపర్ మరియు డిజైనర్"
+                },
+                {
+                    "reviewContent": "నేను నిజంగా MarkdownD వంటి, నా పని చాలా సౌలభ్యం తెచ్చిపెట్టింది.",
+                    "userName": "jeruss",
+                    "professional": "PHP ముసాయిదా డెవలపర్"
+                }
+            ]
+        }
+    },
+    "FeaturePage": {},
+    "DocumentsPage": {
+        "list": [
+            {
+                "hrefID": "{{export_as_pdf}}",
+                "section": "ఎగుమతి - pdf ఎగుమతి markdown ప్రివ్యూ పత్రం",
+                "videos": [
+                    {
+                        "description": "పిడిఎఫ్ ఫైల్ ఎగుమతి markdown ప్రివ్యూ పత్రం",
+                        "url": "{{videos/docs/export_as_pdf.mp4}}"
+                    }
+                ]
+            }
+        ]
+    },
+    "ReleaseNotePage": {
+        "labelVersion": "వెర్షన్",
+        "list": [
+            {
+                "version": "{{2.4}}",
+                "list": [
+                    {
+                        "platform": "MacOSX, Linux, Windows",
+                        "content": "{{katex upgrade to ver 0.5.1}}"
+                    },
+                    {
+                        "platform": "MacOSX, Linux, Windows",
+                        "content": "{{intl upgrade to ver 1.0.0}}"
+                    },
+                    {
+                        "platform": "MacOSX, Linux, Windows",
+                        "content": "{{Backbone upgrade to ver 1.2.3}}"
+                    },
+                    {
+                        "platform": "MacOSX, Linux, Windows",
+                        "content": "{{editor.md upgrade to ver 1.5.0}}"
+                    },
+                    {
+                        "platform": "MacOSX, Linux, Windows",
+                        "content": "{{bs and util upgrade}}"
+                    },
+                    {
+                        "platform": "MacOSX, Linux, Windows",
+                        "content": "{{[Bug] Fixed flowChart, sequenceDiagram plugin}}"
+                    },
+                    {
+                        "platform": "MacOSX, Linux, Windows",
+                        "content": "{{[Bug] NativeEngine process_task contions is '&&' run error.}}"
+                    },
+                    {
+                        "platform": "MacOSX, Linux, Windows",
+                        "content": "{{[Bug] Open the most recently used documents that use dock appliction icon, not normal to open.}}"
+                    },
+                    {
+                        "platform": "MacOSX, Linux, Windows",
+                        "content": "{{[Bug] NativeEngine process_task must run success, application can't launch.}}"
+                    },
+                    {
+                        "platform": "MacOSX, Linux, Windows",
+                        "content": "{{[New features] Support print}}"
+                    },
+                    {
+                        "platform": "MacOSX, Linux, Windows",
+                        "content": "{{[New features] Support export markdown preview document to pdf file.}}"
+                    }
+                ]
+            },
+            {
+                "version": "{{2.3}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Linux,Windows}}",
+                        "content": "కొన్ని దోషాలను సరిచేయడానికి."
+                    }
+                ]
+            },
+            {
+                "version": "{{2.2}}",
+                "list": [
+                    {
+                        "platform": "",
+                        "content": "కొన్ని దోషాలను సరిచేయడానికి."
+                    },
+                    {
+                        "platform": "Windows",
+                        "content": "మొదటి విడుదల."
+                    },
+                    {
+                        "platform": "Linux",
+                        "content": "మొదటి విడుదల."
+                    }
+                ]
+            }
+        ]
+    },
+    "VersionPage": {
+        "labelVersion": "వెర్షన్",
+        "list": [
+            {
+                "version": "{{2.4}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.4-win32-x86-setup.exe}}",
+                        "size": "{{46.7MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/26wgwiikz6g5/MarkdownD-v2.4-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.4-win32-x64-setup.exe}}",
+                        "size": "{{55.6MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5yhbj9pge79f/MarkdownD-v2.4-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.4.0-darwin-x64.zip}}",
+                        "size": "{{6.15MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5edm4y1cqad7/MarkdownD-v2.4.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.4-linux-ia32-install.tar.gz}}",
+                        "size": "{{42.3MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/7crobmz5ndwz/MarkdownD-v2.4-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.4-linux-x64-install.tar.gz}}",
+                        "size": "{{42.3MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3takegbc2l1r/MarkdownD-v2.4-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
+            {
+                "version": "{{2.3.0}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.3-win32-x86-setup.exe}}",
+                        "size": "{{44.7MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/ani4s9myzd5/MarkdownD-v2.3-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.3-win32-x64-setup.exe}}",
+                        "size": "{{53.4MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/nhangqor1h7/MarkdownD-v2.3-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.3.0-darwin-x64.zip}}",
+                        "size": "{{5.0MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4rm0fk19d40v/MarkdownD-v2.3.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.3-linux-ia32-install.tar.gz}}",
+                        "size": "{{40.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/40xwmjpdx8p7/MarkdownD-v2.3-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.3-linux-x64-install.tar.gz}}",
+                        "size": "{{40.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/13xacb38a5pz/MarkdownD-v2.3-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
+            {
+                "version": "{{2.2.0}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.2.0-win32-x86-setup.exe}}",
+                        "size": "{{45.5MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1pKhXBFP}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.2.0-win32-x64-setup.exe}}",
+                        "size": "{{54.4MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1c1rh4yc}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.2.0-darwin-x64.zip}}",
+                        "size": "{{6.9MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1c0JXm5U}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.2.0-ia32.tar.gz}}",
+                        "size": "{{40.1MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1qXbPWny}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.2.0-x64.tar.gz}}",
+                        "size": "{{40.1MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1qWSw5w4}}"
+                    }
+                ]
+            }
+        ]
+    },
+    "BuyPage": {
+        "SectionName": "కొనుగోలు వే",
+        "list": [
+            {
+                "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
+                "logo": "{{images/buy/taobao.png}}",
+                "price": "{{90 RMB}}",
+                "buyURL": "{{http://item.taobao.com/item.htm?id=524924021533}}"
+            },
+            {
+                "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
+                "logo": "{{images/buy/buy.png}}",
+                "price": "{{$15.9}}",
+                "buyURL": "{{https://shopper.mycommerce.com/checkout/cart/new/55399-37}}"
+            },
+            {
+                "name": "{{MarkdownD for MacOSX, for MacOSX 10.7 and later}}",
+                "logo": "{{images/buy/taobao.png}}",
+                "price": "{{120 RMB}}",
+                "buyURL": "{{https://item.taobao.com/item.htm?id=522978831683}}"
+            },
+            {
+                "name": "{{MarkdownD for MacOSX, for MacOSX 10.7 and later}}",
+                "logo": "{{images/buy/buy.png}}",
+                "price": "{{$19.9}}",
+                "buyURL": "{{https://shopper.mycommerce.com/checkout/cart/new/55399-32}}"
+            },
+            {
+                "name": "{{MarkdownD for MacOSX (Mac App Store), for MacOSX 10.7 and later}}",
+                "logo": "{{images/buy/mas.png}}",
+                "price": "{{$19.9}}",
+                "buyURL": "{{https://itunes.apple.com/us/app/markdownd-is-full-featured/id975071094?l=zh&ls=1&mt=12}}"
+            },
+            {
+                "name": "{{MarkdownD for linux}}",
+                "logo": "{{images/buy/taobao.png}}",
+                "price": "{{120 RMB}}",
+                "buyURL": "{{https://item.taobao.com/item.htm?id=525049770494}}"
+            },
+            {
+                "name": "{{MarkdownD for linux}}",
+                "logo": "{{images/buy/buy.png}}",
+                "price": "{{$19.9}}",
+                "buyURL": "{{https://shopper.mycommerce.com/checkout/cart/new/55399-38}}"
+            }
+        ]
+    },
+    "RoadMapPage": {},
+    "LanguagesPage": {
+        "SectionName": "అందుబాటులో ఉన్న భాషలు",
+        "ChangeAlert": "పూర్తి స్విచ్ భాష"
+    }
+}
