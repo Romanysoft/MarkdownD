@@ -192,13 +192,13 @@
                     {
                       "osUrl":"{{images/download/linux.png}}", 
                       "name":"{{MarkdownD-v2.5-linux-ia32-install.tar.gz}}", 
-                      "size":"{{44.8MB}}", 
-                      "downURL":"{{http://www.filefactory.com/file/120p9key5637/MarkdownD-v2.5-linux-ia32-install.tar.gz}}"
+                      "size":"{{45.2MB}}", 
+                      "downURL":"{{http://www.filefactory.com/file/13z1zq45l2n/MarkdownD-v2.5-linux-ia32-install.tar.gz}}"
                     },
                     {
                       "osUrl":"{{images/download/linux.png}}",
                       "name":"{{MarkdownD-v2.5-linux-x64-install.tar.gz}}", 
-                      "size":"{{44.8MB}}", 
+                      "size":"{{45.2MB}}", 
                       "downURL":"{{http://www.filefactory.com/file/302k6xoz09xv/MarkdownD-v2.5-linux-x64-install.tar.gz}}"
                     }
             ]
