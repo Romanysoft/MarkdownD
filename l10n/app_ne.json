@@ -83,6 +83,31 @@
         "labelVersion": "संस्करण नम्बर",
         "list": [
             {
+                "version": "{{2.5}}",
+                "list": [
+                    {
+                        "platform": "{{Linux,Windows}}",
+                        "content": "{{[Bug] Fixed Engine menu config}}"
+                    },
+                    {
+                        "platform": "{{Linux,Windows}}",
+                        "content": "{{[Update] Selector upgrade 1.2}}"
+                    },
+                    {
+                        "platform": "{{MacOSX}}",
+                        "content": "{{[Bug] Fixed Quit menu item}}"
+                    },
+                    {
+                        "platform": "{{MacOSX}}",
+                        "content": "{{[Bug] Fixed Print menu item}}"
+                    },
+                    {
+                        "platform": "{{MacOSX}}",
+                        "content": "{{[Update] Native Engine upgrade}}"
+                    }
+                ]
+            },
+            {
                 "version": "{{2.4}}",
                 "list": [
                     {
@@ -162,6 +187,41 @@
     "VersionPage": {
         "labelVersion": "संस्करण नम्बर",
         "list": [
+            {
+                "version": "{{2.5}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.5-win32-x86-setup.exe}}",
+                        "size": "{{49.5MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5tizq9i5yr37/MarkdownD-v2.5-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.5-win32-x64-setup.exe}}",
+                        "size": "{{58.8MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/13cnbmxrky19/MarkdownD-v2.5-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.5.0-darwin-x64.zip}}",
+                        "size": "{{5.91MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/1pjo7kkx2am3/MarkdownD-v2.5.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.5-linux-ia32-install.tar.gz}}",
+                        "size": "{{44.8MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/120p9key5637/MarkdownD-v2.5-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.5-linux-x64-install.tar.gz}}",
+                        "size": "{{44.8MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/302k6xoz09xv/MarkdownD-v2.5-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.4}}",
                 "zipList": [
