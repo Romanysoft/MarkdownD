@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "Αρχική Σελίδα",
-        "Feature": "Χαρακτηριστικό",
-        "Documents": "Έγγραφα",
+        "Home": "Αρχική",
+        "Feature": "Χαρακτηριστικά",
+        "Documents": "Ηλεκτρονική Βοήθεια",
         "ReleaseNotes": "Σημειώσεις έκδοσης",
         "Downloads": "Δωρεάν δοκιμή",
         "Buy": "Αγορά",
-        "Roadmap": "Οδικός χάρτης",
-        "ReportIssue": "Τεύχος",
+        "Roadmap": "Η γραμμή παραγωγής",
+        "ReportIssue": "Αναφέρετε ένα πρόβλημα",
         "Languages": "Γλώσσα"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Πολύ χρήσιμο App. Πλήρης-χαρακτηρισμένο επεξεργαστή. Windows, Linux, MacOSX.",
+        "ProjectTagline": "Συντάκτης πλήρεις δυνατότητες Markdown. Υποστήριξη για λειτουργικά συστήματα Windows, Linux και MacOSX.",
         "BtnDownload": "Δωρεάν δοκιμή",
         "BtnBuy": "Αγορά",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Κύρια χαρακτηριστικά",
+            "SectionName": "Τα κύρια χαρακτηριστικά του προϊόντος",
             "list": [
-                "Υποστήριξη εξαγωγής σε αρχείο pdf",
-                "Υποστήριξη έγγραφο εκτύπωσης",
-                "Υποστήριξη τυπική Markdown / CommonMark και GFM (GitHub Άρωμα Markdown)",
-                "Ζωντανή υποστήριξη Προεπισκόπηση",
-                "Υποστήριξη μορφοποιημένο κείμενο, μπλοκ κώδικα, πίνακες, αναδίπλωση κώδικα, αναζήτηση και αντικατάσταση, πολλαπλές γλώσσες, HTML οντότητα σύνταξη κώδικα ανάδειξη",
-                "Υποστήριξη Π.Π. (πίνακας περιεχομένων), η έκφραση Emoji, TaskLists (εργασία χάρτη),Links (link)",
+                "Υποστήριξη Εξαγωγή ως αρχείο PDF",
+                "Υποστήριξη για την εκτύπωση εγγράφων",
+                "Υποστηρίζει το πρότυπο τιμή / CommonMark και GFM (Markdown GitHub του)",
+                "Ζωντανή Υποστήριξη Preview",
+                "Υποστηριζόμενες μορφές του κειμένου, τμήματα κώδικα, πίνακες, αναδίπλωση κώδικα, αναζήτηση και αντικατάσταση, πολυ-γλωσσικό, HTML σύνταξη κώδικα οντότητα ανάδειξη",
+                "Υποστήριξη TOC (πίνακα περιεχομένων), η έκφραση των emoticons, η λίστα εργασιών (Task Χάρτης), @ (links)",
                 "Αποκωδικοποίηση Υποστήριξη και φιλτραρίσματος HTML ετικέτες και χαρακτηριστικά",
-                "Υποστήριξη Tex (έκφραση λατέξ, KaTeX), διάγραμμα ροής και την ακολουθία διάγραμμα",
-                "Υποστήριξη ανάκτησης εγγράφων Μηχανισμού",
-                "Υποστήριξη πολλαπλών ταυτόχρονες επεξεργασίας, απεριόριστο αριθμό"
+                "Υποστήριξη του Τέξας (έκφραση λατέξ, Katex Inc.) διαγράμματα ροής και διαγράμματα ακολουθίας",
+                "Αρχείων υποστήριξης μηχανισμό ανάκτησης",
+                "Υποστήριξη πολλαπλών επεξεργασίας, απεριόριστο αριθμό"
             ]
         },
         "UserReviews": {
-            "SectionName": "Υπέροχα πράγματα λέει ο κόσμος για MarkdownD",
+            "SectionName": "Πώς να αξιολογήσει MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD είναι εκπληκτική. Απλός. Καθαρός. Τέλειος. Μπράβο.",
+                    "reviewContent": "MarkdownD είναι καταπληκτική. Απλό. Καθαρίστε. Τελειότητα. Όμορφα γίνει.",
                     "userName": "evanw",
-                    "professional": "Τεχνολογία Ευαγγελιστής"
+                    "professional": "Τεχνολογία Προώθησης"
                 },
                 {
-                    "reviewContent": "MarkdownD είναι αυτό που κάνω λίγο πολύ όλα τα γραπτά μου σε. Είναι ένα μεγάλο μικρό app.",
+                    "reviewContent": "MarkdownD είναι αυτό που κάνω σχεδόν όλα τα γραπτά μου, αυτό είναι μια μεγάλη μικρή εφαρμογή.",
                     "userName": "Peter Bright",
-                    "professional": "Συγγραφέας σε Ars Technica"
+                    "professional": "Ars Technica συγγραφείς του"
                 },
                 {
-                    "reviewContent": "Αν έχετε οποιοδήποτε ενδιαφέρον για Markdown, MarkdownD είναι σίγουρα αξίζει μια λήψη.",
-                    "userName": "Lifehacker",
-                    "professional": "Web Developer και σχεδιαστής"
+                    "reviewContent": "Αν έχετε οποιοδήποτε ενδιαφέρον σε χαμηλότερες τιμές, MarkdownD είναι σίγουρα αξίζει να το κατεβάσετε.",
+                    "userName": "Lifehacker του",
+                    "professional": "Προγραμματιστές και σχεδιαστές του Παγκόσμιου Ιστού"
                 },
                 {
-                    "reviewContent": "Μου αρέσει πολύ MarkdownD, έφερε πολύ ευκολία για τη δουλειά μου.",
+                    "reviewContent": "Μου αρέσει πολύ MarkdownD, έφερε μεγάλη ευκολία? Τη δουλειά μου.",
                     "userName": "jeruss",
-                    "professional": "Προγραμματιστής PHP-πλαίσιο"
+                    "professional": "PHP ανάπτυξη πλαισίου"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Αριθμός έκδοσης",
+        "labelVersion": "Απελευθέρωση",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Διόρθωσε κάποια σφάλματα."
+                        "content": "Σταθερά ορισμένα λάθη."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Διόρθωσε κάποια σφάλματα."
+                        "content": "Σταθερά ορισμένα λάθη."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Κυκλοφόρησε για πρώτη φορά."
+                        "content": "Η πρώτη έκδοση."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Κυκλοφόρησε για πρώτη φορά."
+                        "content": "Η πρώτη έκδοση."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Αριθμός έκδοσης",
+        "labelVersion": "Απελευθέρωση",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Αγορά Way",
+        "SectionName": "Πώς να αγοράσετε",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

@@ -1,19 +1,19 @@
 {
     "TopBar": {
-        "Home": "Головна сторінка",
-        "Feature": "Особливість",
-        "Documents": "Документи",
-        "ReleaseNotes": "ReleaseNotes",
-        "Downloads": "Безкоштовне випробування",
-        "Buy": "Купити",
-        "Roadmap": "RoadMap",
-        "ReportIssue": "Повідомити випуск",
+        "Home": "Додому",
+        "Feature": "Риси",
+        "Documents": "Інтернет Допомога",
+        "ReleaseNotes": "Примітки до випуску",
+        "Downloads": "Безкоштовна пробна версія",
+        "Buy": "Купівля",
+        "Roadmap": "Лінія продуктів",
+        "ReportIssue": "Повідомити про проблему",
         "Languages": "Мова"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Дуже корисний додаток. Повнофункціональний редактор. Windows, Linux, MacOSX.",
-        "BtnDownload": "Безкоштовне випробування",
+        "ProjectTagline": "Повнофункціональний редактор уцінки. Підтримка операційних систем Windows, Linux і MacOSX.",
+        "BtnDownload": "Безкоштовна пробна версія",
         "BtnBuy": "Купівля",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Основні риси",
+            "SectionName": "Основні особливості продукту",
             "list": [
-                "Підтримка експорту в PDF документа",
+                "Підтримка експорту в PDF файлі",
                 "Підтримка друку документів",
-                "Підтримка стандарту уцінки / CommonMark і GFM (GitHub ароматний уцінки)",
-                "Онлайн-підтримка перегляду",
-                "Підтримка форматований текст, блоки коду, столи, згортання коду, пошук і заміна, кілька мов, HTML особа підсвічування синтаксису коду",
-                "Підтримка TOC (Зміст), Emoji вирази, списки завдань (карта задач), Links (посилання)",
+                "Підтримка Стандартна ціна / CommonMark і GFM (уцінки GitHub в)",
+                "Жива Підтримка Preview",
+                "Підтримувані формати тексту, блоки коду, столи, згортання коду, пошук і заміна, мульти-мова, підсвічування синтаксису HTML код особа",
+                "Підтримка ТОС (зміст), вираз смайликів, список завдань (карта задач), @ (посилання)",
                 "Підтримка декодування і фільтрації HTML-теги і атрибути",
-                "Підтримка Текс (латекс вираз, Katex), блок-схема і діаграма послідовності",
-                "Механізм підтримки Відновлення документів",
-                "Підтримка декількох одночасне редагування, необмежена кількість"
+                "Підтримка Техас (латекс вираз, Катекс Inc.) блок-схеми та діаграми послідовності",
+                "Підтримка файлів механізм відновлення",
+                "Підтримка декількох редагування, необмежена кількість"
             ]
         },
         "UserReviews": {
-            "SectionName": "Чудові речі, які люди говорять про MarkdownD",
+            "SectionName": "Як оцінити MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD є приголомшуючим. Простий. Чистий. Ідеальний. Молодці.",
+                    "reviewContent": "MarkdownD дивно. Простий. Чистий. Удосконалення. Красиво зроблено.",
                     "userName": "evanw",
-                    "professional": "Технологія Євангеліст"
+                    "professional": "Технологія Просування"
                 },
                 {
-                    "reviewContent": "MarkdownD, що я роблю майже всі з мого листа в. Це відмінний невеликий додаток.",
+                    "reviewContent": "MarkdownD, що я роблю майже всі мій лист, це велика невеликий додаток.",
                     "userName": "Пітер Яскравий",
-                    "professional": "Письменник у Ars Technica"
+                    "professional": "Письменники Ars Technica в"
                 },
                 {
-                    "reviewContent": "Якщо у вас є інтерес в Markdown, MarkdownD, безумовно, варто завантажити.",
-                    "userName": "LifeHacker",
-                    "professional": "Веб-розробник і дизайнер"
+                    "reviewContent": "Якщо у вас є інтерес в більш низькими цінами, MarkdownD, безумовно, варто завантажити.",
+                    "userName": "Lifehacker-х",
+                    "professional": "Веб-розробники та дизайнери"
                 },
                 {
-                    "reviewContent": "Мені дуже подобається MarkdownD, приніс багато зручність для моєї роботи.",
+                    "reviewContent": "Мені дуже подобається MarkdownD, принесла велику зручність; мою роботу.",
                     "userName": "jeruss",
-                    "professional": "PHP Framework Розробник"
+                    "professional": "PHP рамки розвитку"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Номер версії",
+        "labelVersion": "Реліз",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -174,19 +183,42 @@
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Перший реліз."
+                        "content": "Перший випуск."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Перший реліз."
+                        "content": "Перший випуск."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Номер версії",
+        "labelVersion": "Реліз",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Купити Шлях",
+        "SectionName": "Як купити",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

@@ -9,6 +9,7 @@
   var c$ = {};
   c$ = $.extend(window.UI.c$, {});
 
+
   c$.l10n = {}; // 多语言对象
   c$.l10nFormatObj = function (obj) { // 带有
     var transalteObj = null;
@@ -51,6 +52,7 @@
 
   c$.l10nPre = "app_";
   c$.languageMap = {};
+  c$.l10nLangKey = "";
   c$.MC_l10n = $.Callbacks();
 
   c$.LoadLanguageMap = function(url, next){
@@ -69,8 +71,19 @@
     })
   };
 
+  c$.l10nGetLocalKey = function(){
+    var localKey = "+userConfig";
+    try{
+      var b$ = BS.b$;
+      localKey = b$.App.getAppId() + localKey;
+    }catch(e){
+      localKey = RTYConfig.appID + localKey;
+    }
+    return localKey;
+  };
+
   c$.setUserCustomLanguage = function(langID){
-    var localKey = RTYConfig.appID+"+userConfig";
+    var localKey = c$.l10nGetLocalKey();
     var userConfig = null;
     userConfig = (userConfig = localStorage.getItem(localKey)) && JSON.parse(userConfig);
     userConfig = userConfig || {};
@@ -80,7 +93,7 @@
   };
 
   c$.getUserCustomLanguage = function(){
-    var localKey = RTYConfig.appID+"+userConfig";
+    var localKey = c$.l10nGetLocalKey();
     var userConfig = null;
     userConfig = (userConfig = localStorage.getItem(localKey)) && JSON.parse(userConfig);
     userConfig = userConfig || {};
@@ -89,7 +102,8 @@
   };
 
   c$.LoadAppLanguage = function (languageList) {
-    function trySetLocal(url, next) {
+    function trySetLocal(langObj, next) {
+      var url = langObj.path, key = langObj.key;
       $.ajax({
         url: url,
         dataType: "json",
@@ -100,6 +114,7 @@
         success: function (data) {
           console.log('----- load 110n .... ' + url);
           c$.l10n = data;
+          c$.l10nLangKey = key;
           c$.MC_l10n.fire();
         }
       })
@@ -120,22 +135,27 @@
   c$.getPreTryLangList = function(){
     var navLang = navigator.language;
     var tryLangList = [
-      "l10n/" + c$.l10nPre + navLang + ".json",
-      "l10n/" + c$.l10nPre + navLang.split('-')[0] + ".json",
-      "l10n/" + c$.l10nPre + "en-US.json",
-      "l10n/" + c$.l10nPre + "en.json"
+      {path:"l10n/" + c$.l10nPre + navLang + ".json", key:navLang},
+      {path:"l10n/" + c$.l10nPre + navLang.split('-')[0] + ".json",key:navLang.split('-')[0]},
+      {path:"l10n/" + c$.l10nPre + "en-US.json",key:"en-US"},
+      {path:"l10n/" + c$.l10nPre + "en.json", key:"en"}
     ];
 
     var userLang = this.getUserCustomLanguage();
     if(userLang){
-      tryLangList =["l10n/" + c$.l10nPre + userLang + ".json"].concat(tryLangList);
+      tryLangList =[{path:"l10n/" + c$.l10nPre + userLang + ".json", key:userLang}].concat(tryLangList);
     }
 
     return tryLangList;
   };
 
-  c$.loadL10n = function () {
+  c$.loadL10n = function (successCB) {
     try {
+
+      c$.MC_l10n.add(function(){
+        successCB && successCB();
+      });
+
       c$.LoadLanguageMap("l10n/lang.json", function(){
         /// 启动翻译尝试
         c$.LoadAppLanguage(c$.getPreTryLangList());

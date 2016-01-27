@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "HomePage",
-        "Feature": "Značajka",
-        "Documents": "Dokumenti",
-        "ReleaseNotes": "ReleaseNotes",
+        "Home": "Početna",
+        "Feature": "Značajke",
+        "Documents": "Online pomoć",
+        "ReleaseNotes": "Napomene o izdanju",
         "Downloads": "Free Trial",
-        "Buy": "Kupiti",
-        "Roadmap": "Putokaz",
-        "ReportIssue": "Izvješće o problemu",
-        "Languages": "Jezik"
+        "Buy": "Kupnja",
+        "Roadmap": "Linija proizvoda",
+        "ReportIssue": "Prijavi problem",
+        "Languages": "Govor"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Vrlo korisna aplikacija. Cijeli značajkama urednik. Windows, Linux, MacOSX.",
+        "ProjectTagline": "Potpuno opremljenog smanjenje urednik. Podrška za Windows, Linux i MacOSX operacijskim sustavima.",
         "BtnDownload": "Free Trial",
-        "BtnBuy": "Kupiti",
+        "BtnBuy": "Kupnja",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Glavne značajke",
+            "SectionName": "Proizvod Glavne značajke",
             "list": [
-                "Podrška izvoz u pdf dokumentu",
-                "Podrška za ispis dokumenta",
-                "Podrška standardni smanjenje / CommonMark i GFM (GitHub okusom smanjenje)",
-                "Pregled uživo podrška",
-                "Podrška formatirani tekst, kod blokova, tablice, kod preklop, pretraživanje i zamjena, više jezika, HTML osoba kod sintakse",
-                "Podrška Toc (Sadržaj), emotikone izraz, TaskLists (karta zadatak),Links (link)",
+                "Podrška Izvoz kao PDF datoteku",
+                "Podrška za ispis dokumenata",
+                "Podržava standardna cijena / CommonMark i GFM (GitHub je smanjenje)",
+                "Live Support Pregled",
+                "Podržani formati teksta, kod blokova, tablice, kod preklop, pretraživanje i zamjena, više jezika, HTML osoba kod sintakse",
+                "Podrška TOC (Sadržaj), izraz emoticons, popis zadataka (Task Map), @ (linkovi)",
                 "Dekodiranje Podrška i filtriranje HTML oznake i atribute",
-                "Podrška Tex (lateks izraz, KaTeX), tijeka i dijagram",
-                "Podrška Document Recovery mehanizam",
-                "Podrška više simultano uređivanje, neograničen broj"
+                "Podrška Texas (lateks izraz, Katex Inc.) dijagrami toka i dijagrami slijed",
+                "Podrška datoteke za oporavak mehanizam",
+                "Podrška višestruki uređivanje, neograničen broj"
             ]
         },
         "UserReviews": {
-            "SectionName": "Divne stvari ljudi govore o MarkdownD",
+            "SectionName": "Kako procijeniti MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD je zapanjujuća. Jednostavan. Čist. Savršen. Dobro napravljeno.",
+                    "reviewContent": "MarkdownD je nevjerojatna. Jednostavan. Čisto. Savršenstvo. Lijepo učinili.",
                     "userName": "evanw",
-                    "professional": "Tehnologija Evanđelista"
+                    "professional": "Tehnologija Promocija"
                 },
                 {
-                    "reviewContent": "MarkdownD je ono što mi je činiti prilično mnogo sve moje pisanje u. To je veliki mali app.",
+                    "reviewContent": "MarkdownD je ono što ja radim gotovo sve moje pisanje, to je veliki mali program.",
                     "userName": "Petar Bright",
-                    "professional": "Pisac na Ars Technica"
+                    "professional": "Ars Technica-a pisci"
                 },
                 {
-                    "reviewContent": "Ako imate bilo kakvih interesa u smanjenje, MarkdownD je svakako vrijedno preuzimanje.",
-                    "userName": "Lifehacker",
-                    "professional": "Web Developer i dizajner"
+                    "reviewContent": "Ako imate bilo kakvih interesa u nižim cijenama, MarkdownD je definitivno vrijedan preuzimanje.",
+                    "userName": "Lifehacker je",
+                    "professional": "Web programeri i dizajneri"
                 },
                 {
-                    "reviewContent": "Volim MarkdownD, donio mnogo pogodnosti za moj rad.",
+                    "reviewContent": "Volim MarkdownD, donio je veliku pogodnost, moj rad.",
                     "userName": "jeruss",
-                    "professional": "PHP Framework Programer"
+                    "professional": "PHP okvir za razvoj"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Verzija broj",
+        "labelVersion": "Izdanje",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fiksni neke bugove."
+                        "content": "Fiksni neke pogreške."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fiksni neke bugove."
+                        "content": "Fiksni neke pogreške."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Prva izdana."
+                        "content": "Prvo izdanje."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Prva izdana."
+                        "content": "Prvo izdanje."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Verzija broj",
+        "labelVersion": "Izdanje",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Kupi Put",
+        "SectionName": "Kako kupiti",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

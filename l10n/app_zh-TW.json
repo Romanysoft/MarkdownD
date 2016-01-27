@@ -1,18 +1,18 @@
 {
     "TopBar": {
         "Home": "首頁",
-        "Feature": "產品特性",
-        "Documents": "文檔",
+        "Feature": "功能特性",
+        "Documents": "聯機幫助",
         "ReleaseNotes": "發行說明",
         "Downloads": "免費試用",
         "Buy": "購買",
-        "Roadmap": "路線圖",
+        "Roadmap": "產品路線",
         "ReportIssue": "報告問題",
         "Languages": "語言"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "非常有用的應用程序。全功能的編輯器。適用於Windows，Linux，MacOSX操作系統。",
+        "ProjectTagline": "全功能的Markdown編輯器。支持Windows、Linux及MacOSX操作系統。",
         "BtnDownload": "免費試用",
         "BtnBuy": "購買",
         "Screens": [
@@ -24,7 +24,7 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "主要特點",
+            "SectionName": "產品主要功能特性",
             "list": [
                 "支持導出為PDF文件",
                 "支持打印文檔",
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "版本號",
+        "labelVersion": "版本",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -185,8 +194,31 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "版本號",
+        "labelVersion": "版本",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [

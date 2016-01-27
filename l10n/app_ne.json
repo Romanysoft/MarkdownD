@@ -1,19 +1,19 @@
 {
     "TopBar": {
-        "Home": "होमपेज",
-        "Feature": "सुविधा",
-        "Documents": "दस्तावेज",
-        "ReleaseNotes": "ReleaseNotes",
-        "Downloads": "निशुल्क परिक्षण",
-        "Buy": "किन्न",
-        "Roadmap": "Roadmap",
-        "ReportIssue": "रिपोर्ट मुद्दा",
+        "Home": "घर",
+        "Feature": "विशेषताहरु",
+        "Documents": "अनलाइन सहायता",
+        "ReleaseNotes": "रिलीज नोट्स",
+        "Downloads": "फ्री परीक्षण",
+        "Buy": "खरीद",
+        "Roadmap": "उत्पादन लाइन",
+        "ReportIssue": "समस्या रिपोर्ट",
         "Languages": "भाषा"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "धेरै उपयोगी अनुप्रयोग। सम्पादक पूर्ण-चित्रित। विन्डोज, लिनक्स, MacOSX।",
-        "BtnDownload": "निशुल्क परिक्षण",
+        "ProjectTagline": "पूर्ण-चित्रित छुट सम्पादक। विन्डोज, लिनक्स र MacOSX सञ्चालन प्रणाली लागि समर्थन।",
+        "BtnDownload": "फ्री परीक्षण",
         "BtnBuy": "खरीद",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "मुख्य विशेषताहरु",
+            "SectionName": "उत्पादन मुख्य विशेषताहरु",
             "list": [
-                "PDF कागजात समर्थन निर्यात",
-                "समर्थन मुद्रण कागजात",
-                "समर्थन मानक छुट / CommonMark र GFM (GitHub Flavored छुट)",
+                "पीडीएफ फाइल रूपमा निर्यात समर्थन",
+                "मुद्रण कागजातहरू लागि समर्थन",
+                "समर्थन मानक मूल्य / CommonMark र GFM (GitHub गरेको छुट)",
                 "लाइभ पूर्वावलोकन समर्थन",
-                "समर्थन ढाँचाबद्ध पाठ, कोड ब्लक, टेबल, कोड तह, खोज र प्रतिस्थापन, धेरै भाषा, HTML इकाइ कोड वाक्यसंरचनाहाइलाइटिङ",
-                "समर्थन TOC (सामाग्री तालिका), ईमोजी अभिव्यक्ति, TaskLists (कार्य नक्शा),Links (लिंक)",
+                "पाठ को समर्थित ढाँचामा, कोड ब्लक, टेबल, कोड तह, बहु-भाषा खोज र प्रतिस्थापन, HTML इकाइ कोड वाक्यसंरचनाहाइलाइटिङ",
+                "समर्थन TOC (सामग्रीको तालिका), ईमोटिकनहरू को अभिव्यक्ति, कार्य सूचीमा (कार्य मानचित्र), @ (लिंक)",
                 "समर्थन decoding र फिल्टर HTML ट्याग र गुणहरू",
-                "समर्थन टेक्स (लेटेक्स अभिव्यक्ति, KaTeX), रेखाचित्र र अनुक्रमरेखाचित्र प्रवाह",
-                "समर्थन दस्तावेज रिकभरी तंत्र",
-                "धेरै साथ सम्पादन समर्थन, असीमित नम्बर"
+                "समर्थन टेक्सास (लेटेक्स अभिव्यक्ति, Katex इंक) flowcharts र अनुक्रम चित्र",
+                "समर्थन फाइलहरू पुन संयन्त्रको",
+                "समर्थन धेरै सम्पादन, असीमित नम्बर"
             ]
         },
         "UserReviews": {
-            "SectionName": "अद्भुत कुराहरू मानिसहरूलाई MarkdownD बारेमा भनिरहेका छन्",
+            "SectionName": "MarkdownD मूल्यांकन कसरी",
             "list": [
                 {
-                    "reviewContent": "MarkdownD तेजस्वी छ। सरल। साफ। सिद्ध। राम्रो काम।",
+                    "reviewContent": "MarkdownD अचम्मको छ। सरल। साफ। पूर्णता। भली भांति गरेको।",
                     "userName": "evanw",
-                    "professional": "प्रौद्योगिकी इंजीलवादी"
+                    "professional": "प्रौद्योगिकी संवर्धन"
                 },
                 {
-                    "reviewContent": "MarkdownD म धेरै धेरै सबै मा मेरो लेखन को के छ। यो एक ठूलो सानो अनुप्रयोग हो।",
+                    "reviewContent": "MarkdownD, यो एक ठूलो सानो आवेदन के म लगभग सबै मेरो लेखन के छ।",
                     "userName": "पत्रुस चम्किलो",
-                    "professional": "ARS Technica मा लेखक"
+                    "professional": "ARS Technica गरेको लेखकहरूले"
                 },
                 {
-                    "reviewContent": "तपाईं छुट मा कुनै पनि चासो छ भने, MarkdownD निश्चित एक डाउनलोड लायक छ।",
-                    "userName": "LifeHacker",
-                    "professional": "वेब डेभलपर र डिजाइनर"
+                    "reviewContent": "तपाईं कम मूल्य मा कुनै पनि चासो छ भने, MarkdownD निश्चित डाउनलोड लायक छ।",
+                    "userName": "Lifehacker गरेको",
+                    "professional": "वेब डेवलपर्स र डिजाइनर"
                 },
                 {
-                    "reviewContent": "म साँच्चै MarkdownD जस्तै, मेरो काम को लागि धेरै सुविधा ल्याएको छ।",
+                    "reviewContent": "म साँच्चै MarkdownD जस्तै, ठूलो सुविधा ल्याएको छ; मेरो काम।",
                     "userName": "jeruss",
-                    "professional": "PHP फ्रेमवर्क विकासकर्ता"
+                    "professional": "PHP रूपरेखा विकास"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "संस्करण नम्बर",
+        "labelVersion": "विज्ञप्ति",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "केही बग निश्चित।"
+                        "content": "केही त्रुटिहरू निश्चित।"
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "केही बग निश्चित।"
+                        "content": "केही त्रुटिहरू निश्चित।"
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "पहिलो जारी।"
+                        "content": "पहिलो रिलीज।"
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "पहिलो जारी।"
+                        "content": "पहिलो रिलीज।"
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "संस्करण नम्बर",
+        "labelVersion": "विज्ञप्ति",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "किन्नुहोस मार्ग",
+        "SectionName": "खरिद गर्न कसरी",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

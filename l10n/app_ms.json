@@ -1,19 +1,19 @@
 {
     "TopBar": {
-        "Home": "HomePage",
-        "Feature": "Ciri",
-        "Documents": "Dokumen",
-        "ReleaseNotes": "ReleaseNotes",
-        "Downloads": "Cubaan percuma",
-        "Buy": "Membeli",
-        "Roadmap": "Pelan tindakan",
-        "ReportIssue": "Laporkan Isu",
+        "Home": "Laman",
+        "Feature": "Ciri-ciri",
+        "Documents": "Bantuan Dalam Talian",
+        "ReleaseNotes": "Nota Keluaran",
+        "Downloads": "Percubaan Percuma",
+        "Buy": "Pembelian",
+        "Roadmap": "Barisan produk",
+        "ReportIssue": "Laporkan masalah",
         "Languages": "Bahasa"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "App sangat berguna. Editor berciri penuh. Windows, Linux, MacOSX.",
-        "BtnDownload": "Cubaan percuma",
+        "ProjectTagline": "Editor turun harga berciri penuh. Sokongan untuk Windows, Linux dan MacOSX sistem operasi.",
+        "BtnDownload": "Percubaan Percuma",
         "BtnBuy": "Pembelian",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Ciri-ciri Utama",
+            "SectionName": "Ciri-ciri utama produk",
             "list": [
-                "Sokongan eksport dokumen pdf",
-                "Sokongan dokumen cetak",
-                "Sokongan turun harga standard / CommonMark dan GFM (GitHub berperisa turun harga)",
-                "Sokongan preview langsung",
-                "Sokongan teks diformat, blok kod, jadual, kod lipatan, mencari dan menggantikan, pelbagai bahasa, HTML entiti kod penonjolan sintaks",
-                "Sokongan Toc (Jadual Kandungan), ungkapan Emoji, TaskLists (tugas Peta),Links (link)",
+                "Menyokong Eksport sebagai fail PDF",
+                "Sokongan untuk mencetak dokumen-dokumen",
+                "Menyokong harga standard / CommonMark dan GFM (turun harga GitHub ini)",
+                "Sokongan Preview Live",
+                "Format yang disokong teks, blok kod, jadual, kod lipatan, mencari dan menggantikan, multi-bahasa, entiti HTML kod penonjolan sintaks",
+                "Sokongan TOC (isi kandungan), ungkapan emotikon, senarai tugas (Task Map), @ (pautan)",
                 "Sokongan penyahkodan dan penapisan HTML tag dan sifat-sifat",
-                "Sokongan Tex (LaTeX bersuara, KaTeX), aliran gambarajah dan urutan gambar rajah",
-                "Mekanisme bantuan pemulihan Dokumen",
-                "Menyokong pelbagai editing serentak, jumlah yang tidak terhad"
+                "Sokongan Texas (ungkapan getah, Katex Inc.) carta aliran dan gambar rajah jujukan",
+                "Fail sokongan mekanisme pemulihan",
+                "Sokongan penyuntingan pelbagai, jumlah yang tidak terhad"
             ]
         },
         "UserReviews": {
-            "SectionName": "Perkara yang indah yang orang katakan tentang MarkdownD",
+            "SectionName": "Bagaimana untuk menilai MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD menakjubkan. Simple. Bersih. Perfect. Bagus.",
+                    "reviewContent": "MarkdownD luar biasa. Simple. Bersih. Kesempurnaan. Baik dilakukan.",
                     "userName": "evanw",
-                    "professional": "Teknologi Evangelist"
+                    "professional": "Promosi Teknologi"
                 },
                 {
-                    "reviewContent": "MarkdownD adalah apa yang saya lakukan cukup banyak semua penulisan saya. Ia adalah satu aplikasi kecil yang hebat.",
+                    "reviewContent": "MarkdownD adalah apa yang saya melakukan hampir semua penulisan saya, ini adalah aplikasi kecil yang hebat.",
                     "userName": "Peter Bright",
-                    "professional": "Penulis di Ars Technica"
+                    "professional": "Penulis Ars Technica ini"
                 },
                 {
-                    "reviewContent": "Jika anda mempunyai apa-apa kepentingan dalam turun harga, MarkdownD pasti bernilai muat turun.",
-                    "userName": "LifeHacker",
-                    "professional": "Pemaju Web Designer"
+                    "reviewContent": "Jika anda mempunyai apa-apa kepentingan dalam harga yang lebih rendah, MarkdownD pasti bernilai muat turun.",
+                    "userName": "Ini Lifehacker",
+                    "professional": "Pembangun laman web dan pereka"
                 },
                 {
-                    "reviewContent": "Saya benar-benar suka MarkdownD, telah membawa kemudahan banyak untuk kerja-kerja saya.",
+                    "reviewContent": "Saya benar-benar suka MarkdownD, telah membawa kemudahan yang besar; kerja saya.",
                     "userName": "jeruss",
-                    "professional": "Pemaju PHP Framework"
+                    "professional": "PHP pembangunan rangka kerja"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Nombor Versi",
+        "labelVersion": "Akhbar",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Tetap beberapa bug."
+                        "content": "Tetap beberapa kesilapan."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Tetap beberapa bug."
+                        "content": "Tetap beberapa kesilapan."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Pertama dikeluarkan."
+                        "content": "Keluaran pertama."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Pertama dikeluarkan."
+                        "content": "Keluaran pertama."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Nombor Versi",
+        "labelVersion": "Akhbar",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Beli Way",
+        "SectionName": "Bagaimana Nak Beli",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

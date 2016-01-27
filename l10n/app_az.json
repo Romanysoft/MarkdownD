@@ -1,19 +1,19 @@
 {
     "TopBar": {
-        "Home": "Əsas",
-        "Feature": "Xüsusiyyət",
-        "Documents": "Sənədlər",
-        "ReleaseNotes": "ReleaseNotes",
-        "Downloads": "Ödənişsiz sınaq",
-        "Buy": "Almaq",
-        "Roadmap": "Yol",
-        "ReportIssue": "Xəbər Sayı",
+        "Home": "Ev",
+        "Feature": "Features",
+        "Documents": "Online Help",
+        "ReleaseNotes": "Release Qeydlər",
+        "Downloads": "Free Trial",
+        "Buy": "Alış",
+        "Roadmap": "Product line",
+        "ReportIssue": "Bir sorunu bildirmek",
         "Languages": "Dil"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Çox faydalı Proq. Redaktoru Tam özellikli. Windows, Linux, MacOSX.",
-        "BtnDownload": "Ödənişsiz sınaq",
+        "ProjectTagline": "Tam özellikli Markdown redaktoru. Windows, Linux və MacOSX əməliyyat sistemi üçün dəstək.",
+        "BtnDownload": "Free Trial",
         "BtnBuy": "Alış",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Əsas Xüsusiyyətlər",
+            "SectionName": "Product əsas xüsusiyyətləri",
             "list": [
-                "Pdf sənəd Support ixrac",
-                "Support çap sənəd",
-                "Support standart Markdown / CommonMark və GFM (GitHub Flavored Markdown)",
-                "Live preview dəstək",
-                "Support biçimlendirilmiş mətn, kodu blokları, cədvəllər, kodu qatlama, axtarış və əvəz, birdən çox dil, HTML müəssisə code sintaksis işıqlandırılması",
-                "Support Toc (Mündəricat) Emoji ifadə tasklists (vəzifə xəritə),Links (link)",
+                "PDF faylı olaraq ixrac dəstək",
+                "Çap sənədlər üçün Support",
+                "Dəstəkləyir standart qiymət / CommonMark və GFM (Github nin Markdown)",
+                "Live Preview Support",
+                "Mətn Dəstəklənən formatlar kod blokları, cədvəllər, kodu qatlama,, multi-dil axtarış və əvəz, HTML müəssisə code sintaksis işıqlandırılması",
+                "Support TOC (Mündəricat), ifadeler ifadə, görev siyahısı (Task haqda məlumat), @ (← keçidlər)",
                 "Support decoding və filtreleme HTML tags və atributları",
-                "Support Tex (lateks ifadə, Katex), diaqram və ardıcıllıqla diaqram axın",
-                "Support Document Recovery mexanizmi",
-                "Çox sinxron redaktə dəstəkləyin, limitsiz sayı"
+                "Support Texas (lateks ifadə, Katex Inc.) flowcharts və ardıcıllıqla diaqramları",
+                "Support faylları bərpa mexanizmi",
+                "Support çox editing, limitsiz sayı"
             ]
         },
         "UserReviews": {
-            "SectionName": "Wonderful şeyi insanlar MarkdownD haqqında söyləyərək",
+            "SectionName": "MarkdownD qiymətləndirmək üçün necə",
             "list": [
                 {
-                    "reviewContent": "MarkdownD çarpıcı edir. Simple. Clean. Mükəmməldir. Maşallah.",
+                    "reviewContent": "MarkdownD gözəl deyil. Simple. Clean. Perfection. Gözəl işlər.",
                     "userName": "evanw",
-                    "professional": "Technology Evangelist"
+                    "professional": "Technology Promotion"
                 },
                 {
-                    "reviewContent": "MarkdownD Mən olduqca çox bütün mənim yazı nə edir. Bu, böyük kiçik app edir.",
+                    "reviewContent": "MarkdownD, bu, böyük kiçik proqram nə demək olar ki, bütün yazı yoxdur.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica yazıçı"
+                    "professional": "Ars Technica yazıçıları"
                 },
                 {
-                    "reviewContent": "Siz Markdown heç bir maraq varsa, MarkdownD mütləq bir download dəyər.",
-                    "userName": "Lifehacker",
-                    "professional": "Web Developer və Designer"
+                    "reviewContent": "Siz aşağı qiymətlərlə hər hansı bir maraq varsa, MarkdownD mütləq download dəyər.",
+                    "userName": "Lifehacker nin",
+                    "professional": "Web developers və dizaynerlər"
                 },
                 {
-                    "reviewContent": "Mən, həqiqətən, MarkdownD kimi, iş üçün çox rahat gətirdi.",
+                    "reviewContent": "Mən, həqiqətən, MarkdownD kimi, böyük asanlıq gətirdi; iş.",
                     "userName": "jeruss",
-                    "professional": "PHP Framework Developer"
+                    "professional": "PHP çərçivəsində inkişaf"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Version sayı",
+        "labelVersion": "Release",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Bəzi hataları Sabit."
+                        "content": "Bəzi səhvlər Sabit."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Bəzi hataları Sabit."
+                        "content": "Bəzi səhvlər Sabit."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Ilk azad."
+                        "content": "ilk azad."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Ilk azad."
+                        "content": "ilk azad."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Version sayı",
+        "labelVersion": "Release",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Almaq Way",
+        "SectionName": "Almaq üçün necə",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

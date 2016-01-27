@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "דף הבית",
-        "Feature": "תכונה",
-        "Documents": "מסמכים",
-        "ReleaseNotes": "מכתבי שחרור",
+        "Home": "בית",
+        "Feature": "תכונות",
+        "Documents": "עזרה מקוונת",
+        "ReleaseNotes": "הערות",
         "Downloads": "ניסיון חינם",
-        "Buy": "לִקְנוֹת",
-        "Roadmap": "מַפַּת דְרָכִים",
-        "ReportIssue": "דווח גיליון",
-        "Languages": "שָׂפָה"
+        "Buy": "רכישה",
+        "Roadmap": "קו מוצרים",
+        "ReportIssue": "דווח על בעיה",
+        "Languages": "שפה"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "אפליקציה שימושית מאוד. כוללות את כל תכונות עורך. Windows, Linux, MacOSX.",
+        "ProjectTagline": "עורך Markdown תכונות מלא. תמיכה במערכות הפעלת Windows, Linux ו- MacOSX.",
         "BtnDownload": "ניסיון חינם",
-        "BtnBuy": "לִרְכּוֹשׁ",
+        "BtnBuy": "רכישה",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "תכונות עיקריות",
+            "SectionName": "תכונות עיקריות של מוצר",
             "list": [
-                "יצוא תמיכה למסמך PDF",
-                "מסמך הדפסת תמיכה",
-                "Markdown הסטנדרטי תמיכה / CommonMark וGFM (GitHub בטעם Markdown)",
+                "תמיכה יצוא כקובץ PDF",
+                "תמיכה בהדפסת מסמכים",
+                "תומך מחיר סטנדרטי / CommonMark וGFM (Markdown של GitHub)",
                 "תמיכת תצוגה מקדימה חיה",
-                "תמיכת טקסט מעוצב, גושי קוד, שולחנות, קיפול קוד, חיפוש והחלפה, במספר שפות, הדגשת תחביר קוד HTML ישות",
-                "תמיכת תוכן עניינים (תוכן העניינים), ביטוי Emoji, רשימת משימות (מפת משימה),Links (קישור)",
+                "פורמטים נתמכים של טקסט, בלוקים קוד, שולחנות, קיפול קוד, חיפוש והחלפה, ריבוי שפות, הדגשת תחביר קוד HTML ישות",
+                "התמיכה TOC (תוכן עניינים), הביטוי של הבעות, רשימת המשימות (Task מפה), @ (קישורים)",
                 "תגי פענוח תמיכה וסינון HTML ותכונות",
-                "התמיכה Tex (ביטוי לטקס, KaTeX), תרשים זרימת תרשים ורצף",
-                "מנגנון שחזור מסמך התמיכה",
-                "תומך בעריכה מרובה בו זמנית, מספר בלתי מוגבל"
+                "תרשים זרימה התמיכה טקסס (ביטוי לטקס, Katex Inc) ותרשימי רצף",
+                "קבצי תמיכה של התאוששות מנגנון",
+                "עריכה מרובה תמיכה, מספר בלתי מוגבל"
             ]
         },
         "UserReviews": {
-            "SectionName": "אנשי דברים נפלאים אומרים על MarkdownD",
+            "SectionName": "כיצד להעריך MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD הוא מדהים. פָּשׁוּט. לְנַקוֹת. ללא רבב. כל הכבוד.",
+                    "reviewContent": "MarkdownD הוא מדהים. פשוט. נקי. שלמות. עשה יפה.",
                     "userName": "evanw",
-                    "professional": "מטיף טכנולוגיה"
+                    "professional": "קידום טכנולוגיה"
                 },
                 {
-                    "reviewContent": "MarkdownD הוא מה שאני עושה פחות או יותר כל הכתיבה שלי ב. זה יישום קטן גדול.",
+                    "reviewContent": "MarkdownD הוא מה שאני עושה כמעט את כל הכתיבה שלי, זה הוא יישום קטן גדול.",
                     "userName": "פיטר רייט",
-                    "professional": "סופר בArs Technica"
+                    "professional": "הסופרים של Ars Technica"
                 },
                 {
-                    "reviewContent": "אם יש לך עניין בMarkdown, MarkdownD הוא בהחלט שווה הורדה.",
-                    "userName": "Lifehacker",
-                    "professional": "מפתחי אינטרנט ומעצב"
+                    "reviewContent": "אם יש לך עניין במחירים נמוכים יותר, MarkdownD הוא בהחלט שווה ההורדה.",
+                    "userName": "Lifehacker של",
+                    "professional": "מפתחי אינטרנט ומעצבים"
                 },
                 {
-                    "reviewContent": "אני באמת אוהב את MarkdownD, הביא הרבה נוחות לעבודה שלי.",
+                    "reviewContent": "אני באמת אוהב את MarkdownD, הביא נוחות רבה; העבודה שלי.",
                     "userName": "jeruss",
-                    "professional": "מפתחי PHP Framework"
+                    "professional": "פיתוח במסגרת PHP"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "מספר הגרסה",
+        "labelVersion": "שחרור",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "תוקן כמה באגים."
+                        "content": "תוקן כמה טעויות."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "תוקן כמה באגים."
+                        "content": "תוקן כמה טעויות."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "ראשון שפורסם."
+                        "content": "הגרסה הראשונה."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "ראשון שפורסם."
+                        "content": "הגרסה הראשונה."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "מספר הגרסה",
+        "labelVersion": "שחרור",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "לקנות את הדרך",
+        "SectionName": "איך קונה",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

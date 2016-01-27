@@ -1,19 +1,19 @@
 {
     "TopBar": {
-        "Home": "Ana",
-        "Feature": "Özellik",
-        "Documents": "Belgeler",
-        "ReleaseNotes": "Sürüm notları",
-        "Downloads": "Ücretsiz deneme",
-        "Buy": "Satın",
-        "Roadmap": "Yol haritası",
-        "ReportIssue": "Rapor Sayı",
-        "Languages": "Dil"
+        "Home": "Ev",
+        "Feature": "Özellikler",
+        "Documents": "Çevrimiçi Yardım",
+        "ReleaseNotes": "Sürüm Notları",
+        "Downloads": "Ücretsiz Deneme",
+        "Buy": "Satınalma",
+        "Roadmap": "Ürün çeşitleri",
+        "ReportIssue": "Sorun bildirme",
+        "Languages": "Lisan"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Çok yararlı App. Editör Tam özellikli. Windows, Linux, MacOSX.",
-        "BtnDownload": "Ücretsiz deneme",
+        "ProjectTagline": "Tam özellikli Markdown editörü. Windows, Linux ve MacOSX işletim sistemleri için destek.",
+        "BtnDownload": "Ücretsiz Deneme",
         "BtnBuy": "Satınalma",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Ana Özellikler",
+            "SectionName": "Ürün temel özellikleri",
             "list": [
-                "Pdf belgeye destek ihracat",
-                "Destek baskı belge",
-                "Destek standart Markdown / CommonMark ve GFM (GitHub Aromalı Markdown)",
-                "Canlı önizleme desteği",
-                "Destek biçimlendirilmiş metin, kod blokları, tablolar, kod katlama, arama ve değiştirme, birden fazla dil, HTML varlık kodu dizim",
-                "Destek Toc (İçindekiler), Emoji ifadesi, tasklists (görev harita),Links (link)",
+                "PDF dosyası olarak ver Destek",
+                "Baskı belgeler için destek",
+                "Destekler standart fiyat / CommonMark ve GFM (GitHub en Markdown)",
+                "Canlı Önizleme Destek",
+                "Metnin Desteklenen formatlar, kod blokları, tablolar, kod katlama, çoklu dil arama ve değiştirme, HTML varlık kodu dizim",
+                "Destek TOK (içindekiler), ifade ifadesi, görev listesi (Task Map), @ (bağlantılar)",
                 "Destek çözme ve filtreleme HTML etiketleri ve nitelikleri",
-                "Destek Tex (LaTex ifadesi, Katex), diyagram ve dizi diyagramı akış",
-                "Destek Belge Kurtarma Mekanizması",
-                "Aynı anda birden çok düzenleme Destek, sınırsız sayıda"
+                "Destek Texas (lateks ifadesi, Katex Inc.) akış şemaları ve diyagramlar dizi",
+                "Destek dosyaları kurtarma mekanizması",
+                "Destek çoklu düzenleme, sınırsız sayıda"
             ]
         },
         "UserReviews": {
-            "SectionName": "Harika şeyler insanların MarkdownD hakkında söylediklerini",
+            "SectionName": "MarkdownD değerlendirmek için nasıl",
             "list": [
                 {
-                    "reviewContent": "MarkdownD çarpıcı. Basit. Temiz. Mükemmel. Aferin.",
+                    "reviewContent": "MarkdownD şaşırtıcı. Basit. Temizleyin. Mükemmellik. Güzel yapılır.",
                     "userName": "evanw",
-                    "professional": "Teknoloji Evangelist"
+                    "professional": "Teknoloji Promosyon"
                 },
                 {
-                    "reviewContent": "MarkdownD Ben hemen hemen tüm Yazımın ne olduğunu. Bu harika bir küçük app.",
+                    "reviewContent": "MarkdownD, bu harika bir küçük bir uygulamadır ne neredeyse tüm yazdıklarımı yapmak olduğunu.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica at Writer"
+                    "professional": "Ars Technica sitesinin yazarları"
                 },
                 {
-                    "reviewContent": "Eğer Markdown herhangi bir ilgi varsa, MarkdownD kesinlikle bir indirme değer.",
-                    "userName": "LifeHacker",
-                    "professional": "Web Developer ve Tasarımcı"
+                    "reviewContent": "Eğer düşük fiyatlarla herhangi bir ilgi varsa, MarkdownD kesinlikle indirme değer.",
+                    "userName": "Lifehacker en",
+                    "professional": "Web geliştiricileri ve tasarımcıları"
                 },
                 {
-                    "reviewContent": "Gerçekten MarkdownD gibi, benim iş için çok kolaylık getirdi.",
+                    "reviewContent": "Gerçekten MarkdownD gibi, büyük kolaylık getirdi; işimi.",
                     "userName": "jeruss",
-                    "professional": "PHP Framework Geliştirici"
+                    "professional": "PHP çerçeve geliştirme"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Sürüm Numarası",
+        "labelVersion": "Serbest bırakma",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -174,19 +183,42 @@
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "İlk yayımladı."
+                        "content": "Ilk sürümü."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "İlk yayımladı."
+                        "content": "Ilk sürümü."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Sürüm Numarası",
+        "labelVersion": "Serbest bırakma",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Satın Yolu",
+        "SectionName": "Satın Nasıl",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "Homepage",
-        "Feature": "Feature",
-        "Documents": "Waraaqaha",
-        "ReleaseNotes": "ReleaseNotes",
+        "Home": "Home",
+        "Feature": "Features",
+        "Documents": "Help Online",
+        "ReleaseNotes": "Release Notes",
         "Downloads": "Trial Free",
         "Buy": "Iibso",
-        "Roadmap": "Roadmap-",
-        "ReportIssue": "Warbixinta Issue",
+        "Roadmap": "Line Product",
+        "ReportIssue": "Soo sheeg dhibaato",
         "Languages": "Language"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Aad u faa'iido badan App. Full-saftay editor. Windows, Linux, MacOSX.",
+        "ProjectTagline": "Editor Markdown Full-saftay. Support for Windows, Linux iyo MacOSX ka hawlgala nidaamyada.",
         "BtnDownload": "Trial Free",
         "BtnBuy": "Iibso",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Features Main",
+            "SectionName": "Product qaababka ugu muhiimsan",
             "list": [
-                "Dhoofinta Support in document pdf",
-                "Document print Support",
-                "Taageerada heerka Markdown / CommonMark iyo GFM (GitHub macaan Markdown)",
-                "Taageero Falanqeynta Live",
-                "Taageerada text formatted, blocks code, miisaska, laabanto code, baadhidooda iyo bedelo, luqado kala duwan, HTML hay'ad Iftiiminta Saan code",
-                "Taageerada TOC (Table of Contents), Emoji ra'yi dhiibashada, TaskLists (map hawsha),Links (link)",
+                "Taageer dhoofinta sida PDF file",
+                "Taageerada waraaqaha daabacaadda",
+                "Taageerada qiimaha caadiga ah / CommonMark iyo GFM (GitHub ee Markdown)",
+                "Taageerada Live Kulanka Xiisaha Leh",
+                "Qaabab ay taageerayaan qoraalka, blocks code, miisaska, laabanto code, baadhidooda iyo bedelo, multi af-, Iftiiminta HTML hay'ad Saan code",
+                "Taageerada TOC (Tusmada), muujinta emoticons, liiska hawsha (Task Map), @ (links)",
                 "Kelmadaha Taageero iyo HTML shaandhaynta tags iyo sifo",
-                "Taageerada Tex (expression cinjirka, KaTeX), Wabiyaalkii jaantuska jaantus oo isku xigxiga",
-                "Nidaam taageero farsamo Document Recovery",
-                "Taageer badan tafatirka isku mar, tiro aan xad lahayn"
+                "Taageerada Texas (latex ra'yi dhiibashada, Katex Inc.) Tusaha Taxan iyo jaantus isku xigxiga",
+                "Files Support farsamo kabashada",
+                "Taageerada tafatirka badan, tiro aan xad lahayn"
             ]
         },
         "UserReviews": {
-            "SectionName": "Wax dadka yaab leh oo ku saabsan MarkdownD",
+            "SectionName": "Sida loo qiimeeyo MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD waa cajiib. Simple. Nadiifi. Eebaha. Si wanaagsan baad yeeshay.",
+                    "reviewContent": "MarkdownD la yaab leh. Simple. Nadiifi. Kaamil ah. Xunna sameeyo.",
                     "userName": "evanw",
-                    "professional": "Technology Evangelist"
+                    "professional": "Technology Promotion"
                 },
                 {
-                    "reviewContent": "MarkdownD waa waxa aan soo jiidasho leh ayaa aad u dhan oo aan qoraal. Waa a app yar weyn.",
+                    "reviewContent": "MarkdownD waa waxa aan samayn ku dhawaad ​​qoraal ah oo dhan, Waayo, tani waa codsiga weyn yar.",
                     "userName": "Peter Bright",
-                    "professional": "Writer ee ARS Technica"
+                    "professional": "Qorayaasha ARS Technica ee"
                 },
                 {
-                    "reviewContent": "Haddii aad qabto wax xiiso ah in Markdown, MarkdownD xaqiiqo ah oo qiimihiisu yahay download a.",
-                    "userName": "LifeHacker",
-                    "professional": "Developer Web iyo Designer"
+                    "reviewContent": "Haddii aad qabto wax xiiso ah in qiimaha hoose, MarkdownD xaqiiqo ah oo qiimihiisu yahay download ah.",
+                    "userName": "Lifehacker ee",
+                    "professional": "Horumarinta Web iyo samaynta"
                 },
                 {
-                    "reviewContent": "Waan jeclahay MarkdownD, ayaa keenay badan raaxadeeda waxa aan u shaqo.",
+                    "reviewContent": "Waan jeclahay MarkdownD, ayaa keenay dhaw raaxadeeda waxa weyn; aan shaqada.",
                     "userName": "jeruss",
-                    "professional": "Developer PHP Framework"
+                    "professional": "Horumarinta qaab-dhismeedka PHP"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Version Number",
+        "labelVersion": "Release",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Go'an cayayaanka qaarkood."
+                        "content": "Khaladaad qaar ka mid ah go'an."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Go'an cayayaanka qaarkood."
+                        "content": "Khaladaad qaar ka mid ah go'an."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Marka hore sii daayay."
+                        "content": "Ayaa sii daayo hore."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Marka hore sii daayay."
+                        "content": "Ayaa sii daayo hore."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Version Number",
+        "labelVersion": "Release",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Buy Jidka",
+        "SectionName": "Sida loo iibso",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

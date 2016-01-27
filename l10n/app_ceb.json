@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "Homepage",
-        "Feature": "News",
-        "Documents": "Dokumento",
-        "ReleaseNotes": "ReleaseNotes",
+        "Home": "Home",
+        "Feature": "Features",
+        "Documents": "Online Tabang",
+        "ReleaseNotes": "Release Mubo nga mga sulat",
         "Downloads": "Free Trial",
-        "Buy": "Palita",
-        "Roadmap": "Roadmap",
-        "ReportIssue": "Report Isyu",
+        "Buy": "Pagpalit",
+        "Roadmap": "Product linya",
+        "ReportIssue": "Isumbong sa usa ka problema",
         "Languages": "Pinulongan"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Very mapuslanon nga App. Full-bahin editor. Windows, Linux, MacOSX.",
+        "ProjectTagline": "Full-bahin Markdown editor. Suporta alang sa Windows, Linux ug MacOSX operate nga sistema.",
         "BtnDownload": "Free Trial",
         "BtnBuy": "Pagpalit",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Main Features",
+            "SectionName": "Product nag-unang mga bahin",
             "list": [
-                "Support export sa pdf dokumento",
-                "Support print dokumento",
-                "Support standard Markdown / CommonMark ug GFM (GitHub Flavored Markdown)",
-                "Live preview nga suporta",
-                "Support ay nga teksto, code bloke, mga lamesa, code nga pagkiyugpos, pangitaa ug pulihan, daghang mga pinulongan, HTML kompaniya code syntax pagpasiugda",
-                "Support toc (Kaundan), Emoji ekspresyon, TaskLists (task mapa),Links (link)",
+                "Suportahi Export ingon PDF file",
+                "Suporta alang sa pag-imprinta sa mga dokumento",
+                "Nagpaluyo sa standard nga presyo / CommonMark ug GFM (GitHub ni Markdown)",
+                "Live Preview Support",
+                "Gisuportahan mga format sa text, code bloke, mga lamesa, code nga pagkiyugpos, pangitaa ug pulihan, multi-nga pinulongan, HTML kompaniya code syntax pagpasiugda",
+                "Support TOC (lamesa sa sulod), ang pagpahayag sa emoticons, ang task listahan (Task Mapa), @ (sumpay)",
                 "Support pagsusi sa kahulogan sa ug pagsala HTML tags ug sa mga hiyas",
-                "Support Tex (kumbal ekspresyon, KaTeX), modagayday diagram ug han-ay diagram",
-                "Support Dokumento Recovery mekanismo",
-                "Suportahi multiple dungan nga pag-usab, walay kutub nga gidaghanon"
+                "Support Texas (kumbal ekspresyon, Katex Inc.) flowcharts ug han-ay diagram",
+                "Support file recovery mechanism",
+                "Support multiple pag-edit, walay kutub nga gidaghanon"
             ]
         },
         "UserReviews": {
-            "SectionName": "Kahibulongan nga mga butang ang mga tawo nga nag-ingon mahitungod sa MarkdownD",
+            "SectionName": "Sa unsa nga paagi sa pagtimbang-timbang MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD mao ang makabungog. Yano. Clean. Hingpit. Maayo ang gibuhat.",
+                    "reviewContent": "MarkdownD talagsaon. Yano. Clean. Kahingpitan. Nicely gibuhat.",
                     "userName": "evanw",
-                    "professional": "Technology Ebanghelista"
+                    "professional": "Technology Promotion"
                 },
                 {
-                    "reviewContent": "MarkdownD mao ang akong ginabuhat pretty daghan ang tanan sa akong pagsulat diha sa. Kini usa ka dako nga gamay nga app.",
+                    "reviewContent": "MarkdownD mao ang akong ginabuhat hapit tanan nga akong pagsulat, kini mao ang usa ka dako nga gamay nga aplikasyon.",
                     "userName": "Pedro Bright",
-                    "professional": "Magsusulat sa Ars Technica"
+                    "professional": "Ars Technica ni magsusulat"
                 },
                 {
-                    "reviewContent": "Kon kamo adunay bisan unsa nga interes sa Markdown, MarkdownD mao ang siguradong ang usa ka bili download.",
-                    "userName": "LifeHacker",
-                    "professional": "Web Developer ug Tigdisenyo"
+                    "reviewContent": "Kon kamo adunay bisan unsa nga interes sa ubos nga presyo, MarkdownD mao ang siguradong nga bili sa mga download.",
+                    "userName": "Lifehacker ni",
+                    "professional": "Web developers ug mga designers"
                 },
                 {
-                    "reviewContent": "Ako gayud sama sa MarkdownD, nagdala sa daghan nga kasayon ​​alang sa akong buhat.",
+                    "reviewContent": "Ako gayud sama sa MarkdownD, nagdala sa dakung kasayon; sa akong buhat.",
                     "userName": "jeruss",
-                    "professional": "PHP Framework Developer"
+                    "professional": "PHP framework development"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Version Number",
+        "labelVersion": "Release",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Lig-on sa pipila ka mga bugs."
+                        "content": "Lig-on ang pipila ka mga sayop."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Lig-on sa pipila ka mga bugs."
+                        "content": "Lig-on ang pipila ka mga sayop."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Una nga gipagawas."
+                        "content": "Ang unang release."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Una nga gipagawas."
+                        "content": "Ang unang release."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Version Number",
+        "labelVersion": "Release",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Buy Way",
+        "SectionName": "Unsaon Buy",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

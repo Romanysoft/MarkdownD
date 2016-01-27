@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "მთავარი გვერდი",
-        "Feature": "მხატვრული",
-        "Documents": "დოკუმენტები",
+        "Home": "მთავარი",
+        "Feature": "მახასიათებლები",
+        "Documents": "ონლაინ დახმარება",
         "ReleaseNotes": "გამოშვების შენიშვნები",
-        "Downloads": "უფასო ცდა",
-        "Buy": "ყიდვა",
-        "Roadmap": "საგზაო რუკა",
-        "ReportIssue": "ანგარიში Issue",
+        "Downloads": "უფასო Trial",
+        "Buy": "ნასყიდობის",
+        "Roadmap": "პროდუქციის ხაზი",
+        "ReportIssue": "პრობლემის",
         "Languages": "ენა"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "ძალიან სასარგებლო ოთახი. სრული გამორჩეული რედაქტორი. Windows, Linux, MacOSX.",
-        "BtnDownload": "უფასო ცდა",
-        "BtnBuy": "შესყიდვა",
+        "ProjectTagline": "სრული გამორჩეული Markdown რედაქტორი. მხარდაჭერა Windows, Linux და MacOSX ოპერაციული სისტემები.",
+        "BtnDownload": "უფასო Trial",
+        "BtnBuy": "ნასყიდობის",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "ძირითადი მახასიათებლები",
+            "SectionName": "პროდუქტის ძირითადი მახასიათებლები",
             "list": [
-                "მხარდაჭერა ექსპორტის pdf დოკუმენტი",
-                "მხარდაჭერა ბეჭდვა დოკუმენტი",
-                "მხარდაჭერა სტანდარტული Markdown / CommonMark და GFM (GitHub Flavored Markdown)",
-                "Live გადახედვისას მხარდაჭერა",
-                "მხარდაჭერა ტექსტი კოდი ბლოკები, მაგიდები, კოდი დასაკეცი, ძიება და შეცვლა, სხვადასხვა ენებზე, HTML პირი კოდი სინტაქსის შეფერადება",
-                "მხარდაჭერა Toc (სარჩევი), სიცილაკები გამოხატვის, TaskLists (ამოცანაა რუკა),Links (ლინკები)",
+                "მხარდაჭერა ექსპორტი როგორც PDF ფაილი",
+                "მხარდაჭერა ბეჭდვა დოკუმენტები",
+                "მხარს უჭერს სტანდარტული ფასი / CommonMark და GFM (GitHub ის Markdown)",
+                "Live Preview მხარდაჭერა",
+                "მხარდაჭერილი ფორმატები ტექსტი, კოდი ბლოკები, მაგიდები, კოდი დასაკეცი, ძიება და შეცვლა, მრავალ ენაზე, HTML პირი კოდი სინტაქსის შეფერადება",
+                "მხარდაჭერა TOC (სარჩევი), გამოხატვის სმაილიკების, ამოცანა სია (სამუშაო Map), @ (← ბმულები)",
                 "მხარდაჭერა დეკოდირების და გაფილტრის HTML ტეგები და ატრიბუტები",
-                "მხარდაჭერა Tex (LaTex გამოხატვის, KaTeX), დიაგრამაზე და თანმიმდევრობით გრაფიკაზე",
-                "მხარდაჭერა დოკუმენტის აღდგენა მექანიზმი",
-                "მხარდაჭერა მრავალჯერადი ერთდროულად რედაქტირება, შეუზღუდავი რაოდენობის"
+                "მხარდაჭერა Texas (latex გამოხატვის, Katex Inc.) სქემების და დიაგრამები თანმიმდევრობა",
+                "მხარდაჭერა ფაილი აღდგენა მექანიზმი",
+                "მხარდაჭერა მრავალჯერადი მონტაჟი, შეუზღუდავი რაოდენობის"
             ]
         },
         "UserReviews": {
-            "SectionName": "მშვენიერი რამ ამბობს ხალხი MarkdownD",
+            "SectionName": "როგორ აფასებენ MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD არის განსაცვიფრებელი. მარტივი. სუფთა. სრულყოფილი. მშვენიერია.",
+                    "reviewContent": "MarkdownD არის საოცარი. მარტივი. სუფთა. სრულყოფა. ლამაზად კეთდება.",
                     "userName": "evanw",
-                    "professional": "ტექნიკა მახარებელი"
+                    "professional": "ტექნიკა ხელშეწყობის"
                 },
                 {
-                    "reviewContent": "MarkdownD არის რა გავაკეთო საკმაოდ ბევრი ყველა ჩემი წერის. ეს არის დიდი პატარა ოთახი.",
+                    "reviewContent": "MarkdownD არის ის, რაც მე თითქმის ყველა ჩემი წერა, ეს არის დიდი პატარა პროგრამა.",
                     "userName": "პიტერ Bright",
-                    "professional": "მწერალი Ars ტექნიკა"
+                    "professional": "Ars ტექნიკა მწერლები"
                 },
                 {
-                    "reviewContent": "თუ თქვენ გაქვთ რაიმე ინტერესი Markdown, MarkdownD ნამდვილად ღირს ჩამოტვირთვა.",
-                    "userName": "Lifehacker",
-                    "professional": "ვებ დეველოპერი და დიზაინერი"
+                    "reviewContent": "თუ თქვენ გაქვთ რაიმე ინტერესი უფრო დაბალი ფასები, MarkdownD ნამდვილად ღირს ჩამოტვირთვა.",
+                    "userName": "Lifehacker ს",
+                    "professional": "ვებ დეველოპერები და დიზაინერები"
                 },
                 {
-                    "reviewContent": "მე ნამდვილად მინდა MarkdownD, მოიტანა ბევრი ფონდის ჩემი მუშაობა.",
+                    "reviewContent": "მე ნამდვილად მინდა MarkdownD, მოიტანა დიდი მოხერხებულობით, ჩემი მუშაობა.",
                     "userName": "jeruss",
-                    "professional": "PHP ჩარჩო დეველოპერი"
+                    "professional": "PHP ფარგლებში განვითარების"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "ვერსია ნომერი",
+        "labelVersion": "გამოსვლის",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "ფიქსირებული რამდენიმე შეცდომებს."
+                        "content": "ფიქსირებული ზოგიერთი შეცდომები."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "ფიქსირებული რამდენიმე შეცდომებს."
+                        "content": "ფიქსირებული ზოგიერთი შეცდომები."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "პირველი გამოვიდა."
+                        "content": "პირველი გათავისუფლებას."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "პირველი გამოვიდა."
+                        "content": "პირველი გათავისუფლებას."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "ვერსია ნომერი",
+        "labelVersion": "გამოსვლის",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "ყიდვა Way",
+        "SectionName": "როგორ ვიყიდოთ",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

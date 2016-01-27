@@ -1,19 +1,19 @@
 {
     "TopBar": {
-        "Home": "HomePage",
-        "Feature": "Ерекшелік",
-        "Documents": "Құжаттар",
-        "ReleaseNotes": "ReleaseNotes",
-        "Downloads": "Тегін байқама версиясы",
-        "Buy": "Сатып",
-        "Roadmap": "Жол картасы",
-        "ReportIssue": "Есеп шығару",
+        "Home": "Үй",
+        "Feature": "Ерекшеліктері",
+        "Documents": "Онлайн анықтама",
+        "ReleaseNotes": "Release Notes",
+        "Downloads": "Тегін Trial",
+        "Buy": "Сатып алу",
+        "Roadmap": "Өнім желісі",
+        "ReportIssue": "Мәселе туралы хабарлау",
         "Languages": "Тіл"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Өте пайдалы App. Толық функционалды редакторы. Windows, Linux, MacOSX.",
-        "BtnDownload": "Тегін байқама версиясы",
+        "ProjectTagline": "Толық функционалды шамасы редакторы. Windows, Linux және MacOSX операциялық жүйелері үшін қолдау.",
+        "BtnDownload": "Тегін Trial",
         "BtnBuy": "Сатып алу",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Басты ерекшеліктері",
+            "SectionName": "Өнім негізгі белгілері",
             "list": [
-                "PDF құжатқа экспортты қолдау",
-                "Қолдау Басып шығару құжат",
-                "Стандартты шамасы / CommonMark және ОМФ (GitHub Иістендірілген шамасы) қолдау",
-                "Live алдын ала қарау қолдауы",
-                "Қолдау пішімделген мәтін, коды блоктар, кестелер, код жиналмалы, іздеу және ауыстыру, бірнеше тілдерді, HTML кәсіпорын коды синтаксисті бояулауы",
-                "Қолдау Toc (Мазмұны), Emoji өрнек, TaskLists (міндет картасы),Links (сілтеме)",
+                "PDF файлы ретінде экспортты қолдау",
+                "Құжаттарды басып шығару үшін қолдау",
+                "Стандартты бағасы / CommonMark және ОМФ (GitHub ның шамасы) қолдайды",
+                "Live Preview Қолдау",
+                "Мәтін, блоктарды код, кестелер, Коджолдарынбүктеу, іздеу және ауыстыру, көп тілді, HTML кәсіпорын коды синтаксисті бояулауы-ның Қолданылатын пішімдер",
+                "Қолдау TOC (мазмұны), Смайликтер өрнек, Тапсырма тізімі (Тапсырма картасы), @ (← сілтемелер)",
                 "Декодтау және сүзу HTML тегтер мен атрибуттар қолдау",
-                "Қолдау Tex (латекс өрнек, KaTeX), блок-схемасы және реттілігі диаграмма",
-                "Құжат қалпына келтіру механизміне қолдау",
-                "Бір мезгілде бірнеше өңдеу қолдауымен, шексіз саны"
+                "Қолдау Техас (латекс өрнек, Katex Inc.) графикалық схемалар мен дәйектілігі диаграммалар",
+                "Қолдау файлдар қалпына келтіру механизмі",
+                "Бірнеше редакциялау, шексіз санын қолдау"
             ]
         },
         "UserReviews": {
-            "SectionName": "Тамаша заттар адам MarkdownD туралы айтқан",
+            "SectionName": "MarkdownD бағалауға қалай",
             "list": [
                 {
-                    "reviewContent": "MarkdownD таңғаларлық болып табылады. Қарапайым. Таза. Perfect. Жарайсың.",
+                    "reviewContent": "MarkdownD ғажайып. Қарапайым. Таза. Жетілдіру. Жақсы жасаған.",
                     "userName": "evanw",
-                    "professional": "Технология Evangelist"
+                    "professional": "Технология Promotion"
                 },
                 {
-                    "reviewContent": "MarkdownD Мен өте көп барлық менің жазу не істеу болып табылады. Бұл үлкен аздап бағдарлама бар.",
+                    "reviewContent": "MarkdownD Мен барлық дерлік менің жазу не істеу, бұл үлкен кішкентай қолдану болып табылады.",
                     "userName": "Питер Bright",
-                    "professional": "Ars Technica кезінде жазушы"
+                    "professional": "Ars Technica Жазушылар"
                 },
                 {
-                    "reviewContent": "Сіз Markdown белгісіне кез келген қызығушылық болса, MarkdownD сөзсіз жүктеу тұр.",
-                    "userName": "Lifehacker",
-                    "professional": "Web Developer және Designer"
+                    "reviewContent": "Сіз төменгі бағаның кез келген қызығушылық болса, MarkdownD сөзсіз жүктеу тұр.",
+                    "userName": "Lifehacker ның",
+                    "professional": "Веб әзірлеушілер мен дизайнерлер"
                 },
                 {
-                    "reviewContent": "Мен шынында MarkdownD сияқты, менің жұмыс үшін көп ыңғайлы әкелді.",
+                    "reviewContent": "Мен шынында MarkdownD сияқты, үлкен қолайлылық әкелді; менің жұмысын.",
                     "userName": "jeruss",
-                    "professional": "PHP Негіздемелік Әзірлеуші"
+                    "professional": "PHP база дамыту"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Version саны",
+        "labelVersion": "Босату",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Кейбір қателер."
+                        "content": "Кейбір қателерді Fixed."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Кейбір қателер."
+                        "content": "Кейбір қателерді Fixed."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Бірінші шығарды."
+                        "content": "Бірінші релизі."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Бірінші шығарды."
+                        "content": "Бірінші релизі."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Version саны",
+        "labelVersion": "Босату",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Жол Сатып",
+        "SectionName": "Қалай сатып",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

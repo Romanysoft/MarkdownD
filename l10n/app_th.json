@@ -1,19 +1,19 @@
 {
     "TopBar": {
-        "Home": "โฮมเพจ",
+        "Home": "บ้าน",
         "Feature": "คุณสมบัติ",
-        "Documents": "เอกสาร",
-        "ReleaseNotes": "ReleaseNotes",
-        "Downloads": "ทดลองฟรี",
+        "Documents": "ช่วยเหลือแบบออนไลน์",
+        "ReleaseNotes": "หมายเหตุรีลีส",
+        "Downloads": "ทดลองใช้ฟรี",
         "Buy": "ซื้อ",
-        "Roadmap": "RoadMap",
-        "ReportIssue": "รายงานฉบับ",
+        "Roadmap": "สายผลิตภัณฑ์",
+        "ReportIssue": "รายงานปัญหา",
         "Languages": "ภาษา"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "App ที่มีประโยชน์มาก บรรณาธิการเต็มรูปแบบ Windows, Linux, MacOSX",
-        "BtnDownload": "ทดลองฟรี",
+        "ProjectTagline": "บรรณาธิการ Markdown เต็มรูปแบบ การสนับสนุนสำหรับ Windows, Linux และระบบปฏิบัติการ MacOSX",
+        "BtnDownload": "ทดลองใช้ฟรี",
         "BtnBuy": "ซื้อ",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "คุณสมบัติหลัก",
+            "SectionName": "คุณสมบัติหลักสินค้า",
             "list": [
-                "สนับสนุนการส่งออกไปยังเอกสารไฟล์ PDF",
-                "การสนับสนุนการพิมพ์เอกสาร",
-                "สนับสนุนมาตรฐาน Markdown / CommonMark และ GFM (GitHub รส Markdown)",
-                "การสนับสนุนการแสดงตัวอย่างสด",
-                "สนับสนุนการจัดรูปแบบข้อความบล็อกรหัสตารางพับโค้ด, การค้นหาและแทนที่หลายภาษา HTML นิติบุคคลรหัสเน้นไวยากรณ์",
-                "สนับสนุน Toc (สารบัญ) การแสดงออก Emoji, tasklists (งานแผนที่) @Links (ลิงค์)",
+                "สนับสนุนการส่งออกเป็นไฟล์ PDF",
+                "การสนับสนุนสำหรับการพิมพ์เอกสาร",
+                "รองรับราคามาตรฐาน / CommonMark และ GFM (Markdown GitHub ของ)",
+                "สดการสนับสนุนการแสดงตัวอย่าง",
+                "รูปแบบที่สนับสนุนข้อความบล็อกรหัสตารางพับโค้ด, การค้นหาและแทนที่หลายภาษา HTML นิติบุคคลรหัสเน้นไวยากรณ์",
+                "สนับสนุน TOC (สารบัญ) การแสดงออกของอีโมติคอน, รายการงาน (Task แผนที่) @ (ลิงก์)",
                 "ถอดรหัสการสนับสนุนและการกรองแท็กและคุณลักษณะ",
-                "สนับสนุนเท็กซ์ (การแสดงออกน้ำยาง, KaTeX) แผนภาพการไหลและแผนภาพลำดับ",
-                "การสนับสนุนกลไกการกู้คืนเอกสาร",
-                "สนับสนุนการแก้ไขหลาย ๆ พร้อมกันได้ไม่ จำกัด จำนวน"
+                "สนับสนุนเท็กซัส (การแสดงออกยาง Katex อิงค์) ผังงานและไดอะแกรมลำดับ",
+                "สนับสนุนไฟล์กลไกการกู้คืน",
+                "สนับสนุนการแก้ไขหลายไม่ จำกัด จำนวน"
             ]
         },
         "UserReviews": {
-            "SectionName": "สิ่งที่ยอดเยี่ยมที่ผู้คนพูดเกี่ยวกับ MarkdownD",
+            "SectionName": "วิธีการประเมิน MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD เป็นที่น่าทึ่ง ที่เรียบง่าย สะอาด ที่สมบูรณ์แบบ ทำได้ดี.",
+                    "reviewContent": "MarkdownD เป็นที่น่าตื่นตาตื่นใจ ที่เรียบง่าย สะอาด ความสมบูรณ์แบบ ทำอย่าง",
                     "userName": "evanw",
-                    "professional": "เทคโนโลยีศาสนา"
+                    "professional": "โปรโมชั่นเทคโนโลยี"
                 },
                 {
-                    "reviewContent": "MarkdownD คือสิ่งที่ผมทำสวยมากทั้งหมดของการเขียนของฉันใน. มันเป็น app น้อยมาก",
+                    "reviewContent": "MarkdownD คือสิ่งที่ผมทำเกือบทั้งหมดเขียนของฉันนี้เป็นโปรแกรมที่มีน้อยมาก",
                     "userName": "ปีเตอร์สดใส",
-                    "professional": "นักเขียนที่ Ars Technica"
+                    "professional": "Ars Technica ของนักเขียน"
                 },
                 {
-                    "reviewContent": "หากคุณมีความสนใจใน Markdown, MarkdownD เป็นมั่นเหมาะมูลค่าการดาวน์โหลด",
-                    "userName": "LifeHacker",
-                    "professional": "นักพัฒนาเว็บและการออกแบบ"
+                    "reviewContent": "หากคุณมีความสนใจในราคาที่ต่ำกว่าใด ๆ MarkdownD เป็นมั่นเหมาะมูลค่าการดาวน์โหลด",
+                    "userName": "Lifehacker ของ",
+                    "professional": "นักพัฒนาเว็บและนักออกแบบ"
                 },
                 {
-                    "reviewContent": "ผมชอบ MarkdownD ได้นำความสะดวกสบายมากสำหรับการทำงานของฉัน",
+                    "reviewContent": "ผมชอบ MarkdownD ได้นำความสะดวกสบายที่ดีการทำงานของฉัน",
                     "userName": "jeruss",
-                    "professional": "PHP กรอบพัฒนา"
+                    "professional": "PHP การพัฒนากรอบ"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "จำนวนรุ่น",
+        "labelVersion": "ที่วางจำหน่าย",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "แก้ไขข้อบกพร่องบางอย่าง"
+                        "content": "คงข้อผิดพลาดบาง"
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "แก้ไขข้อบกพร่องบางอย่าง"
+                        "content": "คงข้อผิดพลาดบาง"
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "เปิดตัวครั้งแรก"
+                        "content": "รุ่นแรก"
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "เปิดตัวครั้งแรก"
+                        "content": "รุ่นแรก"
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "จำนวนรุ่น",
+        "labelVersion": "ที่วางจำหน่าย",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "วิธีซื้อ",
+        "SectionName": "วิธีการซื้อ",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

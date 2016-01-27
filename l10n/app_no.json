@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "Homepage",
-        "Feature": "Trekk",
-        "Documents": "Dokumenter",
-        "ReleaseNotes": "Versjonsmerknadene",
+        "Home": "Hjem",
+        "Feature": "Funksjoner",
+        "Documents": "Online Hjelp",
+        "ReleaseNotes": "Release Notes",
         "Downloads": "Gratis prøveversjon",
-        "Buy": "Kjøpe",
-        "Roadmap": "Veikart",
-        "ReportIssue": "Rapporter Issue",
+        "Buy": "Kjøp",
+        "Roadmap": "Produktlinje",
+        "ReportIssue": "Rapporter et problem",
         "Languages": "Språk"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Veldig nyttig App. Fullverdig editor. Windows, Linux, MacOSX.",
+        "ProjectTagline": "Fullfunksjons Markdown editor. Støtte for Windows, Linux og MacOSX operativsystemer.",
         "BtnDownload": "Gratis prøveversjon",
-        "BtnBuy": "Kjøpe",
+        "BtnBuy": "Kjøp",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Hovedtrekkene",
+            "SectionName": "Produkthovedtrekkene",
             "list": [
-                "Support eksport til pdf-dokument",
-                "Support print dokument",
-                "Support standard Markdown / CommonMark og GFM (GitHub Flavored Markdown)",
-                "Levende forhåndsvisning støtte",
-                "Support formatert tekst, kodeblokker, tabeller, kode folding, søk og erstatt, flere språk, HTML enhet kode syntax highlighting",
-                "Support Toc (innholdsfortegnelse), Emoji uttrykk, TaskLists (oppgave kartet),Links (link)",
+                "Støtte Eksporter som PDF-fil",
+                "Støtte for utskrift av dokumenter",
+                "Støtter standard pris / CommonMark og GFM (GitHub er Markdown)",
+                "Live Preview Support",
+                "Støttede formater av tekst, kodeblokker, tabeller, kode folding, søk og erstatt, multi-språk, HTML enhet kode syntax highlighting",
+                "Support TOC (innholdsfortegnelse), uttrykk for uttrykksikoner, oppgavelisten (Oppgave Map), @ (lenker)",
                 "Støtte dekoding og filtrering HTML-koder og attributter",
-                "Support Tex (LaTex uttrykk, KaTeX), flytdiagram og sekvensdiagram",
-                "Support Document Recovery Mechanism",
-                "Støtte for flere samtidige redigering, ubegrenset antall"
+                "Support Texas (latex uttrykk, Katex Inc.) flytskjemaer og sekvensdiagrammer",
+                "Støttefiler utvinning mekanisme",
+                "Støtte for flere redigering, ubegrenset antall"
             ]
         },
         "UserReviews": {
-            "SectionName": "Fantastiske ting folk sier om MarkdownD",
+            "SectionName": "Hvordan evaluere MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD er fantastisk. Enkel. Rengjøre. Perfekt. Bra gjort.",
+                    "reviewContent": "MarkdownD er fantastisk. Enkel. Clean. Perfeksjon. Pent gjort.",
                     "userName": "evanw",
-                    "professional": "Technology Evangelist"
+                    "professional": "Technology Promotion"
                 },
                 {
-                    "reviewContent": "MarkdownD er hva jeg gjør stort sett alle mine skrive i. Det er en flott liten app.",
+                    "reviewContent": "MarkdownD er hva jeg gjør nesten all skrivingen min, dette er et flott lite program.",
                     "userName": "Peter Bright",
-                    "professional": "Skribent på Ars Technica"
+                    "professional": "Ars Technica forfattere"
                 },
                 {
-                    "reviewContent": "Hvis du har noen interesse i Markdown, er MarkdownD definitivt verdt en nedlasting.",
-                    "userName": "Lifehacker",
-                    "professional": "Web Developer og Designer"
+                    "reviewContent": "Hvis du har noen interesse i lavere priser, er MarkdownD definitivt verdt nedlastingen.",
+                    "userName": "Lifehacker s",
+                    "professional": "Webutviklere og designere"
                 },
                 {
-                    "reviewContent": "Jeg liker MarkdownD, har brakt mye praktisk for mitt arbeid.",
+                    "reviewContent": "Jeg liker MarkdownD, har brakt stor anvendelighet, arbeidet mitt.",
                     "userName": "jeruss",
-                    "professional": "PHP Framework Developer"
+                    "professional": "PHP rammeverk utvikling"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Versjonsnummer",
+        "labelVersion": "Utgivelse",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fikset noen bugs."
+                        "content": "Fikset noen feil."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fikset noen bugs."
+                        "content": "Fikset noen feil."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Først utgitt."
+                        "content": "Den første utgivelsen."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Først utgitt."
+                        "content": "Den første utgivelsen."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Versjonsnummer",
+        "labelVersion": "Utgivelse",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Kjøp Way",
+        "SectionName": "Hvordan kjøpe",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

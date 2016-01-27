@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "Pàgina d'Inici",
-        "Feature": "Característica",
-        "Documents": "Documents",
-        "ReleaseNotes": "Releasenotes",
+        "Home": "Inici",
+        "Feature": "Característiques",
+        "Documents": "Ajuda en línia",
+        "ReleaseNotes": "Notes de la versió",
         "Downloads": "Prova gratuïta",
         "Buy": "Compra",
-        "Roadmap": "RoadMap",
-        "ReportIssue": "Informe de Qüestions",
+        "Roadmap": "Línia de productes",
+        "ReportIssue": "Assenyalar una anomalia",
         "Languages": "Idioma"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Aplicació molt útil. Editor complet destacats. Windows, Linux, MacOSX.",
+        "ProjectTagline": "Editor de Markdown amb totes les funcions. Suport per a sistemes operatius Windows, Linux i MacOSX.",
         "BtnDownload": "Prova gratuïta",
         "BtnBuy": "Compra",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Principals característiques",
+            "SectionName": "Característiques principals del producte",
             "list": [
-                "Suport a l'exportació a document pdf",
-                "Document d'impressió Suport",
-                "Markdown estàndard Suport / CommonMark i GFM (GitHub sabors Markdown)",
-                "El suport de vista prèvia en viu",
-                "Suport text amb format, els blocs de codi, taules, plegat de codi, buscar i reemplaçar, múltiples idiomes, HTML entitat sintaxi ressaltat de codi",
-                "Suport Toc (Taula de continguts), l'expressió Emoji, llistes de tasques (mapa de tasques), Links (enllaç)",
+                "Donar suport Exporta com a fitxer PDF",
+                "Suport per a la impressió de documents",
+                "Suporta preu estàndard / CommonMark i GFM (Markdown de GitHub)",
+                "Suport Live Preview",
+                "Formats suportats de text, blocs de codi, taules, plegat de codi, buscar i reemplaçar, en diversos idiomes, ressaltat de sintaxi HTML codi entitat",
+                "Suport TOC (taula de continguts), l'expressió d'emoticones, la llista de tasques (mapa de tasques), @ (links)",
                 "Descodificació Suport i HTML filtrat etiquetes i atributs",
-                "Suport Tex (expressió de làtex, Katex), diagrama de flux diagrama i seqüència",
-                "Mecanisme de Suport Recuperació de documents",
-                "Suport a l'edició simultània múltiple, nombre il·limitat"
+                "Suport de Texas (expressió de làtex, Katex Inc.) diagrames de flux i diagrames de seqüència",
+                "Els arxius de suport del mecanisme de recuperació",
+                "Edició de múltiples textuals, nombre il·limitat"
             ]
         },
         "UserReviews": {
-            "SectionName": "Coses meravelloses diu la gent sobre MarkdownD",
+            "SectionName": "Com avaluar MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD és impressionant. Simple. Net. Perfecte. Ben fet.",
+                    "reviewContent": "MarkdownD és increïble. Simple. Net. Perfecció. Ben fet.",
                     "userName": "evanw",
-                    "professional": "Tecnologia Evangelista"
+                    "professional": "Promoció de la Tecnologia"
                 },
                 {
-                    "reviewContent": "MarkdownD és el que faig gairebé tot de la meva escriptura. És un petit gran aplicació.",
+                    "reviewContent": "MarkdownD és el que faig gairebé tots els meus escrits, aquest és un petit gran aplicació.",
                     "userName": "Peter Bright",
-                    "professional": "Escriptor a Ars Technica"
+                    "professional": "Escriptors d'Ars Technica"
                 },
                 {
-                    "reviewContent": "Si vostè té algun interès en Markdown, MarkdownD és definitivament val la pena una descàrrega.",
-                    "userName": "Lifehacker",
-                    "professional": "Web Developer i Dissenyador"
+                    "reviewContent": "Si vostè té algun interès en els preus més baixos, MarkdownD és definitivament val la pena la descàrrega.",
+                    "userName": "Lifehacker de",
+                    "professional": "Els desenvolupadors web i dissenyadors"
                 },
                 {
-                    "reviewContent": "M'agrada molt MarkdownD, ha portat molta conveniència per al meu treball.",
+                    "reviewContent": "M'agrada molt MarkdownD, ha portat una gran comoditat, el meu treball.",
                     "userName": "jeruss",
-                    "professional": "PHP Framework"
+                    "professional": "Desenvolupament framework PHP"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Número de versió",
+        "labelVersion": "Llançament",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -174,19 +183,42 @@
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Llançat per primera vegada."
+                        "content": "El primer llançament."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Llançat per primera vegada."
+                        "content": "El primer llançament."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Número de versió",
+        "labelVersion": "Llançament",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Comprar Làctia",
+        "SectionName": "Com Comprar",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

@@ -1,19 +1,19 @@
 {
     "TopBar": {
-        "Home": "Faqja nuk",
-        "Feature": "Tipar",
-        "Documents": "Dokumentet",
-        "ReleaseNotes": "ReleaseNotes",
-        "Downloads": "Prove falas",
-        "Buy": "Blej",
-        "Roadmap": "Udhërrëfyesi",
-        "ReportIssue": "Raporti Issue",
+        "Home": "Shtëpi",
+        "Feature": "Karakteristika",
+        "Documents": "Ndihmë Online",
+        "ReleaseNotes": "Shënime Versioni",
+        "Downloads": "Free Trial",
+        "Buy": "Blerje",
+        "Roadmap": "Programi i prodhimit",
+        "ReportIssue": "Raporto një problem",
         "Languages": "Gjuhë"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "App shumë të dobishme. Editor të plotë me tipare. Windows, Linux, MacOSX.",
-        "BtnDownload": "Prove falas",
+        "ProjectTagline": "Të plotë me tipare editor Markdown. Mbështetje për Windows, Linux dhe MacOSX sistemet operative.",
+        "BtnDownload": "Free Trial",
         "BtnBuy": "Blerje",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Karakteristikat kryesore",
+            "SectionName": "Produktit karakteristika kryesore",
             "list": [
-                "Eksportit Mbështetje për pdf dokument",
-                "Mbështetja e printimit të dokumentit",
-                "Mbështetje Markdown standarde / CommonMark dhe GFM (GitHub Salcë Markdown)",
-                "Mbështetje të jetojnë preview",
-                "Mbështetje tekstin e formatuar, blloqe kodi, tavolina, palosshme kod, kërko dhe të zëvendësojë, shumë gjuhë, HTML entitet kodin theksim i sintaksës",
-                "Mbështetje Toc (Përmbajtja), shprehje Emoji, TaskLists (harta detyrë),Links (link)",
+                "Mbështetjen e eksportit si PDF",
+                "Mbështetje për të printuar dokumente",
+                "Mbështet Çmimi standard / CommonMark dhe GFM (Markdown GitHub s)",
+                "Live Support Preview",
+                "Formatet e mbështetura të tekstit, blloqe kodi, tavolina, palosshme Kodi, kërko dhe të zëvendësojë, multi-gjuhë, duke theksuar HTML kod entitet sintaksë",
+                "Mbështetje TOC (tabela e përmbajtjes), shprehja e figurinave, lista detyrë (Task Map), @ (lidhje)",
                 "Mbështetje deshifrim dhe HTML filtrim tags dhe atributet",
-                "Mbështetje Tex (shprehje latex, KaTeX), rrjedhin diagram dhe rend diagram",
-                "Mbështetje Dokumenti Rimëkëmbjes Mekanizmi",
-                "Mbështetur redaktimi shumta të njëkohshme, numër të pakufizuar"
+                "Mbështetje Texas (shprehje latex, Katex Inc.) flowcharts dhe diagramet rend",
+                "Mbështetje fotografi mekanizëm shërim",
+                "Mbështetje redaktimi shumta, numër të pakufizuar"
             ]
         },
         "UserReviews": {
-            "SectionName": "Gjëra të mrekullueshme njerëzit janë duke thënë se për MarkdownD",
+            "SectionName": "Si për të vlerësuar MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD është mahnitëse. Simple. Të pastër. Përsosur. Të lumtë.",
+                    "reviewContent": "MarkdownD është e mahnitshme. Simple. Të pastër. Përsosmëri. Bërë mirë.",
                     "userName": "evanw",
-                    "professional": "Teknologji Ungjillori"
+                    "professional": "Teknologji Promovimi"
                 },
                 {
-                    "reviewContent": "MarkdownD është ajo që unë bëj shumë e shumë të gjithë e të shkruarit tim në. Kjo është një app madhe pak.",
+                    "reviewContent": "MarkdownD është ajo që unë bëj pothuajse të gjithë shkrimin tim, kjo është një kërkesë e madhe pak.",
                     "userName": "Peter Bright",
-                    "professional": "Writer në Ars Technica"
+                    "professional": "Shkrimtarë Ars Technica-së"
                 },
                 {
-                    "reviewContent": "Nëse keni ndonjë interes në markdown, MarkdownD është padyshim një vlerë shkarko.",
-                    "userName": "Lifehacker",
-                    "professional": "Web Developer dhe Designer"
+                    "reviewContent": "Nëse keni ndonjë interes në çmime më të ulëta, MarkdownD është definitivisht vlen shkarko.",
+                    "userName": "Lifehacker-së",
+                    "professional": "Hartuesit Web dhe designers"
                 },
                 {
-                    "reviewContent": "I really like MarkdownD, ka sjellë shumë lehtësi për punën time.",
+                    "reviewContent": "I really like MarkdownD, ka sjellë komoditet të madh, punën time.",
                     "userName": "jeruss",
-                    "professional": "PHP Korniza Zhvilluesish"
+                    "professional": "Zhvillimi i korniza PHP"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Version Numër",
+        "labelVersion": "Lirim",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fixed disa bugs."
+                        "content": "Fixed disa gabime."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fixed disa bugs."
+                        "content": "Fixed disa gabime."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Lirua të parë."
+                        "content": "Lirimin e parë."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Lirua të parë."
+                        "content": "Lirimin e parë."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Version Numër",
+        "labelVersion": "Lirim",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Blej Way",
+        "SectionName": "Si për të blerë",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "হোমপেজে",
+        "Home": "বাড়ি",
         "Feature": "বৈশিষ্ট্য",
-        "Documents": "কাগজপত্র",
-        "ReleaseNotes": "অব্যাহতি পত্র",
+        "Documents": "অনলাইন সহায়তা",
+        "ReleaseNotes": "রিলিজ নোট",
         "Downloads": "ফ্রি ট্রায়াল",
-        "Buy": "কিনুন",
-        "Roadmap": "রোডম্যাপ",
-        "ReportIssue": "রিপোর্ট ইস্যু",
+        "Buy": "ক্রয়",
+        "Roadmap": "প্রোডাক্ট লাইন",
+        "ReportIssue": "একটি সমস্যার প্রতিবেদন লিখুন",
         "Languages": "ভাষা"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "অত্যন্ত দরকারী অ্যাপ্লিকেশন. সম্পাদক সম্পূর্ণ বৈশিষ্ট্যযুক্ত. উইন্ডোজ, লিনাক্স, MacOSX.",
+        "ProjectTagline": "সম্পূর্ণ বৈশিষ্ট্যযুক্ত Markdown এডিটর. উইন্ডোজ, লিনাক্স এবং MacOSX অপারেটিং সিস্টেমের জন্য সমর্থন.",
         "BtnDownload": "ফ্রি ট্রায়াল",
         "BtnBuy": "ক্রয়",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "মূল বৈশিষ্টগুলো",
+            "SectionName": "পণ্য প্রধান বৈশিষ্ট্য",
             "list": [
-                "পিডিএফ ফাইলটি থেকে সমর্থন রপ্তানি",
-                "সহায়তা মুদ্রণ নথি",
-                "সাপোর্ট স্ট্যান্ডার্ড Markdown / CommonMark এবং GFM (গিটহাব দান Markdown)",
+                "পিডিএফ ফাইল হিসাবে রপ্তানি সমর্থন",
+                "ছাপানো নথি জন্য সমর্থন",
+                "সমর্থন স্ট্যান্ডার্ড মূল্য / CommonMark এবং GFM (গিটহাব এর Markdown)",
                 "লাইভ প্রিভিউ সমর্থন",
-                "সাপোর্ট ফরম্যাট টেক্সট, কোড ব্লক, টেবিল, কোড ফোল্ডিং, অনুসন্ধান ও প্রতিস্থাপন, একাধিক ভাষা, HTML সত্তা কোড সিনট্যাক্স হাইলাইটিং",
-                "সাপোর্ট Toc (সূচীপত্র), ইমোজি অভিব্যক্তি, TaskLists (টাস্ক মানচিত্র),Links (লিংক)",
+                "লেখার সমর্থিত বিন্যাসের, কোড ব্লক, টেবিল, কোড ফোল্ডিং, বহু ভাষা অনুসন্ধান ও প্রতিস্থাপন, এইচটিএমএল সত্তা কোড সিনট্যাক্স হাইলাইটিং",
+                "সাপোর্ট TOC (সূচীপত্র), ইমোটিকন অভিব্যক্তি, কাজের তালিকা (টাস্ক মানচিত্র), @ (লিঙ্ক)",
                 "পাঠোদ্ধারতা সমর্থন এবং ফিল্টারিং এইচটিএমএল ট্যাগ এবং বৈশিষ্ট্যাবলী",
-                "সাপোর্ট টেক্স (LaTeX অভিব্যক্তি, KaTeX), ডায়াগ্রাম এবং ক্রম ডায়াগ্রাম প্রবাহিত",
-                "সাপোর্ট ডকুমেন্ট রিকভারি ব্যবস্থাসমূহ",
-                "একাধিক যুগপত সম্পাদনা সমর্থন, সীমাহীন সংখ্যা"
+                "সাপোর্ট টেক্সাস (ক্ষীর অভিব্যক্তি, Katex ইনক) ফ্লোচার্ট এবং ক্রম ডায়াগ্রামে",
+                "সাপোর্ট ফাইল রিকভারি প্রক্রিয়া",
+                "সাপোর্ট একাধিক এডিটিং, সীমাহীন সংখ্যা"
             ]
         },
         "UserReviews": {
-            "SectionName": "বিস্ময়কর বিষয় মানুষ MarkdownD সম্পর্কে বলছে",
+            "SectionName": "MarkdownD নির্ণয় করা",
             "list": [
                 {
-                    "reviewContent": "MarkdownD অত্যাশ্চর্য. সরল. ক্লিন. পারফেক্ট. সাবাশ.",
+                    "reviewContent": "MarkdownD আশ্চর্যজনক. সরল. ক্লিন. পরিপূর্ণতা. সুন্দরভাবে সম্পন্ন.",
                     "userName": "evanw",
-                    "professional": "প্রযুক্তি ধর্ম প্রচারক"
+                    "professional": "টেকনোলজি প্রোমোশন"
                 },
                 {
-                    "reviewContent": "MarkdownD আমি অনেক সুন্দর সব আমার লেখার কাজ করছে. এটি একটি মহান সামান্য অ্যাপ্লিকেশন.",
+                    "reviewContent": "MarkdownD, এই একটি মহান সামান্য অ্যাপ্লিকেশন কি আমি প্রায় সব আমার লেখা না হয়.",
                     "userName": "পিটার ব্রাইট",
-                    "professional": "জীবন টেকনিকা লেখক"
+                    "professional": "জীবন টেকনিকা এর লেখক"
                 },
                 {
-                    "reviewContent": "যদি Markdown কোনো আগ্রহ থাকে, তাহলে MarkdownD স্পষ্টভাবে একটি ডাউনলোড মূল্য.",
-                    "userName": "LifeHacker",
+                    "reviewContent": "আপনি কম দাম কোনো আগ্রহ থাকে, তাহলে MarkdownD স্পষ্টভাবে ডাউনলোড মূল্যহীন.",
+                    "userName": "Lifehacker এর",
                     "professional": "ওয়েব ডেভেলপার এবং ডিজাইনার"
                 },
                 {
-                    "reviewContent": "আমি সত্যিই MarkdownD মত, আমার কাজের জন্য অনেক সুবিধা বয়ে এনেছে.",
+                    "reviewContent": "আমি সত্যিই MarkdownD মত, বড় সুবিধা আনা হয়েছে; আমার কাজ.",
                     "userName": "jeruss",
-                    "professional": "পিএইচপি ফ্রেমওয়ার্ক ডেভেলপার"
+                    "professional": "পিএইচপি ফ্রেমওয়ার্ক উন্নয়ন"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "সংস্করণ সংখ্যা",
+        "labelVersion": "মুক্তি",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "কিছু বাগ সংশোধন করা হয়েছে."
+                        "content": "কিছু ত্রুটি সংশোধন করা হয়েছে."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "কিছু বাগ সংশোধন করা হয়েছে."
+                        "content": "কিছু ত্রুটি সংশোধন করা হয়েছে."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "প্রথম প্রকাশ."
+                        "content": "প্রথম রিলিজ."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "প্রথম প্রকাশ."
+                        "content": "প্রথম রিলিজ."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "সংস্করণ সংখ্যা",
+        "labelVersion": "মুক্তি",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "এখনই ওয়ে",
+        "SectionName": "কিনুন কিভাবে",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

@@ -1,19 +1,19 @@
 {
     "TopBar": {
-        "Home": "Strona WWW",
-        "Feature": "Cecha",
-        "Documents": "Dokumenty",
+        "Home": "Do domu",
+        "Feature": "Funkcje",
+        "Documents": "Pomoc online",
         "ReleaseNotes": "Informacje o wydaniu",
-        "Downloads": "Darmowy okres próbny",
-        "Buy": "Kupować",
-        "Roadmap": "Mapa drogowa",
-        "ReportIssue": "Zgłoś Issue",
+        "Downloads": "Bezpłatna wersja próbna",
+        "Buy": "Zakup",
+        "Roadmap": "Linia produktów",
+        "ReportIssue": "Zgłoś problem",
         "Languages": "Język"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Bardzo przydatne App. W pełni funkcjonalny edytor. Windows, Linux, MacOSX.",
-        "BtnDownload": "Darmowy okres próbny",
+        "ProjectTagline": "W pełni funkcjonalny edytor promocji cenowych. Wsparcie dla systemów operacyjnych Windows, Linux i MacOSX.",
+        "BtnDownload": "Bezpłatna wersja próbna",
         "BtnBuy": "Zakup",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Główne cechy",
+            "SectionName": "Główne cechy produktu",
             "list": [
-                "Eksport Wsparcie dokument pdf",
-                "Dokument druku Pomoc",
-                "Wsparcie standardowe Markdown / CommonMark i GFM (GitHub aromatyzowana Markdown)",
-                "Wsparcie podgląd na żywo",
-                "Wsparcie tekst sformatowany, bloki kodu, stoły, kod składane, wyszukiwania i zamiany, wiele języków, składnia kodu HTML podmiot podświetlanie",
-                "Wsparcie Toc (Spis treści), wyrażenie Emoji, TaskLists (mapa zadaniem),Links (link)",
+                "Wsparcie Eksportuj jako plik PDF",
+                "Wsparcie dla drukowania dokumentów",
+                "Obsługuje standardowe cena / CommonMark i GFM (Markdown GitHub w)",
+                "Podgląd na żywo Wsparcie",
+                "Obsługiwane formaty tekstu, bloki kodu, stoły, składane, kod wyszukiwać i zastępować, wielojęzyczne, HTML podświetlanie składni kodu podmiot",
+                "Wsparcie TOC (spis treści), ekspresja emotikonów, lista zadań (mapa zadań), @ (linki)",
                 "Wsparcie dekodowania i filtrowanie HTML tagi i atrybuty",
-                "Wsparcie Tex (wyrażenie lateksu, KATEX), oraz schemat przepływu Schemat sekwencji",
-                "Mechanizm wsparcia Odzyskiwanie dokumentów",
-                "Wsparcie wielu jednoczesnych edycji, nieograniczona ilość"
+                "Wsparcie Texas (wyrażenie lateks, KATEX Inc.) diagramy i schematy sekwencyjne",
+                "Pliki pomocnicze mechanizm odzyskiwania",
+                "Wsparcie wielu edycji, nieograniczona ilość"
             ]
         },
         "UserReviews": {
-            "SectionName": "Wspaniałe rzeczy ludzie mówią o MarkdownD",
+            "SectionName": "Jak ocenić MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD jest oszałamiający. Proste. Czysty. Doskonały. Bardzo dobrze.",
+                    "reviewContent": "MarkdownD jest niesamowity. Proste. Czyste. Doskonałość. Ładnie wykonane.",
                     "userName": "evanw",
-                    "professional": "Technologia Ewangelista"
+                    "professional": "Promocja technologii"
                 },
                 {
-                    "reviewContent": "MarkdownD jest to, co robię prawie wszystkie moje pisanie w. Jest to świetna mała aplikacja.",
+                    "reviewContent": "MarkdownD jest to, co robię prawie wszystkie moje pisanie, to jest to bardzo mały aplikacji.",
                     "userName": "Peter Bright",
-                    "professional": "Pisarz w Ars Technica"
+                    "professional": "Pisarze Ars Technica"
                 },
                 {
-                    "reviewContent": "Jeśli masz jakiekolwiek zainteresowanie promocji cenowych, MarkdownD na pewno warto pobrać.",
-                    "userName": "Lifehacker",
-                    "professional": "Web Developer i Designer"
+                    "reviewContent": "Jeśli masz jakiekolwiek zainteresowanie niższych cenach, MarkdownD jest zdecydowanie warte pobieranie.",
+                    "userName": "Lifehacker użytkownika",
+                    "professional": "Web deweloperów i projektantów"
                 },
                 {
-                    "reviewContent": "Bardzo podoba mi MarkdownD, przyniósł wiele wygody dla mojej pracy.",
+                    "reviewContent": "Bardzo podoba mi MarkdownD, przyniósł wielką wygodę, moją pracę.",
                     "userName": "jeruss",
-                    "professional": "Framework Programista PHP"
+                    "professional": "Rozwój frameworkiem"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Numer wersji",
+        "labelVersion": "Release",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -174,19 +183,42 @@
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Po raz pierwszy wydany."
+                        "content": "Pierwsze wydanie."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Po raz pierwszy wydany."
+                        "content": "Pierwsze wydanie."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Numer wersji",
+        "labelVersion": "Release",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Kup Way",
+        "SectionName": "Jak kupić",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

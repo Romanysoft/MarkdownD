@@ -1,19 +1,19 @@
 {
     "TopBar": {
-        "Home": "HomePage",
-        "Feature": "Функција",
-        "Documents": "Документи",
-        "ReleaseNotes": "ReleaseNotes",
-        "Downloads": "Бесплатен пробен период",
-        "Buy": "Размислете за купување",
-        "Roadmap": "Патоказ",
-        "ReportIssue": "Извештај прашање",
+        "Home": "Почетна",
+        "Feature": "Карактеристики",
+        "Documents": "Онлајн Помош",
+        "ReleaseNotes": "Белешки за изданието",
+        "Downloads": "Пробен",
+        "Buy": "Купување",
+        "Roadmap": "Продуктната линија",
+        "ReportIssue": "Пријавување на проблем",
         "Languages": "Јазик"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Многу корисна апликација. Целосно опремен уредник. Windows, Linux, MacOSX.",
-        "BtnDownload": "Бесплатен пробен период",
+        "ProjectTagline": "Целосно опремен Markdown уредник. Поддршка за Windows, Linux и MacOSX оперативни системи.",
+        "BtnDownload": "Пробен",
         "BtnBuy": "Купување",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Главни карактеристики",
+            "SectionName": "Главните карактеристики на производот",
             "list": [
-                "Поддршка на извозот во PDF документ",
-                "Печати поддршка документ",
-                "Поддршка стандард Markdown / CommonMark и GFM (GitHub вкус Markdown)",
-                "Преглед во живо за поддршка",
-                "Поддршка форматиран текст, кодот блокови, маси, кодот виткање, пребарување и да ја замени, повеќе јазици, HTML код лице и означувањето на синтаксата",
-                "Поддршка Toc (Содржина), Emoji изразување, TaskLists (мапа задача),Links (линк)",
+                "Поддршка на извозот како PDF датотека",
+                "Поддршка за печатење на документи",
+                "Го поддржува стандардот цена / CommonMark и GFM (Markdown GitHub е)",
+                "Подршка во живо Преглед",
+                "Поддржани формати на текст, кодот блокови, маси, кодот виткање, пребарување и да ја замени, мулти-јазик, HTML код лице и означувањето на синтаксата",
+                "Поддршка TOC (содржината), изразување на емоции, листата со задачи (задачи на сајтот), @ (линкови)",
                 "Поддршка декодирање и филтрирање HTML тагови и атрибути",
-                "Поддршка Текс (латекс изразување, KaTeX), протокот дијаграм и Дијаграмнасеквенци",
-                "Поддршка механизам за наплата на документ",
-                "Поддршка повеќе Симултан уредување, неограничен број"
+                "Поддршка Тексас (израз латекс, Katex Inc) дијаграми на текови и Дијаграмнасеквенци",
+                "Поддршка датотеки механизам за обновување",
+                "Поддршка на повеќе уредување, неограничен број"
             ]
         },
         "UserReviews": {
-            "SectionName": "Прекрасни нешта луѓето го велат за MarkdownD",
+            "SectionName": "Како да се оцени MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD е неверојатен. Едноставна. Чист. Совршен. Браво.",
+                    "reviewContent": "MarkdownD е неверојатен. Едноставна. Чист. Совршенство. Убаво направено.",
                     "userName": "evanw",
-                    "professional": "Технологија евангелист"
+                    "professional": "Промоција технологија"
                 },
                 {
-                    "reviewContent": "MarkdownD е она што јас се направи речиси сите од моето пишување во. Тоа е голем малку стан.",
+                    "reviewContent": "MarkdownD е она што јас се направи речиси сите мои пишување, ова е голем малку апликација.",
                     "userName": "Петар Светол",
-                    "professional": "Писател на Арс техника"
+                    "professional": "Писатели Арс техника е"
                 },
                 {
-                    "reviewContent": "Ако имате било каков интерес за Markdown, MarkdownD е дефинитивно вреди да преземете.",
-                    "userName": "Lifehacker",
-                    "professional": "Веб програмер и дизајнер"
+                    "reviewContent": "Ако имате било каков интерес за пониски цени, MarkdownD е дефинитивно вреди за симнување.",
+                    "userName": "Lifehacker е",
+                    "professional": "Веб програмери и дизајнери"
                 },
                 {
-                    "reviewContent": "Навистина ми се допаѓа MarkdownD, донесе многу погодности за мојата работа.",
+                    "reviewContent": "Навистина ми се допаѓа MarkdownD, ја донесе голема погодност, мојата работа.",
                     "userName": "jeruss",
-                    "professional": "PHP Рамковниот програмери"
+                    "professional": "Рамка за развој на PHP"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Верзија број",
+        "labelVersion": "Ослободување",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -174,19 +183,42 @@
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Прв пат е објавен."
+                        "content": "Првата порака."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Прв пат е објавен."
+                        "content": "Првата порака."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Верзија број",
+        "labelVersion": "Ослободување",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Купи Пат",
+        "SectionName": "Како да ги купите",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

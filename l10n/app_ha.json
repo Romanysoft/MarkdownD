@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "Homepage",
-        "Feature": "Alama",
-        "Documents": "Takardun",
-        "ReleaseNotes": "ReleaseNotes",
+        "Home": "Home",
+        "Feature": "Fasali",
+        "Documents": "Online Taimako",
+        "ReleaseNotes": "Bayanan kula saki",
         "Downloads": "Free gwajin",
-        "Buy": "Saya",
-        "Roadmap": "Jadawalin",
-        "ReportIssue": "Rahoton batun",
+        "Buy": "Purchase",
+        "Roadmap": "Samfur line",
+        "ReportIssue": "Bayar da rahoton matsala",
         "Languages": "Harshe"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Very da amfani App. Full-featured edita. Windows, Linux, MacOSX.",
+        "ProjectTagline": "Full-featured Markdown edita. Support for Windows, Linux da MacOSX aiki tsarin.",
         "BtnDownload": "Free gwajin",
         "BtnBuy": "Purchase",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Main Features",
+            "SectionName": "Samfur main siffofin",
             "list": [
-                "Support fitarwa zuwa pdf daftarin aiki",
-                "Support Buga daftarin aiki",
-                "Support misali Markdown / CommonMark da GFM (GitHub flavored Markdown)",
-                "Live preview goyon baya",
-                "Support tsara rubutu, code tubalan, Tables, code nadawa, bincika da kuma maye gurbin, mahara harsuna, HTML mahaluži code ginin kalma nuna rubutu",
-                "Support Toc (Table of Contents), Emoji magana, TaskLists (aiki map),Links (link)",
+                "Goyi bayan Export kamar yadda PDF file",
+                "Support for bugu takardun",
+                "Na goyon bayan misali farashin / CommonMark da GFM (GitHub ta Markdown)",
+                "Live Preview Support",
+                "Goyan Formats na rubutu, code tubalan, Tables, code nadawa, bincika da kuma maye gurbin, Multi-harshe, HTML mahaluži code ginin kalma nuna rubutu",
+                "Support TOC (abubuwan da ke ciki), da nuna emoticons, da aiki list (Task Map), @ (links)",
                 "Support dikodi mai da tace HTML tags da halaye",
-                "Support Tex (latex magana, KaTeX), daga ƙarƙashinsu zane da kuma jerin zane",
-                "Support Document farfadowa da na'ura inji",
-                "Goyi bayan mahara lokaci daya tace, Unlimited yawan"
+                "Support Texas (latex magana, Katex Inc.) flowcharts da jerin zane-zane",
+                "Support fayiloli dawo da inji",
+                "Support mahara tace, Unlimited yawan"
             ]
         },
         "UserReviews": {
-            "SectionName": "Abubuwan ban al'ajabi da mutane suke cewa game da MarkdownD",
+            "SectionName": "Yadda za a kimanta MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD ne mai ban mamaki. Simple. Mai tsabta. M. Sannu da aikatawa.",
+                    "reviewContent": "MarkdownD ne mai ban mamaki. Simple. Mai tsabta. Kamala. Da kyau yi.",
                     "userName": "evanw",
-                    "professional": "Fasaha Bishara"
+                    "professional": "Fasaha kaimi"
                 },
                 {
-                    "reviewContent": "MarkdownD shi ne abin da zan yi kyakkyawa da yawa duk da na rubuce-rubuce a. Yana da wani babban dan app.",
+                    "reviewContent": "MarkdownD shi ne abin da zan yi kusan dukan rubuce-rubuce, wannan shi ne babban dan aikace-aikace.",
                     "userName": "Peter Bright",
-                    "professional": "Marubuci a Ars Technica"
+                    "professional": "Ars Technica ta marubuta"
                 },
                 {
-                    "reviewContent": "Idan kana da wasu sha'awa cikin Markdown, MarkdownD ne shakka daraja a download.",
-                    "userName": "LifeHacker",
-                    "professional": "Yanar gizo Developer da Designer"
+                    "reviewContent": "Idan kana da wasu sha'awa cikin ƙananan farashin, MarkdownD ne shakka daraja da download.",
+                    "userName": "Lifehacker ta",
+                    "professional": "Yanar gizo da kuma Developers zanen kaya"
                 },
                 {
-                    "reviewContent": "Na ainihi kamar MarkdownD, ya kawo da yawa saukaka ga aikina.",
+                    "reviewContent": "Na ainihi kamar MarkdownD, ya kawo babban saukaka; aikina.",
                     "userName": "jeruss",
-                    "professional": "PHP Tsarin Developer"
+                    "professional": "PHP tsarin ci gaban"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Version Number",
+        "labelVersion": "Saki",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Gyarawa wasu kwari."
+                        "content": "Gyarawa wasu kurakurai."
                     }
                 ]
             },
@@ -170,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Gyarawa wasu kwari."
+                        "content": "Gyarawa wasu kurakurai."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -185,8 +194,31 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Version Number",
+        "labelVersion": "Saki",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Buy Way",
+        "SectionName": "Ta yaya To Buy",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

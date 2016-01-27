@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "HomePage",
-        "Feature": "Nodwedd",
-        "Documents": "Dogfennau",
-        "ReleaseNotes": "ReleaseNotes",
+        "Home": "Cartref",
+        "Feature": "Nodweddion",
+        "Documents": "Help ar-lein",
+        "ReleaseNotes": "Nodiadau Rhyddhau",
         "Downloads": "Treial am ddim",
         "Buy": "Prynu",
-        "Roadmap": "Map Ffyrdd",
-        "ReportIssue": "Adroddiad Mater",
+        "Roadmap": "Llinell Cynnyrch",
+        "ReportIssue": "Rhoi gwybod am broblem",
         "Languages": "Iaith"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "App Defnyddiol iawn. Olygydd llawn-ymddangos. Windows, Linux, MacOSX.",
+        "ProjectTagline": "Golygydd Markdown llawn-ymddangos. Cymorth ar gyfer Windows, Linux a MacOSX systemau gweithredu.",
         "BtnDownload": "Treial am ddim",
         "BtnBuy": "Prynu",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Prif Nodweddion",
+            "SectionName": "Cynnyrch prif nodweddion",
             "list": [
-                "Cymorth allforio i pdf document",
-                "Cymorth dogfen print",
-                "Cymorth Markdown safonol / CommonMark a GFM (GitHub blas Markdown)",
-                "Cefnogaeth rhagolwg Live",
-                "Cymorth testun fformatio, blociau cod, tablau, cod plygu, chwilio a disodli, ieithoedd lluosog, HTML endid cod amlygu cystrawen",
-                "Cymorth Toc (Tabl Cynnwys), Emoji mynegiant, TaskLists (map tasg),Links (cyswllt)",
+                "Cefnogwch Allforio fel ffeil PDF",
+                "Cefnogaeth ar gyfer dogfennau argraffu",
+                "Cefnogi pris safonol / CommonMark a GFM (Markdown GitHub yn)",
+                "Cymorth Rhagolwg Byw",
+                "Fformatau Chymorth o destun, blociau cod, tablau, cod plygu, chwilio a disodli, aml-iaith, HTML endid cod amlygu cystrawen",
+                "Cymorth TOC (tabl cynnwys), y mynegiant o emoticons, mae'r rhestr dasg (Tasg Map), @ (cysylltiadau)",
                 "Cymorth datgodio a HTML hidlo tagiau a phriodoleddau",
-                "Cymorth Tex (mynegiant latecs, KaTeX), llif diagram a dilyniant diagram",
-                "Mecanwaith Cymorth Adferiad Dogfen",
-                "Cefnogwch golygu y pryd lluosog, nifer digyfyngiad"
+                "Siartiau llif Cymorth Texas (mynegiant latecs, Katex Inc) a diagramau dilyniant",
+                "Ffeiliau Cymorth mecanwaith adennill",
+                "Cefnogaeth golygu lluosog, nifer digyfyngiad"
             ]
         },
         "UserReviews": {
-            "SectionName": "Pethau rhyfeddol mae pobl yn ei ddweud am MarkdownD",
+            "SectionName": "Sut i werthuso MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD yn drawiadol. Syml. Glân. Perffaith. Da iawn.",
+                    "reviewContent": "MarkdownD yn anhygoel. Syml. Glân. Berffeithrwydd. Gwneud 'n glws.",
                     "userName": "evanw",
-                    "professional": "Technoleg Efengylwr"
+                    "professional": "Hyrwyddo Technoleg"
                 },
                 {
-                    "reviewContent": "MarkdownD yw'r hyn yr wyf yn ei wneud 'n bert lawer pob un fy ysgrifennu i mewn. Mae'n ychydig o app gwych.",
+                    "reviewContent": "MarkdownD yw'r hyn yr wyf yn ei wneud bron pob fy ysgrifennu cais bach mawr, a yw hyn.",
                     "userName": "Peter Bright",
-                    "professional": "Writer yn Ars Technica"
+                    "professional": "Awduron Ars Technica yn"
                 },
                 {
-                    "reviewContent": "Os oes gennych unrhyw ddiddordeb yn Markdown, mae MarkdownD bendant yn werth lawrlwytho.",
-                    "userName": "Lifehacker",
-                    "professional": "Datblygwr Gwe a Dylunydd"
+                    "reviewContent": "Os oes gennych unrhyw ddiddordeb yn prisiau is, yn MarkdownD sicr yn werth y llwytho i lawr.",
+                    "userName": "Lifehacker yn",
+                    "professional": "Datblygwyr gwe a dylunwyr"
                 },
                 {
-                    "reviewContent": "Dwi'n hoff iawn o MarkdownD, wedi dod â llawer o cyfleustra ar gyfer fy ngwaith.",
+                    "reviewContent": "Dwi'n hoff iawn o MarkdownD, wedi dod â hwylustod mawr; fy ngwaith.",
                     "userName": "jeruss",
-                    "professional": "Datblygwr PHP Fframwaith"
+                    "professional": "Datblygu fframwaith PHP"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Rhif Fersiwn",
+        "labelVersion": "Rhyddhau",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Sefydlog rhai chwilod."
+                        "content": "Sefydlog rhai gwallau."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Sefydlog rhai chwilod."
+                        "content": "Sefydlog rhai gwallau."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "A gyhoeddwyd gyntaf."
+                        "content": "Mae'r datganiad cyntaf."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "A gyhoeddwyd gyntaf."
+                        "content": "Mae'r datganiad cyntaf."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Rhif Fersiwn",
+        "labelVersion": "Rhyddhau",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Prynu Way",
+        "SectionName": "Sut I brynu",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "Homepage",
-        "Feature": "Feature",
-        "Documents": "Documents",
-        "ReleaseNotes": "ReleaseNotes",
+        "Home": "Home",
+        "Feature": "Features",
+        "Documents": "Online Help",
+        "ReleaseNotes": "Release Notes",
         "Downloads": "Free Trial",
         "Buy": "Reka",
-        "Roadmap": "RoadMap",
-        "ReportIssue": "Report Issue",
+        "Roadmap": "Product mola",
+        "ReportIssue": "Tlaleha bothata",
         "Languages": "Puo"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Molemo haholo App. E tletseng ea hlahisa mohlophisi. Windows, Linux, MacOSX.",
+        "ProjectTagline": "E tletseng ea hlahisa Markdown mohlophisi. Tšehetsa Windows, Linux le MacOSX sebetsa tsamaiso ea.",
         "BtnDownload": "Free Trial",
         "BtnBuy": "Reka",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Main Features",
+            "SectionName": "Product ditshebetsong",
             "list": [
-                "Support diyantle ho file pdf tokomane",
-                "Support условия: tokomane",
-                "Support molao-motheo Markdown / CommonMark le GFM (GitHub tatso Markdown)",
-                "Live esale pele tshehetso",
-                "Support boitsebiso bo hlophisitsoeng hantle khoutu diboloko, litafole, khoutu phutha, le batle 'me ba behe, dipuo tse dintsi, HTML mokhatlo oo' ona khoutu popapolelo hlakisa",
-                "Support Toc (Lethathamo la la Tse ka Hare), Emoji polelo e reng, TaskLists (mosebetsi Mapa),Links (aqui)",
+                "Tšehetsa Export e le PDF faele",
+                "Support ea khatiso ditokomane tsa",
+                "Tšehetsa molao-motheo theko / CommonMark le GFM (GitHub ea Markdown)",
+                "Live Preview Support",
+                "A tšehetsa rulaganya ea mongolo, khoutu diboloko, litafole, khoutu phutha, le batle 'me ba behe, selotlolo puo, HTML mokhatlo oo' ona khoutu popapolelo hlakisa",
+                "Support TOC (lethathamong la lihlooho), poleloana e reng ea emoticons, mosebetsi ona lenaneng (mosebetsi oa Map), @ (swikhwekerisi)",
                 "Support decoding le filthara HTML tags, le litšobotsi",
-                "Support Tex (Latex polelo e reng, KaTeX), phalla setšoantšo le ho hlopha setšoantšo",
-                "Support Tokomane ya Recovery mochine",
-                "Tšehetsa multiple o tsoa hong go tseleganya, lekanyetsoang"
+                "Support Texas (sika latex polelo e reng, Katex Inc.) flowcharts le ho hlopha litšoantšo",
+                "Support difaele ho hlaphoheloa mochine",
+                "Support multiple go tseleganya, lekanyetsoang"
             ]
         },
         "UserReviews": {
-            "SectionName": "Lintho tse hlollang tse batho ba a re ka MarkdownD",
+            "SectionName": "Joang ho hlahloba MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD ke hlollang le. Bonolo. E hloekile. Phethahetse. Mosebetsi o motle.",
+                    "reviewContent": "MarkdownD ea hlolla. Bonolo. E hloekile. Phethahetseng. Hantle mantsoe a entseng.",
                     "userName": "evanw",
-                    "professional": "Technology moevangeli"
+                    "professional": "Technology Promotion"
                 },
                 {
-                    "reviewContent": "MarkdownD ke seo ke se etsang le ntle haholo kaofela ha ka ho ngola a. Ke e khōlō nyenyane tiriso ye.",
+                    "reviewContent": "MarkdownD ke seo ke se etsang hoo e ka bang eohle ea ka e ngola fatshe, sena ke e khōlō nyenyane kōpo ea ka.",
                     "userName": "Peter Bright",
-                    "professional": "Mongoli oa Ars Technica"
+                    "professional": "Ars Technica ea bangoli ba"
                 },
                 {
-                    "reviewContent": "Haeba u na le leha e le efe thahasello ea Markdown, MarkdownD ke sebele rekoa ka download.",
-                    "userName": "LifeHacker",
-                    "professional": "Web Developer le Moqapi"
+                    "reviewContent": "Haeba u na le leha e le efe thahasello e ka tlaase ea theko, MarkdownD ke sebele bohlokoa download.",
+                    "userName": "Lifehacker ea",
+                    "professional": "Web ke jwa le bayemi"
                 },
                 {
-                    "reviewContent": "Ke hlile ke rata MarkdownD, entse lintho tse ngata bonolo ho bakeng sa mosebetsi oa ka.",
+                    "reviewContent": "Ke hlile ke rata MarkdownD, entse e khōlō bonolo ho; mosebetsi oa ka.",
                     "userName": "jeruss",
-                    "professional": "PHP Moralo wa Developer"
+                    "professional": "PHP moralo wa ntshetsopele ya"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Version Number",
+        "labelVersion": "Release",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "E tsitsitseng ba bang ba ditsitsiri."
+                        "content": "E tsitsitseng ba bang ba liphoso tsa."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "E tsitsitseng ba bang ba ditsitsiri."
+                        "content": "E tsitsitseng ba bang ba liphoso tsa."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Pele lokolloa."
+                        "content": "Ea pele e lokolloa."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Pele lokolloa."
+                        "content": "Ea pele e lokolloa."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Version Number",
+        "labelVersion": "Release",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Buy Tsela",
+        "SectionName": "How To Buy",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

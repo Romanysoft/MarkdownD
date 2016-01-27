@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "Tsamba lofikira",
+        "Home": "Home",
         "Feature": "Mbali",
-        "Documents": "Zikalata",
-        "ReleaseNotes": "ReleaseNotes",
+        "Documents": "Online Thandizo",
+        "ReleaseNotes": "Kumasulidwa Mfundo",
         "Downloads": "Free Mlandu",
-        "Buy": "Kugula",
-        "Roadmap": "RoadMap",
-        "ReportIssue": "Nkhani Report",
+        "Buy": "Purchase",
+        "Roadmap": "Mankhwala mzere",
+        "ReportIssue": "Nenani vuto",
         "Languages": "Language"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Kwambiri App. Full zochitika mkonzi. Mawindo, Linux, MacOSX.",
+        "ProjectTagline": "Full zochitika Markdown mkonzi. Support kwa Mawindo, Linux ndi MacOSX ntchito kachitidwe.",
         "BtnDownload": "Free Mlandu",
         "BtnBuy": "Purchase",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Main Mbali",
+            "SectionName": "Mankhwala zofunika",
             "list": [
-                "Support katundu kuti PDF chikalata",
-                "Support kusindikiza chikalata",
-                "Support muyezo Markdown / CommonMark ndi GFM (GitHub flavored Markdown)",
-                "Live chithunzithunzi thandizo",
-                "Support formatted m'kabuku kachidindo midadada, matebulo, malamulo yopindika, fufuzani ndi m'malo, angapo m'zinenero, HTML chilli kachidindo malembedwe mfundo",
-                "Support Toc (Zamkatimu), Emoji akuti, TaskLists (ntchito mapu),Links (kugwirizana)",
+                "Kuthandizira katundu monga PDF wapamwamba",
+                "Support kusindikiza zikalata",
+                "Amathandiza muyezo mtengo / CommonMark ndi GFM (GitHub a Markdown)",
+                "Live lounikira Support",
+                "Anathandiza akamagwiritsa a lemba, malamulo midadada, matebulo, malamulo yopindika, fufuzani ndi m'malo, Mipikisano chinenero, HTML chilli kachidindo malembedwe mfundo",
+                "Support TOC (Zamkatimu), mawu a emoticons, ntchito ndandanda (Ntchito Yaikulu Map), @ (limasonyeza)",
                 "Support decoding ndi kusefa Tags ndi zikhumbo",
-                "Support Tex (lalabala akuti, KaTeX), ikuyenda chithunzi ndi ndondomeko chithunzi",
-                "Support choyenera Kusangalala limagwirira",
-                "Kuthandizira angapo munthawi yomweyo kusintha, losaŵerengeka"
+                "Support Texas (lalabala akuti, Katex Inc.) flowcharts ndi ndondomeko zithunzi",
+                "Support owona kuchira limagwirira",
+                "Support angapo kusintha, losaŵerengeka"
             ]
         },
         "UserReviews": {
-            "SectionName": "Zinthu zodabwitsa anthu akunena za MarkdownD",
+            "SectionName": "Kodi kufufuza MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD ndi zidzasintha. Yosavuta. Oyera. Changwiro. Mwachita bwino.",
+                    "reviewContent": "MarkdownD n'zodabwitsa. Yosavuta. Oyera. Ungwiro. Mwabwino anachita.",
                     "userName": "evanw",
-                    "professional": "Technology Mlaliki"
+                    "professional": "Technology Kupititsa patsogolo"
                 },
                 {
-                    "reviewContent": "MarkdownD ndi zimene ndimachita wokongola kwambiri anga onse kalatayo. Ndichopatsa pang'ono app.",
+                    "reviewContent": "MarkdownD ndi zimene ndimachita pafupifupi anga onse kulemba, izi ndi zopambana wamng'ono ntchito.",
                     "userName": "Peter Bright",
-                    "professional": "Wolemba pa Ars Technica"
+                    "professional": "Ars Technica a olemba"
                 },
                 {
-                    "reviewContent": "Ngati muli ndi chidwi Markdown, MarkdownD ndithudi wokwanira download.",
-                    "userName": "LifeHacker",
-                    "professional": "Web Wolemba Mapulogalamu ndi Mlengi"
+                    "reviewContent": "Ngati muli ndi chidwi m'munsi mitengo, MarkdownD ndithudi ofunika download.",
+                    "userName": "Lifehacker a",
+                    "professional": "Web Madivelopa ndi okonza"
                 },
                 {
-                    "reviewContent": "Ndimalikonda MarkdownD, wabweretsa zambiri mayiko kwa ntchito yanga.",
+                    "reviewContent": "Ndimalikonda MarkdownD, wabweretsa lalikulu mayiko; ntchito yanga.",
                     "userName": "jeruss",
-                    "professional": "Php M'chilamulo Wolemba Mapulogalamu"
+                    "professional": "Php chimango chitukuko"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Version Number",
+        "labelVersion": "Kumasulidwa",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Anakakonza china nsikidzi."
+                        "content": "Lokhazikika zolakwika zina."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Anakakonza china nsikidzi."
+                        "content": "Lokhazikika zolakwika zina."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Choyamba anamasulidwa."
+                        "content": "Yoyamba kumasulidwa."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Choyamba anamasulidwa."
+                        "content": "Yoyamba kumasulidwa."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Version Number",
+        "labelVersion": "Kumasulidwa",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Buy Way",
+        "SectionName": "Kodi Gulani",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

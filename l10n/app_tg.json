@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "Сафҳаи",
-        "Feature": "Хусусияти",
-        "Documents": "Ҳуҷҷатҳои",
-        "ReleaseNotes": "ReleaseNotes",
+        "Home": "Хона",
+        "Feature": "Хусусиятҳои",
+        "Documents": "Кӯмаки онлайн",
+        "ReleaseNotes": "Қайдҳои",
         "Downloads": "Мурофиаи озод",
-        "Buy": "Харидан",
-        "Roadmap": "Харитаи роҳ",
-        "ReportIssue": "Ҳисоботи Масъала",
+        "Buy": "Харид",
+        "Roadmap": "Хати маҳсулот",
+        "ReportIssue": "Гузориш масъалаи",
         "Languages": "Забон"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Барнома хеле муфид мебошад. Муҳаррири пурра-тавсиф меёбад. Windows, Linux, MacOSX.",
+        "ProjectTagline": "Муҳаррири Markdown пурра-тавсиф меёбад. Дастгирии барои Windows, Linux ва MacOSX системаҳои оператсионӣ.",
         "BtnDownload": "Мурофиаи озод",
         "BtnBuy": "Харид",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Хусусиятҳои асосии",
+            "SectionName": "Хусусиятҳои асосии маҳсулот",
             "list": [
-                "Содирот дастгирии PDF ҳуҷҷат",
-                "Дастгирии ҳуҷҷати чоп",
-                "Дастгирии Markdown стандартӣ / CommonMark ва GFM (GitHub Flavored Markdown)",
-                "Дастгирии пешнамоиш зинда",
-                "Дастгирии матн формат дода шудааст, рамзи блокҳои, мизҳои, рамзи туморе, ҷустуҷӯ ва иваз, якчанд забонҳо, HTML шахси Равшансозӣ наҳвӣ рамзи",
-                "Дастгирии Toc (Мундариҷа), баён Emoji, TaskLists (харитаи вазифаи),Links (пайванд)",
+                "Дастгирии содирот ҳамчун PDF файли",
+                "Дастгирии барои чопи њуљљатњои",
+                "Дастгирӣ нархи стандартӣ / CommonMark ва GFM (Markdown GitHub мекунад)",
+                "Дастгирии Пешнамоиши зинда",
+                "Форматҳои дастгирӣ аз матн, блокҳои коди, мизҳои, рамзи туморе, ҷустуҷӯ ва иваз, бисёрсоҳавӣ забон, Равшансозӣ шахси наҳвӣ рамзи HTML",
+                "Дастгирии TOC (Мундариҷа), изҳори emoticons, рӯйхати вазифа (Map Вазифаи), @ (← пайвандҳо)",
                 "Рамзкушоӣ дастгирӣ ва филтри HTML барчаспҳои ва хусусиятҳои",
-                "Дастгирии Текс (баён LaTeX, KaTeX), диаграммаи ҷорист ва пайдарпаии диаграммаи",
-                "Дастгирии Санади Барќарорсозии Механизми",
-                "Дастгирии таҳриркунӣ сершумор ҳамзамон, шумораи бемаҳдуди"
+                "Дастгирии Техас (баён самимаҳо, Katex Inc.) flowcharts ва диаграммаҳо пайдарпаии",
+                "Файлҳои дастгирии механизми барқарорсозӣ",
+                "Дастгирии таҳриркунӣ сершумор, шумораи бемаҳдуди"
             ]
         },
         "UserReviews": {
-            "SectionName": "Чи мардум аҷоиб доранд, гуфт: дар бораи MarkdownD",
+            "SectionName": "Чӣ тавр арзёбӣ MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD соъиқаи аст. Оддӣ. Тоза. Комил. Офарин.",
+                    "reviewContent": "MarkdownD аҷиб аст. Оддӣ. Тоза. Комилият. Nicely анҷом дода мешавад.",
                     "userName": "evanw",
-                    "professional": "Технологияи башоратдиҳанда"
+                    "professional": "Технологияи пешбурди"
                 },
                 {
-                    "reviewContent": "MarkdownD аст он чӣ ман кор хеле зиёд ҳама навиштани ман дар. Ин як барнома бузурги кам аст.",
+                    "reviewContent": "MarkdownD аст, чӣ кунам, қариб ҳамаи навиштани ман, ин аризаи бузург андаке ҳеҷ нест.",
                     "userName": "Петрус дурахшон",
-                    "professional": "Нависанда дар Ars Technica"
+                    "professional": "Нависандагони Ars Technica кард"
                 },
                 {
-                    "reviewContent": "Агар шумо ягон манфиат дар Markdown, MarkdownD аст, бешубҳа ба маблағи як Download.",
-                    "userName": "LifeHacker",
-                    "professional": "Ташкилкунанда веб ва Созандаи"
+                    "reviewContent": "Агар шумо ягон манфиат нархи пасттар, MarkdownD аст, бешубҳа ба маблағи зеркашӣ кунед.",
+                    "userName": "Русия Lifehacker",
+                    "professional": "Таҳиягарон ва Интернет-дизайнерҳо"
                 },
                 {
-                    "reviewContent": "Ман дар ҳақиқат мисли MarkdownD, баҳраи зиёд барои кор кардааст.",
+                    "reviewContent": "Ман дар ҳақиқат мисли MarkdownD, овард баҳраи бузург кори ман.",
                     "userName": "jeruss",
-                    "professional": "Ташкилкунанда Чаҳорчӯбаи PHP"
+                    "professional": "PHP рушди доираи"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Рақами нусхаи",
+        "labelVersion": "Озод кардан",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Собит баъзе хатоҳои."
+                        "content": "Собит баъзе хатогиҳо."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Собит баъзе хатоҳои."
+                        "content": "Собит баъзе хатогиҳо."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Аввал озод карда мешаванд."
+                        "content": "Озод аввал."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Аввал озод карда мешаванд."
+                        "content": "Озод аввал."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Рақами нусхаи",
+        "labelVersion": "Озод кардан",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Харидорӣ роҳи",
+        "SectionName": "Чӣ тавр барои харидани",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

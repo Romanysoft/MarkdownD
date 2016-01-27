@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "Úvodní stránka",
-        "Feature": "Rys",
-        "Documents": "Dokumenty",
+        "Home": "Domů",
+        "Feature": "Funkce",
+        "Documents": "Online nápověda",
         "ReleaseNotes": "Poznámky k vydání",
         "Downloads": "Zkušební verze zdarma",
-        "Buy": "Koupit",
-        "Roadmap": "Cestovní mapa",
-        "ReportIssue": "Report Issue",
+        "Buy": "Nákup",
+        "Roadmap": "Produktová řada",
+        "ReportIssue": "Nahlásit problém",
         "Languages": "Jazyk"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Velmi užitečné App. Plnohodnotný editor. Windows, Linux, MacOSX.",
+        "ProjectTagline": "Plnohodnotný editor Markdown. Podpora pro operační systémy Windows, Linux a MacOSX.",
         "BtnDownload": "Zkušební verze zdarma",
         "BtnBuy": "Nákup",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Hlavní rysy",
+            "SectionName": "Základní vlastnosti",
             "list": [
-                "Export Podpora PDF dokumentu",
-                "Podpora tisk dokumentu",
-                "Podpora standardu Markdown / CommonMark a GFM (GitHub Flavored Markdown)",
-                "Živý náhled podpora",
-                "Podpora formátovaný text, Bloky, stoly, kód skládací, vyhledávání a nahrazování, více jazyků, HTML entita syntaxe kódu zvýrazňování",
-                "Podpora Toc (Obsah), Emoji výraz, TaskLists (mapa úkol),Links (link)",
+                "Podpora exportu jako soubor PDF",
+                "Podpora pro tisk dokumentů",
+                "Podporuje běžná cena / CommonMark a GFM (GitHub je Markdown)",
+                "Live Support Preview",
+                "Podporované formáty textu, kódu bloky, stoly, kód skládací, vyhledávání a nahrazování, multi-jazyk, kód syntaxe HTML entita zvýraznění",
+                "Podpora TOC (obsah), exprese emotikony, seznamu úkolů (Map Task), @ (odkazy)",
                 "Podpora dekódování a filtrování HTML tagy a atributy",
-                "Podpora Tex (latex výraz, Katex), vývojový diagram a sekvenční diagram",
-                "Podpůrný mechanismus Document Recovery",
-                "Podpora více současných úprav, neomezený počet"
+                "Podpora Texas (latex výraz, Katex Inc.) diagramy a vývojových diagramů",
+                "Podpůrné soubory mechanismus obnovy",
+                "Podpora více střih, neomezený počet"
             ]
         },
         "UserReviews": {
-            "SectionName": "Nádherné věci, které lidé říkají o MarkdownD",
+            "SectionName": "Jak hodnotit MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD je ohromující. Jednoduchý. Čistý. Perfektní. Výborně.",
+                    "reviewContent": "MarkdownD je úžasná. Jednoduché. Clean. Dokonalost. Dobrá práce.",
                     "userName": "evanw",
-                    "professional": "Technology Evangelist"
+                    "professional": "Technologie Promotion"
                 },
                 {
-                    "reviewContent": "MarkdownD je to, co mám dělat skoro všechny mé psaní. Je to velký malý app.",
+                    "reviewContent": "MarkdownD je to, co mám dělat, téměř všechny mé psaní, je to velký malý aplikace.",
                     "userName": "Peter Bright",
-                    "professional": "Writer na Ars Technica"
+                    "professional": "Spisovatelé Ars Technica je"
                 },
                 {
-                    "reviewContent": "Máte-li žádný zájem Markdown, MarkdownD je rozhodně stojí za stažení.",
-                    "userName": "Lifehacker",
-                    "professional": "Web Developer a Designer"
+                    "reviewContent": "Pokud máte zájem na nižší ceny, MarkdownD je rozhodně stojí za stažení.",
+                    "userName": "Lifehacker je",
+                    "professional": "Weboví vývojáři a návrháři"
                 },
                 {
-                    "reviewContent": "Moc se mi líbí MarkdownD, přinesl mnoho pohodlí pro svou práci.",
+                    "reviewContent": "Moc se mi líbí MarkdownD, přinesla velké pohodlí, svou práci.",
                     "userName": "jeruss",
-                    "professional": "PHP Framework Developer"
+                    "professional": "Framework pro vývoj PHP"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Číslo verze",
+        "labelVersion": "Release",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -174,19 +183,42 @@
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Nejprve povolený."
+                        "content": "První vydání."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Nejprve povolený."
+                        "content": "První vydání."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Číslo verze",
+        "labelVersion": "Release",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Koupit Way",
+        "SectionName": "Jak nakupovat",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

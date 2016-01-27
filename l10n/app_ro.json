@@ -1,19 +1,19 @@
 {
     "TopBar": {
-        "Home": "Pagina de start",
-        "Feature": "Trăsătură",
-        "Documents": "Documente",
+        "Home": "Acasă",
+        "Feature": "Caracteristici",
+        "Documents": "Ajutor Online",
         "ReleaseNotes": "Note de lansare",
-        "Downloads": "Încercare gratuită",
-        "Buy": "A cumpara",
-        "Roadmap": "Foaie de parcurs",
-        "ReportIssue": "Raport Issue",
-        "Languages": "Limba"
+        "Downloads": "Free Trial",
+        "Buy": "Cumpărare",
+        "Roadmap": "Linia de produse",
+        "ReportIssue": "Raportați o problemă",
+        "Languages": "Limbă"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Foarte util App. Editor full-featured. Windows, Linux, MacOSX.",
-        "BtnDownload": "Încercare gratuită",
+        "ProjectTagline": "Full-featured editor Markdown. Suport pentru sistemele de operare Windows, Linux și MacOSX.",
+        "BtnDownload": "Free Trial",
         "BtnBuy": "Cumpărare",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Caracteristici principale",
+            "SectionName": "Produse caracteristici principale",
             "list": [
-                "Sprijin export la documentul pdf",
-                "Suport documente print",
-                "Suport Markdown Standard / CommonMark și GFM (GitHub aromatizat Markdown)",
-                "Suport previzualizare live",
-                "Suport text formatat, blocuri de cod, mese, pliere cod, de căutare și înlocuiți, mai multe limbi, HTML entitate cod evidențierea sintaxei",
-                "Suport Toc (Cuprins), expresie Emoji, TaskLists (harta sarcină),Links (link)",
+                "Sprijini Export ca fișier PDF",
+                "Suport pentru imprimarea documentelor",
+                "Suporta preț standard / CommonMark și GFM (Markdown GitHub lui)",
+                "Suport Live Preview",
+                "Formate suportate de text, blocuri de cod, mese, pliere cod, de căutare și înlocui, în mai multe limbi, HTML cod entitate evidențierea sintaxei",
+                "Suport TOC (Cuprins), expresia emoticoane, lista de sarcini (task Map), @ (link-uri)",
                 "Suport de decodare și filtrare HTML tag-uri și atribute",
-                "Suport Tex (expresie latex, Katex), flux diagrama diagrama de secvență și",
-                "Mecanism de sprijin Document Recovery",
-                "Suport pentru editare simultană multiple, număr nelimitat"
+                "Suport Texas (expresie latex, Katex Inc.) flowcharts și diagrame de secvență",
+                "Fișiere de suport mecanism de recuperare",
+                "Suport de editare multiple, numar nelimitat"
             ]
         },
         "UserReviews": {
-            "SectionName": "Lucruri minunate spun oamenii despre MarkdownD",
+            "SectionName": "Cum de a evalua MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD este uimitoare. Simplu. Curat. Perfect. Foarte bine.",
+                    "reviewContent": "MarkdownD este uimitor. Simplu. Curat. Perfecțiune. Bine făcut.",
                     "userName": "evanw",
-                    "professional": "Tehnologia Evanghelist"
+                    "professional": "Tehnologie de promovare"
                 },
                 {
-                    "reviewContent": "MarkdownD este ceea ce fac destul de mult tot de scris mea. Este o mare aplicație pic.",
+                    "reviewContent": "MarkdownD este ceea ce face aproape tot scrisul meu, aceasta este o mare cerere de mic.",
                     "userName": "Peter Bright",
-                    "professional": "Writer la Ars Technica"
+                    "professional": "Scriitori ars Technica"
                 },
                 {
-                    "reviewContent": "Dacă aveți nici un interes în Markdown, MarkdownD este cu siguranta merita o descărcare.",
-                    "userName": "LifeHacker",
-                    "professional": "Web Developer si Designer"
+                    "reviewContent": "Dacă aveți nici un interes in preturi mai mici, MarkdownD este cu siguranta merita descărcarea.",
+                    "userName": "Lifehacker lui",
+                    "professional": "Dezvoltatori web si designeri"
                 },
                 {
-                    "reviewContent": "Îmi place foarte mult MarkdownD, a adus mult confort pentru munca mea.",
+                    "reviewContent": "Îmi place foarte mult MarkdownD, a adus o mare comoditate, munca mea.",
                     "userName": "jeruss",
-                    "professional": "Dezvoltator PHP-cadru"
+                    "professional": "Dezvoltarea cadru PHP"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Versiunea Numărul",
+        "labelVersion": "Eliberare",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fixed unele bug-uri."
+                        "content": "Fixed unele erori."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fixed unele bug-uri."
+                        "content": "Fixed unele erori."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Primul lansat."
+                        "content": "Prima versiune."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Primul lansat."
+                        "content": "Prima versiune."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Versiunea Numărul",
+        "labelVersion": "Eliberare",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Cumpara Way",
+        "SectionName": "Cum să cumpărați",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

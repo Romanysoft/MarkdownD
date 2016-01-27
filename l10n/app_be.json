@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "Галоўная старонка",
-        "Feature": "Асаблівасць",
-        "Documents": "Дакументы",
-        "ReleaseNotes": "ReleaseNotes",
+        "Home": "Дадому",
+        "Feature": "Рысы",
+        "Documents": "Інтэрнэт Дапамога",
+        "ReleaseNotes": "Заўвагі да выпуску",
         "Downloads": "Бясплатная пробная версія",
-        "Buy": "Купіць",
-        "Roadmap": "RoadMap",
-        "ReportIssue": "Паведаміць выпуск",
+        "Buy": "Купля",
+        "Roadmap": "Лінія прадуктаў",
+        "ReportIssue": "Паведаміць аб праблеме",
         "Languages": "Мова"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Вельмі карыснае прыкладанне. Поўнафункцыянальны рэдактар. Windows, Linux, MacOSX.",
+        "ProjectTagline": "Поўнафункцыянальны рэдактар ​​ўцэнкі. Падтрымка аперацыйных сістэм Windows, Linux і MacOSX.",
         "BtnDownload": "Бясплатная пробная версія",
         "BtnBuy": "Купля",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Асноўныя рысы",
+            "SectionName": "Асноўныя асаблівасці прадукту",
             "list": [
-                "Падтрымка экспарту ў PDF дакумента",
+                "Падтрымка экспарту ў PDF файле",
                 "Падтрымка друку дакументаў",
-                "Падтрымка стандарту ўцэнкі / CommonMark і GFM (GitHub духмяны ўцэнкі)",
-                "Онлайн-падтрымка прагляду",
-                "Падтрымка фарматаваны тэкст, блокі кода, сталы, згортванне кода, пошук і замена, некалькі моў, HTML твар падсвятленне сінтаксісу кода",
-                "Падтрымка TOC (Утрыманне), Emoji выразы, спісы задач (карта задач), Links (спасылка)",
+                "Падтрымка Стандартная цана / CommonMark і GFM (ўцэнкі GitHub ў)",
+                "Жывая Падтрымка Preview",
+                "Падтрымліваюцца фарматы тэксту, блокі кода, сталы, згортванне кода, пошук і замена, мульты-мова, падсвятленне сінтаксісу HTML код твар",
+                "Падтрымка ТГС (змест), выраз смайлікаў, спіс задач (карта задач), @ (спасылкі)",
                 "Падтрымка дэкадавання і фільтрацыі HTML-тэгі і атрыбуты",
-                "Падтрымка Тэкс (латекс выраз, Katex), блок-схема і дыяграма паслядоўнасці",
-                "Механізм падтрымкі Аднаўленне дакументаў",
-                "Падтрымка некалькіх адначасовае рэдагаванне, неабмежаваная колькасць"
+                "Падтрымка Тэхас (латекс выраз, Катекс Inc.) блок-схемы і дыяграмы паслядоўнасці",
+                "Падтрымка файлаў механізм аднаўлення",
+                "Падтрымка некалькіх рэдагавання, неабмежаваная колькасць"
             ]
         },
         "UserReviews": {
-            "SectionName": "Выдатныя рэчы, якія людзі кажуць аб MarkdownD",
+            "SectionName": "Як ацаніць MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD з'яўляецца ашаламляльным. Просты. Чысты. Ідэальны. Добра зроблена.",
+                    "reviewContent": "MarkdownD дзіўна. Просты. Чысты. Ўдасканаленне. Прыгожа зроблена.",
                     "userName": "evanw",
-                    "professional": "Тэхналогія Евангеліст"
+                    "professional": "Тэхналогія Прасоўванне"
                 },
                 {
-                    "reviewContent": "MarkdownD, што я раблю амаль усе з майго ліста ст. Гэта выдатны невялікае прыкладанне.",
+                    "reviewContent": "MarkdownD, што я раблю амаль усе мой ліст, гэта вялікая невялікае прыкладанне.",
                     "userName": "Пітэр Яскравы",
-                    "professional": "Пісьменнік у Ars Technica"
+                    "professional": "Пісьменнікі Ars Technica ў"
                 },
                 {
-                    "reviewContent": "Калі ў вас ёсць цікавасць у Markdown, MarkdownD, безумоўна, варта спампаваць.",
-                    "userName": "LifeHacker",
-                    "professional": "Вэб-распрацоўшчык і дызайнер"
+                    "reviewContent": "Калі ў вас ёсць цікавасць ў больш нізкіх коштах, MarkdownD, безумоўна, варта спампаваць.",
+                    "userName": "Lifehacker-х",
+                    "professional": "Вэб-распрацоўшчыкі і дызайнеры"
                 },
                 {
-                    "reviewContent": "Мне вельмі падабаецца MarkdownD, прынёс шмат зручнасць для маёй працы.",
+                    "reviewContent": "Мне вельмі падабаецца MarkdownD, прынесла вялікае зручнасць; маю працу.",
                     "userName": "jeruss",
-                    "professional": "PHP Framework Распрацоўшчык"
+                    "professional": "PHP рамкі развіцця"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Нумар версіі",
+        "labelVersion": "Рэліз",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -174,19 +183,42 @@
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Першы рэліз."
+                        "content": "Першы выпуск."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Першы рэліз."
+                        "content": "Першы выпуск."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Нумар версіі",
+        "labelVersion": "Рэліз",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Купіць Шлях",
+        "SectionName": "Як купіць",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

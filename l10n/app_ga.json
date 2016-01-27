@@ -1,19 +1,19 @@
 {
     "TopBar": {
-        "Home": "Leathanach Baile",
-        "Feature": "Gné",
-        "Documents": "Doiciméid",
-        "ReleaseNotes": "ReleaseNotes",
-        "Downloads": "Triail shaor",
-        "Buy": "A cheannach",
-        "Roadmap": "Treochlár",
-        "ReportIssue": "Tuairisc Eisiúint",
+        "Home": "Baile",
+        "Feature": "Gnéithe",
+        "Documents": "Cabhair Líne",
+        "ReleaseNotes": "Nótaí Eisiúna",
+        "Downloads": "Triail Saor in Aisce",
+        "Buy": "Ceannach",
+        "Roadmap": "Táirge líne",
+        "ReportIssue": "Tuairiscigh fadhb",
         "Languages": "Teanga"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "App An-úsáideach. Eagarthóir lán-feiceáil. Windows, Linux, MacOSX.",
-        "BtnDownload": "Triail shaor",
+        "ProjectTagline": "Lán-feiceáil eagarthóir Markdown. Tacaíocht do Windows, Linux agus córais oibriúcháin MacOSX.",
+        "BtnDownload": "Triail Saor in Aisce",
         "BtnBuy": "Ceannach",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Gnéithe Príomh",
+            "SectionName": "Príomhghnéithe Táirge",
             "list": [
-                "Onnmhairiú Tacaíocht doiciméad pdf",
-                "Doiciméad cló Tacaíocht",
-                "Tacaíocht Markdown caighdeánach / CommonMark agus GFM (GitHub Flavored Markdown)",
-                "Tacaíocht réamhamharc Live",
-                "Tacaíocht téacs formáidithe, bloic cód, táblaí, cód fillte, a chuardach agus a athsholáthar, teangacha éagsúla, HTML eintiteas béim error cód",
-                "Tacaíocht Toc (Tábla na nÁbhar), Emoji focal, TaskLists (léarscáil tasc),Links (nasc)",
+                "Tacú le Easpórtáil mar chomhad PDF",
+                "Tacaíocht do dhoiciméid a phriontáil",
+                "Tacaíochtaí phraghas / CommonMark agus GFM (Markdown GitHub s)",
+                "Tacaíocht Réamhamhairc Live",
+                "Formáidí tacaíocht téacs, bloic cód, táblaí, cód fillte, a chuardach agus a athsholáthar, il-teanga, béim HTML cód error eintiteas",
+                "Tacaíocht TOC (clár ábhair), an abairt de emoticons, ar an liosta tasc (Tasc Léarscáil), @ (naisc)",
                 "Díchódaithe Tacaíocht agus HTML scagadh clibeanna agus tréithe",
-                "Tacaíocht Tex (abairt laitéis, KaTeX), sreabhadh léaráid agus ord léaráid",
-                "Tacaíocht Document Aisghabháil Meicníocht",
-                "Tacú le eagarthóireacht il comhuaineach, líon neamhtheoranta"
+                "Tacaíocht Texas (abairt LaTeX, Katex Inc) flowcharts agus léaráidí ord",
+                "Comhaid Tacaíocht meicníocht aisghabhála",
+                "Tacaíocht eagarthóireacht il, líon neamhtheoranta"
             ]
         },
         "UserReviews": {
-            "SectionName": "Rudaí daoine iontacha ag rá faoi MarkdownD",
+            "SectionName": "Conas a mheas MarkdownD",
             "list": [
                 {
-                    "reviewContent": "Is MarkdownD iontach seo. Simplí. Glan. Foirfe. An-mhaith.",
+                    "reviewContent": "Is MarkdownD iontach. Simplí. Glan. Foirfeachta. Nicely déanta.",
                     "userName": "evanw",
-                    "professional": "Teicneolaíocht Evangelist"
+                    "professional": "Teicneolaíocht Chun Cinn"
                 },
                 {
-                    "reviewContent": "Is MarkdownD cad is féidir liom go leor i bhfad gach ceann de mo scríbhneoireachta i. Tá sé ina app iontach beag.",
+                    "reviewContent": "Is MarkdownD cad is féidir liom beagnach gach mo chuid scríbhneoireachta, tá sé seo le hiarratas beag mór.",
                     "userName": "Peter Bright",
-                    "professional": "Writer ag Ars Technica"
+                    "professional": "Scríbhneoirí Ars Technica ar"
                 },
                 {
-                    "reviewContent": "Má tá aon leas i Markdown tú, tá MarkdownD cinnte fiú a íoslódáil.",
-                    "userName": "Lifehacker",
-                    "professional": "Forbróir Gréasáin agus Dearthóir"
+                    "reviewContent": "Má tá aon leas i praghsanna níos ísle tú, tá MarkdownD cinnte fiú an íoslódáil.",
+                    "userName": "Lifehacker ar",
+                    "professional": "Forbróirí gréasáin agus dearthóirí"
                 },
                 {
-                    "reviewContent": "I really like MarkdownD, thug áise i bhfad do mo chuid oibre.",
+                    "reviewContent": "I really like MarkdownD, thug áis iontach; mo chuid oibre.",
                     "userName": "jeruss",
-                    "professional": "Creat PHP Developer"
+                    "professional": "Forbairt réime PHP"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Leagan Uimhir",
+        "labelVersion": "Scaoileadh",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Seasta roinnt bugs."
+                        "content": "Seasta roinnt earráidí."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Seasta roinnt bugs."
+                        "content": "Seasta roinnt earráidí."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "An Chéad scaoileadh."
+                        "content": "An chéad eisiúint."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "An Chéad scaoileadh."
+                        "content": "An chéad eisiúint."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Leagan Uimhir",
+        "labelVersion": "Scaoileadh",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Ceannaigh Way",
+        "SectionName": "Conas a Ceannaigh",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

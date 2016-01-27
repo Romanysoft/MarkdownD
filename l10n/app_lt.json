@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "Titulinis",
-        "Feature": "Žanras",
-        "Documents": "Dokumentai",
-        "ReleaseNotes": "Releasenotes",
+        "Home": "Pagrindinis",
+        "Feature": "Įranga",
+        "Documents": "Pagalba internetu",
+        "ReleaseNotes": "Release Notes",
         "Downloads": "Nemokama bandomoji versija",
-        "Buy": "Nupirkti",
-        "Roadmap": "PLANAS",
-        "ReportIssue": "Pranešti išdavimas",
+        "Buy": "Pirkimo",
+        "Roadmap": "Produktų linija",
+        "ReportIssue": "Pranešti apie problemą",
         "Languages": "Kalba"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Labai naudinga app. Pilnai redaktorius. \"Windows, Linux, MacOSX.",
+        "ProjectTagline": "Pilnai reklamos kainos redaktorius. Parama Windows, Linux ir macosx operacinėmis sistemomis.",
         "BtnDownload": "Nemokama bandomoji versija",
         "BtnBuy": "Pirkimo",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Pagrindinės funkcijos",
+            "SectionName": "Produkto pagrindiniai bruožai",
             "list": [
-                "Pagalba eksportas į PDF dokumentą",
-                "Pagalba Spausdinti dokumentas",
-                "Pagalba standartas reklamos kainos / CommonMark ir GFM (GitHub tematikos reklamos kainos)",
-                "Live Preview parama",
-                "Pagalba formatuoti tekstą, kodas blokai, stalai, kodas lankstymo, paieškos ir pakeisti, keliomis kalbomis, HTML asmens kodas sintaksės išryškinimas",
-                "Pagalba TOC dienos vertės (Turinys), emocijos išraiška, TaskLists (užduočių žemėlapis),Links (nuoroda)",
+                "Palaikymo Eksportuoti kaip PDF failą",
+                "Parama spausdinimo dokumentų",
+                "Palaiko standartinė kaina / CommonMark ir GFM (GitHub anketa reklamos kainos)",
+                "Peržiūrėti gyvai Pagalba",
+                "Palaikomi formatai teksto, kodas blokai, stalai, kodas lankstymo, paieškos ir pakeisti, multi-kalbos, HTML asmens kodas sintaksės išryškinimas",
+                "Pagalba BOA (turinys), šypsenėlių išraiška, užduočių sąraše (užduočių Žemėlapis) @ (nuorodos)",
                 "Pagalba dekodavimo ir filtravimo HTML žymes ir atributus",
-                "Pagalba Tex (latekso išraiška, KATEX), srauto diagrama ir sekos diagrama",
-                "Dokumentų palaikymas atkūrimo mechanizmas",
-                "Palaikyti keletą vienu metu redaguoti, neribotą skaičių"
+                "Pagalba Teksasas (latekso išraiška, KATEX Inc.) Schemos ir Sekos diagramos",
+                "Paramos failų atkūrimo mechanizmas",
+                "Palaikyti keletą redagavimo, neribotą skaičių"
             ]
         },
         "UserReviews": {
-            "SectionName": "Nuostabių dalykų žmonės sako apie MarkdownD",
+            "SectionName": "Kaip įvertinti MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD yra stulbinantis. Paprasta. Švarus. Tobula. Šauniai padirbėta.",
+                    "reviewContent": "MarkdownD yra nuostabi. Paprasta. Švarus. Tobulumo. Gražiai padaryta.",
                     "userName": "evanw",
-                    "professional": "Technologijos Evangelistas"
+                    "professional": "Technologijos skatinimas"
                 },
                 {
-                    "reviewContent": "MarkdownD yra tai, ką aš galiu padaryti beveik visi mano rašymo. Tai puikus mažai app.",
+                    "reviewContent": "MarkdownD yra tai, ką aš galiu padaryti beveik visą savo rašymą, tai yra labai mažai paraišką.",
                     "userName": "Petras Šviesus",
-                    "professional": "Rašytojas ne Ars Technica"
+                    "professional": "Ars Technica rašytojų"
                 },
                 {
-                    "reviewContent": "Jei turite kokių nors reklamos kainos susidomėjimą, MarkdownD tikrai verta parsisiųsti.",
-                    "userName": "Lifehacker",
-                    "professional": "Web Developer ir dizaineris"
+                    "reviewContent": "Jei turite kokių nors mažesnėmis kainomis susidomėjimą, MarkdownD tikrai verta atsisiųsti.",
+                    "userName": "Lifehacker s",
+                    "professional": "Interneto svetainių kūrėjai ir dizaineriai"
                 },
                 {
-                    "reviewContent": "Man tikrai patinka MarkdownD, atnešė daug patogiau už mano darbą.",
+                    "reviewContent": "Man tikrai patinka MarkdownD, atnešė didelį patogumą; mano darbą.",
                     "userName": "jeruss",
-                    "professional": "PHP pagrindų kūrėjas"
+                    "professional": "PHP sistemą plėtra"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Versija skaičius",
+        "labelVersion": "Išleidimo",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fiksuoto kai kurių klaidų."
+                        "content": "Fiksuoto klaidų."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fiksuoto kai kurių klaidų."
+                        "content": "Fiksuoto klaidų."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Pirma paleistas."
+                        "content": "Pirmoji laida."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Pirma paleistas."
+                        "content": "Pirmoji laida."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Versija skaičius",
+        "labelVersion": "Išleidimo",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Pirkti būdas",
+        "SectionName": "Kaip nusipirkti",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "Ukurasa wa Nyumbani",
-        "Feature": "Kipengele",
-        "Documents": "Hati",
-        "ReleaseNotes": "ReleaseNotes",
+        "Home": "Nyumbani",
+        "Feature": "Makala",
+        "Documents": "Online Msaada",
+        "ReleaseNotes": "Maelezo ya kutolewa",
         "Downloads": "Bure kesi",
-        "Buy": "Kununua",
-        "Roadmap": "Mpango",
-        "ReportIssue": "Ripoti Suala",
+        "Buy": "Ununuzi",
+        "Roadmap": "Mstari wa bidhaa",
+        "ReportIssue": "Ripoti tatizo",
         "Languages": "Lugha"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Muhimu sana App. Full-featured mhariri. Windows, Linux, MacOSX.",
+        "ProjectTagline": "Full-featured Markdown mhariri. Msaada kwa ajili ya Windows, Linux na MacOSX mifumo ya uendeshaji.",
         "BtnDownload": "Bure kesi",
         "BtnBuy": "Ununuzi",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Sifa kuu",
+            "SectionName": "Bidhaa sifa kuu",
             "list": [
-                "Support nje ya pdf hati",
-                "Support magazeti hati",
-                "Support kiwango Markdown / CommonMark na GFM (GitHub ladha Markdown)",
-                "Kuishi hakikisho msaada",
-                "Support formatted maandishi, kanuni na vitalu, meza, kanuni na kukunja, kutafuta na badala, lugha nyingi, HTML chombo kificho kuonyesha syntax",
-                "Support Toc (Orodha ya Yaliyomo), Emoji kujieleza, TaskLists (ramani Kazi),Links (kiungo)",
+                "Kusaidia Export kama faili PDF",
+                "Msaada kwa ajili ya hati ya uchapishaji",
+                "Inasaidia bei kiwango / CommonMark na GFM (Markdown GitHub wa)",
+                "Kuishi Preview Support",
+                "Mkono miundo ya maandishi, kanuni na vitalu, meza, kanuni na kukunja, kutafuta na badala, lugha mbalimbali, HTML chombo kificho kuonyesha syntax",
+                "Msaada TOC (meza ya yaliyomo), usemi wa hisia, orodha ya kazi (Task Map), @ (viungo)",
                 "Support Decoding na kuchuja tags na sifa",
-                "Support Tex (mpira kujieleza, KaTeX), kati yake mchoro na mlolongo mchoro",
-                "Support Document Recovery Utaratibu",
-                "Support nyingi sawia editing, idadi ya ukomo"
+                "Support Texas (mpira kujieleza, Katex Inc) flowcharts na vielelezo mlolongo",
+                "Support mafaili ahueni utaratibu",
+                "Support nyingi editing, idadi ya ukomo"
             ]
         },
         "UserReviews": {
-            "SectionName": "Ajabu mambo watu wanasema kuhusu MarkdownD",
+            "SectionName": "Jinsi ya kutathmini MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD ni stunning. Rahisi. Safi. Kamilifu. Umefanya vizuri.",
+                    "reviewContent": "MarkdownD ni ajabu. Rahisi. Safi. Ukamilifu. Nicely kufanyika.",
                     "userName": "evanw",
-                    "professional": "Teknolojia Mwinjilisti"
+                    "professional": "Teknolojia ya kupandisha"
                 },
                 {
-                    "reviewContent": "MarkdownD ni nini mimi pretty much wote wa maandishi yangu katika Ni programu kubwa kidogo..",
+                    "reviewContent": "MarkdownD ni nini mimi karibu maandishi yangu yote, hii ni kubwa maombi kidogo.",
                     "userName": "Peter Mkali",
-                    "professional": "Mwandishi katika Ars Technica"
+                    "professional": "Waandishi Ars Technica ya"
                 },
                 {
-                    "reviewContent": "Kama una maslahi yoyote katika Markdown, MarkdownD ni dhahiri thamani download.",
-                    "userName": "Lifehacker",
-                    "professional": "Mtandao Developer na Designer"
+                    "reviewContent": "Kama una maslahi yoyote kwa bei ya chini, MarkdownD ni dhahiri thamani download.",
+                    "userName": "Lifehacker ya",
+                    "professional": "Watengenezaji mtandao na wabunifu"
                 },
                 {
-                    "reviewContent": "Mimi kwa kweli kama MarkdownD, umeleta urahisi sana kwa kazi yangu.",
+                    "reviewContent": "Mimi kwa kweli kama MarkdownD, umeleta urahisi mkubwa; kazi yangu.",
                     "userName": "jeruss",
-                    "professional": "PHP Mfumo Msanidi"
+                    "professional": "PHP mfumo wa maendeleo"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Toleo la Idadi",
+        "labelVersion": "Kutolewa",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fasta baadhi ya mende."
+                        "content": "Fasta baadhi ya makosa."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fasta baadhi ya mende."
+                        "content": "Fasta baadhi ya makosa."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Kwanza iliyotolewa."
+                        "content": "Kwanza kutolewa."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Kwanza iliyotolewa."
+                        "content": "Kwanza kutolewa."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Toleo la Idadi",
+        "labelVersion": "Kutolewa",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Kununua Njia",
+        "SectionName": "Jinsi ya kununua",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

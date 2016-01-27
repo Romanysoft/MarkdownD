@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "Homepage",
+        "Home": "Ngarep",
         "Feature": "Fitur",
-        "Documents": "Dokumen",
-        "ReleaseNotes": "ReleaseNotes",
+        "Documents": "Pitulung Online",
+        "ReleaseNotes": "Release Cathetan",
         "Downloads": "Nyoba free",
         "Buy": "Tuku",
-        "Roadmap": "Roadmap",
-        "ReportIssue": "Report Issue",
+        "Roadmap": "Baris Product",
+        "ReportIssue": "Laporan masalah",
         "Languages": "Language"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "App banget migunani. Full-Bintang editor. Windows, Linux, MacOSX.",
+        "ProjectTagline": "Full-Bintang editor Markdown. Dhukungan kanggo sistem operasi Windows, Linux lan MacOSX.",
         "BtnDownload": "Nyoba free",
         "BtnBuy": "Tuku",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Fitur utama",
+            "SectionName": "Product fitur utama",
             "list": [
-                "Dhukungan kaca document pdf",
-                "Dhukungan document print",
-                "Dhukungan Markdown standar / CommonMark lan GFM (GitHub roso Markdown)",
-                "Support pratayang Live",
-                "Dhukungan teks format, pamblokiran kode, tabel, kode lempitan, golèk lan ngganti, macem-macem basa, HTML entitas pangrinciané kode penting",
-                "Dhukungan Toc (Table of Contents), expression Emoji, TaskLists (tugas map),Links (link)",
+                "Ndhukung Ekspor minangka file PDF",
+                "Dhukungan kanggo dokumen printing",
+                "Ndhukung rega standar / CommonMark lan GFM (Markdown GitHub kang)",
+                "Dhukungan Preview Live",
+                "Format sing didukung teks, pamblokiran kode, tabel, kode lempitan, golèk lan ngganti, multi-basa, sintaksis kode entitas HTML penting",
+                "Dhukungan Kudus (Tabel saka isi), ing expression saka Pranyata, task list (Task Map), @ (← pranala)",
                 "Dhukungan dekoding lan nyaring HTML tags lan kawicaksanan",
-                "Dhukungan Tex (expression latek, KaTeX), mili diagram lan urutan diagram",
-                "Mekanisme Support Document Recovery",
-                "Ndhukung kaping editing simultaneous, nomer Unlimited"
+                "Dhukungan Texas (expression latek, Katex Inc.) flowcharts lan diagram urutan",
+                "File Support mekanisme Recovery",
+                "Dhukungan kaping editing, nomer Unlimited"
             ]
         },
         "UserReviews": {
-            "SectionName": "Apik iku wong sing ngandika bab MarkdownD",
+            "SectionName": "Carane kanggo ngira-ngira MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD nggumunke. Japanese. Resik. Sampurna. Uga rampung.",
+                    "reviewContent": "MarkdownD iku apik tenan. Japanese. Resik. Sempurno. Apik rampung.",
                     "userName": "evanw",
-                    "professional": "Teknologi Evangelist"
+                    "professional": "Teknologi Promotion"
                 },
                 {
-                    "reviewContent": "MarkdownD apa aku cantik akeh kabeh nulis ing. Iku app gedhe sethitik.",
+                    "reviewContent": "MarkdownD apa aku meh kabeh nulis, iki aplikasi sethitik gedhe.",
                     "userName": "Peter padhang",
-                    "professional": "Writer ing Ars Technica"
+                    "professional": "Writers Ars Technica kang"
                 },
                 {
-                    "reviewContent": "Yen sampeyan duwe kapentingan ing Markdown, MarkdownD punika temtunipun worth download a.",
-                    "userName": "LifeHacker",
-                    "professional": "Web Developer lan Designer"
+                    "reviewContent": "Yen sampeyan duwe kapentingan ing ngisor prices, MarkdownD punika temtunipun worth download.",
+                    "userName": "LifeHacker kang",
+                    "professional": "Web developer lan perancang"
                 },
                 {
-                    "reviewContent": "Aku emg kaya MarkdownD, wis nggawa akeh penak kanggo karya.",
+                    "reviewContent": "Aku emg kaya MarkdownD, wis nggawa penak gedhe; karya sandi.",
                     "userName": "jeruss",
-                    "professional": "PHP Framework Developer"
+                    "professional": "Pembangunan framework PHP"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Versi Panggil",
+        "labelVersion": "Release",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Telpon sawetara kewan omo."
+                        "content": "Telpon sawetara kasalahan."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Telpon sawetara kewan omo."
+                        "content": "Telpon sawetara kasalahan."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Pisanan dirilis."
+                        "content": "Release kawitan."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Pisanan dirilis."
+                        "content": "Release kawitan."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Versi Panggil",
+        "labelVersion": "Release",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Buy Way",
+        "SectionName": "Cara Tuku",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

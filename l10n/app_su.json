@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "HomePage",
-        "Feature": "Feature",
-        "Documents": "Dokumén",
-        "ReleaseNotes": "ReleaseNotes",
+        "Home": "Imah",
+        "Feature": "Fitur",
+        "Documents": "Pitulung Online",
+        "ReleaseNotes": "Release Notes",
         "Downloads": "Sidang Free",
         "Buy": "Meuli",
-        "Roadmap": "RoadMap",
-        "ReportIssue": "Laporan Ngaluarkeun",
+        "Roadmap": "Lini produk",
+        "ReportIssue": "Wartoskeun masalah",
         "Languages": "Basa"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "App mangpaat pisan. Full-diulas editor. Windows, Linux, MacOSX.",
+        "ProjectTagline": "Full-diulas editor Markdown. Pangrojong pikeun sistem operasi Windows, Linux jeung MacOSX.",
         "BtnDownload": "Sidang Free",
         "BtnBuy": "Meuli",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Ciri utama",
+            "SectionName": "Produk fitur utama",
             "list": [
-                "Rojongan ékspor ka dokumén pdf",
-                "Rojongan dokumén print",
-                "Rojongan Markdown standar / CommonMark jeung GFM (GitHub flavored Markdown)",
-                "Support sawangan Live",
-                "Rojongan téks formatna, blok kode, tabel, kode tilepan, sungsi jeung ngaganti, multiple basa, HTML éntitas sintaksis code panyorot",
-                "Rojongan Toc (Daptar Eusi), éksprési Emoji, TaskLists (tugas map),Links (link)",
+                "Ngarojong Export salaku file PDF",
+                "Pangrojong pikeun dokumén percetakan",
+                "Ngarojong harga baku / CommonMark jeung GFM (Markdown GitHub sacara)",
+                "Rojongan Nilik Live",
+                "Format dirojong téks, blok kode, tabel, kode tilepan, sungsi jeung ngaganti, multi-basa, sintaksis kode HTML éntitas panyorot",
+                "Rojongan TOC (daptar eusi), ekspresi emoticons, daptar tugas (Tugas Map), @ (tutumbu)",
                 "Rojongan decoding jeung panyaring HTML tag jeung atribut",
-                "Rojongan Tex (babasan lateks, KaTeX), ngalir diagram jeung runtuyan diagram",
-                "Mékanisme pangrojong Dokumén Pamulihan",
-                "Ngarojong multiple ngedit simultaneous, jumlah nu taya"
+                "Rojongan Texas (babasan latex, Katex Inc.) flowcharts jeung diagram runtuyan",
+                "Payil pangrojong mékanisme recovery",
+                "Rojongan multiple ngedit, jumlah nu taya"
             ]
         },
         "UserReviews": {
-            "SectionName": "Éndah hal urang nyebutkeun ngeunaan MarkdownD",
+            "SectionName": "Kumaha evaluate MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD nyaéta stunning. Basajan. Beresih. Sampurna. Saé.",
+                    "reviewContent": "MarkdownD nyaéta endah pisan. Basajan. Beresih. Kasampurnaan. Nicely dipigawé.",
                     "userName": "evanw",
-                    "professional": "Technology Evangelist"
+                    "professional": "Technology Promosi"
                 },
                 {
-                    "reviewContent": "MarkdownD nyaéta naon atuh lumayan loba sakabéh tulisan mah. Ieu aplikasi saeutik gede.",
+                    "reviewContent": "MarkdownD nyaéta naon atuh ampir kabéh tulisan mah, ieu aplikasi saeutik gede.",
                     "userName": "Peter caang",
-                    "professional": "Panulis di Ars Technica"
+                    "professional": "Panulis ars Technica sacara"
                 },
                 {
-                    "reviewContent": "Mun anjeun mibanda suku Markdown, MarkdownD pasti patut download a.",
-                    "userName": "LifeHacker",
-                    "professional": "Web pamekar jeung desainer"
+                    "reviewContent": "Mun anjeun mibanda interest harga handap, MarkdownD pasti patut undeuran.",
+                    "userName": "Lifehacker sacara",
+                    "professional": "Pamekar Web jeung désainer"
                 },
                 {
-                    "reviewContent": "Nyaan kawas MarkdownD, geus dibawa loba genah pikeun karya mah.",
+                    "reviewContent": "Nyaan kawas MarkdownD, geus dibawa genah gede; karya mah.",
                     "userName": "jeruss",
-                    "professional": "PHP kerangka pamekar"
+                    "professional": "Tumuwuhna kerangka PHP"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Vérsi Number",
+        "labelVersion": "Ngabebaskeun",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Maneuh sababaraha bug."
+                        "content": "Maneuh sababaraha kasalahan."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Maneuh sababaraha bug."
+                        "content": "Maneuh sababaraha kasalahan."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Kahiji dileupaskeun."
+                        "content": "Pelepasan kahiji."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Kahiji dileupaskeun."
+                        "content": "Pelepasan kahiji."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Vérsi Number",
+        "labelVersion": "Ngabebaskeun",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Toko Kacamata Jalan",
+        "SectionName": "Urang Beuli",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

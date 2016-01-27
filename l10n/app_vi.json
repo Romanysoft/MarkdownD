@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "Trang chủ",
+        "Home": "Nhà",
         "Feature": "Tính năng",
-        "Documents": "Các tài liệu",
-        "ReleaseNotes": "ReleaseNotes",
+        "Documents": "Trợ giúp trực tuyến",
+        "ReleaseNotes": "Ghi chú Phát hành",
         "Downloads": "Dùng thử miễn phí",
         "Buy": "Mua",
-        "Roadmap": "Lộ trình",
-        "ReportIssue": "Báo cáo phát hành",
+        "Roadmap": "Dòng sản phẩm",
+        "ReportIssue": "Báo cáo sự cố",
         "Languages": "Ngôn ngữ"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "App rất hữu ích. Biên tập đầy đủ tính năng. Windows, Linux, MacOSX.",
+        "ProjectTagline": "Đầy đủ tính năng biên tập Markdown. Hỗ trợ cho hệ điều hành Windows, Linux và Mac OSX.",
         "BtnDownload": "Dùng thử miễn phí",
         "BtnBuy": "Mua",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Những đặc điểm chính",
+            "SectionName": "Các tính năng chính của sản phẩm",
             "list": [
-                "Hỗ trợ xuất khẩu sang tài liệu pdf",
-                "Hỗ trợ tài liệu in",
-                "Hỗ trợ Markdown tiêu chuẩn / CommonMark và GFM (GitHub Flavored Markdown)",
-                "Hỗ trợ trực tiếp xem trước",
-                "Hỗ trợ định dạng văn bản, khối mã, bảng, gấp mã, tìm kiếm và thay thế, nhiều ngôn ngữ, thực thể HTML cú pháp mã nổi bật",
-                "Hỗ trợ Toc (Table of Contents), biểu hiện Emoji, TaskLists (bản đồ nhiệm vụ),Links (link)",
+                "Hỗ trợ xuất khẩu dưới dạng file PDF",
+                "Hỗ trợ cho các tài liệu in ấn",
+                "Hỗ trợ giá chuẩn / CommonMark và GFM (Markdown GitHub của)",
+                "Hỗ trợ trực tiếp Preview",
+                "Hỗ trợ định dạng của văn bản, khối mã, bảng, gấp mã, tìm kiếm và thay thế, đa ngôn ngữ, thực thể HTML cú pháp mã nổi bật",
+                "Hỗ trợ TOC (bảng các nội dung), sự biểu hiện của biểu tượng cảm xúc, danh sách công việc (Task Map), @ (liên kết)",
                 "Hỗ trợ giải mã và lọc thẻ HTML và các thuộc tính",
-                "Hỗ trợ Tex (biểu thức LaTex, KaTeX), lưu lượng sơ đồ và trình tự sơ đồ",
-                "Tài liệu hỗ trợ phục hồi cơ chế",
-                "Hỗ trợ nhiều chỉnh sửa đồng thời, không giới hạn số"
+                "Hỗ trợ Texas (expression latex, Katex Inc.) sơ đồ và biểu đồ trình tự",
+                "Hỗ trợ các tập tin phục hồi cơ chế",
+                "Hỗ trợ nhiều chỉnh sửa, không giới hạn số"
             ]
         },
         "UserReviews": {
-            "SectionName": "Những điều tuyệt vời mọi người đang nói về MarkdownD",
+            "SectionName": "Làm thế nào để đánh giá MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD là cảnh quan tuyệt đẹp. Đơn giản. Lau sạch. Hoàn hảo. Làm tốt.",
+                    "reviewContent": "MarkdownD là tuyệt vời. Đơn giản. Clean. Perfection. Thực hiện độc đáo.",
                     "userName": "evanw",
-                    "professional": "Công nghệ Evangelist"
+                    "professional": "Xúc tiến Công nghệ"
                 },
                 {
-                    "reviewContent": "MarkdownD là những gì tôi làm được khá nhiều tất cả các bài viết của tôi. Đó là một ứng dụng nhỏ tuyệt vời.",
+                    "reviewContent": "MarkdownD là những gì tôi làm hầu như tất cả các bài viết của tôi, đây là một ứng dụng nhỏ tuyệt vời.",
                     "userName": "Peter Bright",
-                    "professional": "Writer tại Ars Technica"
+                    "professional": "Nhà văn Ars Technica của"
                 },
                 {
-                    "reviewContent": "Nếu bạn có bất cứ quan tâm trong Markdown, MarkdownD chắc chắn là giá trị một download.",
-                    "userName": "Lifehacker",
-                    "professional": "Web Developer và Designer"
+                    "reviewContent": "Nếu bạn có bất kỳ quan tâm đến mức giá thấp hơn, MarkdownD chắc chắn là giá trị tải.",
+                    "userName": "Lifehacker của",
+                    "professional": "Các nhà phát triển web và thiết kế"
                 },
                 {
-                    "reviewContent": "Tôi thực sự thích MarkdownD, đã mang lại nhiều tiện lợi cho công việc của tôi.",
+                    "reviewContent": "Tôi thực sự thích MarkdownD, đã mang lại sự tiện lợi lớn, công việc của tôi.",
                     "userName": "jeruss",
-                    "professional": "PHP Framework Developer"
+                    "professional": "Phát triển khuôn khổ PHP"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Phiên bản Số",
+        "labelVersion": "Phóng thích",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -174,19 +183,42 @@
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Đầu tiên phát hành."
+                        "content": "Phiên bản đầu tiên."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Đầu tiên phát hành."
+                        "content": "Phiên bản đầu tiên."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Phiên bản Số",
+        "labelVersion": "Phóng thích",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Mua Way",
+        "SectionName": "Làm thế nào để Mua",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

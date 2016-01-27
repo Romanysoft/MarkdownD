@@ -1,19 +1,19 @@
 {
     "TopBar": {
-        "Home": "HomePage",
-        "Feature": "Tampok",
-        "Documents": "Dokumento",
-        "ReleaseNotes": "ReleaseNotes",
-        "Downloads": "Libreng subok",
-        "Buy": "Bilhin",
-        "Roadmap": "Roadmap",
-        "ReportIssue": "Iulat ang Isyu",
+        "Home": "Home",
+        "Feature": "Mga Tampok",
+        "Documents": "Online Help",
+        "ReleaseNotes": "Release Notes",
+        "Downloads": "Libreng Pagsubok",
+        "Buy": "Purchase",
+        "Roadmap": "Linya ng produkto",
+        "ReportIssue": "Mag-ulat ng problema",
         "Languages": "Wika"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Very kapaki-pakinabang App. Full-tampok na editor. Windows, Linux, MacOSX.",
-        "BtnDownload": "Libreng subok",
+        "ProjectTagline": "Full-tampok na editor Markdown. Suporta para sa Windows, Linux at MacOSX operating system.",
+        "BtnDownload": "Libreng Pagsubok",
         "BtnBuy": "Purchase",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Pangunahing Mga Tampok",
+            "SectionName": "Produkto pangunahing tampok",
             "list": [
-                "Support export sa pdf dokumento",
-                "Print na dokumento Support",
-                "Support standard Markdown / CommonMark at GFM (GitHub lasa Markdown)",
-                "Support Live preview",
-                "Support na format, mga bloke ng code, mga talahanayan, code natitiklop, paghahanap at palitan, maramihang wika, HTML entity syntax code highlighting",
-                "Support toc (Table of Contents), Emoji expression, tasklists (gawain mapa),Links (link)",
+                "Suportahan I-export bilang PDF file",
+                "Suporta para sa mga dokumento sa pag-print",
+                "Sinusuportahan standard na presyo / CommonMark at GFM (Markdown GitHub ni)",
+                "Support Preview Live",
+                "Suportadong mga format ng teksto, mga bloke ng code, mga talahanayan, code natitiklop, paghahanap at palitan, multi-wika, HTML entity code syntax highlighting",
+                "Support toc (table of contents), ang expression ng emoticon, mga listahan ng gawain (Task Map), @ (links)",
                 "Support pagkabasa at HTML filtering tag at mga katangian",
-                "Support Tex (latex expression, KaTeX), daloy diagram at sequence diagram",
-                "Support Recovery Document mekanismo",
-                "Suporta ng maramihang mga sabay-sabay na pag-edit, walang limitasyong bilang"
+                "Support Texas (latex expression, Katex Inc.) flowcharts at sequence diagram",
+                "Support file bawing mekanismo",
+                "Suporta ng maramihang mga pag-edit, walang limitasyong bilang"
             ]
         },
         "UserReviews": {
-            "SectionName": "Ang sinasabi ng mga kahanga-hangang mga bagay-bagay sa mga tao tungkol MarkdownD",
+            "SectionName": "Paano upang suriin MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD ay napakaganda. Simple. Clean. Perpekto. Magaling.",
+                    "reviewContent": "MarkdownD ay amazing. Simple. Clean. Ganap na ganap. Maayos na Natapos.",
                     "userName": "evanw",
-                    "professional": "Technology Ebanghelista"
+                    "professional": "Technology Promotion"
                 },
                 {
-                    "reviewContent": "MarkdownD ay kung ano ang gagawin ko medyo marami ang lahat ng aking mga sulat sa. Ito ay isang magandang maliit na app.",
+                    "reviewContent": "MarkdownD ay kung ano ang gagawin ko halos lahat ng aking pagsusulat, ito ay isang magandang maliit na application.",
                     "userName": "Peter Bright",
-                    "professional": "Writer sa ARS Technica"
+                    "professional": "Manunulat ARS Technica ni"
                 },
                 {
-                    "reviewContent": "Kung mayroon kang anumang mga interes sa Markdown, MarkdownD ay talagang nagkakahalaga ng isang pag-download.",
-                    "userName": "LifeHacker",
-                    "professional": "Web Developer at Designer"
+                    "reviewContent": "Kung mayroon kang anumang mga interes sa mas mababang presyo, MarkdownD ay talagang nagkakahalaga ng pag-download.",
+                    "userName": "Lifehacker ni",
+                    "professional": "Web developer at designer"
                 },
                 {
-                    "reviewContent": "Ko talagang gusto MarkdownD, ay nagdala ng maraming kaginhawahan para sa aking trabaho.",
+                    "reviewContent": "Ko talagang gusto MarkdownD, ay nagdala ng mahusay na kaginhawahan, ang aking trabaho.",
                     "userName": "jeruss",
-                    "professional": "PHP Framework Developer"
+                    "professional": "PHP framework unlad"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Numero ng Bersyon",
+        "labelVersion": "Release",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Nakatakdang ilang mga bug."
+                        "content": "Naayos na ang ilang mga error."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Nakatakdang ilang mga bug."
+                        "content": "Naayos na ang ilang mga error."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Unang inilabas."
+                        "content": "Ang unang release."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Unang inilabas."
+                        "content": "Ang unang release."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Numero ng Bersyon",
+        "labelVersion": "Release",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Bumili Way",
+        "SectionName": "Paano Upang Bilhin",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

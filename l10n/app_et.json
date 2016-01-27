@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "Esileht",
-        "Feature": "Tunnusjoon",
-        "Documents": "Dokumendid",
-        "ReleaseNotes": "ReleaseNotes",
+        "Home": "Kodus",
+        "Feature": "Omadused",
+        "Documents": "Online Help",
+        "ReleaseNotes": "Release Notes",
         "Downloads": "Tasuta prooviversioon",
-        "Buy": "Ostma",
-        "Roadmap": "Teekaart",
-        "ReportIssue": "Aruanne Issue",
+        "Buy": "Ostu",
+        "Roadmap": "Tootevalik",
+        "ReportIssue": "Teata probleemist",
         "Languages": "Keel"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Väga kasulik App. Täisfunktsionaalne toimetaja. Windows, Linux, MacOSX.",
+        "ProjectTagline": "Täisfunktsionaalne Hinnaalandus toimetaja. Support for Windows, Linux ja MacOSX operatsioonisüsteemidega.",
         "BtnDownload": "Tasuta prooviversioon",
         "BtnBuy": "Ostu",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Peamised omadused",
+            "SectionName": "Toote põhijooned",
             "list": [
-                "Toetus eksportida pdf",
-                "Toetus print dokument",
-                "Toetus standard Hinnaalandus / CommonMark ja GFM (github Maitsestatud Hinnaalandus)",
-                "Live preview toetust",
-                "Toetus vormindatud teksti, kood plokid, lauad, koodivoltimist, otsida ja asendada, mitut keelt, HTML üksus koodi süntaksi esiletõstmine",
-                "Toetus Toc (sisukord), Emoji väljendus, TaskLists (ülesanne kaardiga),Links (link)",
+                "Probleemid Ekspordi PDF-failina",
+                "Toetus trükkimine dokumente",
+                "Toetab tavahind / CommonMark ja GFM (github on Hinnaalandus)",
+                "Live Preview Support",
+                "Toetatud formaadid teksti, kood plokid, lauad, koodivoltimist, otsida ja asendada, mitut keelt, HTML üksus koodi süntaksi esiletõstmine",
+                "Toetus TOC (sisukorra) väljendiga emotikone, ülesannete loendis (Task-kaart), @ (lingid)",
                 "Toetus dekodeerimine ja filtreerimine HTML sildid ja atribuudid",
-                "Toetus Tex (lateks väljendus, KaTeX), voolu skeem ja jada skeem",
-                "Toetus Dokumendi katmise mehhanism",
-                "Toetada Mitme üheaegse toimetamine, piiramatu arv"
+                "Toetus Texas (lateks väljendus, Katex Inc.) flowcharts ja järgnevusskeemilt",
+                "Toetus failide taastamise mehhanism",
+                "Toetab mitmeid toimetamine, piiramatu arv"
             ]
         },
         "UserReviews": {
-            "SectionName": "Wonderful asju, mida inimesed räägivad MarkdownD",
+            "SectionName": "Kuidas hinnata MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD on suurepärased. Lihtne. Clean. Perfect. Hästi tehtud.",
+                    "reviewContent": "MarkdownD on hämmastav. Lihtne. Clean. Perfection. Ilusti tehtud.",
                     "userName": "evanw",
-                    "professional": "Tehnoloogia Evangelist"
+                    "professional": "Tehnoloogia edendamine"
                 },
                 {
-                    "reviewContent": "MarkdownD on see, mida ma teha päris palju kõik minu kirjalikult. See on väga väike app.",
+                    "reviewContent": "MarkdownD on see, mida ma teen peaaegu kõik minu kirjalikult, see on väga väike rakendus.",
                     "userName": "Peter Bright",
-                    "professional": "Kirjanik on Ars Technica"
+                    "professional": "Ars Technica kirjanikud"
                 },
                 {
-                    "reviewContent": "Kui teil on huvi Hinnaalandus, MarkdownD tasub kindlasti alla.",
-                    "userName": "LifeHacker",
-                    "professional": "Web Developer ja kunstnik"
+                    "reviewContent": "Kui teil on huvi madalama hinna, MarkdownD tasub kindlasti alla.",
+                    "userName": "Lifehacker on",
+                    "professional": "Web arendajad ja projekteerijad"
                 },
                 {
-                    "reviewContent": "Mulle meeldib MarkdownD, on toonud palju mugavamaks minu töö.",
+                    "reviewContent": "Mulle meeldib MarkdownD, on toonud suurt mugavust, minu töö.",
                     "userName": "jeruss",
-                    "professional": "PHP Framework Developer"
+                    "professional": "PHP raamistik areng"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Version Number",
+        "labelVersion": "Vabastamine",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Mõned vead."
+                        "content": "Fikseeritud mõned vead."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Mõned vead."
+                        "content": "Fikseeritud mõned vead."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Esiteks vabastatakse."
+                        "content": "Esimene vabastamist."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Esiteks vabastatakse."
+                        "content": "Esimene vabastamist."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Version Number",
+        "labelVersion": "Vabastamine",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Osta Way",
+        "SectionName": "Kuidas osta",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

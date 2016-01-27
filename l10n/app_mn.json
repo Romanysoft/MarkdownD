@@ -1,19 +1,19 @@
 {
     "TopBar": {
         "Home": "Нүүр хуудас",
-        "Feature": "Сэдэвт",
-        "Documents": "Баримт бичиг",
-        "ReleaseNotes": "ReleaseNotes",
-        "Downloads": "Үнэгүй туршилт",
-        "Buy": "Одоо худалдаж авах",
-        "Roadmap": "Замын зураг",
-        "ReportIssue": "Тайлан гаргах",
+        "Feature": "Онцлог",
+        "Documents": "Онлайн тусламж",
+        "ReleaseNotes": "Хувилбарын тэмдэглэл",
+        "Downloads": "Чөлөөт Шүүхийн",
+        "Buy": "Худалдан авах",
+        "Roadmap": "Бүтээгдэхүүний шугам",
+        "ReportIssue": "Асуудлыг тайлагнах",
         "Languages": "Хэл"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Маш ашигтай App. Засварлагч бүрэн боломжуудтай. Windows, Linux, MacOSX.",
-        "BtnDownload": "Үнэгүй туршилт",
+        "ProjectTagline": "Бүрэн боломжуудтай Markdown редактор. Windows, Linux болон MacOSX үйлдлийн системүүдэд зориулж дэмжлэг үзүүлэх.",
+        "BtnDownload": "Чөлөөт Шүүхийн",
         "BtnBuy": "Худалдан авах",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Гол онцлог",
+            "SectionName": "Бүтээгдэхүүний гол онцлог",
             "list": [
-                "PDF бичиг баримт нь дэмжлэг үзүүлэх, экспортын",
-                "Дэмжлэг хэвлэх баримт бичиг",
-                "Дэмжлэг үзүүлэх стандарт Markdown / CommonMark болон GFM (GitHub амт Markdown)",
-                "Амьд тольдох дэмжлэг",
-                "Дэмжлэг форматлагдсан текст, код блок, ширээ, код нугалах, хайх, солих, олон хэл, HTML код нь аж ахуйн нэгж нь синтакс онцлон",
-                "Дэмжлэг ерөнхий агуулгад бичигдэхгүй (Гарчиг), Emoji илэрхийлэл, TaskLists (Зорилт зураг),Links (холбоос)",
+                "PDF файл болгон экспортыг дэмжих",
+                "Хэвлэх баримт бичиг нь дэмжлэг үзүүлэх",
+                "Дэмждэг стандарт үнэ / CommonMark болон GFM (GitHub-ын Markdown)",
+                "Амьд үзүүлбэр дэмжлэг үзүүлэх",
+                "Текстийн Дэмжигдсэн хэлбэр, код блок, ширээ, код нугалах, олон хэл хайх, солих, HTML код нь аж ахуйн нэгж нь синтакс онцлон",
+                "Дэмжлэг ерөнхий агуулгад бичигдэхгүй (Агуулгын хүснэгт) боломжтой инээмсэглэлүүдийн илэрхийлэл, ажлын жагсаалт (Зорилт зураг), @ (линкүүд)",
                 "Дэмжлэг тайлан уншиж сурснаар болон шvvх HTML тэмдэглэгээнүүд мөн чанарууд",
-                "Дэмжлэг техас (латекс илэрхийлэл KaTeX), диаграмм, дэс дарааллын диаграм урсгал",
-                "Дэмжлэг баримт бичиг нөхөн сэргээх механизм",
-                "Олон нэгэн зэрэг засварлах дэмжлэг үзүүлэх, хязгааргүй тоо"
+                "Дэмжлэг АНУ-ын Техасын (латекс илэрхийлэл, Katex Inc.) flowcharts болон дарааллын диаграм",
+                "Дэмжлэг файл сэргээх арга",
+                "Дэмжих олон засварлах, хязгааргүй тоо"
             ]
         },
         "UserReviews": {
-            "SectionName": "Гайхамшигт зүйл бол хүмүүс MarkdownD тухай ярьж байна",
+            "SectionName": "MarkdownD үнэлэх вэ",
             "list": [
                 {
-                    "reviewContent": "MarkdownD гайхалтай юм. Энгийн. Цэвэр. Төгс. Сайн хийлээ.",
+                    "reviewContent": "MarkdownD үнэхээр гайхалтай юм. Энгийн. Цэвэр. Perfection. Сайхан хийдэг.",
                     "userName": "evanw",
-                    "professional": "Технологийн Evangelist"
+                    "professional": "Технологийн дэмжих"
                 },
                 {
-                    "reviewContent": "MarkdownD би нэлээн их л миний бичиж байх юу байна. Энэ бол маш жижигхэн програм юм.",
+                    "reviewContent": "MarkdownD, энэ нь их бага хэрэглэх нь юу би бараг л би бичиж хийх юм.",
                     "userName": "Петр Bright",
-                    "professional": "Ars Technica дээр Writer"
+                    "professional": "Ars Technica-ын зохиолчид"
                 },
                 {
-                    "reviewContent": "Та Markdown ямар нэгэн ашиг сонирхол байгаа бол, MarkdownD мэдээж татаж авах нь зүйтэй юм.",
-                    "userName": "LifeHacker",
-                    "professional": "Web Developer ба зохион бүтээгч"
+                    "reviewContent": "Та нар бага үнэ ямар нэгэн ашиг сонирхол байгаа бол, MarkdownD нь мэдээж татаж авах нь зүйтэй юм.",
+                    "userName": "Lifehacker-ийн",
+                    "professional": "Вэб хөгжүүлэгчид болон дизайнерууд"
                 },
                 {
-                    "reviewContent": "Би үнэхээр MarkdownD шиг миний ажилд маш их тав тухтай авчирсан.",
+                    "reviewContent": "Би үнэхээр MarkdownD шиг их тав тухыг авчирсан, миний ажил.",
                     "userName": "jeruss",
-                    "professional": "PHP Framework Developer"
+                    "professional": "PHP тогтолцоо хөгжил"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Хувилбар тоо",
+        "labelVersion": "Хувилбарын",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Зарим алдааг нь залруулсан."
+                        "content": "Зарим алдааг нь залруулсан байна."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Зарим алдааг нь залруулсан."
+                        "content": "Зарим алдааг нь залруулсан байна."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Эхний гаргасан."
+                        "content": "Анхны хувилбар."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Эхний гаргасан."
+                        "content": "Анхны хувилбар."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Хувилбар тоо",
+        "labelVersion": "Хувилбарын",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Одоо худалдаж авах арга зам",
+        "SectionName": "Одоо худалдаж авах хэрэгтэй вэ",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

@@ -1,19 +1,19 @@
 {
     "TopBar": {
         "Home": "ಮುಖಪುಟ",
-        "Feature": "ವೈಶಿಷ್ಟ್ಯ",
-        "Documents": "ಡಾಕ್ಯುಮೆಂಟ್ಸ್",
-        "ReleaseNotes": "ReleaseNotes",
-        "Downloads": "ಉಚಿತ ಪ್ರಯೋಗ",
+        "Feature": "ವೈಶಿಷ್ಟ್ಯಗಳು",
+        "Documents": "ಆನ್ಲೈನ್ ಸಹಾಯ",
+        "ReleaseNotes": "ಬಿಡುಗಡೆ ಟಿಪ್ಪಣಿಗಳು",
+        "Downloads": "ಉಚಿತ ಟ್ರಯಲ್",
         "Buy": "ಖರೀದಿ",
-        "Roadmap": "ಮಾರ್ಗಸೂಚಿ",
+        "Roadmap": "ಉತ್ಪನ್ನ",
         "ReportIssue": "ಸಮಸ್ಯೆ ವರದಿ ಮಾಡಿ",
         "Languages": "ಭಾಷಾ"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "ಉಪಯುಕ್ತ ಅಪ್ಲಿಕೇಶನ್. ಸಂಪಾದಕ ಪೂರ್ಣ ವೈಶಿಷ್ಟ್ಯಗೊಳಿಸಿದ. ವಿಂಡೋಸ್, ಲಿನಕ್ಸ್, MacOSX.",
-        "BtnDownload": "ಉಚಿತ ಪ್ರಯೋಗ",
+        "ProjectTagline": "ಪೂರ್ಣ ವೈಶಿಷ್ಟ್ಯಗೊಳಿಸಿದ Markdown ಸಂಪಾದಕ. ವಿಂಡೋಸ್, ಲಿನಕ್ಸ್ ಮತ್ತು MacOSX ಆಪರೇಟಿಂಗ್ ಸಿಸ್ಟಮ್ಗಳ ಬೆಂಬಲ.",
+        "BtnDownload": "ಉಚಿತ ಟ್ರಯಲ್",
         "BtnBuy": "ಖರೀದಿ",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "ಮುಖ್ಯ ಲಕ್ಷಣಗಳು",
+            "SectionName": "ಉತ್ಪನ್ನ ಮುಖ್ಯ ಲಕ್ಷಣಗಳು",
             "list": [
-                "ಪಿಡಿಎಫ್ ಡಾಕ್ಯುಮೆಂಟ್ ಗೆ ಬೆಂಬಲ ರಫ್ತು",
-                "ಬೆಂಬಲ ಮುದ್ರಣ ದಸ್ತಾವೇಜು",
-                "ಬೆಂಬಲ ಪ್ರಮಾಣಿತ Markdown / CommonMark ಮತ್ತು GFM (GitHub ಫ್ಲೇವರ್ಡ್ Markdown)",
+                "PDF ಫೈಲ್ ಮಾಹಿತಿ ಎಕ್ಸ್ಪೋರ್ಟ್ ಬೆಂಬಲ",
+                "ದಾಖಲೆಗಳ ಮುದ್ರಣಕ್ಕೆ ಬೆಂಬಲ",
+                "ಬೆಂಬಲಿಸುತ್ತದೆ ಗುಣಮಟ್ಟದ ಬೆಲೆ / CommonMark ಮತ್ತು GFM (Github ತಂದೆಯ Markdown)",
                 "ಲೈವ್ ಪೂರ್ವವೀಕ್ಷಣೆ ಬೆಂಬಲ",
-                "ಬೆಂಬಲ ಫಾರ್ಮ್ಯಾಟ್ ಪಠ್ಯ ಕೋಡ್ ಬ್ಲಾಕ್ಗಳನ್ನು, ಕೋಷ್ಟಕಗಳು, ಕೋಡ್ ಕಾಗದದ, ಹುಡುಕಲು ಮತ್ತು ಬದಲಿಗೆ, ಬಹು ಭಾಷೆ, HTML ಘಟಕದ ಕೋಡ್ ಸಿಂಟ್ಯಾಕ್ಸ್ ಹೈಲೈಟ್",
-                "ಬೆಂಬಲ Toc (ಪರಿವಿಡಿ), ಎಮೊಜಿಯನ್ನು ಅಭಿವ್ಯಕ್ತಿ, TaskLists (ಕಾರ್ಯ ನಕ್ಷೆ),Links (ಲಿಂಕ್)",
+                "ಪಠ್ಯದ ಬೆಂಬಲಿತ ಸ್ವರೂಪಗಳು ಕೋಡ್ ಬ್ಲಾಕ್ಗಳನ್ನು, ಕೋಷ್ಟಕಗಳು, ಕೋಡ್ ಕಾಗದದ, ಬಹು ಭಾಷೆ ಹುಡುಕಲು ಮತ್ತು ಬದಲಿಗೆ, HTML ಘಟಕದ ಕೋಡ್ ಸಿಂಟ್ಯಾಕ್ಸ್ ಹೈಲೈಟ್",
+                "ಬೆಂಬಲ ಟಿಒಸಿ (ಪರಿವಿಡಿಯನ್ನು) ಭಾವನೆಯನ್ನು ವ್ಯಕ್ತಪಡಿಸುವಿಕೆಯು ಕಾರ್ಯಪಟ್ಟಿಯನ್ನು (ಟಾಸ್ಕ್ ನಕ್ಷೆ), @ (ಕೊಂಡಿಗಳು)",
                 "ಬೆಂಬಲ ಡಿಕೋಡಿಂಗ್ ಮತ್ತು ಫಿಲ್ಟರಿಂಗ್ HTML ಟ್ಯಾಗ್ಗಳು ಮತ್ತು ಲಕ್ಷಣಗಳು",
-                "ಬೆಂಬಲ ಟೆಕ್ಸ್ (ಲ್ಯಾಟೆಕ್ಸ್ ಅಭಿವ್ಯಕ್ತಿ, KaTeX), ರೇಖಾಚಿತ್ರ ಮತ್ತು ಅನುಕ್ರಮ ನಕ್ಷೆ ಹರಿವು",
-                "ಬೆಂಬಲ ಡಾಕ್ಯುಮೆಂಟ್ ರಿಕವರಿ ಯಾಂತ್ರಿಕ",
-                "ಅನೇಕ ಏಕಕಾಲಿಕ ಸಂಪಾದನೆ ಬೆಂಬಲ, ಅನಿಯಮಿತ ಸಂಖ್ಯೆಯ"
+                "ಬೆಂಬಲ ಟೆಕ್ಸಾಸ್ (ಲ್ಯಾಟೆಕ್ಸ್ ಅಭಿವ್ಯಕ್ತಿ, Katex ಇಂಕ್) ಫ್ಲೋಚಾರ್ಟ್ಗಳನ್ನು ಮತ್ತು ಅನುಕ್ರಮ ಚಿತ್ರಗಳು",
+                "ಬೆಂಬಲ ಕಡತಗಳನ್ನು ಚೇತರಿಕೆ ವ್ಯವಸ್ಥೆ",
+                "ಬೆಂಬಲ ಅನೇಕ ಸಂಪಾದನೆ, ಅನಿಯಮಿತ ಸಂಖ್ಯೆಯ"
             ]
         },
         "UserReviews": {
-            "SectionName": "ಅದ್ಭುತ ವಿಷಯಗಳನ್ನು ಜನರು MarkdownD ಬಗ್ಗೆ ಹೇಳುತ್ತಿದ್ದಾರೆ",
+            "SectionName": "MarkdownD ಮೌಲ್ಯಮಾಪನ ಹೇಗೆ",
             "list": [
                 {
-                    "reviewContent": "MarkdownD ಸ್ತಬ್ಧಗೊಳಿಸುವಂತಿದೆ. ಸರಳ. ಕ್ಲೀನ್. ಪರ್ಫೆಕ್ಟ್. ಅಭಿನಂದನೆಗಳು.",
+                    "reviewContent": "MarkdownD ಅದ್ಭುತ. ಸರಳ. ಕ್ಲೀನ್. ಪರ್ಫೆಕ್ಷನ್. ಚೆನ್ನಾಗಿ ಮಾಡಲಾಗುತ್ತದೆ.",
                     "userName": "evanw",
-                    "professional": "ತಂತ್ರಜ್ಞಾನ ಸುವಾರ್ತಾಬೋಧಕ"
+                    "professional": "ತಂತ್ರಜ್ಞಾನ ಪ್ರಚಾರ"
                 },
                 {
-                    "reviewContent": "MarkdownD ನಾನು ಅತ್ಯಧಿಕವಾಗಿ ಎಲ್ಲಾ ನನ್ನ ಬರವಣಿಗೆಯ ಏನು ಆಗಿದೆ. ಇದು ದೊಡ್ಡ ಕಡಿಮೆ ಅಪ್ಲಿಕೇಶನ್.",
+                    "reviewContent": "MarkdownD, ಈ ದೊಡ್ಡ ಕಡಿಮೆ ಮಾಡುವುದಾಗಿದೆ ನಾನು ಎಲ್ಲಾ ನನ್ನ ಬರಹದ ಹಾಗೆ ಆಗಿದೆ.",
                     "userName": "ಪೀಟರ್ ಬ್ರೈಟ್",
-                    "professional": "ಆರ್ಸ್ ಟೆಕ್ನಿಕಾ ರೈಟರ್"
+                    "professional": "ಆರ್ಸ್ ಟೆಕ್ನಿಕಾ ನ ಬರಹಗಾರರು"
                 },
                 {
-                    "reviewContent": "ನೀವು Markdown ಯಾವುದೇ ಆಸಕ್ತಿ ಹೊಂದಿದ್ದರೆ, MarkdownD ಖಂಡಿತವಾಗಿಯೂ ಡೌನ್ಲೋಡ್ ಯೋಗ್ಯವಾಗಿದೆ.",
-                    "userName": "Lifehacker",
-                    "professional": "ವೆಬ್ ಡೆವಲಪರ್ ಮತ್ತು ಡಿಸೈನರ್"
+                    "reviewContent": "ನೀವು ಕಡಿಮೆ ಬೆಲೆಯಲ್ಲಿ ಯಾವುದೇ ಆಸಕ್ತಿ ಹೊಂದಿದ್ದರೆ, MarkdownD ಖಂಡಿತವಾಗಿಯೂ ಡೌನ್ಲೋಡ್ ಯೋಗ್ಯವಾಗಿದೆ.",
+                    "userName": "Lifehacker ನ",
+                    "professional": "ವೆಬ್ ಅಭಿವರ್ಧಕರು ಮತ್ತು ವಿನ್ಯಾಸಕಾರರು"
                 },
                 {
-                    "reviewContent": "ನಾನು MarkdownD, ನನ್ನ ಕೆಲಸಕ್ಕೆ ಹೆಚ್ಚು ಅನುಕೂಲಕ್ಕಾಗಿ ತಂದಿದೆ.",
+                    "reviewContent": "ನಾನು MarkdownD ನಂತಹ ಮಹಾನ್ ಅನುಕೂಲಕ್ಕಾಗಿ ತಂದಿದೆ; ನನ್ನ ಕೆಲಸ.",
                     "userName": "jeruss",
-                    "professional": "ಚೌಕಟ್ಟು ಡೆವಲಪರ್"
+                    "professional": "ಚೌಕಟ್ಟು ಅಭಿವೃದ್ಧಿ"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "ಆವೃತ್ತಿ ಸಂಖ್ಯೆ",
+        "labelVersion": "ಬಿಡುಗಡೆ",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -185,8 +194,31 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "ಆವೃತ್ತಿ ಸಂಖ್ಯೆ",
+        "labelVersion": "ಬಿಡುಗಡೆ",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "ಖರೀದಿ ವೇ",
+        "SectionName": "ಖರೀದಿ ಮಾಡಲು ಹೇಗೆ",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

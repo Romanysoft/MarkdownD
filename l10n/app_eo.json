@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "CxefaPagxo",
-        "Feature": "Trajto",
-        "Documents": "Dokumentoj",
-        "ReleaseNotes": "ReleaseNotes",
+        "Home": "Hejmo",
+        "Feature": "Karakterizaĵoj",
+        "Documents": "Rete Helpo",
+        "ReleaseNotes": "Release Notoj",
         "Downloads": "Free Trial",
-        "Buy": "Aĉeti",
-        "Roadmap": "Roadmap",
-        "ReportIssue": "Raporti Issue",
+        "Buy": "Aĉeto",
+        "Roadmap": "Produkto linio",
+        "ReportIssue": "Raportu problemo",
         "Languages": "Lingvo"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Tre utila App. Kompleta aperis redaktoro. Vindozo, Linukso, MacOSX.",
+        "ProjectTagline": "Kompleta aperis Markdown redaktoro. Subteno por Vindozo, Linukso kaj MacOSX operaciumoj.",
         "BtnDownload": "Free Trial",
         "BtnBuy": "Aĉeto",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Ĉefaj Trajtoj",
+            "SectionName": "Produkto ĉefaj karakterizaĵoj",
             "list": [
-                "Subteno eksportado al PDF dokumenton",
-                "Subteno presaĵo dokumenton",
-                "Subteno normo Markdown / CommonMark kaj GFM (GitHub Flavored Markdown)",
-                "Aktiva antaŭvido subteno",
-                "Subteno formatita teksto, kodo blokoj, tabloj, kodo kunmeto, serĉo kaj anstataŭi, multnombraj lingvoj, HTML ento kodo sintaksa kolorigo",
-                "Subteno Toc (Enhavo), Emoji esprimo, TaskLists (tasko mapo),Links (ligilo)",
+                "Subtenu Eksporti kiel PDF dosiero",
+                "Subteno por presado dokumentoj",
+                "Elportas norma prezo / CommonMark kaj GFM (GitHub la Markdown)",
+                "Live Antaŭrigardo Subteno",
+                "Subtena formatoj de teksto, kodo blokoj, tabloj, kodo kunmeto, serĉo kaj anstataŭi, multi-lingvo, HTML ento kodo sintaksa kolorigo",
+                "Subteno TOC (enhavtabelon), la esprimo de vizaĝetoj, la taskaro (Tasko Mapo), @ (ligiloj)",
                 "Subtenu malkodigo kaj filtrantaj HTML etikedoj kaj atributoj",
-                "Subteno TeX (LaTex esprimo, KaTeX), fluas diagramo kaj sekvenco diagramo",
-                "Subteno Dokumento Reakiro Mekanismo",
-                "Subtenu multnombraj samtempaj redaktado, senlima nombro"
+                "Subteno Teksaso (latekso esprimo, Katex Inc.) flowcharts kaj Sinsekvodiagramoj",
+                "Subteno dosierojn reakiro meĥanismo",
+                "Subtenu multnombraj redaktado, senlima nombro"
             ]
         },
         "UserReviews": {
-            "SectionName": "Mirindaĵojn homoj diras pri MarkdownD",
+            "SectionName": "Kiel taksi MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD estas impona. Simpla. Pura. Perfekta. Bone farita.",
+                    "reviewContent": "MarkdownD estas mirinda. Simpla. Pura. Perfekteco. Bele farita.",
                     "userName": "evanw",
-                    "professional": "Teknologio Evangelista"
+                    "professional": "Teknologio Promocio"
                 },
                 {
-                    "reviewContent": "MarkdownD estas kion mi faras preskaux cxiuj de mia skribo en. Ĝi estas granda malgranda app.",
+                    "reviewContent": "MarkdownD estas kion mi faras preskaŭ ĉiu mia skribo, tiu estas granda malgranda apliko.",
                     "userName": "Peter Brilo",
-                    "professional": "Verkisto ĉe Ars Technica"
+                    "professional": "Ars Technica la verkistoj"
                 },
                 {
-                    "reviewContent": "Se vi havas ajnan intereson en Markdown, MarkdownD estas definitive valoras download.",
-                    "userName": "Lifehacker",
-                    "professional": "Retejo Developer kaj Dizajnisto"
+                    "reviewContent": "Se vi havas ajnan intereson en malaltaj prezoj, MarkdownD estas sendube valora la deŝuto.",
+                    "userName": "Lifehacker la",
+                    "professional": "Retejo programistoj kaj diseñadores"
                 },
                 {
-                    "reviewContent": "Mi vere ŝatas MarkdownD, alportis multe oportuno por mia laboro.",
+                    "reviewContent": "Mi vere ŝatas MarkdownD, alportis grandajn oportuneco; mia laboro.",
                     "userName": "jeruss",
-                    "professional": "PHP Framework Developer"
+                    "professional": "PHP kadro evoluo"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Versio Nombro",
+        "labelVersion": "Release",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Korektitaj kelkaj cimoj."
+                        "content": "Fixed iuj eraroj."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Korektitaj kelkaj cimoj."
+                        "content": "Fixed iuj eraroj."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Unue liberigita."
+                        "content": "La unua ĵeto."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Unue liberigita."
+                        "content": "La unua ĵeto."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Versio Nombro",
+        "labelVersion": "Release",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Aĉeti Vojo",
+        "SectionName": "Kiel aĉeti",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

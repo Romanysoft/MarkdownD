@@ -1,19 +1,19 @@
 {
     "TopBar": {
-        "Home": "Pejy fandraisana",
+        "Home": "Home",
         "Feature": "Endri-javatra",
-        "Documents": "Documents",
-        "ReleaseNotes": "ReleaseNotes",
-        "Downloads": "Andrana maimaim-poana",
-        "Buy": "Buy",
-        "Roadmap": "Tondrozotra",
-        "ReportIssue": "Report Laharana",
+        "Documents": "Online Help",
+        "ReleaseNotes": "Release Notes",
+        "Downloads": "Free Fitsarana",
+        "Buy": "Purchase",
+        "Roadmap": "Product tsipika",
+        "ReportIssue": "Report ny olana",
         "Languages": "Language"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Tena mahasoa App. Full-nasongadina tonian-dahatsoratra. Windows, Linux, MacOSX.",
-        "BtnDownload": "Andrana maimaim-poana",
+        "ProjectTagline": "Full-nasongadina Markdown tonian-dahatsoratra. Fanohanana ny Windows, Linux sy MacOSX miasa rafitra.",
+        "BtnDownload": "Free Fitsarana",
         "BtnBuy": "Purchase",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Main Features",
+            "SectionName": "Vokatra tena endri-javatra",
             "list": [
-                "Support fanondranana ny PDF antontan-taratasy",
-                "Support pirinty antontan-taratasy",
-                "Fanohanana fitsipika Markdown / CommonMark sy GFM (GitHub Flavored Markdown)",
-                "Live topi-maso fanohanana",
-                "Fanohanana Sarintany, fehezan-dalàna vato, latabatra, fehezan-dalàna mbola hanohon, karohy sy hisolo, fiteny maro, HTML fikambanana fehezan-dalàna Syntaxe manasongadina",
-                "Support Toc (Loha Hevitra ato Anatiny), Emoji fanehoan-kevitra, TaskLists (asa Map),Links (rohy)",
+                "Manohana Export ho PDF rakitra",
+                "Fanohanana ny fanontam-pirinty antontan-taratasy",
+                "Manohana fitsipika vidiny / CommonMark sy GFM (GitHub ny Markdown)",
+                "Live Preview Support",
+                "Supported endrika ny lahatsoratra, fehezan-dalàna vato, latabatra, fehezan-dalàna mbola hanohon, karohy sy hanoloana, maro-teny, HTML fikambanana fehezan-dalàna Syntaxe manasongadina",
+                "Support tộc (Loha Hevitra ato Anatiny), ny fanehoana Emoticons, ny asa lisitra (Task Map), @ (rohy)",
                 "Support decoding sy ny fanasivanana HTML Tags sy ny toetra",
-                "Support Tex (LaTeX fanehoan-kevitra, KaTeX), mikoriana sary sy ny filaharany sary",
-                "Support Document Recovery rafitra",
-                "Tohano maro niara fanovana, tsy manam-petra isa"
+                "Support Texas (LaTeX fanehoan-kevitra, Katex Inc.) flowcharts sy ny filaharany kisary",
+                "Fanohanana raki-daza fanarenana rafitra",
+                "Fanohanana maro fanitsiana, isa tsy manam-petra"
             ]
         },
         "UserReviews": {
-            "SectionName": "Zava-mahagaga hoe ny olona momba ny MarkdownD",
+            "SectionName": "Ny fomba hanombanana MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD dia manaitra. Simple. Madio. Tonga lafatra. Vita tsara.",
+                    "reviewContent": "MarkdownD no mahagaga. Simple. Madio. Fahalavorariana. Tsara anefa izany.",
                     "userName": "evanw",
-                    "professional": "Technology Evangelist"
+                    "professional": "Technology Promotion"
                 },
                 {
-                    "reviewContent": "MarkdownD no ataoko tsara tarehy be ny soratra rehetra tao. Tena kely be fampiharana.",
+                    "reviewContent": "MarkdownD no saika ataoko ny soratra rehetra, izany no lehibe fampiharana kely.",
                     "userName": "Peter Bright",
-                    "professional": "Mpanoratra ao amin'ny Ars Technica"
+                    "professional": "Ars Technica ny mpanoratra"
                 },
                 {
-                    "reviewContent": "Raha misy liana amin'ny Markdown, MarkdownD dia tena mendrika ny Download.",
-                    "userName": "LifeHacker",
-                    "professional": "Web Developer sy ny Mpamorona"
+                    "reviewContent": "Raha misy liana amin'ny vidiny ambany, MarkdownD dia tena mendrika ny Download.",
+                    "userName": "Lifehacker ny",
+                    "professional": "Web mpandraharaha sy ny endrika"
                 },
                 {
-                    "reviewContent": "Tena toy ny MarkdownD, dia nitondra be tsy hanahirana ho an'ny asa.",
+                    "reviewContent": "Tena toy ny MarkdownD, dia nitondra be tsy hanahirana; asako.",
                     "userName": "jeruss",
-                    "professional": "Framework PHP Developer"
+                    "professional": "PHP rafitra fampandrosoana"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Version Number",
+        "labelVersion": "Release",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Raikitra bibikely sasany."
+                        "content": "Raikitra fahadisoana sasantsasany."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Raikitra bibikely sasany."
+                        "content": "Raikitra fahadisoana sasantsasany."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Navoaka voalohany."
+                        "content": "Ny fanafahana voalohany."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Navoaka voalohany."
+                        "content": "Ny fanafahana voalohany."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Version Number",
+        "labelVersion": "Release",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Buy Way",
+        "SectionName": "Ahoana no To Buy",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

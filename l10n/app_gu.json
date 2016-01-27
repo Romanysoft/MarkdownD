@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "હોમપેજ",
-        "Feature": "લક્ષણ",
-        "Documents": "દસ્તાવેજો",
-        "ReleaseNotes": "ReleaseNotes",
+        "Home": "મુખ્ય પૃષ્ઠ",
+        "Feature": "લક્ષણો",
+        "Documents": "ઓનલાઇન મદદ",
+        "ReleaseNotes": "પ્રકાશન નોંધો",
         "Downloads": "મફત ટ્રાયલ",
-        "Buy": "ખરીદો",
-        "Roadmap": "RoadMap",
+        "Buy": "ખરીદી",
+        "Roadmap": "ઉત્પાદન રેખા",
         "ReportIssue": "સમસ્યાની જાણ કરો",
         "Languages": "ભાષા"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "ખૂબ જ ઉપયોગી એપ્લિકેશન. સંપાદક પૂર્ણ દર્શાવવામાં આવી છે. વિન્ડોઝ, Linux, MacOSX.",
+        "ProjectTagline": "સંપૂર્ણ સુવિધાયુક્ત Markdown સંપાદક. વિન્ડોઝ, લિનક્સ અને MacOSX ઓપરેટીંગ સિસ્ટમો માટે આધાર આપે છે.",
         "BtnDownload": "મફત ટ્રાયલ",
         "BtnBuy": "ખરીદી",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "મુખ્ય લાક્ષણિકતાઓ",
+            "SectionName": "ઉત્પાદન મુખ્ય લક્ષણો",
             "list": [
-                "પીડીએફ દસ્તાવેજ માટે આધાર નિકાસ",
-                "આધાર પ્રિન્ટ દસ્તાવેજ",
-                "આધાર ધોરણ Markdown / CommonMark અને GFM (GitHub ફ્લેવર્ડ Markdown)",
+                "પીડીએફ ફાઇલ તરીકે એક્સપોર્ટ સપોર્ટ",
+                "દસ્તાવેજ પ્રીન્ટીંગ માટે આધાર",
+                "આધાર આપે છે ધોરણ ભાવ / CommonMark અને GFM (GitHub માતાનો Markdown)",
                 "લાઈવ પૂર્વદર્શન આધાર",
-                "આધાર ફોર્મેટ લખાણ, કોડ બ્લોક, કોષ્ટકો, કોડ ગડી, શોધ અને બદલો, વિવિધ ભાષાઓ, HTML એન્ટિટી કોડ સિન્ટેક્સ હાઇલાઇટિંગ",
-                "આધાર TOC (વિષયસુચીકોષ્ટક), ઇમોજી અભિવ્યક્તિ, TaskLists (કાર્ય મેપ),Links (કડી)",
+                "લખાણ સપોર્ટેડ ફોર્મેટ્સ કોડ બ્લોક, કોષ્ટકો, કોડ ગડી,, મલ્ટી ભાષા શોધ અને બદલો, HTML એન્ટિટી કોડ સિન્ટેક્સ હાઇલાઇટિંગ",
+                "આધાર TOC (સામગ્રીઓનું કોષ્ટક), ઇમોટિકોન્સ અભિવ્યક્તિ, કાર્ય યાદી (કાર્ય મેપ), @ (લિંક્સ)",
                 "આધાર ડીકોડિંગ અને ગાળણ એચટીએમએલ ટૅગ્સ અને લક્ષણો",
-                "આધાર ટેક્સ (લેટેક્ષ અભિવ્યક્તિ, KaTeX), રેખાકૃતિ અને ક્રમ રેખાકૃતિ પ્રવાહ",
-                "આધાર દસ્તાવેજ પુનઃપ્રાપ્તિ મિકેનિઝમ",
-                "બહુવિધ એક સાથે સંપાદન સપોર્ટ, અમર્યાદિત નંબર"
+                "આધાર ટેક્સાસ (લેટેક્ષ અભિવ્યક્તિ, Katex ઇન્ક) ફ્લોચાર્ટ અને ક્રમ આકૃતિઓ",
+                "આધાર ફાઈલો પુનઃપ્રાપ્તિ પદ્ધતિ",
+                "આધાર બહુવિધ સંપાદન, અમર્યાદિત નંબર"
             ]
         },
         "UserReviews": {
-            "SectionName": "વન્ડરફુલ વસ્તુઓ લોકો MarkdownD વિશે કહે છે",
+            "SectionName": "MarkdownD મૂલ્યાંકન કેવી રીતે",
             "list": [
                 {
-                    "reviewContent": "MarkdownD અદભૂત છે. સરળ. સાફ. યોગ્ય છે. શાબ્બાશ.",
+                    "reviewContent": "MarkdownD અમેઝિંગ છે. સરળ. સાફ. પરફેક્શન. સરસ રીતે કર્યું.",
                     "userName": "evanw",
-                    "professional": "ટેકનોલોજી ઇવેન્જલિસ્ટ"
+                    "professional": "ટેકનૉલોજી પ્રમોશન"
                 },
                 {
-                    "reviewContent": "MarkdownD હું ખૂબ ખૂબ બધા મારા લેખન શું છે. તે એક મહાન ઓછી એપ્લિકેશન છે.",
+                    "reviewContent": "MarkdownD, આ એક મહાન થોડું એપ્લિકેશન છે શું હું લગભગ બધા મારા લેખન કરવું છે.",
                     "userName": "પીટર તેજસ્વી",
-                    "professional": "આર્સ ટેકનિકા લેખક"
+                    "professional": "આર્સ ટેકનિકા લેખકો"
                 },
                 {
-                    "reviewContent": "તમે Markdown કોઈ રસ હોય, તો MarkdownD ચોક્કસપણે એક ડાઉનલોડ વર્થ છે.",
-                    "userName": "Lifehacker",
-                    "professional": "વેબ ડેવલપર અને ડિઝાઇનર"
+                    "reviewContent": "તમે નીચા ભાવ કોઈ રસ હોય, તો MarkdownD ચોક્કસપણે ડાઉનલોડ વર્થ છે.",
+                    "userName": "Lifehacker માતાનો",
+                    "professional": "વેબ ડેવલપર્સ અને ડિઝાઇનર્સ"
                 },
                 {
-                    "reviewContent": "હું ખરેખર MarkdownD જેમ, મારા કામ માટે ખૂબ સગવડ થયો છે.",
+                    "reviewContent": "હું ખરેખર MarkdownD જેવા મહાન સગવડ થયો છે; મારા કામ કરે છે.",
                     "userName": "jeruss",
-                    "professional": "PHP, ફ્રેમવર્ક વિકાસકર્તા"
+                    "professional": "PHP, માળખા વિકાસ"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "આવૃત્તિ નંબર",
+        "labelVersion": "પ્રકાશન",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -174,19 +183,42 @@
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "પ્રથમ પ્રકાશિત થાય છે."
+                        "content": "પ્રથમ પ્રકાશન."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "પ્રથમ પ્રકાશિત થાય છે."
+                        "content": "પ્રથમ પ્રકાશન."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "આવૃત્તિ નંબર",
+        "labelVersion": "પ્રકાશન",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "ખરીદો વે",
+        "SectionName": "ખરીદો કેવી રીતે",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

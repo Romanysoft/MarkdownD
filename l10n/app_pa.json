@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "ਮੁੱਖ ਸਫ਼ਾ",
-        "Feature": "ਵਿਸ਼ੇਸ਼ਤਾ",
-        "Documents": "ਦਸਤਾਵੇਜ਼",
-        "ReleaseNotes": "ReleaseNotes",
+        "Home": "ਮੁੱਖ",
+        "Feature": "ਫੀਚਰ",
+        "Documents": "ਆਨਲਾਈਨ ਮੱਦਦ",
+        "ReleaseNotes": "ਜਾਰੀ ਸੂਚਨਾ",
         "Downloads": "ਮੁਫ਼ਤ ਮੁਕੱਦਮੇ",
-        "Buy": "ਖਰੀਦੋ",
-        "Roadmap": "ਖਾਕਾ",
-        "ReportIssue": "ਰਿਪੋਰਟ ਜਾਰੀ",
+        "Buy": "ਖਰੀਦ",
+        "Roadmap": "ਉਤਪਾਦ ਲਾਈਨ",
+        "ReportIssue": "ਇੱਕ ਸਮੱਸਿਆ ਰਿਪੋਰਟ ਕਰੋ",
         "Languages": "ਭਾਸ਼ਾ"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "ਬਹੁਤ ਹੀ ਲਾਭਦਾਇਕ ਹੈ App. ਸੰਪਾਦਕ ਪੂਰੀ-ਗੁਣ. Windows ਨੂੰ, ਲੀਨਕਸ, MacOSX.",
+        "ProjectTagline": "ਪੂਰੀ-ਗੁਣ ਮਾਰਕਡਾਊਨ ਸੰਪਾਦਕ. Windows ਨੂੰ, ਲੀਨਕਸ ਅਤੇ MacOSX ਓਪਰੇਟਿੰਗ ਸਿਸਟਮ ਲਈ ਸਹਿਯੋਗ.",
         "BtnDownload": "ਮੁਫ਼ਤ ਮੁਕੱਦਮੇ",
         "BtnBuy": "ਖਰੀਦ",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "ਮੁੱਖ ਫੀਚਰ",
+            "SectionName": "ਉਤਪਾਦ ਮੁੱਖ ਫੀਚਰ",
             "list": [
-                "PDF ਦਸਤਾਵੇਜ਼ ਨੂੰ ਸਹਿਯੋਗ ਬਰਾਮਦ",
-                "ਸਹਿਯੋਗ ਪ੍ਰਿੰਟ ਦਸਤਾਵੇਜ਼",
-                "ਸਹਿਯੋਗ ਮਿਆਰੀ ਮਾਰਕਡਾਊਨ / CommonMark ਅਤੇ GFM (GitHub flavored ਮਾਰਕਡਾਊਨ)",
-                "ਲਾਈਵ ਜਾਣਕਾਰੀ ਦੇ ਸਹਿਯੋਗ ਨੂੰ",
-                "ਸਹਿਯੋਗ ਛਪਿਆ, ਕੋਡ ਬਲਾਕ, ਟੇਬਲ, ਕੋਡ ਤਹਿ ਕਰਣਾ, ਖੋਜ ਅਤੇ ਤਬਦੀਲ ਕਰੋ, ਮਲਟੀਪਲ ਭਾਸ਼ਾ, HTML ਹਸਤੀ ਕੋਡ ਸੰਕਟੇਕਸ ਹਾਈਲਾਇਟ",
-                "ਸਹਿਯੋਗ toc (ਵਿਸ਼ਾ-ਸੂਚੀ), Emoji ਸਮੀਕਰਨ, ਲਿਸਟ (ਕੰਮ ਦਾ ਨਕਸ਼ਾ),Links (ਲਿੰਕ)",
+                "PDF ਫਾਇਲ ਦੇ ਰੂਪ ਵਿੱਚ ਨਿਰਯਾਤ ਸਮਰਥਨ",
+                "ਪ੍ਰਿੰਟਿੰਗ ਦਸਤਾਵੇਜ਼ ਲਈ ਸਹਿਯੋਗ",
+                "ਨੂੰ ਸਹਿਯੋਗ ਮਿਆਰੀ ਕੀਮਤ / CommonMark ਅਤੇ GFM (GitHub ਦੇ ਮਾਰਕਡਾਊਨ)",
+                "ਲਾਈਵ ਜਾਣਕਾਰੀ ਦੇ ਸਹਿਯੋਗ",
+                "ਪਾਠ ਦੇ ਸਹਾਇਕ ਫਾਰਮੈਟ, ਕੋਡ ਬਲਾਕ, ਟੇਬਲ, ਕੋਡ ਤਹਿ ਕਰਣਾ,, ਬਹੁ-ਭਾਸ਼ਾ ਦੀ ਖੋਜ ਅਤੇ ਤਬਦੀਲ ਕਰੋ, HTML ਹਸਤੀ ਕੋਡ ਸੰਕਟੇਕਸ ਹਾਈਲਾਇਟ",
+                "ਸਹਿਯੋਗ ਜਾਪਦਾ (ਭਾਗ ਦੇ ਮੇਜ਼ ਨੂੰ), ਇਮੋਸ਼ਨ ਦੇ ਸਮੀਕਰਨ, ਕੰਮ ਸੂਚੀ (ਟਾਸਕ ਨਕਸ਼ਾ), @ (ਲਿੰਕ)",
                 "ਸਹਿਯੋਗ ਅਿਜਹੇ ਅਤੇ ਫਿਲਟਰ HTML ਟੈਗ ਅਤੇ ਗੁਣ",
-                "ਸਹਿਯੋਗ ਟੈਕਸ (ਲੇਟੈਕ੍ਸ ਸਮੀਕਰਨ, KaTeX), ਚਿੱਤਰ ਅਤੇ ਕ੍ਰਮ ਚਿੱਤਰ ਵਹਿਣਾ",
-                "ਸਹਿਯੋਗ ਦਸਤਾਵੇਜ਼ ਰਿਕਵਰੀ ਕਾਰਜਵਿਧੀ",
-                "ਮਲਟੀਪਲ ਸਮਕਾਲੀ ਸੋਧ ਸਹਿਯੋਗ, ਬੇਅੰਤ ਗਿਣਤੀ ਨੂੰ"
+                "ਸਹਿਯੋਗ ਟੈਕਸਾਸ (ਲੈਟੇਕਸ ਸਮੀਕਰਨ, Katex ਇੰਕ) flowcharts ਅਤੇ ਕ੍ਰਮ ਇਸ ਚਿੱਤਰ",
+                "ਸਹਿਯੋਗ ਫਾਇਲ ਰਿਕਵਰੀ ਵਿਧੀ",
+                "ਸਹਿਯੋਗ ਨੂੰ ਕਈ ਸੋਧ, ਬੇਅੰਤ ਗਿਣਤੀ ਨੂੰ"
             ]
         },
         "UserReviews": {
-            "SectionName": "ਅਚਰਜ ਕੁਝ ਲੋਕ MarkdownD ਬਾਰੇ ਕਹਿ ਰਹੇ ਹਨ",
+            "SectionName": "MarkdownD ਲਾਉਣ ਕਰਨਾ ਹੈ",
             "list": [
                 {
-                    "reviewContent": "MarkdownD ਹੈਰਾਨਕੁੰਨ ਹੈ. ਸਧਾਰਨ. ਸਾਫ਼ ਕਰੋ. ਪੂਰਨ. ਬਹੁਤ ਖੂਬ.",
+                    "reviewContent": "MarkdownD ਹੈਰਾਨੀਜਨਕ ਹੈ. ਸਧਾਰਨ. ਸਾਫ਼ ਕਰੋ. ਮੁਕੰਮਲ. ਬਖੂਬੀ ਕੀਤਾ ਹੈ.",
                     "userName": "evanw",
-                    "professional": "ਤਕਨਾਲੋਜੀ Evangelist"
+                    "professional": "ਟੈਕਨਾਲੋਜੀ ਪ੍ਰਮੋਸ਼ਨ"
                 },
                 {
-                    "reviewContent": "MarkdownD ਮੈਨੂੰ ਪਰੈਟੀ ਬਹੁਤ ਸਾਰੇ ਵਿਚ ਮੇਰੇ ਲਿਖਣ ਦੀ ਕੀ ਕੀ ਹੁੰਦਾ ਹੈ. ਇਹ ਇੱਕ ਬਹੁਤ ਵੱਡਾ ਜਿਹਾ ਐਪਲੀਕੇਸ਼ ਨੂੰ ਆ ਰਿਹਾ ਹੈ.",
+                    "reviewContent": "MarkdownD, ਇਹ ਇੱਕ ਬਹੁਤ ਵਧੀਆ ਜਿਹਾ ਕਾਰਜ ਹੈ ਕੀ ਮੈਨੂੰ ਲਗਭਗ ਸਾਰੇ ਲਿਖਣ ਦੀ, ਮੇਰੇ ਲਈ ਕੀ ਹੈ.",
                     "userName": "ਪਤਰਸ ਬ੍ਰਾਇਟ",
-                    "professional": "Ars Technica ਤੇ ਲੇਖਕ"
+                    "professional": "Ars Technica ਦੇ ਲੇਖਕ"
                 },
                 {
-                    "reviewContent": "ਤੁਹਾਨੂੰ ਮਾਰਕਡਾਊਨ ਵਿਚ ਕੋਈ ਦਿਲਚਸਪੀ ਹੈ, ਜੇ, MarkdownD ਯਕੀਨੀ ਤੌਰ 'ਤੇ ਇੱਕ ਡਾਊਨਲੋਡ ਦੀ ਕੀਮਤ ਹੈ.",
-                    "userName": "LifeHacker",
+                    "reviewContent": "ਤੁਹਾਨੂੰ ਹੇਠਲੇ ਭਾਅ ਵਿਚ ਕੋਈ ਵੀ ਦਿਲਚਸਪੀ ਹੈ, ਜੇ, MarkdownD ਯਕੀਨੀ ਤੌਰ 'ਤੇ ਡਾਊਨਲੋਡ ਰੁਪਏ ਦੀ ਹੈ.",
+                    "userName": "Lifehacker ਦੇ",
                     "professional": "ਵੈੱਬ ਡਿਵੈਲਪਰ ਅਤੇ ਡਿਜ਼ਾਈਨਰ"
                 },
                 {
-                    "reviewContent": "ਮੈਨੂੰ ਸੱਚਮੁੱਚ MarkdownD ਵਰਗੇ, ਮੇਰੇ ਕੰਮ ਲਈ ਬਹੁਤ ਕੁਝ ਦੀ ਸਹੂਲਤ ਮਿਲੀ ਹੈ.",
+                    "reviewContent": "ਮੈਨੂੰ ਸੱਚਮੁੱਚ MarkdownD ਵਰਗੇ, ਮਹਾਨ ਦੀ ਸਹੂਲਤ ਮਿਲੀ ਹੈ; ਮੇਰੇ ਕੰਮ.",
                     "userName": "jeruss",
-                    "professional": "PHP ਫਰੇਮਵਰਕ ਡਿਵੈਲਪਰ"
+                    "professional": "PHP ਫਰੇਮਵਰਕ ਵਿਕਾਸ"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "ਵਰਜਨ ਨੰਬਰ",
+        "labelVersion": "ਜਾਰੀ",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "ਕੁਝ ਬੱਗ ਸਥਿਰ."
+                        "content": "ਕੁਝ ਗਲਤੀ ਤੈਅ ਕੀਤਾ ਹੈ."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "ਕੁਝ ਬੱਗ ਸਥਿਰ."
+                        "content": "ਕੁਝ ਗਲਤੀ ਤੈਅ ਕੀਤਾ ਹੈ."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "ਪਹਿਲੀ ਜਾਰੀ ਕੀਤੀ."
+                        "content": "ਪਹਿਲੇ ਰੀਲਿਜ਼."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "ਪਹਿਲੀ ਜਾਰੀ ਕੀਤੀ."
+                        "content": "ਪਹਿਲੇ ਰੀਲਿਜ਼."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "ਵਰਜਨ ਨੰਬਰ",
+        "labelVersion": "ਜਾਰੀ",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "ਖਰੀਦੋ ਰਾਹ",
+        "SectionName": "ਖਰੀਦੋ ਕਰਨ ਲਈ ਕਿਸ",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

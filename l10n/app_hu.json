@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "HomePage",
-        "Feature": "Funkció",
-        "Documents": "Dokumentumok",
+        "Home": "Főoldal",
+        "Feature": "Jellemzők",
+        "Documents": "Online segítség",
         "ReleaseNotes": "Kiadási megjegyzések",
-        "Downloads": "Ingyenes próba",
-        "Buy": "Vétel",
-        "Roadmap": "Útiterv",
+        "Downloads": "Ingyenesen kipróbálható",
+        "Buy": "Vásárlási",
+        "Roadmap": "Termékcsalád",
         "ReportIssue": "Probléma jelentése",
         "Languages": "Nyelv"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Nagyon hasznos App. Teljes értékű szerkesztő. Windows, Linux, MacOSX.",
-        "BtnDownload": "Ingyenes próba",
-        "BtnBuy": "Vásárlás",
+        "ProjectTagline": "Teljes értékű Markdown szerkesztő. Támogatás a Windows, Linux és MacOSX operációs rendszerek.",
+        "BtnDownload": "Ingyenesen kipróbálható",
+        "BtnBuy": "Vásárlási",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Főbb jellemzői",
+            "SectionName": "A termék főbb jellemzői",
             "list": [
-                "Támogatás PDF dokumentum",
-                "Támogatás nyomtatási dokumentum",
-                "Támogatja a szabványos Markdown / CommonMark és GFM (GitHub ízesített Markdown)",
-                "Élő előnézet támogatása",
-                "Támogatás formázott szöveget, kódot, táblázatok, kód lehajtható, keresés és csere, több nyelven, HTML kódot egység szintaxiskiemeléshez",
-                "Támogatás TOC (tartalomjegyzék), Emoji kifejezés, tasklists (feladat térkép),Links (link)",
+                "Támogassa Export PDF fájl",
+                "Támogatás dokumentumok nyomtatásához",
+                "Támogatja a szabványos ár / CommonMark és GFM (GitHub a Markdown)",
+                "Live Preview Támogatás",
+                "Támogatott formátumok szöveg, kód, táblázatok, kód lehajtható, keresés és csere, többnyelvű, HTML kódot egység szintaxiskiemeléshez",
+                "Támogatás TOC (tartalomjegyzék), a kifejezés a hangulatjelek, a feladatlista (Task térkép), @ (linkek)",
                 "Támogatás dekódolás és szűrés HTML címkék és attribútumok",
-                "Támogatás Tex (latex kifejezés, KATEX), folyamatábra és folyamatábra",
-                "Támogatás Dokumentum-helyreállítási mechanizmus",
-                "A támogatás több egyidejű szerkesztése, korlátlan számú"
+                "Támogatás Texas (latex kifejezés, KATEX Inc.) folyamatábrák és diagramok sorrendben",
+                "Támogatás fájlok helyreállítási mechanizmus",
+                "A támogatás több szerkesztő, korlátlan számú"
             ]
         },
         "UserReviews": {
-            "SectionName": "Csodálatos dolgokat mondanak az emberek a MarkdownD",
+            "SectionName": "Hogyan értékeli MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD lenyűgöző. Egyszerű. Tiszta. Tökéletes. Szép munka.",
+                    "reviewContent": "MarkdownD elképesztő. Egyszerű. Tiszta. Tökéletesség. Szép munka.",
                     "userName": "evanw",
-                    "professional": "Technológia Evangélista"
+                    "professional": "Technológia támogatása"
                 },
                 {
-                    "reviewContent": "MarkdownD az, amit csinálok elég sok minden írásomat. Ez egy remek kis alkalmazás.",
+                    "reviewContent": "MarkdownD az, amit csinálok szinte minden írásomat, ez egy remek kis alkalmazás.",
                     "userName": "Peter Bright",
-                    "professional": "Író az Ars Technica"
+                    "professional": "Ars Technica írók"
                 },
                 {
-                    "reviewContent": "Ha bármilyen érdeke Markdown, MarkdownD megér egy letöltés.",
-                    "userName": "Lifehacker",
-                    "professional": "Web Developer és a tervező"
+                    "reviewContent": "Ha bármilyen érdeklődés alacsonyabb árak, MarkdownD mindenképpen megéri a letöltést.",
+                    "userName": "Lifehacker a",
+                    "professional": "A webfejlesztők, grafikusok"
                 },
                 {
-                    "reviewContent": "Nagyon szeretem MarkdownD, hozott sok kényelem a munkámat.",
+                    "reviewContent": "Nagyon szeretem MarkdownD, hozott nagy kényelem, a munkámat.",
                     "userName": "jeruss",
-                    "professional": "PHP keretrendszer fejlesztői"
+                    "professional": "PHP keretrendszer fejlesztése"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Verzió száma",
+        "labelVersion": "Kioldó",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -174,19 +183,42 @@
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Első megjelent."
+                        "content": "Az első kiadás."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Első megjelent."
+                        "content": "Az első kiadás."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Verzió száma",
+        "labelVersion": "Kioldó",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Vásárlás Way",
+        "SectionName": "Hogyan vásárolhatok",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

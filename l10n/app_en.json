@@ -1,348 +1,416 @@
 {
-  "TopBar": {
-    "Home": "HomePage",
-    "Feature": "Feature",
-    "Documents": "Documents",
-    "ReleaseNotes": "ReleaseNotes",
-    "Downloads": "Free Trial",
-    "Buy": "Buy",
-    "Roadmap": "RoadMap",
-    "ReportIssue": "Report Issue",
-    "Languages": "Language"
-  },
-  "Footer": {
-  },
-    
-    "HomePage":{
-        "ProjectTagline":"Very useful App. Full-featured editor. Windows, Linux, MacOSX.",
-        "BtnDownload":"Free Trial",
-        "BtnBuy":"Purchase",
-        "Screens":[
-          "{{images/screens/common/c1.png}}",
-          "{{images/screens/common/c2.png}}",
-          "{{images/screens/common/c3.png}}",
-          "{{images/screens/common/c4.png}}",
-          "{{images/screens/common/c5.png}}",
-          "{{images/screens/common/c6.png}}"
+    "TopBar": {
+        "Home": "Home",
+        "Feature": "Features",
+        "Documents": "Online Help",
+        "ReleaseNotes": "Release Notes",
+        "Downloads": "Free Trial",
+        "Buy": "buy",
+        "Roadmap": "Product line",
+        "ReportIssue": "Report a problem",
+        "Languages": "Language"
+    },
+    "Footer": {},
+    "HomePage": {
+        "ProjectTagline": "Full-featured Markdown editor. Support for Windows, Linux and MacOSX operating systems.",
+        "BtnDownload": "Free Trial",
+        "BtnBuy": "buy",
+        "Screens": [
+            "{{images/screens/common/c1.png}}",
+            "{{images/screens/common/c2.png}}",
+            "{{images/screens/common/c3.png}}",
+            "{{images/screens/common/c4.png}}",
+            "{{images/screens/common/c5.png}}",
+            "{{images/screens/common/c6.png}}"
         ],
-        
-        "Features":{
-            "SectionName": "Main Features",
-            "list":[
-                "Support export to pdf document",
-                "Support print document",
-                "Support standard Markdown/CommonMark and GFM (GitHub Flavored Markdown)",
-                "Live preview support",
-                "Support formatted text, code blocks, tables, code folding, search and replace, multiple languages, HTML entity code syntax highlighting",
-                "Support Toc (Table of Contents), Emoji expression, TaskLists (task map), @Links (link)",
+        "Features": {
+            "SectionName": "Product main features",
+            "list": [
+                "Support Export as PDF file",
+                "Support for printing documents",
+                "Supports standard price / CommonMark and GFM (GitHub's Markdown)",
+                "Live Preview Support",
+                "Supported formats of text, code blocks, tables, code folding, search and replace, multi-language, HTML entity code syntax highlighting",
+                "Support TOC (table of contents), the expression of emoticons, the task list (Task Map), @ (links)",
                 "Support decoding and filtering HTML tags and attributes",
-                "Support Tex (LaTex expression, KaTeX), flow diagram and sequence diagram",
-                "Support Document Recovery Mechanism",
-                "Support multiple simultaneous editing, unlimited number"
+                "Support Texas (latex expression, Katex Inc.) flowcharts and sequence diagrams",
+                "Support files recovery mechanism",
+                "Support multiple editing, unlimited number"
             ]
         },
-        
-        "UserReviews":{
-            "SectionName":"Wonderful things people are saying about MarkdownD",
-            "list":[
+        "UserReviews": {
+            "SectionName": "How to evaluate MarkdownD",
+            "list": [
                 {
-                    "reviewContent":"MarkdownD is stunning. Simple. Clean. Perfect. Well done.",
-                    "userName":"evanw ",
-                    "professional":"Technology Evangelist"
+                    "reviewContent": "MarkdownD is amazing. simple. clean. perfect. Nicely done.",
+                    "userName": "evanw",
+                    "professional": "Technology Promotion"
                 },
                 {
-                    "reviewContent":"MarkdownD is what I do pretty much all of my writing in. It's a great little app.",
-                    "userName":"Peter Bright ",
-                    "professional":"Writer at Ars Technica"
+                    "reviewContent": "MarkdownD is what I do almost all my writing, this is a great little application.",
+                    "userName": "Peter Bright",
+                    "professional": "Ars Technica's writers"
                 },
                 {
-                    "reviewContent":"If you have any interest in Markdown, MarkdownD is definitely worth a download.",
-                    "userName":"LifeHacker ",
-                    "professional":"Web Developer and Designer"
+                    "reviewContent": "If you have any interest in lower prices, MarkdownD is definitely worth the download.",
+                    "userName": "Lifehacker's",
+                    "professional": "Web developers and designers"
                 },
                 {
-                    "reviewContent":"I really like MarkdownD, has brought much convenience for my work.",
-                    "userName":"jeruss ",
-                    "professional":"PHP Framework Developer"
+                    "reviewContent": "I really like MarkdownD, has brought great convenience; my work.",
+                    "userName": "jeruss",
+                    "professional": "PHP framework development"
                 }
             ]
         }
     },
-    
-    "FeaturePage":{
-        
-    },
-    
-  "DocumentsPage": {
-    "list":[
-      {
-        "hrefID":"{{export_as_pdf}}",
-        "section":"{{Export - export markdown preview document to pdf}}",
-        "videos":[
-          {"description":"{{Export markdown preview document to pdf file}}", "url":"{{videos/docs/export_as_pdf.mp4}}"}
-        ]
-      }
-
-    ]
-  },
-    
-    "ReleaseNotePage":{
-        "labelVersion":"Version Number ",
-        "list":[
-          {
-            "version":"{{2.5}}",
-            "list":[
-              {"platform":"{{Linux,Windows}}", "content":"{{[Bug] Fixed Engine menu config}}"},
-              {"platform":"{{Linux,Windows}}", "content":"{{[Update] Selector upgrade 1.2}}"},
-              {"platform":"{{MacOSX}}", "content":"{{[Bug] Fixed Quit menu item}}"},
-              {"platform":"{{MacOSX}}", "content":"{{[Bug] Fixed Print menu item}}"},
-              {"platform":"{{MacOSX}}", "content":"{{[Update] Native Engine upgrade}}"}
-            ]
-          },
+    "FeaturePage": {},
+    "DocumentsPage": {
+        "list": [
             {
-              "version":"{{2.4}}",
-              "list":[
-                {
-                  "platform":"{{MacOSX,Linux,Windows}}",
-                  "content":"{{katex upgrade to ver 0.5.1}}"
-                },
-                {
-                  "platform":"{{MacOSX,Linux,Windows}}",
-                  "content":"{{intl upgrade to ver 1.0.0}}"
-                },
-                {
-                  "platform":"{{MacOSX,Linux,Windows}}",
-                  "content":"{{Backbone upgrade to ver 1.2.3}}"
-                },
-                {
-                  "platform":"{{MacOSX,Linux,Windows}}",
-                  "content":"{{editor.md upgrade to ver 1.5.0}}"
-                },
-                {
-                  "platform":"{{MacOSX,Linux,Windows}}",
-                  "content":"{{bs and util upgrade}}"
-                },
-                {
-                  "platform":"{{MacOSX,Linux,Windows}}",
-                  "content":"{{[Bug] Fixed flowChart, sequenceDiagram plugin}}"
-                },
-                {
-                  "platform":"{{MacOSX,Linux,Windows}}",
-                  "content":"{{[Bug] NativeEngine process_task contions is '&&' run error.}}"
-                },
-                {
-                  "platform":"{{MacOSX,Linux,Windows}}",
-                  "content":"{{[Bug] Open the most recently used documents that use dock appliction icon, not normal to open.}}"
-                },
-                {
-                  "platform":"{{MacOSX,Linux,Windows}}",
-                  "content":"{{[Bug] NativeEngine process_task must run success, application can't launch.}}"
-                },
-                {
-                  "platform":"{{MacOSX,Linux,Windows}}",
-                  "content":"{{[New features] Support print}}"
-                },
-                {
-                  "platform":"{{MacOSX,Linux,Windows}}",
-                  "content":"{{[New features] Support export markdown preview document to pdf file.}}"
-                }
-              ]
-            },
-            {
-                 "version":"{{2.3}}",
-                "list":[
-                    {"platform":"{{MacOSX,Linux,Windows}}", "content":"Fixed some bugs."}
-                ]
-            },
-            {
-                "version":"{{2.2}}",
-                "list":[
-                    {"platform":"{{MacOSX,Linux,Windows}}", "content":"Fixed some bugs."},
-                    {"platform":"{{Windows}}", "content":"First released."},
-                    {"platform":"{{Linux}}", "content":"First released."}
+                "hrefID": "{{export_as_pdf}}",
+                "section": "{{Export - export markdown preview document to pdf}}",
+                "videos": [
+                    {
+                        "description": "{{Export markdown preview document to pdf file}}",
+                        "url": "{{videos/docs/export_as_pdf.mp4}}"
+                    }
                 ]
             }
         ]
     },
-    
-    "VersionPage":{
-        "labelVersion":"Version Number",
-        "list":[
-          {
-            "version":"{{2.5}}",
-            "zipList":[
-                    {
-                      "osUrl":"{{images/download/win32.png}}", 
-                      "name":"{{MarkdownD-v2.5-win32-x86-setup.exe}}", 
-                      "size":"{{49.5MB}}", 
-                      "downURL":"{{http://www.filefactory.com/file/5tizq9i5yr37/MarkdownD-v2.5-win32-x86-setup.exe}}"
-                    },
-                    {
-                      "osUrl":"{{images/download/win32.png}}",
-                      "name":"{{MarkdownD-v2.5-win32-x64-setup.exe}}", 
-                      "size":"{{58.8MB}}", 
-                      "downURL":"{{http://www.filefactory.com/file/13cnbmxrky19/MarkdownD-v2.5-win32-x64-setup.exe}}"
-                    },
-                    {
-                      "osUrl":"{{images/download/osx.png}}", 
-                      "name":"{{MarkdownD-v2.5.0-darwin-x64.zip}}", 
-                      "size":"{{5.91MB}}", 
-                      "downURL":"{{http://www.filefactory.com/file/1pjo7kkx2am3/MarkdownD-v2.5.0-darwin-x64.zip}}"
-                    },
-                    {
-                      "osUrl":"{{images/download/linux.png}}", 
-                      "name":"{{MarkdownD-v2.5-linux-ia32-install.tar.gz}}", 
-                      "size":"{{45.2MB}}", 
-                      "downURL":"{{http://www.filefactory.com/file/13z1zq45l2n/MarkdownD-v2.5-linux-ia32-install.tar.gz}}"
-                    },
-                    {
-                      "osUrl":"{{images/download/linux.png}}",
-                      "name":"{{MarkdownD-v2.5-linux-x64-install.tar.gz}}", 
-                      "size":"{{45.2MB}}", 
-                      "downURL":"{{http://www.filefactory.com/file/302k6xoz09xv/MarkdownD-v2.5-linux-x64-install.tar.gz}}"
-                    }
-            ]
-          },
-          {
-            "version":"{{2.4}}",
-            "zipList":[
-                    {
-                      "osUrl":"{{images/download/win32.png}}", 
-                      "name":"{{MarkdownD-v2.4-win32-x86-setup.exe}}", 
-                      "size":"{{46.7MB}}", 
-                      "downURL":"{{http://www.filefactory.com/file/26wgwiikz6g5/MarkdownD-v2.4-win32-x86-setup.exe}}"
-                    },
-                    {
-                      "osUrl":"{{images/download/win32.png}}",
-                      "name":"{{MarkdownD-v2.4-win32-x64-setup.exe}}", 
-                      "size":"{{55.6MB}}", 
-                      "downURL":"{{http://www.filefactory.com/file/5yhbj9pge79f/MarkdownD-v2.4-win32-x64-setup.exe}}"
-                    },
-                    {
-                      "osUrl":"{{images/download/osx.png}}", 
-                      "name":"{{MarkdownD-v2.4.0-darwin-x64.zip}}", 
-                      "size":"{{6.15MB}}", 
-                      "downURL":"{{http://www.filefactory.com/file/5edm4y1cqad7/MarkdownD-v2.4.0-darwin-x64.zip}}"
-                    },
-                    {
-                      "osUrl":"{{images/download/linux.png}}", 
-                      "name":"{{MarkdownD-v2.4-linux-ia32-install.tar.gz}}", 
-                      "size":"{{42.3MB}}", 
-                      "downURL":"{{http://www.filefactory.com/file/7crobmz5ndwz/MarkdownD-v2.4-linux-ia32-install.tar.gz}}"
-                    },
-                    {
-                      "osUrl":"{{images/download/linux.png}}",
-                      "name":"{{MarkdownD-v2.4-linux-x64-install.tar.gz}}", 
-                      "size":"{{42.3MB}}", 
-                      "downURL":"{{http://www.filefactory.com/file/3takegbc2l1r/MarkdownD-v2.4-linux-x64-install.tar.gz}}"
-                    }
-            ]
-          },
+    "ReleaseNotePage": {
+        "labelVersion": "version",
+        "list": [
             {
-                "version":"{{2.3.0}}",
-                "zipList":[
+                "version": "{{2.6}}",
+                "list": [
                     {
-                      "osUrl":"{{images/download/win32.png}}", 
-                      "name":"{{MarkdownD-v2.3-win32-x86-setup.exe}}", 
-                      "size":"{{44.7MB}}", 
-                      "downURL":"{{http://www.filefactory.com/file/ani4s9myzd5/MarkdownD-v2.3-win32-x86-setup.exe}}"
-                    },
-                    {
-                      "osUrl":"{{images/download/win32.png}}",
-                      "name":"{{MarkdownD-v2.3-win32-x64-setup.exe}}", 
-                      "size":"{{53.4MB}}", 
-                      "downURL":"{{http://www.filefactory.com/file/nhangqor1h7/MarkdownD-v2.3-win32-x64-setup.exe}}"
-                    },
-                    {
-                      "osUrl":"{{images/download/osx.png}}", 
-                      "name":"{{MarkdownD-v2.3.0-darwin-x64.zip}}", 
-                      "size":"{{5.0MB}}", 
-                      "downURL":"{{http://www.filefactory.com/file/4rm0fk19d40v/MarkdownD-v2.3.0-darwin-x64.zip}}"
-                    },
-                    {
-                      "osUrl":"{{images/download/linux.png}}", 
-                      "name":"{{MarkdownD-v2.3-linux-ia32-install.tar.gz}}", 
-                      "size":"{{40.1MB}}", 
-                      "downURL":"{{http://www.filefactory.com/file/40xwmjpdx8p7/MarkdownD-v2.3-linux-ia32-install.tar.gz}}"
-                    },
-                    {
-                      "osUrl":"{{images/download/linux.png}}",
-                      "name":"{{MarkdownD-v2.3-linux-x64-install.tar.gz}}", 
-                      "size":"{{40.1MB}}", 
-                      "downURL":"{{http://www.filefactory.com/file/13xacb38a5pz/MarkdownD-v2.3-linux-x64-install.tar.gz}}"
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
                     }
                 ]
             },
-            
             {
-                "version":"{{2.2.0}}",
-                "zipList":[
-                    {"osUrl":"{{images/download/win32.png}}", "name":"{{MarkdownD-v2.2.0-win32-x86-setup.exe}}", "size":"{{45.5MB}}", "downURL":"{{http://pan.baidu.com/s/1pKhXBFP}}"},
-                    {"osUrl":"{{images/download/win32.png}}","name":"{{MarkdownD-v2.2.0-win32-x64-setup.exe}}", "size":"{{54.4MB}}", "downURL":"{{http://pan.baidu.com/s/1c1rh4yc}}"},
-                    {"osUrl":"{{images/download/osx.png}}", "name":"{{MarkdownD-v2.2.0-darwin-x64.zip}}", "size":"{{6.9MB}}", "downURL":"{{http://pan.baidu.com/s/1c0JXm5U}}"},
-                    {"osUrl":"{{images/download/linux.png}}", "name":"{{MarkdownD-v2.2.0-ia32.tar.gz}}", "size":"{{40.1MB}}", "downURL":"{{http://pan.baidu.com/s/1qXbPWny}}"},
-                    {"osUrl":"{{images/download/linux.png}}","name":"{{MarkdownD-v2.2.0-x64.tar.gz}}", "size":"{{40.1MB}}", "downURL":"{{http://pan.baidu.com/s/1qWSw5w4}}"}
+                "version": "{{2.5}}",
+                "list": [
+                    {
+                        "platform": "{{Linux,Windows}}",
+                        "content": "{{[Bug] Fixed Engine menu config}}"
+                    },
+                    {
+                        "platform": "{{Linux,Windows}}",
+                        "content": "{{[Update] Selector upgrade 1.2}}"
+                    },
+                    {
+                        "platform": "{{MacOSX}}",
+                        "content": "{{[Bug] Fixed Quit menu item}}"
+                    },
+                    {
+                        "platform": "{{MacOSX}}",
+                        "content": "{{[Bug] Fixed Print menu item}}"
+                    },
+                    {
+                        "platform": "{{MacOSX}}",
+                        "content": "{{[Update] Native Engine upgrade}}"
+                    }
+                ]
+            },
+            {
+                "version": "{{2.4}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Linux,Windows}}",
+                        "content": "{{katex upgrade to ver 0.5.1}}"
+                    },
+                    {
+                        "platform": "{{MacOSX,Linux,Windows}}",
+                        "content": "{{intl upgrade to ver 1.0.0}}"
+                    },
+                    {
+                        "platform": "{{MacOSX,Linux,Windows}}",
+                        "content": "{{Backbone upgrade to ver 1.2.3}}"
+                    },
+                    {
+                        "platform": "{{MacOSX,Linux,Windows}}",
+                        "content": "{{editor.md upgrade to ver 1.5.0}}"
+                    },
+                    {
+                        "platform": "{{MacOSX,Linux,Windows}}",
+                        "content": "{{bs and util upgrade}}"
+                    },
+                    {
+                        "platform": "{{MacOSX,Linux,Windows}}",
+                        "content": "{{[Bug] Fixed flowChart, sequenceDiagram plugin}}"
+                    },
+                    {
+                        "platform": "{{MacOSX,Linux,Windows}}",
+                        "content": "{{[Bug] NativeEngine process_task contions is '&&' run error.}}"
+                    },
+                    {
+                        "platform": "{{MacOSX,Linux,Windows}}",
+                        "content": "{{[Bug] Open the most recently used documents that use dock appliction icon, not normal to open.}}"
+                    },
+                    {
+                        "platform": "{{MacOSX,Linux,Windows}}",
+                        "content": "{{[Bug] NativeEngine process_task must run success, application can't launch.}}"
+                    },
+                    {
+                        "platform": "{{MacOSX,Linux,Windows}}",
+                        "content": "{{[New features] Support print}}"
+                    },
+                    {
+                        "platform": "{{MacOSX,Linux,Windows}}",
+                        "content": "{{[New features] Support export markdown preview document to pdf file.}}"
+                    }
+                ]
+            },
+            {
+                "version": "{{2.3}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Linux,Windows}}",
+                        "content": "Fixed some errors."
+                    }
+                ]
+            },
+            {
+                "version": "{{2.2}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Linux,Windows}}",
+                        "content": "Fixed some errors."
+                    },
+                    {
+                        "platform": "{{Windows}}",
+                        "content": "The first release."
+                    },
+                    {
+                        "platform": "{{Linux}}",
+                        "content": "The first release."
+                    }
                 ]
             }
         ]
     },
-    
-    "BuyPage":{
-            "SectionName":"Buy Way",
-            "list":[
-                {
-                    "name":"{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
-                    "logo":"{{images/buy/taobao.png}}",
-                    "price":"{{90 RMB}}",
-                    "buyURL":"{{http://item.taobao.com/item.htm?id=524924021533}}"
-                },
-                {
-                    "name":"{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
-                    "logo":"{{images/buy/buy.png}}",
-                    "price":"{{$15.9}}",
-                    "buyURL":"{{https://shopper.mycommerce.com/checkout/cart/new/55399-37}}"
-                },
-                {
-                    "name":"{{MarkdownD for MacOSX, for MacOSX 10.7 and later}}",
-                    "logo":"{{images/buy/taobao.png}}",
-                    "price":"{{120 RMB}}",
-                    "buyURL":"{{https://item.taobao.com/item.htm?id=522978831683}}"
-                },
-                {
-                    "name":"{{MarkdownD for MacOSX, for MacOSX 10.7 and later}}",
-                    "logo":"{{images/buy/buy.png}}",
-                    "price":"{{$19.9}}",
-                    "buyURL":"{{https://shopper.mycommerce.com/checkout/cart/new/55399-32}}"
-                },
-                {
-                     "name":"{{MarkdownD for MacOSX (Mac App Store), for MacOSX 10.7 and later}}",
-                    "logo":"{{images/buy/mas.png}}",
-                    "price":"{{$19.9}}",
-                    "buyURL":"{{https://itunes.apple.com/us/app/markdownd-is-full-featured/id975071094?l=zh&ls=1&mt=12}}"
-                },
-                {
-                    "name":"{{MarkdownD for linux}}",
-                    "logo":"{{images/buy/taobao.png}}",
-                    "price":"{{120 RMB}}",
-                    "buyURL":"{{https://item.taobao.com/item.htm?id=525049770494}}"
-                },
-                {
-                    "name":"{{MarkdownD for linux}}",
-                    "logo":"{{images/buy/buy.png}}",
-                    "price":"{{$19.9}}",
-                    "buyURL":"{{https://shopper.mycommerce.com/checkout/cart/new/55399-38}}"
-                }
-            ]
+    "VersionPage": {
+        "labelVersion": "version",
+        "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
+            {
+                "version": "{{2.5}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.5-win32-x86-setup.exe}}",
+                        "size": "{{49.5MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5tizq9i5yr37/MarkdownD-v2.5-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.5-win32-x64-setup.exe}}",
+                        "size": "{{58.8MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/13cnbmxrky19/MarkdownD-v2.5-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.5.0-darwin-x64.zip}}",
+                        "size": "{{5.91MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/1pjo7kkx2am3/MarkdownD-v2.5.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.5-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.2MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/13z1zq45l2n/MarkdownD-v2.5-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.5-linux-x64-install.tar.gz}}",
+                        "size": "{{45.2MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/302k6xoz09xv/MarkdownD-v2.5-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
+            {
+                "version": "{{2.4}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.4-win32-x86-setup.exe}}",
+                        "size": "{{46.7MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/26wgwiikz6g5/MarkdownD-v2.4-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.4-win32-x64-setup.exe}}",
+                        "size": "{{55.6MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5yhbj9pge79f/MarkdownD-v2.4-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.4.0-darwin-x64.zip}}",
+                        "size": "{{6.15MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5edm4y1cqad7/MarkdownD-v2.4.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.4-linux-ia32-install.tar.gz}}",
+                        "size": "{{42.3MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/7crobmz5ndwz/MarkdownD-v2.4-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.4-linux-x64-install.tar.gz}}",
+                        "size": "{{42.3MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3takegbc2l1r/MarkdownD-v2.4-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
+            {
+                "version": "{{2.3.0}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.3-win32-x86-setup.exe}}",
+                        "size": "{{44.7MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/ani4s9myzd5/MarkdownD-v2.3-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.3-win32-x64-setup.exe}}",
+                        "size": "{{53.4MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/nhangqor1h7/MarkdownD-v2.3-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.3.0-darwin-x64.zip}}",
+                        "size": "{{5.0MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4rm0fk19d40v/MarkdownD-v2.3.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.3-linux-ia32-install.tar.gz}}",
+                        "size": "{{40.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/40xwmjpdx8p7/MarkdownD-v2.3-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.3-linux-x64-install.tar.gz}}",
+                        "size": "{{40.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/13xacb38a5pz/MarkdownD-v2.3-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
+            {
+                "version": "{{2.2.0}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.2.0-win32-x86-setup.exe}}",
+                        "size": "{{45.5MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1pKhXBFP}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.2.0-win32-x64-setup.exe}}",
+                        "size": "{{54.4MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1c1rh4yc}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.2.0-darwin-x64.zip}}",
+                        "size": "{{6.9MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1c0JXm5U}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.2.0-ia32.tar.gz}}",
+                        "size": "{{40.1MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1qXbPWny}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.2.0-x64.tar.gz}}",
+                        "size": "{{40.1MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1qWSw5w4}}"
+                    }
+                ]
+            }
+        ]
     },
-    
-    "RoadMapPage":{
-        
+    "BuyPage": {
+        "SectionName": "Method of buying",
+        "list": [
+            {
+                "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
+                "logo": "{{images/buy/taobao.png}}",
+                "price": "{{90 RMB}}",
+                "buyURL": "{{http://item.taobao.com/item.htm?id=524924021533}}"
+            },
+            {
+                "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
+                "logo": "{{images/buy/buy.png}}",
+                "price": "{{$15.9}}",
+                "buyURL": "{{https://shopper.mycommerce.com/checkout/cart/new/55399-37}}"
+            },
+            {
+                "name": "{{MarkdownD for MacOSX, for MacOSX 10.7 and later}}",
+                "logo": "{{images/buy/taobao.png}}",
+                "price": "{{120 RMB}}",
+                "buyURL": "{{https://item.taobao.com/item.htm?id=522978831683}}"
+            },
+            {
+                "name": "{{MarkdownD for MacOSX, for MacOSX 10.7 and later}}",
+                "logo": "{{images/buy/buy.png}}",
+                "price": "{{$19.9}}",
+                "buyURL": "{{https://shopper.mycommerce.com/checkout/cart/new/55399-32}}"
+            },
+            {
+                "name": "{{MarkdownD for MacOSX (Mac App Store), for MacOSX 10.7 and later}}",
+                "logo": "{{images/buy/mas.png}}",
+                "price": "{{$19.9}}",
+                "buyURL": "{{https://itunes.apple.com/us/app/markdownd-is-full-featured/id975071094?l=zh&ls=1&mt=12}}"
+            },
+            {
+                "name": "{{MarkdownD for linux}}",
+                "logo": "{{images/buy/taobao.png}}",
+                "price": "{{120 RMB}}",
+                "buyURL": "{{https://item.taobao.com/item.htm?id=525049770494}}"
+            },
+            {
+                "name": "{{MarkdownD for linux}}",
+                "logo": "{{images/buy/buy.png}}",
+                "price": "{{$19.9}}",
+                "buyURL": "{{https://shopper.mycommerce.com/checkout/cart/new/55399-38}}"
+            }
+        ]
     },
-    "LanguagesPage":{
-    "SectionName": "Available Languages",
-    "ChangeAlert": "Complete switch language"
-  }
-    
-
-  
+    "RoadMapPage": {},
+    "LanguagesPage": {
+        "SectionName": "Available Languages",
+        "ChangeAlert": "Complete switch language"
+    }
 }

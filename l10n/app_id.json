@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "HomePage",
-        "Feature": "Ciri",
-        "Documents": "Dokumen",
-        "ReleaseNotes": "ReleaseNotes",
+        "Home": "Rumah",
+        "Feature": "Fitur",
+        "Documents": "Bantuan Online",
+        "ReleaseNotes": "Catatan Rilis",
         "Downloads": "Free Trial",
-        "Buy": "Membeli",
-        "Roadmap": "Peta jalan",
-        "ReportIssue": "Laporan Issue",
+        "Buy": "Pembelian",
+        "Roadmap": "Lini produk",
+        "ReportIssue": "Melaporkan masalah",
         "Languages": "Bahasa"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "App sangat berguna. Fitur lengkap Editor. Windows, Linux, MacOSX.",
+        "ProjectTagline": "Fitur lengkap Editor penurunan harga. Dukungan untuk sistem operasi Windows, Linux dan MacOSX.",
         "BtnDownload": "Free Trial",
-        "BtnBuy": "Membeli",
+        "BtnBuy": "Pembelian",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Fitur utama",
+            "SectionName": "Produk fitur utama",
             "list": [
-                "Dukungan ekspor ke dokumen pdf",
-                "Dukungan dokumen cetak",
-                "Dukungan penurunan harga standar / CommonMark dan GFM (GitHub Flavored penurunan harga)",
-                "Dukungan live preview",
-                "Dukungan teks diformat, blok kode, tabel, kode lipat, mencari dan mengganti, beberapa bahasa, HTML entitas sintaks kode penyorotan",
-                "Dukungan Toc (Daftar Isi), ekspresi Emoji, TaskLists (task peta),Links (link)",
+                "Dukungan Ekspor sebagai file PDF",
+                "Dukungan untuk mencetak dokumen",
+                "Mendukung standar harga / CommonMark dan GFM (penurunan harga GitHub ini)",
+                "Dukungan Preview hidup",
+                "Format yang didukung teks, blok kode, tabel, kode lipat, mencari dan mengganti, multi-bahasa, sintaks kode entitas HTML penyorotan",
+                "Dukungan TOC (daftar isi), ekspresi emoticon, daftar tugas (Task Peta), @ (link)",
                 "Dukungan decoding dan penyaringan HTML tag dan atribut",
-                "Dukungan Tex (ekspresi LaTeX, KaTeX), aliran diagram dan urutan diagram",
-                "Mekanisme dukungan Pemulihan Dokumen",
-                "Dukungan beberapa editing simultan, jumlah yang tidak terbatas"
+                "Dukungan Texas (ekspresi lateks, Katex Inc.) flowchart dan diagram urutan",
+                "Berkas dukungan mekanisme pemulihan",
+                "Dukungan beberapa editing, jumlah yang tidak terbatas"
             ]
         },
         "UserReviews": {
-            "SectionName": "Indah hal orang katakan tentang MarkdownD",
+            "SectionName": "Bagaimana untuk mengevaluasi MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD menakjubkan. Sederhana. Bersih. Sempurna. Bagus sekali.",
+                    "reviewContent": "MarkdownD menakjubkan. Sederhana. Bersih. Kesempurnaan. Baik dilakukan.",
                     "userName": "evanw",
-                    "professional": "Teknologi Evangelist"
+                    "professional": "Teknologi Promosi"
                 },
                 {
-                    "reviewContent": "MarkdownD adalah apa yang saya lakukan hampir semua tulisan saya di. Ini adalah aplikasi kecil yang hebat.",
+                    "reviewContent": "MarkdownD adalah apa yang saya lakukan hampir semua tulisan saya, ini adalah sebuah aplikasi kecil yang hebat.",
                     "userName": "Peter Cerah",
-                    "professional": "Penulis di Ars Technica"
+                    "professional": "Penulis Ars Technica ini"
                 },
                 {
-                    "reviewContent": "Jika Anda memiliki kepentingan dalam penurunan harga, MarkdownD pasti layak download.",
-                    "userName": "Lifehacker",
-                    "professional": "Web Developer dan Designer"
+                    "reviewContent": "Jika Anda memiliki kepentingan dalam harga yang lebih rendah, MarkdownD pasti layak download.",
+                    "userName": "Lifehacker ini",
+                    "professional": "Pengembang web dan desainer"
                 },
                 {
-                    "reviewContent": "Aku benar-benar seperti MarkdownD, telah membawa banyak kemudahan untuk pekerjaan saya.",
+                    "reviewContent": "Aku benar-benar seperti MarkdownD, telah membawa kenyamanan besar; pekerjaan saya.",
                     "userName": "jeruss",
-                    "professional": "PHP Framework Developer"
+                    "professional": "Pengembangan framework PHP"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Versi Nomor",
+        "labelVersion": "Pelepasan",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Tetap beberapa bug."
+                        "content": "Tetap beberapa kesalahan."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Tetap beberapa bug."
+                        "content": "Tetap beberapa kesalahan."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Pertama kali dirilis."
+                        "content": "Rilis pertama."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Pertama kali dirilis."
+                        "content": "Rilis pertama."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Versi Nomor",
+        "labelVersion": "Pelepasan",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Beli Way",
+        "SectionName": "Cara Membeli",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

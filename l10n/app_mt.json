@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "Homepage",
-        "Feature": "Karatteristika",
-        "Documents": "Dokumenti",
-        "ReleaseNotes": "ReleaseNotes",
+        "Home": "Home",
+        "Feature": "Karatteristiċi",
+        "Documents": "Għajnuna Online",
+        "ReleaseNotes": "Noti Rilaxx",
         "Downloads": "Free Trial",
-        "Buy": "Buy",
-        "Roadmap": "PJAN DIREZZJONALI",
-        "ReportIssue": "Rapport Ħruġ",
+        "Buy": "Xiri",
+        "Roadmap": "Linja Prodott",
+        "ReportIssue": "Rapport problema",
         "Languages": "Lingwa"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "App utli ħafna. Editur full-dehru. Windows, Linux, MacOSX.",
+        "ProjectTagline": "Editur markdown full-dehru. Appoġġ għall-Windows, Linux u MacOSX sistemi operattivi.",
         "BtnDownload": "Free Trial",
         "BtnBuy": "Xiri",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Karatteristiċi prinċipali",
+            "SectionName": "Karatteristiċi ewlenin tal-prodott",
             "list": [
-                "Esportazzjoni appoġġ għad-dokument pdf",
-                "Dokument print appoġġ",
-                "Markdown standard appoġġ / CommonMark u GFM (GitHub Flavored markdown)",
-                "Appoġġ preview ħajjin",
-                "Appoġġ test ifformattjat, blokki kodiċi, tabelli, kodiċi tiwi, tiftix u jissostitwixxi,-lingwi multipli, HTML entità tenfasizza kodiċi sintassi",
-                "Appoġġ TOC (Werrej), l-espressjoni Emoji, TaskLists (mappa kompitu),Links (link)",
+                "Appoġġ Esportazzjoni bħala fajl PDF",
+                "Appoġġ għall-istampar dokumenti",
+                "Jappoġġja prezz standard / CommonMark u GFM (markdown GitHub ta)",
+                "Appoġġ Preview Live",
+                "Formati appoġġjati ta 'test, blokki kodiċi, tabelli, kodiċi tiwi, tiftix u jissostitwixxi, multi-lingwa, tenfasizza HTML entità kodiċi sintassi",
+                "Appoġġ TOC (tabella tal-kontenuti), l-espressjoni ta 'Emoticons, il-lista kompitu (Task Mappa), @ (links)",
                 "Dekodifikazzjoni appoġġ u l-iffiltrar HTML tags u attributi",
-                "Appoġġ Tex (espressjoni latex, KaTeX), fluss dijagramma u s-sekwenza dijagramma",
-                "Mekkaniżmu appoġġ Dokument Irkupru",
-                "Appoġġ editjar simultanja multipli, numru illimitat"
+                "Appoġġ Texas (espressjoni latex, Katex Inc) flowcharts u dijagrammi sekwenza",
+                "Fajls Appoġġ mekkaniżmu ta 'rkupru",
+                "Appoġġ editjar multipla, n-numru illimitat"
             ]
         },
         "UserReviews": {
-            "SectionName": "Nies affarijiet Wonderful qed jgħidu dwar MarkdownD",
+            "SectionName": "Kif għandhom jiġu evalwati MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD huwa l-isturdament. Sempliċi. Nadif. Perfect. Prosit.",
+                    "reviewContent": "MarkdownD hija aqwa. Sempliċi. Nadif. Perfezzjoni. Nicely jsir.",
                     "userName": "evanw",
-                    "professional": "Teknoloġija Evanġelista"
+                    "professional": "Teknoloġija Promozzjoni"
                 },
                 {
-                    "reviewContent": "MarkdownD huwa dak I do pretty ħafna kollha tal-kitba tiegħi fil. Huwa app ftit kbir.",
+                    "reviewContent": "MarkdownD huwa dak I do kważi kollha kitba tiegħi, dan huwa ftit applikazzjoni kbir.",
                     "userName": "Peter Bright",
-                    "professional": "Writer fil ARS Teknika"
+                    "professional": "Kittieba ARS Teknika ta"
                 },
                 {
-                    "reviewContent": "Jekk għandek xi interess fil markdown, MarkdownD huwa definittivament jiswew download.",
-                    "userName": "Lifehacker",
-                    "professional": "Web Developer u Designer"
+                    "reviewContent": "Jekk għandek xi interess fil-prezzijiet aktar baxxi, MarkdownD huwa definittivament jiswew il-download.",
+                    "userName": "Tal Lifehacker",
+                    "professional": "Web iżviluppaturi u disinjaturi"
                 },
                 {
-                    "reviewContent": "I really simili MarkdownD, ġab konvenjenza ħafna għall-ħidma tiegħi.",
+                    "reviewContent": "I really simili MarkdownD, ġab konvenjenza kbira; xogħol tiegħi.",
                     "userName": "jeruss",
-                    "professional": "Developer Qafas PHP"
+                    "professional": "Iżvilupp qafas PHP"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Verżjoni Numru",
+        "labelVersion": "Rilaxx",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fissi xi bugs."
+                        "content": "Fissi xi żbalji."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fissi xi bugs."
+                        "content": "Fissi xi żbalji."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Ewwel rilaxxati."
+                        "content": "L-ewwel ħruġ."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Ewwel rilaxxati."
+                        "content": "L-ewwel ħruġ."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Verżjoni Numru",
+        "labelVersion": "Rilaxx",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Buy Way",
+        "SectionName": "Kif To Buy",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

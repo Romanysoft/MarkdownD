@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "Eliyisiqalo",
-        "Feature": "Isici",
-        "Documents": "Imibhalo",
-        "ReleaseNotes": "ReleaseNotes",
+        "Home": "Home",
+        "Feature": "Izici",
+        "Documents": "Online Usizo",
+        "ReleaseNotes": "Release Amanothi",
         "Downloads": "Trial Free",
-        "Buy": "Thenga",
-        "Roadmap": "Roadmap",
-        "ReportIssue": "Bika Inkinga",
+        "Buy": "Ukuthengwa",
+        "Roadmap": "Line Product",
+        "ReportIssue": "Bika inkinga",
         "Languages": "Ulimi"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "App ewusizo kakhulu. Full-iyavela umhleli. Windows, Linux, MacOSX.",
+        "ProjectTagline": "Umhleli Markdown Full-iyavela. Ukusekela for Windows, Linux kanye MacOSX izinhlelo zokusebenzisa.",
         "BtnDownload": "Trial Free",
         "BtnBuy": "Ukuthengwa",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Izici Main",
+            "SectionName": "Product izici eziyinhloko",
             "list": [
-                "Ukusekela thekelisa ukuba pdf idokhumenti",
-                "Ukusekela ukuphrinta idokhumenti",
-                "Ukusekela Markdown standard / CommonMark futhi GFM (GitHub enongiwe Markdown)",
-                "Live preview support",
-                "Ukusekela ihlelwe kanjani, ikhodi amabhlogo, amatafula, ikhodi ukusonga, ukucinga kanye esikhundleni, izilimi eziningi, HTML inhlangano ikhodi syntax Eqokomisa",
-                "Ukusekela Toc (Uhlu Lokuphakathi), emoji nkulumo, TaskLists (map umsebenzi),Links (link)",
+                "Sekela Export njengoba ifayela PDF",
+                "Ukusekela for imibhalo zokunyathelisa",
+                "Usekela price standard / CommonMark futhi GFM (Markdown GitHub sika)",
+                "Live Preview Support",
+                "Takhiwo asekelwe setheksthi, ikhodi amabhlogo, amatafula, ikhodi ukusonga, ukucinga kanye esikhundleni, ulimi multi-, HTML entity ikhodi syntax Eqokomisa",
+                "Ukusekela TOC (lokucuketfwe), uwukubonakaliswa izithonjana, uhlu lwemisebenzi (Task Map), @ (links)",
                 "Ukusekela emagama kanye ukusefa HTML tags kanye izimfanelo",
-                "Ukusekela Tex (latex nkulumo, KaTeX), flow umdwebo futhi ukulandelana umdwebo",
-                "Ukusekela Document Lokubuyisela Mechanism",
-                "Sekela ukuhlela kanyekanye amaningi, esingenakubalwa"
+                "Ukusekela Texas (latex nkulumo, Katex Inc.) flowcharts futhi ukulandelana imidvwebo",
+                "Ukusekela amafayela alulame umshini",
+                "Ukusekela ukuhlela amaningi, esingenakubalwa"
             ]
         },
         "UserReviews": {
-            "SectionName": "Wonderful izinto abantu bathini mayelana MarkdownD",
+            "SectionName": "Indlela ukuhlola MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD kuyinto emangalisa. Simple. Clean. Perfect. Wenze kahle.",
+                    "reviewContent": "MarkdownD amazing. Simple. Clean. Ukuphelela. Kamnandi kwenziwe.",
                     "userName": "evanw",
-                    "professional": "Ubuchwepheshe Evangelist"
+                    "professional": "Ubuchwepheshe Promotion"
                 },
                 {
-                    "reviewContent": "MarkdownD yikho engikwenzayo pretty okuningi yonke lokubhala yami. Kuyinto a app enkulu kancane.",
+                    "reviewContent": "MarkdownD yikho engikwenzayo cishe yonke imibhalo yami, lokhu kuyinto isicelo enkulu kancane.",
                     "userName": "Peter Bright",
-                    "professional": "Umlobi at Ars Technica"
+                    "professional": "Abalobi Ars Technica sika"
                 },
                 {
-                    "reviewContent": "Uma uneminye isithakazelo Markdown, MarkdownD nakanjani kuwufanele thwebula.",
-                    "userName": "Lifehacker",
-                    "professional": "Web Developer and Umklami"
+                    "reviewContent": "Uma uneminye isithakazelo amanani aphansi, MarkdownD siyafuna kuwufanele thwebula.",
+                    "userName": "Lifehacker sika",
+                    "professional": "Web Onjiniyela nabaqambi"
                 },
                 {
-                    "reviewContent": "I ngempela like MarkdownD, uye waletha lula kakhulu umsebenzi wami.",
+                    "reviewContent": "I ngempela like MarkdownD, uye waletha lula okukhulu; emsebenzini wami.",
                     "userName": "jeruss",
-                    "professional": "PHP Framework Developer"
+                    "professional": "PHP Uhlaka lwezokuthuthukiswa"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Version Number",
+        "labelVersion": "Release",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fixed ezinye izimbungulu."
+                        "content": "Fixed ezinye amaphutha."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fixed ezinye izimbungulu."
+                        "content": "Fixed ezinye amaphutha."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Okokuqala ezikhishwe."
+                        "content": "The first release."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Okokuqala ezikhishwe."
+                        "content": "The first release."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Version Number",
+        "labelVersion": "Release",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Thenga Way",
+        "SectionName": "Indlela Thenga",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

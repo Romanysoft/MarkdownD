@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "WhārangiKāinga",
-        "Feature": "Āhuahira",
-        "Documents": "Tuhinga",
-        "ReleaseNotes": "ReleaseNotes",
+        "Home": "Kāinga",
+        "Feature": "Āhuatanga",
+        "Documents": "Āwhina Online",
+        "ReleaseNotes": "Tuku Notes",
         "Downloads": "Whakamātau Free",
-        "Buy": "Hokona",
-        "Roadmap": "Mape",
-        "ReportIssue": "Putanga Report",
+        "Buy": "Hoko",
+        "Roadmap": "Raina Hua",
+        "ReportIssue": "Pūrongo i te raruraru",
         "Languages": "Reo"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "App Tino whai hua. Ngā Full-ētita. Windows, Linux, MacOSX.",
+        "ProjectTagline": "Ētita Markdown Full-ngā. Tautoko mō te Windows, Linux me MacOSX pūnaha whakahaere.",
         "BtnDownload": "Whakamātau Free",
         "BtnBuy": "Hoko",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Āhuatanga Main",
+            "SectionName": "Āhuatanga matua Hua",
             "list": [
-                "Tautoko kaweake ki te pdf tuhinga",
-                "Tuhinga tā Tautoko",
-                "Tautoko Markdown paerewa / CommonMark me GFM (GitHub whakarehu Markdown)",
-                "Tautoko arokite Live",
-                "Tautoko kuputuhi hōputu, poraka waehere, tepu, waehere te kotuituitanga, rapu me te whakakapi, reo maha, HTML hinonga pūkaha waehere wetereo",
-                "Tautoko TOC (Ripanga Ihirangi), Emoji whakapuaki, TaskLists (mahi mahere),Links (hono)",
+                "Tautoko i Kaweake rite kōnae PDF",
+                "Tautoko mō ngā tuhinga tā",
+                "Tautoko utu paerewa / CommonMark me GFM (Markdown o GitHub)",
+                "Tautoko Arokite Live",
+                "Hōputu tautokona o kuputuhi, poraka waehere, tepu, waehere te kotuituitanga, rapu me te whakakapi, maha-reo, pūkaha HTML hinonga waehere wetereo",
+                "Tautoko TOC (ripanga ihirangi), te faaiteraa o emoticons, te rārangi tūmahi (Map Tūmahi), @ (hononga)",
                 "Tautoko wetewaehere me te tātari HTML tūtohu me huanga",
-                "Tautoko Tex (taherapa kīanga, KaTeX), rere hoahoa me te raupapa hoahoa",
-                "Tikanga tautoko Whakaora Tuhinga",
-                "Tautoko i whakatika tukutahi maha, tau mutunga"
+                "Tautoko Texas (faaiteraa te taherapa, Katex Inc.) flowcharts me ngā hoahoa raupapa",
+                "Kōnae tautoko te whakaora tikanga",
+                "Tautoko whakatika maha, tau mutunga"
             ]
         },
         "UserReviews": {
-            "SectionName": "Whakamiharo mea te iwi e mea e pā ana ki MarkdownD",
+            "SectionName": "Pehea ki te aromātai i MarkdownD",
             "list": [
                 {
-                    "reviewContent": "Ko nga auheke MarkdownD. Simple. Clean. Perfect. Well. Mahi",
+                    "reviewContent": "Ko mīharo MarkdownD. Simple. Clean. Haohaoá. Kiri mahi.",
                     "userName": "evanw",
-                    "professional": "Hangarau Kaikauwhau"
+                    "professional": "Hangarau Whakatairanga"
                 },
                 {
-                    "reviewContent": "MarkdownD Ko te aha e meatia e ahau tino nui katoa o toku tuhituhi i roto i. Ko te he taupānga nui iti.",
+                    "reviewContent": "MarkdownD Ko te aha e meatia e ahau tata toku tuhituhi katoa, he iti tono nui ko tenei.",
                     "userName": "Pita Bright",
-                    "professional": "Kaituhi i Ars Technica"
+                    "professional": "Kaituhi Ars Technica o"
                 },
                 {
-                    "reviewContent": "Ki te whai koe i tetahi moni i roto i te Markdown, he utu he download tino MarkdownD.",
-                    "userName": "LifeHacker",
-                    "professional": "Tukutuku Developer me Designer"
+                    "reviewContent": "Ki te whai koe i tetahi moni i roto i te utu o raro, he utu i te download tino MarkdownD.",
+                    "userName": "Lifehacker o",
+                    "professional": "Ngā Tukutuku me kaihoahoa"
                 },
                 {
-                    "reviewContent": "Tino rite MarkdownD, kawea mai e ahau, kua nui haratau mo toku mahi.",
+                    "reviewContent": "Tino rite MarkdownD, kawea mai e ahau i haratau nui: toku mahi.",
                     "userName": "jeruss",
-                    "professional": "PHP Anga Developer"
+                    "professional": "Whanaketanga anga PHP"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Tau Putanga",
+        "labelVersion": "Tuku",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Pūmau ētahi."
+                        "content": "Pūmau ētahi hapa."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Pūmau ētahi."
+                        "content": "Pūmau ētahi hapa."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Tukua Tuatahi."
+                        "content": "Ko te tuku tuatahi."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Tukua Tuatahi."
+                        "content": "Ko te tuku tuatahi."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Tau Putanga",
+        "labelVersion": "Tuku",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Buy Way",
+        "SectionName": "Pehea Hei hoko",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

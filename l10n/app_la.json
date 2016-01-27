@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "HomePage",
-        "Feature": "Feature",
-        "Documents": "Documenta",
-        "ReleaseNotes": "ReleaseNotes",
+        "Home": "Domi",
+        "Feature": "Features",
+        "Documents": "Online Help",
+        "ReleaseNotes": "Release Notes",
         "Downloads": "Free",
-        "Buy": "Buy",
-        "Roadmap": "Roadmap",
-        "ReportIssue": "Report Issue",
+        "Buy": "Purchase",
+        "Roadmap": "Product line",
+        "ReportIssue": "Report a forsit",
         "Languages": "Lingua"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Valde utilis App. Full-featured editor. Fenestra, Linux, MacOSX.",
+        "ProjectTagline": "Full-featured Markdown editor. Integer Fenestra, Linux MacOSX operating ratio.",
         "BtnDownload": "Free",
         "BtnBuy": "Purchase",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Marisque",
+            "SectionName": "Product marisque",
             "list": [
-                "Support educendo ad pdf document",
-                "Support print document",
-                "Support vexillum Markdown / CommonMark et GFM (GitHub Flavored Markdown)",
-                "Praevisum viventem firmamentum",
-                "Support formatted text, code caudices, tabulas, code conseres, quaerere et subrogare, multiple linguarum HTML entitatem signum syntax highlighting",
-                "Support Toc (Table of Contents), Emoji expressio, TaskLists (map munus),Links (link)",
+                "Ut sustinere Export PDF file",
+                "Support for printing documenta",
+                "Vexillum pretium fulcit / CommonMark et GFM (GitHub Markdown s)",
+                "Live Preview Support",
+                "Subnixus formats text of code caudices, tabulas, code conseres, quaerere et subrogare, multi-linguam HTML entitatem signum syntax highlighting",
+                "Support TOC (mensam de contentis), expressio emoticons praetori negotium list (Negotium Map), (nexus)",
                 "Support decoding et filtering HTML tags et attributa",
-                "Support Tex (LaTex expressio, KaTeX), et fluent aquæ diagram sequence diagram",
-                "Support Document Recuperatio Mechanism",
-                "Sustinere multiple simul edendis, infinitis"
+                "Support Texas (latex expressio, Katex Inc.) flowcharts seriemque diagrams",
+                "Support files recuperare mechanism",
+                "Support multiple edendis, infinitis"
             ]
         },
         "UserReviews": {
-            "SectionName": "Mirabilia sunt sententia MarkdownD",
+            "SectionName": "Quam ad aestimare MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD est attonitus. Simplex. Mundum. Perfect. Bene factum.",
+                    "reviewContent": "MarkdownD est mirabile. Simplex. Mundum. Perfectio. Nicely factum.",
                     "userName": "evanw",
-                    "professional": "Technology Evangelista"
+                    "professional": "Technology Promotion"
                 },
                 {
-                    "reviewContent": "Quod facere haud MarkdownD scribamus in omnibus. Sed parum multa app.",
+                    "reviewContent": "Quod facere plerique omnes MarkdownD scribere hoc parum magnum elit.",
                     "userName": "Peter Bright",
-                    "professional": "Scriptor Ars Technica"
+                    "professional": "Technica ars scriptores scriptor"
                 },
                 {
-                    "reviewContent": "Si cura Markdown, certe tanti MarkdownD download.",
-                    "userName": "Lifehacker",
-                    "professional": "Web Designer et Developer"
+                    "reviewContent": "Si qua in re inferior pretium operae certo MarkdownD download.",
+                    "userName": "Lifehacker scriptor",
+                    "professional": "Web gravida tincidunt et"
                 },
                 {
-                    "reviewContent": "Lorem sicut MarkdownD perduxerit quantum commodum operi meo credidi.",
+                    "reviewContent": "Lorem sicut MarkdownD perduxerit magna commoditas, mea.",
                     "userName": "jeruss",
-                    "professional": "PHP Framework Developer"
+                    "professional": "PHP compage development"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Version Number",
+        "labelVersion": "Release",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fixum aliquod cimices."
+                        "content": "Certum quendam errorem deferatur."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fixum aliquod cimices."
+                        "content": "Certum quendam errorem deferatur."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Primum solvimus."
+                        "content": "Primum remissionis."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Primum solvimus."
+                        "content": "Primum remissionis."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Version Number",
+        "labelVersion": "Release",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Buy Way",
+        "SectionName": "Quam Ut Buy",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

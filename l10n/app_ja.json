@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "ホームページ",
-        "Feature": "特徴",
-        "Documents": "ドキュメント",
+        "Home": "ホーム",
+        "Feature": "特長",
+        "Documents": "オンラインヘルプ",
         "ReleaseNotes": "リリースノート",
         "Downloads": "フリートライアル",
         "Buy": "購入",
-        "Roadmap": "ロードマップ",
-        "ReportIssue": "レポートの問題",
+        "Roadmap": "製品ライン",
+        "ReportIssue": "問題を報告します",
         "Languages": "言語"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "非常に便利なアプリ。フル機能のエディタ。 Windows、Linux、MacOSXの。",
+        "ProjectTagline": "フル機能のマークダウンエディタ。 Windows、Linux、およびMacOSXのオペレーティングシステムのサポート。",
         "BtnDownload": "フリートライアル",
         "BtnBuy": "購入",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "主な特徴",
+            "SectionName": "製品の主な特徴",
             "list": [
-                "PDFドキュメントへのエクスポートをサポート",
-                "サポート印刷文書",
-                "サポート標準値下げ/ CommonMarkとGFM（GitHubの風味値下げ）",
+                "PDFファイルとしてエクスポートをサポート",
+                "印刷ドキュメントのサポート",
+                "サポート標準価格/ CommonMarkとGFM（GitHubののマークダウン）",
                 "ライブプレビューのサポート",
-                "サポートフォーマットされたテキスト、コードブロック、テーブル、コードの折りたたみ、検索と置換、複数の言語、HTMLエンティティコードのシンタックスハイライ​​ト",
-                "サポート目次（目次）、絵文字式、タスクリスト（作業マップ）、@リンク（リンク）",
+                "テキスト、コードブロック、テーブル、コードの折りたたみ、検索と置換、多言語、HTMLエンティティコードの構文強調表示のサポートされるフォーマット",
+                "サポートTOC（目次）、顔文字の表現、タスクリスト（作業マップ）、@（リンク）",
                 "デコードおよびフィルタリングHTMLタグと属性をサポート",
-                "サポートテックス（ラテックス式、KaTeX）、フロー図とシーケンス図",
-                "ドキュメントの回復メカニズムをサポート",
-                "複数の同時編集をサポート、無制限の数"
+                "サポートテキサス（ラテックス表現、Katex社）フローチャートやシーケンス図",
+                "サポートファイル回復メカニズム",
+                "複数の編集、無制限の数をサポート"
             ]
         },
         "UserReviews": {
-            "SectionName": "素晴らしいものの人々はMarkdownDについて言っています",
+            "SectionName": "MarkdownDを評価する方法",
             "list": [
                 {
-                    "reviewContent": "MarkdownDは素晴らしいです。簡単。クリーン。パーフェクト。よくやった。",
+                    "reviewContent": "MarkdownDは素晴らしいです。シンプル。クリーン。完璧。素敵行います。",
                     "userName": "evanw",
-                    "professional": "テクノロジー・エバンジェリスト"
+                    "professional": "技術振興"
                 },
                 {
-                    "reviewContent": "MarkdownDは、私はほとんどすべての私の書き込みの何をすべきかです。それは偉大な小さなアプリケーションです。",
+                    "reviewContent": "MarkdownDは、私はほとんどすべての私の書き込みを行うもの、これは偉大な小さなアプリケーションです。",
                     "userName": "ピーター・ブライト",
-                    "professional": "アルステクニカでライター"
+                    "professional": "アルステクニカの作家"
                 },
                 {
-                    "reviewContent": "あなたはマークダウンに興味を持っている場合は、MarkdownDは間違いなく、ダウンロードする価値があります。",
-                    "userName": "ライフハッカー",
-                    "professional": "Web開発者とデザイナー"
+                    "reviewContent": "あなたが低価格に興味を持っている場合は、MarkdownDは間違いなく、ダウンロードする価値があります。",
+                    "userName": "ライフハッカーの",
+                    "professional": "Web開発者やデザイナー"
                 },
                 {
-                    "reviewContent": "私は本当にMarkdownDように、私の仕事のために多くの利便性をもたらしています。",
+                    "reviewContent": "私は本当にMarkdownDように、大きな利便性をもたらしています。私の仕事を。",
                     "userName": "jeruss",
-                    "professional": "PHP Framework開発"
+                    "professional": "PHPフレームワークの開発"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "バージョン番号",
+        "labelVersion": "解放",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "いくつかのバグを修正しました。"
+                        "content": "いくつかのエラーを修正しました。"
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "いくつかのバグを修正しました。"
+                        "content": "いくつかのエラーを修正しました。"
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "最初にリリース。"
+                        "content": "最初のリリース。"
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "最初にリリース。"
+                        "content": "最初のリリース。"
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "バージョン番号",
+        "labelVersion": "解放",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "購入方法",
+        "SectionName": "購入する方法",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

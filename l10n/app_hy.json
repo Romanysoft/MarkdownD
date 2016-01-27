@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "Հիմնական էջ",
-        "Feature": "Առանձնահատկություն",
-        "Documents": "Documents",
-        "ReleaseNotes": "ReleaseNotes",
+        "Home": "Տուն",
+        "Feature": "Նկարագրություն",
+        "Documents": "Online Օգնություն",
+        "ReleaseNotes": "ՕՆԼԱՅՆ Notes",
         "Downloads": "Free Trial",
-        "Buy": "Գնել",
-        "Roadmap": "Ճանապարհային քարտեզի",
-        "ReportIssue": "Report Issue",
+        "Buy": "Գնում",
+        "Roadmap": "Ապրանք գիծը",
+        "ReportIssue": "Հաղորդել խնդիր",
         "Languages": "Լեզու"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Շատ օգտակար է App. Full դիմագծերով խմբագիր. Windows, Linux, MacOSX.",
+        "ProjectTagline": "Լրիվ դիմագծերով markdown խմբագիր. Աջակցություն Windows, Linux եւ MacOSX օպերացիոն համակարգերի.",
         "BtnDownload": "Free Trial",
         "BtnBuy": "Գնում",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Հիմնական Նկարագրություն",
+            "SectionName": "Product հիմնական հատկանիշները",
             "list": [
-                "Support արտահանման PDF փաստաթուղթը",
-                "Support տպագիր փաստաթուղթը",
-                "Support ստանդարտ markdown / CommonMark եւ gfm (GitHub համով markdown)",
-                "Live նախադիտում աջակցություն",
-                "Support չափագրված տեքստ, code արգելափակում, սեղաններ, կոդը ծալովի, որոնել եւ փոխարինել, բազմաթիվ լեզուներով, HTML անձ կոդը շարահյուսական կարեւորելով",
-                "Support Toc (Բովանդակություն), զմայլիկներ արտահայտությունը, TaskLists (խնդիրն քարտեզ),Links (ՈՒղեցույց)",
+                "Աջակցություն Արտահանել որպես PDF ֆայլ",
+                "Աջակցություն տպագրության փաստաթղթեր",
+                "Աջակցում ստանդարտ գին / CommonMark եւ gfm (Github-ի markdown)",
+                "Live Preview Support",
+                "Աջակցությամբ ձեւաչափերը տեքստի, կոդ արգելափակում, սեղաններ, կոդը ծալովի, որոնել եւ փոխարինել, բազմալեզու, HTML անձ կոդը շարահյուսական կարեւորելով",
+                "Support TOC (Բովանդակություն), որ արտահայտում emoticons, որ խնդիրը ցուցակը (Task Map) @ (← հղումներ)",
                 "Աջակցության ապակոդավորման եւ զտիչ HTML թեգերը եւ ատրիբուտները",
-                "Support Tex (LaTex արտահայտություն, katex) տատանման դիագրամ եւ հերթական դիագրաման",
-                "Support Document վերականգնման մեխանիզմը",
-                "Աջակցություն բազմակի միաժամանակյա խմբագրում, անսահմանափակ թվով"
+                "Support Texas (լատեքս Արտահայտությունը, katex Inc.) սխեմաներ եւ հաջորդականությունը դիագրամների",
+                "Աջակցություն ֆայլեր վերականգնման մեխանիզմ",
+                "Support բազմակի խմբագրում, անսահմանափակ թվով"
             ]
         },
         "UserReviews": {
-            "SectionName": "Հրաշալի բաներ, մարդիկ ասում են, մոտ MarkdownD",
+            "SectionName": "Ինչպես գնահատել MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD ցնցող. Simple. Մաքուր. Perfect. Լավ է արված:",
+                    "reviewContent": "MarkdownD է զարմանալի. Simple. Մաքուր. Perfection. Իսկը արել.",
                     "userName": "evanw",
-                    "professional": "Մեխանիկա Ավետարանիչ"
+                    "professional": "Մեխանիկա Promotion"
                 },
                 {
-                    "reviewContent": "MarkdownD այն է, ինչ ես անում, շատ բոլորը իմ գրավոր: Դա մի քիչ մեծ ծրագիրը:",
+                    "reviewContent": "MarkdownD այն է, ինչ ես անում, գրեթե բոլոր իմ գրելու, սա մի քիչ մեծ դիմումը.",
                     "userName": "Peter Bright",
-                    "professional": "Գրող, ժամը Ars Technica"
+                    "professional": "Ars Technica գրողների"
                 },
                 {
-                    "reviewContent": "Եթե ​​դուք ունեք որեւէ հետաքրքրություն markdown, MarkdownD հաստատ արժե մի ստանալ.",
-                    "userName": "Lifehacker",
-                    "professional": "Web Developer եւ Designer"
+                    "reviewContent": "Եթե ​​դուք ունեք որեւէ հետաքրքրություն ցածր գներով, MarkdownD հաստատ արժե ստանալ.",
+                    "userName": "Lifehacker ի",
+                    "professional": "Վեբ ծրագրավորողներ եւ դիզայներներ"
                 },
                 {
-                    "reviewContent": "Ես, իրոք, նման MarkdownD, բերեց շատ հարմարության համար իմ աշխատանքում.",
+                    "reviewContent": "Ես, իրոք, նման MarkdownD, բերել մեծ հարմարության. Իմ աշխատանքը.",
                     "userName": "jeruss",
-                    "professional": "PHP Framework Developer"
+                    "professional": "PHP շրջանակը զարգացման"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Ծանոթություններ Միավորների",
+        "labelVersion": "Ազատում",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Ֆիքսված որոշ bugs."
+                        "content": "Ֆիքսված որոշ սխալներ."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Ֆիքսված որոշ bugs."
+                        "content": "Ֆիքսված որոշ սխալներ."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Առաջին ազատ է արձակվել."
+                        "content": "Առաջին արձակել."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Առաջին ազատ է արձակվել."
+                        "content": "Առաջին արձակել."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Ծանոթություններ Միավորների",
+        "labelVersion": "Ազատում",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Գնել Way",
+        "SectionName": "Ինչպես Գնել",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

@@ -1,19 +1,19 @@
 {
     "TopBar": {
-        "Home": "Heimasíða",
-        "Feature": "Lögun",
-        "Documents": "Skjöl",
-        "ReleaseNotes": "ReleaseNotes",
-        "Downloads": "Ókeypis prufa",
-        "Buy": "Kaupa",
-        "Roadmap": "Vegamaður",
-        "ReportIssue": "Tilkynna vandamál",
+        "Home": "Home",
+        "Feature": "Features",
+        "Documents": "Online Hjálp",
+        "ReleaseNotes": "Release Notes",
+        "Downloads": "Free Trial",
+        "Buy": "Purchase",
+        "Roadmap": "Vöruframboð",
+        "ReportIssue": "Tilkynna um vandamál",
         "Languages": "Tungumál"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Mjög gagnlegt App. Full-lögun ritstjóri. Windows, Linux, MacOSX.",
-        "BtnDownload": "Ókeypis prufa",
+        "ProjectTagline": "Full-lögun Markdown ritstjóri. Stuðningur við Windows, Linux og MacOSX stýrikerfum.",
+        "BtnDownload": "Free Trial",
         "BtnBuy": "Purchase",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Helstu eiginleikar",
+            "SectionName": "Vara Helstu eiginleikar",
             "list": [
-                "Stuðningur útflutningur til pdf skjal",
-                "Stuðningur prenta skjal",
-                "Stuðningur staðall Markdown / CommonMark og GFM (GitHub Bragðbætt Markdown)",
-                "Live forsýning stuðningur",
-                "Stuðningur sniðinn texta, kóða blokkir, töflur, númer leggja saman, leita og skipta, mörg tungumál, HTML eining númer setningafræði auðkenning",
-                "Stuðningur Toc (Table of Contents), Emoji tjáning, TaskLists (verkefni kort),Links (tengill)",
+                "Stuðningur Flytja sem PDF skrá",
+                "Stuðningur við prentun skjöl",
+                "Styður staðall verð / CommonMark og GFM (Markdown GitHub er)",
+                "Live Preview Support",
+                "Stuðningsmaður snið af texta, kóða blokkir, borð, númer leggja saman, leita og skipta, multi-tungumál, HTML eining númer setningafræði auðkenning",
+                "Stuðningur TOC (efnisyfirlit), tjáning broskörlum, verkefni listi (Task Map), @ (tenglar)",
                 "Stuðningur umskráningu og síun HTML tög og eiginleika",
-                "Stuðningur Tex (latex tjáning, KaTeX), flæðirit og röð skýringarmynd",
-                "Stuðningur Document Recovery styrktarsjóður",
-                "Styðja margfeldi samtímis klippingu, ótakmarkaðan fjölda"
+                "Stuðningur Texas (latex tjáningu, Katex Inc.) flæðirit og röð skýringarmyndir",
+                "Stuðningur skrá bati vélbúnaður",
+                "Styðja margfeldi klippingu, ótakmarkaðan fjölda"
             ]
         },
         "UserReviews": {
-            "SectionName": "Frábæra hluti fólk er að segja um MarkdownD",
+            "SectionName": "Hvernig á að meta MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD er töfrandi. Einfalt. Clean. Perfect. Vel gert.",
+                    "reviewContent": "MarkdownD er ótrúlegt. Einfalt. Clean. Fullkomnun. Fallega gert.",
                     "userName": "evanw",
-                    "professional": "Tækni Evangelist"
+                    "professional": "Tækni Efling"
                 },
                 {
-                    "reviewContent": "MarkdownD er það sem ég geri nánast öll ræðu í. Það er a mikill lítill app.",
+                    "reviewContent": "MarkdownD er það sem ég geri nánast allt skrifin mín, þetta er a mikill lítill forrit.",
                     "userName": "Peter Bright",
-                    "professional": "Writer á Ars Technica"
+                    "professional": "Rithöfundar Ars Technica er"
                 },
                 {
-                    "reviewContent": "Ef þú hefur áhuga á Markdown, MarkdownD er sannarlega þess virði að sækja.",
-                    "userName": "Lifehacker",
-                    "professional": "Web Developer og Designer"
+                    "reviewContent": "Ef þú hefur áhuga á lægra verði, MarkdownD er sannarlega þess virði að sækja.",
+                    "userName": "Lifehacker er",
+                    "professional": "Vefur verktaki og hönnuðir"
                 },
                 {
-                    "reviewContent": "ÉG raunverulega eins MarkdownD, hefur fært mikið þægindi fyrir vinnu mína.",
+                    "reviewContent": "ÉG raunverulega eins MarkdownD, hefur fært mikil þægindi, starfi mínu.",
                     "userName": "jeruss",
-                    "professional": "PHP Framework Developer"
+                    "professional": "PHP ramma þróun"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Version Fjöldi",
+        "labelVersion": "Release",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fastur sumir bugs."
+                        "content": "Fastur sumir villur."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fastur sumir bugs."
+                        "content": "Fastur sumir villur."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Fyrst gefið út."
+                        "content": "Fyrsta útgáfa."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Fyrst gefið út."
+                        "content": "Fyrsta útgáfa."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Version Fjöldi",
+        "labelVersion": "Release",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Kaupa Way",
+        "SectionName": "Hvernig á að kaupa",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

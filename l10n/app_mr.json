@@ -1,18 +1,18 @@
 {
     "TopBar": {
         "Home": "मुख्यपृष्ठ",
-        "Feature": "वैशिष्ट्य",
-        "Documents": "दस्तऐवज",
-        "ReleaseNotes": "ReleaseNotes",
+        "Feature": "वैशिष्ट्ये",
+        "Documents": "ऑनलाईन मदत",
+        "ReleaseNotes": "प्रकाशन टिपा",
         "Downloads": "विनामूल्य चाचणी",
         "Buy": "खरेदी",
-        "Roadmap": "आराखड्यामुळे",
+        "Roadmap": "उत्पादन ओळ",
         "ReportIssue": "समस्या नोंदवा",
         "Languages": "भाषा"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "अतिशय उपयुक्त अनुप्रयोग. संपादक पूर्ण-वैशिष्ट्यीकृत. विंडोज, लिनक्स, MacOSX.",
+        "ProjectTagline": "पूर्ण-वैशिष्ट्यीकृत Markdown संपादक. विंडोज, लिनक्स व MacOSX कार्य प्रणाली समर्थन.",
         "BtnDownload": "विनामूल्य चाचणी",
         "BtnBuy": "खरेदी",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "मुख्य वैशिष्ट्ये",
+            "SectionName": "उत्पादन मुख्य वैशिष्ट्ये",
             "list": [
-                "PDF दस्तऐवज पाठिंबा निर्यात",
-                "समर्थन प्रिंट दस्तऐवज",
-                "समर्थन मानक Markdown / CommonMark आणि GFM (GitHub flavored Markdown)",
+                "PDF फाइल म्हणून निर्यात समर्थन",
+                "मुद्रण दस्तऐवज समर्थन",
+                "समर्थन मानक किंमत / CommonMark आणि GFM (GitHub च्या Markdown)",
                 "थेट पूर्वावलोकन समर्थन",
-                "समर्थन रूपण मजकूर, कोड अवरोध, टेबल कोड गोलाकार, शोध आणि पुनर्स्थित, अनेक भाषा, स्वतंत्र HTML कोड मांडणी ठळक",
-                "समर्थन Toc (अनुक्रमणिका), ईमोजी अभिव्यक्ती, TaskLists (काम नकाशा),Links (दुवा)",
+                "मजकूर समर्थित स्वरूप, कोड अवरोध, टेबल कोड गोलाकार, मल्टि-भाषा शोध आणि पुनर्स्थित, स्वतंत्र HTML कोड मांडणी ठळक",
+                "समर्थन TOC (अनुक्रमणिका), भावनांची अभिव्यक्ती, कार्य यादी (कार्य नकाशा), @ (← दुवे)",
                 "समर्थन डीकोडिंग आणि गाळणे HTML टॅग आणि विशेषता",
-                "समर्थन टेक्स (ले टेक अभिव्यक्ती, KaTeX), आकृती आणि क्रम आकृती प्रवाह",
-                "समर्थन दस्तऐवज पुनर्प्राप्ती पद्धती",
-                "एकाचवेळी एकाधिक संपादन समर्थन, अमर्यादित संख्या"
+                "समर्थन टेक्सास (ले टेक अभिव्यक्ती, Katex इन्क) फ्लोचार्ट आणि क्रम आकृत्या",
+                "समर्थन फाइल्स पुनर्प्राप्ती यंत्रणा",
+                "समर्थन अनेक संपादन, अमर्यादित संख्या"
             ]
         },
         "UserReviews": {
-            "SectionName": "अद्भुत गोष्टी लोक MarkdownD काय म्हणत आहेत",
+            "SectionName": "MarkdownD मूल्यमापन कसे",
             "list": [
                 {
-                    "reviewContent": "MarkdownD जबरदस्त आकर्षक आहे. साधे. स्वच्छ. योग्य. छान.",
+                    "reviewContent": "MarkdownD आश्चर्यकारक आहे. साधे. स्वच्छ. परिपूर्ण. छान झाले.",
                     "userName": "evanw",
-                    "professional": "तंत्रज्ञान लेखक"
+                    "professional": "तंत्रज्ञान प्रोत्साहन"
                 },
                 {
-                    "reviewContent": "MarkdownD मी खूपच जास्त सर्व माझ्या लेखन काय आहे. तो एक महान थोडे अनुप्रयोग आहे.",
+                    "reviewContent": "MarkdownD, हे एक महान थोडे अनुप्रयोग आहे, जे मी जवळजवळ सर्व माझ्या लिखाणाबद्दल काय आहे.",
                     "userName": "पीटर तेजस्वी",
-                    "professional": "Ars Technica येथे लेखक"
+                    "professional": "Ars Technica च्या लेखक"
                 },
                 {
-                    "reviewContent": "आपण Markdown कोणत्याही स्वारस्य आहे, तर, MarkdownD निश्चितपणे एक डाउनलोड वाचतो आहे.",
-                    "userName": "Lifehacker",
-                    "professional": "वेब डेव्हलपर आणि डिझायनर"
+                    "reviewContent": "आपण कमी दर कोणत्याही स्वारस्य आहे, तर, MarkdownD निश्चितपणे डाउनलोड वाचतो आहे.",
+                    "userName": "Lifehacker च्या",
+                    "professional": "वेब डेव्हलपर आणि डिझाइनर"
                 },
                 {
-                    "reviewContent": "मी खरोखर MarkdownD सारखे, माझ्या कामासाठी किती सोयीसाठी आणले आहे.",
+                    "reviewContent": "मी खरोखर MarkdownD जसे, महान सोयीसाठी आणले आहे; माझे काम.",
                     "userName": "jeruss",
-                    "professional": "कृपया PHP फ्रेमवर्क विकसक"
+                    "professional": "कृपया PHP फ्रेमवर्क विकास"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "आवृत्ती क्रमांक",
+        "labelVersion": "प्रकाशन",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "काही बग निर्धारण केले."
+                        "content": "काही चुका निर्धारण केले."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "काही बग निर्धारण केले."
+                        "content": "काही चुका निर्धारण केले."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "प्रथम प्रकाशन करण्यात आले."
+                        "content": "पहिले प्रकाशन."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "प्रथम प्रकाशन करण्यात आले."
+                        "content": "पहिले प्रकाशन."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "आवृत्ती क्रमांक",
+        "labelVersion": "प्रकाशन",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "खरेदी वे",
+        "SectionName": "खरेदी कसे",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

@@ -2,17 +2,17 @@
     "TopBar": {
         "Home": "ຫນ້າ​ທໍາ​ອິດ",
         "Feature": "ຄຸນ​ນະ​ສົມ​ບັດ",
-        "Documents": "ເອ​ກະ​ສານ",
-        "ReleaseNotes": "releasenotes",
+        "Documents": "ອອນ​ໄລ​ນ​໌​ຊ່ວຍ​ເຫຼືອ",
+        "ReleaseNotes": "ບັນ​ທຶກ​ປະ​ຈໍາ",
         "Downloads": "ການ​ທົດ​ລອງ​ຟຣີ",
         "Buy": "ຊື້",
-        "Roadmap": "RoadMap",
-        "ReportIssue": "ສະ​ບັບ Report",
+        "Roadmap": "ອອນ​ໄລ​ນ​໌​ຜະ​ລິດ​ຕະ​ພັນ",
+        "ReportIssue": "ລາຍ​ງານ​ບັນ​ຫາ​ໃດ​ຫນຶ່ງ",
         "Languages": "ພາ​ສາ"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "ເປັນ​ປະ​ໂຫຍດ​ຫຼາຍ App​. ເຕັມ​ທີ່​ເຂົ້າ​ຮ່ວມ​ບັນ​ນາ​ທິ​ການ​. Windows​, Linux​, MacOSX​.",
+        "ProjectTagline": "ເຕັມ​ທີ່​ເຂົ້າ​ຮ່ວມ​ບັນ​ນາ​ທິ​ການ Markdown​. ສະ​ຫນັບ​ສະ​ຫນູນ​ສໍາ​ລັບ Windows​, Linux ແລະ MacOSX ລະ​ບົບ​ປະ​ຕິ​ບັດ​ການ​.",
         "BtnDownload": "ການ​ທົດ​ລອງ​ຟຣີ",
         "BtnBuy": "ຊື້",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "ຄຸນ​ນະ​ສົມ​ບັດ​ຕົ້ນ​ຕໍ",
+            "SectionName": "ຜະ​ລິດ​ຕະ​ພັນ​ຄຸນ​ນະ​ສົມ​ບັດ​ຕົ້ນ​ຕໍ",
             "list": [
-                "ສະ​ຫນັບ​ສະ​ຫນູນ​ການ​ສົ່ງ​ອອກ​ເອ​ກະ​ສານ pdf",
-                "ສະ​ຫນັບ​ສະ​ຫນູນ​ເອ​ກະ​ສານ​ການ​ພິມ",
-                "ສະ​ຫນັບ​ສະ​ຫນູນ​ມາດ​ຕະ​ຖານ Markdown / CommonMark ແລະ GFM (GitHub ໃຊ້​ປຸງ​ລົດ​ຊາດ Markdown​)",
-                "ສະ​ຫນັບ​ສະ​ຫນູນ​ຊີ​ວິດ​ສະ​ແດງ",
-                "ສະ​ຫນັບ​ສະ​ຫນູນ​ຮູບ​ແບບ​ຂໍ້​ຄວາມ​, ຕັນ​ລະ​ຫັດ​, ຕາ​ຕະ​ລາງ​, ພັບ​ລະ​ຫັດ​, ການ​ຄົ້ນ​ຫາ​ແລະ​ປ່ຽນ​ແທນ​ຫລາຍ​ພາ​ສາ HTML ຫົວ​ຫນ່ວຍ​ການ​ເນັ້ນ​ຂໍ້​ຄວາມ syntax ລະ​ຫັດ",
-                "ສະ​ຫນັບ​ສະ​ຫນູນ Toc (Table of Contents​)​, ​​ການ​ສະ​ແດງ​ອອກ Emoji​, TaskLists (ວຽກ​ງານ​ແຜນ​ທີ່​)​, ​​@Links (ການ​ເຊື່ອມ​ຕໍ່​)",
+                "ສະ​ຫນັບ​ສະ​ຫນູນ​ການ​ສົ່ງ​ອອກ​ເປັນ​ໄຟລ​໌ PDF",
+                "ສະ​ຫນັບ​ສະ​ຫນູນ​ສໍາ​ລັບ​ເອ​ກະ​ສານ​ທີ່​ພິມ",
+                "ສະ​ຫນັບ​ສະ​ຫນູນ​ລາ​ຄາ​ມາດ​ຕະ​ຖານ / CommonMark ແລະ GFM (Markdown GitHub ຂອງ​)",
+                "ສະ​ແດງ​ສະ​ຫນັບ​ສະ​ຫນູນ​ທີ່​ມີ​ຊີ​ວິດ",
+                "ຮູບ​ແບບ​ສະ​ຫນັບ​ສະ​ຫນູນ​ຂອງ​ຂໍ້​ຄວາມ​, ຕັນ​ລະ​ຫັດ​, ຕາ​ຕະ​ລາງ​, ພັບ​ລະ​ຫັດ​, ການ​ຄົ້ນ​ຫາ​ແລະ​ປ່ຽນ​ແທນ​, ຫຼາຍ​ພາ​ສາ​, ການ​ເນັ້ນ​ຫນ່ວຍ​ງານ HTML code syntax",
+                "ສະ​ຫນັບ​ສະ​ຫນູນ TOC (ຕາ​ຕະ​ລາງ​ຂອງ​ເນື້ອ​ໃນ​)​, ​​ສະ​ແດງ​ອອກ​ຂອງ emoticons ໄດ້​, ບັນ​ຊີ​ລາຍ​ການ​ຫນ້າ​ວຽກ (Task Map​)​, ​​@ (ລິ້ງ​ຄ​໌​)",
                 "tags ສະ​ຫນັບ​ສະ​ຫນູນ decoding ແລະ​ການ​ກັ່ນ​ຕອງ HTML ແລະ​ຄຸນ​ລັກ​ສະ​ນະ",
-                "ສະ​ຫນັບ​ສະ​ຫນູນ Tex (ການ​ສະ​ແດງ​ອອກ​ນ​້​ໍາ​ຢາງ​, Katex​)​, ​​ແຜນ​ວາດ​ການ​ໄຫຼ​ແລະ​ລໍາ​ດັບ​ແຜນ​ວາດ",
-                "ກົນ​ໄກ​ສະ​ຫນັບ​ສະ​ຫນູນ​ເອ​ກະ​ສານ​ການ​ຟື້ນ​ຕົວ",
-                "ສະ​ຫນັບ​ສະ​ຫນູນ​ການ​ແກ້​ໄຂ​ພ້ອມ​ກັນ​ຫຼາຍ​, ບໍ່​ຈໍາ​ກັດ​ຈໍາ"
+                "ສະ​ຫນັບ​ສະ​ຫນູນ Texas (ສະ​ແດງ​ອອກ​ນ​້​ໍາ​ຢາງ​, Katex Inc. ) flowcharts ແລະ​ແຜນ​ວາດ​ຕາມ​ລໍາ​ດັບ",
+                "ສະ​ຫນັບ​ສະ​ຫນູນ​ໄຟລ​໌​ກົນ​ໄກ​ການ​ຟື້ນ​ຕົວ",
+                "ສະ​ຫນັບ​ສະ​ຫນູນ​ການ​ແກ້​ໄຂ​ທີ່​ຫຼາກ​ຫຼາຍ​, ບໍ່​ຈໍາ​ກັດ​ຈໍາ"
             ]
         },
         "UserReviews": {
-            "SectionName": "ປະ​ຊາ​ຊົນ​ສິ່ງ​ທີ່​ປະ​ເສີດ​ແມ່ນ​ເວົ້າ​ກ່ຽວ​ກັບ MarkdownD",
+            "SectionName": "ການ​ປະ​ເມີນ​ຜົນ MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD ແມ່ນ stunning​. ງ່າຍ​ດາຍ​. ທໍາ​ຄວາມ​ສະ​ອາດ​. ທີ່​ດີ​ເລີດ​. ເຮັດ​ໄດ້​ດີ​.",
+                    "reviewContent": "MarkdownD ແມ່ນ​ເຮັດ​ໃຫ້​ປະ​ລາດ​. ງ່າຍ​ດາຍ​. ທໍາ​ຄວາມ​ສະ​ອາດ​. ທີ່​ດີ​ເລີດ​. ເຮັດ​ງາມ​.",
                     "userName": "evanw",
-                    "professional": "ເຕັກ​ໂນ​ໂລ​ຊີ Evangelist"
+                    "professional": "ການ​ສົ່ງ​ເສີມ​ເຕັກ​ໂນ​ໂລ​ຊີ"
                 },
                 {
-                    "reviewContent": "MarkdownD ແມ່ນ​ສິ່ງ​ທີ່​ຂ້າ​ພະ​ເຈົ້າ​ເຮັດ pretty ຫຼາຍ​ທັງ​ຫມົດ​ຂອງ​ລາຍ​ລັກ​ອັກ​ສອນ​ຂ້າ​ພະ​ເຈົ້າ​ໃນ​. ມັນ​ເປັນ app ທີ່​ຍິ່ງ​ໃຫຍ່​ພຽງ​ເລັກ​ນ້ອຍ​.",
+                    "reviewContent": "MarkdownD ແມ່ນ​ສິ່ງ​ທີ່​ຂ້າ​ພະ​ເຈົ້າ​ເຮັດ​ໄດ້​ເກືອບ​ຫມົດ​ທຸກ​ລາຍ​ລັກ​ອັກ​ສອນ​ຂ້າ​ພະ​ເຈົ້າ​, ນີ້​ແມ່ນ​ເປັນ​ຄໍາ​ຮ້ອງ​ສະ​ຫມັກ​ທີ່​ຍິ່ງ​ໃຫຍ່​ພຽງ​ເລັກ​ນ້ອຍ​.",
                     "userName": "Peter ສົດ​ໃສ",
-                    "professional": "Writer ຢູ່ Ars Technica"
+                    "professional": "ຂຽນ Ars Technica ຂອງ"
                 },
                 {
-                    "reviewContent": "ຖ້າ​ຫາກ​ທ່ານ​ມີ​ຄວາມ​ສົນ​ໃຈ​ໃນ Markdown ໃດ​, MarkdownD ແມ່ນ​ຕົກ​ເປັນ​ມູນ​ຄ່າ​ການ​ດາວ​ໂຫຼດ​.",
-                    "userName": "LifeHacker",
-                    "professional": "ຜູ້​ພັດ​ທະ​ນາ​ເວັບ​ໄຊ​ແລະ​ການ​ອອກ​ແບບ"
+                    "reviewContent": "ຖ້າ​ຫາກ​ທ່ານ​ມີ​ຄວາມ​ສົນ​ໃຈ​ໃນ​ລາ​ຄາ​ທີ່​ຕ​່​ໍ​າ​ໃດ​, MarkdownD ແມ່ນ​ຕົກ​ເປັນ​ມູນ​ຄ່າ​ການ​ດາວ​ໂຫຼດ​.",
+                    "userName": "Lifehacker ຂອງ",
+                    "professional": "ການ​ພັດ​ທະ​ນາ​ເວັບ​ໄຊ​ຕ​໌​ແລະ​ການ​ອອກ​ແບບ"
                 },
                 {
-                    "reviewContent": "ຂ້າ​ພະ​ເຈົ້າ​ກໍ່​ຄື MarkdownD​, ໄດ້​ນໍາ​ເອົາ​ຄວາມ​ສະ​ດວກ​ຫຼາຍ​ສໍາ​ລັບ​ການ​ເຮັດ​ວຽກ​ຂ້າ​ພະ​ເຈົ້າ​.",
+                    "reviewContent": "ຂ້າ​ພະ​ເຈົ້າ​ກໍ່​ຄື MarkdownD​, ໄດ້​ນໍາ​ເອົາ​ຄວາມ​ສະ​ດວກ​ທີ່​ຍິ່ງ​ໃຫຍ່​; ການ​ເຮັດ​ວຽກ​ຂອງ​ຂ້າ​ພະ​ເຈົ້າ​.",
                     "userName": "jeruss",
-                    "professional": "ພັດ​ທະ​ນາ PHP Framework"
+                    "professional": "ການ​ພັດ​ທະ​ນາ​ໂຄງ​ຮ່າງ​ການ PHP"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "ຈໍາ​ນວນ Version",
+        "labelVersion": "ການ​ປ່ອຍ",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "ມີ​ກໍາ​ນົດ​ແມງ​ໄມ້​ບາງ​."
+                        "content": "ມີ​ກໍາ​ນົດ​ຄວາມ​ຜິດ​ພາດ​ບາງ​."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "ມີ​ກໍາ​ນົດ​ແມງ​ໄມ້​ບາງ​."
+                        "content": "ມີ​ກໍາ​ນົດ​ຄວາມ​ຜິດ​ພາດ​ບາງ​."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "ປ່ອຍ​ອອກ​ມາ​ເມື່ອ​ຄັ້ງ​ທໍາ​ອິດ​."
+                        "content": "ການ​ປ່ອຍ​ທໍາ​ອິດ​."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "ປ່ອຍ​ອອກ​ມາ​ເມື່ອ​ຄັ້ງ​ທໍາ​ອິດ​."
+                        "content": "ການ​ປ່ອຍ​ທໍາ​ອິດ​."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "ຈໍາ​ນວນ Version",
+        "labelVersion": "ການ​ປ່ອຍ",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "ຊື້ Way",
+        "SectionName": "ວິ​ທີ​ການ​ຊື້",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

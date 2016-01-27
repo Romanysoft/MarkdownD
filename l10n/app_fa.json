@@ -1,19 +1,19 @@
 {
     "TopBar": {
-        "Home": "صفحه اصلی وب سایت",
-        "Feature": "خصوصیات",
-        "Documents": "اسناد",
-        "ReleaseNotes": "به ReleaseNotes",
-        "Downloads": "امتحان رایگان",
+        "Home": "صفحه اصلی",
+        "Feature": "ویژگی های",
+        "Documents": "راهنما آنلاین",
+        "ReleaseNotes": "یادداشتهای انتشار",
+        "Downloads": "آزمایش رایگان",
         "Buy": "خرید",
-        "Roadmap": "نقشه راه",
-        "ReportIssue": "گزارش شماره",
+        "Roadmap": "خط تولید",
+        "ReportIssue": "گزارش یک مشکل",
         "Languages": "زبان"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "نرم افزار بسیار مفید است. ویرایشگر کامل شامل. ویندوز، لینوکس، MacOSX برای.",
-        "BtnDownload": "امتحان رایگان",
+        "ProjectTagline": "ویرایشگر نشانه دار کامل شامل. پشتیبانی از ویندوز، لینوکس و MacOSX سیستم عامل.",
+        "BtnDownload": "آزمایش رایگان",
         "BtnBuy": "خرید",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "ویژگی های اصلی",
+            "SectionName": "ویژگی های اصلی محصولات",
             "list": [
-                "حمایت از صادرات به پی دی اف سند",
-                "پشتیبانی از سند چاپ",
-                "پشتیبانی نشانه دار استاندارد / CommonMark و GFM (در GitHub طعم دار مدل های نشانه گذاری)",
-                "پشتیبانی پیش نمایش زنده",
-                "پشتیبانی فرمت متن، بلوک های کد، جداول، تاشو کد، جستجو و جایگزینی، زبان های متعدد، نهاد HTML کد نحو برجسته",
-                "پشتیبانی TOC (فهرست مطالب)، بیان از Emoji، TaskLists (نقشه کار)،Links (لینک)",
+                "پشتیبانی از صادرات به عنوان فایل پی دی اف",
+                "پشتیبانی از اسناد چاپ",
+                "پشتیبانی از قیمت استاندارد / CommonMark و GFM (نشانه دار در GitHub است)",
+                "پشتیبانی پیشنمایش زنده",
+                "فرمت های پشتیبانی شده از متن، بلوک های کد، جداول، تاشو کد، جستجو و جایگزینی، چند زبان، برجسته نهاد نحو کد HTML غیر",
+                "پشتیبانی TOC (فهرست مطالب)، بیان از شکلک ها، لیست کار (نقشه کار)، @ (لینک ها)",
                 "رمز گشایی پشتیبانی و فیلتر HTML برچسب ها و ویژگی های",
-                "پشتیبانی TEX (بیان لاتک، KAtex دارای)، جریان نمودار و نمودار توالی",
-                "پشتیبانی از سند بازیابی مکانیزم",
-                "پشتیبانی از ویرایش چندگانه به طور همزمان، تعداد نامحدود"
+                "پشتیبانی تگزاس (بیان لاتکس، KAtex دارای شرکت) فلوچارت و نمودار توالی",
+                "فایل های پشتیبانی مکانیزم بازیابی",
+                "پشتیبانی از ویرایش های متعدد، تعداد نامحدودی"
             ]
         },
         "UserReviews": {
-            "SectionName": "چیزهایی که مردم می گویند در مورد فوق العاده MarkdownD",
+            "SectionName": "چگونه به ارزیابی MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD خیره کننده است. ساده است. پاک. کامل. خوبی انجام می شود.",
+                    "reviewContent": "MarkdownD شگفت انگیز است. ساده است. پاک. کمال. سادگی انجام می شود.",
                     "userName": "evanw",
-                    "professional": "فناوری مبلغ"
+                    "professional": "فناوری توسعه"
                 },
                 {
-                    "reviewContent": "MarkdownD است آنچه که من انجام تقریبا همه از نوشتن من در آن یک برنامه کمی بزرگ است.",
+                    "reviewContent": "MarkdownD چیزی است که من تقریبا تمام نوشتن من، این نرم افزار کمی بزرگ است.",
                     "userName": "پیتر روشن",
-                    "professional": "نویسنده در سایت Ars Technica"
+                    "professional": "نویسندگان ارز تکنیکا"
                 },
                 {
-                    "reviewContent": "اگر شما هر گونه علاقه در نشانه دار، MarkdownD است که قطعا ارزش دانلود.",
-                    "userName": "سایت LifeHacker",
-                    "professional": "توسعه دهنده وب و طراح"
+                    "reviewContent": "اگر شما هر گونه علاقه در قیمت های پایین تر، MarkdownD است که قطعا ارزش دانلود.",
+                    "userName": "در سایت LifeHacker",
+                    "professional": "طراحی و توسعه وب"
                 },
                 {
-                    "reviewContent": "من واقعا دوست دارم MarkdownD، راحتی بسیار برای کار من به ارمغان آورده است.",
+                    "reviewContent": "من واقعا دوست دارم MarkdownD، به ارمغان آورده است به راحتی بزرگ؛ کار من است.",
                     "userName": "jeruss",
-                    "professional": "توسعه چارچوب PHP"
+                    "professional": "پی اچ پی توسعه چارچوب"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "شماره نسخه",
+        "labelVersion": "انتشار",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "ثابت برخی از اشکالات."
+                        "content": "ثابت برخی از اشتباهات."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "ثابت برخی از اشکالات."
+                        "content": "ثابت برخی از اشتباهات."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "برای اولین بار منتشر شد."
+                        "content": "انتشار اولین."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "برای اولین بار منتشر شد."
+                        "content": "انتشار اولین."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "شماره نسخه",
+        "labelVersion": "انتشار",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "خرید راه",
+        "SectionName": "چگونه به خرید",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

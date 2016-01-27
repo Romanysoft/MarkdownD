@@ -1,19 +1,19 @@
 {
     "TopBar": {
-        "Home": "Mājaslapa",
-        "Feature": "Iezīme",
-        "Documents": "Dokumenti",
-        "ReleaseNotes": "ReleaseNotes",
-        "Downloads": "Bezmaksas izmēģinājuma versija",
-        "Buy": "Nopirkt",
-        "Roadmap": "Plānu",
-        "ReportIssue": "Ziņojums Issue",
+        "Home": "Uz mājām",
+        "Feature": "Features",
+        "Documents": "Tiešsaistes palīdzība",
+        "ReleaseNotes": "Laidienu",
+        "Downloads": "Free Trial",
+        "Buy": "Pirkuma",
+        "Roadmap": "Produktu līnija",
+        "ReportIssue": "Ziņot par kļūdu",
         "Languages": "Valoda"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Ļoti noderīga App. Pilna Featured redaktors. Windows, Linux, MacOSX.",
-        "BtnDownload": "Bezmaksas izmēģinājuma versija",
+        "ProjectTagline": "Pilna Featured Markdown redaktors. Atbalsts Windows, Linux un MacOSX operētājsistēmām.",
+        "BtnDownload": "Free Trial",
         "BtnBuy": "Pirkuma",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Galvenās iezīmes",
+            "SectionName": "Produkta galvenās iezīmes",
             "list": [
-                "Atbalsts eksports uz PDF dokumentu",
-                "Atbalsts print dokuments",
-                "Atbalsta standarta Markdown / CommonMark un GFM (GitHub aromātos Markdown)",
-                "Live preview atbalsts",
-                "Atbalsta formatētu tekstu, kods bloki, galdi, kods locīšanas, meklēt un aizstāt, vairākas valodas, HTML vienība kods sintakse izceļot",
-                "Atbalsts Toc (Saturs), Emoji izteiksme, TaskLists (uzdevums karti),Links (saite)",
+                "Atbalsta Eksportēt kā PDF failu",
+                "Atbalsts dokumentu drukāšanu",
+                "Atbalsta standarta cena / CommonMark un GFM (GitHub s Markdown)",
+                "Live Preview Support",
+                "Atbalstītie formāti teksta, koda bloki, galdi, kods locīšanas, meklēt un aizstāt, multi-valodu, HTML vienība kods sintakse izceļot",
+                "Atbalsts TOC (satura), izpausme Emocijas, uzdevumu saraksts (Task Map) @ (saites)",
                 "Atbalsts dekodēšana un filtrēšanas HTML birkas un atribūtus",
-                "Atbalsts Tex (Latex izteiksme, KATEX), plūsmas diagramma un secības diagramma",
-                "Atbalsts Document Recovery mehānisms",
-                "Atbalsta vairāku vienlaicīgu rediģēšanu, neierobežots skaits"
+                "Atbalsts Texas (lateksa izteiksme, KATEX Inc.) blokshēmas un secības diagrammām",
+                "Atbalsta failus atgūšanas mehānisms",
+                "Atbalsta vairāku rediģēšana, neierobežots skaits"
             ]
         },
         "UserReviews": {
-            "SectionName": "Brīnišķīgas lietas cilvēki saka par MarkdownD",
+            "SectionName": "Kā novērtēt MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD ir apdullināšanas. Simple. Tīrs. Perfect. Labi padarīts.",
+                    "reviewContent": "MarkdownD ir pārsteidzošs. Simple. Tīrs. Perfection. Labi darīts.",
                     "userName": "evanw",
-                    "professional": "Tehnoloģija evaņģēlists"
+                    "professional": "Technology Promotion"
                 },
                 {
-                    "reviewContent": "MarkdownD ir tas, ko es daru diezgan daudz visu manu rakstiski. Tā ir lieliska maz app.",
+                    "reviewContent": "MarkdownD ir tas, ko es daru gandrīz visu manu rakstiski, tas ir ļoti maz pieteikumu.",
                     "userName": "Peter Bright",
-                    "professional": "Rakstnieks Ars Technica"
+                    "professional": "Ars Technica s rakstnieki"
                 },
                 {
-                    "reviewContent": "Ja Jums ir interese par Markdown, MarkdownD noteikti ir vērts lejuplādēt.",
-                    "userName": "Lifehacker",
-                    "professional": "Web Developer un Designer"
+                    "reviewContent": "Ja Jums ir interese par zemākām cenām, MarkdownD noteikti ir vērts lejuplādēt.",
+                    "userName": "Lifehacker s",
+                    "professional": "Web izstrādātājiem un dizaineriem"
                 },
                 {
-                    "reviewContent": "Man tiešām patīk MarkdownD, ir devusi daudz ērtības par manu darbu.",
+                    "reviewContent": "Man tiešām patīk MarkdownD, ir devusi lielu ērtības, manu darbu.",
                     "userName": "jeruss",
-                    "professional": "PHP pamatprogramma Developer"
+                    "professional": "PHP sistēmu attīstība"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Versijas numurs",
+        "labelVersion": "Atbrīvošana",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fiksētie daži bugs."
+                        "content": "Fiksētie dažas kļūdas."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fiksētie daži bugs."
+                        "content": "Fiksētie dažas kļūdas."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Pirmais atbrīvots."
+                        "content": "Pirmizrādi."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Pirmais atbrīvots."
+                        "content": "Pirmizrādi."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Versijas numurs",
+        "labelVersion": "Atbrīvošana",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Nopirkt Way",
+        "SectionName": "Kā nopirkt",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

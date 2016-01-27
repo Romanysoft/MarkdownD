@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "ഹോംപേജ്",
-        "Feature": "ഫീച്ചർ",
-        "Documents": "പ്രമാണങ്ങൾ",
-        "ReleaseNotes": "ReleaseNotes",
+        "Home": "ഹോം",
+        "Feature": "സവിശേഷതകൾ",
+        "Documents": "ഓൺലൈൻ സഹായം",
+        "ReleaseNotes": "പ്രകാശനക്കുറിപ്പുകൾ",
         "Downloads": "സൗജന്യ ട്രയൽ",
-        "Buy": "വാങ്ങുക",
-        "Roadmap": "മി",
-        "ReportIssue": "പ്രശ്നം റിപ്പോർട്ട്",
+        "Buy": "വാങ്ങൽ",
+        "Roadmap": "ഉൽപ്പന്ന ലൈൻ",
+        "ReportIssue": "ഒരു പ്രശ്നം റിപ്പോർട്ട്",
         "Languages": "ഭാഷ"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "വളരെ ഉപകാരപ്രദമായ അപ്ലിക്കേഷൻ. പൂർണ്ണ സവിശേഷത എഡിറ്റർ. വിൻഡോസ്, ലിനക്സ്, MacOSX.",
+        "ProjectTagline": "പൂർണ്ണ സവിശേഷത Markdown എഡിറ്റർ. വിൻഡോസ്, ലിനക്സ്, MacOSX ഓപ്പറേറ്റിങ് സിസ്റ്റങ്ങൾ പിന്തുണ.",
         "BtnDownload": "സൗജന്യ ട്രയൽ",
         "BtnBuy": "വാങ്ങൽ",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "പ്രധാന സവിശേഷതകൾ",
+            "SectionName": "ഉൽപ്പന്ന പ്രധാന സവിശേഷതകൾ",
             "list": [
-                "പീഡിയെഫ് വരെ കയറ്റുമതി പിന്തുണ",
-                "പിന്തുണ പ്രിന്റ് ഡോക്യുമെന്റ്",
-                "സ്റ്റാൻഡേർഡ് Markdown / CommonMark ആൻഡ് GFM (സാമൂഹികം കമുകും Markdown) പിന്തുണയ്ക്കുക",
+                "PDF ഫയൽ ആയി എക്സ്പോർട്ട് പിന്തുണയ്ക്കുക",
+                "പ്രിന്റിംഗ് രേഖകൾ പിന്തുണ",
+                "സ്റ്റാൻഡേർഡ് വില / CommonMark ആൻഡ് GFM (സാമൂഹികം ന്റെ Markdown) പിന്തുണയ്ക്കുന്നു",
                 "ലൈവ് പ്രിവ്യൂ പിന്തുണ",
-                "പിന്തുണ ഫോർമാറ്റ് ചെയ്ത ടെക്സ്റ്റ്, കോഡ് ബ്ലോക്കുകൾ, പട്ടികകൾ, കോഡ് നിദ്ര, ആരാഞ്ഞു പകരം ഒന്നിലധികം ഭാഷകൾ, HTML എന്റിറ്റി കോഡ് സിന്റാക്സ് ഉയർത്തിക്കാട്ടുന്ന",
-                "പിന്തുണ ടോക് (ഉള്ളടക്കം), ഇമോജി പദപ്രയോഗം TaskLists (ടാസ്ക് മാപ്പ്),Links (കണ്ണി)",
+                "ടെക്സ്റ്റ്, കോഡ് ബ്ലോക്കുകൾ, പട്ടികകൾ, കോഡ് നിദ്ര, ആരാഞ്ഞു പകരം മൾട്ടി-ഭാഷ, HTML എന്റിറ്റി കോഡ് സിന്റാക്സ് ഉയർത്തിക്കാട്ടുന്ന പിന്തുണയുള്ള ഫോർമാറ്റുകൾ",
+                "പിന്തുണ .വിശദമായ (ഉള്ളടക്കത്തിന്റെ പട്ടിക), ഇമോട്ടിക്കോണുകൾ എന്ന പദപ്രയോഗം, ചുമതലാ ലിസ്റ്റ് (ടാസ്ക് മാപ്പ്), @ (കണ്ണികൾ)",
                 "ഡീകോഡ് ഫിൽട്ടർ എച്ച്ടിഎംഎൽ ടാഗുകൾ ഗുണവിശേഷങ്ങളും പിന്തുണയ്ക്കുക",
-                "പിന്തുണ ടെക്സ് (ലാറ്റക്സ്ഗണിതസൂത്രംപടി പദപ്രയോഗം, KaTeX), ഒഴുക്ക് രേഖാചിത്രം അനുക്രമം രേഖാചിത്രം",
-                "ഡോക്യുമെന്റ് റിക്കവറി സംവിധാനം പിന്തുണ",
-                "ഒന്നിലധികം ഒരേസമയം എഡിറ്റിംഗ് പിന്തുണ, പരിധിയില്ലാതെ"
+                "പിന്തുണ ടെക്സാസ് (ലാറ്റക്സ് പദപ്രയോഗം, Katex ഇൻക്) ഫ്ലോചാർട്ടുകൾ അനുക്രമം രേഖാചിത്രങ്ങൾ",
+                "പിന്തുണ ഫയലുകൾ വീണ്ടെടുക്കൽ മെക്കാനിസം",
+                "ഒന്നിലധികം എഡിറ്റിംഗ്, പരിധിയില്ലാതെ പിന്തുണ"
             ]
         },
         "UserReviews": {
-            "SectionName": "അത്ഭുതമായി ആളുകൾ MarkdownD കുറിച്ച് പറയുന്നതെന്ന്",
+            "SectionName": "MarkdownD വിലയിരുത്താൻ എങ്ങനെ",
             "list": [
                 {
-                    "reviewContent": "MarkdownD കൈകളിലെത്തി. സിമ്പിൾ. ക്ലീൻ. സമഗ്രം. നന്നായി.",
+                    "reviewContent": "MarkdownD വിസ്മയാവഹമാണ്. സിമ്പിൾ. ക്ലീൻ. ഹാനികരമാണ്. ഫലവുമുണ്ടാകുകയുമില്ല ചെയ്തതു.",
                     "userName": "evanw",
-                    "professional": "ടെക്നോളജി സുവിശേഷകനായ"
+                    "professional": "ടെക്നോളജി പ്രമോഷൻ"
                 },
                 {
-                    "reviewContent": "MarkdownD ഞാൻ പ്രെറ്റി വളരെ എല്ലാ എന്റെ എഴുത്തിന്റെ എന്തു. അത് ഒരു വലിയ ചെറിയ അപ്ലിക്കേഷൻ തുടർന്ന്.",
+                    "reviewContent": "MarkdownD ഞാൻ മിക്കവാറും എല്ലാ എന്റെ എഴുത്തു എന്തു ഇത് ഒരു വലിയ ചെറിയ ആപ്ലിക്കേഷൻ ആണ്.",
                     "userName": "പീറ്റർ ബ്രൈറ്റ്",
-                    "professional": "ആഴ്സ് ടെക്നിക്കയിലെ എഴുത്തുകാരന്റെ"
+                    "professional": "ആഴ്സ് ടെക്നിക്കയിലെ ന്റെ എഴുത്തുകാർ"
                 },
                 {
-                    "reviewContent": "നിങ്ങൾ Markdown യാതൊരു താത്പര്യവും ഉണ്ടെങ്കിൽ, MarkdownD തീർച്ചയായും ഒരു ഡൗൺലോഡ് രൂപയുടെ.",
-                    "userName": "LifeHacker",
-                    "professional": "വെബ് ഡെവലപ്പർ ആൻഡ് ഡിസൈനർ"
+                    "reviewContent": "നിങ്ങൾ വില യാതൊരു താത്പര്യവും ഉണ്ടെങ്കിൽ, MarkdownD തീർച്ചയായും ഡൗൺലോഡ് രൂപയുടെ.",
+                    "userName": "Lifehacker ന്റെ",
+                    "professional": "വെബ് ഡെവലപ്പർമാർ രൂപകൽപ്പകരും"
                 },
                 {
-                    "reviewContent": "ഞാൻ ശരിക്കും MarkdownD പോലെ, എന്റെ പ്രവൃത്തി വളരെ സൗകര്യത്തിനായി ഇറക്കിയിരിക്കുകയാണ്.",
+                    "reviewContent": "ഞാൻ ശരിക്കും MarkdownD പോലെ, വലിയ സൗകര്യത്തിനായി വരുത്തിയിരിക്കുന്നു; എന്റെ പ്രവൃത്തി.",
                     "userName": "jeruss",
-                    "professional": "പി.എച്ച്.പി ഫ്രെയിംവർക്ക് ഡെവലപ്പർ"
+                    "professional": "പി.എച്ച്.പി ഫ്രെയിംവർക്ക് വികസനം"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "പതിപ്പ് നമ്പർ",
+        "labelVersion": "റിലീസ്",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "ചില ബഗുകൾ പരിഹരിച്ചിരിക്കുന്നു."
+                        "content": "ചില പിശകുകൾ പരിഹരിച്ചിരിക്കുന്നു."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "ചില ബഗുകൾ പരിഹരിച്ചിരിക്കുന്നു."
+                        "content": "ചില പിശകുകൾ പരിഹരിച്ചിരിക്കുന്നു."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "ആദ്യം പുറത്തിറക്കിയ."
+                        "content": "ആദ്യ റിലീസ്."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "ആദ്യം പുറത്തിറക്കിയ."
+                        "content": "ആദ്യ റിലീസ്."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "പതിപ്പ് നമ്പർ",
+        "labelVersion": "റിലീസ്",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "വേ വാങ്ങുക",
+        "SectionName": "എങ്ങനെ വാങ്ങാൻ",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

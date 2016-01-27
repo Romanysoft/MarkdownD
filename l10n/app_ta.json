@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "முகப்புப்பக்கம்",
-        "Feature": "வசதிகள்",
-        "Documents": "ஆவணங்கள்",
-        "ReleaseNotes": "ReleaseNotes",
+        "Home": "முகப்பு",
+        "Feature": "அம்சங்கள்",
+        "Documents": "ஆன்லைன் உதவி",
+        "ReleaseNotes": "வெளியீட்டு அறிக்கை",
         "Downloads": "இலவச சோதனை",
-        "Buy": "வாங்க",
-        "Roadmap": "திட்டத்தை",
-        "ReportIssue": "அறிக்கை வெளியீடு",
+        "Buy": "கொள்முதல்",
+        "Roadmap": "தயாரிப்பு வரி",
+        "ReportIssue": "ஒரு புகாரளிக்கவும்",
         "Languages": "மொழி"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "மிகவும் பயனுள்ள ஆப். ஆசிரியர் முழு இடம்பெற்றது. விண்டோஸ், லினக்ஸ், MacOSX.",
+        "ProjectTagline": "முழு இடம்பெற்றது Markdown ஆசிரியர். விண்டோஸ், லினக்ஸ் மற்றும் MacOSX இயங்கு ஆதரவு.",
         "BtnDownload": "இலவச சோதனை",
         "BtnBuy": "கொள்முதல்",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "முக்கிய அம்சங்கள்",
+            "SectionName": "தயாரிப்பு முக்கிய அம்சங்கள்",
             "list": [
-                "PDF ஆவணம் ஆதரவு ஏற்றுமதி",
-                "ஆதரவு அச்சு ஆவணம்",
-                "ஆதரவு நிலையான Markdown / CommonMark மற்றும் GFM (மகிழ்ச்சியா வாசனையான Markdown)",
-                "நேரடி முன்னோட்ட ஆதரவு",
-                "ஆதரவு வடிவமைக்கப்பட்ட உரை, குறியீடு தொகுதிகள், அட்டவணைகள், குறியீடு மடிப்பு, தேடல் மற்றும் பதிலாக, பல மொழிகளில், HTML நிறுவனம் குறியீடு தொடரியல் தனிப்படுத்தல்",
-                "ஆதரவு கரிமக்கரி (பொருளடக்கம்), உயர் வெளிப்பாடு, TaskLists (பணி வரைபடம்),Links (இணைப்பு)",
+                "PDF கோப்பை ஏற்றுமதி ஆதரவு",
+                "அச்சிடும் ஆவணங்கள் ஆதரவு",
+                "ஆதரிக்கிறது நிலையான விலை / CommonMark மற்றும் GFM (மகிழ்ச்சியா தான் Markdown)",
+                "நேரடி முன்னோட்டம் ஆதரவு",
+                "உரை ஆதரவு வடிவங்கள், குறியீடு தொகுதிகள், அட்டவணைகள், குறியீடு மடிப்பு,, பல மொழி தேட மற்றும் பதிலாக, HTML நிறுவனம் குறியீடு தொடரியல் தனிப்படுத்தல்",
+                "ஆதரவு கரிமக்கரி (பொருளடக்கத்தை), உணர்ச்சி வெளிப்பாடு, பணி பட்டியல் (டாஸ்க் வரைபடம்), @ (← இணைப்புக்கள்)",
                 "ஆதரவு நீக்கத்திற்கு மற்றும் வடிகட்டும் HTML குறிச்சொற்களை மற்றும் பண்புகளை",
-                "ஆதரவு டெக்ஸ் (LaTeX வெளிப்பாடு, KaTeX), வரைபடம் மற்றும் நிகழ்வு வரைபடத்தில் ஓட்டம்",
-                "ஆதரவு ஆவண மீட்பு மெக்கானிசம்",
-                "ஒரே நேரத்தில் பல எடிட்டிங் ஆதரவு, வரம்பற்ற"
+                "ஆதரவு டெக்சாஸ் (பாலை வெளிப்பாடு, Katex இன்க்) ஒழுக்குவரைபடங்கள் மற்றும் தொடர்நிகழ்வு வரைபடங்கள்",
+                "ஆதரவு கோப்புகளை மீட்பு பொறிமுறையை",
+                "ஆதரவு பல எடிட்டிங், வரம்பற்ற"
             ]
         },
         "UserReviews": {
-            "SectionName": "அற்புதமான விஷயங்கள் மக்கள் MarkdownD பற்றி என்ன சொல்கிறீர்கள்",
+            "SectionName": "MarkdownD மதிப்பீடு செய்ய எப்படி",
             "list": [
                 {
-                    "reviewContent": "MarkdownD அதிர்ச்சி தரும் உள்ளது. எளிய. சுத்தமான. சரியான. நல்லது.",
+                    "reviewContent": "MarkdownD ஆச்சரியமாக இருக்கிறது. எளிய. சுத்தமான. சரியான. நேர்த்தியாக செய்து.",
                     "userName": "evanw",
-                    "professional": "தொழில்நுட்ப நற்செய்தி"
+                    "professional": "தொழில்நுட்ப மேம்பாடு"
                 },
                 {
-                    "reviewContent": "MarkdownD நான் மிகவும் அதிகமாக அனைத்து என் எழுத்து என்ன ஆகும். அது ஒரு பெரிய சிறிய பயன்பாடு தான்.",
+                    "reviewContent": "MarkdownD, இந்த ஒரு பெரிய சிறிய பயன்பாடு ஆகும் என்ன நான் கிட்டத்தட்ட அனைத்து என் எழுத்து செய்ய உள்ளது.",
                     "userName": "பீட்டர் பிரைட்",
-                    "professional": "ஆர்ஸ் டெக்னிக்கா எழுத்தாளர்"
+                    "professional": "ஆர்ஸ் டெக்னிக்கா எழுத்தாளர்கள்"
                 },
                 {
-                    "reviewContent": "நீங்கள் Markdown எந்த ஆர்வமும் இல்லை என்றால், MarkdownD நிச்சயமாக ஒரு பதிவிறக்க மதிப்பு.",
-                    "userName": "தளங்கள்",
-                    "professional": "வலை டெவலப்பர் மற்றும் வடிவமைப்புகள்"
+                    "reviewContent": "நீங்கள் குறைந்த விலையில் எந்த ஆர்வமும் இல்லை என்றால், MarkdownD நிச்சயமாக பதிவிறக்க மதிப்பு.",
+                    "userName": "தளங்கள் தான்",
+                    "professional": "வலை வடிவமைப்பாளர்கள் மற்றும் வடிவமைப்பாளர்கள்"
                 },
                 {
-                    "reviewContent": "நான் உண்மையில் MarkdownD போல, என் பணிக்காக பெரும் வசதிக்காக கொண்டு.",
+                    "reviewContent": "நான் உண்மையில் MarkdownD போன்ற, பெரிய வசதிக்காக கொண்டு; என் வேலை.",
                     "userName": "jeruss",
-                    "professional": "PHP கட்டமைப்பு படைப்பாளி"
+                    "professional": "PHP கட்டமைப்பு வளர்ச்சி"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "பதிப்பு எண்",
+        "labelVersion": "வெளியீட்டு",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "சில பிழைகள் சரி."
+                        "content": "சில பிழைகளை சரி."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "சில பிழைகள் சரி."
+                        "content": "சில பிழைகளை சரி."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "முதலில் வெளிவந்தது."
+                        "content": "முதல் வெளியீடு."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "முதலில் வெளிவந்தது."
+                        "content": "முதல் வெளியீடு."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "பதிப்பு எண்",
+        "labelVersion": "வெளியீட்டு",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "வாங்க வே",
+        "SectionName": "வாங்க எப்படி",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

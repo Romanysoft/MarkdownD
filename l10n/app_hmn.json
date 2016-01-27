@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "HomePage",
-        "Feature": "Feature",
-        "Documents": "Cov ntaub ntawv",
-        "ReleaseNotes": "ReleaseNotes",
+        "Home": "Tsev",
+        "Feature": "Nta",
+        "Documents": "Online Pab",
+        "ReleaseNotes": "Sau ntawv tso lus",
         "Downloads": "Dawb Mus sib hais",
-        "Buy": "Yuav",
-        "Roadmap": "Roadmap",
-        "ReportIssue": "Daim ntawv qhia txog qhov teeb meem",
+        "Buy": "Purchase",
+        "Roadmap": "Khoom kab",
+        "ReportIssue": "Qhia txog ib qho teeb meem",
         "Languages": "Lus"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Heev pab App. Tag nrho cov-featured editor. Qhov rais, Linux, MacOSX.",
+        "ProjectTagline": "Tag nrho cov-featured Markdown editor. Them nyiaj yug rau lub qhov rais, Linux thiab MacOSX kev khiav hauj lwm systems.",
         "BtnDownload": "Dawb Mus sib hais",
         "BtnBuy": "Purchase",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Main nta",
+            "SectionName": "Khoom tseem ceeb nta",
             "list": [
-                "Them nyiaj yug export rau pdf ntawv",
-                "Them nyiaj yug sau ntawv",
-                "Them nyiaj yug txuj Markdown / CommonMark thiab GFM (GitHub Flavored Markdown)",
-                "Nyob saib ua ntej kev pab txhawb nqa",
-                "Them nyiaj yug sau qhovtwg, code blocks, ntxhuav, code folding, nrhiav thiab hloov, ntau hom lus, HTML code chaw syntax highlighting",
-                "Them nyiaj yug TOC (Table of Contents), Emoji qhia, TaskLists (hauj lwm daim ntawv qhia),Links (txuas)",
+                "Txhawb Export li PDF ntaub ntawv",
+                "Them nyiaj yug rau printing cov ntaub ntawv",
+                "Kev txhawb txheem nqi / CommonMark thiab GFM (GitHub lub Markdown)",
+                "Nyob Preview them nyiaj yug",
+                "Txhawb kev tawm tswv ntawm cov ntawv, code blocks, ntxhuav, code folding, nrhiav thiab hloov, multi-language, HTML code chaw syntax highlighting",
+                "Them nyiaj yug TOC (cov txheej txheem), qhov qhia txog emoticons, neeg ua hauj lwm daim ntawv teev (ua hauj lwm daim ntawv qhia), @ (mus)",
                 "Them nyiaj yug seev suab thiab filtering HTML cim npe thiab muab",
-                "Them nyiaj yug txhab (looj qhia, KaTeX), ntws daim duab thiab ib theem zuj zus daim duab",
-                "Them nyiaj yug ntawv rov qab Mechanism",
-                "Txhawb ntau simultaneous editing, xov tooj unlimited"
+                "Them nyiaj yug Texas (latex qhia, Katex Inc.) flowcharts thiab ib theem zuj zus kos duab",
+                "Them nyiaj yug cov ntaub ntawv rov qab mechanism",
+                "Them nyiaj yug ntau yam editing, xov tooj unlimited"
             ]
         },
         "UserReviews": {
-            "SectionName": "Yam zoo kawg nkaus cov neeg no hais txog MarkdownD",
+            "SectionName": "Yuav ua li cas mus soj ntsuam MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD yog stunning. Tej yam yooj yim. Huv si. Zoo meej. Zoo li cas.",
+                    "reviewContent": "MarkdownD yog amazing. Tej yam yooj yim. Huv si. Zoo tag nrho. Zoo ua li cas.",
                     "userName": "evanw",
-                    "professional": "Technology qhia Txoj Moo Zoo"
+                    "professional": "Technology Promotion"
                 },
                 {
-                    "reviewContent": "MarkdownD yog li cas kuv ua zoo nkauj npaum li cas txhua yam ntawm kuv kev sau ntawv nyob rau hauv. Nws yog ib tug zoo me ntsis app.",
+                    "reviewContent": "MarkdownD yog kuv ua li cas yuav luag tag nrho kuv kev sau ntawv, qhov no yog ib tug zoo me ntsis daim ntawv thov.",
                     "userName": "Peter Kaj",
-                    "professional": "Txawj sau ntawv nyob rau ntawm lub Ars Technica"
+                    "professional": "Ars Technica tus sau ntawv"
                 },
                 {
-                    "reviewContent": "Yog hais tias koj muaj tej kev txaus siab rau Markdown, MarkdownD yog twv yuav raug hu muaj nqis ib download.",
-                    "userName": "LifeHacker",
-                    "professional": "Web tsim tawm thiab Designer"
+                    "reviewContent": "Yog hais tias koj muaj tej kev txaus siab rau tus nqi qis, MarkdownD yog twv yuav raug hu muaj nqis rau tus download.",
+                    "userName": "LifeHacker tus",
+                    "professional": "Web tsim thiab designers"
                 },
                 {
-                    "reviewContent": "Kuv yeej zoo li MarkdownD, tau coj ntau yooj yim rau kuv ua hauj lwm.",
+                    "reviewContent": "Kuv yeej zoo li MarkdownD, tau coj zoo kawg kab ntsab; kuv ua hauj lwm.",
                     "userName": "jeruss",
-                    "professional": "PHP moj khaum tsim tawm"
+                    "professional": "PHP moj khaum kev loj hlob"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Version Number",
+        "labelVersion": "Tso",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Taag ib co kab."
+                        "content": "Taag ib co uas tsis."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Taag ib co kab."
+                        "content": "Taag ib co uas tsis."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Ua ntej tso tawm."
+                        "content": "Cov thawj tso tawm."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Ua ntej tso tawm."
+                        "content": "Cov thawj tso tawm."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Version Number",
+        "labelVersion": "Tso",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Muas Txoj Kev",
+        "SectionName": "Yuav ua li cas Muas",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

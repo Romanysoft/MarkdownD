@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "Oju-ile",
-        "Feature": "Ẹya-",
-        "Documents": "Iwe aṣẹ",
-        "ReleaseNotes": "ReleaseNotes",
+        "Home": "Home",
+        "Feature": "Awọn ẹya ara ẹrọ",
+        "Documents": "Online Iranlọwọ",
+        "ReleaseNotes": "Tu Notes",
         "Downloads": "Free Iwadii",
         "Buy": "Ra",
-        "Roadmap": "Roadmap",
-        "ReportIssue": "Iroyin oro",
+        "Roadmap": "Ọja ila",
+        "ReportIssue": "Jabo a isoro",
         "Languages": "Language"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Gan wulo App. Full-ifihan olootu. Windows, Lainos, MacOSX.",
+        "ProjectTagline": "Full-ifihan Markdown olootu. Support fun Windows, Lainos ati MacOSX awọn ọna šiše.",
         "BtnDownload": "Free Iwadii",
         "BtnBuy": "Ra",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Main Awọn ẹya ara ẹrọ",
+            "SectionName": "Ọja akọkọ awọn ẹya ara ẹrọ",
             "list": [
-                "Support okeere si pdf iwe",
-                "Support si ta iwe",
-                "Support boṣewa Markdown / CommonMark ati GFM (GitHub flavored Markdown)",
-                "Live awotẹlẹ support",
-                "Support pa akoonu ọrọ, koodu awọn bulọọki, tabili, koodu kika, wa ki o si ropo, ọpọ èdè, HTML nkankan koodu sintasi fifi",
-                "Support TOC (Table ti akoonu), Emoji ikosile, TaskLists (-ṣiṣe map),Links (asopọ)",
+                "Atilẹyin Export bi PDF faili",
+                "Support fun titẹ sita awọn iwe aṣẹ",
+                "Atilẹyin boṣewa owo / CommonMark ati GFM (GitHub ká Markdown)",
+                "Live Awotẹlẹ Support",
+                "Ni atilẹyin ọna kika ti text, koodu awọn bulọọki, tabili, koodu kika, wa ki o si ropo, olona-ede, HTML nkankan koodu sintasi fifi",
+                "Support TOC (tabili ti awọn awọn akoonu), awọn ikosile ti emoticons, awọn iṣẹ-ṣiṣe akojọ (-ṣiṣe Map), @ (ìjápọ)",
                 "Support imọ-ati sisẹ HTML afi ati awon oriki",
-                "Support Tex (latex ikosile, KaTeX), ṣàn wa nisale yi ati ọkọọkan aworan atọka",
-                "Support Iwe Recovery siseto",
-                "Atilẹyin ọpọ igbakana ṣiṣatunkọ, Kolopin nọmba"
+                "Support Texas (latex ikosile, Katex Inc.) flowcharts ati ọkọọkan awọn aworan atọka",
+                "Support awọn faili imularada siseto",
+                "Support ọpọ ṣiṣatunkọ, Kolopin nọmba"
             ]
         },
         "UserReviews": {
-            "SectionName": "Iyanu ohun ti wa ni wipe awon eniyan nipa MarkdownD",
+            "SectionName": "Bawo ni lati akojopo MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD jẹ yanilenu. Simple. Mọ. Pipe. Daradara ṣe.",
+                    "reviewContent": "MarkdownD jẹ iyanu. Simple. Mọ. Asepe. Dara julọ ṣe.",
                     "userName": "evanw",
-                    "professional": "Technology Ajihinrere"
+                    "professional": "Technology Promotion"
                 },
                 {
-                    "reviewContent": "MarkdownD ni ohun ti mo ti ṣe lẹwa Elo gbogbo awọn ti mi kikọ ni. O ni a nla kekere app.",
+                    "reviewContent": "MarkdownD ni ohun ti mo ti ṣe fere gbogbo mi kikọ, yi ni a nla kekere elo.",
                     "userName": "Peter Bright",
-                    "professional": "Writer ni Ars Technica"
+                    "professional": "Ars Technica ká onkqwe"
                 },
                 {
-                    "reviewContent": "Ti o ba ni eyikeyi anfani ni Markdown, MarkdownD jẹ pato tọ a download.",
-                    "userName": "Lifehacker",
-                    "professional": "Iwe ayelujara Olùgbéejáde ati Designer"
+                    "reviewContent": "Ti o ba ni eyikeyi anfani ni kekere owo, MarkdownD jẹ pato tọ awọn download.",
+                    "userName": "Lifehacker ká",
+                    "professional": "Ayelujara Awon Difelopa ati apẹẹrẹ"
                 },
                 {
-                    "reviewContent": "Mo gan bi MarkdownD, ti mu Elo wewewe fun iṣẹ mi.",
+                    "reviewContent": "Mo gan bi MarkdownD, ti mu nla wewewe; iṣẹ mi.",
                     "userName": "jeruss",
-                    "professional": "PHP Framework Developer"
+                    "professional": "PHP ilana idagbasoke"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Version Number",
+        "labelVersion": "Tu",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Ti o wa titi diẹ ninu awọn idun."
+                        "content": "Ti o wa titi diẹ ninu awọn aṣiṣe."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Ti o wa titi diẹ ninu awọn idun."
+                        "content": "Ti o wa titi diẹ ninu awọn aṣiṣe."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "First tu."
+                        "content": "Ni igba akọkọ ti Tu."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "First tu."
+                        "content": "Ni igba akọkọ ti Tu."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Version Number",
+        "labelVersion": "Tu",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Buy Way",
+        "SectionName": "Bawo ni Lati Ra",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

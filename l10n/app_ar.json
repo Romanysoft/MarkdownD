@@ -1,19 +1,19 @@
 {
     "TopBar": {
-        "Home": "صفحته",
-        "Feature": "خاصية",
-        "Documents": "الوثائق",
+        "Home": "منزل",
+        "Feature": "ملامح",
+        "Documents": "مساعدة على الانترنت",
         "ReleaseNotes": "ملاحظات الإصدار",
-        "Downloads": "تجربة مجانية",
+        "Downloads": "التجربة المجانية",
         "Buy": "شراء",
-        "Roadmap": "خارطة طريق",
-        "ReportIssue": "تقرير العدد",
+        "Roadmap": "خط الانتاج",
+        "ReportIssue": "الإبلاغ عن مشكلة",
         "Languages": "لغة"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "التطبيق مفيد جدا. كامل المواصفات محرر. ويندوز، لينكس، ماكوسكس.",
-        "BtnDownload": "تجربة مجانية",
+        "ProjectTagline": "كامل المواصفات محرر تخفيض السعر. دعم لأنظمة التشغيل ويندوز، لينكس وماك أوإسإكس.",
+        "BtnDownload": "التجربة المجانية",
         "BtnBuy": "شراء",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "الميزات الرئيسية",
+            "SectionName": "ميزات المنتج الرئيسية",
             "list": [
-                "دعم الصادرات إلى وثيقة PDF",
-                "دعم طباعة المستند",
-                "دعم معيار تخفيض السعر / CommonMark وGFM (جيثب بنكهة تخفيض السعر)",
-                "معاينة دعم العيش",
-                "دعم تنسيق النص، رمز لبنات، والجداول، رمز للطي، ويحل محل بحث، لغات متعددة، HTML كيان تركيب كود تسليط الضوء",
-                "دعم توك (جدول المحتويات)، تعبيري عن التعبير، TaskLists (خريطة المهام)،Links (وصلة)",
+                "دعم تصدير كملف PDF",
+                "دعم لطباعة الوثائق",
+                "يدعم سعر قياسي / CommonMark وGFM (تخفيض السعر جيثب ل)",
+                "يعيش دعم معاينة",
+                "أشكال الدعم من النص، رمز لبنات، والجداول، رمز للطي، ويحل محل بحث، متعددة اللغات، وتسليط الضوء HTML كيان تركيب كود",
+                "دعم TOC (جدول المحتويات)، والتعبير عن المشاعر، وقائمة المهام (المهام خريطة) @ (وصلات)",
                 "دعم فك التشفير وتصفية HTML العلامات والصفات",
-                "دعم تكس (التعبير مطاط، كاتكس)، وتدفق الرسم البياني وتسلسل الرسم البياني",
-                "دعم استرداد المستند آلية",
-                "دعم متعددة في وقت واحد والتحرير، عدد غير محدود"
+                "دعم تكساس (لاتكس التعبير، كاتكس شركة) مخططات ورسوم بيانية تسلسل",
+                "ملفات دعم آلية استرداد",
+                "التحرير الدعم المتعدد، وعدد غير محدود"
             ]
         },
         "UserReviews": {
-            "SectionName": "أشياء رائعة يقول الناس عن MarkdownD",
+            "SectionName": "كيفية تقييم MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD هو مذهل. بسيط. نظيفة. في احسن الاحوال. أحسنت.",
+                    "reviewContent": "MarkdownD هو مدهش. بسيطة. نظيفة. الكمال. فعل جيد.",
                     "userName": "evanw",
-                    "professional": "التكنولوجيا الإنجيلي"
+                    "professional": "تعزيز التكنولوجيا"
                 },
                 {
-                    "reviewContent": "MarkdownD هو ما أقوم به جدا عن الكثير من كتابتي فيها انها التطبيق كبيرة قليلا.",
+                    "reviewContent": "MarkdownD هو ما أقوم به تقريبا كل ما عندي من الكتابة، وهذا هو التطبيق كبيرة قليلا.",
                     "userName": "بيتر برايت",
-                    "professional": "الكاتب في آرس تكنيكا"
+                    "professional": "الكتاب آرس تكنيكا ل"
                 },
                 {
-                    "reviewContent": "إذا كان لديك أي مصلحة في تخفيض السعر، MarkdownD هو بالتأكيد يستحق التحميل.",
-                    "userName": "يفهكر",
-                    "professional": "مطور ويب ومصمم"
+                    "reviewContent": "إذا كان لديك أي مصلحة في انخفاض الأسعار، MarkdownD هو بالتأكيد يستحق التحميل.",
+                    "userName": "ويفهكر",
+                    "professional": "مطوري ومصممي المواقع الإلكترونية"
                 },
                 {
-                    "reviewContent": "أنا حقا مثل MarkdownD، فقد جلبت الكثير من الراحة لعملي.",
+                    "reviewContent": "أنا حقا مثل MarkdownD، جلبت راحة كبيرة، عملي.",
                     "userName": "jeruss",
-                    "professional": "الإطار PHP المطور"
+                    "professional": "PHP تطوير الإطار"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "رقم الإصدار",
+        "labelVersion": "إطلاق",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "إصلاح بعض الخلل."
+                        "content": "إصلاح بعض الأخطاء."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "إصلاح بعض الخلل."
+                        "content": "إصلاح بعض الأخطاء."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "صدر لأول مرة."
+                        "content": "الإصدار الأول."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "صدر لأول مرة."
+                        "content": "الإصدار الأول."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "رقم الإصدار",
+        "labelVersion": "إطلاق",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "شراء الطريق",
+        "SectionName": "كيفية الشراء",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

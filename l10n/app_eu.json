@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "HomePage",
-        "Feature": "Ezaugarri",
-        "Documents": "Dokumentuak",
-        "ReleaseNotes": "ReleaseNotes",
+        "Home": "Hasiera",
+        "Feature": "Ezaugarriak",
+        "Documents": "Online Laguntza",
+        "ReleaseNotes": "Bertsio-oharrak",
         "Downloads": "Free Trial",
-        "Buy": "Erosi",
-        "Roadmap": "Ibilbide Orria",
-        "ReportIssue": "Txostena",
+        "Buy": "Erosteko",
+        "Roadmap": "Produktu linea",
+        "ReportIssue": "Arazo baten berri",
         "Languages": "Hizkuntza"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Aplikazioa oso erabilgarria. Funtzio editorea. Windows, Linux, MacOSX.",
+        "ProjectTagline": "Funtzio Markdown editorea. Windows, Linux eta MacOSX sistema eragilea laguntza.",
         "BtnDownload": "Free Trial",
         "BtnBuy": "Erosteko",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Ezaugarri nagusiak",
+            "SectionName": "Produktuen ezaugarri nagusiak",
             "list": [
-                "Euskarria PDF dokumentu export",
-                "Euskarri inprimatu dokumentu",
-                "Euskarria Markdown estandarra / CommonMark eta GFM (GitHub zaporeko Markdown)",
-                "Live Aurreikuspen laguntza",
-                "Euskarria testua, kodea bloke, mahaiak, kodea tolesgarri, bilatu eta ordeztu hainbat hizkuntzatan, HTML entitate kodea sintaxia nabarmentzea",
-                "Euskarria Toc (Edukien Taula), Emoji adierazpen, dadila zereginen (zeregin mapa),Links (link)",
+                "Onartzen Export PDF fitxategi gisa",
+                "Inprimatzeko dokumentuak euskarri",
+                "Onartzen prezioa estandarra / CommonMark eta GFM (GitHub en Markdown)",
+                "Live Aurreikusi laguntza",
+                "Onartutako testuaren formatu, kodea bloke, mahaiak, kodea tolesgarri, bilatu eta ordeztu multi-hizkuntza, entitate HTML kode sintaxia nabarmentzea",
+                "Euskarria TOC (Edukien Taula), emoticons adierazpenak, zereginen zerrendaren (Task Map), @ (loturak)",
                 "Euskarria deskodetzeko eta iragazketa HTML tags eta atributuak",
-                "Euskarria Tex (LaTex adierazpen, KaTeX), fluxu-diagrama eta sekuentzia-diagrama",
-                "Arreta Dokumentazioa berreskuratzea Mekanismoa",
-                "Onartzen anitz aldi bereko aldaketak, kopuru mugagabea"
+                "Euskarria Texas (latex adierazpen, Katex Inc.) mapak eta sekuentzia diagramak",
+                "Euskarria fitxategiak berreskuratzeko mekanismo",
+                "Edizio anitz laguntza, kopuru mugagabea"
             ]
         },
         "UserReviews": {
-            "SectionName": "Wonderful gauza pertsona daude MarkdownD buruz esaten",
+            "SectionName": "Nola MarkdownD ebaluatzeko",
             "list": [
                 {
-                    "reviewContent": "MarkdownD harrigarria da. Simple. Clean. Perfect. Ongi egina.",
+                    "reviewContent": "MarkdownD harrigarria da. Simple. Clean. Perfekzioa. Nicely egin.",
                     "userName": "evanw",
-                    "professional": "Teknologia Ebanjelaria"
+                    "professional": "Teknologia Sustapena"
                 },
                 {
-                    "reviewContent": "MarkdownD da zer polita egin nuen askoz guztietan nire idaztearen. Apur bat aplikazio handia da.",
+                    "reviewContent": "MarkdownD da zer ia nire idazketa guztiak egin dut, hau gutxi aplikazio handi bat da.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica idazlea"
+                    "professional": "Ars Technica idazle"
                 },
                 {
-                    "reviewContent": "Markdown interesa baduzu, MarkdownD da behin betiko deskarga bat merezi.",
-                    "userName": "Lifehacker",
-                    "professional": "Web Developer eta festa"
+                    "reviewContent": "Prezio baxuagoak interesa baduzu, MarkdownD da behin betiko download merezi.",
+                    "userName": "Lifehacker en",
+                    "professional": "Web diseinatzaile eta"
                 },
                 {
-                    "reviewContent": "Benetan MarkdownD bezala, askoz Erosoago ekarri du nire lana da.",
+                    "reviewContent": "Nire lana; benetan MarkdownD bezala, erosotasuna handia ekarri du dut.",
                     "userName": "jeruss",
-                    "professional": "PHP Esparru garatzailea"
+                    "professional": "PHP framework garapena"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Bertsio zenbakia",
+        "labelVersion": "Oharra",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Zenbait akats konponduta."
+                        "content": "Akatsak batzuk konponduta."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Zenbait akats konponduta."
+                        "content": "Akatsak batzuk konponduta."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Lehenengoa kaleratu."
+                        "content": "Lehen oharra."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Lehenengoa kaleratu."
+                        "content": "Lehen oharra."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Bertsio zenbakia",
+        "labelVersion": "Oharra",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Erosi Way",
+        "SectionName": "Nola erosi",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

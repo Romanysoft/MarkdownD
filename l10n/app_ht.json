@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "HomePage",
-        "Feature": "Feature",
-        "Documents": "Dokiman",
-        "ReleaseNotes": "ReleaseNotes",
+        "Home": "Kay",
+        "Feature": "Karakteristik",
+        "Documents": "Èd sou entènèt",
+        "ReleaseNotes": "Release Nòt",
         "Downloads": "Gratis Jijman",
         "Buy": "Achte",
-        "Roadmap": "Plan",
-        "ReportIssue": "Rapò Nimewo",
+        "Roadmap": "Liy pwodwi",
+        "ReportIssue": "Rapòte yon pwoblèm",
         "Languages": "Lang"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Trè itil App. Full chin an tap editè. Windows, Linux, makoo.",
+        "ProjectTagline": "Full chin an tap editè rediksyon. Sipò pou Windows, Linux ak makoo sistèm opere.",
         "BtnDownload": "Gratis Jijman",
         "BtnBuy": "Achte",
         "Screens": [
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Karakteristik prensipal",
+            "SectionName": "Pwodwi karakteristik prensipal",
             "list": [
-                "Ekspòtasyon sipò yo bay pdf dokiman",
-                "Sipò dokiman ekri an lèt detache",
-                "Sipò estanda rediksyon / CommonMark ak GFM (GitHub Diferan gou rediksyon)",
-                "Live sipò aperçu",
-                "Sipò tèks fòma, blòk kòd, tab, kòd plisman, rechèch ak ranplase, plizyè lang, HTML antite Kòd sentaks eklèrsisaj",
-                "Sipò vreman (Table of Contents), anoji ekspresyon, TaskLists (kat jeyografik travay),Links (lyen)",
+                "Sipòte Export kòm dosye PDF",
+                "Sipò pou dokiman enprime",
+                "Sipòte pri estanda / CommonMark ak GFM (rediksyon GitHub a)",
+                "Sipò Live Preview",
+                "Sipò pou fòma nan tèks, blòk kòd, tab, kòd plisman, rechèch ak ranplase, milti-lang, HTML antite Kòd sentaks eklèrsisaj",
+                "Sipò TOC (Table of Contents), ekspresyon ki nan emoticon, lis la travay (Objektif Travay la sa a Map), @ (lyen yo)",
                 "Decoder Sipò ak filtraj HTML Tags ak atribi",
-                "Sipò Tex (kapòt an latèks ekspresyon, KaTeX), koule dyagram ak sekans dyagram",
-                "Sipò Dokiman Recovery Mekanis",
-                "Sipòte miltip koreksyon similtane, nimewo san limit"
+                "Sipò Texas (ekspresyon an latèks, Katex Inc) dyagram ak dyagram sekans",
+                "Dosye Sipò rekiperasyon mekanis",
+                "Sipò koreksyon miltip, nimewo san limit"
             ]
         },
         "UserReviews": {
-            "SectionName": "Bèl bagay moun ap di sou MarkdownD",
+            "SectionName": "Ki jan yo evalye MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD se sansasyonèl. Senp. Pwòp. Pafè. Oke fè.",
+                    "reviewContent": "MarkdownD se etonan. Senp. Pwòp. Pèfeksyon. Joliman fè.",
                     "userName": "evanw",
-                    "professional": "Teknoloji Evangelist"
+                    "professional": "Pwomosyon Teknoloji"
                 },
                 {
-                    "reviewContent": "MarkdownD se sa m 'fè bèl anpil tout nan ekri m' ki nan. Li se yon gwo app ti kras.",
+                    "reviewContent": "MarkdownD se sa m 'fè prèske tout ekri mwen, sa a se yon gwo aplikasyon ti kras.",
                     "userName": "Pyè Bright",
-                    "professional": "Writer a Ars tecnica"
+                    "professional": "Ekriven Ars tecnica a"
                 },
                 {
-                    "reviewContent": "Si w gen nenpòt enterè nan rediksyon, MarkdownD se definitivman vo yon download.",
-                    "userName": "Lifehacker",
-                    "professional": "Pwomotè entènèt ak Designer"
+                    "reviewContent": "Si w gen nenpòt enterè nan pi ba pri, MarkdownD se definitivman vo download la.",
+                    "userName": "Lifehacker la",
+                    "professional": "Devlopè Web ak Designers"
                 },
                 {
-                    "reviewContent": "Mwen vrèman renmen MarkdownD, te pote anpil konvenyans pou travay mwen.",
+                    "reviewContent": "Mwen vrèman renmen MarkdownD, te pote gwo konvenyans; travay mwen.",
                     "userName": "jeruss",
-                    "professional": "PHP chapant Developer"
+                    "professional": "PHP devlopman fondasyon"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Version Nimewo",
+        "labelVersion": "Release",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fiks kèk pinèz."
+                        "content": "Fiks kèk erè."
                     }
                 ]
             },
@@ -170,23 +179,46 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fiks kèk pinèz."
+                        "content": "Fiks kèk erè."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Premye lage."
+                        "content": "Lage nan premye."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Premye lage."
+                        "content": "Lage nan premye."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Version Nimewo",
+        "labelVersion": "Release",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Achte Way",
+        "SectionName": "Kijan Pou Achte",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

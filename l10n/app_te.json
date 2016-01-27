@@ -1,19 +1,19 @@
 {
     "TopBar": {
-        "Home": "హోమ్పేజీ",
-        "Feature": "ఫీచర్",
-        "Documents": "పత్రాలు",
-        "ReleaseNotes": "ReleaseNotes",
-        "Downloads": "ఉచిత ప్రయత్నం",
+        "Home": "హోం",
+        "Feature": "ఫీచర్స్",
+        "Documents": "ఆన్లైన్ సహాయం",
+        "ReleaseNotes": "విడుదల గమనికలు",
+        "Downloads": "ఉచిత ట్రయల్",
         "Buy": "కొనుగోలు",
-        "Roadmap": "రోడ్మ్యాప్",
-        "ReportIssue": "సమస్యను నివేదించు",
+        "Roadmap": "ఉత్పత్తి లైన్",
+        "ReportIssue": "ఒక సమస్య గురించి నివేదించండి",
         "Languages": "భాషా"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "చాలా ఉపయోగకరమైన App. ఎడిటర్ పూర్తి ఫీచర్. Windows, Linux, MacOSX.",
-        "BtnDownload": "ఉచిత ప్రయత్నం",
+        "ProjectTagline": "పూర్తి ఫీచర్ Markdown ఎడిటర్. Windows, Linux మరియు MacOSX ఆపరేటింగ్ వ్యవస్థలు మద్దతు.",
+        "BtnDownload": "ఉచిత ట్రయల్",
         "BtnBuy": "కొనుగోలు",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "ప్రధాన ఫీచర్లు",
+            "SectionName": "ఉత్పత్తి ప్రధాన లక్షణాలు",
             "list": [
-                "పిడిఎఫ్ పత్రం మద్దతు ఎగుమతి",
-                "మద్దతు ముద్రణ పత్రం",
-                "మద్దతు ప్రామాణిక Markdown / CommonMark మరియు GFM (GitHub ఫ్లేవర్డ్ Markdown)",
-                "ప్రత్యక్ష ప్రివ్యూ మద్దతు",
-                "మద్దతు ఆకృతీకరణ టెక్స్ట్ సంకేత భాగాల, పట్టికలు, కోడ్ మడత, శోధన మరియు భర్తీ బహుళ భాషలు, HTML పరిధి కోడ్ సింటాక్స్ హైలైటింగ్",
-                "మద్దతు Toc (విషయ పట్టిక), ఎమోజి వ్యక్తీకరణ, TaskLists (విధిని మ్యాప్),Links (లింక్)",
+                "PDF ఫైల్ గా ఎగుమతి మద్దతు",
+                "ముద్రణ పత్రాలు మద్దతు",
+                "మద్దతు ప్రామాణిక ధర / CommonMark మరియు GFM (GitHub యొక్క Markdown)",
+                "Live ప్రివ్యూ మద్దతు",
+                "టెక్స్ట్ యొక్క మద్దతు ఫార్మాట్లలో సంకేత భాగాల, పట్టికలు, కోడ్ మడత, బహుళ-భాష శోధన మరియు భర్తీ, HTML పరిధి కోడ్ సింటాక్స్ హైలైటింగ్",
+                "మద్దతు TOC (విషయ పట్టిక), ఎమిటోటికన్స్ యొక్క వ్యక్తీకరణ, పని జాబితా (టాస్క్ Map), @ (లింకులు)",
                 "మద్దతు డీకోడింగ్ మరియు వడపోత HTML టాగ్లు మరియు లక్షణాలను",
-                "మద్దతు టెక్స్ (LaTeX వ్యక్తీకరణ, KaTeX), రేఖాచిత్రం మరియు క్రమం రేఖాచిత్రం ప్రవాహం",
-                "మద్దతు డాక్యుమెంట్ రికవరీ మెకానిజం",
-                "బహుళ ఏకకాల సవరణకు మద్దతు, అపరిమిత సంఖ్య"
+                "మద్దతు టెక్సాస్ (పాలును వ్యక్తీకరణ, Katex ఇంక్) ఫ్లోచార్ట్లు మరియు క్రమం రేఖాచిత్రాలు",
+                "మద్దతు ఫైళ్లు రికవరీ మెకానిజం",
+                "మద్దతు బహుళ ఎడిటింగ్, అపరిమిత సంఖ్యలో"
             ]
         },
         "UserReviews": {
-            "SectionName": "అద్భుతమైన విషయాలను ప్రజలు MarkdownD గురించి చెప్తున్నావు",
+            "SectionName": "MarkdownD విశ్లేషించడానికి ఎలా",
             "list": [
                 {
-                    "reviewContent": "MarkdownD అద్భుతమైన ఉంది. సింపుల్. క్లీన్. పర్ఫెక్ట్. అభినందనలు.",
+                    "reviewContent": "MarkdownD అద్భుతమైన ఉంది. సింపుల్. క్లీన్. పెర్ఫెక్షన్. చక్కగా పూర్తి.",
                     "userName": "evanw",
-                    "professional": "టెక్నాలజీ మత ప్రచారకుడు"
+                    "professional": "టెక్నాలజీ ప్రమోషన్"
                 },
                 {
-                    "reviewContent": "MarkdownD నేను అందంగా చాలా అన్ని లో నా రచన చేసేది. ఇది ఒక గొప్ప కొద్దిగా అప్లికేషన్.",
+                    "reviewContent": "MarkdownD, ఈ గొప్ప కొద్దిగా అప్లికేషన్ నేను దాదాపు అన్ని నా రచన చేయటానికి ఉంది.",
                     "userName": "పీటర్ బ్రైట్",
-                    "professional": "ఆర్స్ టెక్నికా రైటర్"
+                    "professional": "ఆర్స్ టెక్నికా రచయితలు"
                 },
                 {
-                    "reviewContent": "మీరు Markdown ఆసక్తి కలిగి ఉంటే, MarkdownD ఖచ్చితంగా ఒక డౌన్లోడ్ విలువ.",
-                    "userName": "LifeHacker",
-                    "professional": "వెబ్ డెవలపర్ మరియు డిజైనర్"
+                    "reviewContent": "మీరు తక్కువ ధరల్లో ఎలాంటి ఆసక్తి కలిగి ఉంటే, MarkdownD ఖచ్చితంగా డౌన్లోడ్ విలువ.",
+                    "userName": "Lifehacker యొక్క",
+                    "professional": "వెబ్ డెవలపర్లు మరియు డిజైనర్లు"
                 },
                 {
-                    "reviewContent": "నేను నిజంగా MarkdownD వంటి, నా పని చాలా సౌలభ్యం తెచ్చిపెట్టింది.",
+                    "reviewContent": "నేను నిజంగా MarkdownD వంటి, గొప్ప సౌలభ్యం తెచ్చిపెట్టింది; నా పని.",
                     "userName": "jeruss",
-                    "professional": "PHP ముసాయిదా డెవలపర్"
+                    "professional": "PHP ఫ్రేమ్ అభివృద్ధి"
                 }
             ]
         }
@@ -80,8 +80,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "వెర్షన్ నెంబర్",
+        "labelVersion": "విడుదల",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows}}",
+                        "content": "{{[Update] NativeEngine upgrade}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "list": [
@@ -161,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "కొన్ని దోషాలను సరిచేయడానికి."
+                        "content": "కొన్ని దోషాలు పరిష్కరించబడ్డాయి."
                     }
                 ]
             },
@@ -170,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "కొన్ని దోషాలను సరిచేయడానికి."
+                        "content": "కొన్ని దోషాలు పరిష్కరించబడ్డాయి."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -185,8 +194,31 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "వెర్షన్ నెంబర్",
+        "labelVersion": "విడుదల",
         "list": [
+            {
+                "version": "{{2.6}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
+                        "size": "{{49.59MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
+                        "size": "{{58.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
+                        "size": "{{6.27MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.5}}",
                 "zipList": [
@@ -330,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "కొనుగోలు వే",
+        "SectionName": "కొనుగోలు ఎలా",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
