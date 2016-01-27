@@ -19,7 +19,7 @@
             {name:l10n["Downloads"] || "Downloads", url:"./versions.html"},
             {name:l10n["Buy"] || "Buy", url:"./buy.html"},
             {name:l10n["Roadmap"] || "Roadmap", url:"./roadmap.html"},
-            {name:l10n["ReportIssue"] || "ReportIssue", url:"https://github.com/Romanysoft/MarkdownD/issues"},
+            {name:l10n["ReportIssue"] || "ReportIssue", url:RTYConfig.reportIssueUrl ||""},
             {name:l10n["Languages"] || "Languages", url:"./languages.html"},
         ];
         
