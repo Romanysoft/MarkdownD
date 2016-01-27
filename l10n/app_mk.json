@@ -362,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Како да ги купите",
+        "SectionName": "Купување",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

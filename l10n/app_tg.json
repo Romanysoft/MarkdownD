@@ -362,7 +362,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Чӣ тавр барои харидани",
+        "SectionName": "Харид",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
