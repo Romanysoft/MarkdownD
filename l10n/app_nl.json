@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "Thuis",
-        "Feature": "Functies",
-        "Documents": "Online Hulp",
-        "ReleaseNotes": "Release Notes",
+        "Home": "thuis",
+        "Feature": "kenmerken",
+        "Documents": "online Help",
+        "ReleaseNotes": "release Notes",
         "Downloads": "Free Trial",
-        "Buy": "Aankoop",
-        "Roadmap": "Productlijn",
-        "ReportIssue": "Rapporteer een probleem",
-        "Languages": "Taal"
+        "Buy": "aankoop",
+        "Roadmap": "productlijn",
+        "ReportIssue": "Een probleem melden",
+        "Languages": "taal"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Full-featured Markdown editor. Ondersteuning voor Windows, Linux en MacOSX besturingssystemen.",
+        "ProjectTagline": "Markdown editor volledig functioneel. Het ondersteunt Windows, Linux en MacOSX besturingssysteem.",
         "BtnDownload": "Free Trial",
-        "BtnBuy": "Aankoop",
+        "BtnBuy": "aankoop",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -26,38 +26,38 @@
         "Features": {
             "SectionName": "Product belangrijkste kenmerken",
             "list": [
-                "Ondersteunen Exporteren als PDF-bestand",
-                "Ondersteuning voor het afdrukken van documenten",
-                "Ondersteunt standaard prijs / CommonMark en GFM (GitHub's Markdown)",
+                "Ondersteunt exporteren naar PDF",
+                "Druk het document support",
+                "Ondersteunt standaard prijs / CommonMark en GFM (GitHub van Markdown)",
                 "Live Preview Ondersteuning",
-                "Ondersteunde formaten van tekst, code blokken, tafels, code vouwen, zoeken en vervangen, multi-language, HTML entiteit code syntax highlighting",
-                "Ondersteuning TOC (inhoudsopgave), de uitdrukking van emoticons, de takenlijst (Taak Map), @ (links)",
+                "Ondersteunt opgemaakte tekst, code blokken, tafels, code vouwen, zoeken en vervangen, multi-language, HTML entiteit code syntax highlighting",
+                "Ondersteuning TOC (inhoudsopgave), de expressie van emoticons, de takenlijst (de taak kaart), @ (links)",
                 "Ondersteuning decoderen en filteren van HTML-tags en attributen",
-                "Ondersteuning Texas (latex meningsuiting, Katex Inc.) flowcharts en volgorde diagrammen",
+                "Ondersteuning Texas (latex expressie, Katex bedrijf), flowcharts en sequence diagrammen",
                 "Ondersteunende bestanden herstel mechanisme",
                 "Ondersteuning van meerdere editing, onbeperkt aantal"
             ]
         },
         "UserReviews": {
-            "SectionName": "Hoe te evalueren MarkdownD",
+            "SectionName": "Hoe te MarkdownD evalueren",
             "list": [
                 {
-                    "reviewContent": "MarkdownD is verbazingwekkend. Eenvoudig. Schoon. Perfectie. Mooi gedaan.",
+                    "reviewContent": "MarkdownD is verbazingwekkend. Eenvoudig. Clean. Perfectie. Mooi gedaan.",
                     "userName": "evanw",
-                    "professional": "Technologie Promotion"
+                    "professional": "Technology Promotion"
                 },
                 {
-                    "reviewContent": "MarkdownD is wat ik doe bijna al mijn schrijven, dit is een geweldige kleine applicatie.",
+                    "reviewContent": "MarkdownD doe ik bijna al mijn schrijven, dat is een geweldige kleine applicatie.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica schrijvers"
+                    "professional": "Ars Technica schrijver van"
                 },
                 {
-                    "reviewContent": "Als je interesse hebt in lagere prijzen, MarkdownD is zeker het downloaden waard.",
+                    "reviewContent": "Als je interesse hebt in lagere prijzen, MarkdownD is zeker de moeite waard te downloaden.",
                     "userName": "Lifehacker's",
                     "professional": "Web-ontwikkelaars en ontwerpers"
                 },
                 {
-                    "reviewContent": "Ik hou echt MarkdownD, heeft grote gemak, mijn werk.",
+                    "reviewContent": "Ik hou echt van MarkdownD, heeft grote gemak, mijn werk.",
                     "userName": "jeruss",
                     "professional": "PHP framework ontwikkeling"
                 }
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Vrijlating",
+        "labelVersion": "vrijlating",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Vast een aantal fouten."
+                        "content": "Bug fixes."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Vast een aantal fouten."
+                        "content": "Bug fixes."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -194,7 +194,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Vrijlating",
+        "labelVersion": "vrijlating",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -362,7 +368,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Aankoop",
+        "SectionName": "aankoop",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -410,7 +416,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Beschikbare talen",
-        "ChangeAlert": "Compleet taalswitch"
+        "SectionName": "beschikbare talen",
+        "ChangeAlert": "Compleet switch language"
     }
 }

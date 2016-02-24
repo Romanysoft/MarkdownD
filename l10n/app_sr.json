@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "Кући",
-        "Feature": "Карактеристике",
+        "Home": "кући",
+        "Feature": "karakteristike",
         "Documents": "Онлине помоћ",
-        "ReleaseNotes": "Белешке о издању",
+        "ReleaseNotes": "Релеасе Нотес",
         "Downloads": "Пробна верзија",
-        "Buy": "Куповина",
+        "Buy": "куповина",
         "Roadmap": "Производна линија",
         "ReportIssue": "Пријавите проблем",
-        "Languages": "Језик"
+        "Languages": "језик"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Фулл-феатуред Маркдовн уредник. Подршка за Виндовс, Линук и Мац ОС Кс оперативне системе.",
+        "ProjectTagline": "Маркдовн уредник у потпуности функционалан. Она подржава Виндовс, Линук и МацОСКС оперативни систем.",
         "BtnDownload": "Пробна верзија",
-        "BtnBuy": "Куповина",
+        "BtnBuy": "куповина",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -26,33 +26,33 @@
         "Features": {
             "SectionName": "Продуцт главне карактеристике",
             "list": [
-                "Подршка Екпорт у ПДФ формату",
-                "Подршка за штампање докумената",
-                "Подржава стандардна цена / ЦоммонМарк и ГФМ (гитхуб је Маркдовн)",
+                "Подржава извоз у ПДФ",
+                "Принт подршку документ",
+                "Подржава стандардна цена / ЦоммонМарк и ГФМ (ГитХуб од Маркдовн)",
                 "Преглед уживо Подршка",
-                "Подржани формати текста, код блокови, табеле, код савијање, Сеарцх анд Реплаце, мулти-лангуаге ХТМЛ код ентитет истицање синтаксе",
-                "Подршка ТОЦ (Садржај), израз смајлија, листа задатака (Таск карта), @ (линкови)",
+                "Подржава форматирани текст, код блокове, табеле, код склапање, претрага и замене, мулти-лангуаге, ХТМЛ ентитету код истицање синтаксе",
+                "Подршка ТОЦ (садржај), израз смајлија, листа задатака (задатак карта), @ (везе)",
                 "Подршка за декодирање и филтрирање ХТМЛ ознаке и атрибуте",
-                "Подршка Текас (латекс израз, Катек Инц.) дијаграми тока и редослед дијаграми",
-                "Подршка фајлова механизам за опоравак",
-                "Подршка вишеструки уређивање, неограничен број"
+                "Подршка Тексас (латекс израз, Катек компанија), дијаграми тока и секуенце дијаграми",
+                "Подршка Филес Рецовери механизам",
+                "Подршка више уређивање, неограничен број"
             ]
         },
         "UserReviews": {
             "SectionName": "Како проценити МаркдовнД",
             "list": [
                 {
-                    "reviewContent": "МаркдовнД је невероватно. Једноставно. Очистите. Савршенство. Лепо урађено.",
+                    "reviewContent": "МаркдовнД је невероватно. Једноставна. Чист. Савршенство. Лепо урађено.",
                     "userName": "еванв",
-                    "professional": "Технологија Промоција"
+                    "professional": "tehnologija Промоција"
                 },
                 {
-                    "reviewContent": "МаркдовнД је оно што ја радим скоро све моје писање, ово је сјајна мала апликација.",
+                    "reviewContent": "МаркдовнД радим скоро све моје писање, што је одличан мало апликација.",
                     "userName": "Петар Светли",
-                    "professional": "Арс Тецхница писци"
+                    "professional": "Арс Тецхница писац"
                 },
                 {
-                    "reviewContent": "Ако имате било какав интерес у нижим цијенама, МаркдовнД је дефинитивно вреди преузимање.",
+                    "reviewContent": "Ако имате интерес у нижим цијенама, МаркдовнД је дефинитивно вреди преузимање.",
                     "userName": "Компјутер је",
                     "professional": "Веб програмери и дизајнери"
                 },
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Пуштање",
+        "labelVersion": "пуштање",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Фиксни неке грешке."
+                        "content": "Исправке грешака."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Фиксни неке грешке."
+                        "content": "Исправке грешака."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -194,7 +194,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Пуштање",
+        "labelVersion": "пуштање",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -362,7 +368,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Куповина",
+        "SectionName": "куповина",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -410,7 +416,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Доступни језици",
-        "ChangeAlert": "Комплетна прекидач језика"
+        "SectionName": "dostupni језици",
+        "ChangeAlert": "Потпуни прелазак језика"
     }
 }

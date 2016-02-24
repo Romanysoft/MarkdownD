@@ -1,19 +1,19 @@
 {
     "TopBar": {
-        "Home": "Uy",
+        "Home": "uy",
         "Feature": "Xususiyatlar",
         "Documents": "Online Yordam",
-        "ReleaseNotes": "Release Notes",
-        "Downloads": "Bepul Sinov",
+        "ReleaseNotes": "Versiya eslatmalar",
+        "Downloads": "Free Trial",
         "Buy": "Sotib olish to'g'risida",
-        "Roadmap": "Mahsulot chiziq",
-        "ReportIssue": "Bir muammo haqida xabar berish",
-        "Languages": "Til"
+        "Roadmap": "Mahsulot liniyasi",
+        "ReportIssue": "Muammo haqida xabar",
+        "Languages": "til"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "To'liq xususiyatli Markdown muharriri. Windows, Linux va MacOSX operatsion tizimlari uchun qo'llab-quvvatlash.",
-        "BtnDownload": "Bepul Sinov",
+        "ProjectTagline": "Markdown muharriri to'liq funktsional. Bu Windows, Linux va MacOSX operatsion tizimini qo'llab-quvvatlaydi.",
+        "BtnDownload": "Free Trial",
         "BtnBuy": "Sotib olish to'g'risida",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -26,35 +26,35 @@
         "Features": {
             "SectionName": "Mahsulot asosiy xususiyatlari",
             "list": [
-                "PDF fayli sifatida eksportini qo'llab-quvvatlash",
-                "Bosib chiqarish hujjatlar uchun qo'llab-quvvatlash",
-                "Qo'llab-quvvatlaydi standart narx / CommonMark va GFM (Github ning Markdown)",
-                "Jonli o'yin oldidan Support",
-                "Matn Qo'llab-quvvatlaydigan formatlar, kod bloklari, jadvallar, kod ko'tarar, multi-til qidirish va o'zgartirish, HTML shaxs kodi syntax highlighting",
-                "Support TOC (Mundarija), So'zlari ifoda, vazifa ro'yxati (Vazifa xaritasi), @ (← ishoratlar)",
-                "Qo'llab-quvvatlash hal va filtrlash HTML teglar va sifatlari",
-                "Support Texas (lateks ifoda, Katex Inc.) oqim jadvallarini va tartib jadvallarini",
-                "Support fayllar qutqarish mexanizmi",
-                "Support necha tartibga solish, cheksiz soni"
+                "PDF eksport qo'llab-quvvatlaydi",
+                "hujjat qo'llab-quvvatlash chop",
+                "Qo'llab-quvvatlaydi standart narx / CommonMark va GFM (Markdown of GitHub)",
+                "Jonli Ko'rib chiqish qo'llab-quvvatlash",
+                "formatlangan matn, kodi bloklari, jadvallar, kodi katlanmasını, HTML shaxs kodi Matnni sintaksisi rang ta'kidlab qidiruv va multi-til o'rniga qo'llab-quvvatlaydi",
+                "Support TOC (mundarija), So'zlari ifoda, vazifa ro'yxati (vazifa map) @ (← ishoratlar)",
+                "Qo'llab-quvvatlash hal va filtrlash HTML tags va sifatlari",
+                "Support Texas (lateks ifoda, Katex kompaniyasi), oqim jadvallarini va ketma-ketligi diagrammalar",
+                "Support fayllar tiklash mexanizmi",
+                "Yordam ko'p tartibga solish, cheklanmagan soni"
             ]
         },
         "UserReviews": {
             "SectionName": "MarkdownD baholash uchun qanday",
             "list": [
                 {
-                    "reviewContent": "MarkdownD ajoyib. Simple. Toza. Perfection. Yaxshi amalga.",
+                    "reviewContent": "MarkdownD ajoyib. Simple. Toza. Takomillashtirish. Chiroyli amalga.",
                     "userName": "evanw",
-                    "professional": "Texnologiya Promotion"
+                    "professional": "Technology Rivojlantirish"
                 },
                 {
-                    "reviewContent": "MarkdownD, bu katta kichik dastur nima men deyarli hamma mening yozilishida hisoblanadi.",
-                    "userName": "Peter Bright",
-                    "professional": "Arsh Technica ning yozuvchilar"
+                    "reviewContent": "MarkdownD Men katta kichik dastur hisoblanadi deyarli barcha mening yozuv, albatta.",
+                    "userName": "Peter Yorqin",
+                    "professional": "ning Ars Technica yozuvchi"
                 },
                 {
-                    "reviewContent": "Agar pastki narxlarda har qanday qiziqish bo'lsa, MarkdownD albatta download arziydi.",
+                    "reviewContent": "Agar quyi narxlarda har qanday qiziqish bo'lsa, MarkdownD yuklab albatta arziydi.",
                     "userName": "Lifehacker ning",
-                    "professional": "Veb-ishlab chiquvchilari va Dizaynerlar"
+                    "professional": "Veb-ishlab chiquvchilari va dizaynerlar"
                 },
                 {
                     "reviewContent": "Men, albatta, MarkdownD kabi, katta qulaylik olib keldi; ishimni.",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Chiqarish",
+        "labelVersion": "ozod qilish",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Ba'zi xatolar Ruxsat etilgan."
+                        "content": "Xatolarni tuzatish."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Ba'zi xatolar Ruxsat etilgan."
+                        "content": "Xatolarni tuzatish."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -194,7 +194,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Chiqarish",
+        "labelVersion": "ozod qilish",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -410,7 +416,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Mavjud tillarda",
-        "ChangeAlert": "Complete switch til"
+        "SectionName": "mavjud tillar",
+        "ChangeAlert": "To'liq switch tili"
     }
 }

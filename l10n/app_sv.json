@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "Hem",
-        "Feature": "Egenskaper",
+        "Home": "hem",
+        "Feature": "särdrag",
         "Documents": "Onlinehjälp",
-        "ReleaseNotes": "Utgåvan",
+        "ReleaseNotes": "utgåvan",
         "Downloads": "Free Trial",
-        "Buy": "Inköp",
-        "Roadmap": "Produktlinje",
+        "Buy": "inköp",
+        "Roadmap": "produktlinje",
         "ReportIssue": "Rapportera ett problem",
-        "Languages": "Språk"
+        "Languages": "språk"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Fullfjädrad Wiki redaktör. Stöd för Windows, Linux och MacOSX operativsystem.",
+        "ProjectTagline": "Wiki redaktör fullt fungerande. Den stöder Windows, Linux och MacOSX operativsystem.",
         "BtnDownload": "Free Trial",
-        "BtnBuy": "Inköp",
+        "BtnBuy": "inköp",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -26,14 +26,14 @@
         "Features": {
             "SectionName": "Produkthuvuddrag",
             "list": [
-                "Stöd Exportera som PDF-fil",
-                "Stöd för utskrift av dokument",
-                "Stöder standardpris / CommonMark och GFM (GitHub s Wiki)",
+                "Stöder exporterar till PDF",
+                "Skriv dokumentstödet",
+                "Stöder standard pris / CommonMark och GFM (GitHub av Wiki)",
                 "Live Preview Support",
-                "Format som stöds av text, kodblock, tabeller, kod vikning, sök och ersätt, flera språk, HTML-enhet kod syntaxmarkering",
-                "Support TOC (innehållsförteckning), ett uttryck för emoticons, uppgiftslistan (åtgärdsöversikt), @ (länkar)",
+                "Stöder formaterad text, kodblock, tabeller, kod vikning, sök och ersätt, flera språk, HTML enhet kod syntax highlighting",
+                "Support TOC (innehållsförteckning), ett uttryck för uttryckssymboler, uppgiftslistan (uppgiften karta), @ (länkar)",
                 "Stöd avkodning och filtrering HTML-taggar och attribut",
-                "Support Texas (latex uttryck, Katex Inc.) flödesscheman och sekvensdiagram",
+                "Support Texas (latex uttryck, Katex företag), flödesscheman och sekvensdiagram",
                 "Stöd filer återvinning mekanism",
                 "Stöd för flera redigering, obegränsat antal"
             ]
@@ -42,17 +42,17 @@
             "SectionName": "Hur man ska värdera MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD är häpnadsväckande. Enkelt. Clean. Perfektion. Snyggt gjort.",
+                    "reviewContent": "MarkdownD är häpnadsväckande. Enkelt. Ren. Perfektion. Snyggt gjort.",
                     "userName": "evanw",
-                    "professional": "Teknikens främjande"
+                    "professional": "Technology Promotion"
                 },
                 {
-                    "reviewContent": "MarkdownD är vad jag gör nästan hela mitt skrivande, är detta en stor litet program.",
+                    "reviewContent": "MarkdownD jag gör nästan allt mitt skrivande, vilket är en stor liten applikation.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica: s författare"
+                    "professional": "Ars Technica författare"
                 },
                 {
-                    "reviewContent": "Om du har något intresse av lägre priser, är MarkdownD definitivt värt nedladdningen.",
+                    "reviewContent": "Om du har något intresse i lägre priser, är MarkdownD definitivt värt att ladda ner.",
                     "userName": "Lifehacker s",
                     "professional": "Webbutvecklare och designers"
                 },
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Släpp",
+        "labelVersion": "frisättning",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fast vissa fel."
+                        "content": "Buggfixar."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fast vissa fel."
+                        "content": "Buggfixar."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -194,7 +194,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Släpp",
+        "labelVersion": "frisättning",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -362,7 +368,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Inköp",
+        "SectionName": "inköp",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -410,7 +416,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Tillgängliga språk",
+        "SectionName": "tillgängliga språk",
         "ChangeAlert": "Fullständig övergång språk"
     }
 }

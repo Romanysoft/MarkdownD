@@ -12,7 +12,7 @@
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "كامل المواصفات محرر تخفيض السعر. دعم لأنظمة التشغيل ويندوز، لينكس وماك أوإسإكس.",
+        "ProjectTagline": "محرر تخفيض السعر بشكل كامل. وهي تدعم ويندوز، لينكس وماك أوإسإكس نظام التشغيل.",
         "BtnDownload": "التجربة المجانية",
         "BtnBuy": "شراء",
         "Screens": [
@@ -26,30 +26,30 @@
         "Features": {
             "SectionName": "ميزات المنتج الرئيسية",
             "list": [
-                "دعم تصدير كملف PDF",
-                "دعم لطباعة الوثائق",
-                "يدعم سعر قياسي / CommonMark وGFM (تخفيض السعر جيثب ل)",
-                "يعيش دعم معاينة",
-                "أشكال الدعم من النص، رمز لبنات، والجداول، رمز للطي، ويحل محل بحث، متعددة اللغات، وتسليط الضوء HTML كيان تركيب كود",
-                "دعم TOC (جدول المحتويات)، والتعبير عن المشاعر، وقائمة المهام (المهام خريطة) @ (وصلات)",
-                "دعم فك التشفير وتصفية HTML العلامات والصفات",
-                "دعم تكساس (لاتكس التعبير، كاتكس شركة) مخططات ورسوم بيانية تسلسل",
+                "يدعم التصدير إلى PDF",
+                "طباعة دعم وثيقة",
+                "يدعم سعر قياسي / CommonMark وGFM (جيثب من تخفيض السعر)",
+                "دعم معاينة الحية",
+                "يدعم تنسيق النص، رمز لبنات والجداول، رمز للطي، ويحل محل بحث، متعددة اللغات، HTML كود كيان تسليط الضوء على تركيب",
+                "دعم TOC (جدول المحتويات)، والتعبير عن المشاعر، وقائمة المهام (خريطة مهمة)، @ (وصلات)",
+                "علامات دعم فك التشفير وHTML الترشيح وسمات",
+                "دعم تكساس (التعبير لاتكس، شركة كاتكس)، خرائط ومخططات تسلسل",
                 "ملفات دعم آلية استرداد",
-                "التحرير الدعم المتعدد، وعدد غير محدود"
+                "دعم تحرير متعددة، وعدد غير محدود"
             ]
         },
         "UserReviews": {
             "SectionName": "كيفية تقييم MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD هو مدهش. بسيطة. نظيفة. الكمال. فعل جيد.",
+                    "reviewContent": "MarkdownD هو مدهش. بسيطة. نظيفة. الكمال. متقن عمله.",
                     "userName": "evanw",
                     "professional": "تعزيز التكنولوجيا"
                 },
                 {
-                    "reviewContent": "MarkdownD هو ما أقوم به تقريبا كل ما عندي من الكتابة، وهذا هو التطبيق كبيرة قليلا.",
+                    "reviewContent": "MarkdownD أفعل تقريبا كل ما عندي من الكتابة، والذي هو تطبيق صغير رائع.",
                     "userName": "بيتر برايت",
-                    "professional": "الكتاب آرس تكنيكا ل"
+                    "professional": "آرس تكنيكا الكاتب"
                 },
                 {
                     "reviewContent": "إذا كان لديك أي مصلحة في انخفاض الأسعار، MarkdownD هو بالتأكيد يستحق التحميل.",
@@ -59,7 +59,7 @@
                 {
                     "reviewContent": "أنا حقا مثل MarkdownD، جلبت راحة كبيرة، عملي.",
                     "userName": "jeruss",
-                    "professional": "PHP تطوير الإطار"
+                    "professional": "تطوير إطار PHP"
                 }
             ]
         }
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "إصلاح بعض الأخطاء."
+                        "content": "إصلاحات الشوائب."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "إصلاح بعض الأخطاء."
+                        "content": "إصلاحات الشوائب."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -411,6 +417,6 @@
     "RoadMapPage": {},
     "LanguagesPage": {
         "SectionName": "اللغات المتوفرة",
-        "ChangeAlert": "كاملة اللغة التبديل"
+        "ChangeAlert": "لغة التبديل كاملة"
     }
 }

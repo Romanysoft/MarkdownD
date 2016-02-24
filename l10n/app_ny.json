@@ -1,19 +1,19 @@
 {
     "TopBar": {
         "Home": "Home",
-        "Feature": "Mbali",
-        "Documents": "Online Thandizo",
-        "ReleaseNotes": "Kumasulidwa Mfundo",
-        "Downloads": "Free Mlandu",
+        "Feature": "Features",
+        "Documents": "Online Help",
+        "ReleaseNotes": "kumasulidwa Mfundo",
+        "Downloads": "Free Mayesero",
         "Buy": "Purchase",
-        "Roadmap": "Mankhwala mzere",
+        "Roadmap": "mankhwala mzere",
         "ReportIssue": "Nenani vuto",
         "Languages": "Language"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Full zochitika Markdown mkonzi. Support kwa Mawindo, Linux ndi MacOSX ntchito kachitidwe.",
-        "BtnDownload": "Free Mlandu",
+        "ProjectTagline": "Markdown mkonzi bwinobwino. Iwo amathandiza Windows, Linux ndi MacOSX opaleshoni dongosolo.",
+        "BtnDownload": "Free Mayesero",
         "BtnBuy": "Purchase",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Mankhwala zofunika",
+            "SectionName": "Mankhwala zinthu zofunika",
             "list": [
-                "Kuthandizira katundu monga PDF wapamwamba",
-                "Support kusindikiza zikalata",
-                "Amathandiza muyezo mtengo / CommonMark ndi GFM (GitHub a Markdown)",
+                "Imathandiza exporting kuti PDF",
+                "Kusindikiza chikalata thandizo",
+                "Imathandiza muyezo mtengo / CommonMark ndi GFM (GitHub wa Markdown)",
                 "Live lounikira Support",
-                "Anathandiza akamagwiritsa a lemba, malamulo midadada, matebulo, malamulo yopindika, fufuzani ndi m'malo, Mipikisano chinenero, HTML chilli kachidindo malembedwe mfundo",
-                "Support TOC (Zamkatimu), mawu a emoticons, ntchito ndandanda (Ntchito Yaikulu Map), @ (limasonyeza)",
-                "Support decoding ndi kusefa Tags ndi zikhumbo",
-                "Support Texas (lalabala akuti, Katex Inc.) flowcharts ndi ndondomeko zithunzi",
-                "Support owona kuchira limagwirira",
-                "Support angapo kusintha, losaŵerengeka"
+                "Imathandiza Onani m'magazini lemba, malamulo midadada, matebulo, malamulo yopindika, kufufuza ndi m'malo, Mipikisano chinenero, HTML gulu malamulo malembedwe mfundo",
+                "Support TOC (mitu ya nkhani), mawu a emoticons, mndandanda ntchito (ntchito mapu), @ (limasonyeza)",
+                "Support decoding ndi sefa HTML Tags ndi makhalidwe",
+                "Support Texas (lalabala akuti, Katex kampani), flowcharts ndi zithunzi zinayendera",
+                "owona Support kuchira limagwirira",
+                "Support angapo kusintha, mopanda malire"
             ]
         },
         "UserReviews": {
             "SectionName": "Kodi kufufuza MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD n'zodabwitsa. Yosavuta. Oyera. Ungwiro. Mwabwino anachita.",
+                    "reviewContent": "MarkdownD ndi zodabwitsa. Simple. Woyera. Ungwiro. Mwabwino anachita.",
                     "userName": "evanw",
-                    "professional": "Technology Kupititsa patsogolo"
+                    "professional": "Technology Kupititsa"
                 },
                 {
-                    "reviewContent": "MarkdownD ndi zimene ndimachita pafupifupi anga onse kulemba, izi ndi zopambana wamng'ono ntchito.",
+                    "reviewContent": "MarkdownD ndichita pafupifupi kulemba wanga, umene uli waukulu ntchito pang'ono.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica a olemba"
+                    "professional": "Ana asukulu Technica wolemba"
                 },
                 {
-                    "reviewContent": "Ngati muli ndi chidwi m'munsi mitengo, MarkdownD ndithudi ofunika download.",
+                    "reviewContent": "Ngati muli ndi chidwi ndi mitengo m'munsi, MarkdownD ndithudi ofunika otsitsira.",
                     "userName": "Lifehacker a",
-                    "professional": "Web Madivelopa ndi okonza"
+                    "professional": "kutukula Web ndipo okonza"
                 },
                 {
-                    "reviewContent": "Ndimalikonda MarkdownD, wabweretsa lalikulu mayiko; ntchito yanga.",
+                    "reviewContent": "Ine kwenikweni MarkdownD, wabweretsa mayiko chachikulu; ntchito yanga.",
                     "userName": "jeruss",
-                    "professional": "Php chimango chitukuko"
+                    "professional": "Php chitukuko chimango"
                 }
             ]
         }
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Kumasulidwa",
+        "labelVersion": "kumasulidwa",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Lokhazikika zolakwika zina."
+                        "content": "Bug kulewerana."
                     }
                 ]
             },
@@ -179,22 +179,22 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Lokhazikika zolakwika zina."
+                        "content": "Bug kulewerana."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Yoyamba kumasulidwa."
+                        "content": "Kumasulidwa choyamba."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Yoyamba kumasulidwa."
+                        "content": "Kumasulidwa choyamba."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Kumasulidwa",
+        "labelVersion": "kumasulidwa",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -410,7 +416,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Likupezeka Zinenero",
-        "ChangeAlert": "Complete lophimba chinenero"
+        "SectionName": "likupezeka Zilankhulo",
+        "ChangeAlert": "Complete chinenero lophimba"
     }
 }

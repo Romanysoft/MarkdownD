@@ -5,16 +5,16 @@
         "Documents": "Online Laguntza",
         "ReleaseNotes": "Bertsio-oharrak",
         "Downloads": "Free Trial",
-        "Buy": "Erosteko",
+        "Buy": "Erosketa",
         "Roadmap": "Produktu linea",
         "ReportIssue": "Arazo baten berri",
         "Languages": "Hizkuntza"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Funtzio Markdown editorea. Windows, Linux eta MacOSX sistema eragilea laguntza.",
+        "ProjectTagline": "Markdown editore erabat funtzionala. Windows, Linux eta MacOSX sistema eragilearen onartzen ditu.",
         "BtnDownload": "Free Trial",
-        "BtnBuy": "Erosteko",
+        "BtnBuy": "Erosketa",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -26,38 +26,38 @@
         "Features": {
             "SectionName": "Produktuen ezaugarri nagusiak",
             "list": [
-                "Onartzen Export PDF fitxategi gisa",
-                "Inprimatzeko dokumentuak euskarri",
-                "Onartzen prezioa estandarra / CommonMark eta GFM (GitHub en Markdown)",
-                "Live Aurreikusi laguntza",
-                "Onartutako testuaren formatu, kodea bloke, mahaiak, kodea tolesgarri, bilatu eta ordeztu multi-hizkuntza, entitate HTML kode sintaxia nabarmentzea",
-                "Euskarria TOC (Edukien Taula), emoticons adierazpenak, zereginen zerrendaren (Task Map), @ (loturak)",
-                "Euskarria deskodetzeko eta iragazketa HTML tags eta atributuak",
-                "Euskarria Texas (latex adierazpen, Katex Inc.) mapak eta sekuentzia diagramak",
-                "Euskarria fitxategiak berreskuratzeko mekanismo",
-                "Edizio anitz laguntza, kopuru mugagabea"
+                "Onartzen PDF esportatzeko",
+                "Dokumentua inprimatu laguntza",
+                "Onartzen prezio estandarra / CommonMark eta GFM (GitHub Markdown of)",
+                "Aurreikusi Live laguntza",
+                "testuari formatua, kodea bloke, mahaiak, kodea tolesgarri, bilatu eta ordeztu multi-hizkuntza, HTML entitate kodea sintaxia nabarmentzea onartzen",
+                "Laguntzarako TOC (Edukien Taula), emoticons adierazpena, zereginen zerrendaren (zeregin mapa), @ (loturak)",
+                "deskodetzeko eta iragazketa HTML euskarria tags eta atributuak",
+                "Laguntzarako Texas (latex adierazpen, Katex enpresa), fluxu-diagramak eta sekuentzia",
+                "fitxategiak berreskuratzeko mekanismo laguntza",
+                "edizio anitz laguntza, kopuru mugagabea"
             ]
         },
         "UserReviews": {
             "SectionName": "Nola MarkdownD ebaluatzeko",
             "list": [
                 {
-                    "reviewContent": "MarkdownD harrigarria da. Simple. Clean. Perfekzioa. Nicely egin.",
+                    "reviewContent": "MarkdownD harrigarria da. Simple. Clean. Perfection. Lan bikaina.",
                     "userName": "evanw",
                     "professional": "Teknologia Sustapena"
                 },
                 {
-                    "reviewContent": "MarkdownD da zer ia nire idazketa guztiak egin dut, hau gutxi aplikazio handi bat da.",
+                    "reviewContent": "MarkdownD ia guztiak nire idazteko, eta hori gutxi aplikazio handia da egin nuen.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica idazle"
+                    "professional": "Ars Technica idazlea"
                 },
                 {
-                    "reviewContent": "Prezio baxuagoak interesa baduzu, MarkdownD da behin betiko download merezi.",
+                    "reviewContent": "prezio baxuagoak interesa baduzu, MarkdownD merezi da behin betiko deskargatzea.",
                     "userName": "Lifehacker en",
                     "professional": "Web diseinatzaile eta"
                 },
                 {
-                    "reviewContent": "Nire lana; benetan MarkdownD bezala, erosotasuna handia ekarri du dut.",
+                    "reviewContent": "nire lana; I benetan MarkdownD bezala, erosotasuna handia ekarri du.",
                     "userName": "jeruss",
                     "professional": "PHP framework garapena"
                 }
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Oharra",
+        "labelVersion": "oharra",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Akatsak batzuk konponduta."
+                        "content": "Konponketak."
                     }
                 ]
             },
@@ -179,22 +179,22 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Akatsak batzuk konponduta."
+                        "content": "Konponketak."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Lehen oharra."
+                        "content": "Lehenengo oharra."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Lehen oharra."
+                        "content": "Lehenengo oharra."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Oharra",
+        "labelVersion": "oharra",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -362,7 +368,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Erosteko",
+        "SectionName": "Erosketa",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -410,7 +416,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Dauden hizkuntzak",
-        "ChangeAlert": "Hizkuntza aldatu osoa"
+        "SectionName": "Hizkuntz baliagarriak",
+        "ChangeAlert": "Osoa aldatu hizkuntza"
     }
 }

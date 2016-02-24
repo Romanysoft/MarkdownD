@@ -1,19 +1,19 @@
 {
     "TopBar": {
-        "Home": "Domi",
+        "Home": "domum",
         "Feature": "Features",
-        "Documents": "Online Help",
-        "ReleaseNotes": "Release Notes",
-        "Downloads": "Free",
+        "Documents": "Help",
+        "ReleaseNotes": "Notes Release",
+        "Downloads": "free Trial",
         "Buy": "Purchase",
-        "Roadmap": "Product line",
-        "ReportIssue": "Report a forsit",
-        "Languages": "Lingua"
+        "Roadmap": "product line",
+        "ReportIssue": "Report a Problem",
+        "Languages": "Language"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Full-featured Markdown editor. Integer Fenestra, Linux MacOSX operating ratio.",
-        "BtnDownload": "Free",
+        "ProjectTagline": "Markdown totam ed. Fert Windows MacOSX Linux operating ratio.",
+        "BtnDownload": "free Trial",
         "BtnBuy": "Purchase",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Product marisque",
+            "SectionName": "Featured Product Main",
             "list": [
-                "Ut sustinere Export PDF file",
-                "Support for printing documenta",
-                "Vexillum pretium fulcit / CommonMark et GFM (GitHub Markdown s)",
-                "Live Preview Support",
-                "Subnixus formats text of code caudices, tabulas, code conseres, quaerere et subrogare, multi-linguam HTML entitatem signum syntax highlighting",
-                "Support TOC (mensam de contentis), expressio emoticons praetori negotium list (Negotium Map), (nexus)",
-                "Support decoding et filtering HTML tags et attributa",
-                "Support Texas (latex expressio, Katex Inc.) flowcharts seriemque diagrams",
-                "Support files recuperare mechanism",
-                "Support multiple edendis, infinitis"
+                "Suscipio exporting ut PDF",
+                "Services Print document",
+                "Latin pretium fulcit / CommonMark et GFM (GitHub de Markdown)",
+                "Support Live Preview",
+                "Suscipio formatted text, codice lectus, tabulas, valvis codicem, et locum quaerere, multi-lingua, res HTML Code luce syntax",
+                "Support TOC (Table of Contents) expressio feedback negotium album (munus map) (links)",
+                "Support decoding et filtering tags et attributa",
+                "Support Texas (Aliquam dictum, Katex comitatu), series schematum, et flowcharts",
+                "Support recuperatio ars files",
+                "Support multiplex emendo, infinitus est numerus"
             ]
         },
         "UserReviews": {
             "SectionName": "Quam ad aestimare MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD est mirabile. Simplex. Mundum. Perfectio. Nicely factum.",
+                    "reviewContent": "MarkdownD est mirabile. Simplex. Mundare. Perfectio. Bene fieri.",
                     "userName": "evanw",
-                    "professional": "Technology Promotion"
+                    "professional": "Lorem Promotion"
                 },
                 {
-                    "reviewContent": "Quod facere plerique omnes MarkdownD scribere hoc parum magnum elit.",
-                    "userName": "Peter Bright",
-                    "professional": "Technica ars scriptores scriptor"
+                    "reviewContent": "MarkdownD faciam paene omnes litteras quas paulo magna elit.",
+                    "userName": "Petrus Bright",
+                    "professional": "Technica ars scriptor"
                 },
                 {
-                    "reviewContent": "Si qua in re inferior pretium operae certo MarkdownD download.",
-                    "userName": "Lifehacker scriptor",
-                    "professional": "Web gravida tincidunt et"
+                    "reviewContent": "Si tibi cura inferiori pretium, est certus dignitas MarkdownD download.",
+                    "userName": "in Lifehacker",
+                    "professional": "Gravida et Web Maecenas"
                 },
                 {
-                    "reviewContent": "Lorem sicut MarkdownD perduxerit magna commoditas, mea.",
+                    "reviewContent": "EGO vere amo MarkdownD perduxerit magna commoditas, mea.",
                     "userName": "jeruss",
-                    "professional": "PHP compage development"
+                    "professional": "PHP progressionem compage"
                 }
             ]
         }
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Certum quendam errorem deferatur."
+                        "content": "Bug fixes."
                     }
                 ]
             },
@@ -179,15 +179,15 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Certum quendam errorem deferatur."
+                        "content": "Bug fixes."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Primum remissionis."
+                        "content": "Et primum remissionis."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Primum remissionis."
+                        "content": "Et primum remissionis."
                     }
                 ]
             }
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -410,7 +416,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Available Languages",
-        "ChangeAlert": "Complete switch lingua"
+        "SectionName": "Latin Available",
+        "ChangeAlert": "Switch The Latin"
     }
 }

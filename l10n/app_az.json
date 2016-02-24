@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "Ev",
+        "Home": "ev",
         "Feature": "Features",
         "Documents": "Online Help",
-        "ReleaseNotes": "Release Qeydlər",
+        "ReleaseNotes": "Release Notes",
         "Downloads": "Free Trial",
-        "Buy": "Alış",
+        "Buy": "alış",
         "Roadmap": "Product line",
-        "ReportIssue": "Bir sorunu bildirmek",
-        "Languages": "Dil"
+        "ReportIssue": "Bir problem hesabat",
+        "Languages": "dil"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Tam özellikli Markdown redaktoru. Windows, Linux və MacOSX əməliyyat sistemi üçün dəstək.",
+        "ProjectTagline": "Markdown redaktoru tam funksional. Bu Windows, Linux və MacOSX əməliyyat sistemi dəstəkləyir.",
         "BtnDownload": "Free Trial",
-        "BtnBuy": "Alış",
+        "BtnBuy": "alış",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -26,14 +26,14 @@
         "Features": {
             "SectionName": "Product əsas xüsusiyyətləri",
             "list": [
-                "PDF faylı olaraq ixrac dəstək",
-                "Çap sənədlər üçün Support",
-                "Dəstəkləyir standart qiymət / CommonMark və GFM (Github nin Markdown)",
+                "PDF ixrac dəstəkləyir",
+                "sənəd dəstək çap",
+                "Dəstəkləyir standart qiymət / CommonMark və GFM (Markdown GitHub)",
                 "Live Preview Support",
-                "Mətn Dəstəklənən formatlar kod blokları, cədvəllər, kodu qatlama,, multi-dil axtarış və əvəz, HTML müəssisə code sintaksis işıqlandırılması",
-                "Support TOC (Mündəricat), ifadeler ifadə, görev siyahısı (Task haqda məlumat), @ (← keçidlər)",
+                "biçimlendirilmiş mətn, kodu blokları, masalar, kodu qatlama, HTML müəssisə code sintaksis işıqlandırılması axtarış və, multi-dil əvəz dəstəkləyir",
+                "Support TOC (Mündəricat) ifadeler ifadə, görev siyahısı (vəzifəsi xəritə), @ (← keçidlər)",
                 "Support decoding və filtreleme HTML tags və atributları",
-                "Support Texas (lateks ifadə, Katex Inc.) flowcharts və ardıcıllıqla diaqramları",
+                "Support Texas (lateks ifadə, Katex şirkət), flowcharts və ardıcıllıqla diaqramları",
                 "Support faylları bərpa mexanizmi",
                 "Support çox editing, limitsiz sayı"
             ]
@@ -42,17 +42,17 @@
             "SectionName": "MarkdownD qiymətləndirmək üçün necə",
             "list": [
                 {
-                    "reviewContent": "MarkdownD gözəl deyil. Simple. Clean. Perfection. Gözəl işlər.",
+                    "reviewContent": "MarkdownD gözəl deyil. Simple. Clean. Perfection. Qəşəng edilir.",
                     "userName": "evanw",
                     "professional": "Technology Promotion"
                 },
                 {
-                    "reviewContent": "MarkdownD, bu, böyük kiçik proqram nə demək olar ki, bütün yazı yoxdur.",
+                    "reviewContent": "MarkdownD Mən böyük kiçik proqram demək olar ki, bütün yazı, yoxdur.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica yazıçıları"
+                    "professional": "of Ars Technica yazıçı"
                 },
                 {
-                    "reviewContent": "Siz aşağı qiymətlərlə hər hansı bir maraq varsa, MarkdownD mütləq download dəyər.",
+                    "reviewContent": "Siz aşağı qiymətlərlə hər hansı bir maraq varsa, MarkdownD downloading dəyər.",
                     "userName": "Lifehacker nin",
                     "professional": "Web developers və dizaynerlər"
                 },
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Bəzi səhvlər Sabit."
+                        "content": "Bug giderir."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Bəzi səhvlər Sabit."
+                        "content": "Bug giderir."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -362,7 +368,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Alış",
+        "SectionName": "alış",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

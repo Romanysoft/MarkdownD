@@ -12,7 +12,7 @@
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "전체 기능을 갖춘 마크 다운 편집기. 윈도우, 리눅스와에서라도 운영 체제를 지원합니다.",
+        "ProjectTagline": "마크 다운 편집기 완전한 기능. 그것은 윈도우, 리눅스 및에서라도 운영 체제를 지원합니다.",
         "BtnDownload": "무료 평가판",
         "BtnBuy": "매수",
         "Screens": [
@@ -26,33 +26,33 @@
         "Features": {
             "SectionName": "제품 주요 특징",
             "list": [
-                "PDF 파일로 내보내기 지원",
-                "문서 인쇄에 대한 지원",
-                "지원 표준 가격 / CommonMark 및 GFM (GitHub의의 마크 다운)",
+                "PDF로 내보내기 지원",
+                "문서 지원 인쇄",
+                "지원 표준 가격 / CommonMark 및 GFM (마크 다운의 GitHub의)",
                 "실시간 미리보기 지원",
-                "텍스트의 지원되는 형식, 코드 블록, 테이블, 코드 폴딩, 다중 언어 검색 및 교체, HTML 엔티티 코드 구문 강조",
+                "서식있는 텍스트, 코드 블록, 테이블, 코드 폴딩, HTML 엔티티 코드 구문 강조를 검색하고, 다중 언어를 교체 지원",
                 "지원 TOC (목차), 이모티콘의 발현, 작업 목록 (작업 맵), @ (링크)",
-                "지지 디코드 및 필터링 HTML 태그와 속성",
-                "지원 텍사스 (라텍스 표현, Katex 주) 플로우 차트 및 시퀀스 다이어그램",
+                "지원 디코딩 및 필터링 HTML 태그와 속성",
+                "지원 텍사스 (라텍스 표현, Katex 회사), 플로우 차트 및 시퀀스 다이어그램",
                 "지원 파일 복구 메커니즘",
-                "지원하는 다중 편집, 무제한"
+                "지원 여러 편집, 무제한"
             ]
         },
         "UserReviews": {
             "SectionName": "MarkdownD을 평가하는 방법",
             "list": [
                 {
-                    "reviewContent": "MarkdownD은 놀랍습니다. 간단한. 청소. 완벽. 멋지게 수행.",
+                    "reviewContent": "MarkdownD은 놀랍습니다. 간단한. 청소. 완벽. 멋지게 다.",
                     "userName": "evanw",
                     "professional": "기술 진흥"
                 },
                 {
-                    "reviewContent": "MarkdownD이 좋은 작은 응용 프로그램입니다 제가 거의 모든 내 쓰기를 할 수 있습니다.",
+                    "reviewContent": "MarkdownD 나는 굉장히 작은 응용 프로그램입니다 거의 모든 내 쓰기를 수행.",
                     "userName": "피터 밝은",
-                    "professional": "아스 테크니카의 작가"
+                    "professional": "의 아르스 테크니카 작가"
                 },
                 {
-                    "reviewContent": "당신이 낮은 가격에 관심이 있다면, MarkdownD 확실히 다운로드 가치가있다.",
+                    "reviewContent": "당신이 저렴한 가격에 관심이 있다면, MarkdownD 다운로드가 확실히 가치가있다.",
                     "userName": "Lifehacker에의",
                     "professional": "웹 개발자와 디자이너"
                 },
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "몇 가지 오류가 수정되었습니다."
+                        "content": "버그 수정."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "몇 가지 오류가 수정되었습니다."
+                        "content": "버그 수정."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -411,6 +417,6 @@
     "RoadMapPage": {},
     "LanguagesPage": {
         "SectionName": "사용 가능한 언어",
-        "ChangeAlert": "전체 언어 변경"
+        "ChangeAlert": "전체 스위치 언어"
     }
 }

@@ -4,7 +4,7 @@
         "Feature": "বৈশিষ্ট্য",
         "Documents": "অনলাইন সহায়তা",
         "ReleaseNotes": "রিলিজ নোট",
-        "Downloads": "ফ্রি ট্রায়াল",
+        "Downloads": "বিনামূল্যে ট্রায়াল",
         "Buy": "ক্রয়",
         "Roadmap": "প্রোডাক্ট লাইন",
         "ReportIssue": "একটি সমস্যার প্রতিবেদন লিখুন",
@@ -12,8 +12,8 @@
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "সম্পূর্ণ বৈশিষ্ট্যযুক্ত Markdown এডিটর. উইন্ডোজ, লিনাক্স এবং MacOSX অপারেটিং সিস্টেমের জন্য সমর্থন.",
-        "BtnDownload": "ফ্রি ট্রায়াল",
+        "ProjectTagline": "Markdown সম্পাদক সম্পূর্ণরূপে কার্যকরী. এটি উইন্ডোজ, লিনাক্স এবং MacOSX অপারেটিং সিস্টেম সমর্থন করে.",
+        "BtnDownload": "বিনামূল্যে ট্রায়াল",
         "BtnBuy": "ক্রয়",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -26,38 +26,38 @@
         "Features": {
             "SectionName": "পণ্য প্রধান বৈশিষ্ট্য",
             "list": [
-                "পিডিএফ ফাইল হিসাবে রপ্তানি সমর্থন",
-                "ছাপানো নথি জন্য সমর্থন",
-                "সমর্থন স্ট্যান্ডার্ড মূল্য / CommonMark এবং GFM (গিটহাব এর Markdown)",
+                "পিডিএফ এক্সপোর্ট সমর্থন",
+                "Print নথি সমর্থন",
+                "সমর্থন মান মূল্য / CommonMark এবং GFM (Markdown এর GitHub)",
                 "লাইভ প্রিভিউ সমর্থন",
-                "লেখার সমর্থিত বিন্যাসের, কোড ব্লক, টেবিল, কোড ফোল্ডিং, বহু ভাষা অনুসন্ধান ও প্রতিস্থাপন, এইচটিএমএল সত্তা কোড সিনট্যাক্স হাইলাইটিং",
-                "সাপোর্ট TOC (সূচীপত্র), ইমোটিকন অভিব্যক্তি, কাজের তালিকা (টাস্ক মানচিত্র), @ (লিঙ্ক)",
-                "পাঠোদ্ধারতা সমর্থন এবং ফিল্টারিং এইচটিএমএল ট্যাগ এবং বৈশিষ্ট্যাবলী",
-                "সাপোর্ট টেক্সাস (ক্ষীর অভিব্যক্তি, Katex ইনক) ফ্লোচার্ট এবং ক্রম ডায়াগ্রামে",
-                "সাপোর্ট ফাইল রিকভারি প্রক্রিয়া",
+                "ফরম্যাট টেক্সট, কোড ব্লক, টেবিল, কোড ভাঁজ, অনুসন্ধান ও প্রতিস্থাপন, মাল্টি ভাষা, এইচটিএমএল সত্তা কোড সিনট্যাক্স হাইলাইটিং সমর্থন",
+                "সাপোর্ট TOC (সূচীপত্র), ইমোটিকন এর অভিব্যক্তি, কর্মতালিকার (কাজের অনুমতি), @ (সংযোগগুলি)",
+                "সাপোর্ট ডিকোডিং এবং ফিল্টারিং এইচটিএমএল ট্যাগ এবং বৈশিষ্ট্যাবলী",
+                "সাপোর্ট টেক্সাস (ক্ষীর অভিব্যক্তি, Katex কোম্পানি), ফ্লোচার্ট এবং ক্রম ডায়াগ্রামে",
+                "সাপোর্ট ফাইল পুনরুদ্ধারের প্রক্রিয়া",
                 "সাপোর্ট একাধিক এডিটিং, সীমাহীন সংখ্যা"
             ]
         },
         "UserReviews": {
-            "SectionName": "MarkdownD নির্ণয় করা",
+            "SectionName": "কিভাবে MarkdownD নির্ণয় করা",
             "list": [
                 {
-                    "reviewContent": "MarkdownD আশ্চর্যজনক. সরল. ক্লিন. পরিপূর্ণতা. সুন্দরভাবে সম্পন্ন.",
+                    "reviewContent": "MarkdownD আশ্চর্যজনক. সহজ. ক্লিন. পরিপূর্ণতা. সুন্দরভাবে সম্পন্ন.",
                     "userName": "evanw",
                     "professional": "টেকনোলজি প্রোমোশন"
                 },
                 {
-                    "reviewContent": "MarkdownD, এই একটি মহান সামান্য অ্যাপ্লিকেশন কি আমি প্রায় সব আমার লেখা না হয়.",
+                    "reviewContent": "MarkdownD আমি প্রায় সব আমার লেখা, যা একটি মহান সামান্য অ্যাপ্লিকেশন হয় না.",
                     "userName": "পিটার ব্রাইট",
-                    "professional": "জীবন টেকনিকা এর লেখক"
+                    "professional": "এর আর্স টেকনিকা লেখক"
                 },
                 {
-                    "reviewContent": "আপনি কম দাম কোনো আগ্রহ থাকে, তাহলে MarkdownD স্পষ্টভাবে ডাউনলোড মূল্যহীন.",
-                    "userName": "Lifehacker এর",
+                    "reviewContent": "আপনি কম দাম কোনো আগ্রহ থাকে, তাহলে MarkdownD স্পষ্টভাবে ডাউনলোড মূল্য.",
+                    "userName": "লাইফহ্যাকারে এর",
                     "professional": "ওয়েব ডেভেলপার এবং ডিজাইনার"
                 },
                 {
-                    "reviewContent": "আমি সত্যিই MarkdownD মত, বড় সুবিধা আনা হয়েছে; আমার কাজ.",
+                    "reviewContent": "আমি সত্যিই MarkdownD মত, মহান সুবিধা আনা হয়েছে; আমার কাজ.",
                     "userName": "jeruss",
                     "professional": "পিএইচপি ফ্রেমওয়ার্ক উন্নয়ন"
                 }
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "কিছু ত্রুটি সংশোধন করা হয়েছে."
+                        "content": "বাগ সংশোধন করা হয়েছে."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "কিছু ত্রুটি সংশোধন করা হয়েছে."
+                        "content": "বাগ সংশোধন করা হয়েছে."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -410,7 +416,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "বিদ্যমান ভাষাসমূহ",
-        "ChangeAlert": "সমাপ্তি করুন ভাষা"
+        "SectionName": "প্রাপ্তি সাধ্য ভাষাসমূহ",
+        "ChangeAlert": "সম্পূর্ণ সুইচ ভাষা"
     }
 }

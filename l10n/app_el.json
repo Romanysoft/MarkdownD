@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "Αρχική",
-        "Feature": "Χαρακτηριστικά",
-        "Documents": "Ηλεκτρονική Βοήθεια",
+        "Home": "σπίτι",
+        "Feature": "χαρακτηριστικά",
+        "Documents": "ηλεκτρονική Βοήθεια",
         "ReleaseNotes": "Σημειώσεις έκδοσης",
-        "Downloads": "Δωρεάν δοκιμή",
-        "Buy": "Αγορά",
-        "Roadmap": "Η γραμμή παραγωγής",
+        "Downloads": "δωρεάν δοκιμή",
+        "Buy": "αγορά",
+        "Roadmap": "Γκάμα προϊόντων",
         "ReportIssue": "Αναφέρετε ένα πρόβλημα",
-        "Languages": "Γλώσσα"
+        "Languages": "γλώσσα"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Συντάκτης πλήρεις δυνατότητες Markdown. Υποστήριξη για λειτουργικά συστήματα Windows, Linux και MacOSX.",
-        "BtnDownload": "Δωρεάν δοκιμή",
-        "BtnBuy": "Αγορά",
+        "ProjectTagline": "editor Markdown πλήρως λειτουργικό. Υποστηρίζει το λειτουργικό σύστημα των Windows, Linux και MacOSX.",
+        "BtnDownload": "δωρεάν δοκιμή",
+        "BtnBuy": "αγορά",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -26,15 +26,15 @@
         "Features": {
             "SectionName": "Τα κύρια χαρακτηριστικά του προϊόντος",
             "list": [
-                "Υποστήριξη Εξαγωγή ως αρχείο PDF",
-                "Υποστήριξη για την εκτύπωση εγγράφων",
-                "Υποστηρίζει το πρότυπο τιμή / CommonMark και GFM (Markdown GitHub του)",
-                "Ζωντανή Υποστήριξη Preview",
-                "Υποστηριζόμενες μορφές του κειμένου, τμήματα κώδικα, πίνακες, αναδίπλωση κώδικα, αναζήτηση και αντικατάσταση, πολυ-γλωσσικό, HTML σύνταξη κώδικα οντότητα ανάδειξη",
-                "Υποστήριξη TOC (πίνακα περιεχομένων), η έκφραση των emoticons, η λίστα εργασιών (Task Χάρτης), @ (links)",
-                "Αποκωδικοποίηση Υποστήριξη και φιλτραρίσματος HTML ετικέτες και χαρακτηριστικά",
-                "Υποστήριξη του Τέξας (έκφραση λατέξ, Katex Inc.) διαγράμματα ροής και διαγράμματα ακολουθίας",
-                "Αρχείων υποστήριξης μηχανισμό ανάκτησης",
+                "Υποστηρίζει εξαγωγή σε PDF",
+                "Εκτυπώστε την υποστήριξη εγγράφου",
+                "Υποστηρίζει πρότυπο τιμής / CommonMark και GFM (GitHub της Markdown)",
+                "Υποστήριξη Live Preview",
+                "Υποστηρίζει μορφοποιημένο κείμενο, μπλοκ κώδικα, πίνακες, αναδίπλωση κώδικα, αναζήτηση και αντικατάσταση, πολλαπλών γλωσσών, HTML κώδικα οντότητα επισήμανση σύνταξης",
+                "Υποστήριξη TOC (πίνακας περιεχομένων), η έκφραση των emoticons, η λίστα εργασιών (ο χάρτης εργασία), @ (links)",
+                "αποκωδικοποίηση υποστήριξη και HTML φιλτράρισμα ετικέτες και χαρακτηριστικά",
+                "Τέξας υποστήριξης (έκφραση λατέξ, Katex εταιρείας), διαγράμματα ροής και διαγράμματα ακολουθίας",
+                "αρχείων υποστήριξης του μηχανισμού ανάκτησης",
                 "Υποστήριξη πολλαπλών επεξεργασίας, απεριόριστο αριθμό"
             ]
         },
@@ -42,24 +42,24 @@
             "SectionName": "Πώς να αξιολογήσει MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD είναι καταπληκτική. Απλό. Καθαρίστε. Τελειότητα. Όμορφα γίνει.",
+                    "reviewContent": "MarkdownD είναι καταπληκτική. Απλή. Καθαρό. Τελειότητα. Όμορφα γίνει.",
                     "userName": "evanw",
-                    "professional": "Τεχνολογία Προώθησης"
+                    "professional": "τεχνολογία Προώθηση"
                 },
                 {
-                    "reviewContent": "MarkdownD είναι αυτό που κάνω σχεδόν όλα τα γραπτά μου, αυτό είναι μια μεγάλη μικρή εφαρμογή.",
+                    "reviewContent": "MarkdownD κάνω σχεδόν όλα τα γραπτά μου, η οποία είναι μια μεγάλη μικρή εφαρμογή.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica συγγραφείς του"
+                    "professional": "Ars Technica συγγραφέας"
                 },
                 {
-                    "reviewContent": "Αν έχετε οποιοδήποτε ενδιαφέρον σε χαμηλότερες τιμές, MarkdownD είναι σίγουρα αξίζει να το κατεβάσετε.",
+                    "reviewContent": "Αν έχετε οποιοδήποτε ενδιαφέρον σε χαμηλότερες τιμές, MarkdownD είναι σίγουρα αξίζει να το κατέβασμα.",
                     "userName": "Lifehacker του",
-                    "professional": "Προγραμματιστές και σχεδιαστές του Παγκόσμιου Ιστού"
+                    "professional": "Web προγραμματιστές και σχεδιαστές"
                 },
                 {
-                    "reviewContent": "Μου αρέσει πολύ MarkdownD, έφερε μεγάλη ευκολία? Τη δουλειά μου.",
+                    "reviewContent": "Μου αρέσει πολύ MarkdownD, έχει φέρει μεγάλη ευκολία? Δουλειά μου.",
                     "userName": "jeruss",
-                    "professional": "PHP ανάπτυξη πλαισίου"
+                    "professional": "ανάπτυξη πλαισίου PHP"
                 }
             ]
         }
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Απελευθέρωση",
+        "labelVersion": "ελευθέρωση",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Σταθερά ορισμένα λάθη."
+                        "content": "διορθώσεις σφαλμάτων."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Σταθερά ορισμένα λάθη."
+                        "content": "διορθώσεις σφαλμάτων."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -194,7 +194,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Απελευθέρωση",
+        "labelVersion": "ελευθέρωση",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -362,7 +368,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Αγορά",
+        "SectionName": "αγορά",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -410,7 +416,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Διαθέσιμες γλώσσες",
+        "SectionName": "διαθέσιμες γλώσσες",
         "ChangeAlert": "Πλήρης αλλαγή γλώσσας"
     }
 }

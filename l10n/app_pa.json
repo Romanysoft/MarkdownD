@@ -2,17 +2,17 @@
     "TopBar": {
         "Home": "ਮੁੱਖ",
         "Feature": "ਫੀਚਰ",
-        "Documents": "ਆਨਲਾਈਨ ਮੱਦਦ",
+        "Documents": "ਆਨਲਾਈਨ ਮਦਦ",
         "ReleaseNotes": "ਜਾਰੀ ਸੂਚਨਾ",
         "Downloads": "ਮੁਫ਼ਤ ਮੁਕੱਦਮੇ",
         "Buy": "ਖਰੀਦ",
         "Roadmap": "ਉਤਪਾਦ ਲਾਈਨ",
-        "ReportIssue": "ਇੱਕ ਸਮੱਸਿਆ ਰਿਪੋਰਟ ਕਰੋ",
+        "ReportIssue": "ਇੱਕ ਸਮੱਸਿਆ ਦੀ ਰਿਪੋਰਟ ਕਰੋ",
         "Languages": "ਭਾਸ਼ਾ"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "ਪੂਰੀ-ਗੁਣ ਮਾਰਕਡਾਊਨ ਸੰਪਾਦਕ. Windows ਨੂੰ, ਲੀਨਕਸ ਅਤੇ MacOSX ਓਪਰੇਟਿੰਗ ਸਿਸਟਮ ਲਈ ਸਹਿਯੋਗ.",
+        "ProjectTagline": "ਮਾਰਕਡਾਊਨ ਸੰਪਾਦਕ ਪੂਰੀ ਫੰਕਸ਼ਨਲ. ਇਹ Windows, ਲੀਨਕਸ ਅਤੇ MacOSX ਓਪਰੇਟਿੰਗ ਸਿਸਟਮ ਨੂੰ ਸਹਿਯੋਗ ਦਿੰਦਾ ਹੈ.",
         "BtnDownload": "ਮੁਫ਼ਤ ਮੁਕੱਦਮੇ",
         "BtnBuy": "ਖਰੀਦ",
         "Screens": [
@@ -26,20 +26,20 @@
         "Features": {
             "SectionName": "ਉਤਪਾਦ ਮੁੱਖ ਫੀਚਰ",
             "list": [
-                "PDF ਫਾਇਲ ਦੇ ਰੂਪ ਵਿੱਚ ਨਿਰਯਾਤ ਸਮਰਥਨ",
-                "ਪ੍ਰਿੰਟਿੰਗ ਦਸਤਾਵੇਜ਼ ਲਈ ਸਹਿਯੋਗ",
-                "ਨੂੰ ਸਹਿਯੋਗ ਮਿਆਰੀ ਕੀਮਤ / CommonMark ਅਤੇ GFM (GitHub ਦੇ ਮਾਰਕਡਾਊਨ)",
+                "PDF ਨੂੰ ਬਰਾਮਦ ਸਹਿਯੋਗ",
+                "ਪ੍ਰਿੰਟ ਦਸਤਾਵੇਜ਼ ਨੂੰ ਸਹਿਯੋਗ ਨੂੰ",
+                "ਨੂੰ ਸਹਿਯੋਗ ਮਿਆਰੀ ਕੀਮਤ / CommonMark ਅਤੇ GFM (ਮਾਰਕਡਾਊਨ ਦੀ GitHub)",
                 "ਲਾਈਵ ਜਾਣਕਾਰੀ ਦੇ ਸਹਿਯੋਗ",
-                "ਪਾਠ ਦੇ ਸਹਾਇਕ ਫਾਰਮੈਟ, ਕੋਡ ਬਲਾਕ, ਟੇਬਲ, ਕੋਡ ਤਹਿ ਕਰਣਾ,, ਬਹੁ-ਭਾਸ਼ਾ ਦੀ ਖੋਜ ਅਤੇ ਤਬਦੀਲ ਕਰੋ, HTML ਹਸਤੀ ਕੋਡ ਸੰਕਟੇਕਸ ਹਾਈਲਾਇਟ",
-                "ਸਹਿਯੋਗ ਜਾਪਦਾ (ਭਾਗ ਦੇ ਮੇਜ਼ ਨੂੰ), ਇਮੋਸ਼ਨ ਦੇ ਸਮੀਕਰਨ, ਕੰਮ ਸੂਚੀ (ਟਾਸਕ ਨਕਸ਼ਾ), @ (ਲਿੰਕ)",
-                "ਸਹਿਯੋਗ ਅਿਜਹੇ ਅਤੇ ਫਿਲਟਰ HTML ਟੈਗ ਅਤੇ ਗੁਣ",
-                "ਸਹਿਯੋਗ ਟੈਕਸਾਸ (ਲੈਟੇਕਸ ਸਮੀਕਰਨ, Katex ਇੰਕ) flowcharts ਅਤੇ ਕ੍ਰਮ ਇਸ ਚਿੱਤਰ",
-                "ਸਹਿਯੋਗ ਫਾਇਲ ਰਿਕਵਰੀ ਵਿਧੀ",
+                "ਛਪਿਆ, ਕੋਡ ਬਲਾਕ, ਟੇਬਲ, ਕੋਡ ਤਹਿ ਕਰਣਾ, ਖੋਜ ਅਤੇ ਤਬਦੀਲ ਕਰੋ, ਬਹੁ-ਭਾਸ਼ਾ, ਨੂੰ HTML ਹਸਤੀ ਕੋਡ ਸੰਕਟੇਕਸ ਹਾਈਲਾਇਟ ਨੂੰ ਸਹਿਯੋਗ",
+                "ਸਹਿਯੋਗ TOC ਦੀ (ਭਾਗ ਦੇ ਮੇਜ਼), ਇਮੋਸ਼ਨ ਦੇ ਸਮੀਕਰਨ, ਕੰਮ ਸੂਚੀ (ਕੰਮ ਦਾ ਨਕਸ਼ਾ), @ (ਲਿੰਕ)",
+                "ਸਹਿਯੋਗ ਡੀਕੋਡਿੰਗ ਅਤੇ ਫਿਲਟਰ HTML ਟੈਗ ਅਤੇ ਗੁਣ",
+                "ਸਹਿਯੋਗ ਟੈਕਸਾਸ (ਲੈਟੇਕਸ ਸਮੀਕਰਨ, Katex ਕੰਪਨੀ ਨੂੰ), flowcharts ਅਤੇ ਕ੍ਰਮ ਚਿੱਤਰ",
+                "ਸਹਿਯੋਗ ਨੂੰ ਫਾਇਲ ਰਿਕਵਰੀ ਢੰਗ",
                 "ਸਹਿਯੋਗ ਨੂੰ ਕਈ ਸੋਧ, ਬੇਅੰਤ ਗਿਣਤੀ ਨੂੰ"
             ]
         },
         "UserReviews": {
-            "SectionName": "MarkdownD ਲਾਉਣ ਕਰਨਾ ਹੈ",
+            "SectionName": "ਕਰਨਾ MarkdownD ਲਾਉਣ ਲਈ",
             "list": [
                 {
                     "reviewContent": "MarkdownD ਹੈਰਾਨੀਜਨਕ ਹੈ. ਸਧਾਰਨ. ਸਾਫ਼ ਕਰੋ. ਮੁਕੰਮਲ. ਬਖੂਬੀ ਕੀਤਾ ਹੈ.",
@@ -47,13 +47,13 @@
                     "professional": "ਟੈਕਨਾਲੋਜੀ ਪ੍ਰਮੋਸ਼ਨ"
                 },
                 {
-                    "reviewContent": "MarkdownD, ਇਹ ਇੱਕ ਬਹੁਤ ਵਧੀਆ ਜਿਹਾ ਕਾਰਜ ਹੈ ਕੀ ਮੈਨੂੰ ਲਗਭਗ ਸਾਰੇ ਲਿਖਣ ਦੀ, ਮੇਰੇ ਲਈ ਕੀ ਹੈ.",
+                    "reviewContent": "MarkdownD ਮੈਨੂੰ ਲਗਭਗ ਸਾਰੇ ਲਿਖਣ ਦੀ, ਮੇਰੇ, ਜੋ ਕਿ ਇੱਕ ਬਹੁਤ ਵਧੀਆ ਜਿਹਾ ਕਾਰਜ ਹੈ ਕਰਦੇ ਹਨ.",
                     "userName": "ਪਤਰਸ ਬ੍ਰਾਇਟ",
-                    "professional": "Ars Technica ਦੇ ਲੇਖਕ"
+                    "professional": "ਦੇ Ars Technica ਲੇਖਕ"
                 },
                 {
-                    "reviewContent": "ਤੁਹਾਨੂੰ ਹੇਠਲੇ ਭਾਅ ਵਿਚ ਕੋਈ ਵੀ ਦਿਲਚਸਪੀ ਹੈ, ਜੇ, MarkdownD ਯਕੀਨੀ ਤੌਰ 'ਤੇ ਡਾਊਨਲੋਡ ਰੁਪਏ ਦੀ ਹੈ.",
-                    "userName": "Lifehacker ਦੇ",
+                    "reviewContent": "ਤੁਹਾਨੂੰ ਘੱਟ ਭਾਅ ਵਿਚ ਕੋਈ ਦਿਲਚਸਪੀ ਹੈ, ਜੇਕਰ, MarkdownD ਯਕੀਨੀ ਤੌਰ 'ਤੇ ਡਾਊਨਲੋਡ ਕਰਨ ਦੀ ਕੀਮਤ ਹੈ.",
+                    "userName": "Lifehacker ਦੀ",
                     "professional": "ਵੈੱਬ ਡਿਵੈਲਪਰ ਅਤੇ ਡਿਜ਼ਾਈਨਰ"
                 },
                 {
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "ਕੁਝ ਗਲਤੀ ਤੈਅ ਕੀਤਾ ਹੈ."
+                        "content": "ਬੱਗ ਫਿਕਸ."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "ਕੁਝ ਗਲਤੀ ਤੈਅ ਕੀਤਾ ਹੈ."
+                        "content": "ਬੱਗ ਫਿਕਸ."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },

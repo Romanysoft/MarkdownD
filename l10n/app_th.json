@@ -2,8 +2,8 @@
     "TopBar": {
         "Home": "บ้าน",
         "Feature": "คุณสมบัติ",
-        "Documents": "ช่วยเหลือแบบออนไลน์",
-        "ReleaseNotes": "หมายเหตุรีลีส",
+        "Documents": "ความช่วยเหลือออนไลน์",
+        "ReleaseNotes": "บันทึกประจำรุ่น",
         "Downloads": "ทดลองใช้ฟรี",
         "Buy": "ซื้อ",
         "Roadmap": "สายผลิตภัณฑ์",
@@ -12,7 +12,7 @@
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "บรรณาธิการ Markdown เต็มรูปแบบ การสนับสนุนสำหรับ Windows, Linux และระบบปฏิบัติการ MacOSX",
+        "ProjectTagline": "แก้ไข Markdown การทำงานอย่างเต็มที่ รองรับ Windows, Linux และระบบปฏิบัติการ MacOSX",
         "BtnDownload": "ทดลองใช้ฟรี",
         "BtnBuy": "ซื้อ",
         "Screens": [
@@ -26,15 +26,15 @@
         "Features": {
             "SectionName": "คุณสมบัติหลักสินค้า",
             "list": [
-                "สนับสนุนการส่งออกเป็นไฟล์ PDF",
-                "การสนับสนุนสำหรับการพิมพ์เอกสาร",
-                "รองรับราคามาตรฐาน / CommonMark และ GFM (Markdown GitHub ของ)",
-                "สดการสนับสนุนการแสดงตัวอย่าง",
-                "รูปแบบที่สนับสนุนข้อความบล็อกรหัสตารางพับโค้ด, การค้นหาและแทนที่หลายภาษา HTML นิติบุคคลรหัสเน้นไวยากรณ์",
-                "สนับสนุน TOC (สารบัญ) การแสดงออกของอีโมติคอน, รายการงาน (Task แผนที่) @ (ลิงก์)",
-                "ถอดรหัสการสนับสนุนและการกรองแท็กและคุณลักษณะ",
-                "สนับสนุนเท็กซัส (การแสดงออกยาง Katex อิงค์) ผังงานและไดอะแกรมลำดับ",
-                "สนับสนุนไฟล์กลไกการกู้คืน",
+                "รองรับการส่งออกไปยังไฟล์ PDF",
+                "พิมพ์เอกสารสนับสนุน",
+                "รองรับราคามาตรฐาน / CommonMark และ GFM (GitHub ของ Markdown)",
+                "สนับสนุนการแสดงตัวอย่างแบบสด",
+                "รองรับการจัดรูปแบบข้อความบล็อกรหัสตารางพับโค้ด, การค้นหาและแทนที่หลายภาษา HTML รหัสนิติบุคคลเน้นไวยากรณ์",
+                "สนับสนุน TOC (สารบัญ) การแสดงออกของอีโมติคอน, รายการงาน (แผนที่งาน) @ (ลิงก์)",
+                "ถอดรหัสการสนับสนุนและการกรอง HTM​​L แท็กและแอตทริบิวต์",
+                "สนับสนุนเท็กซัส (การแสดงออกยาง บริษัท Katex) ผังงานและไดอะแกรมลำดับ",
+                "แฟ้มสนับสนุนกลไกการกู้คืน",
                 "สนับสนุนการแก้ไขหลายไม่ จำกัด จำนวน"
             ]
         },
@@ -42,24 +42,24 @@
             "SectionName": "วิธีการประเมิน MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD เป็นที่น่าตื่นตาตื่นใจ ที่เรียบง่าย สะอาด ความสมบูรณ์แบบ ทำอย่าง",
+                    "reviewContent": "MarkdownD เป็นที่น่าตื่นตาตื่นใจ ง่าย สะอาด ความสมบูรณ์ ทำอย่าง",
                     "userName": "evanw",
                     "professional": "โปรโมชั่นเทคโนโลยี"
                 },
                 {
-                    "reviewContent": "MarkdownD คือสิ่งที่ผมทำเกือบทั้งหมดเขียนของฉันนี้เป็นโปรแกรมที่มีน้อยมาก",
+                    "reviewContent": "MarkdownD ฉันทำเกือบทั้งหมดเขียนของฉันซึ่งเป็นโปรแกรมที่น้อยมาก",
                     "userName": "ปีเตอร์สดใส",
-                    "professional": "Ars Technica ของนักเขียน"
+                    "professional": "นักเขียน Ars Technica ของ"
                 },
                 {
-                    "reviewContent": "หากคุณมีความสนใจในราคาที่ต่ำกว่าใด ๆ MarkdownD เป็นมั่นเหมาะมูลค่าการดาวน์โหลด",
+                    "reviewContent": "หากคุณมีความสนใจใด ๆ ในราคาที่ต่ำกว่า MarkdownD เป็นมั่นเหมาะมูลค่าการดาวน์โหลด",
                     "userName": "Lifehacker ของ",
                     "professional": "นักพัฒนาเว็บและนักออกแบบ"
                 },
                 {
-                    "reviewContent": "ผมชอบ MarkdownD ได้นำความสะดวกสบายที่ดีการทำงานของฉัน",
+                    "reviewContent": "ผมชอบ MarkdownD ได้นำความสะดวกสบายมาก; การทำงานของฉัน",
                     "userName": "jeruss",
-                    "professional": "PHP การพัฒนากรอบ"
+                    "professional": "การพัฒนากรอบ PHP"
                 }
             ]
         }
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "ที่วางจำหน่าย",
+        "labelVersion": "ปล่อย",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "คงข้อผิดพลาดบาง"
+                        "content": "แก้ไขข้อผิดพลาด"
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "คงข้อผิดพลาดบาง"
+                        "content": "แก้ไขข้อผิดพลาด"
                     },
                     {
                         "platform": "{{Windows}}",
@@ -194,7 +194,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "ที่วางจำหน่าย",
+        "labelVersion": "ปล่อย",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -410,7 +416,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "ภาษาที่ใช้ได้",
+        "SectionName": "Available ภาษา",
         "ChangeAlert": "ภาษาสวิทช์ที่สมบูรณ์"
     }
 }

@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "Shtëpi",
-        "Feature": "Karakteristika",
-        "Documents": "Ndihmë Online",
+        "Home": "shtëpi",
+        "Feature": "Features",
+        "Documents": "online Ndihmë",
         "ReleaseNotes": "Shënime Versioni",
-        "Downloads": "Free Trial",
-        "Buy": "Blerje",
+        "Downloads": "Trial pa pagesë",
+        "Buy": "blerje",
         "Roadmap": "Programi i prodhimit",
         "ReportIssue": "Raporto një problem",
-        "Languages": "Gjuhë"
+        "Languages": "gjuhë"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Të plotë me tipare editor Markdown. Mbështetje për Windows, Linux dhe MacOSX sistemet operative.",
-        "BtnDownload": "Free Trial",
-        "BtnBuy": "Blerje",
+        "ProjectTagline": "Markdown editor plotësisht funksionale. Ajo mbështet Windows, Linux dhe MacOSX sistemit operativ.",
+        "BtnDownload": "Trial pa pagesë",
+        "BtnBuy": "blerje",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Produktit karakteristika kryesore",
+            "SectionName": "Karakteristika të produktit kryesore",
             "list": [
-                "Mbështetjen e eksportit si PDF",
-                "Mbështetje për të printuar dokumente",
-                "Mbështet Çmimi standard / CommonMark dhe GFM (Markdown GitHub s)",
+                "Mbështet të eksportuar në PDF",
+                "Printo mbështetjen dokument",
+                "Mbështet Çmimi standard / CommonMark dhe GFM (Github e markdown)",
                 "Live Support Preview",
-                "Formatet e mbështetura të tekstit, blloqe kodi, tavolina, palosshme Kodi, kërko dhe të zëvendësojë, multi-gjuhë, duke theksuar HTML kod entitet sintaksë",
-                "Mbështetje TOC (tabela e përmbajtjes), shprehja e figurinave, lista detyrë (Task Map), @ (lidhje)",
-                "Mbështetje deshifrim dhe HTML filtrim tags dhe atributet",
-                "Mbështetje Texas (shprehje latex, Katex Inc.) flowcharts dhe diagramet rend",
-                "Mbështetje fotografi mekanizëm shërim",
-                "Mbështetje redaktimi shumta, numër të pakufizuar"
+                "Mbështet tekstin e formatuar, blloqe kod, tavolina, kodin palosjen, të kërkuar dhe të zëvendësojë, multi-gjuhë, HTML code entitet theksim i sintaksës",
+                "Mbështetje TOC (tabela e përmbajtjes), shprehja e figurinave, lista detyrë (harta detyrë), @ (links)",
+                "deshifrim mbështetje dhe filtrim HTML tags dhe atributet",
+                "Mbështetje Texas (shprehje latex, kompania Katex), flowcharts dhe diagramet rend",
+                "files mbështetje mekanizëm shërim",
+                "Mbështetje editing të shumta, numër të pakufizuar"
             ]
         },
         "UserReviews": {
             "SectionName": "Si për të vlerësuar MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD është e mahnitshme. Simple. Të pastër. Përsosmëri. Bërë mirë.",
+                    "reviewContent": "MarkdownD është e mahnitshme. Simple. Të pastër. Perfection. bërë mirë.",
                     "userName": "evanw",
                     "professional": "Teknologji Promovimi"
                 },
                 {
-                    "reviewContent": "MarkdownD është ajo që unë bëj pothuajse të gjithë shkrimin tim, kjo është një kërkesë e madhe pak.",
+                    "reviewContent": "MarkdownD bëj pothuajse të gjithë shkrimin tim, e cila është një kërkesë e madhe pak.",
                     "userName": "Peter Bright",
-                    "professional": "Shkrimtarë Ars Technica-së"
+                    "professional": "Ars Technica shkrimtar i"
                 },
                 {
-                    "reviewContent": "Nëse keni ndonjë interes në çmime më të ulëta, MarkdownD është definitivisht vlen shkarko.",
+                    "reviewContent": "Nëse keni ndonjë interes në çmime më të ulëta, MarkdownD është padyshim një vlerë shkarkimit.",
                     "userName": "Lifehacker-së",
                     "professional": "Hartuesit Web dhe designers"
                 },
                 {
                     "reviewContent": "I really like MarkdownD, ka sjellë komoditet të madh, punën time.",
                     "userName": "jeruss",
-                    "professional": "Zhvillimi i korniza PHP"
+                    "professional": "zhvillimi kuadër PHP"
                 }
             ]
         }
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Lirim",
+        "labelVersion": "lirim",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fixed disa gabime."
+                        "content": "Bug fixes."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fixed disa gabime."
+                        "content": "Bug fixes."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -194,7 +194,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Lirim",
+        "labelVersion": "lirim",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -362,7 +368,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Blerje",
+        "SectionName": "blerje",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -410,7 +416,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Gjuhë të disponueshme",
-        "ChangeAlert": "Complete kaloni gjuhë"
+        "SectionName": "Në dispozicion Gjuhë",
+        "ChangeAlert": "Complete Gjuha switch"
     }
 }

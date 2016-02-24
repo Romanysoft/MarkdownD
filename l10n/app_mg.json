@@ -1,19 +1,19 @@
 {
     "TopBar": {
         "Home": "Home",
-        "Feature": "Endri-javatra",
+        "Feature": "endri-javatra",
         "Documents": "Online Help",
         "ReleaseNotes": "Release Notes",
-        "Downloads": "Free Fitsarana",
+        "Downloads": "Free Trial",
         "Buy": "Purchase",
         "Roadmap": "Product tsipika",
-        "ReportIssue": "Report ny olana",
-        "Languages": "Language"
+        "ReportIssue": "Hampahafantatra olana",
+        "Languages": "fiteny"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Full-nasongadina Markdown tonian-dahatsoratra. Fanohanana ny Windows, Linux sy MacOSX miasa rafitra.",
-        "BtnDownload": "Free Fitsarana",
+        "ProjectTagline": "Markdown tonian-dahatsoratra tanteraka asany. Tsy manohana Windows, Linux sy MacOSX rafitra fandidiana.",
+        "BtnDownload": "Free Trial",
         "BtnBuy": "Purchase",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,40 +24,40 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Vokatra tena endri-javatra",
+            "SectionName": "Product tena endri-javatra",
             "list": [
-                "Manohana Export ho PDF rakitra",
-                "Fanohanana ny fanontam-pirinty antontan-taratasy",
+                "Manohana fanondranana ny PDF",
+                "Pirinty ny antontan-taratasy fanohanana",
                 "Manohana fitsipika vidiny / CommonMark sy GFM (GitHub ny Markdown)",
                 "Live Preview Support",
-                "Supported endrika ny lahatsoratra, fehezan-dalàna vato, latabatra, fehezan-dalàna mbola hanohon, karohy sy hanoloana, maro-teny, HTML fikambanana fehezan-dalàna Syntaxe manasongadina",
-                "Support tộc (Loha Hevitra ato Anatiny), ny fanehoana Emoticons, ny asa lisitra (Task Map), @ (rohy)",
-                "Support decoding sy ny fanasivanana HTML Tags sy ny toetra",
-                "Support Texas (LaTeX fanehoan-kevitra, Katex Inc.) flowcharts sy ny filaharany kisary",
-                "Fanohanana raki-daza fanarenana rafitra",
-                "Fanohanana maro fanitsiana, isa tsy manam-petra"
+                "Manohana Sarintany, fehezan-dalàna kilalao miendrika biriky, latabatra, fehezan-dalàna mbola hanohon, karohy sy hanoloana, multi-teny, fehezan-dalàna Syntaxe HTML fikambanana manasongadina",
+                "Support tộc (Loha Hevitra ato Anatiny), ny fanehoana Emoticons, ny asa lisitra (ny asa sarintany), @ (rohy)",
+                "Support decoding sy ny fanivanana HTML Tags sy ny toetra",
+                "Support Texas (LaTeX teny, Katex orinasa), flowcharts sy ny dingana kisary",
+                "Support raki-daza sitrana rafitra",
+                "Support maro fanitsiana, isa tsy manam-petra"
             ]
         },
         "UserReviews": {
             "SectionName": "Ny fomba hanombanana MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD no mahagaga. Simple. Madio. Fahalavorariana. Tsara anefa izany.",
+                    "reviewContent": "MarkdownD dia mahagaga. Simple. Clean. Perfection. Tsara anefa izany.",
                     "userName": "evanw",
                     "professional": "Technology Promotion"
                 },
                 {
-                    "reviewContent": "MarkdownD no saika ataoko ny soratra rehetra, izany no lehibe fampiharana kely.",
+                    "reviewContent": "MarkdownD ataoko saika ny soratra rehetra, izay lehibe fampiharana kely.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica ny mpanoratra"
+                    "professional": "Ars Technica mpanoratra ny"
                 },
                 {
-                    "reviewContent": "Raha misy liana amin'ny vidiny ambany, MarkdownD dia tena mendrika ny Download.",
+                    "reviewContent": "Raha toa ka misy liana amin'ny vidiny ambany, MarkdownD dia tena mendrika downloading.",
                     "userName": "Lifehacker ny",
                     "professional": "Web mpandraharaha sy ny endrika"
                 },
                 {
-                    "reviewContent": "Tena toy ny MarkdownD, dia nitondra be tsy hanahirana; asako.",
+                    "reviewContent": "Tena toy ny MarkdownD, efa nitondra tsy hanahirana be, ny asako.",
                     "userName": "jeruss",
                     "professional": "PHP rafitra fampandrosoana"
                 }
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Raikitra fahadisoana sasantsasany."
+                        "content": "Bibikely fanamboarana."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Raikitra fahadisoana sasantsasany."
+                        "content": "Bibikely fanamboarana."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },

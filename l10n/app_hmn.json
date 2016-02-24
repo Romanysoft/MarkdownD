@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "Tsev",
-        "Feature": "Nta",
-        "Documents": "Online Pab",
-        "ReleaseNotes": "Sau ntawv tso lus",
-        "Downloads": "Dawb Mus sib hais",
-        "Buy": "Purchase",
-        "Roadmap": "Khoom kab",
-        "ReportIssue": "Qhia txog ib qho teeb meem",
-        "Languages": "Lus"
+        "Home": "tsev",
+        "Feature": "nta",
+        "Documents": "online Pab",
+        "ReleaseNotes": "sau ntawv tso lus",
+        "Downloads": "dawb mus sib hais",
+        "Buy": "purchase",
+        "Roadmap": "khoom kab",
+        "ReportIssue": "Qhia ib qho teeb meem",
+        "Languages": "lus"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Tag nrho cov-featured Markdown editor. Them nyiaj yug rau lub qhov rais, Linux thiab MacOSX kev khiav hauj lwm systems.",
-        "BtnDownload": "Dawb Mus sib hais",
-        "BtnBuy": "Purchase",
+        "ProjectTagline": "Markdown editor haumxeeb nkaus. Nws txhawb lub qhov rais, Linux thiab MacOSX operating system.",
+        "BtnDownload": "dawb mus sib hais",
+        "BtnBuy": "purchase",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -26,38 +26,38 @@
         "Features": {
             "SectionName": "Khoom tseem ceeb nta",
             "list": [
-                "Txhawb Export li PDF ntaub ntawv",
-                "Them nyiaj yug rau printing cov ntaub ntawv",
-                "Kev txhawb txheem nqi / CommonMark thiab GFM (GitHub lub Markdown)",
-                "Nyob Preview them nyiaj yug",
-                "Txhawb kev tawm tswv ntawm cov ntawv, code blocks, ntxhuav, code folding, nrhiav thiab hloov, multi-language, HTML code chaw syntax highlighting",
-                "Them nyiaj yug TOC (cov txheej txheem), qhov qhia txog emoticons, neeg ua hauj lwm daim ntawv teev (ua hauj lwm daim ntawv qhia), @ (mus)",
-                "Them nyiaj yug seev suab thiab filtering HTML cim npe thiab muab",
-                "Them nyiaj yug Texas (latex qhia, Katex Inc.) flowcharts thiab ib theem zuj zus kos duab",
-                "Them nyiaj yug cov ntaub ntawv rov qab mechanism",
-                "Them nyiaj yug ntau yam editing, xov tooj unlimited"
+                "Txhawb exporting rau PDF",
+                "Sau rau daim ntawv pab txhawb nqa",
+                "Txhawb txheem nqi / CommonMark thiab GFM (GitHub ntawm Markdown)",
+                "Nyob Preview Kev them nyiaj yug",
+                "Txhawb formatted ntawv nyeem, code blocks, tables, code folding, nrhiav thiab hloov, multi-language, HTML chaw code syntax highlighting",
+                "Kev them nyiaj yug TOC (cov txheej txheem), cov kev qhia ntawm emoticons, neeg ua hauj lwm daim ntawv teev (cov neeg ua hauj lwm daim ntawv qhia), @ (mus)",
+                "Kev them nyiaj yug seev suab thiab filtering HTML cim npe thiab muab",
+                "Kev them nyiaj yug Texas (latex qhia, Katex lub tuam txhab), flowcharts thiab ib theem zuj zus kos duab",
+                "Kev them nyiaj yug cov ntaub ntawv rov qab mechanism",
+                "Kev them nyiaj yug ntau yam editing, unlimited tooj"
             ]
         },
         "UserReviews": {
             "SectionName": "Yuav ua li cas mus soj ntsuam MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD yog amazing. Tej yam yooj yim. Huv si. Zoo tag nrho. Zoo ua li cas.",
+                    "reviewContent": "MarkdownD yog amazing. Tej yam yooj yim. Huv si. Perfection. Nicely ua li cas.",
                     "userName": "evanw",
-                    "professional": "Technology Promotion"
+                    "professional": "technology Promotion"
                 },
                 {
-                    "reviewContent": "MarkdownD yog kuv ua li cas yuav luag tag nrho kuv kev sau ntawv, qhov no yog ib tug zoo me ntsis daim ntawv thov.",
+                    "reviewContent": "MarkdownD kuv ua yuav luag tag nrho kuv kev sau ntawv, uas yog ib tug zoo me ntsis daim ntawv thov.",
                     "userName": "Peter Kaj",
-                    "professional": "Ars Technica tus sau ntawv"
+                    "professional": "Ars Technica txawj sau ntawv ntawm"
                 },
                 {
-                    "reviewContent": "Yog hais tias koj muaj tej kev txaus siab rau tus nqi qis, MarkdownD yog twv yuav raug hu muaj nqis rau tus download.",
+                    "reviewContent": "Yog hais tias koj muaj tej kev txaus siab rau txo nqi, MarkdownD yog twv yuav raug hu muaj nqis daus.",
                     "userName": "LifeHacker tus",
-                    "professional": "Web tsim thiab designers"
+                    "professional": "Web developers thiab designers"
                 },
                 {
-                    "reviewContent": "Kuv yeej zoo li MarkdownD, tau coj zoo kawg kab ntsab; kuv ua hauj lwm.",
+                    "reviewContent": "Kuv yeej nyiam MarkdownD, tau coj zoo kawg kab ntsab; kuv ua hauj lwm.",
                     "userName": "jeruss",
                     "professional": "PHP moj khaum kev loj hlob"
                 }
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Taag ib co uas tsis."
+                        "content": "Kab laum fixes."
                     }
                 ]
             },
@@ -179,15 +179,15 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Taag ib co uas tsis."
+                        "content": "Kab laum fixes."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Cov thawj tso tawm."
+                        "content": "Tus thawj tso tawm."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Cov thawj tso tawm."
+                        "content": "Tus thawj tso tawm."
                     }
                 ]
             }
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -362,7 +368,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Purchase",
+        "SectionName": "purchase",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -410,7 +416,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Qhov ntau thiab Yam Lus",
-        "ChangeAlert": "Sau kom tiav hloov lus"
+        "SectionName": "Qhov Yam lus",
+        "ChangeAlert": "Sau kom tiav tes hloov qhov lus"
     }
 }

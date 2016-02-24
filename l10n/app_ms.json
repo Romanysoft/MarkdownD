@@ -1,20 +1,20 @@
 {
     "TopBar": {
         "Home": "Laman",
-        "Feature": "Ciri-ciri",
-        "Documents": "Bantuan Dalam Talian",
-        "ReleaseNotes": "Nota Keluaran",
-        "Downloads": "Percubaan Percuma",
-        "Buy": "Pembelian",
-        "Roadmap": "Barisan produk",
+        "Feature": "ciri-ciri",
+        "Documents": "Bantuan Dalam talian",
+        "ReleaseNotes": "Nota keluaran",
+        "Downloads": "Percubaan percuma",
+        "Buy": "pembelian",
+        "Roadmap": "barisan produk",
         "ReportIssue": "Laporkan masalah",
-        "Languages": "Bahasa"
+        "Languages": "bahasa"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Editor turun harga berciri penuh. Sokongan untuk Windows, Linux dan MacOSX sistem operasi.",
-        "BtnDownload": "Percubaan Percuma",
-        "BtnBuy": "Pembelian",
+        "ProjectTagline": "editor turun harga berfungsi sepenuhnya. Ia menyokong sistem operasi Windows, Linux dan MacOSX.",
+        "BtnDownload": "Percubaan percuma",
+        "BtnBuy": "pembelian",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -26,15 +26,15 @@
         "Features": {
             "SectionName": "Ciri-ciri utama produk",
             "list": [
-                "Menyokong Eksport sebagai fail PDF",
-                "Sokongan untuk mencetak dokumen-dokumen",
-                "Menyokong harga standard / CommonMark dan GFM (turun harga GitHub ini)",
+                "Menyokong mengeksport ke PDF",
+                "Cetak dokumen sokongan",
+                "Menyokong harga standard / CommonMark dan GFM (GitHub untuk turun harga)",
                 "Sokongan Preview Live",
-                "Format yang disokong teks, blok kod, jadual, kod lipatan, mencari dan menggantikan, multi-bahasa, entiti HTML kod penonjolan sintaks",
-                "Sokongan TOC (isi kandungan), ungkapan emotikon, senarai tugas (Task Map), @ (pautan)",
+                "Menyokong teks diformat, blok kod, jadual, lipatan kod, mencari dan menggantikan, pelbagai bahasa, HTML kod entiti penonjolan sintaks",
+                "Sokongan TOC (isi kandungan), ungkapan emotikon, senarai tugas (peta tugas), @ (pautan)",
                 "Sokongan penyahkodan dan penapisan HTML tag dan sifat-sifat",
-                "Sokongan Texas (ungkapan getah, Katex Inc.) carta aliran dan gambar rajah jujukan",
-                "Fail sokongan mekanisme pemulihan",
+                "Sokongan Texas (ungkapan getah, syarikat Katex), carta aliran dan gambar rajah jujukan",
+                "fail sokongan mekanisme pemulihan",
                 "Sokongan penyuntingan pelbagai, jumlah yang tidak terhad"
             ]
         },
@@ -42,19 +42,19 @@
             "SectionName": "Bagaimana untuk menilai MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD luar biasa. Simple. Bersih. Kesempurnaan. Baik dilakukan.",
+                    "reviewContent": "MarkdownD amat menakjubkan. Simple. Bersih. Kesempurnaan. Baik dilakukan.",
                     "userName": "evanw",
                     "professional": "Promosi Teknologi"
                 },
                 {
-                    "reviewContent": "MarkdownD adalah apa yang saya melakukan hampir semua penulisan saya, ini adalah aplikasi kecil yang hebat.",
+                    "reviewContent": "MarkdownD saya lakukan hampir semua penulisan saya, yang adalah aplikasi kecil yang hebat.",
                     "userName": "Peter Bright",
-                    "professional": "Penulis Ars Technica ini"
+                    "professional": "Ars Technica penulis"
                 },
                 {
-                    "reviewContent": "Jika anda mempunyai apa-apa kepentingan dalam harga yang lebih rendah, MarkdownD pasti bernilai muat turun.",
-                    "userName": "Ini Lifehacker",
-                    "professional": "Pembangun laman web dan pereka"
+                    "reviewContent": "Jika anda mempunyai apa-apa kepentingan dalam harga yang lebih rendah, MarkdownD pasti bernilai memuat turun.",
+                    "userName": "Lifehacker ini",
+                    "professional": "pembangun laman web dan pereka"
                 },
                 {
                     "reviewContent": "Saya benar-benar suka MarkdownD, telah membawa kemudahan yang besar; kerja saya.",
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Tetap beberapa kesilapan."
+                        "content": "Pembetulan pepijat."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Tetap beberapa kesilapan."
+                        "content": "Pembetulan pepijat."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -362,7 +368,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Pembelian",
+        "SectionName": "pembelian",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -411,6 +417,6 @@
     "RoadMapPage": {},
     "LanguagesPage": {
         "SectionName": "Bahasa yang tersedia",
-        "ChangeAlert": "Suis bahasa yang lengkap"
+        "ChangeAlert": "Complete bahasa suis"
     }
 }

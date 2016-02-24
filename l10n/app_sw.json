@@ -1,19 +1,19 @@
 {
     "TopBar": {
-        "Home": "Nyumbani",
-        "Feature": "Makala",
-        "Documents": "Online Msaada",
-        "ReleaseNotes": "Maelezo ya kutolewa",
-        "Downloads": "Bure kesi",
+        "Home": "nyumbani",
+        "Feature": "makala",
+        "Documents": "online Msaada",
+        "ReleaseNotes": "Release Notes",
+        "Downloads": "bure kesi",
         "Buy": "Ununuzi",
-        "Roadmap": "Mstari wa bidhaa",
+        "Roadmap": "bidhaa line",
         "ReportIssue": "Ripoti tatizo",
-        "Languages": "Lugha"
+        "Languages": "lugha"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Full-featured Markdown mhariri. Msaada kwa ajili ya Windows, Linux na MacOSX mifumo ya uendeshaji.",
-        "BtnDownload": "Bure kesi",
+        "ProjectTagline": "Markdown mhariri kazi kikamilifu. Ni inasaidia Windows, Linux na MacOSX mfumo wa uendeshaji.",
+        "BtnDownload": "bure kesi",
         "BtnBuy": "Ununuzi",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -26,15 +26,15 @@
         "Features": {
             "SectionName": "Bidhaa sifa kuu",
             "list": [
-                "Kusaidia Export kama faili PDF",
-                "Msaada kwa ajili ya hati ya uchapishaji",
-                "Inasaidia bei kiwango / CommonMark na GFM (Markdown GitHub wa)",
-                "Kuishi Preview Support",
-                "Mkono miundo ya maandishi, kanuni na vitalu, meza, kanuni na kukunja, kutafuta na badala, lugha mbalimbali, HTML chombo kificho kuonyesha syntax",
-                "Msaada TOC (meza ya yaliyomo), usemi wa hisia, orodha ya kazi (Task Map), @ (viungo)",
-                "Support Decoding na kuchuja tags na sifa",
-                "Support Texas (mpira kujieleza, Katex Inc) flowcharts na vielelezo mlolongo",
-                "Support mafaili ahueni utaratibu",
+                "Inasaidia kusafirisha kwa PDF",
+                "Magazeti ya hati msaada",
+                "Inasaidia kiwango bei / CommonMark na GFM (GitHub ya Markdown)",
+                "Live Preview Support",
+                "Inasaidia formatted maandishi, kanuni vitalu, meza, kukunja kanuni, kutafuta na badala, lugha mbalimbali, HTML chombo code syntax",
+                "Support TOC (meza ya yaliyomo), usemi wa hisia, orodha ya kazi (kazi ramani), @ (viungo)",
+                "Support decoding na kuchuja HTML tags na sifa",
+                "Support Texas (mpira kujieleza, Katex kampuni), flowcharts na vielelezo mlolongo",
+                "files Support ahueni utaratibu",
                 "Support nyingi editing, idadi ya ukomo"
             ]
         },
@@ -44,22 +44,22 @@
                 {
                     "reviewContent": "MarkdownD ni ajabu. Rahisi. Safi. Ukamilifu. Nicely kufanyika.",
                     "userName": "evanw",
-                    "professional": "Teknolojia ya kupandisha"
+                    "professional": "Technology Promotion"
                 },
                 {
-                    "reviewContent": "MarkdownD ni nini mimi karibu maandishi yangu yote, hii ni kubwa maombi kidogo.",
-                    "userName": "Peter Mkali",
-                    "professional": "Waandishi Ars Technica ya"
+                    "reviewContent": "MarkdownD mimi kufanya karibu wote maandishi yangu, ambayo ni kubwa maombi kidogo.",
+                    "userName": "Peter Bright",
+                    "professional": "Ars Technica mwandishi wa"
                 },
                 {
-                    "reviewContent": "Kama una maslahi yoyote kwa bei ya chini, MarkdownD ni dhahiri thamani download.",
+                    "reviewContent": "Kama una maslahi yoyote katika bei ya chini, MarkdownD ni dhahiri thamani ya kupakua.",
                     "userName": "Lifehacker ya",
-                    "professional": "Watengenezaji mtandao na wabunifu"
+                    "professional": "watengenezaji mtandao na wabunifu"
                 },
                 {
                     "reviewContent": "Mimi kwa kweli kama MarkdownD, umeleta urahisi mkubwa; kazi yangu.",
                     "userName": "jeruss",
-                    "professional": "PHP mfumo wa maendeleo"
+                    "professional": "PHP maendeleo ya mfumo"
                 }
             ]
         }
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Kutolewa",
+        "labelVersion": "kutolewa",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fasta baadhi ya makosa."
+                        "content": "Mdudu fixes."
                     }
                 ]
             },
@@ -179,22 +179,22 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fasta baadhi ya makosa."
+                        "content": "Mdudu fixes."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Kwanza kutolewa."
+                        "content": "kwanza kutolewa."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Kwanza kutolewa."
+                        "content": "kwanza kutolewa."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Kutolewa",
+        "labelVersion": "kutolewa",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -410,7 +416,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Lugha inapatikana",
-        "ChangeAlert": "Kamili lugha kubadili"
+        "SectionName": "inapatikana Lugha",
+        "ChangeAlert": "Kamili kubadili lugha"
     }
 }

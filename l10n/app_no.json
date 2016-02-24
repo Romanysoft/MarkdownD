@@ -1,20 +1,20 @@
 {
     "TopBar": {
         "Home": "Hjem",
-        "Feature": "Funksjoner",
-        "Documents": "Online Hjelp",
+        "Feature": "funksjoner",
+        "Documents": "elektronisk hjelp",
         "ReleaseNotes": "Release Notes",
-        "Downloads": "Gratis prøveversjon",
-        "Buy": "Kjøp",
-        "Roadmap": "Produktlinje",
+        "Downloads": "Gratis prøve",
+        "Buy": "kjøp",
+        "Roadmap": "Produktlinje linje~~POS=HEADCOMP",
         "ReportIssue": "Rapporter et problem",
-        "Languages": "Språk"
+        "Languages": "språk"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Fullfunksjons Markdown editor. Støtte for Windows, Linux og MacOSX operativsystemer.",
-        "BtnDownload": "Gratis prøveversjon",
-        "BtnBuy": "Kjøp",
+        "ProjectTagline": "Markdown redaktør fullt funksjonell. Den støtter Windows, Linux og MacOSX operativsystem.",
+        "BtnDownload": "Gratis prøve",
+        "BtnBuy": "kjøp",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -26,34 +26,34 @@
         "Features": {
             "SectionName": "Produkthovedtrekkene",
             "list": [
-                "Støtte Eksporter som PDF-fil",
-                "Støtte for utskrift av dokumenter",
-                "Støtter standard pris / CommonMark og GFM (GitHub er Markdown)",
+                "Støtter eksport til PDF",
+                "Skriv ut dokumentet støtte",
+                "Støtter standard pris / CommonMark og GFM (GitHub av Markdown)",
                 "Live Preview Support",
-                "Støttede formater av tekst, kodeblokker, tabeller, kode folding, søk og erstatt, multi-språk, HTML enhet kode syntax highlighting",
-                "Support TOC (innholdsfortegnelse), uttrykk for uttrykksikoner, oppgavelisten (Oppgave Map), @ (lenker)",
-                "Støtte dekoding og filtrering HTML-koder og attributter",
-                "Support Texas (latex uttrykk, Katex Inc.) flytskjemaer og sekvensdiagrammer",
+                "Støtter formatert tekst, kodeblokker, tabeller, kode folding, søk og erstatt, multi-språk, HTML enhet kode syntax highlighting",
+                "Support TOC (innholdsfortegnelse), uttrykk for uttrykksikoner, oppgavelisten (kart oppgaven), @ (lenker)",
+                "Støtte dekoding og filtrering HTML-tagger og attributter",
+                "Support Texas (latex uttrykk, Katex selskap), flytskjemaer og sekvensdiagrammer",
                 "Støttefiler utvinning mekanisme",
-                "Støtte for flere redigering, ubegrenset antall"
+                "Støtte flere redigering, ubegrenset antall"
             ]
         },
         "UserReviews": {
             "SectionName": "Hvordan evaluere MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD er fantastisk. Enkel. Clean. Perfeksjon. Pent gjort.",
+                    "reviewContent": "MarkdownD er fantastisk. Simple. Clean. Perfeksjon. Pent gjort.",
                     "userName": "evanw",
                     "professional": "Technology Promotion"
                 },
                 {
-                    "reviewContent": "MarkdownD er hva jeg gjør nesten all skrivingen min, dette er et flott lite program.",
+                    "reviewContent": "MarkdownD jeg gjøre nesten all min skriving, som er et flott lite program.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica forfattere"
+                    "professional": "Ars Technica forfatter av"
                 },
                 {
-                    "reviewContent": "Hvis du har noen interesse i lavere priser, er MarkdownD definitivt verdt nedlastingen.",
-                    "userName": "Lifehacker s",
+                    "reviewContent": "Hvis du har noen interesse i lavere priser, er MarkdownD definitivt verdt å laste ned.",
+                    "userName": "Lifehacker er",
                     "professional": "Webutviklere og designere"
                 },
                 {
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Utgivelse",
+        "labelVersion": "Slipp",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fikset noen feil."
+                        "content": "Feilrettinger."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fikset noen feil."
+                        "content": "Feilrettinger."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -194,7 +194,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Utgivelse",
+        "labelVersion": "Slipp",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -362,7 +368,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Kjøp",
+        "SectionName": "kjøp",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -410,7 +416,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Tilgjengelige språk",
-        "ChangeAlert": "Komplett bytte språk"
+        "SectionName": "tilgjengelige språk",
+        "ChangeAlert": "Komplett bryter språk"
     }
 }

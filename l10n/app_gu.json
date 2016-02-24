@@ -12,7 +12,7 @@
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "સંપૂર્ણ સુવિધાયુક્ત Markdown સંપાદક. વિન્ડોઝ, લિનક્સ અને MacOSX ઓપરેટીંગ સિસ્ટમો માટે આધાર આપે છે.",
+        "ProjectTagline": "Markdown સંપાદક સંપૂર્ણપણે વિધેયાત્મક. તે વિન્ડોઝ, લિનક્સ અને MacOSX ઓપરેટિંગ સિસ્ટમ આધાર આપે છે.",
         "BtnDownload": "મફત ટ્રાયલ",
         "BtnBuy": "ખરીદી",
         "Screens": [
@@ -26,38 +26,38 @@
         "Features": {
             "SectionName": "ઉત્પાદન મુખ્ય લક્ષણો",
             "list": [
-                "પીડીએફ ફાઇલ તરીકે એક્સપોર્ટ સપોર્ટ",
-                "દસ્તાવેજ પ્રીન્ટીંગ માટે આધાર",
-                "આધાર આપે છે ધોરણ ભાવ / CommonMark અને GFM (GitHub માતાનો Markdown)",
+                "પીડીએફ નિકાસ આધાર આપે છે",
+                "દસ્તાવેજ છાપો આધાર",
+                "આધાર આપે છે ધોરણ ભાવ / CommonMark અને GFM (Markdown ધ GitHub)",
                 "લાઈવ પૂર્વદર્શન આધાર",
-                "લખાણ સપોર્ટેડ ફોર્મેટ્સ કોડ બ્લોક, કોષ્ટકો, કોડ ગડી,, મલ્ટી ભાષા શોધ અને બદલો, HTML એન્ટિટી કોડ સિન્ટેક્સ હાઇલાઇટિંગ",
-                "આધાર TOC (સામગ્રીઓનું કોષ્ટક), ઇમોટિકોન્સ અભિવ્યક્તિ, કાર્ય યાદી (કાર્ય મેપ), @ (લિંક્સ)",
+                "ફોર્મેટ લખાણ કોડ બ્લોક, કોષ્ટકો, કોડ ગડી, શોધ અને બદલો, મલ્ટી ભાષા, HTML એન્ટિટી કોડ સિન્ટેક્સ હાઇલાઇટિંગ આધાર આપે છે",
+                "આધાર TOC (સામગ્રીઓનું કોષ્ટક), ઇમોટિકોન્સ અભિવ્યક્તિ, કાર્ય સૂચિ (કાર્ય મેપ), @ (લિંક્સ)",
                 "આધાર ડીકોડિંગ અને ગાળણ એચટીએમએલ ટૅગ્સ અને લક્ષણો",
-                "આધાર ટેક્સાસ (લેટેક્ષ અભિવ્યક્તિ, Katex ઇન્ક) ફ્લોચાર્ટ અને ક્રમ આકૃતિઓ",
-                "આધાર ફાઈલો પુનઃપ્રાપ્તિ પદ્ધતિ",
+                "આધાર ટેક્સાસ (લેટેક્ષ અભિવ્યક્તિ, Katex કંપની), ફ્લોચાર્ટ્સ અને ક્રમ આકૃતિઓ",
+                "આધાર ફાઈલો વસૂલાત પદ્ધતિ",
                 "આધાર બહુવિધ સંપાદન, અમર્યાદિત નંબર"
             ]
         },
         "UserReviews": {
-            "SectionName": "MarkdownD મૂલ્યાંકન કેવી રીતે",
+            "SectionName": "કેવી રીતે MarkdownD મૂલ્યાંકન",
             "list": [
                 {
                     "reviewContent": "MarkdownD અમેઝિંગ છે. સરળ. સાફ. પરફેક્શન. સરસ રીતે કર્યું.",
                     "userName": "evanw",
-                    "professional": "ટેકનૉલોજી પ્રમોશન"
+                    "professional": "ટેકનોલોજી પ્રમોશન"
                 },
                 {
-                    "reviewContent": "MarkdownD, આ એક મહાન થોડું એપ્લિકેશન છે શું હું લગભગ બધા મારા લેખન કરવું છે.",
+                    "reviewContent": "MarkdownD હું લગભગ બધા મારા લેખન છે, જે એક મહાન ઓછી એપ્લિકેશન છે નથી.",
                     "userName": "પીટર તેજસ્વી",
-                    "professional": "આર્સ ટેકનિકા લેખકો"
+                    "professional": "ના આર્સ ટેકનિકા લેખક"
                 },
                 {
-                    "reviewContent": "તમે નીચા ભાવ કોઈ રસ હોય, તો MarkdownD ચોક્કસપણે ડાઉનલોડ વર્થ છે.",
+                    "reviewContent": "તમે નીચા ભાવ કોઈ રસ હોય તો, MarkdownD ચોક્કસપણે ડાઉનલોડ વર્થ છે.",
                     "userName": "Lifehacker માતાનો",
                     "professional": "વેબ ડેવલપર્સ અને ડિઝાઇનર્સ"
                 },
                 {
-                    "reviewContent": "હું ખરેખર MarkdownD જેવા મહાન સગવડ થયો છે; મારા કામ કરે છે.",
+                    "reviewContent": "હું ખરેખર MarkdownD, મહાન સગવડ થયો છે; મારા કામ કરે છે.",
                     "userName": "jeruss",
                     "professional": "PHP, માળખા વિકાસ"
                 }
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "કેટલાક ભૂલો સુધારાઈ."
+                        "content": "ભૂલ સુધારાઓ."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "કેટલાક ભૂલો સુધારાઈ."
+                        "content": "ભૂલ સુધારાઓ."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },

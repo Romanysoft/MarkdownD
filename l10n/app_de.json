@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "Zu Hause",
+        "Home": "Zuhause",
         "Feature": "Eigenschaften",
         "Documents": "Online-Hilfe",
         "ReleaseNotes": "Release Notes",
         "Downloads": "Kostenlose Testversion",
-        "Buy": "Kaufen",
+        "Buy": "Kauf",
         "Roadmap": "Produktlinie",
-        "ReportIssue": "Problem melden",
+        "ReportIssue": "Ein Problem melden",
         "Languages": "Sprache"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Voll funktionsMarkDown-Editor. Unterstützung für Windows, Linux und Mac OS X-Betriebssystemen.",
+        "ProjectTagline": "Markdown-Editor voll funktionsfähig. Es unterstützt Windows, Linux und Mac OS X-Betriebssystem.",
         "BtnDownload": "Kostenlose Testversion",
-        "BtnBuy": "Kaufen",
+        "BtnBuy": "Kauf",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -26,38 +26,38 @@
         "Features": {
             "SectionName": "Produkthaupteigenschaften",
             "list": [
-                "Unterstützen Sie Exportieren als PDF-Datei",
-                "Unterstützung für das Drucken von Dokumenten",
-                "Unterstützt Standard Preis / CommonMark und GFM (GitHub die Markdown)",
+                "Unterstützt den Export in PDF",
+                "Drucken Sie das Dokument Unterstützung",
+                "Unterstützt Standard Preis / CommonMark und GFM (GitHub von Markdown)",
                 "Live-Vorschau-Support",
-                "Unterstützte Formate von Text, Code-Blöcke, Tabellen, Code-Folding, Suchen und Ersetzen, mehrsprachige, HTML-Entity-Code Syntax-Hervorhebung",
-                "Unterstützung TOC (Inhaltsverzeichnis), die Expression von Emoticons, die Aufgabenliste (Übersicht), @ (Links)",
-                "Support-Decodierung und Filterung HTML Tags und Attribute",
-                "Support Texas (Latex Ausdruck Katex Inc.) Flussdiagramme und Sequenzdiagramme",
-                "Support-Dateien Recovery-Mechanismus",
-                "Unterstützung mehrerer Bearbeitung, unbegrenzte Anzahl"
+                "Unterstützt formatierten Text, Code-Blöcke, Tabellen, Code-Folding, suchen und, mehrsprachige, HTML-Entität Code Syntax-Highlighting ersetzen",
+                "Unterstützung TOC (Inhaltsverzeichnis), der Ausdruck von Emoticons, die Aufgabenliste (die Aufgabe Karte), @ (Links)",
+                "Unterstützung Decodierung und Filterung HTML-Tags und Attribute",
+                "Unterstützung Texas (Latex Ausdruck, Katex Unternehmen), Flussdiagramme und Sequenzdiagramme",
+                "Support-Recovery-Mechanismus",
+                "Unterstützung mehrerer Bearbeitung, unbeschränkte Anzahl"
             ]
         },
         "UserReviews": {
-            "SectionName": "Wie MarkdownD bewerten",
+            "SectionName": "Wie bewerten MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD ist erstaunlich. Einfach. Sauber. Perfektion. Schön gemacht.",
+                    "reviewContent": "MarkdownD ist erstaunlich. Einfach. Sauber. Perfektion. Gut gemacht.",
                     "userName": "evanw",
                     "professional": "Technologieförderung"
                 },
                 {
-                    "reviewContent": "MarkdownD ist, was ich fast alle meine Schreiben zu tun, das ist eine tolle kleine Anwendung.",
+                    "reviewContent": "MarkdownD ich fast alle meine Schrift, die eine große kleine Anwendung ist.",
                     "userName": "Peter Heller",
-                    "professional": "Ars Technica Schriftsteller"
+                    "professional": "Ars Technica Schreiber"
                 },
                 {
-                    "reviewContent": "Wenn Sie Interesse an niedrigeren Preisen haben, ist MarkdownD lohnt der Download.",
+                    "reviewContent": "Wenn Sie Interesse an niedrigeren Preisen haben, ist MarkdownD lohnt herunterzuladen.",
                     "userName": "Lifehacker",
                     "professional": "Web-Entwickler und Designer"
                 },
                 {
-                    "reviewContent": "Ich mag MarkdownD hat große Bequemlichkeit gebracht; meine Arbeit.",
+                    "reviewContent": "Ich mag MarkdownD hat große Bequemlichkeit gebracht, meine Arbeit.",
                     "userName": "jeruss",
                     "professional": "PHP-Framework Entwicklung"
                 }
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Freisetzung",
+        "labelVersion": "Veröffentlichung",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Es wurden einige Fehler."
+                        "content": "Bug-Fixes."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Es wurden einige Fehler."
+                        "content": "Bug-Fixes."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -194,7 +194,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Freisetzung",
+        "labelVersion": "Veröffentlichung",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -362,7 +368,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Kaufen",
+        "SectionName": "Kauf",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -411,6 +417,6 @@
     "RoadMapPage": {},
     "LanguagesPage": {
         "SectionName": "Verfügbare Sprachen",
-        "ChangeAlert": "Komplette switch language"
+        "ChangeAlert": "Komplette Sprachschalter"
     }
 }

@@ -1,18 +1,18 @@
 {
     "TopBar": {
-        "Home": "హోం",
+        "Home": "హోమ్",
         "Feature": "ఫీచర్స్",
         "Documents": "ఆన్లైన్ సహాయం",
         "ReleaseNotes": "విడుదల గమనికలు",
         "Downloads": "ఉచిత ట్రయల్",
         "Buy": "కొనుగోలు",
         "Roadmap": "ఉత్పత్తి లైన్",
-        "ReportIssue": "ఒక సమస్య గురించి నివేదించండి",
+        "ReportIssue": "ఒక సమస్యను నివేదించండి",
         "Languages": "భాషా"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "పూర్తి ఫీచర్ Markdown ఎడిటర్. Windows, Linux మరియు MacOSX ఆపరేటింగ్ వ్యవస్థలు మద్దతు.",
+        "ProjectTagline": "Markdown ఎడిటర్ పూర్తిగా ఫంక్షనల్. ఇది Windows, Linux మరియు MacOSX ఆపరేటింగ్ సిస్టమ్ మద్దతు.",
         "BtnDownload": "ఉచిత ట్రయల్",
         "BtnBuy": "కొనుగోలు",
         "Screens": [
@@ -26,16 +26,16 @@
         "Features": {
             "SectionName": "ఉత్పత్తి ప్రధాన లక్షణాలు",
             "list": [
-                "PDF ఫైల్ గా ఎగుమతి మద్దతు",
-                "ముద్రణ పత్రాలు మద్దతు",
-                "మద్దతు ప్రామాణిక ధర / CommonMark మరియు GFM (GitHub యొక్క Markdown)",
-                "Live ప్రివ్యూ మద్దతు",
-                "టెక్స్ట్ యొక్క మద్దతు ఫార్మాట్లలో సంకేత భాగాల, పట్టికలు, కోడ్ మడత, బహుళ-భాష శోధన మరియు భర్తీ, HTML పరిధి కోడ్ సింటాక్స్ హైలైటింగ్",
-                "మద్దతు TOC (విషయ పట్టిక), ఎమిటోటికన్స్ యొక్క వ్యక్తీకరణ, పని జాబితా (టాస్క్ Map), @ (లింకులు)",
-                "మద్దతు డీకోడింగ్ మరియు వడపోత HTML టాగ్లు మరియు లక్షణాలను",
-                "మద్దతు టెక్సాస్ (పాలును వ్యక్తీకరణ, Katex ఇంక్) ఫ్లోచార్ట్లు మరియు క్రమం రేఖాచిత్రాలు",
+                "PDF కు ఎగుమతి మద్దతు",
+                "పత్రం మద్దతు ముద్రించండి",
+                "మద్దతు ప్రామాణిక ధర / CommonMark మరియు GFM (Markdown యొక్క గ్యాలరీలు)",
+                "ప్రత్యక్ష ప్రివ్యూ మద్దతు",
+                "ఆకృతీకరణ టెక్స్ట్ సంకేత భాగాల, పట్టికలు, కోడ్ మడత, శోధన మరియు భర్తీ, బహుళ భాష, HTML అంశం కోడ్ సింటాక్స్ హైలైటింగ్ మద్దతు",
+                "మద్దతు TOC (విషయాల పట్టిక), ఎమిటోటికన్స్ యొక్క వ్యక్తీకరణ, పని జాబితా (కార్య మాప్), @ (లింకులు)",
+                "మద్దతు డీకోడింగ్ మరియు HTML వడపోత టాగ్లు మరియు లక్షణాలను",
+                "మద్దతు టెక్సాస్ (రబ్బరు పాలు వ్యక్తీకరణ, Katex సంస్థ), ఫ్లోచార్ట్లను మరియు క్రమం రేఖాచిత్రాలు",
                 "మద్దతు ఫైళ్లు రికవరీ మెకానిజం",
-                "మద్దతు బహుళ ఎడిటింగ్, అపరిమిత సంఖ్యలో"
+                "బహుళ ఎడిటింగ్, అపరిమిత సంఖ్యలో"
             ]
         },
         "UserReviews": {
@@ -47,17 +47,17 @@
                     "professional": "టెక్నాలజీ ప్రమోషన్"
                 },
                 {
-                    "reviewContent": "MarkdownD, ఈ గొప్ప కొద్దిగా అప్లికేషన్ నేను దాదాపు అన్ని నా రచన చేయటానికి ఉంది.",
+                    "reviewContent": "MarkdownD నేను ఒక గొప్ప కొద్దిగా అప్లికేషన్ దాదాపు అన్ని నా రచన, అలా.",
                     "userName": "పీటర్ బ్రైట్",
-                    "professional": "ఆర్స్ టెక్నికా రచయితలు"
+                    "professional": "ఆఫ్ ఆర్స్ టెక్నికా రచయిత"
                 },
                 {
                     "reviewContent": "మీరు తక్కువ ధరల్లో ఎలాంటి ఆసక్తి కలిగి ఉంటే, MarkdownD ఖచ్చితంగా డౌన్లోడ్ విలువ.",
-                    "userName": "Lifehacker యొక్క",
+                    "userName": "లైఫ్హ్యాకర్ యొక్క",
                     "professional": "వెబ్ డెవలపర్లు మరియు డిజైనర్లు"
                 },
                 {
-                    "reviewContent": "నేను నిజంగా MarkdownD వంటి, గొప్ప సౌలభ్యం తెచ్చిపెట్టింది; నా పని.",
+                    "reviewContent": "నా పని; నేను నిజంగా MarkdownD వంటి గొప్ప సౌలభ్యం తెచ్చిపెట్టింది.",
                     "userName": "jeruss",
                     "professional": "PHP ఫ్రేమ్ అభివృద్ధి"
                 }
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "కొన్ని దోషాలు పరిష్కరించబడ్డాయి."
+                        "content": "బగ్ దిద్దుబాట్లు."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "కొన్ని దోషాలు పరిష్కరించబడ్డాయి."
+                        "content": "బగ్ దిద్దుబాట్లు."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },

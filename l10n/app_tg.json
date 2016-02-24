@@ -1,19 +1,19 @@
 {
     "TopBar": {
-        "Home": "Хона",
-        "Feature": "Хусусиятҳои",
+        "Home": "хона",
+        "Feature": "Хусусиятҳое,",
         "Documents": "Кӯмаки онлайн",
-        "ReleaseNotes": "Қайдҳои",
-        "Downloads": "Мурофиаи озод",
+        "ReleaseNotes": "Заметки Release",
+        "Downloads": "мурофиаи Free",
         "Buy": "Харид",
-        "Roadmap": "Хати маҳсулот",
-        "ReportIssue": "Гузориш масъалаи",
-        "Languages": "Забон"
+        "Roadmap": "хати Маҳсулоти",
+        "ReportIssue": "Гузориши мушкилоти",
+        "Languages": "забон"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Муҳаррири Markdown пурра-тавсиф меёбад. Дастгирии барои Windows, Linux ва MacOSX системаҳои оператсионӣ.",
-        "BtnDownload": "Мурофиаи озод",
+        "ProjectTagline": "муҳаррири Markdown комилан барҷаста. Ин дастгирӣ Windows, Linux ва MacOSX системаи пардозанда.",
+        "BtnDownload": "мурофиаи Free",
         "BtnBuy": "Харид",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Хусусиятҳои асосии маҳсулот",
+            "SectionName": "Маҳсулоти хусусиятҳои асосии",
             "list": [
-                "Дастгирии содирот ҳамчун PDF файли",
-                "Дастгирии барои чопи њуљљатњои",
-                "Дастгирӣ нархи стандартӣ / CommonMark ва GFM (Markdown GitHub мекунад)",
-                "Дастгирии Пешнамоиши зинда",
-                "Форматҳои дастгирӣ аз матн, блокҳои коди, мизҳои, рамзи туморе, ҷустуҷӯ ва иваз, бисёрсоҳавӣ забон, Равшансозӣ шахси наҳвӣ рамзи HTML",
-                "Дастгирии TOC (Мундариҷа), изҳори emoticons, рӯйхати вазифа (Map Вазифаи), @ (← пайвандҳо)",
-                "Рамзкушоӣ дастгирӣ ва филтри HTML барчаспҳои ва хусусиятҳои",
-                "Дастгирии Техас (баён самимаҳо, Katex Inc.) flowcharts ва диаграммаҳо пайдарпаии",
-                "Файлҳои дастгирии механизми барқарорсозӣ",
+                "Дастгирии содироти Ба PDF",
+                "Чоп дастгирии њуљљати",
+                "Дастгирии нархи стандартӣ / CommonMark ва GFM (GitHub аз Markdown)",
+                "Дастгирии Live Пешнамоиши",
+                "Дастгирии матн формат дода, блокҳои коди, ҷадвалҳо, рамзи туморе, ҷустуҷӯ ва иваз, бисёрсолаи забони HTML рамзи шахси наҳвӣ Равшансозӣ",
+                "Дастгирии TOC (мундариҷа), дар ифодаи emoticons, рӯйхати вазифа (харитаи вазифа), @ (← пайвандҳо)",
+                "барчаспҳои рамзкушоӣ Дастгирӣ ва филтри HTML ва хусусиятҳои",
+                "Дастгирии Техас (ифодаи самимаҳо, Katex ширкат), flowcharts ва диаграммаҳо пайдарпаии",
+                "Файлҳои Дастгирии механизми барқарорсозӣ",
                 "Дастгирии таҳриркунӣ сершумор, шумораи бемаҳдуди"
             ]
         },
         "UserReviews": {
-            "SectionName": "Чӣ тавр арзёбӣ MarkdownD",
+            "SectionName": "Чӣ тавр баҳо MarkdownD",
             "list": [
                 {
                     "reviewContent": "MarkdownD аҷиб аст. Оддӣ. Тоза. Комилият. Nicely анҷом дода мешавад.",
                     "userName": "evanw",
-                    "professional": "Технологияи пешбурди"
+                    "professional": "Пешбурди Технология"
                 },
                 {
-                    "reviewContent": "MarkdownD аст, чӣ кунам, қариб ҳамаи навиштани ман, ин аризаи бузург андаке ҳеҷ нест.",
+                    "reviewContent": "MarkdownD ман қариб ҳамаи хаттӣ ман, аст, ки як барномаи бузурги андак.",
                     "userName": "Петрус дурахшон",
-                    "professional": "Нависандагони Ars Technica кард"
+                    "professional": "Нависандаи Ars Technica аз"
                 },
                 {
-                    "reviewContent": "Агар шумо ягон манфиат нархи пасттар, MarkdownD аст, бешубҳа ба маблағи зеркашӣ кунед.",
+                    "reviewContent": "Агар шумо ягон манфиати нархи пасттар, MarkdownD бешубҳа ба маблағи аз зеркашии аст.",
                     "userName": "Русия Lifehacker",
-                    "professional": "Таҳиягарон ва Интернет-дизайнерҳо"
+                    "professional": "таҳиягарон веб ва таҳиякунандагони"
                 },
                 {
-                    "reviewContent": "Ман дар ҳақиқат мисли MarkdownD, овард баҳраи бузург кори ман.",
+                    "reviewContent": "Ман дар ҳақиқат мисли MarkdownD, оварда роҳати бузург; кори ман.",
                     "userName": "jeruss",
-                    "professional": "PHP рушди доираи"
+                    "professional": "рушди заминаи PHP"
                 }
             ]
         }
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Озод кардан",
+        "labelVersion": "озод кардан",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Собит баъзе хатогиҳо."
+                        "content": "Раесат хатоҳои."
                     }
                 ]
             },
@@ -179,22 +179,22 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Собит баъзе хатогиҳо."
+                        "content": "Раесат хатоҳои."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Озод аввал."
+                        "content": "Дар аввал озод."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Озод аввал."
+                        "content": "Дар аввал озод."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Озод кардан",
+        "labelVersion": "озод кардан",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -410,7 +416,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Забонҳои дастрас",
-        "ChangeAlert": "Забони Калиди пурра"
+        "SectionName": "бо забонҳои дигар",
+        "ChangeAlert": "забони Калиди пурра"
     }
 }

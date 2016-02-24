@@ -1,19 +1,19 @@
 {
     "TopBar": {
         "Home": "Baile",
-        "Feature": "Gnéithe",
-        "Documents": "Cabhair Líne",
+        "Feature": "gnéithe",
+        "Documents": "Líne Cabhair",
         "ReleaseNotes": "Nótaí Eisiúna",
-        "Downloads": "Triail Saor in Aisce",
+        "Downloads": "Triail Saor",
         "Buy": "Ceannach",
-        "Roadmap": "Táirge líne",
+        "Roadmap": "táirge líne",
         "ReportIssue": "Tuairiscigh fadhb",
-        "Languages": "Teanga"
+        "Languages": "teanga"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Lán-feiceáil eagarthóir Markdown. Tacaíocht do Windows, Linux agus córais oibriúcháin MacOSX.",
-        "BtnDownload": "Triail Saor in Aisce",
+        "ProjectTagline": "eagarthóir Markdown ag feidhmiú go hiomlán. Tacaíonn sé Windows, Linux agus MacOSX córas oibriúcháin.",
+        "BtnDownload": "Triail Saor",
         "BtnBuy": "Ceannach",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,16 +24,16 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Príomhghnéithe Táirge",
+            "SectionName": "Gnéithe bpríomhtháirge",
             "list": [
-                "Tacú le Easpórtáil mar chomhad PDF",
-                "Tacaíocht do dhoiciméid a phriontáil",
-                "Tacaíochtaí phraghas / CommonMark agus GFM (Markdown GitHub s)",
+                "Tacaíochtaí onnmhairiú go PDF",
+                "Priontáil an tacaíocht doiciméad",
+                "Tacaíochtaí riail-phraghas / CommonMark agus GFM (GitHub de Markdown)",
                 "Tacaíocht Réamhamhairc Live",
-                "Formáidí tacaíocht téacs, bloic cód, táblaí, cód fillte, a chuardach agus a athsholáthar, il-teanga, béim HTML cód error eintiteas",
-                "Tacaíocht TOC (clár ábhair), an abairt de emoticons, ar an liosta tasc (Tasc Léarscáil), @ (naisc)",
-                "Díchódaithe Tacaíocht agus HTML scagadh clibeanna agus tréithe",
-                "Tacaíocht Texas (abairt LaTeX, Katex Inc) flowcharts agus léaráidí ord",
+                "Tacaíochtaí téacs formáidithe, bloic cód, táblaí, cód fillte, cuardach agus in áit, il-teanga, HTML cód aonán béim ar chomhréir",
+                "Tacaíocht TOC (clár ábhair), an abairt de straoiseoga, an liosta tasc (an léarscáil tasc), @ (naisc)",
+                "díchódaithe Tacaíocht agus scagadh HTML clibeanna agus tréithe",
+                "Tacaíocht Texas (abairt LaTeX, Katex cuideachta), flowcharts agus léaráidí ord",
                 "Comhaid Tacaíocht meicníocht aisghabhála",
                 "Tacaíocht eagarthóireacht il, líon neamhtheoranta"
             ]
@@ -42,22 +42,22 @@
             "SectionName": "Conas a mheas MarkdownD",
             "list": [
                 {
-                    "reviewContent": "Is MarkdownD iontach. Simplí. Glan. Foirfeachta. Nicely déanta.",
+                    "reviewContent": "Is MarkdownD iontach. Simplí. Clean. Foirfeachta. Nicely déanta.",
                     "userName": "evanw",
-                    "professional": "Teicneolaíocht Chun Cinn"
+                    "professional": "teicneolaíocht Chun Cinn"
                 },
                 {
-                    "reviewContent": "Is MarkdownD cad is féidir liom beagnach gach mo chuid scríbhneoireachta, tá sé seo le hiarratas beag mór.",
+                    "reviewContent": "MarkdownD féidir liom beagnach gach mo chuid scríbhneoireachta, a bhfuil iarratas iontach beag.",
                     "userName": "Peter Bright",
-                    "professional": "Scríbhneoirí Ars Technica ar"
+                    "professional": "Ars Technica scríbhneoir an"
                 },
                 {
-                    "reviewContent": "Má tá aon leas i praghsanna níos ísle tú, tá MarkdownD cinnte fiú an íoslódáil.",
+                    "reviewContent": "Má tá aon leas in praghsanna níos ísle duit, is MarkdownD cinnte fiú a íoslódáil.",
                     "userName": "Lifehacker ar",
-                    "professional": "Forbróirí gréasáin agus dearthóirí"
+                    "professional": "forbróirí gréasáin agus dearthóirí"
                 },
                 {
-                    "reviewContent": "I really like MarkdownD, thug áis iontach; mo chuid oibre.",
+                    "reviewContent": "I really like MarkdownD, thug áis iontach = mo chuid oibre.",
                     "userName": "jeruss",
                     "professional": "Forbairt réime PHP"
                 }
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Scaoileadh",
+        "labelVersion": "scaoileadh",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Seasta roinnt earráidí."
+                        "content": "bug fixes."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Seasta roinnt earráidí."
+                        "content": "bug fixes."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -194,7 +194,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Scaoileadh",
+        "labelVersion": "scaoileadh",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -410,7 +416,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Teangacha ar Fáil",
-        "ChangeAlert": "Lasc Comhlánaigh teanga"
+        "SectionName": "Ar fáil Teangacha",
+        "ChangeAlert": "teanga lasc Comhlánaigh"
     }
 }

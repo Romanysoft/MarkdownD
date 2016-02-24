@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "Home",
-        "Feature": "Karatteristiċi",
-        "Documents": "Għajnuna Online",
+        "Home": "home",
+        "Feature": "karatteristiċi",
+        "Documents": "online Għajnuna",
         "ReleaseNotes": "Noti Rilaxx",
         "Downloads": "Free Trial",
-        "Buy": "Xiri",
-        "Roadmap": "Linja Prodott",
+        "Buy": "xiri",
+        "Roadmap": "linja tal-prodott",
         "ReportIssue": "Rapport problema",
-        "Languages": "Lingwa"
+        "Languages": "lingwa"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Editur markdown full-dehru. Appoġġ għall-Windows, Linux u MacOSX sistemi operattivi.",
+        "ProjectTagline": "Markdown editur kompletament funzjonali. Huwa jappoġġa Windows, Linux u MacOSX sistema operattiva.",
         "BtnDownload": "Free Trial",
-        "BtnBuy": "Xiri",
+        "BtnBuy": "xiri",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -26,16 +26,16 @@
         "Features": {
             "SectionName": "Karatteristiċi ewlenin tal-prodott",
             "list": [
-                "Appoġġ Esportazzjoni bħala fajl PDF",
-                "Appoġġ għall-istampar dokumenti",
-                "Jappoġġja prezz standard / CommonMark u GFM (markdown GitHub ta)",
+                "Jappoġġja jesportaw biex PDF",
+                "Stampa l-appoġġ dokument",
+                "Jappoġġja prezz standard / CommonMark u GFM (GitHub tal markdown)",
                 "Appoġġ Preview Live",
-                "Formati appoġġjati ta 'test, blokki kodiċi, tabelli, kodiċi tiwi, tiftix u jissostitwixxi, multi-lingwa, tenfasizza HTML entità kodiċi sintassi",
-                "Appoġġ TOC (tabella tal-kontenuti), l-espressjoni ta 'Emoticons, il-lista kompitu (Task Mappa), @ (links)",
-                "Dekodifikazzjoni appoġġ u l-iffiltrar HTML tags u attributi",
-                "Appoġġ Texas (espressjoni latex, Katex Inc) flowcharts u dijagrammi sekwenza",
-                "Fajls Appoġġ mekkaniżmu ta 'rkupru",
-                "Appoġġ editjar multipla, n-numru illimitat"
+                "Jappoġġja test ifformattjat, blokki kodiċi, it-tabelli, tiwi kodiċi, tiftix u jissostitwixxi, multi-lingwa, HTML entità kodiċi jenfasizzaw sintassi",
+                "Appoġġ TOC (tabella tal-kontenuti), l-espressjoni ta 'Emoticons, il-lista kompitu (il-mappa kompitu), @ (links)",
+                "Appoġġ dekodifikazzjoni u l-iffiltrar HTML tags u attributi",
+                "Appoġġ Texas (l-espressjoni latex, il-kumpanija Katex), flowcharts u dijagrammi sekwenza",
+                "Appoġġ fajls mekkaniżmu ta 'rkupru",
+                "editjar multipli appoġġ, numru illimitat"
             ]
         },
         "UserReviews": {
@@ -44,22 +44,22 @@
                 {
                     "reviewContent": "MarkdownD hija aqwa. Sempliċi. Nadif. Perfezzjoni. Nicely jsir.",
                     "userName": "evanw",
-                    "professional": "Teknoloġija Promozzjoni"
+                    "professional": "teknoloġija Promozzjoni"
                 },
                 {
-                    "reviewContent": "MarkdownD huwa dak I do kważi kollha kitba tiegħi, dan huwa ftit applikazzjoni kbir.",
+                    "reviewContent": "MarkdownD I do kważi kollha kitba tiegħi, li hija applikazzjoni ftit kbir.",
                     "userName": "Peter Bright",
-                    "professional": "Kittieba ARS Teknika ta"
+                    "professional": "ARS Teknika kittieb ta '"
                 },
                 {
-                    "reviewContent": "Jekk għandek xi interess fil-prezzijiet aktar baxxi, MarkdownD huwa definittivament jiswew il-download.",
-                    "userName": "Tal Lifehacker",
+                    "reviewContent": "Jekk għandek xi interess fi prezzijiet iktar baxxi, MarkdownD huwa definittivament jiswew tniżżil.",
+                    "userName": "Lifehacker s",
                     "professional": "Web iżviluppaturi u disinjaturi"
                 },
                 {
                     "reviewContent": "I really simili MarkdownD, ġab konvenjenza kbira; xogħol tiegħi.",
                     "userName": "jeruss",
-                    "professional": "Iżvilupp qafas PHP"
+                    "professional": "PHP iżvilupp qafas"
                 }
             ]
         }
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Rilaxx",
+        "labelVersion": "rilaxx",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fissi xi żbalji."
+                        "content": "bug fixes."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fissi xi żbalji."
+                        "content": "bug fixes."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -194,7 +194,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Rilaxx",
+        "labelVersion": "rilaxx",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -362,7 +368,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Xiri",
+        "SectionName": "xiri",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -411,6 +417,6 @@
     "RoadMapPage": {},
     "LanguagesPage": {
         "SectionName": "Lingwi disponibbli",
-        "ChangeAlert": "Lingwa swiċċ Tlesti"
+        "ChangeAlert": "lingwa swiċċ Tlesti"
     }
 }

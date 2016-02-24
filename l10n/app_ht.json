@@ -2,18 +2,18 @@
     "TopBar": {
         "Home": "Kay",
         "Feature": "Karakteristik",
-        "Documents": "Èd sou entènèt",
-        "ReleaseNotes": "Release Nòt",
-        "Downloads": "Gratis Jijman",
+        "Documents": "En jwèt ede",
+        "ReleaseNotes": "Nòt Release",
+        "Downloads": "gratis jijman",
         "Buy": "Achte",
-        "Roadmap": "Liy pwodwi",
+        "Roadmap": "pwodwi liy",
         "ReportIssue": "Rapòte yon pwoblèm",
         "Languages": "Lang"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Full chin an tap editè rediksyon. Sipò pou Windows, Linux ak makoo sistèm opere.",
-        "BtnDownload": "Gratis Jijman",
+        "ProjectTagline": "Rediksyon editè okonplè fonksyonèl. Li sipòte Windows, Linux ak makoo sistèm opere.",
+        "BtnDownload": "gratis jijman",
         "BtnBuy": "Achte",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -26,15 +26,15 @@
         "Features": {
             "SectionName": "Pwodwi karakteristik prensipal",
             "list": [
-                "Sipòte Export kòm dosye PDF",
-                "Sipò pou dokiman enprime",
-                "Sipòte pri estanda / CommonMark ak GFM (rediksyon GitHub a)",
-                "Sipò Live Preview",
-                "Sipò pou fòma nan tèks, blòk kòd, tab, kòd plisman, rechèch ak ranplase, milti-lang, HTML antite Kòd sentaks eklèrsisaj",
-                "Sipò TOC (Table of Contents), ekspresyon ki nan emoticon, lis la travay (Objektif Travay la sa a Map), @ (lyen yo)",
-                "Decoder Sipò ak filtraj HTML Tags ak atribi",
-                "Sipò Texas (ekspresyon an latèks, Katex Inc) dyagram ak dyagram sekans",
-                "Dosye Sipò rekiperasyon mekanis",
+                "Sipòte ekspòte PDF",
+                "Enprime sipò nan dokiman",
+                "Sipòte estanda pri / CommonMark ak GFM (GitHub nan rediksyon)",
+                "Live Preview Sipò",
+                "Sipòte fòma tèks, blòk kòd, tab, kòd plisman, rechèch ak ranplase, milti-lang, HTML kòd antite sentaks eklèrsisaj",
+                "Sipò TOC (Table of Contents), ekspresyon ki nan emoticon, lis la travay (kat jeyografik la travay), @ (lyen yo)",
+                "Sipò Decoder ak filtraj HTML Tags ak atribi",
+                "Sipò Texas (kapòt an latèks ekspresyon, Katex konpayi), dyagram ak dyagram sekans",
+                "dosye Sipò mekanis rekiperasyon",
                 "Sipò koreksyon miltip, nimewo san limit"
             ]
         },
@@ -42,24 +42,24 @@
             "SectionName": "Ki jan yo evalye MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD se etonan. Senp. Pwòp. Pèfeksyon. Joliman fè.",
+                    "reviewContent": "MarkdownD se etonan. Senp. Netwaye. Pèfeksyon. Joliman fè.",
                     "userName": "evanw",
-                    "professional": "Pwomosyon Teknoloji"
+                    "professional": "Teknoloji Pwomosyon"
                 },
                 {
-                    "reviewContent": "MarkdownD se sa m 'fè prèske tout ekri mwen, sa a se yon gwo aplikasyon ti kras.",
+                    "reviewContent": "MarkdownD m 'fè prèske tout ekri mwen, ki se yon aplikasyon gwo ti kras.",
                     "userName": "Pyè Bright",
-                    "professional": "Ekriven Ars tecnica a"
+                    "professional": "Ars tecnica ekriven nan"
                 },
                 {
-                    "reviewContent": "Si w gen nenpòt enterè nan pi ba pri, MarkdownD se definitivman vo download la.",
-                    "userName": "Lifehacker la",
-                    "professional": "Devlopè Web ak Designers"
+                    "reviewContent": "Si w gen nenpòt enterè nan pi ba pri, MarkdownD se definitivman vo Téléchargez.",
+                    "userName": "Lifehacker a",
+                    "professional": "devlopè entènèt ak Designers"
                 },
                 {
                     "reviewContent": "Mwen vrèman renmen MarkdownD, te pote gwo konvenyans; travay mwen.",
                     "userName": "jeruss",
-                    "professional": "PHP devlopman fondasyon"
+                    "professional": "PHP fondasyon devlopman"
                 }
             ]
         }
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fiks kèk erè."
+                        "content": "Fikse ensèk."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fiks kèk erè."
+                        "content": "Fikse ensèk."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -410,7 +416,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Disponib Lang",
+        "SectionName": "Lang yo disponib",
         "ChangeAlert": "Ranpli ak lang switch"
     }
 }

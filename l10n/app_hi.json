@@ -7,12 +7,12 @@
         "Downloads": "नि: शुल्क परीक्षण",
         "Buy": "क्रय",
         "Roadmap": "उत्पाद लाइन",
-        "ReportIssue": "रिपोर्ट एक समस्या",
+        "ReportIssue": "एक समस्या की रिपोर्ट",
         "Languages": "भाषा"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "पूर्ण विशेषताओं Markdown संपादक। विंडोज, लिनक्स और MacOSX ऑपरेटिंग सिस्टम के लिए सहायता।",
+        "ProjectTagline": "Markdown संपादक पूरी तरह कार्यात्मक। यह विंडोज, लिनक्स और MacOSX ऑपरेटिंग सिस्टम का समर्थन करता है।",
         "BtnDownload": "नि: शुल्क परीक्षण",
         "BtnBuy": "क्रय",
         "Screens": [
@@ -26,20 +26,20 @@
         "Features": {
             "SectionName": "उत्पाद मुख्य विशेषताएं",
             "list": [
-                "पीडीएफ फाइल के रूप में निर्यात का समर्थन",
-                "मुद्रण दस्तावेजों के लिए समर्थन",
-                "समर्थन मानक कीमत / CommonMark और GFM (GitHub के Markdown)",
+                "पीडीएफ के लिए निर्यात का समर्थन करता है",
+                "प्रिंट दस्तावेज़ समर्थन",
+                "समर्थन मूल्य मानक / CommonMark और GFM (Markdown की GitHub)",
                 "लाइव पूर्वावलोकन समर्थन",
-                "पाठ के समर्थित प्रारूप, कोड ब्लॉक, टेबल, कोड तह, बहु भाषा खोज और की जगह, HTML इकाई कोड वाक्य रचना हाइलाइटिंग",
-                "समर्थन टीओसी (सामग्री की तालिका), इमोटिकॉन्स की अभिव्यक्ति, कार्य सूची (टास्क नक्शा), @ (लिंक)",
-                "समर्थन डिकोडिंग और छानने एचटीएमएल टैग और विशेषताओं",
-                "समर्थन टेक्सास (लेटेक्स अभिव्यक्ति, Katex इंक) flowcharts और अनुक्रम आरेख",
+                "स्वरूपित पाठ, कोड ब्लॉक, टेबल, कोड तह, खोज और की जगह, बहु भाषा, एचटीएमएल कोड इकाई वाक्य रचना हाइलाइटिंग का समर्थन करता है",
+                "समर्थन टीओसी (सामग्री की तालिका), इमोटिकॉन की अभिव्यक्ति, कार्य सूची (कार्य नक्शा), @ (लिंक)",
+                "समर्थन डिकोडिंग और छानने HTML टैग और विशेषताओं",
+                "समर्थन टेक्सास (लेटेक्स अभिव्यक्ति, Katex कंपनी), फ़्लोचार्ट और अनुक्रम आरेख",
                 "समर्थन फ़ाइलों वसूली तंत्र",
                 "समर्थन कई संपादन, असीमित संख्या"
             ]
         },
         "UserReviews": {
-            "SectionName": "MarkdownD मूल्यांकन करने के लिए कैसे",
+            "SectionName": "कैसे MarkdownD मूल्यांकन करने के लिए",
             "list": [
                 {
                     "reviewContent": "MarkdownD अद्भुत है। सरल। स्वच्छ। पूर्णता। अच्छी तरह से किया।",
@@ -47,19 +47,19 @@
                     "professional": "प्रौद्योगिकी संवर्धन"
                 },
                 {
-                    "reviewContent": "MarkdownD, यह एक बड़ा सा अनुप्रयोग है क्या मैं लगभग सभी मेरे लेखन करना है।",
+                    "reviewContent": "MarkdownD मैं लगभग सभी मेरे लेखन है, जो एक बड़ा सा आवेदन करना है।",
                     "userName": "पीटर तेज",
-                    "professional": "अर्स टेक्निका के लेखकों"
+                    "professional": "के अर्स टेक्निका लेखक"
                 },
                 {
-                    "reviewContent": "आप कम कीमत में कोई रुचि नहीं है, MarkdownD निश्चित रूप से डाउनलोड करने लायक है।",
+                    "reviewContent": "आप कम कीमत में कोई रुचि नहीं है, MarkdownD निश्चित रूप से डाउनलोड करने के लायक है।",
                     "userName": "ज़ेन का",
                     "professional": "वेब डेवलपर्स और डिजाइनरों"
                 },
                 {
                     "reviewContent": "मैं वास्तव में MarkdownD की तरह, महान सुविधा लाया गया है, मेरे काम करते हैं।",
                     "userName": "jeruss",
-                    "professional": "पीएचपी ढांचा विकास"
+                    "professional": "पीएचपी ढांचे के विकास"
                 }
             ]
         }
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "कुछ त्रुटियों को ठीक।"
+                        "content": "बग फिक्स।"
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "कुछ त्रुटियों को ठीक।"
+                        "content": "बग फिक्स।"
                     },
                     {
                         "platform": "{{Windows}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },

@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "Dom",
+        "Home": "kući",
         "Feature": "Značajke",
-        "Documents": "Online Pomoć",
+        "Documents": "online pomoć",
         "ReleaseNotes": "Napomene o izdanju",
-        "Downloads": "Free Trial",
-        "Buy": "Kupovina",
-        "Roadmap": "Linija proizvoda",
+        "Downloads": "free Trial",
+        "Buy": "kupovina",
+        "Roadmap": "Asortiman proizvoda",
         "ReportIssue": "Prijavi problem",
-        "Languages": "Jezik"
+        "Languages": "jezik"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Full-featured Markdown urednik. Podrška za Windows, Linux i MacOSX operativnim sistemima.",
-        "BtnDownload": "Free Trial",
-        "BtnBuy": "Kupovina",
+        "ProjectTagline": "Markdown urednik potpuno funkcionalan. Ona podržava Windows, Linux i MacOSX operativni sistem.",
+        "BtnDownload": "free Trial",
+        "BtnBuy": "kupovina",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -26,14 +26,14 @@
         "Features": {
             "SectionName": "Proizvod glavne karakteristike",
             "list": [
-                "Podrška Export u PDF",
-                "Podrška za štampanje dokumenata",
-                "Podržava standard cijena / CommonMark i GFM (GitHub Markdown)",
-                "Live Preview Support",
-                "Podržani formati teksta, kod blokova, stolovi, kod sklopivi, pretraživanje i zamijeni, više jezika, HTML entitet kod sintakse",
-                "Podrška TOC (Sadržaj), izraz emotikona, popisa zadataka (Task Map), @ (linkovi)",
-                "Podrška dekodiranje i filtriranje HTML oznake i atribute",
-                "Podrška Texas (lateks izraz, Katex Inc.) i dijagrame slijed dijagrame",
+                "Podržava izvoz u PDF",
+                "Ispis podršku dokument",
+                "Podržava standardne cijene / CommonMark i GFM (GitHub od Markdown)",
+                "Live Preview Podrška",
+                "Podržava formatirani tekst, kod blokova, stolovi, kod sklopivi, pretraživanje i zamijeniti, više jezika, HTML entitet kod sintakse",
+                "Podrška TOC (sadržaja), izraz emotikona, lista zadataka (mapu zadatka), @ (linkovi)",
+                "Podrška dekodiranje i HTML filtriranje oznake i atribute",
+                "Podrška Texas (lateks izraz, Katex kompanija), dijagram toka i slijed dijagrama",
                 "Podrška datoteke mehanizam oporavka",
                 "Podrška više uređivanja, neograničen broj"
             ]
@@ -42,17 +42,17 @@
             "SectionName": "Kako procijeniti MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD je sjajno. Jednostavan. Clean. Savršenstvo. Lijepo urađeno.",
+                    "reviewContent": "MarkdownD je neverovatno. Jednostavno. Clean. Perfection. Lijepo urađeno.",
                     "userName": "evanw",
-                    "professional": "Promocija tehnologija"
+                    "professional": "tehnologija Promocija"
                 },
                 {
-                    "reviewContent": "MarkdownD je ono što ja radim skoro sve moje pisanje, ovo je veliki mali aplikacija.",
+                    "reviewContent": "MarkdownD radim skoro sve moje pisanje, što je veliki mali aplikacija.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica pisci"
+                    "professional": "Ars Technica pisac"
                 },
                 {
-                    "reviewContent": "Ako imate bilo kakav interes za nižim cijenama, MarkdownD je definitivno vrijedan preuzimanje.",
+                    "reviewContent": "Ako imate bilo kakvih interesa u nižim cijenama, MarkdownD je definitivno vrijedan preuzimanja.",
                     "userName": "Lifehacker je",
                     "professional": "Web programeri i dizajneri"
                 },
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Puštanje",
+        "labelVersion": "puštanje",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fiksni neke greške."
+                        "content": "Bug ispravke."
                     }
                 ]
             },
@@ -179,22 +179,22 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fiksni neke greške."
+                        "content": "Bug ispravke."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Prvog izdanja."
+                        "content": "Prvo izdanje."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Prvog izdanja."
+                        "content": "Prvo izdanje."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Puštanje",
+        "labelVersion": "puštanje",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -362,7 +368,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Kupovina",
+        "SectionName": "kupovina",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -410,7 +416,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Dostupni jezici",
+        "SectionName": "dostupan Jezici",
         "ChangeAlert": "Kompletna prekidač jezik"
     }
 }

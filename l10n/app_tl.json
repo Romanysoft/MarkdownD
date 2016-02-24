@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "Home",
-        "Feature": "Mga Tampok",
-        "Documents": "Online Help",
-        "ReleaseNotes": "Release Notes",
+        "Home": "bahay",
+        "Feature": "Mga tampok",
+        "Documents": "online Help",
+        "ReleaseNotes": "release Notes",
         "Downloads": "Libreng Pagsubok",
-        "Buy": "Purchase",
-        "Roadmap": "Linya ng produkto",
+        "Buy": "pagbili",
+        "Roadmap": "linya ng produkto",
         "ReportIssue": "Mag-ulat ng problema",
-        "Languages": "Wika"
+        "Languages": "wika"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Full-tampok na editor Markdown. Suporta para sa Windows, Linux at MacOSX operating system.",
+        "ProjectTagline": "Markdown editor fully functional. Ito ay sumusuporta sa Windows, Linux at MacOSX operating system.",
         "BtnDownload": "Libreng Pagsubok",
-        "BtnBuy": "Purchase",
+        "BtnBuy": "pagbili",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -26,14 +26,14 @@
         "Features": {
             "SectionName": "Produkto pangunahing tampok",
             "list": [
-                "Suportahan I-export bilang PDF file",
-                "Suporta para sa mga dokumento sa pag-print",
-                "Sinusuportahan standard na presyo / CommonMark at GFM (Markdown GitHub ni)",
-                "Support Preview Live",
-                "Suportadong mga format ng teksto, mga bloke ng code, mga talahanayan, code natitiklop, paghahanap at palitan, multi-wika, HTML entity code syntax highlighting",
-                "Support toc (table of contents), ang expression ng emoticon, mga listahan ng gawain (Task Map), @ (links)",
-                "Support pagkabasa at HTML filtering tag at mga katangian",
-                "Support Texas (latex expression, Katex Inc.) flowcharts at sequence diagram",
+                "Sinusuportahan export sa PDF",
+                "I-print ang dokumento support",
+                "Sinusuportahan ang standard na presyo / CommonMark at GFM (GitHub ng Markdown)",
+                "Live Preview Support",
+                "Sinusuportahan na format, mga bloke ng code, mga talahanayan, code natitiklop, hanapin at palitan, multi-wika, HTML entity code syntax highlighting",
+                "Support TOC (talaan ng nilalaman), ang expression ng mga emoticon, ang gawain listahan (ang gawain mapa), @ (links)",
+                "Support decoding at pag-filter tag na HTML at mga katangian",
+                "Support Texas (latex expression, Katex kumpanya), flowchart at sequence diagram",
                 "Support file bawing mekanismo",
                 "Suporta ng maramihang mga pag-edit, walang limitasyong bilang"
             ]
@@ -42,14 +42,14 @@
             "SectionName": "Paano upang suriin MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD ay amazing. Simple. Clean. Ganap na ganap. Maayos na Natapos.",
+                    "reviewContent": "MarkdownD ay amazing. Simple. Clean. Perfection. Maayos na Natapos.",
                     "userName": "evanw",
                     "professional": "Technology Promotion"
                 },
                 {
-                    "reviewContent": "MarkdownD ay kung ano ang gagawin ko halos lahat ng aking pagsusulat, ito ay isang magandang maliit na application.",
+                    "reviewContent": "MarkdownD gagawin ko halos lahat ng aking pagsulat, na kung saan ay isang magandang maliit na application.",
                     "userName": "Peter Bright",
-                    "professional": "Manunulat ARS Technica ni"
+                    "professional": "Ars Technica manunulat ng"
                 },
                 {
                     "reviewContent": "Kung mayroon kang anumang mga interes sa mas mababang presyo, MarkdownD ay talagang nagkakahalaga ng pag-download.",
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Release",
+        "labelVersion": "paglaya",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Naayos na ang ilang mga error."
+                        "content": "pag-aayos ng Bug."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Naayos na ang ilang mga error."
+                        "content": "pag-aayos ng Bug."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -194,7 +194,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Release",
+        "labelVersion": "paglaya",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -362,7 +368,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Purchase",
+        "SectionName": "pagbili",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -410,7 +416,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Magagamit na Mga Wika",
-        "ChangeAlert": "Kumpleto na wika switch"
+        "SectionName": "magagamit na Mga Wika",
+        "ChangeAlert": "Complete switch wika"
     }
 }

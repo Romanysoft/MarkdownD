@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "Ev",
+        "Home": "ev",
         "Feature": "Özellikler",
-        "Documents": "Çevrimiçi Yardım",
+        "Documents": "çevrimiçi Yardım",
         "ReleaseNotes": "Sürüm Notları",
         "Downloads": "Ücretsiz Deneme",
-        "Buy": "Satınalma",
+        "Buy": "satın alma",
         "Roadmap": "Ürün çeşitleri",
-        "ReportIssue": "Sorun bildirme",
-        "Languages": "Lisan"
+        "ReportIssue": "Bir sorunu bildirmek",
+        "Languages": "dil"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Tam özellikli Markdown editörü. Windows, Linux ve MacOSX işletim sistemleri için destek.",
+        "ProjectTagline": "Markdown editör tamamen işlevsel. Windows, Linux ve MacOSX işletim sistemini destekler.",
         "BtnDownload": "Ücretsiz Deneme",
-        "BtnBuy": "Satınalma",
+        "BtnBuy": "satın alma",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,16 +24,16 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Ürün temel özellikleri",
+            "SectionName": "Ürün ana özellikleri",
             "list": [
-                "PDF dosyası olarak ver Destek",
-                "Baskı belgeler için destek",
-                "Destekler standart fiyat / CommonMark ve GFM (GitHub en Markdown)",
+                "PDF'ye dışa destekler",
+                "Belge desteği yazdırmak",
+                "Destekler standart fiyat / CommonMark ve GFM (Markdown GitHub)",
                 "Canlı Önizleme Destek",
-                "Metnin Desteklenen formatlar, kod blokları, tablolar, kod katlama, çoklu dil arama ve değiştirme, HTML varlık kodu dizim",
-                "Destek TOK (içindekiler), ifade ifadesi, görev listesi (Task Map), @ (bağlantılar)",
+                "biçimlendirilmiş metin, kod blokları, tablolar, kod katlama, HTML varlık kod dizim arama ve çoklu dil desteği yerine",
+                "Destek TOK (içindekiler), ifade ifadesi, görev listesi (görev harita), @ (bağlantılar)",
                 "Destek çözme ve filtreleme HTML etiketleri ve nitelikleri",
-                "Destek Texas (lateks ifadesi, Katex Inc.) akış şemaları ve diyagramlar dizi",
+                "Destek Teksas (lateks ifade, Katex şirket), akış şemaları ve diyagramlar dizi",
                 "Destek dosyaları kurtarma mekanizması",
                 "Destek çoklu düzenleme, sınırsız sayıda"
             ]
@@ -47,12 +47,12 @@
                     "professional": "Teknoloji Promosyon"
                 },
                 {
-                    "reviewContent": "MarkdownD, bu harika bir küçük bir uygulamadır ne neredeyse tüm yazdıklarımı yapmak olduğunu.",
+                    "reviewContent": "MarkdownD ben büyük bir küçük bir uygulamadır neredeyse tüm yazdıklarımı yapmak.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica sitesinin yazarları"
+                    "professional": "Ars Technica yazarı"
                 },
                 {
-                    "reviewContent": "Eğer düşük fiyatlarla herhangi bir ilgi varsa, MarkdownD kesinlikle indirme değer.",
+                    "reviewContent": "Eğer düşük fiyatlarla herhangi bir ilgi varsa, MarkdownD indirirken kesinlikle değer.",
                     "userName": "Lifehacker en",
                     "professional": "Web geliştiricileri ve tasarımcıları"
                 },
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Serbest bırakma",
+        "labelVersion": "serbest bırakma",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Bazı hatalar düzeltildi."
+                        "content": "Hata düzeltmeleri."
                     }
                 ]
             },
@@ -179,22 +179,22 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Bazı hatalar düzeltildi."
+                        "content": "Hata düzeltmeleri."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Ilk sürümü."
+                        "content": "ilk sürümü."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Ilk sürümü."
+                        "content": "ilk sürümü."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Serbest bırakma",
+        "labelVersion": "serbest bırakma",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -362,7 +368,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Satınalma",
+        "SectionName": "satın alma",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -410,7 +416,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Mevcut Diller",
+        "SectionName": "mevcut Diller",
         "ChangeAlert": "Komple anahtar dili"
     }
 }

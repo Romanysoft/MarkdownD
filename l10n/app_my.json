@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "မူလစာမျက်နှာ",
+        "Home": "နေအိမ်",
         "Feature": "အင်္ဂါရပ်များ",
         "Documents": "အွန်လိုင်းအကူအညီ",
-        "ReleaseNotes": "သတင်းထုတ်ပြန်ချက်မှတ်စုများ",
-        "Downloads": "အခမဲ့ရုံးတင်စစ်ဆေးမှု",
-        "Buy": "ဝယ်ယူ",
+        "ReleaseNotes": "ဖြန့်ချိမှတ်စုများ",
+        "Downloads": "အခမဲ့စမ်းသပ်",
+        "Buy": "အရစ်ကျ",
         "Roadmap": "ကုန်ထုတ်ရေးလိုင်း",
         "ReportIssue": "ပြဿနာတစ်ခုတိုင်ကြားရန်",
         "Languages": "ဘာသာစကား"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "full-လုပ်ဆောင်မှု Markdown အယ်ဒီတာ။ ကို Windows, Linux နဲ့ MacOSX တဲ့ operating systems များအတွက်ပံ့ပိုးမှု။",
-        "BtnDownload": "အခမဲ့ရုံးတင်စစ်ဆေးမှု",
-        "BtnBuy": "ဝယ်ယူ",
+        "ProjectTagline": "အပြည့်အဝအလုပ်လုပ်တဲ့ Markdown အယ်ဒီတာ။ ဒါဟာကို Windows, Linux နဲ့ MacOSX operating system ကိုထောက်ခံပါတယ်။",
+        "BtnDownload": "အခမဲ့စမ်းသပ်",
+        "BtnBuy": "အရစ်ကျ",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "ထုတ်ကုန်ပစ္စည်းကိုအဓိက features တွေ",
+            "SectionName": "ကုန်ပစ္စည်းအဓိက features တွေ",
             "list": [
-                "PDF ဖိုင်အဖြစ်ပို့ကုန်ထောက်ခံရန်",
-                "ပုံနှိပ်ခြင်းစာရွက်စာတမ်းများကိုအထောက်အပံ့",
-                "စံစျေးနှုန်း / CommonMark နှင့် GFM (GitHub ရဲ့ Markdown) ထောက်ခံပါသည်",
-                "တိုက်ရိုက် Preview ကိုပံ့ပိုးမှု",
-                "စာသား, code ကိုလုပ်ကွက်များ, ကျောက်ပြား, code ကိုခေါက်, ရှာနှင့်အစားထိုးမည်, Multi-ဘာသာစကား, HTML ကို entity code တွေကို Syntax ကိုမီးမောင်းထိုးပြ၏ Supported formats တွေကို",
-                "ပံ့ပိုးမှု TOC (မာတိကာ), Emoticons ၏ဟူသောအသုံးအနှုနျး, အ task list ကို (Task ကိုမြေပုံ), @ (←လင့်များ)",
-                "စကားဝှက်ကိုရှင်းလင်းဖေါ်ပြနှင့် filtering ကို HTML tags များနှင့် Attribute တွေကိုထောက်ပံ့",
-                "ပံ့ပိုးမှုတက္ကဆက်ပြည်နယ် (စေး expression ကို, Katex Inc) flowcharts နှင့် sequence ကိုကားချပ်",
-                "ပံ့ပိုးမှု files တွေကိုပြန်လည်နာလန်ထူရေးယန္တရား",
-                "မျိုးစုံတည်းဖြတ်န့်အသတ် number ကိုထောကျပံ့"
+                "PDF ကိုမှတင်ပို့အထောက်အကူ",
+                "စာရွက်စာတမ်းထောက်ခံမှု Print",
+                "စံစျေးနှုန်း / CommonMark နှင့် GFM (Markdown ၏ GitHub) ကိုအထောက်အပံ့ပေးနိုင်ပါတယ်",
+                "တိုက်ရိုက်ကို Preview ပံ့ပိုးမှု",
+                "ချပ်စာသား, code ကိုလုပ်ကွက်များ, ကျောက်ပြား, code ကိုခေါက်, ရှာအစားထိုးဖို့, Multi-ဘာသာစကား, HTML ကို entity code ကို syntax highlighting ကို support",
+                "ပံ့ပိုးမှု TOC (မာတိကာ), ရုပ်ပြောင်၏ဟူသောအသုံးအနှုနျး, task ကိုစာရင်း (task ကိုမြေပုံ), @ (←လင့်များ)",
+                "ဒီကုဒ်ဒါနှင့် filtering ကို HTML ကို Tag တွေနဲ့ attribute ကိုထောကျပံ့",
+                "ပံ့ပိုးမှုတက္ကဆက်ပြည်နယ် (ရာဘာစေးစကားရပ်, Katex ကုမ္ပဏီ), flowcharts နှင့် sequence ကိုကားချပ်",
+                "ပံ့ပိုးမှုဖိုင်တွေပြန်လည်နာလန်ထူရေးယန္တရား",
+                "မျိုးစုံတည်းဖြတ်, န့်အသတ်အရေအတွက်ကိုထောကျပံ့"
             ]
         },
         "UserReviews": {
             "SectionName": "MarkdownD အကဲဖြတ်ဖို့ကိုဘယ်လို",
             "list": [
                 {
-                    "reviewContent": "MarkdownD အံ့သြဖွယ်ဖြစ်ပါတယ်။ ရိုးရှင်းတဲ့။ စင်ကြယ်သော။ စုံလင်ခြင်း။ Nice ပြုသောအမှု။",
+                    "reviewContent": "MarkdownD အံ့သြစရာဖြစ်ပါတယ်။ ရိုးရှင်းတဲ့။ စင်ကြယ်သော။ စုံလင်ခြင်း။ Nice ပြုသောအမှု။",
                     "userName": "evanw",
-                    "professional": "နည်းပညာကိုမြှင့်တင်ရေး"
+                    "professional": "နည်းပညာမြှင့်တင်ရေး"
                 },
                 {
-                    "reviewContent": "MarkdownD ငါအားလုံးနီးပါးကိုငါ့အရေးအသားအဘယ်သို့ပြုမည်အရာကိုဒီအကြီးအအနည်းငယ်သာပလီကေးရှင်းဖြစ်ပါသည်။",
-                    "userName": "ပေတရု မှစ. တ Bright",
-                    "professional": "ars Technica ရဲ့စာရေးဆရာများ"
+                    "reviewContent": "MarkdownD ငါသည်ကြီးမြတ်သောနည်းနည်းလျှောက်လွှာသောနီးပါးငါ့အလိုရှိသမျှအရေးအသား, လုပ်ပါ။",
+                    "userName": "ပတေရုသတောက်ပ",
+                    "professional": "၏ ars Technica စာရေးဆရာ"
                 },
                 {
-                    "reviewContent": "သငျသညျအနိမ့်စျေးဆိုအကျိုးစီးပွားရှိပါက MarkdownD ကျိန်းသေမှာ download ရကျိုးနပ်သည်။",
+                    "reviewContent": "သငျသညျအနိမ့်စျေးဆိုစိတ်ဝင်စားမှုရှိပါက MarkdownD ကျိန်းသေဒေါင်းလုပ်ဆွဲရကျိုးနပ်သည်။",
                     "userName": "Lifehacker ရဲ့",
-                    "professional": "Web Developer တွေနဲ့ဒီဇိုင်နာများ"
+                    "professional": "Web ကို developer များနှင့်ဒီဇိုင်နာများ"
                 },
                 {
-                    "reviewContent": "ငါတကယ် MarkdownD တူ, အလွန်ကြီးစွာသောအဆင်ပြေစေရန်ကိုဆောင်ခဲ့ပြီငါ၏အမှု။",
+                    "reviewContent": "ငါတကယ် MarkdownD တူ, ကြီးသောအဆင်ပြေကိုဆောင်ခဲ့ပြီငါ၏အမှု။",
                     "userName": "jeruss",
-                    "professional": "PHP ကို​​မူဘောင်များဖွံ့ဖြိုးတိုးတက်ရေး"
+                    "professional": "PHP ကို​​မူဘောင်ဖွံ့ဖြိုးရေးလုပ်ငန်း"
                 }
             ]
         }
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "သတင်းထုတ်ပြန်ချက်",
+        "labelVersion": "လွှတ်ပေး",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "အချို့သောအမှားများ Fixed ။"
+                        "content": "bug ပြင်ဆင်ခြင်းများ။"
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "အချို့သောအမှားများ Fixed ။"
+                        "content": "bug ပြင်ဆင်ခြင်းများ။"
                     },
                     {
                         "platform": "{{Windows}}",
@@ -194,7 +194,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "သတင်းထုတ်ပြန်ချက်",
+        "labelVersion": "လွှတ်ပေး",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -362,7 +368,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "ဝယ်ယူ",
+        "SectionName": "အရစ်ကျ",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -410,7 +416,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "ရရှိနိုင်သည့်ဘာသာစကားများကို",
-        "ChangeAlert": "complete switch ကိုဘာသာစကား"
+        "SectionName": "ရရှိနိုင်ဘာသာစကားများ",
+        "ChangeAlert": "အပြီးအစီး switch ကိုဘာသာစကား"
     }
 }

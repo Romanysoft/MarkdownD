@@ -3,8 +3,8 @@
         "Home": "בית",
         "Feature": "תכונות",
         "Documents": "עזרה מקוונת",
-        "ReleaseNotes": "הערות",
-        "Downloads": "ניסיון חינם",
+        "ReleaseNotes": "הערות מוצר",
+        "Downloads": "נסיון חינם",
         "Buy": "רכישה",
         "Roadmap": "קו מוצרים",
         "ReportIssue": "דווח על בעיה",
@@ -12,8 +12,8 @@
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "עורך Markdown תכונות מלא. תמיכה במערכות הפעלת Windows, Linux ו- MacOSX.",
-        "BtnDownload": "ניסיון חינם",
+        "ProjectTagline": "עורך Markdown מתפקדת במלואה. הוא תומך ב- Windows, מערכת ההפעלה לינוקס ו- MacOSX.",
+        "BtnDownload": "נסיון חינם",
         "BtnBuy": "רכישה",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,40 +24,40 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "תכונות עיקריות של מוצר",
+            "SectionName": "תכונות מוצר עיקריות",
             "list": [
-                "תמיכה יצוא כקובץ PDF",
-                "תמיכה בהדפסת מסמכים",
-                "תומך מחיר סטנדרטי / CommonMark וGFM (Markdown של GitHub)",
-                "תמיכת תצוגה מקדימה חיה",
-                "פורמטים נתמכים של טקסט, בלוקים קוד, שולחנות, קיפול קוד, חיפוש והחלפה, ריבוי שפות, הדגשת תחביר קוד HTML ישות",
-                "התמיכה TOC (תוכן עניינים), הביטוי של הבעות, רשימת המשימות (Task מפה), @ (קישורים)",
-                "תגי פענוח תמיכה וסינון HTML ותכונות",
-                "תרשים זרימה התמיכה טקסס (ביטוי לטקס, Katex Inc) ותרשימי רצף",
-                "קבצי תמיכה של התאוששות מנגנון",
-                "עריכה מרובה תמיכה, מספר בלתי מוגבל"
+                "תומך בייצוא ל- PDF",
+                "הדפס את תמיכת המסמך",
+                "תומך מחיר סטנדרטי / CommonMark ו GFM (GitHub של Markdown)",
+                "תמיכת תצוגה מקדימה חיה '",
+                "תומך טקסט מעוצב, קטעי קוד, שולחנות, קיפול קוד, חיפוש והחלפה, ריבוי שפות, הדגשת תחביר ישות קוד HTML",
+                "התמיכה TOC (תוכן עניינים), ביטוי של הבעות, לרשימת משימות (מפת המשימה), @ (קישורים)",
+                "תגי תמיכת פענוח HTML הסינון ותכונות",
+                "תמיכה טקסס (ביטוי לטקס, החברה Katex), תרשימי זרימה ודיאגרמות רצף",
+                "קבצי תמיכה של מנגנון התאוששות",
+                "תמיכת עריכת מספר, מספר בלתי מוגבל"
             ]
         },
         "UserReviews": {
             "SectionName": "כיצד להעריך MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD הוא מדהים. פשוט. נקי. שלמות. עשה יפה.",
+                    "reviewContent": "MarkdownD מדהים. פשוט. נקי. שלמות. עבודה יפה.",
                     "userName": "evanw",
                     "professional": "קידום טכנולוגיה"
                 },
                 {
-                    "reviewContent": "MarkdownD הוא מה שאני עושה כמעט את כל הכתיבה שלי, זה הוא יישום קטן גדול.",
-                    "userName": "פיטר רייט",
-                    "professional": "הסופרים של Ars Technica"
+                    "reviewContent": "MarkdownD שאני עושה כמעט כל הכתיבה שלי, שבה הוא יישום קטן גדול.",
+                    "userName": "פיטר מואר",
+                    "professional": "Technica Ars לכותב"
                 },
                 {
-                    "reviewContent": "אם יש לך עניין במחירים נמוכים יותר, MarkdownD הוא בהחלט שווה ההורדה.",
+                    "reviewContent": "אם יש לך עניין מחירים נמוכים, MarkdownD בהחלט שווה הורדה.",
                     "userName": "Lifehacker של",
                     "professional": "מפתחי אינטרנט ומעצבים"
                 },
                 {
-                    "reviewContent": "אני באמת אוהב את MarkdownD, הביא נוחות רבה; העבודה שלי.",
+                    "reviewContent": "אני ממש אוהב MarkdownD, הבאתי נוחות רבה; עבודתי.",
                     "userName": "jeruss",
                     "professional": "פיתוח במסגרת PHP"
                 }
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "תוקן כמה טעויות."
+                        "content": "תיקוני באגים."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "תוקן כמה טעויות."
+                        "content": "תיקוני באגים."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -411,6 +417,6 @@
     "RoadMapPage": {},
     "LanguagesPage": {
         "SectionName": "שפות זמינות",
-        "ChangeAlert": "שפת מתג מלאה"
+        "ChangeAlert": "שפה מעבר מלאה"
     }
 }

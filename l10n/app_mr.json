@@ -2,17 +2,17 @@
     "TopBar": {
         "Home": "मुख्यपृष्ठ",
         "Feature": "वैशिष्ट्ये",
-        "Documents": "ऑनलाईन मदत",
+        "Documents": "ऑनलाइन मदत",
         "ReleaseNotes": "प्रकाशन टिपा",
         "Downloads": "विनामूल्य चाचणी",
         "Buy": "खरेदी",
         "Roadmap": "उत्पादन ओळ",
-        "ReportIssue": "समस्या नोंदवा",
+        "ReportIssue": "एका समस्येचा अहवाल द्या",
         "Languages": "भाषा"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "पूर्ण-वैशिष्ट्यीकृत Markdown संपादक. विंडोज, लिनक्स व MacOSX कार्य प्रणाली समर्थन.",
+        "ProjectTagline": "Markdown संपादक पूर्णतः कार्यशील. हे विंडोज, लिनक्स व MacOSX ऑपरेटिंग सिस्टम समर्थन पुरवतो.",
         "BtnDownload": "विनामूल्य चाचणी",
         "BtnBuy": "खरेदी",
         "Screens": [
@@ -26,15 +26,15 @@
         "Features": {
             "SectionName": "उत्पादन मुख्य वैशिष्ट्ये",
             "list": [
-                "PDF फाइल म्हणून निर्यात समर्थन",
-                "मुद्रण दस्तऐवज समर्थन",
-                "समर्थन मानक किंमत / CommonMark आणि GFM (GitHub च्या Markdown)",
-                "थेट पूर्वावलोकन समर्थन",
-                "मजकूर समर्थित स्वरूप, कोड अवरोध, टेबल कोड गोलाकार, मल्टि-भाषा शोध आणि पुनर्स्थित, स्वतंत्र HTML कोड मांडणी ठळक",
-                "समर्थन TOC (अनुक्रमणिका), भावनांची अभिव्यक्ती, कार्य यादी (कार्य नकाशा), @ (← दुवे)",
+                "PDF निर्यात समर्थन",
+                "प्रिंट दस्तऐवज समर्थन",
+                "समर्थन मानक किंमत / CommonMark आणि GFM (Markdown च्या GitHub)",
+                "पूर्वावलोकन समर्थन थेट",
+                "रूपण मजकूर, कोड अवरोध, टेबल कोड गोलाकार, शोध आणि पुनर्स्थित, मल्टि-भाषा, स्वतंत्र HTML चे कोड सिंटॅक्स उठावदारीकरण समर्थन",
+                "समर्थन सारणी (अनुक्रमणिका), भावनांची अभिव्यक्ती, कार्य यादी (कार्य नकाशा), @ (← दुवे)",
                 "समर्थन डीकोडिंग आणि गाळणे HTML टॅग आणि विशेषता",
-                "समर्थन टेक्सास (ले टेक अभिव्यक्ती, Katex इन्क) फ्लोचार्ट आणि क्रम आकृत्या",
-                "समर्थन फाइल्स पुनर्प्राप्ती यंत्रणा",
+                "समर्थन टेक्सास (ले टेक अभिव्यक्ती, Katex कंपनी), फ्लोचार्ट आणि क्रम आकृत्या",
+                "समर्थन फाइल पुनर्प्राप्ती यंत्रणा",
                 "समर्थन अनेक संपादन, अमर्यादित संख्या"
             ]
         },
@@ -42,22 +42,22 @@
             "SectionName": "MarkdownD मूल्यमापन कसे",
             "list": [
                 {
-                    "reviewContent": "MarkdownD आश्चर्यकारक आहे. साधे. स्वच्छ. परिपूर्ण. छान झाले.",
+                    "reviewContent": "MarkdownD आश्चर्यकारक आहे. सोपे. स्वच्छ. परिपूर्ण. छान पूर्ण केले.",
                     "userName": "evanw",
                     "professional": "तंत्रज्ञान प्रोत्साहन"
                 },
                 {
-                    "reviewContent": "MarkdownD, हे एक महान थोडे अनुप्रयोग आहे, जे मी जवळजवळ सर्व माझ्या लिखाणाबद्दल काय आहे.",
+                    "reviewContent": "MarkdownD मी जवळजवळ माझ्या सर्व लेखन, जे एक उत्तम थोडे अर्ज करू.",
                     "userName": "पीटर तेजस्वी",
-                    "professional": "Ars Technica च्या लेखक"
+                    "professional": "या Ars Technica लेखक"
                 },
                 {
-                    "reviewContent": "आपण कमी दर कोणत्याही स्वारस्य आहे, तर, MarkdownD निश्चितपणे डाउनलोड वाचतो आहे.",
+                    "reviewContent": "आपण कमी दर कोणत्याही स्वारस्य आहे, तर, MarkdownD डाउनलोड नक्कीच वाचतो.",
                     "userName": "Lifehacker च्या",
                     "professional": "वेब डेव्हलपर आणि डिझाइनर"
                 },
                 {
-                    "reviewContent": "मी खरोखर MarkdownD जसे, महान सोयीसाठी आणले आहे; माझे काम.",
+                    "reviewContent": "माझे काम मी खरोखर MarkdownD जसे, महान सोयीसाठी आणले आहे.",
                     "userName": "jeruss",
                     "professional": "कृपया PHP फ्रेमवर्क विकास"
                 }
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "काही चुका निर्धारण केले."
+                        "content": "बग निर्धारण समाविष्टीत आहे."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "काही चुका निर्धारण केले."
+                        "content": "बग निर्धारण समाविष्टीत आहे."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },

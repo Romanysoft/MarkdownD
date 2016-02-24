@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "Үй",
-        "Feature": "Ерекшеліктері",
+        "Home": "үй",
+        "Feature": "ерекшеліктері",
         "Documents": "Онлайн анықтама",
         "ReleaseNotes": "Release Notes",
         "Downloads": "Тегін Trial",
-        "Buy": "Сатып алу",
+        "Buy": "сатып алу",
         "Roadmap": "Өнім желісі",
         "ReportIssue": "Мәселе туралы хабарлау",
-        "Languages": "Тіл"
+        "Languages": "тіл"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Толық функционалды шамасы редакторы. Windows, Linux және MacOSX операциялық жүйелері үшін қолдау.",
+        "ProjectTagline": "толық функционалды шамасы редакторы. Ол Windows, Linux және MacOSX операциялық жүйесін қолдайды.",
         "BtnDownload": "Тегін Trial",
-        "BtnBuy": "Сатып алу",
+        "BtnBuy": "сатып алу",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -26,16 +26,16 @@
         "Features": {
             "SectionName": "Өнім негізгі белгілері",
             "list": [
-                "PDF файлы ретінде экспортты қолдау",
-                "Құжаттарды басып шығару үшін қолдау",
-                "Стандартты бағасы / CommonMark және ОМФ (GitHub ның шамасы) қолдайды",
-                "Live Preview Қолдау",
-                "Мәтін, блоктарды код, кестелер, Коджолдарынбүктеу, іздеу және ауыстыру, көп тілді, HTML кәсіпорын коды синтаксисті бояулауы-ның Қолданылатын пішімдер",
-                "Қолдау TOC (мазмұны), Смайликтер өрнек, Тапсырма тізімі (Тапсырма картасы), @ (← сілтемелер)",
-                "Декодтау және сүзу HTML тегтер мен атрибуттар қолдау",
-                "Қолдау Техас (латекс өрнек, Katex Inc.) графикалық схемалар мен дәйектілігі диаграммалар",
+                "PDF экспорттау тіректері",
+                "құжат қолдау Басып шығару",
+                "стандартты бағасы / CommonMark және ОМФ (шамасы GitHub) қолдайды",
+                "Алдын-ала қарау Live қолдау",
+                "Пішімделген мәтінді, коды блоктарын, кестелер, Коджолдарынбүктеу, іздеу және ауыстыру, көп тілді, HTML коды тұлға синтаксисті бояулауы қолдайды",
+                "Қолдау TOC (Мазмұны), Смайликтер өрнек, тапсырмалар тізімі (міндет картасы), @ (← сілтемелер)",
+                "декодтау және сүзу HTML тегтер мен төлсипаттар қолдау",
+                "Қолдау Техас (латекс өрнек, Katex компания) графикалық схемалар және диаграммалар тізбегі",
                 "Қолдау файлдар қалпына келтіру механизмі",
-                "Бірнеше редакциялау, шексіз санын қолдау"
+                "бірнеше редакциялау, шексіз санын қолдау"
             ]
         },
         "UserReviews": {
@@ -44,22 +44,22 @@
                 {
                     "reviewContent": "MarkdownD ғажайып. Қарапайым. Таза. Жетілдіру. Жақсы жасаған.",
                     "userName": "evanw",
-                    "professional": "Технология Promotion"
+                    "professional": "технология Promotion"
                 },
                 {
-                    "reviewContent": "MarkdownD Мен барлық дерлік менің жазу не істеу, бұл үлкен кішкентай қолдану болып табылады.",
+                    "reviewContent": "MarkdownD Мен үлкен сәл бағдарлама болып табылады, барлық дерлік менің жазуды, не істеу.",
                     "userName": "Питер Bright",
-                    "professional": "Ars Technica Жазушылар"
+                    "professional": "ның Ars Technica жазушы"
                 },
                 {
-                    "reviewContent": "Сіз төменгі бағаның кез келген қызығушылық болса, MarkdownD сөзсіз жүктеу тұр.",
+                    "reviewContent": "Егер сіз төменгі бағамен кез келген қызығушылық болса, сөзсіз MarkdownD жүктеу тұр.",
                     "userName": "Lifehacker ның",
                     "professional": "Веб әзірлеушілер мен дизайнерлер"
                 },
                 {
-                    "reviewContent": "Мен шынында MarkdownD сияқты, үлкен қолайлылық әкелді; менің жұмысын.",
+                    "reviewContent": "Мен шынында MarkdownD сияқты үлкен қолайлылық әкелді; жұмысымды.",
                     "userName": "jeruss",
-                    "professional": "PHP база дамыту"
+                    "professional": "PHP Framework дамыту"
                 }
             ]
         }
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Босату",
+        "labelVersion": "босату",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Кейбір қателерді Fixed."
+                        "content": "Қателерді түзету."
                     }
                 ]
             },
@@ -179,22 +179,22 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Кейбір қателерді Fixed."
+                        "content": "Қателерді түзету."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Бірінші релизі."
+                        "content": "бірінші релизі."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Бірінші релизі."
+                        "content": "бірінші релизі."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Босату",
+        "labelVersion": "босату",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -362,7 +368,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Сатып алу",
+        "SectionName": "сатып алу",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

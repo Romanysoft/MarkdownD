@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "У дома",
+        "Home": "дом",
         "Feature": "Удобства",
         "Documents": "Онлайн помощ",
         "ReleaseNotes": "Бележки по изданието",
-        "Downloads": "Free Trial",
-        "Buy": "Покупка",
+        "Downloads": "Пробен",
+        "Buy": "покупка",
         "Roadmap": "Продуктова линия",
         "ReportIssue": "Съобщи за проблем",
-        "Languages": "Език"
+        "Languages": "език"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Пълнофункционален Markdown редактор. Подкрепа за Windows, Linux и MacOSX операционни системи.",
-        "BtnDownload": "Free Trial",
-        "BtnBuy": "Покупка",
+        "ProjectTagline": "Markdown редактор напълно функционална. Той поддържа Windows, Linux и MacOSX операционна система.",
+        "BtnDownload": "Пробен",
+        "BtnBuy": "покупка",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Продуктови основни характеристики",
+            "SectionName": "Продуктови основни функции",
             "list": [
-                "Помогнете Export като PDF файл",
-                "Подкрепа за отпечатване на документи",
-                "Поддържа стандартна цена / CommonMark и GFM (Markdown GitHub съобщения)",
+                "Поддържа експортиране на PDF",
+                "Печат подкрепата на документ",
+                "Поддържа стандартна цена / CommonMark и GFM (GitHub на Markdown)",
                 "Поддръжка на живо Preview",
-                "Поддържани формати на текст, код блокове, маси, код за сгъване, търсене и замяна, многоезична, HTML код образувание оцветяване на синтаксиса",
-                "Подкрепа TOC (съдържанието), експресията на емотикони, списъка със задачи (Task Map), @ (линкове)",
+                "Поддържа форматиран текст, кодови блокове, маси, код за сгъване, търсене и замяна, многоезична, HTML субект код оцветяване на синтаксиса",
+                "Подкрепа TOC (съдържанието), изразяването на емотикони, списъка със задачи (карта на задача), @ (линкове)",
                 "Подкрепа за декодиране и филтриране HTML тагове и атрибути",
-                "Подкрепа Тексас (експресивни латекс, Катекс Inc.) графики и диаграми на последователност",
-                "Поддръжка файлове механизъм за възстановяване",
-                "Подкрепа множествена редактиране, неограничен брой"
+                "Подкрепа Тексас (латекс изразяване, Катекс компания), графики и диаграми на последователност",
+                "Поддръжка на файлове механизми за възстановяване на",
+                "Поддържа множество редактиране, неограничен брой"
             ]
         },
         "UserReviews": {
             "SectionName": "Как да се оцени MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD е невероятно. Simple. Clean. Perfection. Браво.",
+                    "reviewContent": "MarkdownD е невероятно. Simple. Clean. Съвършенство. Браво.",
                     "userName": "evanw",
-                    "professional": "Технология Promotion"
+                    "professional": "Технология Промоция"
                 },
                 {
-                    "reviewContent": "MarkdownD е това, което правя почти цялото си писание, това е много малко приложение.",
-                    "userName": "Peter Bright",
-                    "professional": "Писатели Ars Technica е"
+                    "reviewContent": "MarkdownD правя почти всички моето писане, което е много малко приложение.",
+                    "userName": "Питър Брайт",
+                    "professional": "Ars Technica писател на"
                 },
                 {
-                    "reviewContent": "Ако имате интерес към по-ниски цени, MarkdownD е определено си струва мишката.",
-                    "userName": "Lifehacker си",
+                    "reviewContent": "Ако имате интерес в по-ниски цени, MarkdownD е определено си струва свалянето.",
+                    "userName": "Lifehacker е",
                     "professional": "Уеб програмисти и дизайнери"
                 },
                 {
                     "reviewContent": "Аз наистина харесвам MarkdownD, донесе голямо удобство; моята работа.",
                     "userName": "jeruss",
-                    "professional": "Рамка за развитие PHP"
+                    "professional": "рамка за развитие, PHP"
                 }
             ]
         }
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Изпускане",
+        "labelVersion": "изпускане",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Фиксирана някои грешки."
+                        "content": "Корекции на грешки."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Фиксирана някои грешки."
+                        "content": "Корекции на грешки."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -194,7 +194,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Изпускане",
+        "labelVersion": "изпускане",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -362,7 +368,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Покупка",
+        "SectionName": "покупка",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

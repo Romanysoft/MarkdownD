@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "Kodus",
+        "Home": "kodus",
         "Feature": "Omadused",
-        "Documents": "Online Help",
+        "Documents": "Hetkel Abi",
         "ReleaseNotes": "Release Notes",
         "Downloads": "Tasuta prooviversioon",
-        "Buy": "Ostu",
-        "Roadmap": "Tootevalik",
-        "ReportIssue": "Teata probleemist",
-        "Languages": "Keel"
+        "Buy": "ostmine",
+        "Roadmap": "tootevalik",
+        "ReportIssue": "Teavita probleemist",
+        "Languages": "keel"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Täisfunktsionaalne Hinnaalandus toimetaja. Support for Windows, Linux ja MacOSX operatsioonisüsteemidega.",
+        "ProjectTagline": "Hinnaalandus toimetaja täisfunktsionaalne. Ta toetab Windows, Linux ja MacOSX operatsioonisüsteemi.",
         "BtnDownload": "Tasuta prooviversioon",
-        "BtnBuy": "Ostu",
+        "BtnBuy": "ostmine",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -26,15 +26,15 @@
         "Features": {
             "SectionName": "Toote põhijooned",
             "list": [
-                "Probleemid Ekspordi PDF-failina",
-                "Toetus trükkimine dokumente",
-                "Toetab tavahind / CommonMark ja GFM (github on Hinnaalandus)",
+                "Toetab eksportivate PDF",
+                "Trüki dokument toetust",
+                "Toetab tavahind / CommonMark ja GFM (GitHub of Hinnaalandus)",
                 "Live Preview Support",
-                "Toetatud formaadid teksti, kood plokid, lauad, koodivoltimist, otsida ja asendada, mitut keelt, HTML üksus koodi süntaksi esiletõstmine",
-                "Toetus TOC (sisukorra) väljendiga emotikone, ülesannete loendis (Task-kaart), @ (lingid)",
+                "Toetab vormindatud teksti, kood plokid, lauad, koodivoltimist, otsida ja asendada, mitut keelt, HTML üksus koodi süntaksi esiletõstmine",
+                "Toetus TOC (sisukord), väljendus emotikone, ülesannete loend (ülesanne kaardiga), @ (lingid)",
                 "Toetus dekodeerimine ja filtreerimine HTML sildid ja atribuudid",
-                "Toetus Texas (lateks väljendus, Katex Inc.) flowcharts ja järgnevusskeemilt",
-                "Toetus failide taastamise mehhanism",
+                "Toetus Texas (lateks väljendus, KATEX firma), flowcharts ja järgnevusskeemilt",
+                "Probleemid failide taastamise mehhanism",
                 "Toetab mitmeid toimetamine, piiramatu arv"
             ]
         },
@@ -42,24 +42,24 @@
             "SectionName": "Kuidas hinnata MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD on hämmastav. Lihtne. Clean. Perfection. Ilusti tehtud.",
+                    "reviewContent": "MarkdownD on hämmastav. Lihtne. Puhas. Perfection. Ilusti tehtud.",
                     "userName": "evanw",
-                    "professional": "Tehnoloogia edendamine"
+                    "professional": "Technology Promotion"
                 },
                 {
-                    "reviewContent": "MarkdownD on see, mida ma teen peaaegu kõik minu kirjalikult, see on väga väike rakendus.",
+                    "reviewContent": "MarkdownD ma peaaegu kõik minu kirjalikult, mis on väga väike rakendus.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica kirjanikud"
+                    "professional": "Ars Technica kirjanik"
                 },
                 {
-                    "reviewContent": "Kui teil on huvi madalama hinna, MarkdownD tasub kindlasti alla.",
+                    "reviewContent": "Kui teil on huvi madalama hinnaga, MarkdownD tasub kindlasti allalaadimist.",
                     "userName": "Lifehacker on",
-                    "professional": "Web arendajad ja projekteerijad"
+                    "professional": "Web arendajad ja disainerid"
                 },
                 {
                     "reviewContent": "Mulle meeldib MarkdownD, on toonud suurt mugavust, minu töö.",
                     "userName": "jeruss",
-                    "professional": "PHP raamistik areng"
+                    "professional": "PHP raames areng"
                 }
             ]
         }
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Vabastamine",
+        "labelVersion": "vabastamine",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fikseeritud mõned vead."
+                        "content": "Veaparandusi."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fikseeritud mõned vead."
+                        "content": "Veaparandusi."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -194,7 +194,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Vabastamine",
+        "labelVersion": "vabastamine",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -362,7 +368,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Ostu",
+        "SectionName": "ostmine",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -411,6 +417,6 @@
     "RoadMapPage": {},
     "LanguagesPage": {
         "SectionName": "Olemasolevad keeled",
-        "ChangeAlert": "Täielik üleminek keel"
+        "ChangeAlert": "Täielik üleminek keeles"
     }
 }

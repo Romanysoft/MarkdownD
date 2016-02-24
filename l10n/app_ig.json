@@ -1,20 +1,20 @@
 {
     "TopBar": {
         "Home": "Home",
-        "Feature": "Atụmatụ",
-        "Documents": "Online Help",
+        "Feature": "atụmatụ",
+        "Documents": "online Help",
         "ReleaseNotes": "Hapụ ndị edeturu",
         "Downloads": "Free Trial",
-        "Buy": "Ịzụ",
-        "Roadmap": "Product akara",
-        "ReportIssue": "Kọọrọnụ a nsogbu",
-        "Languages": "Asụsụ"
+        "Buy": "zuo",
+        "Roadmap": "ngwaahịa akara",
+        "ReportIssue": "-Akọ a nsogbu",
+        "Languages": "asụsụ"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Full-apụta Markdown nchịkọta akụkọ. Nkwado maka Windows, Linux na MacOSX ịwa usoro.",
+        "ProjectTagline": "Markdown nchịkọta akụkọ n'ụzọ zuru ezu arụ orụ. Ọ na-akwado Windows, Linux na MacOSX sistemụ.",
         "BtnDownload": "Free Trial",
-        "BtnBuy": "Ịzụ",
+        "BtnBuy": "zuo",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -26,40 +26,40 @@
         "Features": {
             "SectionName": "Product isi atụmatụ",
             "list": [
-                "Akwado Export dị ka PDF faịlụ",
-                "Nkwado maka obibi akwụkwọ akwụkwọ",
-                "Na-akwado ọkọlọtọ price / CommonMark na GFM (GitHub si Markdown)",
+                "-Akwado exporting ka PDF",
+                "Ibipụta akwụkwọ support",
+                "-Akwado ọkọlọtọ price / CommonMark na GFM (GitHub nke Markdown)",
                 "Live Preview Nkwado",
-                "Akwado formats nke ederede, koodu blocks, tebụl, koodu mpịachi, chọọ na-eji dochie, multi-asụsụ, HTML kwadoro koodu syntax pụta ìhè",
-                "Nkwado TOC (table nke ọdịnaya), okwu nke emoticons, ọrụ ndepụta (Task Map), @ (njikọ)",
+                "-Akwado map a, koodu blocks, tebụl, koodu mpịachi, chọọ na-eji dochie, multi-asụsụ, HTML agabiga mbara igwe koodu syntax pụta ìhè",
+                "Nkwado TOC (dị n'ime) ya, okwu nke emoticons, ọrụ ndepụta (ọrụ map), @ (links)",
                 "Nkwado nyopụta na nzacha na mkpado ma àgwà",
-                "Nkwado Texas (latex okwu, Katex Inc.) flowcharts na usoro ihe osise",
+                "Nkwado Texas (latex okwu, Katex ụlọ ọrụ), flowcharts na usoro ihe osise mee ihe",
                 "Nkwado faịlụ mgbake usoro",
-                "Nkwado multiple edezi, akparaghị ókè ọtụtụ"
+                "Nkwado multiple edezi, na-akparaghị ókè ọnụ ọgụgụ"
             ]
         },
         "UserReviews": {
-            "SectionName": "Olee otú inwale MarkdownD",
+            "SectionName": "Ụzọ isi nyochaa MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD bụ ịtụnanya. Dị mfe. Ọcha. Okè. Omume ọma mere.",
+                    "reviewContent": "MarkdownD bụ ịtụnanya. Mfe. Dị ọcha. Izu okè. Omume ọma mere.",
                     "userName": "evanw",
                     "professional": "Technology Promotion"
                 },
                 {
-                    "reviewContent": "MarkdownD bụ ihe m na-eme fọrọ nke nta niile m ide, nke a bụ oké obere ngwa.",
+                    "reviewContent": "MarkdownD m na-eme ọ fọrọ nke nta niile m dere ede, nke bụ oké obere ngwa.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica si dere"
+                    "professional": "Ars Technica dere"
                 },
                 {
-                    "reviewContent": "Ọ bụrụ na ị nwere mmasị ọ bụla ala ahịa, MarkdownD bụ maa ruru download.",
+                    "reviewContent": "Ọ bụrụ na ị nwere mmasị ọ bụla ala ahịa, MarkdownD kwesịrị nnọọ nbudata.",
                     "userName": "Lifehacker si",
-                    "professional": "Web Mmepe na-emepụta"
+                    "professional": "Web mmepe na-emepụta"
                 },
                 {
-                    "reviewContent": "M n'ezie ka MarkdownD, emewo ka oké mma; ọrụ m.",
+                    "reviewContent": "M n'ezie dị ka MarkdownD, emewo ka oké mma; ọrụ m.",
                     "userName": "jeruss",
-                    "professional": "PHP kpuchie mmepe"
+                    "professional": "PHP kpuchie development"
                 }
             ]
         }
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Hapụ",
+        "labelVersion": "ntọhapụ",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Ofu ụfọdụ njehie."
+                        "content": "Ahụhụ fixes."
                     }
                 ]
             },
@@ -179,22 +179,22 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Ofu ụfọdụ njehie."
+                        "content": "Ahụhụ fixes."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Mbụ ntọhapụ."
+                        "content": "The mbụ tọhapụ."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Mbụ ntọhapụ."
+                        "content": "The mbụ tọhapụ."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Hapụ",
+        "labelVersion": "ntọhapụ",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -362,7 +368,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Ịzụ",
+        "SectionName": "zuo",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -410,7 +416,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "E Nwere Asụsụ",
+        "SectionName": "dị Asụsụ",
         "ChangeAlert": "Complete mgba ọkụ asụsụ"
     }
 }

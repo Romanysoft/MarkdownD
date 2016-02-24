@@ -5,16 +5,16 @@
         "Documents": "Online Hjálp",
         "ReleaseNotes": "Release Notes",
         "Downloads": "Free Trial",
-        "Buy": "Purchase",
-        "Roadmap": "Vöruframboð",
-        "ReportIssue": "Tilkynna um vandamál",
+        "Buy": "kaup",
+        "Roadmap": "vara lína",
+        "ReportIssue": "Tilkynna vandamál",
         "Languages": "Tungumál"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Full-lögun Markdown ritstjóri. Stuðningur við Windows, Linux og MacOSX stýrikerfum.",
+        "ProjectTagline": "Markdown ritstjóri fullkomlega hagnýtur. Það styður Windows, Linux og MacOSX stýrikerfi.",
         "BtnDownload": "Free Trial",
-        "BtnBuy": "Purchase",
+        "BtnBuy": "kaup",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -26,14 +26,14 @@
         "Features": {
             "SectionName": "Vara Helstu eiginleikar",
             "list": [
-                "Stuðningur Flytja sem PDF skrá",
-                "Stuðningur við prentun skjöl",
-                "Styður staðall verð / CommonMark og GFM (Markdown GitHub er)",
+                "Styður flytja til PDF",
+                "Prenta skjal stuðning",
+                "Styður staðall verð / CommonMark og GFM (GitHub af Markdown)",
                 "Live Preview Support",
-                "Stuðningsmaður snið af texta, kóða blokkir, borð, númer leggja saman, leita og skipta, multi-tungumál, HTML eining númer setningafræði auðkenning",
-                "Stuðningur TOC (efnisyfirlit), tjáning broskörlum, verkefni listi (Task Map), @ (tenglar)",
+                "Styður sniðinn texta, númer blokkir, borðum, númerið brjóta saman, leita og skipta, multi-tungumál, HTML eining númer setningafræði auðkenning",
+                "Stuðningur TOC (efnisyfirlit), tjáning broskörlum, verkefni listi (verkefni kort), @ (tenglar)",
                 "Stuðningur umskráningu og síun HTML tög og eiginleika",
-                "Stuðningur Texas (latex tjáningu, Katex Inc.) flæðirit og röð skýringarmyndir",
+                "Stuðningur Texas (latex tjáning, Katex fyrirtæki), flæðirit og sequence skýringarmyndir",
                 "Stuðningur skrá bati vélbúnaður",
                 "Styðja margfeldi klippingu, ótakmarkaðan fjölda"
             ]
@@ -44,12 +44,12 @@
                 {
                     "reviewContent": "MarkdownD er ótrúlegt. Einfalt. Clean. Fullkomnun. Fallega gert.",
                     "userName": "evanw",
-                    "professional": "Tækni Efling"
+                    "professional": "tækni Efling"
                 },
                 {
-                    "reviewContent": "MarkdownD er það sem ég geri nánast allt skrifin mín, þetta er a mikill lítill forrit.",
+                    "reviewContent": "MarkdownD ég gert næstum allt skrifin mín, sem er a mikill lítill forrit.",
                     "userName": "Peter Bright",
-                    "professional": "Rithöfundar Ars Technica er"
+                    "professional": "Ars Technica rithöfundur"
                 },
                 {
                     "reviewContent": "Ef þú hefur áhuga á lægra verði, MarkdownD er sannarlega þess virði að sækja.",
@@ -57,7 +57,7 @@
                     "professional": "Vefur verktaki og hönnuðir"
                 },
                 {
-                    "reviewContent": "ÉG raunverulega eins MarkdownD, hefur fært mikil þægindi, starfi mínu.",
+                    "reviewContent": "Ég virkilega eins MarkdownD, hefur fært mikil þægindi, verk mín.",
                     "userName": "jeruss",
                     "professional": "PHP ramma þróun"
                 }
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fastur sumir villur."
+                        "content": "Padda fastur."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fastur sumir villur."
+                        "content": "Padda fastur."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -362,7 +368,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Purchase",
+        "SectionName": "kaup",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

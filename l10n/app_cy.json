@@ -1,20 +1,20 @@
 {
     "TopBar": {
         "Home": "Cartref",
-        "Feature": "Nodweddion",
+        "Feature": "nodweddion",
         "Documents": "Help ar-lein",
         "ReleaseNotes": "Nodiadau Rhyddhau",
         "Downloads": "Treial am ddim",
-        "Buy": "Prynu",
-        "Roadmap": "Llinell Cynnyrch",
+        "Buy": "prynu",
+        "Roadmap": "cynnyrch llinell",
         "ReportIssue": "Rhoi gwybod am broblem",
-        "Languages": "Iaith"
+        "Languages": "iaith"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Golygydd Markdown llawn-ymddangos. Cymorth ar gyfer Windows, Linux a MacOSX systemau gweithredu.",
+        "ProjectTagline": "golygydd Markdown gwbl weithredol. Mae'n cefnogi Windows, Linux a MacOSX system weithredu.",
         "BtnDownload": "Treial am ddim",
-        "BtnBuy": "Prynu",
+        "BtnBuy": "prynu",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -26,14 +26,14 @@
         "Features": {
             "SectionName": "Cynnyrch prif nodweddion",
             "list": [
-                "Cefnogwch Allforio fel ffeil PDF",
-                "Cefnogaeth ar gyfer dogfennau argraffu",
-                "Cefnogi pris safonol / CommonMark a GFM (Markdown GitHub yn)",
+                "Yn cefnogi allforio i PDF",
+                "Argraffwch y gefnogaeth ddogfen",
+                "Cefnogi pris safonol / CommonMark a GFM (GitHub o Markdown)",
                 "Cymorth Rhagolwg Byw",
-                "Fformatau Chymorth o destun, blociau cod, tablau, cod plygu, chwilio a disodli, aml-iaith, HTML endid cod amlygu cystrawen",
-                "Cymorth TOC (tabl cynnwys), y mynegiant o emoticons, mae'r rhestr dasg (Tasg Map), @ (cysylltiadau)",
-                "Cymorth datgodio a HTML hidlo tagiau a phriodoleddau",
-                "Siartiau llif Cymorth Texas (mynegiant latecs, Katex Inc) a diagramau dilyniant",
+                "Cefnogi testun fformatio, blociau cod, tablau, cod plygu, chwilio a disodli, aml-iaith, HTML cod endid amlygu cystrawen",
+                "Cymorth TOC (tabl cynnwys), y mynegiant o emoticons, mae'r rhestr dasg (y map dasg), @ (cysylltiadau)",
+                "tagiau a phriodoleddau Cymorth datgodio a HTML hidlo",
+                "Cymorth Texas (mynegiant latecs, Katex cwmni), siartiau llif a diagramau dilyniant",
                 "Ffeiliau Cymorth mecanwaith adennill",
                 "Cefnogaeth golygu lluosog, nifer digyfyngiad"
             ]
@@ -42,24 +42,24 @@
             "SectionName": "Sut i werthuso MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD yn anhygoel. Syml. Glân. Berffeithrwydd. Gwneud 'n glws.",
+                    "reviewContent": "MarkdownD yn anhygoel. Syml. Glân. Berffeithrwydd. wneud 'n glws.",
                     "userName": "evanw",
-                    "professional": "Hyrwyddo Technoleg"
+                    "professional": "Hyrwyddo technoleg"
                 },
                 {
-                    "reviewContent": "MarkdownD yw'r hyn yr wyf yn ei wneud bron pob fy ysgrifennu cais bach mawr, a yw hyn.",
-                    "userName": "Peter Bright",
-                    "professional": "Awduron Ars Technica yn"
+                    "reviewContent": "MarkdownD wyf yn ei wneud bron pob fy ysgrifennu, sydd yn gais bach gwych.",
+                    "userName": "peter Bright",
+                    "professional": "Ars Technica awdur"
                 },
                 {
-                    "reviewContent": "Os oes gennych unrhyw ddiddordeb yn prisiau is, yn MarkdownD sicr yn werth y llwytho i lawr.",
+                    "reviewContent": "Os oes gennych unrhyw ddiddordeb yn prisiau is, MarkdownD yn bendant yn werth ei lawrlwytho.",
                     "userName": "Lifehacker yn",
-                    "professional": "Datblygwyr gwe a dylunwyr"
+                    "professional": "datblygwyr gwe a dylunwyr"
                 },
                 {
-                    "reviewContent": "Dwi'n hoff iawn o MarkdownD, wedi dod â hwylustod mawr; fy ngwaith.",
+                    "reviewContent": "Fi 'n sylweddol hoffi MarkdownD, wedi dod â hwylustod mawr; fy ngwaith.",
                     "userName": "jeruss",
-                    "professional": "Datblygu fframwaith PHP"
+                    "professional": "datblygu fframwaith PHP"
                 }
             ]
         }
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Sefydlog rhai gwallau."
+                        "content": "bug chyfyngderau."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Sefydlog rhai gwallau."
+                        "content": "bug chyfyngderau."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -362,7 +368,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Prynu",
+        "SectionName": "prynu",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

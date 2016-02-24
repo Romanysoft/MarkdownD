@@ -3,18 +3,18 @@
         "Home": "Hjem",
         "Feature": "Egenskaber",
         "Documents": "Online hjælp",
-        "ReleaseNotes": "Release Notes",
+        "ReleaseNotes": "Udgivelsesnoter",
         "Downloads": "Gratis prøveversion",
-        "Buy": "Købe",
-        "Roadmap": "Produktlinje",
+        "Buy": "købe",
+        "Roadmap": "produktlinje",
         "ReportIssue": "Rapporter et problem",
-        "Languages": "Sprog"
+        "Languages": "sprog"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Fuld-kendetegnet Markdown editor. Støtte til Windows, Linux og MacOSX operativsystemer.",
+        "ProjectTagline": "Markdown editor fuldt funktionsdygtig. Det understøtter Windows, Linux og MacOSX operativsystem.",
         "BtnDownload": "Gratis prøveversion",
-        "BtnBuy": "Købe",
+        "BtnBuy": "købe",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -26,30 +26,30 @@
         "Features": {
             "SectionName": "Produkt hovedtræk",
             "list": [
-                "Støtte Eksporter som PDF-fil",
-                "Støtte til udskrivning af dokumenter",
-                "Understøtter standard pris / CommonMark og GFM (GitHub s Markdown)",
+                "Understøtter eksport til PDF",
+                "Udskriv dokumentet support",
+                "Understøtter standard pris / CommonMark og GFM (GitHub af Markdown)",
                 "Levende Eksempel Support",
-                "Understøttede formater af tekst, kode blokke, borde, kodefoldning, søg og erstat, flere sprog, HTML enhed kode syntaks fremhævning",
-                "Support TOC (indholdsfortegnelse), udtryk for humørikoner, opgavelisten (Task Map), @ (links)",
+                "Understøtter formateret tekst, kode blokke, borde, kodefoldning, søg og erstat, flere sprog, HTML enhed kode syntaks fremhævning",
+                "Support TOC (indholdsfortegnelse), udtryk for humørikoner, opgavelisten (opgaven kort), @ (links)",
                 "Støtte afkodning og filtrering HTML-tags og attributter",
-                "Support Texas (latex udtryk, Katex Inc.) flowcharts og sekvensdiagrammer",
-                "Support-filer opsving mekanisme",
-                "Understøttelse af flere redigering, ubegrænset antal"
+                "Support Texas (latex udtryk Katex selskab), flowcharts og sekvensdiagrammer",
+                "filer recovery mekanisme",
+                "Support multiple redigering, ubegrænset antal"
             ]
         },
         "UserReviews": {
             "SectionName": "Hvordan til at vurdere MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD er forbløffende. Simple. Ren. Perfektion. Pænt gjort.",
+                    "reviewContent": "MarkdownD er forbløffende. Enkel. Ren. Perfektion. Pænt gjort.",
                     "userName": "evanw",
                     "professional": "Teknologi Promotion"
                 },
                 {
-                    "reviewContent": "MarkdownD er, hvad jeg gør næsten alle min skrivning, dette er en stor lille program.",
+                    "reviewContent": "MarkdownD jeg gøre næsten alt min skrivning, hvilket er en stor lille program.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica forfattere"
+                    "professional": "Ars Technica forfatter"
                 },
                 {
                     "reviewContent": "Hvis du har nogen interesse i lavere priser, MarkdownD er absolut værd at downloade.",
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Rettet nogle fejl."
+                        "content": "Fejlrettelser."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Rettet nogle fejl."
+                        "content": "Fejlrettelser."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -362,7 +368,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Købe",
+        "SectionName": "købe",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

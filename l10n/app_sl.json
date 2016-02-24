@@ -1,20 +1,20 @@
 {
     "TopBar": {
         "Home": "Domov",
-        "Feature": "Lastnosti",
+        "Feature": "lastnosti",
         "Documents": "Spletna pomoč",
         "ReleaseNotes": "Opombe k izdaji",
         "Downloads": "Free Trial",
-        "Buy": "Nakup",
-        "Roadmap": "Linija izdelkov",
+        "Buy": "nakup",
+        "Roadmap": "linija izdelkov",
         "ReportIssue": "Prijavi težavo",
-        "Languages": "Language"
+        "Languages": "Jezik"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Poln-izrazit urednik Markdown. Podpora za operacijske sisteme Windows, Linux in MacOSX.",
+        "ProjectTagline": "Markdown urednik popolnoma funkcionalen. Podpira operacijski sistem Windows, Linux in MacOSX.",
         "BtnDownload": "Free Trial",
-        "BtnBuy": "Nakup",
+        "BtnBuy": "nakup",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,40 +24,40 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Izdelek Glavne značilnosti",
+            "SectionName": "Izdelek glavne značilnosti",
             "list": [
-                "Podprite Izvozi kot datoteko PDF",
-                "Podpora za tiskanje dokumentov",
-                "Podpira standardni cena / CommonMark in GFM (GitHub je Markdown)",
-                "Live Support Predogled",
-                "Podprte oblike besedila, oznaka bloki, mize, koda zložljiva, iskanje in nadomestiti, multi-language, HTML Podjetje kodo sintakso poudarjanje",
-                "Podpora TOC (kazalo), izražanje čustvenih simbolov, seznam nalog (Task Map) @ (povezave)",
+                "Podpira izvozu v PDF",
+                "Tiskanje podporo dokument",
+                "Podpira standardni cena / CommonMark in GFM (GitHub Markdown)",
+                "Predogled v živo Support",
+                "Podpira oblikovano besedilo, kode blokov, mize, kodo zgibanje, iskanje in zamenjavo, multi-jezik, HTML Podjetje kodo sintakso poudarjanje",
+                "Podpora TOC (kazalo), izražanje čustvenih simbolov, seznam nalogo (naloga zemljevid) @ (povezave)",
                 "Podpora dekodiranje in filtriranje HTML oznake in atributi",
-                "Podpora Texas (izraz iz lateksa, KATEX Inc.), diagrami poteka in diagrami zaporedja",
-                "Podpora datoteke mehanizem izterjave",
-                "Podpora multiple urejanje, neomejeno število"
+                "Podpora Texas (lateks izraz, KATEX podjetje), diagrami poteka in diagrami zaporedja",
+                "Podpora datotek mehanizem okrevanje",
+                "Podpora za večkratno hkratno urejanje, neomejeno število"
             ]
         },
         "UserReviews": {
             "SectionName": "Kako oceniti MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD je neverjetno. Enostavno. Čista. Popolnost. Lepo opravljeno.",
+                    "reviewContent": "MarkdownD je neverjetno. Simple. Clean. Popolnost. Lepo opravljeno.",
                     "userName": "evanw",
                     "professional": "Technology Promotion"
                 },
                 {
-                    "reviewContent": "MarkdownD je tisto, kar sem naredil skoraj vse moje pisanje, to je zelo malo aplikacij.",
+                    "reviewContent": "MarkdownD delam skoraj vse moje pisanje, ki je zelo malo aplikacij.",
                     "userName": "Peter Bright",
-                    "professional": "Pisatelji Ars Technica je"
+                    "professional": "Ars Technica pisatelj"
                 },
                 {
-                    "reviewContent": "Če imate kakršne koli obresti v nižjih cenah, MarkdownD je vsekakor vredno prenos.",
-                    "userName": "Priporočene je",
+                    "reviewContent": "Če imate interes v nižjih cenah, MarkdownD je vsekakor vredno prenos.",
+                    "userName": "Priporočene povezave je",
                     "professional": "Spletni razvijalci in oblikovalci"
                 },
                 {
-                    "reviewContent": "Res mi je všeč MarkdownD, je prinesla veliko udobje, moje delo.",
+                    "reviewContent": "Res mi je všeč MarkdownD, je prinesla veliko udobja, moje delo.",
                     "userName": "jeruss",
                     "professional": "PHP okvir za razvoj"
                 }
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fiksna nekaj napak."
+                        "content": "Popravki napak."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fiksna nekaj napak."
+                        "content": "Popravki napak."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -362,7 +368,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Nakup",
+        "SectionName": "nakup",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -410,7 +416,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Razpoložljivi jeziki",
-        "ChangeAlert": "Popolna stikalo jezik"
+        "SectionName": "razpoložljivi jeziki",
+        "ChangeAlert": "Popolna jezik stikalo"
     }
 }

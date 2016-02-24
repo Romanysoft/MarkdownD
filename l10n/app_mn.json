@@ -1,18 +1,18 @@
 {
     "TopBar": {
         "Home": "Нүүр хуудас",
-        "Feature": "Онцлог",
+        "Feature": "онцлог",
         "Documents": "Онлайн тусламж",
-        "ReleaseNotes": "Хувилбарын тэмдэглэл",
+        "ReleaseNotes": "Release Notes",
         "Downloads": "Чөлөөт Шүүхийн",
         "Buy": "Худалдан авах",
         "Roadmap": "Бүтээгдэхүүний шугам",
-        "ReportIssue": "Асуудлыг тайлагнах",
-        "Languages": "Хэл"
+        "ReportIssue": "Асуудлыг мэдээлэх",
+        "Languages": "хэл"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Бүрэн боломжуудтай Markdown редактор. Windows, Linux болон MacOSX үйлдлийн системүүдэд зориулж дэмжлэг үзүүлэх.",
+        "ProjectTagline": "Markdown редактор нь бүрэн ажиллагаатай. Энэ нь Windows, Linux болон ав үйлдлийн системийг дэмждэг.",
         "BtnDownload": "Чөлөөт Шүүхийн",
         "BtnBuy": "Худалдан авах",
         "Screens": [
@@ -26,16 +26,16 @@
         "Features": {
             "SectionName": "Бүтээгдэхүүний гол онцлог",
             "list": [
-                "PDF файл болгон экспортыг дэмжих",
-                "Хэвлэх баримт бичиг нь дэмжлэг үзүүлэх",
-                "Дэмждэг стандарт үнэ / CommonMark болон GFM (GitHub-ын Markdown)",
-                "Амьд үзүүлбэр дэмжлэг үзүүлэх",
-                "Текстийн Дэмжигдсэн хэлбэр, код блок, ширээ, код нугалах, олон хэл хайх, солих, HTML код нь аж ахуйн нэгж нь синтакс онцлон",
-                "Дэмжлэг ерөнхий агуулгад бичигдэхгүй (Агуулгын хүснэгт) боломжтой инээмсэглэлүүдийн илэрхийлэл, ажлын жагсаалт (Зорилт зураг), @ (линкүүд)",
-                "Дэмжлэг тайлан уншиж сурснаар болон шvvх HTML тэмдэглэгээнүүд мөн чанарууд",
-                "Дэмжлэг АНУ-ын Техасын (латекс илэрхийлэл, Katex Inc.) flowcharts болон дарааллын диаграм",
-                "Дэмжлэг файл сэргээх арга",
-                "Дэмжих олон засварлах, хязгааргүй тоо"
+                "PDF руу экспортлох дэмждэг",
+                "баримт бичиг дэмжлэг хэвлэнэ",
+                "Дэмждэг стандарт үнэ / CommonMark болон GFM (Markdown-ын GitHub)",
+                "Live үзүүлбэр дэмжлэг үзүүлэх",
+                "форматлагдсан текст, код блок, хүснэгт, код нугалах, хайх, солих, олон хэл, HTML аж ахуйн нэгж нь код синтакс онцлон дэмждэг",
+                "Дэмжлэг TOC (Агуулгын хүснэгт), инээмсэглэлүүдийн илэрхийлэл, ажлын жагсаалт (Зорилт зураг), @ (холбоосууд)",
+                "Дэмжлэг тайлан уншиж сурснаар болон шvvх HTML хаягууд ба шинж чанарууд",
+                "Дэмжлэг АНУ-ын Техасын (латекс илэрхийлэл, Katex компани), flowcharts болон дарааллын диаграм",
+                "Дэмжлэг файлуудыг сэргээх механизм",
+                "Дэмжлэг олон засварлах, хязгааргүй тоо"
             ]
         },
         "UserReviews": {
@@ -47,19 +47,19 @@
                     "professional": "Технологийн дэмжих"
                 },
                 {
-                    "reviewContent": "MarkdownD, энэ нь их бага хэрэглэх нь юу би бараг л би бичиж хийх юм.",
+                    "reviewContent": "MarkdownD би бараг бүх Миний бичих, их бага програм юм байна.",
                     "userName": "Петр Bright",
-                    "professional": "Ars Technica-ын зохиолчид"
+                    "professional": "-ын ARS Technica зохиолч"
                 },
                 {
-                    "reviewContent": "Та нар бага үнэ ямар нэгэн ашиг сонирхол байгаа бол, MarkdownD нь мэдээж татаж авах нь зүйтэй юм.",
+                    "reviewContent": "Та бага үнийн ямар нэгэн ашиг сонирхол байгаа бол, MarkdownD татаж авах нь мэдээж үнэ цэнэтэй юм.",
                     "userName": "Lifehacker-ийн",
                     "professional": "Вэб хөгжүүлэгчид болон дизайнерууд"
                 },
                 {
-                    "reviewContent": "Би үнэхээр MarkdownD шиг их тав тухыг авчирсан, миний ажил.",
+                    "reviewContent": "Би үнэхээр MarkdownD шиг, их тав тухыг авчирсан, миний ажил.",
                     "userName": "jeruss",
-                    "professional": "PHP тогтолцоо хөгжил"
+                    "professional": "PHP тогтолцоо нь хөгжил"
                 }
             ]
         }
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Зарим алдааг нь залруулсан байна."
+                        "content": "Алдааны засварлалтууд."
                     }
                 ]
             },
@@ -179,15 +179,15 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Зарим алдааг нь залруулсан байна."
+                        "content": "Алдааны засварлалтууд."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Анхны хувилбар."
+                        "content": "анхны хувилбар."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Анхны хувилбар."
+                        "content": "анхны хувилбар."
                     }
                 ]
             }
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -411,6 +417,6 @@
     "RoadMapPage": {},
     "LanguagesPage": {
         "SectionName": "Боломжит хэл",
-        "ChangeAlert": "Иж бүрэн шилжиж хэл"
+        "ChangeAlert": "Иж бүрэн өөрчлөх хэл"
     }
 }

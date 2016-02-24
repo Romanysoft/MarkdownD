@@ -1,20 +1,20 @@
 {
     "TopBar": {
         "Home": "Kāinga",
-        "Feature": "Āhuatanga",
-        "Documents": "Āwhina Online",
-        "ReleaseNotes": "Tuku Notes",
+        "Feature": "āhuatanga",
+        "Documents": "Āwhina online",
+        "ReleaseNotes": "tuku Notes",
         "Downloads": "Whakamātau Free",
-        "Buy": "Hoko",
-        "Roadmap": "Raina Hua",
+        "Buy": "hoko",
+        "Roadmap": "raina hua",
         "ReportIssue": "Pūrongo i te raruraru",
-        "Languages": "Reo"
+        "Languages": "reo"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Ētita Markdown Full-ngā. Tautoko mō te Windows, Linux me MacOSX pūnaha whakahaere.",
+        "ProjectTagline": "ētita Markdown tino mahi. E tautoko ana i te pūnaha whakahaere Windows, Linux ko MacOSX.",
         "BtnDownload": "Whakamātau Free",
-        "BtnBuy": "Hoko",
+        "BtnBuy": "hoko",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,42 +24,42 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Āhuatanga matua Hua",
+            "SectionName": "āhuatanga matua Hua",
             "list": [
-                "Tautoko i Kaweake rite kōnae PDF",
-                "Tautoko mō ngā tuhinga tā",
-                "Tautoko utu paerewa / CommonMark me GFM (Markdown o GitHub)",
+                "Tautoko ana kaweake ki te PDF",
+                "Tāngia te tuhinga tautoko",
+                "Tautoko utu paerewa / CommonMark me GFM (GitHub o Markdown)",
                 "Tautoko Arokite Live",
-                "Hōputu tautokona o kuputuhi, poraka waehere, tepu, waehere te kotuituitanga, rapu me te whakakapi, maha-reo, pūkaha HTML hinonga waehere wetereo",
-                "Tautoko TOC (ripanga ihirangi), te faaiteraa o emoticons, te rārangi tūmahi (Map Tūmahi), @ (hononga)",
-                "Tautoko wetewaehere me te tātari HTML tūtohu me huanga",
-                "Tautoko Texas (faaiteraa te taherapa, Katex Inc.) flowcharts me ngā hoahoa raupapa",
-                "Kōnae tautoko te whakaora tikanga",
+                "Tautoko ana kuputuhi whakahōputu, poraka waehere, tepu, waehere kotuituitanga, rapu me te whakakapi,-reo maha, HTML waehere hinonga wetereo pūkaha",
+                "Tautoko TOC (ripanga ihirangi), te faaiteraa o emoticons, te rārangi mahi (te mahere mahi), @ (hononga)",
+                "Tautoko wetemuna me te tātari HTML tūtohu me huanga",
+                "Tautoko Texas (taherapa faaiteraa, Katex kamupene), flowcharts me hoahoa raupapa",
+                "kōnae tautoko whakaora tikanga",
                 "Tautoko whakatika maha, tau mutunga"
             ]
         },
         "UserReviews": {
-            "SectionName": "Pehea ki te aromātai i MarkdownD",
+            "SectionName": "Me pēhea te ki te arotake i MarkdownD",
             "list": [
                 {
-                    "reviewContent": "Ko mīharo MarkdownD. Simple. Clean. Haohaoá. Kiri mahi.",
+                    "reviewContent": "He mīharo MarkdownD. Simple. Clean. Tino. Kiri mahi.",
                     "userName": "evanw",
-                    "professional": "Hangarau Whakatairanga"
+                    "professional": "hangarau Whakatairanga"
                 },
                 {
-                    "reviewContent": "MarkdownD Ko te aha e meatia e ahau tata toku tuhituhi katoa, he iti tono nui ko tenei.",
+                    "reviewContent": "MarkdownD mahi ahau tata katoa toku tuhituhi, e he tono nui iti ko.",
                     "userName": "Pita Bright",
-                    "professional": "Kaituhi Ars Technica o"
+                    "professional": "Ars Technica kaituhi o"
                 },
                 {
-                    "reviewContent": "Ki te whai koe i tetahi moni i roto i te utu o raro, he utu i te download tino MarkdownD.",
+                    "reviewContent": "Ki te whai koe i tetahi moni i roto i utu raro, MarkdownD he tino utu tikiake.",
                     "userName": "Lifehacker o",
-                    "professional": "Ngā Tukutuku me kaihoahoa"
+                    "professional": "ngā tukutuku me kaihoahoa"
                 },
                 {
-                    "reviewContent": "Tino rite MarkdownD, kawea mai e ahau i haratau nui: toku mahi.",
+                    "reviewContent": "tino rite MarkdownD, kua kawea mai e ahau haratau nui: toku mahi.",
                     "userName": "jeruss",
-                    "professional": "Whanaketanga anga PHP"
+                    "professional": "whanaketanga anga PHP"
                 }
             ]
         }
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Tuku",
+        "labelVersion": "tuku",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Pūmau ētahi hapa."
+                        "content": "whakatikanga patu iro."
                     }
                 ]
             },
@@ -179,22 +179,22 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Pūmau ētahi hapa."
+                        "content": "whakatikanga patu iro."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Ko te tuku tuatahi."
+                        "content": "Te tuku tuatahi."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Ko te tuku tuatahi."
+                        "content": "Te tuku tuatahi."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "Tuku",
+        "labelVersion": "tuku",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -362,7 +368,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Hoko",
+        "SectionName": "hoko",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -410,7 +416,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Reo wātea",
-        "ChangeAlert": "Reo whakakā Whakaoti"
+        "SectionName": "Reo e wātea ana",
+        "ChangeAlert": "reo whakakā Whakaoti"
     }
 }

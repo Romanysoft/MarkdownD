@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "Почетна",
-        "Feature": "Карактеристики",
-        "Documents": "Онлајн Помош",
+        "Home": "Насловна",
+        "Feature": "карактеристики",
+        "Documents": "онлајн помош",
         "ReleaseNotes": "Белешки за изданието",
         "Downloads": "Пробен",
-        "Buy": "Купување",
-        "Roadmap": "Продуктната линија",
-        "ReportIssue": "Пријавување на проблем",
-        "Languages": "Јазик"
+        "Buy": "купување",
+        "Roadmap": "продуктната линија",
+        "ReportIssue": "Пријави проблем",
+        "Languages": "јазик"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Целосно опремен Markdown уредник. Поддршка за Windows, Linux и MacOSX оперативни системи.",
+        "ProjectTagline": "Markdown уредник целосно функционален. Таа поддржува Windows, Linux и MacOSX оперативен систем.",
         "BtnDownload": "Пробен",
-        "BtnBuy": "Купување",
+        "BtnBuy": "купување",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -26,15 +26,15 @@
         "Features": {
             "SectionName": "Главните карактеристики на производот",
             "list": [
-                "Поддршка на извозот како PDF датотека",
-                "Поддршка за печатење на документи",
-                "Го поддржува стандардот цена / CommonMark и GFM (Markdown GitHub е)",
+                "Поддржува извезува во PDF",
+                "Печати поддршка на документот",
+                "Го поддржува стандардот цена / CommonMark и GFM (GitHub на Markdown)",
                 "Подршка во живо Преглед",
-                "Поддржани формати на текст, кодот блокови, маси, кодот виткање, пребарување и да ја замени, мулти-јазик, HTML код лице и означувањето на синтаксата",
-                "Поддршка TOC (содржината), изразување на емоции, листата со задачи (задачи на сајтот), @ (линкови)",
-                "Поддршка декодирање и филтрирање HTML тагови и атрибути",
-                "Поддршка Тексас (израз латекс, Katex Inc) дијаграми на текови и Дијаграмнасеквенци",
-                "Поддршка датотеки механизам за обновување",
+                "Поддржува форматиран текст, кодот блокови, маси, код виткање, пребарување и да ја замени, мулти-јазик, HTML код лице и означувањето на синтаксата",
+                "Поддршка TOC (содржината), изразување на емоции, листата со задачи (мапа на задачата), @ (врски)",
+                "Поддршка за декодирање и филтрирање на HTML тагови и атрибути",
+                "Поддршка Тексас (латекс изразување, Katex компанија), графикони и дијаграми секвенца",
+                "Поддршка датотеки механизам за наплата",
                 "Поддршка на повеќе уредување, неограничен број"
             ]
         },
@@ -44,22 +44,22 @@
                 {
                     "reviewContent": "MarkdownD е неверојатен. Едноставна. Чист. Совршенство. Убаво направено.",
                     "userName": "evanw",
-                    "professional": "Промоција технологија"
+                    "professional": "технологија Промоција"
                 },
                 {
-                    "reviewContent": "MarkdownD е она што јас се направи речиси сите мои пишување, ова е голем малку апликација.",
-                    "userName": "Петар Светол",
-                    "professional": "Писатели Арс техника е"
+                    "reviewContent": "MarkdownD правам речиси сите моето пишување, што е голем малку апликација.",
+                    "userName": "Петар Светлата",
+                    "professional": "Арс техника писател"
                 },
                 {
-                    "reviewContent": "Ако имате било каков интерес за пониски цени, MarkdownD е дефинитивно вреди за симнување.",
+                    "reviewContent": "Ако имате било каков интерес за пониски цени, MarkdownD е дефинитивно вреди да ја преземете.",
                     "userName": "Lifehacker е",
                     "professional": "Веб програмери и дизајнери"
                 },
                 {
                     "reviewContent": "Навистина ми се допаѓа MarkdownD, ја донесе голема погодност, мојата работа.",
                     "userName": "jeruss",
-                    "professional": "Рамка за развој на PHP"
+                    "professional": "рамка за PHP развој"
                 }
             ]
         }
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Ослободување",
+        "labelVersion": "ослободување",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Фиксна некои грешки."
+                        "content": "Поправки на грешки."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Фиксна некои грешки."
+                        "content": "Поправки на грешки."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -194,7 +194,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Ослободување",
+        "labelVersion": "ослободување",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -362,7 +368,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Купување",
+        "SectionName": "купување",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -410,7 +416,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Достапни Јазици",
-        "ChangeAlert": "Заврши јазик прекинувач"
+        "SectionName": "достапни Јазици",
+        "ChangeAlert": "Целосно јазик прекинувач"
     }
 }

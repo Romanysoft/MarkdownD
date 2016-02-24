@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "Koti",
-        "Feature": "Piirteet",
+        "Home": "koti",
+        "Feature": "piirteet",
         "Documents": "Online-ohje",
-        "ReleaseNotes": "Julkaisutiedot",
-        "Downloads": "Free Trial",
-        "Buy": "Osto",
-        "Roadmap": "Tuotesarja",
+        "ReleaseNotes": "Release Notes",
+        "Downloads": "free Trial",
+        "Buy": "hankinta",
+        "Roadmap": "Tuotantolinja",
         "ReportIssue": "Ilmoita ongelmasta",
-        "Languages": "Kieli"
+        "Languages": "kieli"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Monipuolinen Wikitekstin editori. Tuki Windows, Linux ja MacOSX käyttöjärjestelmissä.",
-        "BtnDownload": "Free Trial",
-        "BtnBuy": "Osto",
+        "ProjectTagline": "Markdown editori täysin toimiva. Se tukee Windows, Linux ja MacOSX käyttöjärjestelmä.",
+        "BtnDownload": "free Trial",
+        "BtnBuy": "hankinta",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -26,38 +26,38 @@
         "Features": {
             "SectionName": "Tuotteen tärkeimmät ominaisuudet",
             "list": [
-                "Tukea Vie PDF-tiedostona",
-                "Tuki asiakirjojen tulostamiseen",
-                "Tukee standardi hinta / CommonMark ja GFM (GitHub n Wikitekstin)",
-                "Live Preview Tuki",
-                "Tuetut tiedostomuodot tekstin, koodin lohkot, pöydät, koodi taitto, etsi ja korvaa, monikielinen, HTML kokonaisuus koodi syntaksikorostuksen",
-                "Tuki TOC (sisällysluettelo), ilmaus hymiöitä, tehtäväluettelo (Task Map), @ (linkit)",
-                "Tuki dekoodaus ja suodatus HTML tageja ja attribuutteja",
-                "Tuki Texas (lateksi lauseke, Katex Inc.) flowcharts ja sekvenssikaaviot",
-                "Tuki tiedostot hyödyntämistä mekanismi",
-                "Tukevat useita editointi, rajaton määrä"
+                "Tukee vientiä PDF",
+                "Tulosta asiakirjatuki",
+                "Tukee standardia hinta / CommonMark ja GFM (GitHub of Markdown)",
+                "Live Preview Support",
+                "Tukee muotoiltua tekstiä, koodilauseet, pöydät, koodi taitto, etsi ja korvaa, monikielinen, HTML kokonaisuus koodin syntaksin",
+                "Tuki TOC (sisällysluettelo), ilmaus hymiöitä, tehtävä (tehtävä kartta), @ (linkit)",
+                "Tuki dekoodaus ja suodatus HTML-tageja ja attribuutteja",
+                "Tuki Texas (lateksi lauseke, Katex yhtiö), flowcharts ja sekvenssikaaviot",
+                "Tukitiedostot Takaisinperintämekanismiin",
+                "Tuki useita editointi, rajattomasti"
             ]
         },
         "UserReviews": {
             "SectionName": "Miten arvioida MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD on hämmästyttävä. Yksinkertainen. Puhdas. Täydellisyyttä. Hienosti tehty.",
+                    "reviewContent": "MarkdownD on hämmästyttävä. Yksinkertainen. Puhdista. Täydellisyyttä. Hienosti tehty.",
                     "userName": "evanw",
-                    "professional": "Teknologian edistäminen"
+                    "professional": "Technology Promotion"
                 },
                 {
-                    "reviewContent": "MarkdownD on mitä teen lähes kaikki minun kirjallisesti tämä on erittäin pieni sovellus.",
+                    "reviewContent": "MarkdownD Teen melkein kaikki minun kirjoittaminen, joka on erittäin pieni sovellus.",
                     "userName": "Peter Kirkas",
-                    "professional": "Ars Technican kirjoittajat"
+                    "professional": "Ars Technica kirjoittaja"
                 },
                 {
-                    "reviewContent": "Jos sinulla on kiinnostusta halvemmalla, MarkdownD on ehdottomasti kannattaa ladata.",
+                    "reviewContent": "Jos on kiinnostusta halvemmalla, MarkdownD on ehdottomasti kannattaa lataamista.",
                     "userName": "Lifehacker n",
                     "professional": "Web-kehittäjät ja suunnittelijat"
                 },
                 {
-                    "reviewContent": "Pidän todella MarkdownD, on tuonut todella käteviä, työni.",
+                    "reviewContent": "Pidän todella MarkdownD, on tuonut suurta mukavuutta, työtäni.",
                     "userName": "jeruss",
                     "professional": "PHP puitteet kehitys"
                 }
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Julkaisu",
+        "labelVersion": "julkaisu",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Kiinteät joitakin virheitä."
+                        "content": "Virheenkorjauksia."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Kiinteät joitakin virheitä."
+                        "content": "Virheenkorjauksia."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -194,7 +194,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Julkaisu",
+        "labelVersion": "julkaisu",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -362,7 +368,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Osto",
+        "SectionName": "hankinta",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -411,6 +417,6 @@
     "RoadMapPage": {},
     "LanguagesPage": {
         "SectionName": "Available Languages",
-        "ChangeAlert": "Täydellinen vaihda kieltä"
+        "ChangeAlert": "Täydellinen kytkin kieli"
     }
 }

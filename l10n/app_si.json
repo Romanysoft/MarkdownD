@@ -6,13 +6,13 @@
         "ReleaseNotes": "මුදා හැරීමේ සටහන්",
         "Downloads": "නිදහස් ට්රයල්",
         "Buy": "මිලදී ගැනීම",
-        "Roadmap": "නිෂ්පාදන",
+        "Roadmap": "නිෂ්පාදන පෙළ",
         "ReportIssue": "ගැටලුවක් වාර්තා",
         "Languages": "භාෂා"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "පූර්ණ සහිත සකසුරුවම් සංස්කාරක. වින්ඩෝස්, ලිනක්ස් සහ MacOSX මෙහෙයුම් පද්ධති සඳහා සහාය.",
+        "ProjectTagline": "පූර්ණ ක්රියාකාරී අති සංස්කාරක. එය වින්ඩෝස්, ලිනක්ස් සහ MacOSX මෙහෙයුම් පද්ධතිය සඳහා සහය දක්වයි.",
         "BtnDownload": "නිදහස් ට්රයල්",
         "BtnBuy": "මිලදී ගැනීම",
         "Screens": [
@@ -26,30 +26,30 @@
         "Features": {
             "SectionName": "නිෂ්පාදන ප්රධාන ලක්ෂණ",
             "list": [
-                "PDF ගොනුව ලෙස අපනයන සහාය",
-                "මුද්රණය ලේඛන සඳහා සහාය",
-                "සම්මත මිල / CommonMark හා GFM (GitHub ගේ සකසුරුවම්) සහාය දක්වයි",
+                "සහාය දක්වයි PDF කිරීමට අපනයනය",
+                "ලියවිල්ල සහය මුද්රණය",
+                "සම්මත මිල / CommonMark හා GFM (Markdown වල GitHub) සහාය දක්වයි",
                 "සජීවි පෙරදසුන සහාය",
-                "පෙළ, කේතයන්, මේස, කේතය නවන, සෙවුම් සහ යලි, බහු-භාෂා, HTML කේතය ආයතනයක් කාරක රීති ඉස්මතු වන අනුග්රාහක ආකෘති",
-                "සහාය ලියනගුණවර්ධනට (වගුවෙහි අන්තර්ගතය), emoticons ප්රකාශනය, මෙම කාර්යය ලැයිස්තුව (කාර්ය සාධක සිතියම), @ (← සබැඳි)",
+                "මුද්රිත පිටපත කේතයන්, මේස, කේතය නවන, සෙවුම් සහ යලි, බහු-භාෂා, HTML ආයතනයක් කේතය කාරක රීති අවධාරණය සහාය දක්වයි",
+                "සහයෝගය ලියනගුණවර්ධනට (වගුවෙහි අන්තර්ගතය), භාව නිරූපකයන් ප්රකාශනය, කර්තව්යය ලැයිස්තුව (කර්තව්යය සිතියම), @ (← සබැඳි)",
                 "එක්තරා විදියකට හා පෙරහන් HTML ටැග් හා ගුණාංග සහාය",
-                "සහාය ටෙක්සාස් (රබර් කිරි ප්රකාශනය, Katex ඉන්කෝපරේටඩ්) ගැලීම් හා අනුක්රමය රූප සටහන්",
+                "සහයෝගය ටෙක්සාස් (රබර් කිරි ප්රකාශනය, Katex සමාගම්), ගැලීම් සටහන් සහ අනුක්රමය රූප සටහන්",
                 "සහාය ගොනු යථා යාන්ත්රණයක්",
-                "බහු සංස්කරණය, අසීමිත සංඛ්යාවක් සහයෝගය"
+                "බහු සංස්කරණය, මෙඩි සහාය"
             ]
         },
         "UserReviews": {
             "SectionName": "MarkdownD ඇගයීමට කෙසේද",
             "list": [
                 {
-                    "reviewContent": "MarkdownD විස්මයජනක ය. සරල. පිරිසිදු. පරිපූර්ණත්වය. එමෙන්ම උෂ්ණත්වය සිදු.",
+                    "reviewContent": "MarkdownD විස්මයජනක ය. සරල ය. පිරිසිදු. පරිපූර්ණත්වය. එමෙන්ම උෂ්ණත්වය සිදු.",
                     "userName": "evanw",
                     "professional": "තාක්ෂණ ප්රවර්ධන"
                 },
                 {
-                    "reviewContent": "MarkdownD මම සියලුම දෙනා පාහේ මගේ ලේඛන කරන දේ, මෙම ශ්රේෂ්ඨ ටිකක් අයදුම් යි.",
+                    "reviewContent": "MarkdownD මම මහත් ටිකක් අයදුම් වන සියලුම දෙනා පාහේ මගේ ලිවීම, කරන්න.",
                     "userName": "පීටර් දීප්තිමත්",
-                    "professional": "ARS ටෙක්නිකා ගේ ලේඛකයන්"
+                    "professional": "ක ARS ටෙක්නිකා ලේඛකයා"
                 },
                 {
                     "reviewContent": "ඔබ අඩු මිල ගණන් කිසිදු උනන්දුවක් තිබේ නම්, MarkdownD අනිවාර්යයෙන්ම බාගත වටී.",
@@ -57,9 +57,9 @@
                     "professional": "වෙබ් අඩවි සංවර්ධනය සහ සැලසුම්කරුවන්"
                 },
                 {
-                    "reviewContent": "මම ඇත්තටම MarkdownD වැනි, මහත් පහසුව ගෙන ඇත; මගේ වැඩ කටයුතු.",
+                    "reviewContent": "මගේ වැඩ කටයුතු; මම ඇත්තටම MarkdownD වගේ, මහත් පහසුවක් ගෙන ඇත.",
                     "userName": "jeruss",
-                    "professional": "PHP හි රාමුව සංවර්ධනය"
+                    "professional": "PHP රාමුව සංවර්ධනය"
                 }
             ]
         }
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "ඇතැම් දෝෂ, ස්ථාවර."
+                        "content": "දෝශ නිවැරදි කරනයන්."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "ඇතැම් දෝෂ, ස්ථාවර."
+                        "content": "දෝශ නිවැරදි කරනයන්."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -411,6 +417,6 @@
     "RoadMapPage": {},
     "LanguagesPage": {
         "SectionName": "ලබා ගත හැකි භාෂා",
-        "ChangeAlert": "සම්පූර්ණ බස මාරු"
+        "ChangeAlert": "සම්පූර්ණ ස්විච් භාෂාව"
     }
 }

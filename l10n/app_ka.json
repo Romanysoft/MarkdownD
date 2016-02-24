@@ -5,16 +5,16 @@
         "Documents": "ონლაინ დახმარება",
         "ReleaseNotes": "გამოშვების შენიშვნები",
         "Downloads": "უფასო Trial",
-        "Buy": "ნასყიდობის",
+        "Buy": "შეძენა",
         "Roadmap": "პროდუქციის ხაზი",
-        "ReportIssue": "პრობლემის",
+        "ReportIssue": "ანგარიშს პრობლემა",
         "Languages": "ენა"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "სრული გამორჩეული Markdown რედაქტორი. მხარდაჭერა Windows, Linux და MacOSX ოპერაციული სისტემები.",
+        "ProjectTagline": "Markdown რედაქტორი სრულად ფუნქციონალური. იგი მხარს უჭერს Windows, Linux და MacOSX ოპერაციული სისტემა.",
         "BtnDownload": "უფასო Trial",
-        "BtnBuy": "ნასყიდობის",
+        "BtnBuy": "შეძენა",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -26,15 +26,15 @@
         "Features": {
             "SectionName": "პროდუქტის ძირითადი მახასიათებლები",
             "list": [
-                "მხარდაჭერა ექსპორტი როგორც PDF ფაილი",
-                "მხარდაჭერა ბეჭდვა დოკუმენტები",
-                "მხარს უჭერს სტანდარტული ფასი / CommonMark და GFM (GitHub ის Markdown)",
+                "მხარდაჭერა ექსპორტს PDF",
+                "დოკუმენტის ბეჭდვა მხარდაჭერა",
+                "მხარს უჭერს სტანდარტული ფასი / CommonMark და GFM (GitHub of Markdown)",
                 "Live Preview მხარდაჭერა",
-                "მხარდაჭერილი ფორმატები ტექსტი, კოდი ბლოკები, მაგიდები, კოდი დასაკეცი, ძიება და შეცვლა, მრავალ ენაზე, HTML პირი კოდი სინტაქსის შეფერადება",
-                "მხარდაჭერა TOC (სარჩევი), გამოხატვის სმაილიკების, ამოცანა სია (სამუშაო Map), @ (← ბმულები)",
+                "მხარდაჭერა ტექსტი კოდი ბლოკები, მაგიდები, კოდი დასაკეცი, ძიება და შეცვლა, მრავალ ენაზე, HTML პირის კოდი სინტაქსის შეფერადება",
+                "მხარდაჭერა TOC (სარჩევი), გამოხატულება სმაილიკების, ამოცანა სია (ამოცანა რუკა), @ (← ბმულები)",
                 "მხარდაჭერა დეკოდირების და გაფილტრის HTML ტეგები და ატრიბუტები",
-                "მხარდაჭერა Texas (latex გამოხატვის, Katex Inc.) სქემების და დიაგრამები თანმიმდევრობა",
-                "მხარდაჭერა ფაილი აღდგენა მექანიზმი",
+                "მხარდაჭერა Texas (latex გამოხატვის, Katex კომპანია), სქემების და თანმიმდევრობით დიაგრამების",
+                "მხარდაჭერა ფაილი აღდგენის მექანიზმი",
                 "მხარდაჭერა მრავალჯერადი მონტაჟი, შეუზღუდავი რაოდენობის"
             ]
         },
@@ -42,22 +42,22 @@
             "SectionName": "როგორ აფასებენ MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD არის საოცარი. მარტივი. სუფთა. სრულყოფა. ლამაზად კეთდება.",
+                    "reviewContent": "MarkdownD არის საოცარი. მარტივია. სუფთა. სრულყოფა. ლამაზად კეთდება.",
                     "userName": "evanw",
-                    "professional": "ტექნიკა ხელშეწყობის"
+                    "professional": "ტექნოლოგიების პოპულარიზაცია"
                 },
                 {
-                    "reviewContent": "MarkdownD არის ის, რაც მე თითქმის ყველა ჩემი წერა, ეს არის დიდი პატარა პროგრამა.",
+                    "reviewContent": "MarkdownD მე თითქმის ყველა ჩემი წერა, რომელიც არის დიდი პატარა პროგრამა.",
                     "userName": "პიტერ Bright",
-                    "professional": "Ars ტექნიკა მწერლები"
+                    "professional": "Ars ტექნიკა მწერალი"
                 },
                 {
-                    "reviewContent": "თუ თქვენ გაქვთ რაიმე ინტერესი უფრო დაბალი ფასები, MarkdownD ნამდვილად ღირს ჩამოტვირთვა.",
+                    "reviewContent": "თუ თქვენ გაქვთ რაიმე ინტერესი უფრო დაბალი ფასები, MarkdownD ნამდვილად ღირს ჩამოტვირთვის.",
                     "userName": "Lifehacker ს",
                     "professional": "ვებ დეველოპერები და დიზაინერები"
                 },
                 {
-                    "reviewContent": "მე ნამდვილად მინდა MarkdownD, მოიტანა დიდი მოხერხებულობით, ჩემი მუშაობა.",
+                    "reviewContent": "მე ნამდვილად მინდა MarkdownD, რომელმაც დიდი მოხერხებულობით, ჩემი მუშაობა.",
                     "userName": "jeruss",
                     "professional": "PHP ფარგლებში განვითარების"
                 }
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "ფიქსირებული ზოგიერთი შეცდომები."
+                        "content": "Bug აფიქსირებს."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "ფიქსირებული ზოგიერთი შეცდომები."
+                        "content": "Bug აფიქსირებს."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -362,7 +368,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "ნასყიდობის",
+        "SectionName": "შეძენა",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",

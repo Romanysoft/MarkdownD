@@ -12,7 +12,7 @@
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Full-featured Markdown editor. Support for Windows, Linux and MacOSX operating systems.",
+        "ProjectTagline": "Markdown editor fully functional. It supports Windows, Linux and MacOSX operating system.",
         "BtnDownload": "Free Trial",
         "BtnBuy": "buy",
         "Screens": [
@@ -26,14 +26,14 @@
         "Features": {
             "SectionName": "Product main features",
             "list": [
-                "Support Export as PDF file",
-                "Support for printing documents",
-                "Supports standard price / CommonMark and GFM (GitHub's Markdown)",
+                "Supports exporting to PDF",
+                "Print the document support",
+                "Supports standard price / CommonMark and GFM (GitHub of Markdown)",
                 "Live Preview Support",
-                "Supported formats of text, code blocks, tables, code folding, search and replace, multi-language, HTML entity code syntax highlighting",
-                "Support TOC (table of contents), the expression of emoticons, the task list (Task Map), @ (links)",
+                "Supports formatted text, code blocks, tables, code folding, search and replace, multi-language, HTML entity code syntax highlighting",
+                "Support TOC (table of contents), the expression of emoticons, the task list (the task map), @ (links)",
                 "Support decoding and filtering HTML tags and attributes",
-                "Support Texas (latex expression, Katex Inc.) flowcharts and sequence diagrams",
+                "Support Texas (latex expression, Katex company), flowcharts and sequence diagrams",
                 "Support files recovery mechanism",
                 "Support multiple editing, unlimited number"
             ]
@@ -47,12 +47,12 @@
                     "professional": "Technology Promotion"
                 },
                 {
-                    "reviewContent": "MarkdownD is what I do almost all my writing, this is a great little application.",
+                    "reviewContent": "MarkdownD I do almost all my writing, which is a great little application.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica's writers"
+                    "professional": "Ars Technica writer of"
                 },
                 {
-                    "reviewContent": "If you have any interest in lower prices, MarkdownD is definitely worth the download.",
+                    "reviewContent": "If you have any interest in lower prices, MarkdownD is definitely worth downloading.",
                     "userName": "Lifehacker's",
                     "professional": "Web developers and designers"
                 },
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fixed some errors."
+                        "content": "Bug fixes."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Fixed some errors."
+                        "content": "Bug fixes."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },

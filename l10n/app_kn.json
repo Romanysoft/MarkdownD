@@ -7,12 +7,12 @@
         "Downloads": "ಉಚಿತ ಟ್ರಯಲ್",
         "Buy": "ಖರೀದಿ",
         "Roadmap": "ಉತ್ಪನ್ನ",
-        "ReportIssue": "ಸಮಸ್ಯೆ ವರದಿ ಮಾಡಿ",
+        "ReportIssue": "ಸಮಸ್ಯೆ ವರದಿ",
         "Languages": "ಭಾಷಾ"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "ಪೂರ್ಣ ವೈಶಿಷ್ಟ್ಯಗೊಳಿಸಿದ Markdown ಸಂಪಾದಕ. ವಿಂಡೋಸ್, ಲಿನಕ್ಸ್ ಮತ್ತು MacOSX ಆಪರೇಟಿಂಗ್ ಸಿಸ್ಟಮ್ಗಳ ಬೆಂಬಲ.",
+        "ProjectTagline": "Markdown ಸಂಪಾದಕ ಸಂಪೂರ್ಣವಾಗಿ ಕ್ರಿಯಾತ್ಮಕ. ಇದು ವಿಂಡೋಸ್, ಲಿನಕ್ಸ್ ಮತ್ತು MacOSX ಆಪರೇಟಿಂಗ್ ವ್ಯವಸ್ಥೆಯನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆ.",
         "BtnDownload": "ಉಚಿತ ಟ್ರಯಲ್",
         "BtnBuy": "ಖರೀದಿ",
         "Screens": [
@@ -26,38 +26,38 @@
         "Features": {
             "SectionName": "ಉತ್ಪನ್ನ ಮುಖ್ಯ ಲಕ್ಷಣಗಳು",
             "list": [
-                "PDF ಫೈಲ್ ಮಾಹಿತಿ ಎಕ್ಸ್ಪೋರ್ಟ್ ಬೆಂಬಲ",
-                "ದಾಖಲೆಗಳ ಮುದ್ರಣಕ್ಕೆ ಬೆಂಬಲ",
-                "ಬೆಂಬಲಿಸುತ್ತದೆ ಗುಣಮಟ್ಟದ ಬೆಲೆ / CommonMark ಮತ್ತು GFM (Github ತಂದೆಯ Markdown)",
+                "PDF ಗೆ ರಫ್ತು ಬೆಂಬಲಿಸುತ್ತದೆ",
+                "ಮುದ್ರಿಸು ಡಾಕ್ಯುಮೆಂಟ್ ಸಪೋರ್ಟ್",
+                "ಬೆಂಬಲಿಸುತ್ತದೆ ಪ್ರಮಾಣಿತ ಬೆಲೆ / CommonMark ಮತ್ತು GFM (Markdown ಆಫ್ GitHub)",
                 "ಲೈವ್ ಪೂರ್ವವೀಕ್ಷಣೆ ಬೆಂಬಲ",
-                "ಪಠ್ಯದ ಬೆಂಬಲಿತ ಸ್ವರೂಪಗಳು ಕೋಡ್ ಬ್ಲಾಕ್ಗಳನ್ನು, ಕೋಷ್ಟಕಗಳು, ಕೋಡ್ ಕಾಗದದ, ಬಹು ಭಾಷೆ ಹುಡುಕಲು ಮತ್ತು ಬದಲಿಗೆ, HTML ಘಟಕದ ಕೋಡ್ ಸಿಂಟ್ಯಾಕ್ಸ್ ಹೈಲೈಟ್",
-                "ಬೆಂಬಲ ಟಿಒಸಿ (ಪರಿವಿಡಿಯನ್ನು) ಭಾವನೆಯನ್ನು ವ್ಯಕ್ತಪಡಿಸುವಿಕೆಯು ಕಾರ್ಯಪಟ್ಟಿಯನ್ನು (ಟಾಸ್ಕ್ ನಕ್ಷೆ), @ (ಕೊಂಡಿಗಳು)",
-                "ಬೆಂಬಲ ಡಿಕೋಡಿಂಗ್ ಮತ್ತು ಫಿಲ್ಟರಿಂಗ್ HTML ಟ್ಯಾಗ್ಗಳು ಮತ್ತು ಲಕ್ಷಣಗಳು",
-                "ಬೆಂಬಲ ಟೆಕ್ಸಾಸ್ (ಲ್ಯಾಟೆಕ್ಸ್ ಅಭಿವ್ಯಕ್ತಿ, Katex ಇಂಕ್) ಫ್ಲೋಚಾರ್ಟ್ಗಳನ್ನು ಮತ್ತು ಅನುಕ್ರಮ ಚಿತ್ರಗಳು",
-                "ಬೆಂಬಲ ಕಡತಗಳನ್ನು ಚೇತರಿಕೆ ವ್ಯವಸ್ಥೆ",
-                "ಬೆಂಬಲ ಅನೇಕ ಸಂಪಾದನೆ, ಅನಿಯಮಿತ ಸಂಖ್ಯೆಯ"
+                "ಫಾರ್ಮ್ಯಾಟ್ ಪಠ್ಯ ಕೋಡ್ ಬ್ಲಾಕ್ಗಳನ್ನು, ಕೋಷ್ಟಕಗಳು, ಕೋಡ್ ಕಾಗದದ, ಹುಡುಕಾಟ ಮತ್ತು ಬದಲಿಗೆ, ಬಹು ಭಾಷೆ, HTML ಘಟಕದ ಕೋಡ್ ಸಿಂಟ್ಯಾಕ್ಸ್ ಹೈಲೈಟ್ ಬೆಂಬಲಿಸುತ್ತದೆ",
+                "ಬೆಂಬಲ ಟಿಒಸಿ (ಪರಿವಿಡಿಯನ್ನು), ಭಾವನೆಯನ್ನು ವ್ಯಕ್ತಪಡಿಸುವಿಕೆಯು ಕಾರ್ಯಪಟ್ಟಿಯನ್ನು (ಕಾರ್ಯ ನಕ್ಷೆ), @ (ಕೊಂಡಿಗಳು)",
+                "ಬೆಂಬಲ ಡಿಕೋಡಿಂಗ್ ಮತ್ತು HTML ಫಿಲ್ಟರಿಂಗ್ ಟ್ಯಾಗ್ಗಳು ಮತ್ತು ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು",
+                "ಬೆಂಬಲ ಟೆಕ್ಸಾಸ್ (ಲ್ಯಾಟೆಕ್ಸ್ ಅಭಿವ್ಯಕ್ತಿ, Katex ಕಂಪನಿ), ಫ್ಲೋಚಾರ್ಟ್ಗಳನ್ನು ಮತ್ತು ಅನುಕ್ರಮ ಚಿತ್ರಗಳು",
+                "ಬೆಂಬಲ ಕಡತಗಳನ್ನು ಚೇತರಿಕೆ ಯಾಂತ್ರಿಕ",
+                "ಅನೇಕ ಸಂಪಾದನೆ ಬೆಂಬಲ, ಅನಿಯಮಿತ ಸಂಖ್ಯೆ"
             ]
         },
         "UserReviews": {
             "SectionName": "MarkdownD ಮೌಲ್ಯಮಾಪನ ಹೇಗೆ",
             "list": [
                 {
-                    "reviewContent": "MarkdownD ಅದ್ಭುತ. ಸರಳ. ಕ್ಲೀನ್. ಪರ್ಫೆಕ್ಷನ್. ಚೆನ್ನಾಗಿ ಮಾಡಲಾಗುತ್ತದೆ.",
+                    "reviewContent": "MarkdownD ಅದ್ಭುತ. ಸರಳ. ಸ್ವಚ್ಛಗೊಳಿಸಲು. ಪರಿಪೂರ್ಣತೆ. ಚೆನ್ನಾಗಿ ಮಾಡಲಾಗುತ್ತದೆ.",
                     "userName": "evanw",
                     "professional": "ತಂತ್ರಜ್ಞಾನ ಪ್ರಚಾರ"
                 },
                 {
-                    "reviewContent": "MarkdownD, ಈ ದೊಡ್ಡ ಕಡಿಮೆ ಮಾಡುವುದಾಗಿದೆ ನಾನು ಎಲ್ಲಾ ನನ್ನ ಬರಹದ ಹಾಗೆ ಆಗಿದೆ.",
+                    "reviewContent": "MarkdownD ನಾನು ಒಂದು ದೊಡ್ಡ ಸ್ವಲ್ಪ ಮಾಡುವುದಾಗಿದೆ ಎಲ್ಲಾ ನನ್ನ ಬರವಣಿಗೆಯ, ಹಾಗೆ.",
                     "userName": "ಪೀಟರ್ ಬ್ರೈಟ್",
-                    "professional": "ಆರ್ಸ್ ಟೆಕ್ನಿಕಾ ನ ಬರಹಗಾರರು"
+                    "professional": "ಆಫ್ ಆರ್ಸ್ ಟೆಕ್ನಿಕಾ ಬರಹಗಾರ"
                 },
                 {
-                    "reviewContent": "ನೀವು ಕಡಿಮೆ ಬೆಲೆಯಲ್ಲಿ ಯಾವುದೇ ಆಸಕ್ತಿ ಹೊಂದಿದ್ದರೆ, MarkdownD ಖಂಡಿತವಾಗಿಯೂ ಡೌನ್ಲೋಡ್ ಯೋಗ್ಯವಾಗಿದೆ.",
-                    "userName": "Lifehacker ನ",
+                    "reviewContent": "ನೀವು ಕಡಿಮೆ ಬೆಲೆಯಲ್ಲಿ ಯಾವುದೇ ಆಸಕ್ತಿ ಹೊಂದಿದ್ದರೆ, MarkdownD ಖಂಡಿತವಾಗಿಯೂ ಮೌಲ್ಯದ ಡೌನ್ಲೋಡ್ ಆಗಿದೆ.",
+                    "userName": "ಲೈಫ್ಹ್ಯಾಕರ್ ನ",
                     "professional": "ವೆಬ್ ಅಭಿವರ್ಧಕರು ಮತ್ತು ವಿನ್ಯಾಸಕಾರರು"
                 },
                 {
-                    "reviewContent": "ನಾನು MarkdownD ನಂತಹ ಮಹಾನ್ ಅನುಕೂಲಕ್ಕಾಗಿ ತಂದಿದೆ; ನನ್ನ ಕೆಲಸ.",
+                    "reviewContent": "ನನ್ನ ಕೆಲಸ; ನಾನು MarkdownD ನಂತಹ ಮಹಾನ್ ಅನುಕೂಲಕ್ಕಾಗಿ ತಂದಿದೆ.",
                     "userName": "jeruss",
                     "professional": "ಚೌಕಟ್ಟು ಅಭಿವೃದ್ಧಿ"
                 }
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "ಕೆಲವು ದೋಷಗಳನ್ನು ಪರಿಹರಿಸಲಾಗಿದೆ."
+                        "content": "ದೋಷ ಪರಿಹಾರಗಳನ್ನು."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "ಕೆಲವು ದೋಷಗಳನ್ನು ಪರಿಹರಿಸಲಾಗಿದೆ."
+                        "content": "ದೋಷ ಪರಿಹಾರಗಳನ್ನು."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -411,6 +417,6 @@
     "RoadMapPage": {},
     "LanguagesPage": {
         "SectionName": "ಲಭ್ಯವಿರುವ ಭಾಷೆಗಳು",
-        "ChangeAlert": "ಕಂಪ್ಲೀಟ್ ಸ್ವಿಚ್ ಭಾಷೆ"
+        "ChangeAlert": "ಸ್ವಿಚ್ ಭಾಷೆ ಕಂಪ್ಲೀಟ್"
     }
 }

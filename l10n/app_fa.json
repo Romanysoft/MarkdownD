@@ -1,10 +1,10 @@
 {
     "TopBar": {
-        "Home": "صفحه اصلی",
+        "Home": "خانه",
         "Feature": "ویژگی های",
-        "Documents": "راهنما آنلاین",
+        "Documents": "کمک آنلاین",
         "ReleaseNotes": "یادداشتهای انتشار",
-        "Downloads": "آزمایش رایگان",
+        "Downloads": "محاکمه آزاد",
         "Buy": "خرید",
         "Roadmap": "خط تولید",
         "ReportIssue": "گزارش یک مشکل",
@@ -12,8 +12,8 @@
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "ویرایشگر نشانه دار کامل شامل. پشتیبانی از ویندوز، لینوکس و MacOSX سیستم عامل.",
-        "BtnDownload": "آزمایش رایگان",
+        "ProjectTagline": "ویرایشگر مدل های نشانه گذاری کاملا کاربردی. این برنامه از ویندوز، لینوکس و MacOSX سیستم عامل.",
+        "BtnDownload": "محاکمه آزاد",
         "BtnBuy": "خرید",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,16 +24,16 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "ویژگی های اصلی محصولات",
+            "SectionName": "محصولات ویژگی های اصلی",
             "list": [
-                "پشتیبانی از صادرات به عنوان فایل پی دی اف",
-                "پشتیبانی از اسناد چاپ",
-                "پشتیبانی از قیمت استاندارد / CommonMark و GFM (نشانه دار در GitHub است)",
-                "پشتیبانی پیشنمایش زنده",
-                "فرمت های پشتیبانی شده از متن، بلوک های کد، جداول، تاشو کد، جستجو و جایگزینی، چند زبان، برجسته نهاد نحو کد HTML غیر",
-                "پشتیبانی TOC (فهرست مطالب)، بیان از شکلک ها، لیست کار (نقشه کار)، @ (لینک ها)",
-                "رمز گشایی پشتیبانی و فیلتر HTML برچسب ها و ویژگی های",
-                "پشتیبانی تگزاس (بیان لاتکس، KAtex دارای شرکت) فلوچارت و نمودار توالی",
+                "پشتیبانی از صادرات به PDF",
+                "چاپ پشتیبانی سند",
+                "پشتیبانی از قیمت استاندارد / CommonMark و GFM (گیتهاب از Markdown)",
+                "پشتیبانی نمایش زنده",
+                "پشتیبانی از فرمت متن، بلوک های کد، جداول، تاشو کد، جستجو و جایگزینی، چند زبان، HTML کد نهاد نحو برجسته",
+                "پشتیبانی TOC (فهرست مطالب)، بیان از شکلک ها، لیست کار (نقشه وظیفه)، @ (پیوندها)",
+                "برچسب ها رمز گشایی پشتیبانی و فیلتر HTML و ویژگی های",
+                "پشتیبانی تگزاس (بیان لاتکس، KAtex دارای شرکت)، فلوچارت و نمودار توالی",
                 "فایل های پشتیبانی مکانیزم بازیابی",
                 "پشتیبانی از ویرایش های متعدد، تعداد نامحدودی"
             ]
@@ -42,24 +42,24 @@
             "SectionName": "چگونه به ارزیابی MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD شگفت انگیز است. ساده است. پاک. کمال. سادگی انجام می شود.",
+                    "reviewContent": "MarkdownD شگفت انگیز است. ساده است. تمیز. کمال. سادگی انجام می شود.",
                     "userName": "evanw",
-                    "professional": "فناوری توسعه"
+                    "professional": "ارتقاء فن آوری"
                 },
                 {
-                    "reviewContent": "MarkdownD چیزی است که من تقریبا تمام نوشتن من، این نرم افزار کمی بزرگ است.",
+                    "reviewContent": "MarkdownD من تقریبا تمام نوشتن من است، که یک نرم افزار فوق العاده کم است.",
                     "userName": "پیتر روشن",
-                    "professional": "نویسندگان ارز تکنیکا"
+                    "professional": "نویسنده سایت Ars Technica از"
                 },
                 {
-                    "reviewContent": "اگر شما هر گونه علاقه در قیمت های پایین تر، MarkdownD است که قطعا ارزش دانلود.",
+                    "reviewContent": "اگر شما هر گونه علاقه در قیمت های پایین تر، MarkdownD قطعا ارزش دانلود است.",
                     "userName": "در سایت LifeHacker",
-                    "professional": "طراحی و توسعه وب"
+                    "professional": "توسعه دهندگان و طراحان وب"
                 },
                 {
                     "reviewContent": "من واقعا دوست دارم MarkdownD، به ارمغان آورده است به راحتی بزرگ؛ کار من است.",
                     "userName": "jeruss",
-                    "professional": "پی اچ پی توسعه چارچوب"
+                    "professional": "توسعه چارچوب PHP"
                 }
             ]
         }
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "انتشار",
+        "labelVersion": "رهایی",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "ثابت برخی از اشتباهات."
+                        "content": "رفع اشکال."
                     }
                 ]
             },
@@ -179,22 +179,22 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "ثابت برخی از اشتباهات."
+                        "content": "رفع اشکال."
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "انتشار اولین."
+                        "content": "اولین نسخه."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "انتشار اولین."
+                        "content": "اولین نسخه."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "انتشار",
+        "labelVersion": "رهایی",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },

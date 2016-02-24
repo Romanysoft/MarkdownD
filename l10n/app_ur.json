@@ -4,17 +4,17 @@
         "Feature": "خصوصیات",
         "Documents": "آن لائن مدد",
         "ReleaseNotes": "ریلیز نوٹس",
-        "Downloads": "مفت مقدمے کی سماعت",
-        "Buy": "خریداری",
+        "Downloads": "مفت ٹیسٹ کی",
+        "Buy": "خریدیں",
         "Roadmap": "پروڈکٹ لائن",
-        "ReportIssue": "ایک مسئلہ کی رپورٹ",
+        "ReportIssue": "ایک مسئلہ کی رپورٹ کریں",
         "Languages": "زبان"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "مکمل خصوصیات Markdown ایڈیٹر. ونڈوز، لینکس اور MacOSX آپریٹنگ سسٹمز کے لئے سپورٹ.",
-        "BtnDownload": "مفت مقدمے کی سماعت",
-        "BtnBuy": "خریداری",
+        "ProjectTagline": "Markdown ایڈیٹر مکمل طور پر فعال. یہ ونڈوز، لینکس اور MacOSX آپریٹنگ سسٹم کی حمایت کرتا ہے.",
+        "BtnDownload": "مفت ٹیسٹ کی",
+        "BtnBuy": "خریدیں",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -26,40 +26,40 @@
         "Features": {
             "SectionName": "مصنوعات کی اہم خصوصیات",
             "list": [
-                "پی ڈی ایف فائل کے طور پر برآمد کی حمایت کرتے ہیں",
-                "پرنٹنگ دستاویزات کے لئے سپورٹ",
-                "کی حمایت کرتا ہے معیاری قیمت / CommonMark اور GFM (GitHub کے کی ڈالنے)",
-                "لائیو پیش نظارہ کی حمایت",
-                "متن کی حمایت کی فارمیٹس، کوڈ بلاکس، میزیں، کوڈ تہ کرنے،، کثیر زبان تلاش اور کی جگہ، HTML ہستی کوڈ نحو کو اجاگر",
-                "سپورٹ TOC (مواد کی میز)، جذباتیہ کے اظہار، کام کی فہرست (ٹاسک نقشہ)، @ (لنکس)",
-                "ضابطہ کشائی کی حمایت اور فلٹرنگ HTML ٹیگ اور اوصاف",
-                "سپورٹ ٹیکساس (لیٹیکس اظہار، Katex انکارپوریٹڈ) flowcharts اور تسلسل diagrams",
+                "PDF کو برآمد کی حمایت کرتا ہے",
+                "دستاویز کی حمایت پرنٹ",
+                "کی حمایت کرتا ہے معیاری قیمت / CommonMark اور GFM (ڈالنے کے GitHub کے)",
+                "لائیو مشاہدہ سپورٹ",
+                "فارمیٹڈ متن، کوڈ بلاکس، میزیں، کوڈ تہ، تلاش اور کی جگہ، کثیر زبان، HTML ہستی کوڈ نحو کو اجاگر حمایت",
+                "سپورٹ TOC (فہرست کے ٹیبل)، جذباتیہ کے اظہار، کام کی فہرست (ٹاسک نقشہ)، @ (روابط ←)",
+                "سپورٹ ضابطہ کشائی اور فلٹرنگ HTML ٹیگ اور اوصاف",
+                "سپورٹ ٹیکساس (لیٹیکس اظہار، Katex کمپنی)، فلو چارٹس اور تسلسل diagrams",
                 "سپورٹ فائلوں کی وصولی کے طریقہ کار",
-                "ایک سے زیادہ ایڈیٹنگ، لامحدود تعداد"
+                "ایک سے زیادہ ایڈیٹنگ سپورٹ، لامحدود تعداد"
             ]
         },
         "UserReviews": {
             "SectionName": "MarkdownD کا اندازہ کرنے کے لئے کس طرح",
             "list": [
                 {
-                    "reviewContent": "MarkdownD حیرت انگیز ہے. سادہ. صاف. کمال. اچھی طرح سے کیا.",
+                    "reviewContent": "MarkdownD حیرت انگیز ہے. سادہ. کلین. کمال. اچھی طرح سے کیا.",
                     "userName": "evanw",
-                    "professional": "ٹیکنالوجی کے فروغ"
+                    "professional": "ٹیکنالوجی بنانے"
                 },
                 {
-                    "reviewContent": "MarkdownD، یہ ایک عظیم چھوٹی سی درخواست ہے جو میں نے تقریبا تمام میری تحریر کرنا ہے.",
+                    "reviewContent": "MarkdownD میں نے تقریبا تمام میری تحریر، ایک بڑی سی درخواست ہے جس کی کوشش کروں.",
                     "userName": "پیٹر روشن",
-                    "professional": "ARS تکنیکی لکھاریوں کی"
+                    "professional": "کے ARS Technica کے قلمکار"
                 },
                 {
-                    "reviewContent": "آپ کو کم قیمت میں کوئی دلچسپی نہیں ہے تو، یقینی طور پر ڈاؤن لوڈ، اتارنا MarkdownD قابل ہے.",
+                    "reviewContent": "آپ کو کم قیمت میں کوئی دلچسپی نہیں ہے تو، ڈاؤن لوڈ کرنے MarkdownD قابل ضرور ہے.",
                     "userName": "Lifehacker کی",
                     "professional": "ویب ڈویلپرز اور ڈیزائنرز"
                 },
                 {
-                    "reviewContent": "مجھے سچ میں MarkdownD طرح، عظیم سہولت لایا ہے؛ میرا کام.",
+                    "reviewContent": "مجھے سچ MarkdownD طرح، بہت بڑی سہولت لایا ہے؛ میرے کام.",
                     "userName": "jeruss",
-                    "professional": "پی ایچ پی کی فریم ورک کی ترقی"
+                    "professional": "پی ایچ پی کے فریم ورک کی نشوونما سے متعلق"
                 }
             ]
         }
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "کچھ غلطیوں کو مقرر."
+                        "content": "بگ اصلاحات."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "کچھ غلطیوں کو مقرر."
+                        "content": "بگ اصلاحات."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -362,7 +368,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "خریداری",
+        "SectionName": "خریدیں",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -410,7 +416,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "دستیاب زبانوں",
+        "SectionName": "دستیاب زبانیں",
         "ChangeAlert": "مکمل سوئچ زبان"
     }
 }

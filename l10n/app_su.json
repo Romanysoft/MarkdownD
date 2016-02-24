@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "Imah",
-        "Feature": "Fitur",
-        "Documents": "Pitulung Online",
-        "ReleaseNotes": "Release Notes",
-        "Downloads": "Sidang Free",
-        "Buy": "Meuli",
-        "Roadmap": "Lini produk",
+        "Home": "imah",
+        "Feature": "fitur",
+        "Documents": "Pitulung online",
+        "ReleaseNotes": "release Catetan",
+        "Downloads": "sidang Free",
+        "Buy": "meuli",
+        "Roadmap": "garis produk",
         "ReportIssue": "Wartoskeun masalah",
-        "Languages": "Basa"
+        "Languages": "basa"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Full-diulas editor Markdown. Pangrojong pikeun sistem operasi Windows, Linux jeung MacOSX.",
-        "BtnDownload": "Sidang Free",
-        "BtnBuy": "Meuli",
+        "ProjectTagline": "Markdown editor pinuh fungsi. Ieu ngarojong sistem operasi Windows, Linux jeung MacOSX.",
+        "BtnDownload": "sidang Free",
+        "BtnBuy": "meuli",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,18 +24,18 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Produk fitur utama",
+            "SectionName": "fitur utama produk",
             "list": [
-                "Ngarojong Export salaku file PDF",
-                "Pangrojong pikeun dokumén percetakan",
-                "Ngarojong harga baku / CommonMark jeung GFM (Markdown GitHub sacara)",
+                "Ngarojong exporting ka PDF",
+                "Nyitak pangrojong dokumén",
+                "Ngarojong harga standar / CommonMark jeung GFM (GitHub of Markdown)",
                 "Rojongan Nilik Live",
-                "Format dirojong téks, blok kode, tabel, kode tilepan, sungsi jeung ngaganti, multi-basa, sintaksis kode HTML éntitas panyorot",
-                "Rojongan TOC (daptar eusi), ekspresi emoticons, daptar tugas (Tugas Map), @ (tutumbu)",
-                "Rojongan decoding jeung panyaring HTML tag jeung atribut",
-                "Rojongan Texas (babasan latex, Katex Inc.) flowcharts jeung diagram runtuyan",
-                "Payil pangrojong mékanisme recovery",
-                "Rojongan multiple ngedit, jumlah nu taya"
+                "Ngarojong téks formatna, blok kode, tabel, kode tilepan, sungsi jeung ngaganti, multi-basa, HTML éntitas kode sintaksis panyorot",
+                "Rojongan TOC (tabel eusi), ekspresi emoticons, daptar tugas (peta tugas), @ (tutumbu)",
+                "Rojongan decoding jeung nyaring HTML tag jeung atribut",
+                "Rojongan Texas (babasan latex, pausahaan Katex), flowcharts jeung runtuyan diagram",
+                "payil Rojongan mékanisme recovery",
+                "Rojongan sababaraha ngedit, jumlah taya"
             ]
         },
         "UserReviews": {
@@ -47,19 +47,19 @@
                     "professional": "Technology Promosi"
                 },
                 {
-                    "reviewContent": "MarkdownD nyaéta naon atuh ampir kabéh tulisan mah, ieu aplikasi saeutik gede.",
-                    "userName": "Peter caang",
-                    "professional": "Panulis ars Technica sacara"
+                    "reviewContent": "MarkdownD atuh ampir kabéh tulisan mah, nu mangrupakeun aplikasi saeutik gede.",
+                    "userName": "Peter Bright",
+                    "professional": "Ars Technica panulis tina"
                 },
                 {
-                    "reviewContent": "Mun anjeun mibanda interest harga handap, MarkdownD pasti patut undeuran.",
+                    "reviewContent": "Upami Anjeun gaduh nu mana wae nu dipikaresep harga handap, MarkdownD pasti patut ngundeur.",
                     "userName": "Lifehacker sacara",
-                    "professional": "Pamekar Web jeung désainer"
+                    "professional": "pamekar Web jeung désainer"
                 },
                 {
                     "reviewContent": "Nyaan kawas MarkdownD, geus dibawa genah gede; karya mah.",
                     "userName": "jeruss",
-                    "professional": "Tumuwuhna kerangka PHP"
+                    "professional": "perkembangan kerangka PHP"
                 }
             ]
         }
@@ -80,7 +80,7 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Ngabebaskeun",
+        "labelVersion": "ngabebaskeun",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -170,7 +170,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Maneuh sababaraha kasalahan."
+                        "content": "nangtukeun kutu."
                     }
                 ]
             },
@@ -179,7 +179,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Maneuh sababaraha kasalahan."
+                        "content": "nangtukeun kutu."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -194,7 +194,7 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Ngabebaskeun",
+        "labelVersion": "ngabebaskeun",
         "list": [
             {
                 "version": "{{2.6}}",
@@ -202,20 +202,26 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{49.59MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/3ptp693kugeb/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{47.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{58.9MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2jeth9rog4ob/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{56.29MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
@@ -362,7 +368,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Meuli",
+        "SectionName": "meuli",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -410,7 +416,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Sadia Basa",
-        "ChangeAlert": "Lengkep switch basa"
+        "SectionName": "sadia Basa",
+        "ChangeAlert": "basa switch lengkep"
     }
 }
