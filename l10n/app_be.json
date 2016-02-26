@@ -31,7 +31,7 @@
                 "Падтрымлівае стандарт кошт / CommonMark і GFM (GitHub з Markdown)",
                 "Жывая Падтрымка Preview",
                 "Падтрымлівае фарматаваны тэкст, блокі кода, сталы, згортванне кода, пошук і замена, шматмоўная, HTML код твар падсвятленне сінтаксісу",
-                "Падтрымка TOC (змест), выраз смайлікаў, спісу задач (карта задач), @ (спасылкі)",
+                "Падтрымка TOC (табліца ўтрымання), выраз смайлікаў, спісу задач (адлюстраванне задач), @ (спасылкі)",
                 "падтрымку дэкадавання і фільтраванні HTML-тэгі і атрыбуты",
                 "Падтрымка Тэхас (выраз латекс, кампанія Katex), блок-схемы і дыяграмы паслядоўнасці",
                 "Падтрымка файлаў механізм аднаўлення",
@@ -200,6 +200,12 @@
                 "version": "{{2.6}}",
                 "zipList": [
                     {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.6.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
+                    },
+                    {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
                         "size": "{{47.33MB}}",
@@ -216,12 +222,6 @@
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
-                    },
-                    {
-                        "osUrl": "{{images/download/bd.png}}",
-                        "name": "{{MarkdownD-v2.6.0}}",
-                        "size": "{{MB}}",
-                        "downURL": "{{http://pan.baidu.com/s/1dEgGw2P}}"
                     }
                 ]
             },
