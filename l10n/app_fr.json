@@ -26,11 +26,11 @@
         "Features": {
             "SectionName": "principales caractéristiques du produit",
             "list": [
-                "Supporte exportation au format PDF",
+                "Prise en charge de l'exportation au format PDF",
                 "Imprimer le support de document",
                 "Supporte prix standard / CommonMark et GFM (GitHub du Markdown)",
                 "Aperçu Live Support",
-                "Prise en charge du texte formaté, des blocs de code, tables, pliage de code, rechercher et remplacer, en plusieurs langues, HTML code de l'entité coloration syntaxique",
+                "Prise en charge du texte formaté, des blocs de code, tables, pliage de code, rechercher et remplacer, en plusieurs langues, le code HTML de l'entité syntaxique",
                 "Soutien TOC (table des matières), l'expression de émoticônes, la liste des tâches (la carte des tâches), @ (liens)",
                 "décodage de soutien et le filtrage des balises HTML et les attributs",
                 "Soutien Texas (expression de latex, société Katex), des organigrammes et des diagrammes de séquence",
@@ -42,7 +42,7 @@
             "SectionName": "Comment évaluer MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD est incroyable. Simple. Clean. Perfection. Bien joué.",
+                    "reviewContent": "MarkdownD est incroyable. Simple. Clean. Perfection. Bien fait.",
                     "userName": "evanw",
                     "professional": "promotion de la technologie"
                 },
@@ -57,7 +57,7 @@
                     "professional": "Les développeurs Web et les concepteurs"
                 },
                 {
-                    "reviewContent": "Je vraiment comme MarkdownD, a apporté une grande commodité; mon travail.",
+                    "reviewContent": "Je aime vraiment MarkdownD, a apporté une grande commodité; mon travail.",
                     "userName": "jeruss",
                     "professional": "élaboration d'un cadre PHP"
                 }
@@ -82,6 +82,35 @@
     "ReleaseNotePage": {
         "labelVersion": "libération",
         "list": [
+            {
+                "version": "{{2.7}}",
+                "list": [
+                    {
+                        "platform": "{{MacOSX,Windows,Linux}}",
+                        "content": "{{[Update] BS,Util Upgrade}}"
+                    },
+                    {
+                        "platform": "{{MacOSX,Windows,Linux}}",
+                        "content": "{{[Update] NativeEngine Upgrade}}"
+                    },
+                    {
+                        "platform": "{{Windows,Linux}}",
+                        "content": "{{[Fixed] Fix the application menu bar disappearing after hiding and showing the window.}}"
+                    },
+                    {
+                        "platform": "{{Windows,Linux}}",
+                        "content": "{{[Fixed] Fix crash when freetype 2.6.3 is used in system.}}"
+                    },
+                    {
+                        "platform": "{{Windows,Linux}}",
+                        "content": "{{[Fixed] Fix the exit event of process object not reliable in renderer process.}}"
+                    },
+                    {
+                        "platform": "{{Windows,Linux}}",
+                        "content": "{{[Fixed] Fix crash when calling methods of downloadItem in will-download handler when event.preventDefault is called.}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.6}}",
                 "list": [
@@ -170,7 +199,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Correction de bugs."
+                        "content": "Corrections de bugs."
                     }
                 ]
             },
@@ -179,7 +208,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Correction de bugs."
+                        "content": "Corrections de bugs."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -197,6 +226,47 @@
         "labelVersion": "libération",
         "list": [
             {
+                "version": "{{2.7}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.7.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1skfDB2l}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.7-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5td0xhbv4pzd/MarkdownD-v2.7.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.7-win32-x64-setup.exe}}",
+                        "size": "{{55MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2f4h9dqcp91x/MarkdownD-v2.7.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.7.0-darwin-x64.zip}}",
+                        "size": "{{6MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3h94mngxrcmd/MarkdownD-v2.7.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.7.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{43.2MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4teigah8n7n7/MarkdownD-v2.7.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.7.0-linux-x64-install.tar.gz}}",
+                        "size": "{{43.2MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4bcqzib5c1or/MarkdownD-v2.7.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
+            {
                 "version": "{{2.6}}",
                 "zipList": [
                     {
@@ -208,20 +278,32 @@
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x86-setup.exe}}",
-                        "size": "{{47.33MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/4f1xig0zw4xf/MarkdownD-v2.6-win32-x86-setup.exe}}"
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3sq84exoa5ix/MarkdownD-v2.6.0-win32-x86-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
                         "name": "{{MarkdownD-v2.6-win32-x64-setup.exe}}",
-                        "size": "{{56.29MB}}",
-                        "downURL": "{{http://www.filefactory.com/file/2vws3f3knaln/MarkdownD-v2.6-win32-x64-setup.exe}}"
+                        "size": "{{55MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4wainptpogqj/MarkdownD-v2.6.0-win32-x64-setup.exe}}"
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
                         "name": "{{MarkdownD-v2.6.0-darwin-x64.zip}}",
                         "size": "{{6.27MB}}",
                         "downURL": "{{http://www.filefactory.com/file/5ajxggfeffkx/MarkdownD-v2.6.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.6.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{43.24MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3f0aydx42hlj/MarkdownD-v2.6-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.6.0-linux-x64-install.tar.gz}}",
+                        "size": "{{43.19MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/sxtvk12pg4h/MarkdownD-v2.6-linux-x64-install.tar.gz}}"
                     }
                 ]
             },
