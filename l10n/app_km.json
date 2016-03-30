@@ -6,7 +6,7 @@
         "ReleaseNotes": "កំណត់ចំណាំការចេញផ្សាយ",
         "Downloads": "សវនាការដោយឥតគិតថ្លៃ",
         "Buy": "ការទិញ",
-        "Roadmap": "ខ្សែសង្វាក់ផលិតកម្ម",
+        "Roadmap": "បន្ទាត់ផលិតផល",
         "ReportIssue": "រាយការណ៍បញ្ហា",
         "Languages": "ភាសា"
     },
@@ -32,7 +32,7 @@
                 "ការគាំទ្រការមើលជាមុនការផ្សាយបន្តផ្ទាល់",
                 "ផ្ដល់ការគាំទ្រដល់អត្ថបទមានទ្រង់ទ្រាយប្លុកកូដតារាងកូដស្វែងរកនិងជំនួស, ដែលមានច្រើនភាសា, ការបន្លិចវាក្យសម្ព័ន្ធកូដអង្គភាពរបស់ HTML",
                 "ការគាំទ្រតុក (តារាងមាតិកា), ការបញ្ចេញមតិនៃសញ្ញាអារម្មណ៍, បញ្ជីភារកិច្ច (ផែនទីភារកិច្ច) @ (តំណភ្ជាប់)",
-                "ឌិកូដការគាំទ្រនិងស្លាកតម្រងនិងគុណលក្ខណៈរបស់ HTML",
+                "ការឌិកូដការគាំទ្រនិងការត្រងនៃស្លាក HTML និងគុណលក្ខណៈ",
                 "ការគាំទ្ររដ្ឋតិចសាស់ (ការបញ្ចេញមតិជ័រ, ក្រុមហ៊ុន Katex), គំនូសតាងលំហូរនិងការដ្យាក្រាមលំដាប់",
                 "ឯកសារការគាំទ្រយន្តការងើបឡើងវិញ",
                 "ការគាំទ្រការកែសម្រួលច្រើន, ចំនួនដែលគ្មានដែនកំណត់"
@@ -72,8 +72,12 @@
                 "section": "{{Export - export markdown preview document to pdf}}",
                 "videos": [
                     {
-                        "description": "{{Export markdown preview document to pdf file}}",
-                        "url": "{{videos/docs/export_as_pdf.mp4}}"
+                        "description": "{{Export markdown preview document to pdf file on Linux}}",
+                        "url": "{{videos/docs/export_as_pdf_linux.mp4}}"
+                    },
+                    {
+                        "description": "{{Export markdown preview document to pdf file on MacOSX}}",
+                        "url": "{{videos/docs/export_as_pdf_macos.mp4}}"
                     }
                 ]
             }
@@ -82,6 +86,27 @@
     "ReleaseNotePage": {
         "labelVersion": "ការចេញផ្សាយ",
         "list": [
+            {
+                "version": "{{2.8}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux}}",
+                        "content": "{{[Fixed] MarkdownD starts, quit unexpectedly}}"
+                    },
+                    {
+                        "platform": "{{Windows,Linux}}",
+                        "content": "{{[Fixed] The log file is too large }}"
+                    },
+                    {
+                        "platform": "{{MacOSX,Windows,Linux}}",
+                        "content": "{{[Update] Export as pdf, then, reveal in finder }}"
+                    },
+                    {
+                        "platform": "{{MacOSX}}",
+                        "content": "{{[Fixed] Export as pdf, only export one page. }}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.7}}",
                 "list": [
@@ -225,6 +250,47 @@
     "VersionPage": {
         "labelVersion": "ការចេញផ្សាយ",
         "list": [
+            {
+                "version": "{{2.8}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.8-win32-x86-setup.exe}}",
+                        "size": "{{46.5MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4xsperqz8x7v/MarkdownD-v2.8.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.8-win32-x64-setup.exe}}",
+                        "size": "{{55MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/1q4k6p1f1ggp/MarkdownD-v2.8.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.8.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/785ea9eidluh/MarkdownD-v2.8.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.8.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{47.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/74hxbuy9wph7/MarkdownD-v2.8.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.8.0-linux-x64-install.tar.gz}}",
+                        "size": "{{48.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5zpmzfrc5l8v/MarkdownD-v2.8.0-linux-x64-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.8.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1i5pmpvv}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.7}}",
                 "zipList": [

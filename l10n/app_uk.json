@@ -1,10 +1,10 @@
 {
     "TopBar": {
-        "Home": "додому",
+        "Home": "будинки",
         "Feature": "риси",
-        "Documents": "Інтернет Допомога",
+        "Documents": "Допомога онлайн",
         "ReleaseNotes": "Примітки до випуску",
-        "Downloads": "Free Trial",
+        "Downloads": "Безкоштовна пробна версія",
         "Buy": "покупка",
         "Roadmap": "лінійка продуктів",
         "ReportIssue": "Повідомити про проблему",
@@ -13,7 +13,7 @@
     "Footer": {},
     "HomePage": {
         "ProjectTagline": "редактор Markdown повністю функціональний. Він підтримує операційну систему Windows, Linux і MacOSX.",
-        "BtnDownload": "Free Trial",
+        "BtnDownload": "Безкоштовна пробна версія",
         "BtnBuy": "покупка",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -27,22 +27,22 @@
             "SectionName": "Головні особливості продукту",
             "list": [
                 "Підтримка експорту в PDF",
-                "Друк підтримку документа",
+                "Роздрукувати підтримку документа",
                 "Підтримує стандарт ціна / CommonMark і GFM (GitHub з Markdown)",
                 "Live Support Preview",
                 "Підтримує форматований текст, блоки коду, таблиці, згортання коду, пошук і заміна, багатомовна, HTML-код суті підсвічування синтаксису",
-                "Підтримка TOC (зміст), вираз смайликів, списку завдань (карта завдань), @ (посилання)",
-                "підтримку декодування і фільтрації HTML-теги і атрибути",
+                "Підтримка TOC (таблиця змісту), вираз смайликів, списку завдань (відображення завдань), @ (посилання)",
+                "Підтримка декодування і фільтрації HTML тегів і атрибутів",
                 "Підтримка Техас (вираз латекс, компанія Katex), блок-схеми і діаграми послідовності",
                 "Підтримка файлів механізм відновлення",
-                "Підтримка декількох редагування, необмежену кількість"
+                "Підтримка декількох редагування, необмежене число"
             ]
         },
         "UserReviews": {
             "SectionName": "Як оцінити MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD дивно. Простий. Чистий. Удосконалення. Красиво зроблено.",
+                    "reviewContent": "MarkdownD дивно. Простий. Чистий. Досконалість. Добре зроблено.",
                     "userName": "evanw",
                     "professional": "технології Просування"
                 },
@@ -57,7 +57,7 @@
                     "professional": "Веб-розробники і дизайнери"
                 },
                 {
-                    "reviewContent": "Мені дуже подобається MarkdownD, принесла велику зручність; мою роботу.",
+                    "reviewContent": "Мені дуже подобається MarkdownD, приніс велику зручність, мою роботу.",
                     "userName": "jeruss",
                     "professional": "Розробка PHP рамки"
                 }
@@ -72,8 +72,12 @@
                 "section": "{{Export - export markdown preview document to pdf}}",
                 "videos": [
                     {
-                        "description": "{{Export markdown preview document to pdf file}}",
-                        "url": "{{videos/docs/export_as_pdf.mp4}}"
+                        "description": "{{Export markdown preview document to pdf file on Linux}}",
+                        "url": "{{videos/docs/export_as_pdf_linux.mp4}}"
+                    },
+                    {
+                        "description": "{{Export markdown preview document to pdf file on MacOSX}}",
+                        "url": "{{videos/docs/export_as_pdf_macos.mp4}}"
                     }
                 ]
             }
@@ -82,6 +86,27 @@
     "ReleaseNotePage": {
         "labelVersion": "реліз",
         "list": [
+            {
+                "version": "{{2.8}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux}}",
+                        "content": "{{[Fixed] MarkdownD starts, quit unexpectedly}}"
+                    },
+                    {
+                        "platform": "{{Windows,Linux}}",
+                        "content": "{{[Fixed] The log file is too large }}"
+                    },
+                    {
+                        "platform": "{{MacOSX,Windows,Linux}}",
+                        "content": "{{[Update] Export as pdf, then, reveal in finder }}"
+                    },
+                    {
+                        "platform": "{{MacOSX}}",
+                        "content": "{{[Fixed] Export as pdf, only export one page. }}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.7}}",
                 "list": [
@@ -212,11 +237,11 @@
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Перший випуск."
+                        "content": "Перший реліз."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Перший випуск."
+                        "content": "Перший реліз."
                     }
                 ]
             }
@@ -225,6 +250,47 @@
     "VersionPage": {
         "labelVersion": "реліз",
         "list": [
+            {
+                "version": "{{2.8}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.8-win32-x86-setup.exe}}",
+                        "size": "{{46.5MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4xsperqz8x7v/MarkdownD-v2.8.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.8-win32-x64-setup.exe}}",
+                        "size": "{{55MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/1q4k6p1f1ggp/MarkdownD-v2.8.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.8.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/785ea9eidluh/MarkdownD-v2.8.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.8.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{47.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/74hxbuy9wph7/MarkdownD-v2.8.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.8.0-linux-x64-install.tar.gz}}",
+                        "size": "{{48.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5zpmzfrc5l8v/MarkdownD-v2.8.0-linux-x64-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.8.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1i5pmpvv}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.7}}",
                 "zipList": [

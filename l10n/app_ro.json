@@ -4,7 +4,7 @@
         "Feature": "caracteristici",
         "Documents": "Ajutor on-line",
         "ReleaseNotes": "Note de lansare",
-        "Downloads": "Free Trial",
+        "Downloads": "Trial gratuit",
         "Buy": "cumpărare",
         "Roadmap": "linia de produse",
         "ReportIssue": "Raportați o problemă",
@@ -12,8 +12,8 @@
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "editor markdown pe deplin funcțional. Aceasta susține sistemul de operare Windows, Linux si MacOSX.",
-        "BtnDownload": "Free Trial",
+        "ProjectTagline": "editor markdown pe deplin funcțional. Acesta suporta sistemul de operare Windows, Linux si MacOSX.",
+        "BtnDownload": "Trial gratuit",
         "BtnBuy": "cumpărare",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,35 +24,35 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Caracteristici principale de produse",
+            "SectionName": "Caracteristici principale ale produsului",
             "list": [
-                "Sprijină exportul în PDF",
+                "Sprijină exportul în format PDF",
                 "Imprima suportul de documente",
                 "Suportă preț standard / CommonMark și GFM (GitHub de Markdown)",
                 "Suport Live Preview",
                 "Suportă text formatat, blocuri de cod, tabele, pliante cod, căutare și înlocuiți, în mai multe limbi, cod HTML entitate sintaxa highlighting",
-                "Suport TOC (cuprins), expresia emoticoane, lista de sarcini (harta de sarcini), @ (link-uri)",
-                "Suport de decodare și HTML filtrare tag-uri și atribute",
-                "Suport Texas (expresie latex, firma Katex), scheme logice și diagrame de secventa",
-                "fișierelor suport mecanism de recuperare",
-                "Suport de editare multiple, număr nelimitat"
+                "Suport TOC (tabelul cuprins), expresia emoticonurilor, lista de sarcini (harta de sarcini), @ (link-uri)",
+                "decodare suport și filtrarea de tag-uri HTML și atribute",
+                "Suport Texas (expresie latex, compania Katex), scheme logice și diagrame de secvență",
+                "Fișierele de suport mecanism de recuperare",
+                "Suport de editare multiplă, număr nelimitat"
             ]
         },
         "UserReviews": {
             "SectionName": "Cum de a evalua MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD este uimitor. Simplă. Curat. Perfecțiune. Bine făcut.",
+                    "reviewContent": "MarkdownD este uimitor. Simplu. Curată. Perfecțiune. Bine făcut.",
                     "userName": "evanw",
-                    "professional": "tehnologia de promovare"
+                    "professional": "tehnologie de promovare"
                 },
                 {
-                    "reviewContent": "MarkdownD fac aproape toate scrisul meu, care este un mare aplicație mică.",
+                    "reviewContent": "MarkdownD Eu fac aproape toate scrisul meu, care este o mare aplicație mică.",
                     "userName": "Peter Bright",
                     "professional": "scriitor Ars Technica de"
                 },
                 {
-                    "reviewContent": "Dacă aveți nici un interes în prețuri mai mici, MarkdownD merită descărcare.",
+                    "reviewContent": "Dacă aveți vreun interes în prețuri mai mici, MarkdownD este cu siguranță în valoare de descărcare.",
                     "userName": "lui Lifehacker",
                     "professional": "Dezvoltatorii web și designeri"
                 },
@@ -72,16 +72,41 @@
                 "section": "{{Export - export markdown preview document to pdf}}",
                 "videos": [
                     {
-                        "description": "{{Export markdown preview document to pdf file}}",
-                        "url": "{{videos/docs/export_as_pdf.mp4}}"
+                        "description": "{{Export markdown preview document to pdf file on Linux}}",
+                        "url": "{{videos/docs/export_as_pdf_linux.mp4}}"
+                    },
+                    {
+                        "description": "{{Export markdown preview document to pdf file on MacOSX}}",
+                        "url": "{{videos/docs/export_as_pdf_macos.mp4}}"
                     }
                 ]
             }
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "eliberare",
+        "labelVersion": "lansare",
         "list": [
+            {
+                "version": "{{2.8}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux}}",
+                        "content": "{{[Fixed] MarkdownD starts, quit unexpectedly}}"
+                    },
+                    {
+                        "platform": "{{Windows,Linux}}",
+                        "content": "{{[Fixed] The log file is too large }}"
+                    },
+                    {
+                        "platform": "{{MacOSX,Windows,Linux}}",
+                        "content": "{{[Update] Export as pdf, then, reveal in finder }}"
+                    },
+                    {
+                        "platform": "{{MacOSX}}",
+                        "content": "{{[Fixed] Export as pdf, only export one page. }}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.7}}",
                 "list": [
@@ -212,19 +237,60 @@
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "Prima versiune."
+                        "content": "Prima lansare."
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "Prima versiune."
+                        "content": "Prima lansare."
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "eliberare",
+        "labelVersion": "lansare",
         "list": [
+            {
+                "version": "{{2.8}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.8-win32-x86-setup.exe}}",
+                        "size": "{{46.5MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4xsperqz8x7v/MarkdownD-v2.8.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.8-win32-x64-setup.exe}}",
+                        "size": "{{55MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/1q4k6p1f1ggp/MarkdownD-v2.8.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.8.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/785ea9eidluh/MarkdownD-v2.8.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.8.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{47.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/74hxbuy9wph7/MarkdownD-v2.8.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.8.0-linux-x64-install.tar.gz}}",
+                        "size": "{{48.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5zpmzfrc5l8v/MarkdownD-v2.8.0-linux-x64-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.8.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1i5pmpvv}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.7}}",
                 "zipList": [
@@ -498,7 +564,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Limbile disponibile",
+        "SectionName": "Limbi disponibile",
         "ChangeAlert": "Limba completă Comutator"
     }
 }

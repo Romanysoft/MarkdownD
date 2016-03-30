@@ -32,7 +32,7 @@
                 "실시간 미리보기 지원",
                 "서식있는 텍스트, 코드 블록, 테이블, 코드 폴딩, HTML 엔티티 코드 구문 강조를 검색하고, 다중 언어를 교체 지원",
                 "지원 TOC (목차), 이모티콘의 발현, 작업 목록 (작업 맵), @ (링크)",
-                "지원 디코딩 및 필터링 HTML 태그와 속성",
+                "지원 디코딩 HTML 태그 및 속성 필터",
                 "지원 텍사스 (라텍스 표현, Katex 회사), 플로우 차트 및 시퀀스 다이어그램",
                 "지원 파일 복구 메커니즘",
                 "지원 여러 편집, 무제한"
@@ -72,8 +72,12 @@
                 "section": "{{Export - export markdown preview document to pdf}}",
                 "videos": [
                     {
-                        "description": "{{Export markdown preview document to pdf file}}",
-                        "url": "{{videos/docs/export_as_pdf.mp4}}"
+                        "description": "{{Export markdown preview document to pdf file on Linux}}",
+                        "url": "{{videos/docs/export_as_pdf_linux.mp4}}"
+                    },
+                    {
+                        "description": "{{Export markdown preview document to pdf file on MacOSX}}",
+                        "url": "{{videos/docs/export_as_pdf_macos.mp4}}"
                     }
                 ]
             }
@@ -82,6 +86,27 @@
     "ReleaseNotePage": {
         "labelVersion": "해제",
         "list": [
+            {
+                "version": "{{2.8}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux}}",
+                        "content": "{{[Fixed] MarkdownD starts, quit unexpectedly}}"
+                    },
+                    {
+                        "platform": "{{Windows,Linux}}",
+                        "content": "{{[Fixed] The log file is too large }}"
+                    },
+                    {
+                        "platform": "{{MacOSX,Windows,Linux}}",
+                        "content": "{{[Update] Export as pdf, then, reveal in finder }}"
+                    },
+                    {
+                        "platform": "{{MacOSX}}",
+                        "content": "{{[Fixed] Export as pdf, only export one page. }}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.7}}",
                 "list": [
@@ -225,6 +250,47 @@
     "VersionPage": {
         "labelVersion": "해제",
         "list": [
+            {
+                "version": "{{2.8}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.8-win32-x86-setup.exe}}",
+                        "size": "{{46.5MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/4xsperqz8x7v/MarkdownD-v2.8.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.8-win32-x64-setup.exe}}",
+                        "size": "{{55MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/1q4k6p1f1ggp/MarkdownD-v2.8.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.8.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/785ea9eidluh/MarkdownD-v2.8.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.8.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{47.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/74hxbuy9wph7/MarkdownD-v2.8.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.8.0-linux-x64-install.tar.gz}}",
+                        "size": "{{48.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/5zpmzfrc5l8v/MarkdownD-v2.8.0-linux-x64-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/bd.png}}",
+                        "name": "{{MarkdownD-v2.8.0}}",
+                        "size": "{{MB}}",
+                        "downURL": "{{http://pan.baidu.com/s/1i5pmpvv}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.7}}",
                 "zipList": [
