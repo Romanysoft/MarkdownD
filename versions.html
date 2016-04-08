@@ -55,7 +55,7 @@
     <!-- Version template -->
     <script id="version-content-tmpl" type="text/html">
         {{each list as oneVersion}}
-        <h3><a id="app-features" class="anchor" href="" aria-hidden="true"><span class="octicon octicon-link"></span></a>{{labelVersion}} {{#oneVersion.version}}</h3>
+        <h3><a id="app-features" class="anchor" href="" aria-hidden="true"><span class="octicon octicon-link"></span></a>{{labelVersion}} {{#oneVersion.version}} <sub>{{#oneVersion["updateDate"] || "" }}</sub></h3>
         <div>
             <ul class="release-downloads">
                 {{each oneVersion.zipList as zip}}

@@ -87,6 +87,7 @@
         "list": [
             {
                 "version": "{{2.9}}",
+                "updateDate": "{{2016.04.08}}",
                 "list":[
                     {
                         "platform":"{{Windows,Linux,MacOSX}}",
@@ -260,6 +261,7 @@
         "list": [
             {
                 "version":"{{2.9}}",
+                "updateDate": "{{2016.04.08}}",
                 "zipList": [
                     {
                         "osUrl": "{{images/download/win32.png}}",
