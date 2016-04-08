@@ -1,20 +1,20 @@
 {
     "TopBar": {
         "Home": "hejmo",
-        "Feature": "karakterizaĵoj",
-        "Documents": "rete Helpo",
-        "ReleaseNotes": "Release Notoj",
-        "Downloads": "libera Elprovo",
-        "Buy": "aĉeto",
-        "Roadmap": "produktserio",
-        "ReportIssue": "Raportu problemo",
-        "Languages": "lingvo"
+        "Feature": "Trajtoj",
+        "Documents": "dokumentoj",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "juĝo",
+        "Buy": "aĉeti",
+        "Roadmap": "vojmapo",
+        "ReportIssue": "temoj",
+        "Languages": "Lingvoj"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Markdown redaktoro plene funkcia. Ĝi Elportas Windows, Linukso kaj MacOSX mastruma sistemo.",
-        "BtnDownload": "libera Elprovo",
-        "BtnBuy": "aĉeto",
+        "ProjectTagline": "Plena-prezentita Markdown redaktoro. Por Vindozo, Linukso kaj MacOSX.",
+        "BtnDownload": "juĝo",
+        "BtnBuy": "aĉeti",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Produkto ĉefaj karakterizaĵoj",
+            "SectionName": "Ĉefaj Trajtoj de MarkdownD",
             "list": [
                 "Elportas eksporti al PDF",
-                "Presi la dokumenton subteno",
-                "Elportas norma prezo / CommonMark kaj GFM (GitHub de Markdown)",
+                "Elportas Presi",
+                "Subteno normo Markdown / CommonMark kaj GFM (GitHub) Flavored Markdown",
                 "Live Antaŭrigardo Subteno",
-                "Elportas formatita teksto, kodo blokoj, tabloj, kodo kunmeto, serĉo kaj anstataŭi, plurlingvaj, HTML ento kodo sintaksa kolorigo",
-                "Subteno TOC (tabelo), la esprimo de miensimbolojn, la taskaro (la tasko mapo), @ (ligoj)",
+                "Subteno formatita teksto, kodo blokoj, tabloj, kodo kunmeto, serĉo kaj anstataŭi, multoblaj lingvoj, HTML ento kodo - sintaksa kolorigo",
+                "Subteno Toc (Enhavo), Emoji esprimo, TaskLists (tasko mapo), @Links (ligilo)",
                 "Subtenu malkodigo kaj filtrado de HTML etikedoj kaj atributoj",
-                "Subteno Teksaso (latekso esprimo, Katex entrepreno), Fludiagramo kaj sekvenco diagramoj",
-                "Subteno dosierojn reakiro meĥanismo",
-                "Subtenu multnombraj redaktado, senlima nombro"
+                "Subteno TeX (LaTex esprimo, KaTeX), fluas diagramo kaj sekvenco diagramo",
+                "Subteno Dokumento Reakiro Mekanismo"
             ]
         },
         "UserReviews": {
-            "SectionName": "Kiel taksi MarkdownD",
+            "SectionName": "Mirindaĵojn homoj diras pri MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD estas mirinda. Simpla. Pura. Perfektecon. Bele farita.",
+                    "reviewContent": "MarkdownD estas granda. Simpla, pura, perfekta. Bele farita.",
                     "userName": "evanw",
                     "professional": "teknologio Promotion"
                 },
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "ĵeto",
+        "labelVersion": "versio",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "ĵeto",
+        "labelVersion": "versio",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "aĉeto",
+        "SectionName": "aĉeti",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "disponeblaj Lingvoj",
-        "ChangeAlert": "Kompletan ŝaltilon lingvo"
+        "SectionName": "Havebla lingvo (MT)",
+        "ChangeAlert": "Kompletigado ŝaltilo lingvo"
     }
 }

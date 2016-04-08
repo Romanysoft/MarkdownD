@@ -1,19 +1,19 @@
 {
     "TopBar": {
         "Home": "ホーム",
-        "Feature": "特長",
-        "Documents": "オンラインヘルプ",
+        "Feature": "特徴",
+        "Documents": "ドキュメント",
         "ReleaseNotes": "リリースノート",
-        "Downloads": "無料体験",
+        "Downloads": "トライアル",
         "Buy": "購入",
-        "Roadmap": "製品ライン",
-        "ReportIssue": "問題を報告します",
+        "Roadmap": "ロードマップ",
+        "ReportIssue": "問題",
         "Languages": "言語"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "マークダウンエディタ完全に機能します。これは、Windows、Linux、およびMacOSXのオペレーティングシステムをサポートしています。",
-        "BtnDownload": "無料体験",
+        "ProjectTagline": "フル機能のMarkdownエディター。 Windows、Linux、およびMacOSXのための。",
+        "BtnDownload": "トライアル",
         "BtnBuy": "購入",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "製品の主な特長",
+            "SectionName": "MarkdownDの主な特長",
             "list": [
                 "PDFへのエクスポートサポート",
-                "文書のサポートを印刷",
-                "サポート標準価格/ CommonMarkとGFM（値下げのGitHubの）",
+                "印刷をサポート",
+                "サポート標準値下げ/ CommonMarkとGFM（GitHubの）風味値下げ",
                 "ライブプレビューのサポート",
-                "フォーマットされたテキスト、コードブロック、テーブル、コードの折りたたみ、検索と置換、多言語、HTMLエンティティコードの構文強調表示をサポートしています",
-                "サポートTOC（目次）、顔文字の表現、タスクリスト（作業マップ）、@（リンク）",
+                "サポートフォーマットされたテキスト、コードブロック、テーブル、コードの折りたたみ、検索と置換、複数の言語、HTMLエンティティコード - 構文ハイライト",
+                "サポート目次（目次）、絵文字表現、タスクリスト（作業マップ）、@リンク（リンク）",
                 "HTMLタグと属性の復号化およびフィルタリングをサポートしています",
-                "サポートテキサス（ラテックス表現、Katex会社）、フローチャートやシーケンス図",
-                "サポートファイル回復メカニズム",
-                "複数の編集、無制限の数をサポートしています"
+                "サポートテックス（ラテックス式、KaTeX）、フロー図とシーケンス図",
+                "ドキュメントの回復メカニズムをサポートしています"
             ]
         },
         "UserReviews": {
-            "SectionName": "MarkdownDを評価する方法",
+            "SectionName": "素晴らしいものの人々はMarkdownDについて言っています",
             "list": [
                 {
-                    "reviewContent": "MarkdownDは素晴らしいです。シンプル。クリーン。完璧。うまく行って。",
+                    "reviewContent": "MarkdownDは素晴らしいです。完璧な、きれいな、シンプル。うまく行って。",
                     "userName": "evanw",
                     "professional": "技術振興"
                 },
@@ -57,7 +56,7 @@
                     "professional": "Web開発者やデザイナー"
                 },
                 {
-                    "reviewContent": "私は本当にMarkdownDのように、大きな利便性をもたらしています。私の仕事を。",
+                    "reviewContent": "私は本当にMarkdownDのように、大きな利便性をもたらしました。私の仕事。",
                     "userName": "jeruss",
                     "professional": "PHPのフレームワーク開発"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "リリース",
+        "labelVersion": "バージョン",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -224,7 +232,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "バグ修正。"
+                        "content": "バグの修正。"
                     }
                 ]
             },
@@ -233,7 +241,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "バグ修正。"
+                        "content": "バグの修正。"
                     },
                     {
                         "platform": "{{Windows}}",
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "リリース",
+        "labelVersion": "バージョン",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "利用できる言語",
-        "ChangeAlert": "完全なスイッチ言語"
+        "SectionName": "利用可能な言語（MT）",
+        "ChangeAlert": "完了スイッチ言語"
     }
 }

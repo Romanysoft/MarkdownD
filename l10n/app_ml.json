@@ -2,19 +2,19 @@
     "TopBar": {
         "Home": "വീട്",
         "Feature": "സവിശേഷതകൾ",
-        "Documents": "ഓൺലൈൻ സഹായം",
-        "ReleaseNotes": "പ്രകാശന കുറിപ്പുകൾ",
-        "Downloads": "സൗജന്യ ട്രയൽ",
-        "Buy": "വാങ്ങൽ",
-        "Roadmap": "പ്രൊഡക്ട് ലൈൻ",
-        "ReportIssue": "ഒരു പ്രശ്നം റിപ്പോർട്ട്",
-        "Languages": "ഭാഷ"
+        "Documents": "പ്രമാണങ്ങൾ",
+        "ReleaseNotes": "പ്രകാശന കുറിപ്പ്",
+        "Downloads": "വിചാരണ",
+        "Buy": "വാങ്ങാൻ",
+        "Roadmap": "റോഡ്മാപ്പിലേക്ക്",
+        "ReportIssue": "പ്രശ്നങ്ങൾ",
+        "Languages": "ഭാഷകൾ"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "പൂർണ്ണമായും പ്രവർത്തനക്ഷമമായിട്ടില്ല Markdown എഡിറ്റർ. വിൻഡോസ്, ലിനക്സ്, MacOSX ഓപ്പറേറ്റിങ് സിസ്റ്റം പിന്തുണയ്ക്കുന്നു.",
-        "BtnDownload": "സൗജന്യ ട്രയൽ",
-        "BtnBuy": "വാങ്ങൽ",
+        "ProjectTagline": "പൂർണ്ണ സവിശേഷത Markdown എഡിറ്റർ. വിൻഡോസ്, ലിനക്സ്, MacOSX വേണ്ടി.",
+        "BtnDownload": "വിചാരണ",
+        "BtnBuy": "വാങ്ങാൻ",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "ഉൽപ്പന്ന പ്രധാന സവിശേഷതകൾ",
+            "SectionName": "MarkdownD പ്രധാന സവിശേഷതകൾ",
             "list": [
                 "PDF ലേക്ക് എക്സ്പോർട്ടുചെയ്യുന്നത് പിന്തുണകൾ",
-                "പ്രമാണം പിന്തുണ അച്ചടിക്കുക",
-                "സാധാരണ വില / CommonMark ആൻഡ് GFM (Markdown ഓഫ് സാമൂഹികം) പിന്തുണയ്ക്കുന്നു",
+                "പ്രിന്റ് പിന്തുണയ്ക്കുന്നു",
+                "സാധാരണ Markdown / CommonMark ആൻഡ് GFM (സാമൂഹികം) കമുകും Markdown പിന്തുണ",
                 "ലൈവ് പ്രിവ്യൂ പിന്തുണ",
-                "ഫോർമാറ്റ് പാഠം, കോഡ് ബ്ലോക്കുകൾ, പട്ടികകൾ, കോഡ് നിദ്ര, തിരയുകയും മാറ്റിസ്ഥാപിക്കുകയും, മൾട്ടി-ഭാഷ, HTML എന്റിറ്റി കോഡ് സിന്റാക്സ് ഉയർത്തിക്കാട്ടുന്ന പിന്തുണയ്ക്കുന്നു",
-                "പിന്തുണ .വിശദമായ (ഉള്ളടക്കത്തിന്റെ പട്ടിക), ഇമോട്ടിക്കോൺ എന്ന പദപ്രയോഗം, ടാസ്ക് (ടാസ്ക് ഭൂപടം), @ (കണ്ണികൾ)",
+                "പിന്തുണ ഫോർമാറ്റ് പാഠം, കോഡ് ബ്ലോക്കുകൾ, പട്ടികകൾ, കോഡ് നിദ്ര, തിരയുകയും മാറ്റിസ്ഥാപിക്കുകയും, ഒന്നിലധികം ഭാഷകളിൽ, HTML എന്റിറ്റി കോഡ് - വാക്യഘടന ഉയർത്തിക്കാട്ടുന്ന",
+                "പിന്തുണ ടോക് (ഉള്ളടക്കം), ഇമോജി പദപ്രയോഗം TaskLists (ടാസ്ക് ഭൂപടം), @Links (ലിങ്ക്)",
                 "എച്ച്ടിഎംഎൽ ടാഗുകൾ ആട്രിബ്യൂട്ടുകളുടെ ശരീരവടിവ് ഫിൽട്ടറിംഗ് പിന്തുണയ്ക്കുക",
-                "പിന്തുണ ടെക്സസ് (ലാറ്റക്സ് പദപ്രയോഗം Katex കമ്പനി), ഫ്ലോചാർട്ടുകൾ അനുക്രമം രേഖാചിത്രങ്ങൾ",
-                "പിന്തുണ ഫയലുകൾ വീണ്ടെടുക്കൽ മെക്കാനിസം",
-                "ഒന്നിലധികം എഡിറ്റിംഗ്, പരിധികളില്ലാതെ പിന്തുണയ്ക്കുക"
+                "പിന്തുണ ടെക്സ് (ലാറ്റക്സ്ഗണിതസൂത്രംപടി പദപ്രയോഗം KaTeX), ഒഴുക്ക് രേഖാചിത്രം അനുക്രമം ഡയഗ്രം",
+                "പ്രമാണ റിക്കവറി സംവിധാനം പിന്തുണയ്ക്കുന്നില്ല"
             ]
         },
         "UserReviews": {
-            "SectionName": "എങ്ങനെ MarkdownD വിലയിരുത്താൻ",
+            "SectionName": "അത്ഭുതമായി ജനം MarkdownD പറയുന്നതെന്താണെന്നും",
             "list": [
                 {
-                    "reviewContent": "MarkdownD വിസ്മയാവഹമാണ്. സിമ്പിൾ. ക്ലീൻ. ഹാനികരമാണ്. കൊള്ളാം.",
+                    "reviewContent": "MarkdownD വലിയ ആണ്. , ലളിത ശുദ്ധിയുള്ള, തികഞ്ഞ. നന്നായി ചെയ്തു.",
                     "userName": "evanw",
                     "professional": "ടെക്നോളജി പ്രമോഷൻ"
                 },
@@ -57,7 +56,7 @@
                     "professional": "വെബ് ഡെവലപ്പർമാർ, ഡിസൈനർമാർ"
                 },
                 {
-                    "reviewContent": "എന്റെ പ്രവൃത്തി ഞാൻ ശരിക്കും MarkdownD പോലെ വലിയ സൗകര്യം കൊണ്ടുവന്നു.",
+                    "reviewContent": "ഞാൻ ശരിക്കും MarkdownD പോലെ വലിയ സൗകര്യം ചെയ്തിരിക്കുന്നു; എന്റെ പ്രവൃത്തി.",
                     "userName": "jeruss",
                     "professional": "പി.എച്ച്.പി ചട്ടക്കൂട് വികസനം"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "റിലീസ്",
+        "labelVersion": "പതിപ്പ്",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "റിലീസ്",
+        "labelVersion": "പതിപ്പ്",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "വാങ്ങൽ",
+        "SectionName": "വാങ്ങാൻ",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "ലഭ്യമായ ഭാഷകൾ",
-        "ChangeAlert": "പൂർത്തിയാക്കുക സ്വിച്ച് ഭാഷ"
+        "SectionName": "ലഭ്യമായ ഭാഷ (മെട്രിക്)",
+        "ChangeAlert": "പൂർത്തിയാക്കുന്നു സ്വിച്ച് ഭാഷ"
     }
 }

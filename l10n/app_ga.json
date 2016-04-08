@@ -2,19 +2,19 @@
     "TopBar": {
         "Home": "Baile",
         "Feature": "gnéithe",
-        "Documents": "Líne Cabhair",
-        "ReleaseNotes": "Nótaí Eisiúna",
-        "Downloads": "Triail Saor",
-        "Buy": "Ceannach",
-        "Roadmap": "táirge líne",
-        "ReportIssue": "Tuairiscigh fadhb",
-        "Languages": "teanga"
+        "Documents": "Doiciméid",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "triail",
+        "Buy": "Ceannaigh",
+        "Roadmap": "Treochlár",
+        "ReportIssue": "Ceisteanna",
+        "Languages": "teangacha"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "eagarthóir Markdown ag feidhmiú go hiomlán. Tacaíonn sé Windows, Linux agus MacOSX córas oibriúcháin.",
-        "BtnDownload": "Triail Saor",
-        "BtnBuy": "Ceannach",
+        "ProjectTagline": "eagarthóir Markdown Full-feiceáil. Do Windows, Linux agus MacOSX.",
+        "BtnDownload": "triail",
+        "BtnBuy": "Ceannaigh",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Gnéithe bpríomhtháirge",
+            "SectionName": "Príomhghnéithe de MarkdownD",
             "list": [
                 "Tacaíochtaí onnmhairiú go PDF",
-                "Priontáil an tacaíocht doiciméad",
-                "Tacaíochtaí riail-phraghas / CommonMark agus GFM (GitHub de Markdown)",
+                "Tacaíochtaí Print",
+                "Tacaíocht Markdown caighdeánach / CommonMark agus GFM (GitHub) Flavored Markdown",
                 "Tacaíocht Réamhamhairc Live",
-                "Tacaíochtaí téacs formáidithe, bloic cód, táblaí, cód fillte, cuardach agus in áit, il-teanga, HTML cód aonán béim ar chomhréir",
-                "Tacaíocht TOC (clár ábhair), an abairt de straoiseoga, an liosta tasc (an léarscáil tasc), @ (naisc)",
+                "Tacaíocht formáidithe téacs, bloic cód, táblaí, cód fillte, cuardach agus ionad, dteangacha éagsúla, HTML cód aonán - béim ar chomhréir",
+                "Tacaíocht Toc (Clár na nÁbhar), Emoji focal, TaskLists (léarscáil tasc), @Links (nasc)",
                 "díchódaithe Tacaíocht agus scagadh na clibeanna HTML agus tréithe",
-                "Tacaíocht Texas (abairt LaTeX, Katex cuideachta), flowcharts agus léaráidí ord",
-                "Comhaid Tacaíocht meicníocht aisghabhála",
-                "Tacaíocht eagarthóireacht il, líon neamhtheoranta"
+                "Tacaíocht Tex (abairt LaTeX, KaTeX), sreabhadh léaráid agus ord léaráid",
+                "Meicníocht Tacaíocht Aisghabháil Document"
             ]
         },
         "UserReviews": {
-            "SectionName": "Conas a mheas MarkdownD",
+            "SectionName": "daoine rudaí iontacha ag rá faoi MarkdownD",
             "list": [
                 {
-                    "reviewContent": "Is MarkdownD iontach. Simplí. Clean. Foirfeachta. Nicely déanta.",
+                    "reviewContent": "Is MarkdownD mór. Simplí, glan, foirfe. Nicely déanta.",
                     "userName": "evanw",
                     "professional": "teicneolaíocht Chun Cinn"
                 },
@@ -57,7 +56,7 @@
                     "professional": "forbróirí gréasáin agus dearthóirí"
                 },
                 {
-                    "reviewContent": "I really like MarkdownD, thug áis iontach = mo chuid oibre.",
+                    "reviewContent": "I really like MarkdownD, thug áis iontach; mo chuid oibre.",
                     "userName": "jeruss",
                     "professional": "Forbairt réime PHP"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "scaoileadh",
+        "labelVersion": "Leagan",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "scaoileadh",
+        "labelVersion": "Leagan",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Ceannach",
+        "SectionName": "Ceannaigh",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Ar fáil Teangacha",
-        "ChangeAlert": "teanga lasc Comhlánaigh"
+        "SectionName": "teanga atá ar fáil (MT)",
+        "ChangeAlert": "Comhlánú teanga lasc"
     }
 }

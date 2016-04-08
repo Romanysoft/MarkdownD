@@ -1,20 +1,20 @@
 {
     "TopBar": {
         "Home": "בית",
-        "Feature": "תכונות",
-        "Documents": "עזרה מקוונת",
-        "ReleaseNotes": "הערות מוצר",
-        "Downloads": "נסיון חינם",
-        "Buy": "רכישה",
-        "Roadmap": "קו מוצרים",
-        "ReportIssue": "דווח על בעיה",
-        "Languages": "שפה"
+        "Feature": "מאפיינים",
+        "Documents": "מסמכים",
+        "ReleaseNotes": "מכתבי שחרור",
+        "Downloads": "מִשׁפָּט",
+        "Buy": "לִקְנוֹת",
+        "Roadmap": "מפת הדרכים",
+        "ReportIssue": "סוגיות",
+        "Languages": "שפות"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "עורך Markdown מתפקדת במלואה. הוא תומך ב- Windows, מערכת ההפעלה לינוקס ו- MacOSX.",
-        "BtnDownload": "נסיון חינם",
-        "BtnBuy": "רכישה",
+        "ProjectTagline": "עורך Markdown עתיר תכונות. עבור Windows, לינוקס ו- MacOSX.",
+        "BtnDownload": "מִשׁפָּט",
+        "BtnBuy": "לִקְנוֹת",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "תכונות מוצר עיקריות",
+            "SectionName": "תכונות עיקריות של MarkdownD",
             "list": [
                 "תומך בייצוא ל- PDF",
-                "הדפס את תמיכת המסמך",
-                "תומך מחיר סטנדרטי / CommonMark ו GFM (GitHub של Markdown)",
+                "תומך הדפסה",
+                "תמיכה Markdown סטנדרטי / CommonMark ו GFM (GitHub) בטעם Markdown",
                 "תמיכת תצוגה מקדימה חיה '",
-                "תומך טקסט מעוצב, קטעי קוד, שולחנות, קיפול קוד, חיפוש והחלפה, ריבוי שפות, הדגשת תחביר ישות קוד HTML",
-                "התמיכה TOC (תוכן עניינים), הביטוי של הבעות, לרשימת המשימות (מפת המשימה), @ (קישורים)",
+                "תמיכת טקסט מעוצב, קטעי קוד, שולחנות, קיפול קוד, חיפוש והחלפה, במספר שפות, קוד ישות HTML - הדגשת תחביר",
+                "תמיכת TOC (תוכן עניינים), ביטוי Emoji, TaskLists (מפת משימה), @Links (קישור)",
                 "פענוח וסינון תמיכה של תגי HTML ותכונות",
-                "תמיכה טקסס (ביטוי לטקס, החברה Katex), תרשימי זרימה ודיאגרמות רצף",
-                "קבצי תמיכה של מנגנון התאוששות",
-                "תמיכת עריכת מספר, מספר בלתי מוגבל"
+                "תמיכה Tex (ביטוי לטקס, Katex), לזרום דיאגרמה רצף הדיאגרמה",
+                "מנגנון תמיכת שחזור מסמכים"
             ]
         },
         "UserReviews": {
-            "SectionName": "כיצד להעריך MarkdownD",
+            "SectionName": "אנשי דברים נפלאים אומרים על MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD מדהים. פשוט. נקי. שלמות. עבודה יפה.",
+                    "reviewContent": "MarkdownD הוא נהדר. פשוט, נקי, מושלם. נעשה באופן יפה.",
                     "userName": "evanw",
                     "professional": "קידום טכנולוגיה"
                 },
@@ -57,7 +56,7 @@
                     "professional": "מפתחי אינטרנט ומעצבים"
                 },
                 {
-                    "reviewContent": "אני ממש אוהב MarkdownD, הבאתי נוחות רבה; עבודתי.",
+                    "reviewContent": "אני ממש אוהב MarkdownD, הבאתי נוחות רבה; העבודה שלי.",
                     "userName": "jeruss",
                     "professional": "פיתוח במסגרת PHP"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "שחרור",
+        "labelVersion": "גִרְסָה",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "שחרור",
+        "labelVersion": "גִרְסָה",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "רכישה",
+        "SectionName": "לִקְנוֹת",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "שפות זמינות",
-        "ChangeAlert": "שפה מעבר מלאה"
+        "SectionName": "שפה זמינה (MT)",
+        "ChangeAlert": "שפת מתג השלמה"
     }
 }

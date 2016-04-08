@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "nhà",
+        "Home": "Nhà",
         "Feature": "Tính năng",
-        "Documents": "Trợ giúp trực tuyến",
-        "ReleaseNotes": "Ghi chú phát hành",
-        "Downloads": "Dùng thử miễn phí",
-        "Buy": "mua",
-        "Roadmap": "dòng sản phẩm",
-        "ReportIssue": "Báo cáo sự cố",
-        "Languages": "ngôn ngữ"
+        "Documents": "Các tài liệu",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "Thử nghiệm",
+        "Buy": "Mua",
+        "Roadmap": "lộ trình",
+        "ReportIssue": "vấn đề",
+        "Languages": "Ngôn ngữ"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "biên tập Markdown đầy đủ chức năng. Nó hỗ trợ hệ điều hành Windows, Linux và Mac OSX.",
-        "BtnDownload": "Dùng thử miễn phí",
-        "BtnBuy": "mua",
+        "ProjectTagline": "biên tập đầy đủ tính năng Markdown. Đối với Windows, Linux và Mac OSX.",
+        "BtnDownload": "Thử nghiệm",
+        "BtnBuy": "Mua",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Các tính năng chính của sản phẩm",
+            "SectionName": "Các tính năng chính của MarkdownD",
             "list": [
                 "Hỗ trợ xuất khẩu sang PDF",
-                "In các tài liệu hỗ trợ",
-                "Hỗ trợ giá chuẩn / CommonMark và GFM (GitHub của Markdown)",
+                "Hỗ trợ In",
+                "Hỗ trợ chuẩn Markdown / CommonMark và GFM (GitHub) Flavored Markdown",
                 "Hỗ trợ Live Preview",
-                "Hỗ trợ định dạng văn bản, khối mã, bảng mã gấp, tìm kiếm và thay thế, đa ngôn ngữ, mã HTML thực thể nổi bật cú pháp",
-                "Hỗ trợ TOC (bảng các nội dung), sự biểu hiện của biểu tượng cảm xúc, danh sách công việc (các bản đồ nhiệm vụ), @ (liên kết)",
+                "Hỗ trợ định dạng văn bản, khối mã, bảng mã gấp, tìm kiếm và thay thế, nhiều ngôn ngữ, mã thực thể HTML - nổi bật cú pháp",
+                "Hỗ trợ Toc (lục), biểu hiện Emoji, TaskLists (bản đồ nhiệm vụ), @Links (liên kết)",
                 "Hỗ trợ giải mã và lọc các thẻ HTML và các thuộc tính",
-                "Hỗ trợ Texas (biểu thức latex, công ty Katex), sơ đồ và biểu đồ trình tự",
-                "Hỗ trợ các file cơ chế phục hồi",
-                "Hỗ trợ chỉnh sửa nhiều, số lượng không giới hạn"
+                "Hỗ trợ Tex (biểu thức LaTex, KaTeX), lưu lượng sơ đồ và trình tự sơ đồ",
+                "Hỗ trợ khôi phục tài liệu Cơ chế"
             ]
         },
         "UserReviews": {
-            "SectionName": "Làm thế nào để đánh giá MarkdownD",
+            "SectionName": "những điều tuyệt vời mọi người đang nói về MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD là tuyệt vời. Đơn giản. Clean. Perfection. Thực hiện độc đáo.",
+                    "reviewContent": "MarkdownD là tuyệt vời. Đơn giản, sạch sẽ, hoàn hảo. Thực hiện độc đáo.",
                     "userName": "evanw",
                     "professional": "Xúc tiến Công nghệ"
                 },
@@ -57,7 +56,7 @@
                     "professional": "các nhà phát triển web và thiết kế"
                 },
                 {
-                    "reviewContent": "Tôi thực sự thích MarkdownD, đã mang lại sự tiện lợi lớn; công việc của tôi.",
+                    "reviewContent": "Tôi thực sự thích MarkdownD, đã mang lại sự tiện lợi lớn; công việc của tôi.",
                     "userName": "jeruss",
                     "professional": "phát triển khuôn khổ PHP"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "phóng thích",
+        "labelVersion": "Phiên bản",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -224,7 +232,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Bản sửa lỗi."
+                        "content": "Sửa lỗi."
                     }
                 ]
             },
@@ -233,7 +241,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Bản sửa lỗi."
+                        "content": "Sửa lỗi."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "phóng thích",
+        "labelVersion": "Phiên bản",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "mua",
+        "SectionName": "Mua",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Ngôn ngữ có sẵn",
+        "SectionName": "ngôn ngữ có sẵn (MT)",
         "ChangeAlert": "Hoàn thành chuyển đổi ngôn ngữ"
     }
 }

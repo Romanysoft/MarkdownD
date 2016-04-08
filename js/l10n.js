@@ -135,10 +135,11 @@
   c$.getPreTryLangList = function(){
     var navLang = navigator.language;
     var tryLangList = [
+      //要求以英语为主, 其他语言地位缩减
+      {path:"l10n/" + c$.l10nPre + "en.json", key:"en"},
       {path:"l10n/" + c$.l10nPre + navLang + ".json", key:navLang},
       {path:"l10n/" + c$.l10nPre + navLang.split('-')[0] + ".json",key:navLang.split('-')[0]},
-      {path:"l10n/" + c$.l10nPre + "en-US.json",key:"en-US"},
-      {path:"l10n/" + c$.l10nPre + "en.json", key:"en"}
+      {path:"l10n/" + c$.l10nPre + "en-US.json",key:"en-US"}
     ];
 
     var userLang = this.getUserCustomLanguage();

@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "thuis",
-        "Feature": "kenmerken",
-        "Documents": "online Help",
-        "ReleaseNotes": "release Notes",
-        "Downloads": "Free Trial",
-        "Buy": "aankoop",
-        "Roadmap": "productlijn",
-        "ReportIssue": "Een probleem melden",
-        "Languages": "taal"
+        "Home": "Huis",
+        "Feature": "Kenmerken",
+        "Documents": "documenten",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "proces",
+        "Buy": "Kopen",
+        "Roadmap": "roadmap",
+        "ReportIssue": "kwesties",
+        "Languages": "talen"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Markdown editor volledig functioneel. Het ondersteunt Windows, Linux en MacOSX besturingssysteem.",
-        "BtnDownload": "Free Trial",
-        "BtnBuy": "aankoop",
+        "ProjectTagline": "Full-featured Markdown editor. Voor Windows, Linux en MacOSX.",
+        "BtnDownload": "proces",
+        "BtnBuy": "Kopen",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Product belangrijkste kenmerken",
+            "SectionName": "Belangrijkste kenmerken van MarkdownD",
             "list": [
                 "Ondersteunt exporteren naar PDF",
-                "Druk het document support",
-                "Ondersteunt standaard prijs / CommonMark en GFM (GitHub van Markdown)",
+                "ondersteunt Print",
+                "Ondersteuning standaard Markdown / CommonMark en GFM (GitHub) Flavored Markdown",
                 "Live Preview Ondersteuning",
-                "Ondersteunt opgemaakte tekst, code blokken, tafels, code vouwen, zoeken en vervangen, multi-language, HTML entiteit code syntax highlighting",
-                "Ondersteuning TOC (inhoudsopgave), de expressie van emoticons, de takenlijst (de taak kaart), @ (links)",
+                "Ondersteuning opgemaakte tekst, code blokken, tafels, code vouwen, zoeken en vervangen, meerdere talen, HTML entiteit code - syntax highlighting",
+                "Ondersteuning Toc (Inhoudsopgave), Emoji expressie, tasklists (taak kaart), @Links (link)",
                 "Ondersteuning decoderen en filteren van HTML-tags en attributen",
-                "Ondersteuning Texas (latex expressie, Katex bedrijf), flowcharts en sequence diagrammen",
-                "Ondersteunende bestanden herstel mechanisme",
-                "Ondersteuning van meerdere editing, onbeperkt aantal"
+                "Ondersteuning Tex (LaTex expressie, Katex), flow diagram en sequence diagram",
+                "Ondersteuning Document Recovery Mechanism"
             ]
         },
         "UserReviews": {
-            "SectionName": "Hoe te MarkdownD evalueren",
+            "SectionName": "Prachtige dingen mensen zeggen over MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD is verbazingwekkend. Eenvoudig. Clean. Perfectie. Mooi gedaan.",
+                    "reviewContent": "MarkdownD is geweldig. Eenvoudig, schoon, perfect. Keurig gedaan.",
                     "userName": "evanw",
                     "professional": "Technology Promotion"
                 },
@@ -57,7 +56,7 @@
                     "professional": "Web-ontwikkelaars en ontwerpers"
                 },
                 {
-                    "reviewContent": "Ik hou echt van MarkdownD, heeft grote gemak, mijn werk.",
+                    "reviewContent": "Ik hou echt van MarkdownD, heeft grote gemak; mijn werk.",
                     "userName": "jeruss",
                     "professional": "PHP framework ontwikkeling"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "vrijlating",
+        "labelVersion": "Versie",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -224,7 +232,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Bug fixes."
+                        "content": "Bugfixes."
                     }
                 ]
             },
@@ -233,7 +241,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Bug fixes."
+                        "content": "Bugfixes."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "vrijlating",
+        "labelVersion": "Versie",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "aankoop",
+        "SectionName": "Kopen",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "beschikbare talen",
-        "ChangeAlert": "Compleet switch language"
+        "SectionName": "Beschikbare taal (MT)",
+        "ChangeAlert": "Het invullen van taal wisselen"
     }
 }

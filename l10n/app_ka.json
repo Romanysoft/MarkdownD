@@ -2,19 +2,19 @@
     "TopBar": {
         "Home": "მთავარი",
         "Feature": "მახასიათებლები",
-        "Documents": "ონლაინ დახმარება",
+        "Documents": "დოკუმენტები",
         "ReleaseNotes": "გამოშვების შენიშვნები",
-        "Downloads": "უფასო Trial",
-        "Buy": "შეძენა",
-        "Roadmap": "პროდუქციის ხაზი",
-        "ReportIssue": "ანგარიშს პრობლემა",
-        "Languages": "ენა"
+        "Downloads": "Trial",
+        "Buy": "ყიდვა",
+        "Roadmap": "საგზაო რუკა",
+        "ReportIssue": "საკითხები",
+        "Languages": "ენები"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Markdown რედაქტორი სრულად ფუნქციონალური. იგი მხარს უჭერს Windows, Linux და MacOSX ოპერაციული სისტემა.",
-        "BtnDownload": "უფასო Trial",
-        "BtnBuy": "შეძენა",
+        "ProjectTagline": "სრული გამორჩეული Markdown რედაქტორი. Windows, Linux და MacOSX.",
+        "BtnDownload": "Trial",
+        "BtnBuy": "ყიდვა",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "პროდუქტის ძირითადი მახასიათებლები",
+            "SectionName": "ძირითადი მახასიათებლები MarkdownD",
             "list": [
                 "მხარდაჭერა ექსპორტს PDF",
-                "დოკუმენტის ბეჭდვა მხარდაჭერა",
-                "მხარს უჭერს სტანდარტული ფასი / CommonMark და GFM (GitHub of Markdown)",
+                "მხარდაჭერა Print",
+                "მხარდაჭერა სტანდარტული Markdown / CommonMark და GFM (GitHub) Flavored Markdown",
                 "Live Preview მხარდაჭერა",
-                "მხარდაჭერა ტექსტი კოდი ბლოკები, მაგიდები, კოდი დასაკეცი, ძიება და შეცვლა, მრავალ ენაზე, HTML პირის კოდი სინტაქსის შეფერადება",
-                "მხარდაჭერა TOC (სარჩევი), გამოხატულება სმაილიკების, ამოცანა სია (ამოცანა რუკა), @ (← ბმულები)",
+                "მხარდაჭერა ტექსტი კოდი ბლოკები, მაგიდები, კოდი დასაკეცი, ძიება და შეცვლა, სხვადასხვა ენებზე, HTML პირი კოდი - სინტაქსის შეფერადება",
+                "მხარდაჭერა Toc (სარჩევი), ემოციების გამოხატვის, TaskLists (ამოცანა რუკა), @Links (ლინკები)",
                 "მხარდაჭერა დეკოდირების და გაფილტრის HTML ტეგები და ატრიბუტები",
-                "მხარდაჭერა Texas (latex გამოხატვის, Katex კომპანია), სქემების და თანმიმდევრობით დიაგრამების",
-                "მხარდაჭერა ფაილი აღდგენის მექანიზმი",
-                "მხარდაჭერა მრავალჯერადი მონტაჟი, შეუზღუდავი რაოდენობის"
+                "მხარდაჭერა Tex (ლატექსის გამოხატვის, KaTeX), დიაგრამაზე და მიმდევრობა დიაგრამის",
+                "მხარდაჭერა დოკუმენტის აღდგენა მექანიზმი"
             ]
         },
         "UserReviews": {
-            "SectionName": "როგორ აფასებენ MarkdownD",
+            "SectionName": "მშვენიერი რამ ხალხი შესახებ MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD არის საოცარი. მარტივია. სუფთა. სრულყოფა. ლამაზად კეთდება.",
+                    "reviewContent": "MarkdownD არის დიდი. მარტივი, სუფთა, სრულყოფილი. კარგათ შესრულებული.",
                     "userName": "evanw",
                     "professional": "ტექნოლოგიების პოპულარიზაცია"
                 },
@@ -57,7 +56,7 @@
                     "professional": "ვებ დეველოპერები და დიზაინერები"
                 },
                 {
-                    "reviewContent": "მე ნამდვილად მინდა MarkdownD, რომელმაც დიდი მოხერხებულობით, ჩემი მუშაობა.",
+                    "reviewContent": "მე ნამდვილად მინდა MarkdownD, რომელმაც დიდი მოხერხებულობით; ჩემი მუშაობა.",
                     "userName": "jeruss",
                     "professional": "PHP ფარგლებში განვითარების"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "გამოსვლის",
+        "labelVersion": "მობილური",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -224,7 +232,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Bug აფიქსირებს."
+                        "content": "ხარვეზის შესწორება."
                     }
                 ]
             },
@@ -233,7 +241,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Bug აფიქსირებს."
+                        "content": "ხარვეზის შესწორება."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "გამოსვლის",
+        "labelVersion": "მობილური",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "შეძენა",
+        "SectionName": "ყიდვა",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "შესაძლო ენები",
-        "ChangeAlert": "სრული ენის შეცვლა"
+        "SectionName": "ხელმისაწვდომია ენის (MT)",
+        "ChangeAlert": "დასრულების ენის შეცვლა"
     }
 }

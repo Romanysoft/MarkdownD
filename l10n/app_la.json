@@ -2,19 +2,19 @@
     "TopBar": {
         "Home": "domum",
         "Feature": "Features",
-        "Documents": "Help",
-        "ReleaseNotes": "Notes Release",
-        "Downloads": "free Trial",
-        "Buy": "Purchase",
-        "Roadmap": "product line",
-        "ReportIssue": "Report a Problem",
-        "Languages": "Language"
+        "Documents": "Documents",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "Trial",
+        "Buy": "Buy",
+        "Roadmap": "Roadmap",
+        "ReportIssue": "exitus",
+        "Languages": "Latin"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Markdown totam ed. Fert Windows MacOSX Linux operating ratio.",
-        "BtnDownload": "free Trial",
-        "BtnBuy": "Purchase",
+        "ProjectTagline": "Full-featured Markdown ed. Pro Fenestra, Linux MacOSX.",
+        "BtnDownload": "Trial",
+        "BtnBuy": "Buy",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Featured Product Main",
+            "SectionName": "Main features of MarkdownD",
             "list": [
                 "Suscipio exporting ut PDF",
-                "Services Print document",
-                "Latin pretium fulcit / CommonMark et GFM (GitHub de Markdown)",
+                "suscipio Print",
+                "Latin Markdown Support / CommonMark et GFM (GitHub) SAPIDUS Markdown",
                 "Support Live Preview",
-                "Suscipio formatted text, codice lectus, tabulas, valvis codicem, et locum quaerere, multi-lingua, res HTML Code luce syntax",
-                "Support TOC (Table of Contents) expressio feedback negotium album (munus map) (links)",
+                "Support formatted text, codice lectus, tabulas, valvis codicem, et locum quaerere, multiple lingua, res HTML Code - luce syntax",
+                "Support Holdings (Table of Contents), Emoji dicitur, TaskLists (Map of negotium), @Links (link)",
                 "Support decoding et filtering a tags et attributa",
-                "Support Texas (Aliquam dictum, Katex comitatu), series schematum, et flowcharts",
-                "Support recuperatio ars files",
-                "Support multiplex emendo, infinitus est numerus"
+                "Support Tex (latex dicitur, KaTeX), ordo et figura figura profluere",
+                "Recuperatio rigidorum Book Services"
             ]
         },
         "UserReviews": {
-            "SectionName": "Quam ad aestimare MarkdownD",
+            "SectionName": "MarkdownD sententia sunt mirabilia",
             "list": [
                 {
-                    "reviewContent": "MarkdownD est mirabile. Simplex. Mundare. Perfectio. Bene fieri.",
+                    "reviewContent": "MarkdownD est. Simplex, mundus, consummatus. Bene fieri.",
                     "userName": "evanw",
                     "professional": "Lorem Promotion"
                 },
@@ -57,7 +56,7 @@
                     "professional": "Gravida et Web Maecenas"
                 },
                 {
-                    "reviewContent": "EGO vere amo MarkdownD perduxerit magna commoditas, mea.",
+                    "reviewContent": "Ego vere similis MarkdownD, magnum commodum est; opus meum.",
                     "userName": "jeruss",
                     "professional": "PHP progressionem compage"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Release",
+        "labelVersion": "Version",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Release",
+        "labelVersion": "Version",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Purchase",
+        "SectionName": "Buy",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Latin Available",
-        "ChangeAlert": "Switch The Latin"
+        "SectionName": "Latin Available (MT)",
+        "ChangeAlert": "Complens switch lingua"
     }
 }

@@ -1,20 +1,20 @@
 {
     "TopBar": {
         "Home": "shtëpi",
-        "Feature": "Features",
-        "Documents": "online Ndihmë",
-        "ReleaseNotes": "Shënime Versioni",
-        "Downloads": "Trial pa pagesë",
-        "Buy": "blerje",
-        "Roadmap": "Programi i prodhimit",
-        "ReportIssue": "Raporto një problem",
-        "Languages": "gjuhë"
+        "Feature": "karakteristika",
+        "Documents": "dokumentet",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "gjykim",
+        "Buy": "blej",
+        "Roadmap": "Udhërrëfyesi",
+        "ReportIssue": "çështjet",
+        "Languages": "Gjuhë"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Markdown editor plotësisht funksionale. Ajo mbështet Windows, Linux dhe MacOSX sistemit operativ.",
-        "BtnDownload": "Trial pa pagesë",
-        "BtnBuy": "blerje",
+        "ProjectTagline": "Të plotë me tipare editor Markdown. Për Windows, Linux dhe MacOSX.",
+        "BtnDownload": "gjykim",
+        "BtnBuy": "blej",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Karakteristika të produktit kryesore",
+            "SectionName": "Karakteristikat kryesore të MarkdownD",
             "list": [
                 "Mbështet të eksportuar në PDF",
-                "Printo mbështetjen dokument",
-                "Mbështet Çmimi standard / CommonMark dhe GFM (Github e markdown)",
+                "mbështet Printo",
+                "Mbështetje standarde Markdown / CommonMark dhe GFM (GitHub) Salcë Markdown",
                 "Live Support Preview",
-                "Mbështet tekstin e formatuar, blloqe kod, tavolina, kodin palosjen, të kërkuar dhe të zëvendësojë, multi-gjuhë, HTML code entitet theksim i sintaksës",
-                "Mbështetje TOC (tabela e përmbajtjes), shprehja e figurinave, lista detyrë (harta detyrë), @ (links)",
+                "Mbështetje formatuar tekstin, blloqe kodi, tavolina, kodi kanate, kërko dhe të zëvendësojë, shumë gjuhë, HTML code entitet - theksim i sintaksës",
+                "Mbështetje Toc (Përmbajtja), shprehje Emoji, TaskLists (harta detyrë), @Links (link)",
                 "deshifrim mbështetje dhe filtrim i HTML tags dhe atributet",
-                "Mbështetje Texas (shprehje latex, kompania Katex), flowcharts dhe diagramet rend",
-                "files mbështetje mekanizëm shërim",
-                "Mbështetje editing të shumta, numër të pakufizuar"
+                "Mbështetje Tex (shprehje latex, KaTeX), rrjedhin diagram dhe rend diagram",
+                "Mekanizmi Mbështetje Document Rimëkëmbjes"
             ]
         },
         "UserReviews": {
-            "SectionName": "Si për të vlerësuar MarkdownD",
+            "SectionName": "mrekullitë njerëzit janë duke thënë se për MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD është e mahnitshme. Simple. Të pastër. Perfection. bërë mirë.",
+                    "reviewContent": "MarkdownD është e madhe. Thjeshtë, të pastër, të përsosur. bërë mirë.",
                     "userName": "evanw",
                     "professional": "Teknologji Promovimi"
                 },
@@ -57,7 +56,7 @@
                     "professional": "Hartuesit Web dhe designers"
                 },
                 {
-                    "reviewContent": "I really like MarkdownD, ka sjellë komoditet të madh, punën time.",
+                    "reviewContent": "I really like MarkdownD, ka sjellë lehtësi të madhe; Puna ime.",
                     "userName": "jeruss",
                     "professional": "zhvillimi kuadër PHP"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "lirim",
+        "labelVersion": "Version",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "lirim",
+        "labelVersion": "Version",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "blerje",
+        "SectionName": "blej",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Në dispozicion Gjuhë",
-        "ChangeAlert": "Complete Gjuha switch"
+        "SectionName": "Gjuha e disponueshëm (MT)",
+        "ChangeAlert": "Kompletimi Gjuha switch"
     }
 }

@@ -1,19 +1,19 @@
 {
     "TopBar": {
         "Home": "บ้าน",
-        "Feature": "คุณสมบัติ",
-        "Documents": "ความช่วยเหลือออนไลน์",
-        "ReleaseNotes": "บันทึกประจำรุ่น",
-        "Downloads": "ทดลองใช้ฟรี",
+        "Feature": "คุณลักษณะเด่น",
+        "Documents": "เอกสาร",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "การทดลอง",
         "Buy": "ซื้อ",
-        "Roadmap": "สายผลิตภัณฑ์",
-        "ReportIssue": "รายงานปัญหา",
+        "Roadmap": "แผนงาน",
+        "ReportIssue": "ปัญหา",
         "Languages": "ภาษา"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "แก้ไข Markdown การทำงานอย่างเต็มที่ รองรับ Windows, Linux และระบบปฏิบัติการ MacOSX",
-        "BtnDownload": "ทดลองใช้ฟรี",
+        "ProjectTagline": "แก้ไข Markdown เต็มรูปแบบ สำหรับ Windows, Linux และ MacOSX",
+        "BtnDownload": "การทดลอง",
         "BtnBuy": "ซื้อ",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "คุณสมบัติหลักสินค้า",
+            "SectionName": "คุณสมบัติหลักของ MarkdownD",
             "list": [
                 "รองรับการส่งออกไปยังไฟล์ PDF",
-                "พิมพ์เอกสารสนับสนุน",
-                "รองรับราคามาตรฐาน / CommonMark และ GFM (GitHub ของ Markdown)",
+                "รองรับการพิมพ์",
+                "การสนับสนุนมาตรฐาน Markdown / CommonMark และ GFM (GitHub) รส Markdown",
                 "สนับสนุนการแสดงตัวอย่างแบบสด",
-                "รองรับการจัดรูปแบบข้อความบล็อกรหัสตารางพับโค้ด, การค้นหาและแทนที่หลายภาษา HTML รหัสนิติบุคคลเน้นไวยากรณ์",
-                "สนับสนุน TOC (สารบัญ) การแสดงออกของอีโมติคอน, รายการงาน (แผนที่งาน) @ (ลิงก์)",
+                "สนับสนุนการจัดรูปแบบข้อความบล็อกรหัสตารางพับโค้ด, การค้นหาและแทนที่หลายภาษารหัสนิติบุคคล HTML - เน้นไวยากรณ์",
+                "สนับสนุน Toc (สารบัญ) Emoji แสดงออก tasklists (แผนที่งาน) @Links (ลิงค์)",
                 "ถอดรหัสการสนับสนุนและการกรองของแท็กและแอตทริบิวต์",
-                "สนับสนุนเท็กซัส (การแสดงออกยาง บริษัท Katex) ผังงานและไดอะแกรมลำดับ",
-                "แฟ้มสนับสนุนกลไกการกู้คืน",
-                "สนับสนุนการแก้ไขหลายไม่ จำกัด จำนวน"
+                "สนับสนุนเท็กซ์ (การแสดงออกยาง KaTeX) แผนภาพการไหลและแผนภาพลำดับ",
+                "กลไกสนับสนุนการกู้คืนเอกสาร"
             ]
         },
         "UserReviews": {
-            "SectionName": "วิธีการประเมิน MarkdownD",
+            "SectionName": "ที่ยอดเยี่ยมคนสิ่งที่จะพูดเกี่ยวกับ MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD เป็นที่น่าตื่นตาตื่นใจ ง่าย สะอาด ความสมบูรณ์ ทำอย่าง",
+                    "reviewContent": "MarkdownD เป็นที่ดี เรียบง่ายสะอาดที่สมบูรณ์แบบ ทำอย่าง",
                     "userName": "evanw",
                     "professional": "โปรโมชั่นเทคโนโลยี"
                 },
@@ -57,7 +56,7 @@
                     "professional": "นักพัฒนาเว็บและนักออกแบบ"
                 },
                 {
-                    "reviewContent": "ผมชอบ MarkdownD ได้นำความสะดวกสบายมาก; การทำงานของฉัน",
+                    "reviewContent": "ผมชอบ MarkdownD ได้นำความสะดวกสบายที่ดี; งานของฉัน.",
                     "userName": "jeruss",
                     "professional": "การพัฒนากรอบ PHP"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "ปล่อย",
+        "labelVersion": "รุ่น",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -224,7 +232,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "แก้ไขข้อผิดพลาด"
+                        "content": "แก้ไขข้อผิดพลาด."
                     }
                 ]
             },
@@ -233,7 +241,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "แก้ไขข้อผิดพลาด"
+                        "content": "แก้ไขข้อผิดพลาด."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "ปล่อย",
+        "labelVersion": "รุ่น",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Available ภาษา",
-        "ChangeAlert": "ภาษาสวิทช์ที่สมบูรณ์"
+        "SectionName": "พร้อมภาษา (MT)",
+        "ChangeAlert": "เสร็จสิ้นการเปลี่ยนภาษา"
     }
 }

@@ -2,18 +2,18 @@
     "TopBar": {
         "Home": "Home",
         "Feature": "fitur",
-        "Documents": "Pitulung online",
-        "ReleaseNotes": "release Cathetan",
-        "Downloads": "Trial free",
+        "Documents": "dokumen",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "trial",
         "Buy": "tuku",
-        "Roadmap": "line Product",
-        "ReportIssue": "Laporan masalah",
-        "Languages": "Language"
+        "Roadmap": "roadmap",
+        "ReportIssue": "masalah",
+        "Languages": "Basa"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Markdown editor kanthi fungsi. Nanging ndhukung sistem operasi Windows, Linux lan MacOSX.",
-        "BtnDownload": "Trial free",
+        "ProjectTagline": "Full-Bintang Markdown editor. Kanggo Windows, Linux lan MacOSX.",
+        "BtnDownload": "trial",
         "BtnBuy": "tuku",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "fitur utama Product",
+            "SectionName": "Fitur utama MarkdownD",
             "list": [
                 "Ndhukung ngekspor kanggo PDF",
-                "Print dhukungan document",
-                "Ndhukung rega standar / CommonMark lan GFM (GitHub saka Markdown)",
+                "ndhukung Print",
+                "Dhukungan standar Markdown / CommonMark lan GFM (GitHub) roso Markdown",
                 "Dhukungan Preview Live",
-                "Ndhukung teks format, pamblokiran kode, tabel, kode lempitan, golèk lan ngganti, multi-basa, HTML entitas kode sintaksis penting",
-                "Dhukungan TOC (meja isi), ing expression saka Pranyata, ing dhaftar tugas (peta tugas), @ (← pranala)",
+                "Dhukungan format teks, pamblokiran kode, tabel, kode lempitan, golèk lan ngganti, macem-macem basa, HTML code entitas - sintaksis penting",
+                "Dhukungan Toc (Table of Contents), Emoji expression, TaskLists (tugas map), @Links (link)",
                 "Dhukungan dekoding lan nyaring tags lan kawicaksanan",
-                "Dhukungan Texas (expression latex, perusahaan Katex), flowcharts lan urutan diagram",
-                "file Support mekanisme Recovery",
-                "Dhukungan kaping editing, nomer Unlimited"
+                "Dhukungan Tex (latek expression, KaTeX), mili diagram lan urutan diagram",
+                "Mekanisme Support Document Recovery"
             ]
         },
         "UserReviews": {
-            "SectionName": "Carane kanggo ngira-ngira MarkdownD",
+            "SectionName": "iku wong apik sing ngandika bab MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD iku apik tenan. Prasaja. Resik. Perfection. Apik rampung.",
+                    "reviewContent": "MarkdownD gedhe. Prasaja, resik, sampurna. Apik rampung.",
                     "userName": "evanw",
                     "professional": "Teknologi Promotion"
                 },
@@ -57,7 +56,7 @@
                     "professional": "developer lan perancang"
                 },
                 {
-                    "reviewContent": "Aku emg kaya MarkdownD, wis nggawa penak gedhe; karya.",
+                    "reviewContent": "Aku emg kaya MarkdownD, wis nggawa penak gedhe; sandi karya.",
                     "userName": "jeruss",
                     "professional": "pembangunan framework PHP"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "release",
+        "labelVersion": "versi",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "release",
+        "labelVersion": "versi",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "kasedhiya Basa",
-        "ChangeAlert": "basa ngalih lengkap"
+        "SectionName": "basa kasedhiya (MT)",
+        "ChangeAlert": "Ngrampungke basa ngalih"
     }
 }

@@ -1,20 +1,20 @@
 {
     "TopBar": {
         "Home": "મુખ્ય પૃષ્ઠ",
-        "Feature": "લક્ષણો",
-        "Documents": "ઓનલાઇન મદદ",
-        "ReleaseNotes": "પ્રકાશન નોંધો",
-        "Downloads": "મફત ટ્રાયલ",
-        "Buy": "ખરીદી",
-        "Roadmap": "ઉત્પાદન રેખા",
-        "ReportIssue": "સમસ્યાની જાણ કરો",
+        "Feature": "વિશેષતા",
+        "Documents": "દસ્તાવેજો",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "ટ્રાયલ",
+        "Buy": "ખરીદો",
+        "Roadmap": "roadmap",
+        "ReportIssue": "મુદ્દાઓ",
         "Languages": "ભાષા"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Markdown સંપાદક સંપૂર્ણપણે વિધેયાત્મક. તે વિન્ડોઝ, લિનક્સ અને MacOSX ઓપરેટિંગ સિસ્ટમ આધાર આપે છે.",
-        "BtnDownload": "મફત ટ્રાયલ",
-        "BtnBuy": "ખરીદી",
+        "ProjectTagline": "સંપૂર્ણ સુવિધાયુક્ત Markdown સંપાદક. વિન્ડોઝ, લિનક્સ અને MacOSX છે.",
+        "BtnDownload": "ટ્રાયલ",
+        "BtnBuy": "ખરીદો",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "ઉત્પાદન મુખ્ય લક્ષણો",
+            "SectionName": "MarkdownD મુખ્ય લક્ષણો",
             "list": [
                 "પીડીએફ નિકાસ આધાર આપે છે",
-                "દસ્તાવેજ છાપો આધાર",
-                "આધાર આપે છે ધોરણ ભાવ / CommonMark અને GFM (Markdown ધ GitHub)",
+                "પ્રિંટ આધાર આપે છે",
+                "આધાર ધોરણ Markdown / CommonMark અને GFM (GitHub) ફ્લેવર્ડ Markdown",
                 "લાઈવ પૂર્વદર્શન આધાર",
-                "ફોર્મેટ લખાણ કોડ બ્લોક, કોષ્ટકો, કોડ ગડી, શોધ અને બદલો, મલ્ટી ભાષા, HTML એન્ટિટી કોડ સિન્ટેક્સ હાઇલાઇટિંગ આધાર આપે છે",
-                "આધાર TOC (સામગ્રીઓનું કોષ્ટક), ઇમોટિકોન્સ અભિવ્યક્તિ, કાર્ય સૂચિ (કાર્ય મેપ), @ (લિંક્સ)",
+                "આધાર ફોર્મેટ લખાણ કોડ બ્લોક, કોષ્ટકો, કોડ ગડી, શોધ અને બદલો બહુવિધ ભાષા, HTML એન્ટિટી કોડ - સિન્ટેક્સ હાઇલાઇટિંગ",
+                "આધાર Toc (વિષયસુચીકોષ્ટક), ઇમોજી અભિવ્યક્તિ, TaskLists (કાર્ય મેપ), @Links (કડી)",
                 "આધાર ડીકોડિંગ અને એચટીએમએલ ટૅગ્સ અને લક્ષણો ફિલ્ટરિંગ",
-                "આધાર ટેક્સાસ (લેટેક્ષ અભિવ્યક્તિ, Katex કંપની), ફ્લોચાર્ટ્સ અને ક્રમ આકૃતિઓ",
-                "આધાર ફાઈલો વસૂલાત પદ્ધતિ",
-                "આધાર બહુવિધ સંપાદન, અમર્યાદિત નંબર"
+                "આધાર ટેક્સ (લેટેક્સ અભિવ્યક્તિ, KaTeX), પ્રવાહની રેખાકૃતિ અને ક્રમ રેખાકૃતિ",
+                "આધાર દસ્તાવેજ પુનઃપ્રાપ્તિ મિકેનિઝમ"
             ]
         },
         "UserReviews": {
-            "SectionName": "કેવી રીતે MarkdownD મૂલ્યાંકન",
+            "SectionName": "વન્ડરફુલ વસ્તુઓ લોકો MarkdownD વિશે કહે છે",
             "list": [
                 {
-                    "reviewContent": "MarkdownD અમેઝિંગ છે. સરળ. સાફ. પરફેક્શન. સરસ રીતે કર્યું.",
+                    "reviewContent": "MarkdownD મહાન છે. સરળ, સ્વચ્છ, સંપૂર્ણ. સરસ રીતે કર્યું.",
                     "userName": "evanw",
                     "professional": "ટેકનોલોજી પ્રમોશન"
                 },
@@ -57,7 +56,7 @@
                     "professional": "વેબ ડેવલપર્સ અને ડિઝાઇનર્સ"
                 },
                 {
-                    "reviewContent": "હું ખરેખર MarkdownD, મહાન સગવડ થયો છે; મારા કામ કરે છે.",
+                    "reviewContent": "હું ખરેખર MarkdownD, મહાન સગવડ થયો છે; મારું કાર્ય.",
                     "userName": "jeruss",
                     "professional": "PHP, માળખા વિકાસ"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "પ્રકાશન",
+        "labelVersion": "આવૃત્તિ",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "પ્રકાશન",
+        "labelVersion": "આવૃત્તિ",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "ખરીદી",
+        "SectionName": "ખરીદો",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "ઉપલબ્ધ ભાષા",
+        "SectionName": "ઉપલબ્ધ ભાષા (MT)",
         "ChangeAlert": "પૂર્ણ સ્વીચ ભાષા"
     }
 }

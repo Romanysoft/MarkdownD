@@ -2,19 +2,19 @@
     "TopBar": {
         "Home": "tsev",
         "Feature": "nta",
-        "Documents": "online Pab",
-        "ReleaseNotes": "sau ntawv tso lus",
-        "Downloads": "dawb mus sib hais",
-        "Buy": "purchase",
-        "Roadmap": "khoom kab",
-        "ReportIssue": "Qhia ib qho teeb meem",
+        "Documents": "Cov ntaub ntawv",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "Mus sib hais",
+        "Buy": "yuav",
+        "Roadmap": "roadmap",
+        "ReportIssue": "teeb meem",
         "Languages": "lus"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Markdown editor haumxeeb nkaus. Nws txhawb lub qhov rais, Linux thiab MacOSX operating system.",
-        "BtnDownload": "dawb mus sib hais",
-        "BtnBuy": "purchase",
+        "ProjectTagline": "Full-featured Markdown editor. Rau lub qhov rais, Linux thiab MacOSX.",
+        "BtnDownload": "Mus sib hais",
+        "BtnBuy": "yuav",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Khoom tseem ceeb nta",
+            "SectionName": "Main nta ntawm MarkdownD",
             "list": [
                 "Txhawb exporting rau PDF",
-                "Sau rau daim ntawv pab txhawb nqa",
-                "Txhawb txheem nqi / CommonMark thiab GFM (GitHub ntawm Markdown)",
+                "txhawb Sau",
+                "Kev them nyiaj yug txuj Markdown / CommonMark thiab GFM (GitHub) Flavored Markdown",
                 "Nyob Preview Kev them nyiaj yug",
-                "Txhawb formatted ntawv nyeem, code blocks, tables, code folding, nrhiav thiab hloov, multi-language, HTML chaw code syntax highlighting",
-                "Kev them nyiaj yug TOC (cov txheej txheem), cov kev qhia ntawm emoticons, neeg ua hauj lwm daim ntawv teev (cov neeg ua hauj lwm daim ntawv qhia), @ (mus)",
+                "Kev them nyiaj yug formatted ntawv nyeem, code blocks, tables, code folding, nrhiav thiab hloov, ntau hom lus, HTML chaw code - syntax highlighting",
+                "Kev them nyiaj yug TOC (Table of Contents), Emoji qhia, TaskLists (neeg ua hauj lwm daim ntawv qhia), @Links (txuas)",
                 "Kev them nyiaj yug seev suab thiab filtering ntawm HTML cim npe thiab muab",
-                "Kev them nyiaj yug Texas (latex qhia, Katex lub tuam txhab), flowcharts thiab ib theem zuj zus kos duab",
-                "Kev them nyiaj yug cov ntaub ntawv rov qab mechanism",
-                "Kev them nyiaj yug ntau yam editing, unlimited tooj"
+                "Kev them nyiaj yug txhab (looj qhia, KaTeX), ntws daim duab thiab ib theem zuj zus daim duab",
+                "Kev them nyiaj yug ntawv rov qab Mechanism"
             ]
         },
         "UserReviews": {
-            "SectionName": "Yuav ua li cas mus soj ntsuam MarkdownD",
+            "SectionName": "Yam zoo kawg nkaus cov neeg no hais txog MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD yog amazing. Tej yam yooj yim. Huv si. Perfection. Nicely ua li cas.",
+                    "reviewContent": "MarkdownD yog zoo kawg thiab. Tej yam yooj yim, huv si, zoo meej. Nicely ua li cas.",
                     "userName": "evanw",
                     "professional": "technology Promotion"
                 },
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Tso",
+        "labelVersion": "version",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Tso",
+        "labelVersion": "version",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "purchase",
+        "SectionName": "yuav",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Qhov Yam lus",
-        "ChangeAlert": "Sau kom tiav tes hloov qhov lus"
+        "SectionName": "Qhov lus (MT)",
+        "ChangeAlert": "Ua kom tiav hloov lus"
     }
 }

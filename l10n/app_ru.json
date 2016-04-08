@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "дома",
-        "Feature": "черты",
-        "Documents": "Помощь онлайн",
-        "ReleaseNotes": "Примечания к выпуску",
-        "Downloads": "Бесплатная пробная версия",
-        "Buy": "покупка",
-        "Roadmap": "Линейка продуктов",
-        "ReportIssue": "Сообщить о проблеме",
-        "Languages": "язык"
+        "Home": "Главная",
+        "Feature": "Особенности",
+        "Documents": "документы",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "пробный",
+        "Buy": "купить",
+        "Roadmap": "Дорожная карта",
+        "ReportIssue": "вопросы",
+        "Languages": "Языки"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "редактор Markdown полностью функционален. Он поддерживает операционную систему Windows, Linux и MacOSX.",
-        "BtnDownload": "Бесплатная пробная версия",
-        "BtnBuy": "покупка",
+        "ProjectTagline": "Полнофункциональный редактор Markdown. Для Windows, Linux и MacOSX.",
+        "BtnDownload": "пробный",
+        "BtnBuy": "купить",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Главные особенности продукта",
+            "SectionName": "Основные характеристики MarkdownD",
             "list": [
                 "Поддержка экспорта в PDF",
-                "Распечатать поддержку документа",
-                "Поддерживает стандарт цена / CommonMark и GFM (GitHub из Markdown)",
+                "Поддержка Print",
+                "Поддержка стандарт уценки / CommonMark и GFM (GitHub) ароматизированное уценки",
                 "Live Support Preview",
-                "Поддерживает форматированный текст, блоки кода, таблицы, свертывание кода, поиск и замена, многоязычная, HTML-код сущности подсветка синтаксиса",
-                "Поддержка TOC (таблица содержания), выражение смайликов, списка задач (отображение задач), @ (ссылки)",
+                "Поддержка форматированный текст, блоки кода, таблицы, свертывание кода, поиск и замена, несколько языков, HTML код сущности - подсветка синтаксиса",
+                "Поддержка TOC (Оглавление), выражение Emoji, списки задач (карта задач), @Links (ссылка)",
                 "Поддержка декодирования и фильтрации HTML тегов и атрибутов",
-                "Поддержка Техас (выражение латекс, компания Katex), блок-схемы и диаграммы последовательности",
-                "Поддержка файлов механизм восстановления",
-                "Поддержка нескольких редактирования, неограниченное число"
+                "Поддержка Tex (выражение латексом, Katex), Блок-схема и диаграмма последовательности",
+                "Механизм поддержки восстановления документов"
             ]
         },
         "UserReviews": {
-            "SectionName": "Как оценить MarkdownD",
+            "SectionName": "Чудесные вещи, которые люди говорят о MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD удивительно. Простой. Чистый. Совершенство. Хорошо сделано.",
+                    "reviewContent": "MarkdownD велик. Простой, чистый, безупречный. Хорошо сделано.",
                     "userName": "evanw",
                     "professional": "технологии Продвижение"
                 },
@@ -57,7 +56,7 @@
                     "professional": "Веб-разработчики и дизайнеры"
                 },
                 {
-                    "reviewContent": "Мне очень нравится MarkdownD, принес большое удобство, мою работу.",
+                    "reviewContent": "Мне очень нравится MarkdownD, принес большое удобство; моя работа.",
                     "userName": "jeruss",
                     "professional": "Разработка PHP рамки"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "релиз",
+        "labelVersion": "Версия",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "релиз",
+        "labelVersion": "Версия",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "покупка",
+        "SectionName": "купить",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Доступные Языки",
-        "ChangeAlert": "Полное переключение языка"
+        "SectionName": "Имеющийся язык (MT)",
+        "ChangeAlert": "Завершение переключение языка"
     }
 }

@@ -1,20 +1,20 @@
 {
     "TopBar": {
         "Home": "uy",
-        "Feature": "Xususiyatlar",
-        "Documents": "Online Yordam",
-        "ReleaseNotes": "Versiya eslatmalar",
-        "Downloads": "Free Trial",
-        "Buy": "Sotib olish to'g'risida",
-        "Roadmap": "Mahsulot liniyasi",
-        "ReportIssue": "Muammo haqida xabar",
-        "Languages": "til"
+        "Feature": "Xususiyatlari",
+        "Documents": "hujjatlar",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "sinov",
+        "Buy": "sotib",
+        "Roadmap": "nima bo'ladi?",
+        "ReportIssue": "masalalar",
+        "Languages": "tillar"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Markdown muharriri to'liq funktsional. Bu Windows, Linux va MacOSX operatsion tizimini qo'llab-quvvatlaydi.",
-        "BtnDownload": "Free Trial",
-        "BtnBuy": "Sotib olish to'g'risida",
+        "ProjectTagline": "Full-xususiyatli Markdown muharriri. Windows, Linux va MacOSX uchun.",
+        "BtnDownload": "sinov",
+        "BtnBuy": "sotib",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Mahsulot asosiy xususiyatlari",
+            "SectionName": "MarkdownD asosiy xususiyatlari",
             "list": [
                 "PDF eksport qo'llab-quvvatlaydi",
-                "hujjat qo'llab-quvvatlash chop",
-                "Qo'llab-quvvatlaydi standart narx / CommonMark va GFM (Markdown of GitHub)",
+                "Chop qo'llab-quvvatlaydi",
+                "Support standart Markdown / CommonMark va GFM (GitHub) Aromatikleştirilmiş Markdown",
                 "Jonli Ko'rib chiqish qo'llab-quvvatlash",
-                "formatlangan matn, kodi bloklari, jadvallar, kodi katlanmasını, HTML shaxs kodi Matnni sintaksisi rang ta'kidlab qidiruv va multi-til o'rniga qo'llab-quvvatlaydi",
-                "Support TOC (mundarija), So'zlari ifoda, vazifa ro'yxati (vazifa map) @ (← ishoratlar)",
+                "Support formatlangan matn, kodi bloklari, jadvallar, kodi yig'ma, qidirish va o'zgartirish, bir nechta til, HTML shaxs kodi - Matnni sintaksisi rang ta'kidlab",
+                "Support Toc (Mundarija), Emoji ifoda, TaskLists (vazifa map) @Links (link)",
                 "Qo'llab-quvvatlash hal va HTML teglar va sifatlardan filtrlash",
-                "Support Texas (lateks ifoda, Katex kompaniyasi), oqim jadvallarini va ketma-ketligi diagrammalar",
-                "Support fayllar tiklash mexanizmi",
-                "Yordam ko'p tartibga solish, cheklanmagan soni"
+                "Support Tex (lateks ifoda, KaTeX), diagrammasi va ketma-ketligi diagramma oqib",
+                "Support Hujjat qutqarish mexanizmi"
             ]
         },
         "UserReviews": {
-            "SectionName": "MarkdownD baholash uchun qanday",
+            "SectionName": "Ajoyib narsalar, odamlar MarkdownD haqida aytayotgan",
             "list": [
                 {
-                    "reviewContent": "MarkdownD ajoyib. Simple. Toza. Takomillashtirish. Chiroyli amalga.",
+                    "reviewContent": "MarkdownD katta. mukammal, toza, Simple. Chiroyli amalga.",
                     "userName": "evanw",
                     "professional": "Technology Rivojlantirish"
                 },
@@ -57,7 +56,7 @@
                     "professional": "Veb-ishlab chiquvchilari va dizaynerlar"
                 },
                 {
-                    "reviewContent": "Men, albatta, MarkdownD kabi, katta qulaylik olib keldi; ishimni.",
+                    "reviewContent": "albatta MarkdownD kabi men, katta qulaylik olib keldi; Mening ish.",
                     "userName": "jeruss",
                     "professional": "PHP framework rivojlantirish"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "ozod qilish",
+        "labelVersion": "Version",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "ozod qilish",
+        "labelVersion": "Version",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Sotib olish to'g'risida",
+        "SectionName": "sotib",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "mavjud tillar",
-        "ChangeAlert": "To'liq switch tili"
+        "SectionName": "Mavjud til (MT)",
+        "ChangeAlert": "Bajarilishi switch tili"
     }
 }

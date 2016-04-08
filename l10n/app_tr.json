@@ -2,19 +2,19 @@
     "TopBar": {
         "Home": "ev",
         "Feature": "Özellikler",
-        "Documents": "çevrimiçi Yardım",
-        "ReleaseNotes": "Sürüm Notları",
-        "Downloads": "Ücretsiz Deneme",
-        "Buy": "satın alma",
-        "Roadmap": "Ürün çeşitleri",
-        "ReportIssue": "Bir sorunu bildirmek",
-        "Languages": "dil"
+        "Documents": "evraklar",
+        "ReleaseNotes": "Sürüm notları",
+        "Downloads": "Deneme",
+        "Buy": "satın almak",
+        "Roadmap": "Yol Haritası",
+        "ReportIssue": "Sorunlar",
+        "Languages": "Diller"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Markdown editör tamamen işlevsel. Windows, Linux ve MacOSX işletim sistemini destekler.",
-        "BtnDownload": "Ücretsiz Deneme",
-        "BtnBuy": "satın alma",
+        "ProjectTagline": "Tam özellikli Markdown editörü. Windows, Linux ve MacOSX için.",
+        "BtnDownload": "Deneme",
+        "BtnBuy": "satın almak",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Ürün ana özellikleri",
+            "SectionName": "MarkdownD Temel Özellikleri",
             "list": [
                 "PDF'ye dışa destekler",
-                "Belge desteği yazdırmak",
-                "Destekler standart fiyat / CommonMark ve GFM (Markdown GitHub)",
+                "Yazdır destekler",
+                "Destek standart Markdown / CommonMark ve GFM (GitHub) Aromalı Markdown",
                 "Canlı Önizleme Destek",
-                "biçimlendirilmiş metin, kod blokları, tablolar, kod katlama, HTML varlık kod dizim arama ve çoklu dil desteği yerine",
-                "Destek TOK (içindekiler), ifade ifadesi, görev listesi (görev harita), @ (bağlantılar)",
+                "Destek biçimlendirilmiş metin, kod blokları, tablolar, kod katlama, arama ve değiştirme, birden fazla dil, HTML varlık kodu - sözdizimi vurgulama",
+                "Destek Toc (İçindekiler), Emoji ifadesi tasklists (görev harita), @Links (bağlantı)",
                 "Destek çözme ve HTML etiketleri ve öznitelikleri filtreleme",
-                "Destek Teksas (lateks ifade, Katex şirket), akış şemaları ve diyagramlar dizi",
-                "Destek dosyaları kurtarma mekanizması",
-                "Destek çoklu düzenleme, sınırsız sayıda"
+                "Destek Tex (LaTex ifade, Katex), diyagram ve dizi akış diyagramı",
+                "Destek Belge Kurtarma Mekanizması"
             ]
         },
         "UserReviews": {
-            "SectionName": "MarkdownD değerlendirmek için nasıl",
+            "SectionName": "Harika şeyler insanlar MarkdownD hakkında söylediklerini",
             "list": [
                 {
-                    "reviewContent": "MarkdownD şaşırtıcı. Basit. Temizleyin. Mükemmellik. Güzel yapılır.",
+                    "reviewContent": "MarkdownD harika. mükemmel, temiz, basit. Güzel yapılır.",
                     "userName": "evanw",
                     "professional": "Teknoloji Promosyon"
                 },
@@ -57,7 +56,7 @@
                     "professional": "Web geliştiricileri ve tasarımcıları"
                 },
                 {
-                    "reviewContent": "Gerçekten MarkdownD gibi, büyük kolaylık getirdi; işimi.",
+                    "reviewContent": "Gerçekten MarkdownD gibi, büyük kolaylık getirdi; benim işim.",
                     "userName": "jeruss",
                     "professional": "PHP çerçeve geliştirme"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "serbest bırakma",
+        "labelVersion": "versiyon",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "serbest bırakma",
+        "labelVersion": "versiyon",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "satın alma",
+        "SectionName": "satın almak",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "mevcut Diller",
-        "ChangeAlert": "Komple anahtar dili"
+        "SectionName": "Mevcut dil (MT)",
+        "ChangeAlert": "Tamamlanıyor anahtar dili"
     }
 }

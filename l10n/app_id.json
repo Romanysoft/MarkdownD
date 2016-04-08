@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "rumah",
+        "Home": "Rumah",
         "Feature": "fitur",
-        "Documents": "Bantuan online",
-        "ReleaseNotes": "Catatan rilis",
-        "Downloads": "Free Trial",
-        "Buy": "pembelian",
-        "Roadmap": "lini produk",
-        "ReportIssue": "Melaporkan masalah",
-        "Languages": "bahasa"
+        "Documents": "dokumen",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "Percobaan",
+        "Buy": "Membeli",
+        "Roadmap": "Peta jalan",
+        "ReportIssue": "Masalah",
+        "Languages": "Bahasa"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Penurunan harga Editor berfungsi penuh. Ini mendukung sistem operasi Windows, Linux dan MacOSX.",
-        "BtnDownload": "Free Trial",
-        "BtnBuy": "pembelian",
+        "ProjectTagline": "Fitur lengkap penurunan harga Editor. Untuk Windows, Linux dan MacOSX.",
+        "BtnDownload": "Percobaan",
+        "BtnBuy": "Membeli",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "fitur utama produk",
+            "SectionName": "Fitur utama dari MarkdownD",
             "list": [
                 "Mendukung mengekspor ke PDF",
-                "Cetak dukungan dokumen",
-                "Mendukung standar harga / CommonMark dan GFM (GitHub dari penurunan harga)",
+                "mendukung Cetak",
+                "Dukungan standar penurunan harga / CommonMark dan GFM (GitHub) Flavored penurunan harga",
                 "Dukungan Preview hidup",
-                "Mendukung teks berformat, blok kode, tabel, kode lipat, mencari dan mengganti, multi-bahasa, HTML entitas kode syntax highlighting",
-                "Dukungan TOC (daftar isi), ekspresi emoticon, daftar tugas (peta tugas), @ (link)",
+                "Dukungan diformat teks, blok kode, tabel, kode lipat, mencari dan mengganti, beberapa bahasa, HTML kode entitas - syntax highlighting",
+                "Dukungan Toc (Daftar Isi), Emoji ekspresi, TaskLists (tugas peta), @Links (link)",
                 "Dukungan decoding dan penyaringan tag HTML dan atribut",
-                "Dukungan Texas (ekspresi lateks, perusahaan Katex), diagram alur dan urutan diagram",
-                "berkas dukungan mekanisme pemulihan",
-                "Dukungan beberapa editing, jumlah yang tidak terbatas"
+                "Dukungan Tex (LaTeX ekspresi, KaTeX), mengalir diagram dan diagram urutan",
+                "Mekanisme dukungan Pemulihan Dokumen"
             ]
         },
         "UserReviews": {
-            "SectionName": "Bagaimana untuk mengevaluasi MarkdownD",
+            "SectionName": "hal indah orang katakan tentang MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD menakjubkan. Sederhana. Bersih. Kesempurnaan. Baik dilakukan.",
+                    "reviewContent": "MarkdownD besar. Sederhana, bersih, sempurna. Baik dilakukan.",
                     "userName": "evanw",
                     "professional": "teknologi Promosi"
                 },
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "pelepasan",
+        "labelVersion": "Versi",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -224,7 +232,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Perbaikan bug."
+                        "content": "Perbaikan kerusakan."
                     }
                 ]
             },
@@ -233,7 +241,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Perbaikan bug."
+                        "content": "Perbaikan kerusakan."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "pelepasan",
+        "labelVersion": "Versi",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "pembelian",
+        "SectionName": "Membeli",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Bahasa tersedia",
-        "ChangeAlert": "ganti bahasa lengkap"
+        "SectionName": "bahasa yang tersedia (MT)",
+        "ChangeAlert": "Melengkapi ganti bahasa"
     }
 }

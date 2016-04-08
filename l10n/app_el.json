@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "σπίτι",
-        "Feature": "χαρακτηριστικά",
-        "Documents": "ηλεκτρονική Βοήθεια",
+        "Home": "Σπίτι",
+        "Feature": "Χαρακτηριστικά",
+        "Documents": "Έγγραφα",
         "ReleaseNotes": "Σημειώσεις έκδοσης",
-        "Downloads": "δωρεάν δοκιμή",
-        "Buy": "αγορά",
-        "Roadmap": "Γκάμα προϊόντων",
-        "ReportIssue": "Αναφέρετε ένα πρόβλημα",
-        "Languages": "γλώσσα"
+        "Downloads": "Δίκη",
+        "Buy": "Αγορά",
+        "Roadmap": "Χάρτης πορείας",
+        "ReportIssue": "ζητήματα",
+        "Languages": "γλώσσες"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "editor Markdown πλήρως λειτουργικό. Υποστηρίζει το λειτουργικό σύστημα των Windows, Linux και MacOSX.",
-        "BtnDownload": "δωρεάν δοκιμή",
-        "BtnBuy": "αγορά",
+        "ProjectTagline": "Πλήρης-χαρακτηρισμένο επεξεργαστή Markdown. Για τα Windows, Linux και MacOSX.",
+        "BtnDownload": "Δίκη",
+        "BtnBuy": "Αγορά",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Τα κύρια χαρακτηριστικά του προϊόντος",
+            "SectionName": "Κύρια χαρακτηριστικά της MarkdownD",
             "list": [
                 "Υποστηρίζει εξαγωγή σε PDF",
-                "Εκτυπώστε την υποστήριξη εγγράφου",
-                "Υποστηρίζει πρότυπο τιμής / CommonMark και GFM (GitHub της Markdown)",
+                "υποστηρίζει Εκτύπωση",
+                "Υποστήριξη πρότυπο Markdown / CommonMark και GFM (GitHub) Άρωμα Markdown",
                 "Υποστήριξη Live Preview",
-                "Υποστηρίζει μορφοποιημένο κείμενο, μπλοκ κώδικα, πίνακες, αναδίπλωση κώδικα, αναζήτηση και αντικατάσταση, πολλαπλών γλωσσών, HTML κώδικα οντότητα επισήμανση σύνταξης",
-                "Υποστήριξη TOC (πίνακας περιεχομένων), η έκφραση των emoticons, η λίστα εργασιών (ο χάρτης εργασία), @ (links)",
+                "Υποστήριξη μορφοποιημένο κείμενο, μπλοκ κώδικα, πίνακες, αναδίπλωση κώδικα, αναζήτηση και αντικατάσταση, πολλαπλές γλώσσες, HTML κώδικα οντότητα - επισήμανση σύνταξης",
+                "Τοο υποστήριξης (Περιεχόμενα), η έκφραση Emoji, TaskLists (εργασία χάρτη), @Links (link)",
                 "αποκωδικοποίηση υποστήριξη και το φιλτράρισμα των ετικετών HTML και χαρακτηριστικά",
-                "Τέξας υποστήριξης (έκφραση λατέξ, Katex εταιρείας), διαγράμματα ροής και διαγράμματα ακολουθίας",
-                "αρχείων υποστήριξης του μηχανισμού ανάκτησης",
-                "Υποστήριξη πολλαπλών επεξεργασίας, απεριόριστο αριθμό"
+                "Υποστήριξη Tex (έκφραση LaTex, KaTeX), διάγραμμα ροής και την ακολουθία διάγραμμα",
+                "Μηχανισμό Στήριξης Ανάκτηση εγγράφου"
             ]
         },
         "UserReviews": {
-            "SectionName": "Πώς να αξιολογήσει MarkdownD",
+            "SectionName": "Θαυμάσια πράγματα που οι άνθρωποι λένε για MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD είναι καταπληκτική. Απλή. Καθαρό. Τελειότητα. Όμορφα γίνει.",
+                    "reviewContent": "MarkdownD είναι μεγάλη. Απλό, καθαρό, τέλεια. Όμορφα γίνει.",
                     "userName": "evanw",
                     "professional": "τεχνολογία Προώθηση"
                 },
@@ -57,7 +56,7 @@
                     "professional": "Web προγραμματιστές και σχεδιαστές"
                 },
                 {
-                    "reviewContent": "Μου αρέσει πολύ MarkdownD, έχει φέρει μεγάλη ευκολία? Δουλειά μου.",
+                    "reviewContent": "Μου αρέσει πολύ MarkdownD, έχει φέρει μεγάλη ευκολία? δουλειά μου.",
                     "userName": "jeruss",
                     "professional": "ανάπτυξη πλαισίου PHP"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "ελευθέρωση",
+        "labelVersion": "Εκδοχή",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -224,7 +232,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "διορθώσεις σφαλμάτων."
+                        "content": "Διορθώσεις σφαλμάτων."
                     }
                 ]
             },
@@ -233,7 +241,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "διορθώσεις σφαλμάτων."
+                        "content": "Διορθώσεις σφαλμάτων."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "ελευθέρωση",
+        "labelVersion": "Εκδοχή",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "αγορά",
+        "SectionName": "Αγορά",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "διαθέσιμες γλώσσες",
-        "ChangeAlert": "Πλήρης αλλαγή γλώσσας"
+        "SectionName": "Διαθέσιμη γλώσσα (MT)",
+        "ChangeAlert": "Ολοκλήρωση αλλαγή γλώσσας"
     }
 }

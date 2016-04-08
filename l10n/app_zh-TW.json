@@ -1,19 +1,19 @@
 {
     "TopBar": {
-        "Home": "首頁",
-        "Feature": "功能特性",
-        "Documents": "聯機幫助",
+        "Home": "家",
+        "Feature": "特徵",
+        "Documents": "文件",
         "ReleaseNotes": "發行說明",
-        "Downloads": "免費試用",
+        "Downloads": "審訊",
         "Buy": "購買",
-        "Roadmap": "產品路線",
-        "ReportIssue": "報告問題",
+        "Roadmap": "路線圖",
+        "ReportIssue": "問題",
         "Languages": "語言"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "全功能的Markdown編輯器。支持Windows、Linux及MacOSX操作系統。",
-        "BtnDownload": "免費試用",
+        "ProjectTagline": "全功能的編輯降價。對於Windows，Linux和MacOSX上。",
+        "BtnDownload": "審訊",
         "BtnBuy": "購買",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,42 +24,41 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "產品主要功能特性",
+            "SectionName": "MarkdownD的主要特點",
             "list": [
-                "支持導出為PDF文件",
-                "支持打印文檔",
-                "支持標準的降價/ CommonMark和GFM（GitHub的Markdown）",
+                "支持導出為PDF",
+                "支持打印",
+                "支持標準的降價/ CommonMark和GFM（GitHub上）香料降價",
                 "實時預覽支持",
-                "支持格式的文本，代碼塊，表格，代碼折疊，搜索和替換，多國語言，HTML實體代碼語法高亮",
-                "支持TOC（目錄），表情符號的表達，任務列表（任務地圖），@鏈接（鏈接）",
-                "支持解碼和過濾的HTML標記和屬性",
+                "支持格式的文本，代碼塊，表格，代碼折疊，搜索和替換，多國語言，HTML實體代碼 - 語法高亮",
+                "支持TOC（目錄），表情符號表達，任務列表（任務圖），@鏈接（鏈接）",
+                "支持解碼和HTML標記和屬性過濾",
                 "支持德州（膠乳表達，Katex公司），流程圖和序列圖",
-                "支持文件恢復機制",
-                "同時支持多個編輯，數量不限"
+                "支持文件恢復機制"
             ]
         },
         "UserReviews": {
-            "SectionName": "如何評價MarkdownD",
+            "SectionName": "奇妙的事情大家對MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD是驚人的。簡單。清潔。完善。幹得漂亮。",
+                    "reviewContent": "MarkdownD是偉大的。簡單，乾淨，完美。做得很好。",
                     "userName": "evanw",
                     "professional": "技術推廣"
                 },
                 {
-                    "reviewContent": "MarkdownD是我做的幾乎我所有的寫作，這是一個偉大的小應用程序。",
+                    "reviewContent": "MarkdownD我做的幾乎所有我的寫作，這是一個偉大的小應用程序。",
                     "userName": "彼得·光明",
-                    "professional": "作家在Ars Technica的"
+                    "professional": "的Ars Technica的作家"
                 },
                 {
-                    "reviewContent": "如果您有任何降價的興趣，MarkdownD是絕對值得下載。",
-                    "userName": "Lifehacker的",
-                    "professional": "網頁開發者和設計師"
+                    "reviewContent": "如果您有更低的價格感興趣，MarkdownD是絕對值得下載。",
+                    "userName": "Lifehacker的的",
+                    "professional": "Web開發人員和設計人員"
                 },
                 {
-                    "reviewContent": "我真的很喜歡MarkdownD，帶來了很大的方便;我的工作。",
+                    "reviewContent": "我真的很喜歡MarkdownD，帶來了極大的方便;我的工作。",
                     "userName": "jeruss",
-                    "professional": "PHP框架開發"
+                    "professional": "PHP開發框架"
                 }
             ]
         }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "版本",
+        "labelVersion": "版",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -224,7 +232,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "修正了一些錯誤。"
+                        "content": "Bug修復。"
                     }
                 ]
             },
@@ -233,23 +241,58 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "修正了一些錯誤。"
+                        "content": "Bug修復。"
                     },
                     {
                         "platform": "{{Windows}}",
-                        "content": "首次發布。"
+                        "content": "第一個版本。"
                     },
                     {
                         "platform": "{{Linux}}",
-                        "content": "首次發布。"
+                        "content": "第一個版本。"
                     }
                 ]
             }
         ]
     },
     "VersionPage": {
-        "labelVersion": "版本",
+        "labelVersion": "版",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "可用語言",
+        "SectionName": "可用的語言（MT）",
         "ChangeAlert": "完成切換語言"
     }
 }

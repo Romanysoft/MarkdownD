@@ -1,20 +1,20 @@
 {
     "TopBar": {
         "Home": "घर",
-        "Feature": "सुविधाहरू",
-        "Documents": "अनलाइन सहायता",
-        "ReleaseNotes": "रिलिज टिप्पणीहरू",
-        "Downloads": "निःशुल्क परीक्षण",
-        "Buy": "खरिद",
-        "Roadmap": "उत्पादन लाइन",
-        "ReportIssue": "समस्या रिपोर्ट",
-        "Languages": "भाषा"
+        "Feature": "विशेषताहरु",
+        "Documents": "दस्तावेज",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "परीक्षण",
+        "Buy": "किन्न",
+        "Roadmap": "Roadmap",
+        "ReportIssue": "मुद्दा",
+        "Languages": "भाषाहरु"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "छुट सम्पादक पूर्ण कार्यात्मक। यो Windows, Linux र MacOSX अपरेटिङ सिस्टम समर्थन गर्दछ।",
-        "BtnDownload": "निःशुल्क परीक्षण",
-        "BtnBuy": "खरिद",
+        "ProjectTagline": "पूर्ण-विशेष छुट सम्पादक। विन्डोज, लिनक्स र MacOSX लागि।",
+        "BtnDownload": "परीक्षण",
+        "BtnBuy": "किन्न",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "उत्पादन मुख्य विशेषताहरु",
+            "SectionName": "MarkdownD को मुख्य विशेषताहरु",
             "list": [
                 "PDF मा निर्यात समर्थन",
-                "कागजात समर्थन छाप्न",
-                "समर्थन मानक मूल्य / CommonMark र GFM (छुट को GitHub)",
+                "छापा समर्थन",
+                "समर्थन मानक छुट / CommonMark र GFM (GitHub) फ्लेवर्ड छुट",
                 "प्रत्यक्ष पूर्वावलोकन समर्थन",
-                "ढाँचामा पाठ, कोड ब्लक, टेबल, कोड तह, खोज र प्रतिस्थापन, बहु-भाषा, HTML इकाइ कोड वाक्यसंरचनाहाइलाइटिङ समर्थन",
-                "समर्थन TOC (सामग्रीहरूको तालिका), भावप्रतिमाहरू को अभिव्यक्ति, कार्य सूची (कार्य नक्सा), @ (लिंक)",
+                "समर्थन ढाँचामा पाठ, कोड ब्लक, टेबल, कोड तह, खोज र प्रतिस्थापन, धेरै भाषाहरू, HTML इकाइ कोड - वाक्यसंरचनाहाइलाइटिङ",
+                "समर्थन TOC (सामाग्री तालिका), इमोजी अभिव्यक्ति, TaskLists (कार्य नक्सा), @Links (लिंक)",
                 "समर्थन डिकोड र HTML ट्याग र विशेषताहरु को फिल्टरिङ",
-                "समर्थन टेक्सास (लेटेक्स अभिव्यक्ति, Katex कम्पनी), फ्लोचार्टहरू र अनुक्रम चित्र",
-                "समर्थन फाइलहरू पुन: संयन्त्र",
-                "समर्थन धेरै सम्पादन, असीमित नम्बर"
+                "समर्थन टेक्स (लेटेक्स अभिव्यक्ति, KaTeX), रेखाचित्र र अनुक्रमरेखाचित्र प्रवाह",
+                "समर्थन कागजात पुन: तंत्र"
             ]
         },
         "UserReviews": {
-            "SectionName": "MarkdownD कसरी मूल्याङ्कन गर्न",
+            "SectionName": "सुन्दर मानिसहरूलाई MarkdownD बारेमा भनिरहेका छन्",
             "list": [
                 {
-                    "reviewContent": "MarkdownD अचम्मको छ। सरल। साफ। पूर्णता। राम्रोसँग गरियो।",
+                    "reviewContent": "MarkdownD ठूलो छ। सरल, स्वच्छ, सिद्ध। राम्रोसँग गरियो।",
                     "userName": "evanw",
                     "professional": "प्रौद्योगिकी संवर्धन"
                 },
@@ -57,7 +56,7 @@
                     "professional": "वेब विकासकर्ताहरूले र डिजाइनर"
                 },
                 {
-                    "reviewContent": "म साँच्चै MarkdownD जस्तै, ठूलो सुविधा ल्याएको छ; मेरो काम।",
+                    "reviewContent": "साँच्चै MarkdownD जस्तै म, ठूलो सुविधा ल्याएको छ; मेरो काम।",
                     "userName": "jeruss",
                     "professional": "PHP रूपरेखा विकास"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "जारी",
+        "labelVersion": "संस्करण",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "जारी",
+        "labelVersion": "संस्करण",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "खरिद",
+        "SectionName": "किन्न",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "उपलब्ध भाषा",
-        "ChangeAlert": "स्विच भाषा पूर्ण"
+        "SectionName": "उपलब्ध भाषा (टन)",
+        "ChangeAlert": "स्विच भाषा पूरा"
     }
 }

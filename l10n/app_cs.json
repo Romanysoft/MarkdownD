@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "domů",
-        "Feature": "rysy",
-        "Documents": "Online nápověda",
+        "Home": "Domov",
+        "Feature": "Funkce",
+        "Documents": "dokumenty",
         "ReleaseNotes": "Poznámky k vydání",
-        "Downloads": "zkušební verze zdarma",
-        "Buy": "nákup",
-        "Roadmap": "Produktová řada",
-        "ReportIssue": "Nahlásit problém",
-        "Languages": "jazyk"
+        "Downloads": "pokus",
+        "Buy": "Koupit",
+        "Roadmap": "plán",
+        "ReportIssue": "problémy",
+        "Languages": "jazyky"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Markdown editor plně funkční. To podporuje operační systém Windows, Linux a MacOSX.",
-        "BtnDownload": "zkušební verze zdarma",
-        "BtnBuy": "nákup",
+        "ProjectTagline": "Markdown editor plně vybavený. Pro Windows, Linux a MacOSX.",
+        "BtnDownload": "pokus",
+        "BtnBuy": "Koupit",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Hlavní rysy produktu",
+            "SectionName": "Hlavní vlastnosti MarkdownD",
             "list": [
                 "Podpora exportu do PDF",
-                "Vytisknout opěrku dokumentů",
-                "Podporuje běžná cena / CommonMark a GFM (GitHub formátu Markdown)",
+                "podporuje tisk",
+                "Podpora standardu Markdown / CommonMark a GFM (GitHub) Ochucené Markdown",
                 "Live Support Preview",
-                "Podporuje formátovaný text, bloky kódu, stoly, skládání kódu, vyhledávání a nahrazování, multi-jazyk HTML kód entity zvýrazňování syntaxe",
-                "Podpora TOC (obsah), exprese emotikony, seznamu úkolů (mapa úkol), @ (odkazy)",
+                "Podpora formátovaný text, bloky kódu, stoly, kód skládací, vyhledávání a nahrazování, více jazyků, HTML kód entity - zvýrazňování syntaxe",
+                "Podpora Toc (Obsah), emotikonů výraz, TaskLists (mapa úkol), @Links (link)",
                 "Podpora dekódování a filtrování HTML tagů a atributů",
-                "Podpora Texas (latex výraz, společnost Katex), vývojových diagramů a vývojových diagramů",
-                "Podpůrné soubory mechanismus obnovy",
-                "Podpora více úprav, neomezený počet"
+                "Podpora Tex (LaTex výraz, Katex), vývojový diagram a sekvenční diagram",
+                "Mechanismus podpora Obnovení dokumentu"
             ]
         },
         "UserReviews": {
-            "SectionName": "Jak hodnotit MarkdownD",
+            "SectionName": "Divy lidé říkají o MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD je úžasné. Jednoduchá. Čistotě. Dokonalost. Dobrá práce.",
+                    "reviewContent": "MarkdownD je skvělý. Jednoduché, čisté, dokonalé. Hezky uděláno.",
                     "userName": "evanw",
                     "professional": "technologie Promotion"
                 },
@@ -57,7 +56,7 @@
                     "professional": "Weboví vývojáři a návrháři"
                 },
                 {
-                    "reviewContent": "Moc se mi líbí MarkdownD, přinesla velké pohodlí, svou práci.",
+                    "reviewContent": "Moc se mi líbí MarkdownD, přinesla velké pohodlí; moje práce.",
                     "userName": "jeruss",
                     "professional": "framework pro vývoj PHP"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "uvolnění",
+        "labelVersion": "Verze",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -224,7 +232,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Opravy chyb."
+                        "content": "Oprava chyb."
                     }
                 ]
             },
@@ -233,7 +241,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "Opravy chyb."
+                        "content": "Oprava chyb."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "uvolnění",
+        "labelVersion": "Verze",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "nákup",
+        "SectionName": "Koupit",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "dostupné jazyky",
-        "ChangeAlert": "Kompletní přepínač jazyk"
+        "SectionName": "K dispozici jazyk (MT)",
+        "ChangeAlert": "Dokončení switch language"
     }
 }

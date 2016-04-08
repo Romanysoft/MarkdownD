@@ -1,19 +1,19 @@
 {
     "TopBar": {
         "Home": "ຫນ້າທໍາອິດ",
-        "Feature": "ຄຸນນະສົມບັດ",
-        "Documents": "ຊ່ວຍເຫຼືອອອນໄລນ໌",
-        "ReleaseNotes": "ບັນທຶກປະຈໍາ",
-        "Downloads": "ການທົດລອງຟຣີ",
+        "Feature": "ຄຸນ​ລັກ​ສະ​ນະ",
+        "Documents": "ເອກະສານ",
+        "ReleaseNotes": "releasenotes",
+        "Downloads": "ການທົດລອງ",
         "Buy": "ຊື້",
-        "Roadmap": "ອອນໄລນ໌ຜະລິດຕະພັນ",
-        "ReportIssue": "ລາຍງານບັນຫາ",
+        "Roadmap": "ແຜນການ",
+        "ReportIssue": "ບັນຫາ",
         "Languages": "ພາສາ"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "ບັນນາທິການ markdown ໂຫຍດຢ່າງເຕັມສ່ວນ. ມັນສະຫນັບສະຫນູນລະບົບປະຕິບັດການ Windows, Linux ແລະ MacOSX.",
-        "BtnDownload": "ການທົດລອງຟຣີ",
+        "ProjectTagline": "ບັນນາທິການ Markdown ເຕັມໃຫມ່. ສໍາລັບ Windows, Linux ແລະ MacOSX.",
+        "BtnDownload": "ການທົດລອງ",
         "BtnBuy": "ຊື້",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "ຄຸນນະສົມບັດຕົ້ນຕໍຂອງຜະລິດຕະພັນ",
+            "SectionName": "ຄຸນນະສົມບັດຕົ້ນຕໍຂອງ MarkdownD",
             "list": [
                 "ສະຫນັບສະຫນູນການສົ່ງອອກໄປ PDF",
-                "ພິມສະຫນັບສະຫນູນເອກະສານ",
-                "ສະຫນັບສະຫນູນລາຄາມາດຕະຖານ / CommonMark ແລະ GFM (GitHub ຂອງ Markdown)",
+                "ສະຫນັບສະຫນູນພິມ",
+                "ສະຫນັບສະຫນູນມາດຕະຖານ Markdown / CommonMark ແລະ GFM (GitHub) ໃຊ້ປຸງລົດຊາດ Markdown",
                 "ສະຫນັບສະຫນູນສະແດງທີ່ມີຊີວິດ",
-                "ສະຫນັບສະຫນູນຂໍ້ຄວາມການຈັດຮູບແບບ, ຕັນລະຫັດ, ຕາຕະລາງ, ພັບລະຫັດ, ການຄົ້ນຫາແລະທົດແທນການ, ຫຼາຍພາສາ, ລະຫັດຫນ່ວຍງານ HTML ເນັ້ນຂໍ້ຄວາມ syntax",
-                "ສະຫນັບສະຫນູນ TOC (ຕາຕະລາງຂອງເນື້ອໃນ), ການສະແດງອອກຂອງ emoticons, ບັນຊີລາຍການຫນ້າວຽກ (ແຜນທີ່ໃນຫນ້າວຽກ), @ (ລິ້ງຄ໌)",
+                "ສະຫນັບສະຫນູນຮູບແບບຂໍ້ຄວາມ, ຕັນລະຫັດ, ຕາຕະລາງ, ພັບລະຫັດ, ການຊອກຫາແລະປ່ຽນແທນຫລາຍພາສາ, ລະຫັດຫນ່ວຍງານ HTML - ເນັ້ນຂໍ້ຄວາມ syntax",
+                "ສະຫນັບສະຫນູນ Toc (Table of Contents), ສັນຍາລັກຕ່າງໆການສະແດງອອກ, TaskLists (ແຜນທີ່ວຽກງານ), @Links (ການເຊື່ອມຕໍ່)",
                 "ການຖອດລະຫັດສະຫນັບສະຫນູນແລະການກັ່ນຕອງຂອງ tags HTML ແລະຄຸນລັກສະນະ",
-                "ສະຫນັບສະຫນູນ Texas (ສະແດງອອກນ້ໍາຢາງ, ບໍລິສັດ Katex), flowcharts ແລະໄດອະແກມລໍາດັບ",
-                "ໄຟລ໌ສະຫນັບສະຫນູນກົນໄກການຟື້ນຕົວ",
-                "ສະຫນັບສະຫນູນການແກ້ໄຂທີ່ຫຼາກຫຼາຍ, ຈໍານວນບໍ່ຈໍາກັດ"
+                "ສະຫນັບສະຫນູນ Tex (ການສະແດງອອກນ້ໍາຢາງ, Katex), ການໄຫຼແຜນວາດແລະແຜນພາບລໍາດັບ",
+                "ກົນໄກສະຫນັບສະຫນູນເອກະສານການກູ້ຄືນ"
             ]
         },
         "UserReviews": {
-            "SectionName": "ການປະເມີນຜົນ MarkdownD",
+            "SectionName": "ສິ່ງມະຫັດປະຊາຊົນສິ່ງທີ່ເວົ້າກ່ຽວກັບ MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD ແມ່ນເຮັດໃຫ້ປະລາດ. ງ່າຍດາຍ. ທໍາຄວາມສະອາດ. ທີ່ດີເລີດ. ເຮັດງາມ.",
+                    "reviewContent": "MarkdownD ເປັນທີ່ຍິ່ງໃຫຍ່. ງ່າຍດາຍ, ສະອາດ, ທີ່ສົມບູນແບບ. ເຮັດງາມ.",
                     "userName": "evanw",
                     "professional": "ການສົ່ງເສີມເຕັກໂນໂລຊີ"
                 },
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "ການປ່ອຍ",
+        "labelVersion": "Version",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "ການປ່ອຍ",
+        "labelVersion": "Version",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "ພາສາທີ່ໃຊ້",
-        "ChangeAlert": "ສະຫລັບພາສາທີ່ສົມບູນ"
+        "SectionName": "ພາສາທີ່ມີ (MT)",
+        "ChangeAlert": "ສໍາເລັດການສະຫລັບພາສາ"
     }
 }

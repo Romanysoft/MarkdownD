@@ -2,18 +2,18 @@
     "TopBar": {
         "Home": "היים",
         "Feature": "פֿעיִקייטן",
-        "Documents": "אָנליין הילף",
-        "ReleaseNotes": "ריליס נאָטעס",
-        "Downloads": "פּאָטער פּראָצעס",
+        "Documents": "דאָקומענץ",
+        "ReleaseNotes": "רעלעאַסענאָטעס",
+        "Downloads": "פּראָצעס",
         "Buy": "קויפן",
-        "Roadmap": "פּראָדוקט שורה",
-        "ReportIssue": "באריכט אַ פּראָבלעם",
-        "Languages": "שפּראַך"
+        "Roadmap": "ראָאַדמאַפּ",
+        "ReportIssue": "יססועס",
+        "Languages": "שפּראַכן"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "מאַרקדאָוון רעדאַקטאָר גאָר פונקטיאָנאַל. עס שטיצט ווינדאָוז, לינוקס און מאַקאָסקס אָפּערייטינג סיסטעם.",
-        "BtnDownload": "פּאָטער פּראָצעס",
+        "ProjectTagline": "גאַנץ-ארויסגעשטעלטע מאַרקדאָוון רעדאַקטאָר. פֿאַר ווינדאָוז, לינוקס און מאַקאָסקס.",
+        "BtnDownload": "פּראָצעס",
         "BtnBuy": "קויפן",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "פּראָדוקט הויפּט פֿעיִקייטן",
+            "SectionName": "הויפּט פֿעיִקייטן פון מאַרקדאָוונד",
             "list": [
                 "סופּפּאָרץ עקספּאָרטינג צו פּדף",
-                "דרוק דעם דאָקומענט שטיצן",
-                "סופּפּאָרץ נאָרמאַל פּרייַז / קאָממאָנמאַרק און GFM (גיטהוב פון מאַרקדאָוון)",
+                "סופּפּאָרץ דרוק דעם",
+                "שטיצן נאָרמאַל מאַרקדאָוון / קאָממאָנמאַרק און GFM (גיטהוב) טאַמיק מאַרקדאָוון",
                 "לעבן פּריוויו שטיצן",
-                "סופּפּאָרץ פֿאָרמאַטירט טעקסט, קאָד בלאַקס, טישן, קאָד פאָלדינג, זוכן און פאַרבייַטן, מאַלטי-שפּראַך, HTML ענטיטי קאָד סינטאַקס כיילייטינג",
-                "שטיצן טאָק (טיש פון אינהאַלט), די אויסדרוק פון עמאָטיקאָנס, די אַרבעט רשימה (די אַרבעט מאַפּע), @ (לינקס)",
+                "שטיצן פֿאָרמאַטירט טעקסט, קאָד בלאַקס, טישן, קאָד פאָלדינג, זוכן און פאַרבייַטן, קייפל שפּראַכן, די HTML ענטיטי קאָד - סינטאַקס כיילייטינג",
+                "שטיצן טאָק (טיש פון אינהאַלט), Emoji אויסדרוק, טאַסקליסץ (אַרבעט מאַפּע), @לינקס (לינק)",
                 "שטיצן דיקאָודינג און פֿילטרירונג פון HTML טאַגס און אַטריביוץ",
-                "שטיצן טעקסאַס (לייטעקס אויסדרוק, קאַטעקס פירמע), פלאָווטשאַרץ און סיקוואַנס דייאַגראַמז",
-                "שטיצן טעקעס אָפּזוך מעקאַניזאַם",
-                "שטיצן קייפל עדיטינג, אַנלימאַטאַד נומער"
+                "שטיצן טעקס (לייטעקס אויסדרוק, קאַטעקס), לויפן דיאַגראַמע און סיקוואַנס דיאַגראַמע",
+                "סופּפּאָרט דאָקומענט אָפּזוך מעקאַניזאַם"
             ]
         },
         "UserReviews": {
-            "SectionName": "ווי צו אָפּשאַצן מאַרקדאָוונד",
+            "SectionName": "ווונדערלעך זאכן מענטשן זענען געזאגט וועגן מאַרקדאָוונד",
             "list": [
                 {
-                    "reviewContent": "מאַרקדאָוונד איז אַמייזינג. פּשוט. ריין. שליימעס. נייסלי געטאן.",
+                    "reviewContent": "מאַרקדאָוונד איז גרויס. פּראָסט, ריין, גאנץ. נייסלי געטאן.",
                     "userName": "עוואַנוו",
                     "professional": "טעכנאָלאָגיע העכערונג"
                 },
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "מעלדונג",
+        "labelVersion": "ווערסיע",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "מעלדונג",
+        "labelVersion": "ווערסיע",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "בנימצא שפּראַכן",
-        "ChangeAlert": "גאַנץ באַשטימען שפּראַך"
+        "SectionName": "בנימצא שפּראַך (מט)",
+        "ChangeAlert": "קאָמפּלעטינג באַשטימען שפּראַך"
     }
 }

@@ -2,19 +2,19 @@
     "TopBar": {
         "Home": "Нүүр хуудас",
         "Feature": "онцлог",
-        "Documents": "Онлайн тусламж",
-        "ReleaseNotes": "Release Notes",
-        "Downloads": "Чөлөөт Шүүхийн",
-        "Buy": "Худалдан авах",
-        "Roadmap": "Бүтээгдэхүүний шугам",
-        "ReportIssue": "Асуудлыг мэдээлэх",
-        "Languages": "хэл"
+        "Documents": "баримт бичиг",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "Шүүхийн",
+        "Buy": "Одоо худалдаж авах",
+        "Roadmap": "заалтуудын",
+        "ReportIssue": "асуудлууд",
+        "Languages": "Хэл"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Markdown редактор нь бүрэн ажиллагаатай. Энэ нь Windows, Linux болон ав үйлдлийн системийг дэмждэг.",
-        "BtnDownload": "Чөлөөт Шүүхийн",
-        "BtnBuy": "Худалдан авах",
+        "ProjectTagline": "Бүрэн боломжуудтай Markdown редактор. Windows, Linux болон ав нь.",
+        "BtnDownload": "Шүүхийн",
+        "BtnBuy": "Одоо худалдаж авах",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Бүтээгдэхүүний гол онцлог",
+            "SectionName": "MarkdownD гол онцлог",
             "list": [
                 "PDF руу экспортлох дэмждэг",
-                "баримт бичиг дэмжлэг хэвлэнэ",
-                "Дэмждэг стандарт үнэ / CommonMark болон GFM (Markdown-ын GitHub)",
+                "Хэвлэх дэмждэг",
+                "Дэмжлэг үзүүлэх стандарт Markdown / CommonMark болон GFM (GitHub) амт Markdown",
                 "Live үзүүлбэр дэмжлэг үзүүлэх",
-                "форматлагдсан текст, код блок, хүснэгт, код нугалах, хайх, солих, олон хэл, HTML аж ахуйн нэгж нь код синтакс онцлон дэмждэг",
-                "Дэмжлэг TOC (Агуулгын хүснэгт), инээмсэглэлүүдийн илэрхийлэл, ажлын жагсаалт (Зорилт зураг), @ (холбоосууд)",
+                "Дэмжлэг форматлагдсан текст, код блок, ширээ, код нугалах, хайх, солих, олон хэл, HTML аж ахуйн нэгж нь код - синтакс онцлон",
+                "Дэмжлэг Toc (Гарчиг), Эможи илэрхийлэл, TaskLists (Зорилт зураг), @Links (холбоос)",
                 "Дэмжлэг тайлан уншиж сурснаар болон HTML хаягууд болон шинж чанаруудын шүүх",
-                "Дэмжлэг АНУ-ын Техасын (латекс илэрхийлэл, Katex компани), flowcharts болон дарааллын диаграм",
-                "Дэмжлэг файлуудыг сэргээх механизм",
-                "Дэмжлэг олон засварлах, хязгааргүй тоо"
+                "Дэмжлэг техас (латекс илэрхийлэл, KaTeX), диаграмм, дэс дарааллын диаграм урсгал",
+                "Дэмжлэг баримт бичиг нөхөн сэргээх механизм"
             ]
         },
         "UserReviews": {
-            "SectionName": "MarkdownD үнэлэх вэ",
+            "SectionName": "Гайхамшигт зүйл ард түмэн MarkdownD тухай ярьж байна",
             "list": [
                 {
-                    "reviewContent": "MarkdownD үнэхээр гайхалтай юм. Энгийн. Цэвэр. Perfection. Сайхан хийдэг.",
+                    "reviewContent": "MarkdownD их байна. Энгийн, цэвэр, төгс төгөлдөр. Сайхан хийдэг.",
                     "userName": "evanw",
                     "professional": "Технологийн дэмжих"
                 },
@@ -57,7 +56,7 @@
                     "professional": "Вэб хөгжүүлэгчид болон дизайнерууд"
                 },
                 {
-                    "reviewContent": "Би үнэхээр MarkdownD шиг, их тав тухыг авчирсан, миний ажил.",
+                    "reviewContent": "үнэхээр MarkdownD шиг би маш их тав тухыг авчирдаг; миний ажил.",
                     "userName": "jeruss",
                     "professional": "PHP тогтолцоо нь хөгжил"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Хувилбарын",
+        "labelVersion": "хувилбар",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Хувилбарын",
+        "labelVersion": "хувилбар",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Худалдан авах",
+        "SectionName": "Одоо худалдаж авах",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Боломжит хэл",
-        "ChangeAlert": "Иж бүрэн өөрчлөх хэл"
+        "SectionName": "Боломжит хэл (MT)",
+        "ChangeAlert": "Дуусгах өөрчлөх хэл"
     }
 }

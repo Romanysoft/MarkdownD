@@ -1,19 +1,19 @@
 {
     "TopBar": {
-        "Home": "मुख्यपृष्ठ",
+        "Home": "घर",
         "Feature": "वैशिष्ट्ये",
-        "Documents": "ऑनलाइन मदत",
-        "ReleaseNotes": "प्रकाशन टिपा",
-        "Downloads": "विनामूल्य चाचणी",
+        "Documents": "दस्तऐवज",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "चाचणी",
         "Buy": "खरेदी",
-        "Roadmap": "उत्पादन ओळ",
-        "ReportIssue": "एका समस्येचा अहवाल द्या",
+        "Roadmap": "आराखडा",
+        "ReportIssue": "समस्या",
         "Languages": "भाषा"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Markdown संपादक पूर्णतः कार्यशील. हे विंडोज, लिनक्स व MacOSX ऑपरेटिंग सिस्टम समर्थन पुरवतो.",
-        "BtnDownload": "विनामूल्य चाचणी",
+        "ProjectTagline": "पूर्ण वैशिष्ट्यीकृत Markdown संपादक. विंडोज, लिनक्स व MacOSX आहे.",
+        "BtnDownload": "चाचणी",
         "BtnBuy": "खरेदी",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "उत्पादन मुख्य वैशिष्ट्ये",
+            "SectionName": "MarkdownD मुख्य वैशिष्ट्ये",
             "list": [
                 "PDF निर्यात समर्थन",
-                "प्रिंट दस्तऐवज समर्थन",
-                "समर्थन मानक किंमत / CommonMark आणि GFM (Markdown च्या GitHub)",
+                "प्रिंट समर्थन",
+                "समर्थन मानक Markdown / CommonMark आणि GFM (GitHub) flavored Markdown",
                 "पूर्वावलोकन समर्थन थेट",
-                "रूपण मजकूर, कोड अवरोध, टेबल कोड गोलाकार, शोध आणि पुनर्स्थित, मल्टि-भाषा, स्वतंत्र HTML चे कोड सिंटॅक्स उठावदारीकरण समर्थन",
-                "समर्थन सारणी (अनुक्रमणिका), भावनांची अभिव्यक्ती, कार्य यादी (कार्य नकाशा), @ (← दुवे)",
+                "समर्थन रूपण मजकूर, कोड अवरोध, टेबल कोड गोलाकार, शोध आणि पुनर्स्थित, अनेक भाषा, स्वतंत्र HTML चे कोड - वाक्यरचना ठळक",
+                "समर्थन सारणी (अनुक्रमणिका), इमोजी अभिव्यक्ती, TaskLists (कार्य नकाशा), @Links (दुवा)",
                 "समर्थन डीकोडिंग आणि HTML टॅग आणि विशेषता फिल्टरिंग",
-                "समर्थन टेक्सास (ले टेक अभिव्यक्ती, Katex कंपनी), फ्लोचार्ट आणि क्रम आकृत्या",
-                "समर्थन फाइल पुनर्प्राप्ती यंत्रणा",
-                "समर्थन अनेक संपादन, अमर्यादित संख्या"
+                "समर्थन टेक्स (ले टेक अभिव्यक्ती, KaTeX), प्रवाह आकृती आणि क्रम आकृती",
+                "समर्थन दस्तऐवज पुनर्प्राप्ती पद्धती"
             ]
         },
         "UserReviews": {
-            "SectionName": "MarkdownD मूल्यमापन कसे",
+            "SectionName": "अद्भुत गोष्टी लोक MarkdownD काय म्हणत आहेत ते",
             "list": [
                 {
-                    "reviewContent": "MarkdownD आश्चर्यकारक आहे. सोपे. स्वच्छ. परिपूर्ण. छान पूर्ण केले.",
+                    "reviewContent": "MarkdownD महान आहे. साधे, स्वच्छ, परिपूर्ण. छान पूर्ण केले.",
                     "userName": "evanw",
                     "professional": "तंत्रज्ञान प्रोत्साहन"
                 },
@@ -57,7 +56,7 @@
                     "professional": "वेब डेव्हलपर आणि डिझाइनर"
                 },
                 {
-                    "reviewContent": "माझे काम मी खरोखर MarkdownD जसे, महान सोयीसाठी आणले आहे.",
+                    "reviewContent": "खरोखर MarkdownD मी, महान सोयीसाठी आणले आहे; माझे काम.",
                     "userName": "jeruss",
                     "professional": "कृपया PHP फ्रेमवर्क विकास"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "प्रकाशन",
+        "labelVersion": "आवृत्ती",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "प्रकाशन",
+        "labelVersion": "आवृत्ती",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "उपलब्ध भाषा",
+        "SectionName": "उपलब्ध भाषा (एमटी)",
         "ChangeAlert": "पूर्ण स्विच भाषा"
     }
 }

@@ -2,19 +2,19 @@
     "TopBar": {
         "Home": "casa",
         "Feature": "características",
-        "Documents": "Axuda en liña",
-        "ReleaseNotes": "release Notes",
-        "Downloads": "Free Trial",
-        "Buy": "compra",
-        "Roadmap": "liña de produtos",
-        "ReportIssue": "Informar dun problema",
-        "Languages": "idioma"
+        "Documents": "documentos",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "xuízo",
+        "Buy": "comprar",
+        "Roadmap": "guión",
+        "ReportIssue": "Issues",
+        "Languages": "idiomas"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "editor markdown totalmente funcional. Soporta sistema operativo Windows, Linux e MacOSX.",
-        "BtnDownload": "Free Trial",
-        "BtnBuy": "compra",
+        "ProjectTagline": "editor full-featured markdown. Para Windows, Linux e MacOSX.",
+        "BtnDownload": "xuízo",
+        "BtnBuy": "comprar",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "características principais produtos",
+            "SectionName": "Características do MarkdownD",
             "list": [
                 "Soporta exportación a PDF",
-                "Imprimir o soporte de documentos",
-                "Soporta prezo estándar / CommonMark e GFM (GitHub do markdown)",
+                "soporta impresión",
+                "Soporte estándar markdown / CommonMark e GFM (GitHub) Flavored markdown",
                 "Apoio Live Preview",
-                "Soporta texto formatado, bloques de código, táboas, código dobrando, buscar e substituír, multi-idioma, código entidade HTML destaque de sintaxe",
-                "Soporte TOC (táboa de contidos), a expresión de emoticons, a lista de tarefas (mapa de tarefas), @ (links)",
+                "Soporte formato texto, bloques de código, táboas, código dobrando, buscar e substituír, varios idiomas, código de entidade HTML - destaque de sintaxe",
+                "Soporte Toc (Índice), expresión Emoji, TaskLists (mapa de tarefas), @links (ligazón)",
                 "desencriptación de apoio e filtrado de etiquetas e atributos",
-                "Soporte Texas (expresión látex, empresa Katex), fluxogramas e diagramas de secuencia",
-                "arquivos de soporte mecanismo de recuperación",
-                "Soporte de edición múltiple, número ilimitado"
+                "Soporte Tex (expresión látex, Katex), diagrama de fluxo e diagrama de sucesión",
+                "Mecanismo de Apoio á recuperación de documentos"
             ]
         },
         "UserReviews": {
-            "SectionName": "Como avaliar MarkdownD",
+            "SectionName": "Marabillosas cousas que a xente está dicindo sobre MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD é incrible. Simple. Limpo. Perfección. Ben feito.",
+                    "reviewContent": "MarkdownD é grande. Simple, limpo, perfecto. Ben feito.",
                     "userName": "evanw",
                     "professional": "promoción tecnoloxía"
                 },
@@ -57,7 +56,7 @@
                     "professional": "Os desenvolvedores web e deseñadores"
                 },
                 {
-                    "reviewContent": "Realmente me gusta MarkdownD, trouxo gran comodidade; meu traballo.",
+                    "reviewContent": "Realmente me gusta MarkdownD, trouxo gran comodidade; o meu traballo.",
                     "userName": "jeruss",
                     "professional": "desenvolvemento framework PHP"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "lanzamento",
+        "labelVersion": "versión",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "lanzamento",
+        "labelVersion": "versión",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "compra",
+        "SectionName": "comprar",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "idiomas dispoñibles",
-        "ChangeAlert": "cambiar idioma completa"
+        "SectionName": "Idioma dispoñible (MT)",
+        "ChangeAlert": "Completando cambiar idioma"
     }
 }

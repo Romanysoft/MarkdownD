@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "kodus",
+        "Home": "Kodu",
         "Feature": "Omadused",
-        "Documents": "Hetkel Abi",
-        "ReleaseNotes": "Release Notes",
-        "Downloads": "Tasuta prooviversioon",
-        "Buy": "ostmine",
-        "Roadmap": "tootevalik",
-        "ReportIssue": "Teavita probleemist",
-        "Languages": "keel"
+        "Documents": "dokumendid",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "kohtuprotsess",
+        "Buy": "ostma",
+        "Roadmap": "tegevuskava",
+        "ReportIssue": "küsimused",
+        "Languages": "keeled"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Hinnaalandus toimetaja täisfunktsionaalne. Ta toetab Windows, Linux ja MacOSX operatsioonisüsteemi.",
-        "BtnDownload": "Tasuta prooviversioon",
-        "BtnBuy": "ostmine",
+        "ProjectTagline": "Täisfunktsionaalseid Hinnaalandus toimetaja. Windows, Linux ja MacOSX.",
+        "BtnDownload": "kohtuprotsess",
+        "BtnBuy": "ostma",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Toote põhijooned",
+            "SectionName": "Põhifunktsioonid MarkdownD",
             "list": [
                 "Toetab eksportivate PDF",
-                "Trüki dokument toetust",
-                "Toetab tavahind / CommonMark ja GFM (GitHub of Hinnaalandus)",
+                "toetab Prindi",
+                "Toetus standard Hinnaalandus / CommonMark ja GFM (GitHub) Maitsestatud Hinnaalandus",
                 "Live Preview Support",
-                "Toetab vormindatud teksti, kood plokid, lauad, koodivoltimist, otsida ja asendada, mitut keelt, HTML üksus koodi süntaksi esiletõstmine",
-                "Toetus TOC (sisukord), väljendus emotikone, ülesannete loend (ülesanne kaardiga), @ (lingid)",
+                "Toetus vormindatud teksti, kood plokid, lauad, koodivoltimist, otsida ja asendada, mitut keelt, HTML üksuse kood - süntaksi esiletõstmine",
+                "Toetus Toc (sisukord), Emoji väljendus, TaskLists (ülesanne kaardiga), @Links (link)",
                 "Toetus dekodeerimine ja filtreerimine HTML sildid ja atribuudid",
-                "Toetus Texas (lateks väljendus, KATEX firma), flowcharts ja järgnevusskeemilt",
-                "Probleemid failide taastamise mehhanism",
-                "Toetab mitmeid toimetamine, piiramatu arv"
+                "Toetus Tex (lateks väljendus, KATEX), voolu skeem ja järgnevusskeemiga",
+                "Toetus Dokumendi katmise mehhanism"
             ]
         },
         "UserReviews": {
-            "SectionName": "Kuidas hinnata MarkdownD",
+            "SectionName": "Wonderful asju inimesed on öelnud MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD on hämmastav. Lihtne. Puhas. Perfection. Ilusti tehtud.",
+                    "reviewContent": "MarkdownD on suur. Lihtne, puhas, täiuslik. Ilusti tehtud.",
                     "userName": "evanw",
                     "professional": "Technology Promotion"
                 },
@@ -57,7 +56,7 @@
                     "professional": "Web arendajad ja disainerid"
                 },
                 {
-                    "reviewContent": "Mulle meeldib MarkdownD, on toonud suurt mugavust, minu töö.",
+                    "reviewContent": "Mulle meeldib MarkdownD, on toonud suure mugavuse; minu töö.",
                     "userName": "jeruss",
                     "professional": "PHP raames areng"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "vabastamine",
+        "labelVersion": "versioon",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "vabastamine",
+        "labelVersion": "versioon",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "ostmine",
+        "SectionName": "ostma",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Olemasolevad keeled",
-        "ChangeAlert": "Täielik üleminek keeles"
+        "SectionName": "Saadaval keel (MT)",
+        "ChangeAlert": "Täites lüliti keeles"
     }
 }

@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "acasă",
+        "Home": "Acasă",
         "Feature": "caracteristici",
-        "Documents": "Ajutor on-line",
+        "Documents": "documente",
         "ReleaseNotes": "Note de lansare",
-        "Downloads": "Trial gratuit",
-        "Buy": "cumpărare",
-        "Roadmap": "linia de produse",
-        "ReportIssue": "Raportați o problemă",
-        "Languages": "limbă"
+        "Downloads": "Proces",
+        "Buy": "A cumpara",
+        "Roadmap": "Foaia de parcurs",
+        "ReportIssue": "probleme",
+        "Languages": "limbi"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "editor markdown pe deplin funcțional. Acesta suporta sistemul de operare Windows, Linux si MacOSX.",
-        "BtnDownload": "Trial gratuit",
-        "BtnBuy": "cumpărare",
+        "ProjectTagline": "Full-featured editor Markdown. Pentru Windows, Linux și MacOSX.",
+        "BtnDownload": "Proces",
+        "BtnBuy": "A cumpara",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Caracteristici principale ale produsului",
+            "SectionName": "Principalele caracteristici ale MarkdownD",
             "list": [
                 "Sprijină exportul în format PDF",
-                "Imprima suportul de documente",
-                "Suportă preț standard / CommonMark și GFM (GitHub de Markdown)",
+                "suportă Print",
+                "Standard suport Markdown / CommonMark și GFM (GitHub) aromatiza Markdown",
                 "Suport Live Preview",
-                "Suportă text formatat, blocuri de cod, tabele, pliante cod, căutare și înlocuiți, în mai multe limbi, cod HTML entitate sintaxa highlighting",
-                "Suport TOC (tabelul cuprins), expresia emoticonurilor, lista de sarcini (harta de sarcini), @ (link-uri)",
+                "Suport text formatat, blocuri de cod, tabele, pliante cod, căutare și înlocuiți, mai multe limbi, cod HTML entitate - sintaxa highlighting",
+                "Suport COT (Cuprins), expresie emoji, TaskLists (hartă sarcină), @Links (link)",
                 "decodare suport și filtrarea de tag-uri HTML și atribute",
-                "Suport Texas (expresie latex, compania Katex), scheme logice și diagrame de secvență",
-                "Fișierele de suport mecanism de recuperare",
-                "Suport de editare multiplă, număr nelimitat"
+                "Tex suport (expresie latexului, KATEX), diagrama de flux și secvența de diagramă",
+                "Mecanismul de sprijin Document Recuperare"
             ]
         },
         "UserReviews": {
-            "SectionName": "Cum de a evalua MarkdownD",
+            "SectionName": "lucruri minunate spun oamenii despre MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD este uimitor. Simplu. Curată. Perfecțiune. Bine făcut.",
+                    "reviewContent": "MarkdownD este mare. Simplu, curat, perfect. Bine făcut.",
                     "userName": "evanw",
                     "professional": "tehnologie de promovare"
                 },
@@ -57,7 +56,7 @@
                     "professional": "Dezvoltatorii web și designeri"
                 },
                 {
-                    "reviewContent": "Îmi place foarte mult MarkdownD, a adus o mare comoditate, munca mea.",
+                    "reviewContent": "Îmi place foarte mult MarkdownD, a adus o mare comoditate; munca mea.",
                     "userName": "jeruss",
                     "professional": "Dezvoltarea PHP-cadru"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "lansare",
+        "labelVersion": "Versiune",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -224,7 +232,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "corecții ale erorilor."
+                        "content": "Corectarea erorilor."
                     }
                 ]
             },
@@ -233,7 +241,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "corecții ale erorilor."
+                        "content": "Corectarea erorilor."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "lansare",
+        "labelVersion": "Versiune",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "cumpărare",
+        "SectionName": "A cumpara",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Limbi disponibile",
-        "ChangeAlert": "Limba completă Comutator"
+        "SectionName": "Limba disponibilă (MT)",
+        "ChangeAlert": "Piese de completare limbaj de comutare"
     }
 }

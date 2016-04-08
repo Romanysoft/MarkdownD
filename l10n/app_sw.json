@@ -1,20 +1,20 @@
 {
     "TopBar": {
         "Home": "nyumbani",
-        "Feature": "makala",
-        "Documents": "online Msaada",
-        "ReleaseNotes": "Release Notes",
-        "Downloads": "bure kesi",
-        "Buy": "Ununuzi",
-        "Roadmap": "bidhaa line",
-        "ReportIssue": "Ripoti tatizo",
+        "Feature": "Vipengele",
+        "Documents": "nyaraka",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "kesi",
+        "Buy": "kununua",
+        "Roadmap": "Roadmap",
+        "ReportIssue": "masuala",
         "Languages": "lugha"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Markdown mhariri kazi kikamilifu. Ni inasaidia Windows, Linux na MacOSX mfumo wa uendeshaji.",
-        "BtnDownload": "bure kesi",
-        "BtnBuy": "Ununuzi",
+        "ProjectTagline": "Full-featured Markdown mhariri. Kwa Windows, Linux na MacOSX.",
+        "BtnDownload": "kesi",
+        "BtnBuy": "kununua",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Bidhaa sifa kuu",
+            "SectionName": "Makala kuu ya MarkdownD",
             "list": [
                 "Inasaidia kusafirisha kwa PDF",
-                "Magazeti ya hati msaada",
-                "Inasaidia kiwango bei / CommonMark na GFM (GitHub ya Markdown)",
+                "inasaidia Print",
+                "Support kiwango Markdown / CommonMark na GFM (GitHub) ladha Markdown",
                 "Live Preview Support",
-                "Inasaidia formatted maandishi, kanuni vitalu, meza, kukunja kanuni, kutafuta na badala, lugha mbalimbali, HTML chombo code syntax",
-                "Support TOC (meza ya yaliyomo), usemi wa hisia, orodha ya kazi (kazi ramani), @ (viungo)",
+                "Support formatted maandishi, kanuni vitalu, meza, kukunja kanuni, kutafuta na badala, lugha nyingi, HTML chombo kanuni - syntax",
+                "Support Toc (Yaliyomo), Emoji kujieleza, TaskLists (Kazi ramani), @Links (kiungo)",
                 "Support decoding na kuchuja ya vitambulisho HTML na sifa",
-                "Support Texas (mpira kujieleza, Katex kampuni), flowcharts na vielelezo mlolongo",
-                "files Support ahueni utaratibu",
-                "Support nyingi editing, idadi ya ukomo"
+                "Support Tex (mpira kujieleza, KaTeX), kati yake mchoro na mlolongo mchoro",
+                "Support Document Recovery Mechanism"
             ]
         },
         "UserReviews": {
-            "SectionName": "Jinsi ya kutathmini MarkdownD",
+            "SectionName": "mambo ya ajabu watu wanasema kuhusu MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD ni ajabu. Rahisi. Safi. Ukamilifu. Nicely kufanyika.",
+                    "reviewContent": "MarkdownD ni kubwa. Rahisi, safi, kamilifu. Nicely kufanyika.",
                     "userName": "evanw",
                     "professional": "Technology Promotion"
                 },
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "kutolewa",
+        "labelVersion": "version",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "kutolewa",
+        "labelVersion": "version",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Ununuzi",
+        "SectionName": "kununua",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "inapatikana Lugha",
-        "ChangeAlert": "Kamili kubadili lugha"
+        "SectionName": "Lugha inapatikana (MT)",
+        "ChangeAlert": "Kukamilisha lugha kubadili"
     }
 }

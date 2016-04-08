@@ -2,19 +2,19 @@
     "TopBar": {
         "Home": "bahay",
         "Feature": "Mga tampok",
-        "Documents": "online Help",
-        "ReleaseNotes": "release Notes",
-        "Downloads": "Libreng Pagsubok",
-        "Buy": "pagbili",
-        "Roadmap": "linya ng produkto",
-        "ReportIssue": "Mag-ulat ng problema",
-        "Languages": "wika"
+        "Documents": "Mga dokumento",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "pagsubok",
+        "Buy": "bumili",
+        "Roadmap": "Roadmap",
+        "ReportIssue": "isyu",
+        "Languages": "Mga wika"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Markdown editor fully functional. Ito ay sumusuporta sa Windows, Linux at MacOSX operating system.",
-        "BtnDownload": "Libreng Pagsubok",
-        "BtnBuy": "pagbili",
+        "ProjectTagline": "Full-itinampok Markdown editor. Para sa Windows, Linux at MacOSX.",
+        "BtnDownload": "pagsubok",
+        "BtnBuy": "bumili",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Produkto pangunahing tampok",
+            "SectionName": "Pangunahing Mga Tampok ng MarkdownD",
             "list": [
                 "Sinusuportahan export sa PDF",
-                "I-print ang dokumento support",
-                "Sinusuportahan ang standard na presyo / CommonMark at GFM (GitHub ng Markdown)",
+                "sinusuportahan Print",
+                "Support standard Markdown / CommonMark at GFM (GitHub) Flavored Markdown",
                 "Live Preview Support",
-                "Sinusuportahan na format, mga bloke ng code, mga talahanayan, code natitiklop, hanapin at palitan, multi-wika, HTML entity code syntax highlighting",
-                "Support TOC (talaan ng nilalaman), ang expression ng mga emoticon, ang gawain listahan (ang gawain mapa), @ (links)",
+                "Support na format, mga bloke ng code, mga talahanayan, code natitiklop, hanapin at palitan, maramihang wika, HTML entity code - syntax highlighting",
+                "Support Toc (Table of Contents), Emoji expression, tasklists (gawain mapa), @Links (link)",
                 "Support decoding at pag-filter ng mga tag na HTML at mga katangian",
-                "Support Texas (latex expression, Katex kumpanya), flowchart at sequence diagram",
-                "Support file bawing mekanismo",
-                "Suporta ng maramihang mga pag-edit, walang limitasyong bilang"
+                "Support Tex (LaTeX expression, KaTeX), daloy diagram at sequence diagram",
+                "Support Document Recovery mekanismo"
             ]
         },
         "UserReviews": {
-            "SectionName": "Paano upang suriin MarkdownD",
+            "SectionName": "Wonderful bagay na mga tao ay sinasabi tungkol sa MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD ay amazing. Simple. Clean. Perfection. Maayos na Natapos.",
+                    "reviewContent": "MarkdownD ay malaki. Simple, malinis, perpekto. Maayos na Natapos.",
                     "userName": "evanw",
                     "professional": "Technology Promotion"
                 },
@@ -57,7 +56,7 @@
                     "professional": "Web developer at designer"
                 },
                 {
-                    "reviewContent": "Ko talagang gusto MarkdownD, ay nagdala ng mahusay na kaginhawahan, ang aking trabaho.",
+                    "reviewContent": "Ko talagang gusto MarkdownD, ay nagdala ng mahusay na kaginhawahan; aking trabaho.",
                     "userName": "jeruss",
                     "professional": "PHP framework unlad"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "paglaya",
+        "labelVersion": "bersyon",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "paglaya",
+        "labelVersion": "bersyon",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "pagbili",
+        "SectionName": "bumili",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "magagamit na Mga Wika",
-        "ChangeAlert": "Complete switch wika"
+        "SectionName": "Magagamit wika (MT)",
+        "ChangeAlert": "Ang pagkumpleto switch wika"
     }
 }

@@ -2,19 +2,19 @@
     "TopBar": {
         "Home": "Home",
         "Feature": "Features",
-        "Documents": "Online Hjálp",
-        "ReleaseNotes": "Release Notes",
-        "Downloads": "Free Trial",
-        "Buy": "kaup",
-        "Roadmap": "vara lína",
-        "ReportIssue": "Tilkynna vandamál",
+        "Documents": "skjöl",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "Trial",
+        "Buy": "kaupa",
+        "Roadmap": "Roadmap",
+        "ReportIssue": "Issues",
         "Languages": "Tungumál"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Markdown ritstjóri fullkomlega hagnýtur. Það styður Windows, Linux og MacOSX stýrikerfi.",
-        "BtnDownload": "Free Trial",
-        "BtnBuy": "kaup",
+        "ProjectTagline": "Full-lögun Markdown ritstjóri. Fyrir Windows, Linux og MacOSX.",
+        "BtnDownload": "Trial",
+        "BtnBuy": "kaupa",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Vara Helstu eiginleikar",
+            "SectionName": "Helstu eiginleikar MarkdownD",
             "list": [
                 "Styður flytja til PDF",
-                "Prenta skjal stuðning",
-                "Styður staðall verð / CommonMark og GFM (GitHub af Markdown)",
+                "styður Prenta",
+                "Stuðningur staðall Markdown / CommonMark og GFM (GitHub) Bragðbætt Markdown",
                 "Live Preview Support",
-                "Styður sniðinn texta, númer blokkir, borðum, númerið brjóta saman, leita og skipta, multi-tungumál, HTML eining númer setningafræði auðkenning",
-                "Stuðningur TOC (efnisyfirlit), tjáning broskörlum, verkefni listi (verkefni kort), @ (tenglar)",
+                "Stuðningur sniðinn texta, númer blokkir, töflur, númer leggja saman, leita og skipta, margvísleg mál, HTML eining númer - setningafræði auðkenning",
+                "Stuðningur Toc (Table of Contents), Emoji tjáning, TaskLists (verkefni kort), @Links (tengill)",
                 "Stuðningur umskráningu og síun af HTML tags og eiginleika",
-                "Stuðningur Texas (latex tjáning, Katex fyrirtæki), flæðirit og sequence skýringarmyndir",
-                "Stuðningur skrá bati vélbúnaður",
-                "Styðja margfeldi klippingu, ótakmarkaðan fjölda"
+                "Stuðningur Tex (latex tjáning, KaTeX), flæðirit og röð skýringarmynd",
+                "Stuðningur Document Recovery styrktarsjóður"
             ]
         },
         "UserReviews": {
-            "SectionName": "Hvernig á að meta MarkdownD",
+            "SectionName": "Furðuverk fólk er að segja um MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD er ótrúlegt. Einfalt. Clean. Fullkomnun. Fallega gert.",
+                    "reviewContent": "MarkdownD er mikill. Einfalt, hreint, fullkominn. Vel gert.",
                     "userName": "evanw",
                     "professional": "tækni Efling"
                 },
@@ -57,7 +56,7 @@
                     "professional": "Vefur verktaki og hönnuðir"
                 },
                 {
-                    "reviewContent": "Ég virkilega eins MarkdownD, hefur fært mikil þægindi, verk mín.",
+                    "reviewContent": "Ég virkilega eins MarkdownD, hefur fært mikil þægindi; vinnan mín.",
                     "userName": "jeruss",
                     "professional": "PHP ramma þróun"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Release",
+        "labelVersion": "útgáfa",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Release",
+        "labelVersion": "útgáfa",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "kaup",
+        "SectionName": "kaupa",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Laus Tungumál",
-        "ChangeAlert": "Complete skipta tungumál"
+        "SectionName": "Laus tungumál (MT)",
+        "ChangeAlert": "Klára skipta tungumál"
     }
 }

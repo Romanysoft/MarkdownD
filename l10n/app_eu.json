@@ -2,19 +2,19 @@
     "TopBar": {
         "Home": "Hasiera",
         "Feature": "Ezaugarriak",
-        "Documents": "Online Laguntza",
-        "ReleaseNotes": "Bertsio-oharrak",
-        "Downloads": "Free Trial",
-        "Buy": "Erosketa",
-        "Roadmap": "Produktu linea",
-        "ReportIssue": "Arazo baten berri",
-        "Languages": "Hizkuntza"
+        "Documents": "Dokumentuak",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "Trial",
+        "Buy": "Erosi",
+        "Roadmap": "Ibilbide Orria",
+        "ReportIssue": "Aleak",
+        "Languages": "Hizkuntzak"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Markdown editore erabat funtzionala. Windows, Linux eta MacOSX sistema eragilearen onartzen ditu.",
-        "BtnDownload": "Free Trial",
-        "BtnBuy": "Erosketa",
+        "ProjectTagline": "Full-featured Markdown editore. Windows, Linux eta MacOSX For.",
+        "BtnDownload": "Trial",
+        "BtnBuy": "Erosi",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Produktuen ezaugarri nagusiak",
+            "SectionName": "MarkdownD ezaugarriak",
             "list": [
                 "Onartzen PDF esportatzeko",
-                "Dokumentua inprimatu laguntza",
-                "Onartzen prezio estandarra / CommonMark eta GFM (GitHub Markdown of)",
+                "Inprimatu onartzen",
+                "Laguntzarako standard Markdown / CommonMark eta GFM (GitHub) zaporeko Markdown",
                 "Zuzeneko aurrebista laguntza",
-                "testuari formatua, kodea bloke, mahaiak, kodea tolesgarri, bilatu eta ordeztu multi-hizkuntza, HTML entitate kodea sintaxia nabarmentzea onartzen",
-                "Laguntzarako TOC (Edukien Taula), emoticons adierazpena, zereginen zerrendaren (zeregin mapa), @ (loturak)",
+                "Laguntzarako formatuko testu, kodea bloke, mahaiak, kodea tolesgarri, bilatu eta ordeztu hainbat hizkuntza, HTML entitate kodea - sintaxia nabarmentzea",
+                "Laguntzarako Toc (Edukien Taula), emotikonoekin adierazpen, dadila (zeregin mapa), @Links (link)",
                 "deskodetzeko eta HTML tags eta atributuak iragaztea laguntza",
-                "Laguntzarako Texas (latex adierazpen, Katex enpresa), fluxu-diagramak eta sekuentzia",
-                "fitxategiak berreskuratzeko mekanismo laguntza",
-                "edizio anitz laguntza, kopuru mugagabea"
+                "Laguntzarako Tex (LaTex adierazpen, KaTeX), fluxu-diagrama eta sekuentzia diagram",
+                "Laguntza Dok berreskuratzea Mekanismo"
             ]
         },
         "UserReviews": {
-            "SectionName": "Nola MarkdownD ebaluatzeko",
+            "SectionName": "Wonderful gauza pertsona dira MarkdownD buruz esaten duena",
             "list": [
                 {
-                    "reviewContent": "MarkdownD harrigarria da. Simple. Clean. Perfection. Lan bikaina.",
+                    "reviewContent": "MarkdownD handia da. Simple, garbi, ezin hobea. Lan bikaina.",
                     "userName": "evanw",
                     "professional": "Teknologia Sustapena"
                 },
@@ -57,7 +56,7 @@
                     "professional": "Web diseinatzaile eta"
                 },
                 {
-                    "reviewContent": "nire lana; I benetan MarkdownD bezala, erosotasuna handia ekarri du.",
+                    "reviewContent": "I benetan MarkdownD bezala, erosotasuna handia ekarri du: nire lana.",
                     "userName": "jeruss",
                     "professional": "PHP framework garapena"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "oharra",
+        "labelVersion": "Bertsio",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "oharra",
+        "labelVersion": "Bertsio",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Erosketa",
+        "SectionName": "Erosi",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Hizkuntz baliagarriak",
-        "ChangeAlert": "Osoa aldatu hizkuntza"
+        "SectionName": "Hizkuntza erabilgarriak (MT)",
+        "ChangeAlert": "aldatu hizkuntza osatzea"
     }
 }

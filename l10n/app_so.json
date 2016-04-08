@@ -2,19 +2,19 @@
     "TopBar": {
         "Home": "Home",
         "Feature": "Features",
-        "Documents": "Help Online",
-        "ReleaseNotes": "Release Notes",
-        "Downloads": "Trial Free",
-        "Buy": "Iibso",
-        "Roadmap": "line Product",
-        "ReportIssue": "Ka warbixi dhibaato",
-        "Languages": "Language"
+        "Documents": "Waraaqaha",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "Trial",
+        "Buy": "iibso",
+        "Roadmap": "Roadmap",
+        "ReportIssue": "Arrimaha",
+        "Languages": "Languages"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "editor Markdown si buuxda u shaqaysa. Waxa ay taageertaa nidaamka qalliinka Windows, Linux iyo MacOSX.",
-        "BtnDownload": "Trial Free",
-        "BtnBuy": "Iibso",
+        "ProjectTagline": "editor Markdown Full-ciyaaray. Waayo, Windows, Linux iyo MacOSX.",
+        "BtnDownload": "Trial",
+        "BtnBuy": "iibso",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Product qaababka ugu muhiimsan ee",
+            "SectionName": "Features Main ee MarkdownD",
             "list": [
                 "Taageerada dhoofinta si PDF",
-                "Print taageero dokumentiga",
-                "Taageerada qiimaha caadiga ah / CommonMark iyo GFM (GitHub of Markdown)",
+                "Taageerada Print",
+                "Taageerada Markdown caadiga ah / CommonMark iyo GFM (GitHub) ee macaan Markdown",
                 "Taageerada Live Xiisaha Leh",
-                "Taageerada text formatted, blocks code, miisaska, laabanto code, baadhidooda iyo bedelo, af multi-, HTML code hay'ad Iftiiminta Saan",
-                "Taageerada TOC (miiska ku jira), hadal ee emoticons, liiska hawsha (map hawsha), @ (links)",
+                "Taageerada formatted text, blocks code, miisaska, laabanto code, baadhidooda iyo bedelo, luqado kala duwan, HTML code hay'ad - Iftiiminta Saan",
+                "Taageerada TOC (Table of Contents), Emoji hadal, TaskLists (map hawl), @Links (link)",
                 "kelmadaha Taageero iyo shaandhaynta ee tags HTML iyo sifooyinka",
-                "Taageerada Texas (hadal latex, shirkadda Katex), Tusaha Taxan iyo jaantus xigxiga",
-                "Taageerada files hab dib u soo kabashada",
-                "Taageerada tafatirka badan, tiro aan xad lahayn"
+                "Taageerada Tex (hadal cinjirka, KaTeX), qulquli jaantuska iyo isku xigxiga jaantuska",
+                "Taageerada Document Recovery Hannaanka"
             ]
         },
         "UserReviews": {
-            "SectionName": "Sida loo qiimeeyo MarkdownD",
+            "SectionName": "wax dadka Wonderful leh oo ku saabsan MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD waa cajiib. Simple. Nadiifi. Kaamil ah. Xunna sameeyey.",
+                    "reviewContent": "MarkdownD waa ku weyn yahay. Simple, nadiif ah, kaamil ah. Xunna sameeyey.",
                     "userName": "evanw",
                     "professional": "Technology Gudbinta"
                 },
@@ -57,7 +56,7 @@
                     "professional": "Horumarinta Web iyo samaynta"
                 },
                 {
-                    "reviewContent": "Waxaan runtii sida MarkdownD, ayaa keenay sahlanaato weyn, shaqadeyda.",
+                    "reviewContent": "Waxaan runtii sida MarkdownD, ayaa keenay sahlanaato weyn; shaqadeyda.",
                     "userName": "jeruss",
                     "professional": "PHP horumarinta qaab-dhismeedka"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Release",
+        "labelVersion": "Version",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Release",
+        "labelVersion": "Version",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Iibso",
+        "SectionName": "iibso",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Available Languages",
-        "ChangeAlert": "luqadda biiro Buuxi"
+        "SectionName": "luqadda Available (MT)",
+        "ChangeAlert": "Buuxinta afka ku biiro"
     }
 }

@@ -2,19 +2,19 @@
     "TopBar": {
         "Home": "ទំព័រដើម",
         "Feature": "លក្ខណៈពិសេស",
-        "Documents": "ជំនួយលើបណ្តាញ",
-        "ReleaseNotes": "កំណត់ចំណាំការចេញផ្សាយ",
-        "Downloads": "សវនាការដោយឥតគិតថ្លៃ",
-        "Buy": "ការទិញ",
-        "Roadmap": "បន្ទាត់ផលិតផល",
-        "ReportIssue": "រាយការណ៍បញ្ហា",
+        "Documents": "ឯកសារ",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "ការជំនុំជម្រះ",
+        "Buy": "ទិញ",
+        "Roadmap": "ផែនទីបង្ហាញផ្លូវ",
+        "ReportIssue": "បញ្ហា",
         "Languages": "ភាសា"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "កម្មវិធីនិពន្ធ Markdown មានមុខងារពេញលេញ។ វាគាំទ្រប្រព័ន្ធប្រតិបត្តិការ Windows, Linux និង MacOSX ។",
-        "BtnDownload": "សវនាការដោយឥតគិតថ្លៃ",
-        "BtnBuy": "ការទិញ",
+        "ProjectTagline": "កម្មវិធីនិពន្ធ Markdown មានលក្ខណៈពិសេសពេញលេញ។ សម្រាប់ Windows, Linux និង MacOSX ។",
+        "BtnDownload": "ការជំនុំជម្រះ",
+        "BtnBuy": "ទិញ",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "លក្ខណៈពិសេសចម្បងផលិតផល",
+            "SectionName": "លក្ខណៈពិសេសចម្បងនៃ MarkdownD",
             "list": [
                 "ផ្ដល់ការគាំទ្រដល់ការនាំចេញទៅជា PDF",
-                "បោះពុម្ពការគាំទ្រឯកសារ",
-                "ផ្ដល់ការគាំទ្រដល់តម្លៃស្តង់ដារ / CommonMark និង GFM (GitHub របស់ Markdown)",
+                "ផ្ដល់ការគាំទ្រសម្រាប់ការបោះពុម្ព",
+                "ការគាំទ្រ Markdown ស្ដង់ដារ / CommonMark និង GFM (GitHub) រសជាតិ Markdown",
                 "ការគាំទ្រការមើលជាមុនការផ្សាយបន្តផ្ទាល់",
-                "ផ្ដល់ការគាំទ្រដល់អត្ថបទមានទ្រង់ទ្រាយប្លុកកូដតារាងកូដស្វែងរកនិងជំនួស, ដែលមានច្រើនភាសា, ការបន្លិចវាក្យសម្ព័ន្ធកូដអង្គភាពរបស់ HTML",
-                "ការគាំទ្រតុក (តារាងមាតិកា), ការបញ្ចេញមតិនៃសញ្ញាអារម្មណ៍, បញ្ជីភារកិច្ច (ផែនទីភារកិច្ច) @ (តំណភ្ជាប់)",
+                "ការគាំទ្រការធ្វើទ្រង់ទ្រាយអត្ថបទ, ប្លុកកូដតារាងកូដស្វែងរកនិងជំនួស, ច្រើនភាសា, លេខកូដធាតុ HTML - ការបន្លិចវាក្យសម្ព័ន្ធ",
+                "ការគាំទ្រ Toc (តារាងនៃមាតិកា), ការបញ្ចេញមតិសញ្ញាអារម្មណ៍, TaskLists (ផែនទីភារកិច្ច), @Links (តំណភ្ជាប់)",
                 "ការឌិកូដការគាំទ្រនិងការត្រងនៃស្លាក HTML និងគុណលក្ខណៈ",
-                "ការគាំទ្ររដ្ឋតិចសាស់ (ការបញ្ចេញមតិជ័រ, ក្រុមហ៊ុន Katex), គំនូសតាងលំហូរនិងការដ្យាក្រាមលំដាប់",
-                "ឯកសារការគាំទ្រយន្តការងើបឡើងវិញ",
-                "ការគាំទ្រការកែសម្រួលច្រើន, ចំនួនដែលគ្មានដែនកំណត់"
+                "ការគាំទ្រតិច (បញ្ចេញមតិជ័រ, KaTeX), ហូរដ្យាក្រាមនិងលំដាប់ដ្យាក្រាម",
+                "យន្តការគាំទ្រការងើបឡើងវិញឯកសារ"
             ]
         },
         "UserReviews": {
-            "SectionName": "តើធ្វើដូចម្តេចដើម្បីវាយតម្លៃ MarkdownD",
+            "SectionName": "រឿងដែលមនុស្សអស្ចារ្យបាននិយាយអំពី MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD គឺអស្ចារ្យ។ ធម្មតា។ ស្អាត។ ឥតខ្ចោះ។ ធ្វើបានល្អមែន។",
+                    "reviewContent": "MarkdownD គឺអស្ចារ្យ។ សាមញ្ញ, ស្អាត, ល្អឥតខ្ចោះ។ ធ្វើបានល្អមែន។",
                     "userName": "evanw",
                     "professional": "ការជំរុញបច្ចេកវិទ្យា"
                 },
@@ -57,7 +56,7 @@
                     "professional": "អ្នកអភិវឌ្ឍន៍គេហទំព័រនិងអ្នករចនា"
                 },
                 {
-                    "reviewContent": "ខ្ញុំពិតជាចូលចិត្ត MarkdownD បាននាំភាពងាយស្រួលយ៉ាងខ្លាំងងាររបស់ខ្ញុំ។",
+                    "reviewContent": "ខ្ញុំពិតជាចូលចិត្ត MarkdownD បាននាំភាពងាយស្រួលយ៉ាងខ្លាំង ការងារ​របស់ខ្ញុំ។",
                     "userName": "jeruss",
                     "professional": "ការអភិវឌ្ឍក្របខ័ណ្ឌកម្មវិធី PHP"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "ការចេញផ្សាយ",
+        "labelVersion": "កំណែ",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "ការចេញផ្សាយ",
+        "labelVersion": "កំណែ",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "ការទិញ",
+        "SectionName": "ទិញ",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "ភាសាដែលអាចប្រើបាន",
-        "ChangeAlert": "ភាសាប្ដូរពេញលេញ"
+        "SectionName": "ភាសាដែលអាចប្រើបាន (តោន)",
+        "ChangeAlert": "ភាសាប្ដូរការបំពេញ"
     }
 }

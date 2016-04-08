@@ -2,19 +2,19 @@
     "TopBar": {
         "Home": "Home",
         "Feature": "Features",
-        "Documents": "Online Help",
-        "ReleaseNotes": "release Notes",
-        "Downloads": "free Trial",
-        "Buy": "Purchase",
-        "Roadmap": "Product line",
-        "ReportIssue": "Rahoto matsala",
-        "Languages": "Harshe"
+        "Documents": "takardu",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "Trial",
+        "Buy": "buy",
+        "Roadmap": "jadawalin",
+        "ReportIssue": "batutuwa",
+        "Languages": "Languages"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Markdown edita cikakken aikin. Yana goyon bayan Windows, Linux da MacOSX tsarin aiki.",
-        "BtnDownload": "free Trial",
-        "BtnBuy": "Purchase",
+        "ProjectTagline": "Full-featured Markdown edita. Domin Windows, Linux da MacOSX.",
+        "BtnDownload": "Trial",
+        "BtnBuy": "buy",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Product main siffofin",
+            "SectionName": "Main Features na MarkdownD",
             "list": [
                 "Goyon bayan aikawa zuwa PDF",
-                "Print da daftarin aiki goyon bayan",
-                "Goyon bayan misali price / CommonMark da GFM (GitHub na Markdown)",
+                "Goyan bayan Print",
+                "Support misali Markdown / CommonMark da GFM (GitHub) flavored Markdown",
                 "Live Preview Support",
-                "Goyan bayan tsara rubutu, code tubalan, Tables, code nadawa, bincika da kuma maye gurbin, Multi-harshe, HTML mahaluži code ginin kalma nuna rubutu",
-                "Support TOC (abubuwan da ke ciki), da magana daga emoticons, da aiki list (da aiki map), @ (links)",
+                "Support tsara rubutu, code tubalan, Tables, code nadawa, bincika da kuma maye gurbin, mahara harsuna, HTML mahaluži code - ginin kalma nuna rubutu",
+                "Support Toc (Table of Contents), Emoji magana, TaskLists (aiki map), @Links (link)",
                 "Support dikodi mai da tace na HTML tags da halaye",
-                "Support Texas (latex magana, Katex company), flowcharts da jerin zane-zane",
-                "Support files maida inji",
-                "Support mahara tace, Unlimited yawan"
+                "Support Tex (Latex magana, KaTeX), daga ƙarƙashinsu zane da kuma jerin zane",
+                "Support Document farfadowa da na'ura inji"
             ]
         },
         "UserReviews": {
-            "SectionName": "Yadda za a kimanta MarkdownD",
+            "SectionName": "Wonderful abubuwa da mutane suke cewa game da MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD ne mai ban mamaki. Simple. Clean. Kammala. Kyau yi.",
+                    "reviewContent": "MarkdownD ne mai girma. Simple, mai tsabta, m. Kyau yi.",
                     "userName": "evanw",
                     "professional": "Technology Promotion"
                 },
@@ -57,7 +56,7 @@
                     "professional": "Web developers da designers"
                 },
                 {
-                    "reviewContent": "Na gaske kamar MarkdownD, ya kawo babban saukaka. Aikina.",
+                    "reviewContent": "Na gaske kamar MarkdownD, ya kawo babban saukaka. aikina.",
                     "userName": "jeruss",
                     "professional": "PHP tsarin ci gaban"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "release",
+        "labelVersion": "version",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "release",
+        "labelVersion": "version",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Purchase",
+        "SectionName": "buy",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Rasu Languages",
-        "ChangeAlert": "Complete canza harshe"
+        "SectionName": "Rasu harshe (MT)",
+        "ChangeAlert": "Kammala canza harshe"
     }
 }

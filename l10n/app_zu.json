@@ -2,19 +2,19 @@
     "TopBar": {
         "Home": "Ikhaya",
         "Feature": "Izici",
-        "Documents": "Online Usizo",
-        "ReleaseNotes": "release Notes",
-        "Downloads": "Isivivinyo samahhala",
-        "Buy": "Ukuthengwa",
-        "Roadmap": "umugqa Product",
-        "ReportIssue": "Bika inkinga",
-        "Languages": "Ulimi"
+        "Documents": "Imibhalo",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "Trial",
+        "Buy": "Thenga",
+        "Roadmap": "roadmap",
+        "ReportIssue": "Issues",
+        "Languages": "Izilimi"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Markdown Umhleli osebenza ngokugcwele. It isekela Windows, i-Linux kanye MacOSX yesistimu yokusebenza.",
-        "BtnDownload": "Isivivinyo samahhala",
-        "BtnBuy": "Ukuthengwa",
+        "ProjectTagline": "Markdown Umhleli Full-iyavela. Ngoba Windows, Linux kanye MacOSX.",
+        "BtnDownload": "Trial",
+        "BtnBuy": "Thenga",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Umkhiqizo izici eziyinhloko",
+            "SectionName": "Izici eziyinhloko MarkdownD",
             "list": [
                 "Usekela timbiwa ku PDF",
-                "Phrinta ukusekelwa idokhumenti",
-                "Usekela amanani standard / CommonMark futhi GFM (GitHub of Markdown)",
+                "Usekela Print",
+                "Amaprosesa asekelwe standard Markdown / CommonMark futhi GFM (GitHub) enongiwe Markdown",
                 "Live Ukusekela Preview",
-                "Usekela ubone ukuthi indaba ihlelwe, ikhodi amabhlogo, amatafula, ikhodi ukusonga, ukucinga bese ushintsha, ulimi multi-, HTML ikhodi inhlangano i-syntax Eqokomisa",
-                "Amaprosesa asekelwe TOC (okuqukethwe), inkulumo ethi Izithonjana, uhlu lwemisebenzi (imephu umsebenzi), @ (links)",
+                "Amaprosesa asekelwe kwatiswa umbhalo, ikhodi amabhlogo, amatafula, ikhodi ukusonga, ukucinga bese ushintsha, izilimi eziningi, HTML ikhodi inhlangano - i-syntax Eqokomisa",
+                "Amaprosesa asekelwe Toc (Uhlu Lokuphakathi), Emoji nkulumo, TaskLists (map umsebenzi), @Links (link)",
                 "Amaprosesa asekelwe ekuhlahlela ukusefa tags kanye izimfanelo",
-                "Amaprosesa asekelwe Texas (latex nkulumo, Katex inkampani), flowchart begodu balandelanisa imidvwebo",
-                "amafayela alulame mshini ukweseka",
-                "Amaprosesa asekelwe kwemaphutsa amaningi, inombolo angenamkhawulo"
+                "Amaprosesa asekelwe Tex (latex nkulumo, KaTeX), flow diagram begodu balandelanisa idayagramu",
+                "Amaprosesa asekelwe Document Lokubuyisela Mechanism"
             ]
         },
         "UserReviews": {
-            "SectionName": "Indlela ahlaziye MarkdownD",
+            "SectionName": "Wonderful izinto abantu bathini mayelana MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD Kuyamangaza. Simple. Clean. Ukuphelela. Kwenziwe kahle.",
+                    "reviewContent": "MarkdownD mkhulu. Simple, zihlanzekile, ephelele. Kwenziwe kahle.",
                     "userName": "evanw",
                     "professional": "Ubuchwepheshe Promotion"
                 },
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "release",
+        "labelVersion": "Inguqulo",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "release",
+        "labelVersion": "Inguqulo",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Ukuthengwa",
+        "SectionName": "Thenga",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Izilimi Iyatholakala",
-        "ChangeAlert": "Qedela switch ulimi"
+        "SectionName": "ulimi Kuyatholakala (MT)",
+        "ChangeAlert": "Ukuphelelisa switch ulimi"
     }
 }

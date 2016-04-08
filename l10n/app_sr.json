@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "кући",
-        "Feature": "karakteristike",
-        "Documents": "Онлине помоћ",
-        "ReleaseNotes": "Релеасе Нотес",
-        "Downloads": "Пробна верзија",
-        "Buy": "куповина",
-        "Roadmap": "Производна линија",
-        "ReportIssue": "Пријавите проблем",
-        "Languages": "језик"
+        "Home": "Дом",
+        "Feature": "Карактеристике",
+        "Documents": "Документи",
+        "ReleaseNotes": "РелеасеНотес",
+        "Downloads": "суђење",
+        "Buy": "купити",
+        "Roadmap": "putokaz",
+        "ReportIssue": "pitanja",
+        "Languages": "Језици"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Маркдовн уредник у потпуности функционалан. Она подржава Виндовс, Линук и МацОСКС оперативни систем.",
-        "BtnDownload": "Пробна верзија",
-        "BtnBuy": "куповина",
+        "ProjectTagline": "Фулл-феатуред Маркдовн уредник. За Виндовс, Линук и МацОСКС.",
+        "BtnDownload": "суђење",
+        "BtnBuy": "купити",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Продуцт главне карактеристике",
+            "SectionName": "Главне карактеристике МаркдовнД",
             "list": [
                 "Подржава извоз у ПДФ",
-                "Принт подршку документ",
-                "Подржава стандардна цена / ЦоммонМарк и ГФМ (ГитХуб од Маркдовн)",
+                "podržava Принт",
+                "Подршка стандардни Маркдовн / ЦоммонМарк и ГФМ (ГитХуб) укусом Маркдовн",
                 "Преглед уживо Подршка",
-                "Подржава форматирани текст, код блокове, табеле, код склапање, претрага и замене, мулти-лангуаге, ХТМЛ ентитету код истицање синтаксе",
-                "Подршка ТОЦ (садржај), израз смајлија, листа задатака (задатак карта), @ (везе)",
+                "Подршка форматиран текст, код блокови, столови, код савијање, претраживање и заменити, на више језика, ХТМЛ ентитету код - истицање синтаксе",
+                "Подршка Тоц (Садржај), Емоџи израз, ТаскЛистс (задатак мапа), @Линкс (Линк)",
                 "Подршка декодирање и филтрирање ХТМЛ ознаке и атрибуте",
-                "Подршка Тексас (латекс израз, Катек компанија), дијаграми тока и секуенце дијаграми",
-                "Подршка Филес Рецовери механизам",
-                "Подршка више уређивање, неограничен број"
+                "Подршка Текс (латекс израз, КАТЕКС), Дијаграм и секвенце дијаграм",
+                "Подршка Документ опоравак Механизам"
             ]
         },
         "UserReviews": {
-            "SectionName": "Како проценити МаркдовнД",
+            "SectionName": "Дивне ствари људи говоре о МаркдовнД",
             "list": [
                 {
-                    "reviewContent": "МаркдовнД је невероватно. Једноставна. Чист. Савршенство. Лепо урађено.",
+                    "reviewContent": "МаркдовнД је супер. Једноставно, чисто, савршено. Лепо урађено.",
                     "userName": "еванв",
                     "professional": "tehnologija Промоција"
                 },
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "пуштање",
+        "labelVersion": "верзија",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "пуштање",
+        "labelVersion": "верзија",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "куповина",
+        "SectionName": "купити",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "dostupni језици",
-        "ChangeAlert": "Потпуни прелазак језика"
+        "SectionName": "Доступно језика (АТ)",
+        "ChangeAlert": "Завршетка Свитцх лангуаге"
     }
 }

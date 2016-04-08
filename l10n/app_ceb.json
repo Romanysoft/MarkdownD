@@ -2,19 +2,19 @@
     "TopBar": {
         "Home": "Panimalay",
         "Feature": "Features",
-        "Documents": "Online Tabang",
-        "ReleaseNotes": "release Mubo nga mga sulat",
-        "Downloads": "free Trial",
-        "Buy": "pagpalit",
-        "Roadmap": "linya Product",
-        "ReportIssue": "Itaho sa usa ka problema",
+        "Documents": "dokumento",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "Trial",
+        "Buy": "Palita",
+        "Roadmap": "roadmap",
+        "ReportIssue": "mga isyu",
         "Languages": "Pinulongan"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Markdown editor hingpit nga mapuslanon. Kini nagsuporta Windows, Linux ug MacOSX operating system.",
-        "BtnDownload": "free Trial",
-        "BtnBuy": "pagpalit",
+        "ProjectTagline": "Full-bahin Markdown editor. Kay Windows, Linux ug MacOSX.",
+        "BtnDownload": "Trial",
+        "BtnBuy": "Palita",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Product nag-unang mga bahin",
+            "SectionName": "Pangunang mga Bahin sa MarkdownD",
             "list": [
                 "Nagpaluyo sa exporting sa PDF",
-                "Isulat ang dokumento nga suporta",
-                "Nagpaluyo sa standard nga presyo sa / CommonMark ug GFM (GitHub sa Markdown)",
+                "Nagpaluyo sa Print",
+                "Support standard nga Markdown / CommonMark ug GFM (GitHub) Flavored Markdown",
                 "Live Preview Support",
-                "Nagpaluyo sa pormat, bloke code, lamesa, code nga pagkiyugpos, pangitaa ug pulihan, multi-nga pinulongan, HTML kompaniya code syntax pagpasiugda",
-                "Support TOC (lamesa sa sulod), ang pagpahayag sa emoticons, sa buluhaton nga listahan (ang buluhaton mapa), @ (sumpay)",
+                "Support nga pormat, bloke code, lamesa, code nga pagkiyugpos, pangitaa ug pulihan, daghang mga pinulongan, HTML kompaniya code - syntax pagpasiugda",
+                "Support toc (Kaundan), Emoji ekspresyon, TaskLists (task mapa), @Links (link)",
                 "Support pagsusi sa kahulogan sa ug pagsala sa HTML tags ug sa mga hiyas",
-                "Support Texas (kumbal ekspresyon, Katex panon sa), flowcharts ug han-ay diagram",
-                "Support file recovery mechanism",
-                "Support multiple pag-usab, walay kutub nga gidaghanon"
+                "Support Tex (kumbal ekspresyon, KaTeX), modagayday diagram ug han-ay diagram",
+                "Support Document Recovery mekanismo"
             ]
         },
         "UserReviews": {
-            "SectionName": "Sa unsa nga paagi sa pagtimbang-timbang MarkdownD",
+            "SectionName": "Makatilingala nga mga butang ang mga tawo sa pag-ingon mahitungod sa MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD talagsaon. Yano. Clean. Kahingpitan. Nicely gibuhat.",
+                    "reviewContent": "MarkdownD daku. Yano, limpyo, hingpit. Nicely gibuhat.",
                     "userName": "evanw",
                     "professional": "Technology Promotion"
                 },
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "release",
+        "labelVersion": "Version",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "release",
+        "labelVersion": "Version",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "pagpalit",
+        "SectionName": "Palita",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Naa mga Pinulongan",
-        "ChangeAlert": "Bug-os nga switch pinulongan"
+        "SectionName": "Anaa pinulongan (MT)",
+        "ChangeAlert": "Pagkompleto switch pinulongan"
     }
 }

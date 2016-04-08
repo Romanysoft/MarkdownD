@@ -1,20 +1,20 @@
 {
     "TopBar": {
         "Home": "Tuis",
-        "Feature": "kenmerke",
-        "Documents": "Online Hulp",
-        "ReleaseNotes": "Release Notes",
-        "Downloads": "Free Trial",
-        "Buy": "aankoop",
-        "Roadmap": "produk lyn",
-        "ReportIssue": "Rapporteer 'n probleem",
-        "Languages": "taal"
+        "Feature": "Kenmerke",
+        "Documents": "dokumente",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "verhoor",
+        "Buy": "koop",
+        "Roadmap": "padkaart",
+        "ReportIssue": "kwessies",
+        "Languages": "Tale"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Markdown redakteur ten volle funksioneel. Dit word ondersteun deur Windows, Linux en MacOSX bedryfstelsel.",
-        "BtnDownload": "Free Trial",
-        "BtnBuy": "aankoop",
+        "ProjectTagline": "Volledige Afprijzingsmanager redakteur. Vir Windows, Linux en MacOSX.",
+        "BtnDownload": "verhoor",
+        "BtnBuy": "koop",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Produk belangrikste kenmerke",
+            "SectionName": "Belangrikste kenmerke van MarkdownD",
             "list": [
                 "Ondersteun uitvoer na PDF",
-                "Druk die dokument ondersteuning",
-                "Ondersteun standaard prys / CommonMark en GFM (GitHub van Afprijzingsmanager)",
+                "ondersteun Print",
+                "Ondersteuning standaard Afprijzingsmanager / CommonMark en GFM (GitHub) Gegeurde Afprijzingsmanager",
                 "Live Voorskou Support",
-                "Ondersteun geformateerde teks,-kode blokke, tafels,-kode vou, soek en te vervang, multi-taal, HTML entiteit kode accentuering",
-                "Ondersteuning TOC (inhoudsopgawe), die uitdrukking van emoticons, die taak lys (die taak kaart) @ (links)",
+                "Ondersteuning geformateerde teks,-kode blokke, tafels,-kode vou, soek en te vervang, verskeie tale, HTML entiteit kode - accentuering",
+                "Ondersteuning Toc (Inhoudsopgawe), Emoji uitdrukking, TaskLists (taak kaart), @Links (skakel)",
                 "Ondersteuning dekodering en filtrering van HTML tags en eienskappe",
-                "Ondersteuning Texas (latex uitdrukking, Katex maatskappy), vloeidiagramme en volgorde diagramme",
-                "Ondersteuning lêers herstel meganisme",
-                "Ondersteuning verskeie redigering, onbeperkte aantal"
+                "Ondersteuning Tex (latex uitdrukking, KaTeX), vloeidiagram en volgorde diagram",
+                "Ondersteuning Document Recovery Meganisme"
             ]
         },
         "UserReviews": {
-            "SectionName": "Hoe om MarkdownD evalueer",
+            "SectionName": "Wonderlike dinge wat mense sê oor MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD is amazing. Eenvoudig. Skoon te maak. Perfeksie. Mooi gedoen.",
+                    "reviewContent": "MarkdownD is groot. Eenvoudige, skoon, volmaak. Mooi gedoen.",
                     "userName": "evanw",
                     "professional": "tegnologie Bevordering"
                 },
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "vrylating",
+        "labelVersion": "weergawe",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "vrylating",
+        "labelVersion": "weergawe",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "aankoop",
+        "SectionName": "koop",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "beskikbare tale",
-        "ChangeAlert": "Volledige skakelaar taal"
+        "SectionName": "Beskikbare tale (MT)",
+        "ChangeAlert": "Voltooiing skakelaar taal"
     }
 }

@@ -1,20 +1,20 @@
 {
     "TopBar": {
         "Home": "хона",
-        "Feature": "Хусусиятҳое,",
-        "Documents": "Кӯмаки онлайн",
-        "ReleaseNotes": "Заметки Release",
-        "Downloads": "мурофиаи Free",
-        "Buy": "Харид",
-        "Roadmap": "хати Маҳсулоти",
-        "ReportIssue": "Гузориши мушкилоти",
-        "Languages": "забон"
+        "Feature": "Вижагиҳо",
+        "Documents": "Ҳуҷҷатҳои",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "мурофиаи",
+        "Buy": "харидан",
+        "Roadmap": "харитаи",
+        "ReportIssue": "Масъалаҳои",
+        "Languages": "Бо забонҳои дигар"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "муҳаррири Markdown комилан барҷаста. Ин дастгирӣ Windows, Linux ва MacOSX системаи пардозанда.",
-        "BtnDownload": "мурофиаи Free",
-        "BtnBuy": "Харид",
+        "ProjectTagline": "муҳаррири Markdown Full-тавсиф меёбад. Барои Windows, Linux ва MacOSX.",
+        "BtnDownload": "мурофиаи",
+        "BtnBuy": "харидан",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Маҳсулоти хусусиятҳои асосии",
+            "SectionName": "Хусусиятҳои асосии MarkdownD",
             "list": [
                 "Дастгирии содироти Ба PDF",
-                "Чоп дастгирии њуљљати",
-                "Дастгирии нархи стандартӣ / CommonMark ва GFM (GitHub аз Markdown)",
+                "Дастгирии Print",
+                "Дастгирии стандарти Markdown / CommonMark ва GFM (GitHub) Flavored Markdown",
                 "Дастгирии Live Пешнамоиши",
-                "Дастгирии матн формат дода, блокҳои коди, ҷадвалҳо, рамзи туморе, ҷустуҷӯ ва иваз, бисёрсолаи забони HTML рамзи шахси наҳвӣ Равшансозӣ",
-                "Дастгирии TOC (мундариҷа), дар ифодаи emoticons, рӯйхати вазифа (харитаи вазифа), @ (← пайвандҳо)",
+                "Дастгирии формат кардани матн, блокҳои коди, ҷадвалҳо, рамзи туморе, ҷустуҷӯ ва иваз, бо якчанд забон, HTML рамзи шахси - Равшансозӣ наҳвӣ",
+                "Дастгирии Toc (Мундариҷа), ифодаи Emoji, TaskLists (харитаи вазифаи), @Links (пайванд)",
                 "рамзкушоӣ Дастгирӣ ва филтри раыами HTML ва хусусиятҳои",
-                "Дастгирии Техас (ифодаи самимаҳо, Katex ширкат), flowcharts ва диаграммаҳо пайдарпаии",
-                "Файлҳои Дастгирии механизми барқарорсозӣ",
-                "Дастгирии таҳриркунӣ сершумор, шумораи бемаҳдуди"
+                "Дастгирии Текс (ифодаи LaTeX, KaTeX), ҷорист диаграммаи ва пайдарпаии диаграммаи",
+                "Механизми Дастгирии Барќарорсозии ҳуҷҷат"
             ]
         },
         "UserReviews": {
-            "SectionName": "Чӣ тавр баҳо MarkdownD",
+            "SectionName": "чизҳои аҷоиб мардум гуфт: дар бораи MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD аҷиб аст. Оддӣ. Тоза. Комилият. Nicely анҷом дода мешавад.",
+                    "reviewContent": "MarkdownD бузург аст. Содда, тоза ва комил. Nicely анҷом дода мешавад.",
                     "userName": "evanw",
                     "professional": "Пешбурди Технология"
                 },
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "озод кардан",
+        "labelVersion": "Version",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "озод кардан",
+        "labelVersion": "Version",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "Харид",
+        "SectionName": "харидан",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "бо забонҳои дигар",
-        "ChangeAlert": "забони Калиди пурра"
+        "SectionName": "забони дастрас (ВН)",
+        "ChangeAlert": "Хатми забони Калиди"
     }
 }

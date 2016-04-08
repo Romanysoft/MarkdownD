@@ -2,19 +2,19 @@
     "TopBar": {
         "Home": "ہوم",
         "Feature": "خصوصیات",
-        "Documents": "آن لائن مدد",
-        "ReleaseNotes": "ریلیز نوٹس",
-        "Downloads": "مفت ٹیسٹ کی",
-        "Buy": "خریدیں",
-        "Roadmap": "پروڈکٹ لائن",
-        "ReportIssue": "ایک مسئلہ کی رپورٹ کریں",
-        "Languages": "زبان"
+        "Documents": "دستاویزات",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "آزمائشی",
+        "Buy": "خریدنے",
+        "Roadmap": "روڈ میپ",
+        "ReportIssue": "مسائل",
+        "Languages": "زبانیں"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Markdown ایڈیٹر مکمل طور پر فعال. یہ ونڈوز، لینکس اور MacOSX آپریٹنگ سسٹم کی حمایت کرتا ہے.",
-        "BtnDownload": "مفت ٹیسٹ کی",
-        "BtnBuy": "خریدیں",
+        "ProjectTagline": "مکمل خصوصیات Markdown ایڈیٹر. ونڈوز، لینکس اور MacOSX لئے.",
+        "BtnDownload": "آزمائشی",
+        "BtnBuy": "خریدنے",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "مصنوعات کی اہم خصوصیات",
+            "SectionName": "MarkdownD کی اہم خصوصیات",
             "list": [
                 "PDF کو برآمد کی حمایت کرتا ہے",
-                "دستاویز کی حمایت پرنٹ",
-                "کی حمایت کرتا ہے معیاری قیمت / CommonMark اور GFM (ڈالنے کے GitHub کے)",
+                "پرنٹ حمایت",
+                "کی حمایت معیاری ڈالنے / CommonMark اور GFM (GitHub کے) ذائقہ ڈالنے",
                 "لائیو مشاہدہ سپورٹ",
-                "فارمیٹڈ متن، کوڈ بلاکس، میزیں، کوڈ تہ، تلاش اور کی جگہ، کثیر زبان، HTML ہستی کوڈ نحو کو اجاگر حمایت",
-                "سپورٹ TOC (فہرست کے ٹیبل)، جذباتیہ کے اظہار، کام کی فہرست (ٹاسک نقشہ)، @ (روابط ←)",
+                "سپورٹ فارمیٹڈ متن، کوڈ بلاکس، میزیں، کوڈ تہ، تلاش اور کی جگہ، ایک سے زیادہ زبانوں، HTML ہستی کوڈ - نحو کو اجاگر",
+                "سپورٹ Toc کی (فہرست کے ٹیبل)، emoji کے اظہار، TaskLists (ٹاسک نقشہ)،Links (لنک)",
                 "سپورٹ ضابطہ کشائی اور HTML ٹیگ اور اوصاف کی فلٹرنگ",
-                "سپورٹ ٹیکساس (لیٹیکس اظہار، Katex کمپنی)، فلو چارٹس اور تسلسل diagrams",
-                "سپورٹ فائلوں کی وصولی کے طریقہ کار",
-                "ایک سے زیادہ ایڈیٹنگ سپورٹ، لامحدود تعداد"
+                "سپورٹ ٹیکس (لیٹیکس اظہار، KaTeX)، بہاؤ آریھ اور ترتیب آریھ",
+                "سپورٹ دستاویز سے شفایابی میکانزم"
             ]
         },
         "UserReviews": {
-            "SectionName": "MarkdownD کا اندازہ کرنے کے لئے کس طرح",
+            "SectionName": "حیرت انگیز چیزیں لوگوں MarkdownD کے بارے میں کہہ رہے ہیں",
             "list": [
                 {
-                    "reviewContent": "MarkdownD حیرت انگیز ہے. سادہ. کلین. کمال. اچھی طرح سے کیا.",
+                    "reviewContent": "MarkdownD بہت اچھا ہے. سادہ، صاف، کامل. اچھی طرح سے کیا.",
                     "userName": "evanw",
                     "professional": "ٹیکنالوجی بنانے"
                 },
@@ -57,7 +56,7 @@
                     "professional": "ویب ڈویلپرز اور ڈیزائنرز"
                 },
                 {
-                    "reviewContent": "مجھے سچ MarkdownD طرح، بہت بڑی سہولت لایا ہے؛ میرے کام.",
+                    "reviewContent": "واقعی MarkdownD جیسے میں، بہت بڑی سہولت لایا ہے؛ میرا کام.",
                     "userName": "jeruss",
                     "professional": "پی ایچ پی کے فریم ورک کی نشوونما سے متعلق"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "ریلیز",
+        "labelVersion": "ورژن",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -224,7 +232,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "بگ اصلاحات."
+                        "content": "بگ کی اصلاحات."
                     }
                 ]
             },
@@ -233,7 +241,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "بگ اصلاحات."
+                        "content": "بگ کی اصلاحات."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "ریلیز",
+        "labelVersion": "ورژن",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "خریدیں",
+        "SectionName": "خریدنے",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "دستیاب زبانیں",
-        "ChangeAlert": "مکمل سوئچ زبان"
+        "SectionName": "زبان دستیاب (MT)",
+        "ChangeAlert": "مکمل کرنے کے سوئچ زبان"
     }
 }

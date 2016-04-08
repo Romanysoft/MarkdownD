@@ -1,20 +1,20 @@
 {
     "TopBar": {
         "Home": "namo",
-        "Feature": "Įranga",
-        "Documents": "Pagalba",
-        "ReleaseNotes": "Release Notes",
-        "Downloads": "Nemokama bandomoji versija",
-        "Buy": "pirkti",
-        "Roadmap": "Produktų linija",
-        "ReportIssue": "Pranesti apie iskilusia problema",
-        "Languages": "kalba"
+        "Feature": "funkcijos",
+        "Documents": "Dokumentai",
+        "ReleaseNotes": "releasenotes",
+        "Downloads": "bandomasis",
+        "Buy": "nupirkti",
+        "Roadmap": "planas",
+        "ReportIssue": "Problemos",
+        "Languages": "kalbos"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Akcijos kainos redaktorius visiškai funkcionalus. Jis palaiko Windows, Linux ir MacOSX operacinę sistemą.",
-        "BtnDownload": "Nemokama bandomoji versija",
-        "BtnBuy": "pirkti",
+        "ProjectTagline": "Pilnai reklamos kainos redaktorius. Windows, Linux ir MacOSX.",
+        "BtnDownload": "bandomasis",
+        "BtnBuy": "nupirkti",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Produkto pagrindiniai bruožai",
+            "SectionName": "Pagrindinės funkcijos MarkdownD",
             "list": [
                 "Palaiko eksportuoti į PDF",
-                "Spausdinkite dokumentą paramą",
-                "Palaiko standartinė kaina / CommonMark ir GFM (GitHub iš reklamos kainos)",
+                "palaiko Spausdinti",
+                "Pagalba standartas reklamos kainos / CommonMark ir GFM (GitHub) aromatinga reklamos kainos",
                 "Live \"palaikymas Peržiūrėti",
-                "Palaiko suformatuotą tekstą, kodas blokus, Stalai, kodas lankstymo, paieškos ir pakeisti, multi-kalbos, HTML asmens kodas sintaksės išryškinimas",
-                "Pagalba BOA (turinys), šypsenėlių išraiška, užduočių sąraše (užduočių žemėlapis), @ (nuorodos)",
+                "Pagalba formatuoti tekstą, kodas blokai, stalai, kodas lankstymo, paiešką ir pakeisti, keliomis kalbomis, xHTML asmens kodas - sintaksės išryškinimas",
+                "Pagalba TOC dienos vertės (Turinys), jaustukai išraiška, TaskLists (užduočių žemėlapis), @Links (nuoroda)",
                 "Pagalba dekodavimo ir filtravimas HTML žymas ir atributus",
-                "Pagalba Teksasas (latekso išraiška, KATEX įmonė), Schemos ir Sekos diagramos",
-                "Paramos failų atkūrimo mechanizmas",
-                "Palaikomi redagavimas, neribotas skaičius"
+                "Pagalba Tex (latekso išraiška, KATEX) lygtyje ir sekos diagrama",
+                "Dokumentų palaikymas atkūrimo mechanizmas"
             ]
         },
         "UserReviews": {
-            "SectionName": "Kaip įvertinti MarkdownD",
+            "SectionName": "Nuostabių dalykų žmonės sako apie MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD yra nuostabi. Paprasta. Švarus. Tobulumo. Gražiai padaryta.",
+                    "reviewContent": "MarkdownD yra puikus. Paprasta, švarus, tobula. Gražiai padaryta.",
                     "userName": "evanw",
                     "professional": "technologijos skatinimas"
                 },
@@ -57,7 +56,7 @@
                     "professional": "Interneto svetainių kūrėjai ir dizaineriai"
                 },
                 {
-                    "reviewContent": "Man tikrai patinka MarkdownD, atnešė didelį patogumą; mano darbą.",
+                    "reviewContent": "Man tikrai patinka MarkdownD, atnešė didelį patogumą; Mano darbas.",
                     "userName": "jeruss",
                     "professional": "PHP pagrindus plėtrai"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "paleidimas",
+        "labelVersion": "versija",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "paleidimas",
+        "labelVersion": "versija",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "pirkti",
+        "SectionName": "nupirkti",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Galimos kalbos",
-        "ChangeAlert": "Pilnas jungiklis kalba"
+        "SectionName": "Turimas kalba (LT)",
+        "ChangeAlert": "Užbaigti jungiklis kalba"
     }
 }

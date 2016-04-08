@@ -2,18 +2,18 @@
     "TopBar": {
         "Home": "Kāinga",
         "Feature": "āhuatanga",
-        "Documents": "Āwhina online",
-        "ReleaseNotes": "tuku Notes",
-        "Downloads": "Whakamātau Free",
+        "Documents": "tuhinga",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "Trial",
         "Buy": "hoko",
-        "Roadmap": "raina hua",
-        "ReportIssue": "Pūrongo i te raruraru",
+        "Roadmap": "mape",
+        "ReportIssue": "take",
         "Languages": "reo"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "ētita Markdown tino mahi. E tautoko ana i te pūnaha whakahaere Windows, Linux ko MacOSX.",
-        "BtnDownload": "Whakamātau Free",
+        "ProjectTagline": "ētita Markdown tonu-ngā. Hoki Windows, Linux ko MacOSX.",
+        "BtnDownload": "Trial",
         "BtnBuy": "hoko",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "āhuatanga matua Hua",
+            "SectionName": "Āhuatanga Main o MarkdownD",
             "list": [
                 "Tautoko ana kaweake ki PDF",
-                "Tāngia te tuhinga tautoko",
-                "Tautoko utu paerewa / CommonMark me GFM (GitHub o Markdown)",
+                "tautoko ana Tā",
+                "Tautoko paerewa Markdown / CommonMark me GFM (GitHub) whakarehu Markdown",
                 "Tautoko Arokite Live",
-                "Tautoko ana kuputuhi whakahōputu, poraka waehere, tepu, waehere kotuituitanga, rapu me te whakakapi,-reo maha, HTML waehere hinonga wetereo pūkaha",
-                "Tautoko TOC (ripanga ihirangi), te faaiteraa o emoticons, te rārangi mahi (te mahere mahi), @ (hononga)",
+                "Tautoko whakahōputu kuputuhi, poraka waehere, tepu, waehere kotuituitanga, rapu me te whakakapi, reo maha, HTML waehere hinonga - wetereo pūkaha",
+                "Tautoko TOC (Ripanga o Ihirangi), Emoji whakapuaki, TaskLists (mahi mahere), @Links (hono)",
                 "Tautoko wetemuna me te tātari o ngā tūtohu HTML me huanga",
-                "Tautoko Texas (taherapa faaiteraa, Katex kamupene), flowcharts me hoahoa raupapa",
-                "kōnae tautoko whakaora tikanga",
-                "Tautoko whakatika maha, tau mutunga"
+                "Tautoko Tex (taherapa faaiteraa, KaTeX), rere hoahoa me te raupapa hoahoa",
+                "Tikanga Tautoko Whakaora Tuhinga"
             ]
         },
         "UserReviews": {
-            "SectionName": "Me pēhea te ki te arotake i MarkdownD",
+            "SectionName": "Kei te mea faahiahia mea te iwi e pā ana ki MarkdownD",
             "list": [
                 {
-                    "reviewContent": "He mīharo MarkdownD. Simple. Clean. Tino. Kiri mahi.",
+                    "reviewContent": "He nui MarkdownD. Simple, ma, tino tika. Kiri mahi.",
                     "userName": "evanw",
                     "professional": "hangarau Whakatairanga"
                 },
@@ -57,7 +56,7 @@
                     "professional": "ngā tukutuku me kaihoahoa"
                 },
                 {
-                    "reviewContent": "tino rite MarkdownD, kua kawea mai e ahau haratau nui: toku mahi.",
+                    "reviewContent": "Kua kawea mai e ahau tino rite MarkdownD, haratau nui; toku mahi.",
                     "userName": "jeruss",
                     "professional": "whanaketanga anga PHP"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "tuku",
+        "labelVersion": "putanga",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "tuku",
+        "labelVersion": "putanga",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Reo e wātea ana",
-        "ChangeAlert": "reo whakakā Whakaoti"
+        "SectionName": "reo e wātea ana (MT)",
+        "ChangeAlert": "Whakaoti te reo whakakā"
     }
 }

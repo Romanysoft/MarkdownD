@@ -1,19 +1,19 @@
 {
     "TopBar": {
         "Home": "Cartref",
-        "Feature": "nodweddion",
-        "Documents": "Help ar-lein",
-        "ReleaseNotes": "Nodiadau Rhyddhau",
-        "Downloads": "Treial am ddim",
+        "Feature": "Nodweddion",
+        "Documents": "dogfennau",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "treial",
         "Buy": "prynu",
-        "Roadmap": "cynnyrch llinell",
-        "ReportIssue": "Rhoi gwybod am broblem",
-        "Languages": "iaith"
+        "Roadmap": "Map Ffyrdd",
+        "ReportIssue": "Materion",
+        "Languages": "ieithoedd"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "golygydd Markdown gwbl weithredol. Mae'n cefnogi Windows, Linux a MacOSX system weithredu.",
-        "BtnDownload": "Treial am ddim",
+        "ProjectTagline": "golygydd Markdown ymddangos-llawn. Ar gyfer Windows, Linux a MacOSX.",
+        "BtnDownload": "treial",
         "BtnBuy": "prynu",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Cynnyrch prif nodweddion",
+            "SectionName": "Prif Nodweddion MarkdownD",
             "list": [
                 "Yn cefnogi allforio i PDF",
-                "Argraffwch y gefnogaeth ddogfen",
-                "Cefnogi pris safonol / CommonMark a GFM (GitHub o Markdown)",
+                "cefnogi Print",
+                "Cefnogaeth safonol Markdown / CommonMark a GFM (GitHub) blas Markdown",
                 "Cymorth Rhagolwg Byw",
-                "Cefnogi testun fformatio, blociau cod, tablau, cod plygu, chwilio a disodli, aml-iaith, HTML cod endid amlygu cystrawen",
-                "Cymorth TOC (tabl cynnwys), y mynegiant o emoticons, mae'r rhestr dasg (y map dasg), @ (cysylltiadau)",
+                "Cymorth fformatio testun, blociau cod, tablau, cod plygu, chwilio a disodli, ieithoedd lluosog, HTML cod endid - amlygu cystrawen",
+                "Cymorth Toc (Tabl Cynnwys), Emoji mynegiant, TaskLists (map tasg), @Links (cyswllt)",
                 "Cymorth datgodio a hidlo o dagiau HTML a phriodoleddau",
-                "Cymorth Texas (mynegiant latecs, Katex cwmni), siartiau llif a diagramau dilyniant",
-                "Ffeiliau Cymorth mecanwaith adennill",
-                "Cefnogaeth golygu lluosog, nifer digyfyngiad"
+                "Cymorth Tex (mynegiant latecs, KaTeX), llif ddiagram a dilyniant diagram",
+                "Mecanwaith Document Cefnogi Adferiad"
             ]
         },
         "UserReviews": {
-            "SectionName": "Sut i werthuso MarkdownD",
+            "SectionName": "pethau rhyfeddol pobl yn ei ddweud am MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD yn anhygoel. Syml. Glân. Berffeithrwydd. wneud 'n glws.",
+                    "reviewContent": "MarkdownD yn wych. Syml, yn lân, yn berffaith. wneud 'n glws.",
                     "userName": "evanw",
                     "professional": "Hyrwyddo technoleg"
                 },
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Rhyddhau",
+        "labelVersion": "fersiwn",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Rhyddhau",
+        "labelVersion": "fersiwn",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Ieithoedd sydd ar gael",
+        "SectionName": "iaith sydd ar gael (MT)",
         "ChangeAlert": "Cwblhau iaith switsh"
     }
 }

@@ -2,19 +2,19 @@
     "TopBar": {
         "Home": "နေအိမ်",
         "Feature": "အင်္ဂါရပ်များ",
-        "Documents": "အွန်လိုင်းအကူအညီ",
-        "ReleaseNotes": "ဖြန့်ချိမှတ်စုများ",
-        "Downloads": "အခမဲ့စမ်းသပ်",
-        "Buy": "အရစ်ကျ",
-        "Roadmap": "ကုန်ထုတ်ရေးလိုင်း",
-        "ReportIssue": "ပြဿနာတစ်ခုတိုင်ကြားရန်",
-        "Languages": "ဘာသာစကား"
+        "Documents": "စာရွက်စာတမ်းများ",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "စမ်းသပ်ခြင်း",
+        "Buy": "ယ်ယူရန်",
+        "Roadmap": "လမ်းပြမြေပုံ",
+        "ReportIssue": "ကိစ္စရပ်များကို",
+        "Languages": "ဘာသာစကားများ"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "အပြည့်အဝအလုပ်လုပ်တဲ့ Markdown အယ်ဒီတာ။ ဒါဟာကို Windows, Linux နဲ့ MacOSX operating system ကိုထောက်ခံပါတယ်။",
-        "BtnDownload": "အခမဲ့စမ်းသပ်",
-        "BtnBuy": "အရစ်ကျ",
+        "ProjectTagline": "full-အထူးပြုလုပ်ထားသော Markdown အယ်ဒီတာ။ ကို Windows, Linux နဲ့ MacOSX သည်။",
+        "BtnDownload": "စမ်းသပ်ခြင်း",
+        "BtnBuy": "ယ်ယူရန်",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "ကုန်ပစ္စည်းအဓိက features တွေ",
+            "SectionName": "MarkdownD ၏အဓိကအင်္ဂါရပ်များ",
             "list": [
                 "PDF ကိုမှတင်ပို့အထောက်အကူ",
-                "စာရွက်စာတမ်းထောက်ခံမှု Print",
-                "စံစျေးနှုန်း / CommonMark နှင့် GFM (Markdown ၏ GitHub) ကိုအထောက်အပံ့ပေးနိုင်ပါတယ်",
+                "ပရင့်ထုတ်ရန်ကို support",
+                "ထောကျပံ့စံ Markdown / CommonMark နှင့် GFM (GitHub) အရသာ Markdown",
                 "တိုက်ရိုက်ကို Preview ပံ့ပိုးမှု",
-                "ချပ်စာသား, code ကိုလုပ်ကွက်များ, ကျောက်ပြား, code ကိုခေါက်, ရှာအစားထိုးဖို့, Multi-ဘာသာစကား, HTML ကို entity code ကို syntax highlighting ကို support",
-                "ပံ့ပိုးမှု TOC (မာတိကာ), ရုပ်ပြောင်၏ဟူသောအသုံးအနှုနျး, task ကိုစာရင်း (task ကိုမြေပုံ), @ (←လင့်များ)",
+                "ပံ့ပိုးမှုချပ်စာသား, code ကိုလုပ်ကွက်များ, ကျောက်ပြား, code ကိုခေါက်, ရှာအစားထိုးဖို့, ဘာသာစကားမျိုးစုံ, HTML ကို entity code ကို - syntax highlighting",
+                "ပံ့ပိုးမှု Toc (မာတိကာ), အီမိုဂျီစကားရပ်, TaskLists (အလုပ်တခုကိုမြေပုံ), @Links (link ကို)",
                 "HTML ကို Tag တွေနဲ့ attribute ၏ဒီကုဒ်ဒါနှင့် filtering ကိုထောကျပံ့",
-                "ပံ့ပိုးမှုတက္ကဆက်ပြည်နယ် (ရာဘာစေးစကားရပ်, Katex ကုမ္ပဏီ), flowcharts နှင့် sequence ကိုကားချပ်",
-                "ပံ့ပိုးမှုဖိုင်တွေပြန်လည်နာလန်ထူရေးယန္တရား",
-                "မျိုးစုံတည်းဖြတ်, န့်အသတ်အရေအတွက်ကိုထောကျပံ့"
+                "ပံ့ပိုးမှု Tex (စေးစကားရပ်, KaTeX), စီးဆင်းမှုပုံနှင့် sequence ကိုပုံ",
+                "စာရွက်စာတမ်းပြန်လည်ထူထောင်ရေးယန္တရားကိုထောကျပံ့"
             ]
         },
         "UserReviews": {
-            "SectionName": "MarkdownD အကဲဖြတ်ဖို့ကိုဘယ်လို",
+            "SectionName": "အံ့ဘွယ်သောအမှုအရာကလူ MarkdownD အကြောင်းကိုပြောနေ",
             "list": [
                 {
-                    "reviewContent": "MarkdownD အံ့သြစရာဖြစ်ပါတယ်။ ရိုးရှင်းတဲ့။ စင်ကြယ်သော။ စုံလင်ခြင်း။ Nice ပြုသောအမှု။",
+                    "reviewContent": "MarkdownD ကြီးလှ၏။ ရိုးရှင်းစင်ကြယ်သော, စုံလင်သော။ Nice ပြုသောအမှု။",
                     "userName": "evanw",
                     "professional": "နည်းပညာမြှင့်တင်ရေး"
                 },
@@ -57,7 +56,7 @@
                     "professional": "Web ကို developer များနှင့်ဒီဇိုင်နာများ"
                 },
                 {
-                    "reviewContent": "ငါတကယ် MarkdownD တူ, ကြီးသောအဆင်ပြေကိုဆောင်ခဲ့ပြီငါ၏အမှု။",
+                    "reviewContent": "ငါတကယ် MarkdownD တူ, ကြီးသောအဆင်ပြေဆောင်ခဲ့တော်မူပြီ, ငါ့အလုပ်။",
                     "userName": "jeruss",
                     "professional": "PHP ကို​​မူဘောင်ဖွံ့ဖြိုးရေးလုပ်ငန်း"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "လွှတ်ပေး",
+        "labelVersion": "ဗားရှင်း",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "လွှတ်ပေး",
+        "labelVersion": "ဗားရှင်း",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "အရစ်ကျ",
+        "SectionName": "ယ်ယူရန်",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "ရရှိနိုင်ဘာသာစကားများ",
-        "ChangeAlert": "အပြီးအစီး switch ကိုဘာသာစကား"
+        "SectionName": "ရရှိနိုင်ဘာသာစကား (MT)",
+        "ChangeAlert": "Completing switch ကိုဘာသာစကား"
     }
 }

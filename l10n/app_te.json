@@ -1,19 +1,19 @@
 {
     "TopBar": {
         "Home": "హోమ్",
-        "Feature": "ఫీచర్స్",
-        "Documents": "ఆన్లైన్ సహాయం",
+        "Feature": "లక్షణాలు",
+        "Documents": "పత్రాలు",
         "ReleaseNotes": "విడుదల గమనికలు",
-        "Downloads": "ఉచిత ట్రయల్",
+        "Downloads": "ట్రయల్",
         "Buy": "కొనుగోలు",
-        "Roadmap": "ఉత్పత్తి లైన్",
-        "ReportIssue": "ఒక సమస్యను నివేదించండి",
-        "Languages": "భాషా"
+        "Roadmap": "రోడ్మ్యాప్",
+        "ReportIssue": "సమస్యలు",
+        "Languages": "భాషలు"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Markdown ఎడిటర్ పూర్తిగా ఫంక్షనల్. ఇది Windows, Linux మరియు MacOSX ఆపరేటింగ్ సిస్టమ్ మద్దతు.",
-        "BtnDownload": "ఉచిత ట్రయల్",
+        "ProjectTagline": "పూర్తి లక్షణాలు Markdown ఎడిటర్. విండోస్, లినక్స్ మరియు MacOSX కోసం.",
+        "BtnDownload": "ట్రయల్",
         "BtnBuy": "కొనుగోలు",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "ఉత్పత్తి ప్రధాన లక్షణాలు",
+            "SectionName": "MarkdownD యొక్క ప్రధాన లక్షణాలు",
             "list": [
                 "PDF కు ఎగుమతి మద్దతు",
-                "పత్రం మద్దతు ముద్రించండి",
-                "మద్దతు ప్రామాణిక ధర / CommonMark మరియు GFM (Markdown యొక్క గ్యాలరీలు)",
+                "ప్రింట్ మద్దతు",
+                "మద్దతు ప్రామాణిక Markdown / CommonMark మరియు GFM (గ్యాలరీలు) ఫ్లేవర్డ్ Markdown",
                 "ప్రత్యక్ష ప్రివ్యూ మద్దతు",
-                "ఆకృతీకరణ టెక్స్ట్ సంకేత భాగాల, పట్టికలు, కోడ్ మడత, శోధన మరియు భర్తీ, బహుళ భాష, HTML అంశం కోడ్ సింటాక్స్ హైలైటింగ్ మద్దతు",
-                "మద్దతు TOC (విషయాల పట్టిక), ఎమిటోటికన్స్ యొక్క వ్యక్తీకరణ, పని జాబితా (కార్య మాప్), @ (లింకులు)",
+                "మద్దతు ఆకృతీకరణ టెక్స్ట్ సంకేత భాగాల, పట్టికలు, కోడ్ మడత, శోధన మరియు భర్తీ, బహుళ భాషలు, HTML అంశం కోడ్ - సింటాక్స్ హైలైటింగ్",
+                "మద్దతు TOC (విషయ సూచిక), ఎమోజి వ్యక్తీకరణ, TaskLists (విధిని మ్యాప్), @Links (లింక్)",
                 "మద్దతు డీకోడింగ్ మరియు HTML టాగ్లు మరియు లక్షణాలను వడపోత",
-                "మద్దతు టెక్సాస్ (రబ్బరు పాలు వ్యక్తీకరణ, Katex సంస్థ), ఫ్లోచార్ట్లను మరియు క్రమం రేఖాచిత్రాలు",
-                "మద్దతు ఫైళ్లు రికవరీ మెకానిజం",
-                "బహుళ ఎడిటింగ్, అపరిమిత సంఖ్యలో"
+                "మద్దతు టెక్స్ (LaTeX వ్యక్తీకరణ, KaTeX), ప్రవాహం రేఖాచిత్రం మరియు క్రమం రేఖాచిత్రం",
+                "మద్దతు డాక్యుమెంట్ రికవరీ మెకానిజం"
             ]
         },
         "UserReviews": {
-            "SectionName": "MarkdownD విశ్లేషించడానికి ఎలా",
+            "SectionName": "అద్భుతమైన విషయాలను ప్రజలు MarkdownD గురించి చెప్తున్నావు",
             "list": [
                 {
-                    "reviewContent": "MarkdownD అద్భుతమైన ఉంది. సింపుల్. క్లీన్. పెర్ఫెక్షన్. చక్కగా పూర్తి.",
+                    "reviewContent": "MarkdownD బాగుంది. పరిపూర్ణ, సాధారణ శుభ్రంగా. చక్కగా పూర్తి.",
                     "userName": "evanw",
                     "professional": "టెక్నాలజీ ప్రమోషన్"
                 },
@@ -57,7 +56,7 @@
                     "professional": "వెబ్ డెవలపర్లు మరియు డిజైనర్లు"
                 },
                 {
-                    "reviewContent": "నా పని; నేను నిజంగా MarkdownD వంటి గొప్ప సౌలభ్యం తెచ్చిపెట్టింది.",
+                    "reviewContent": "నేను నిజంగా MarkdownD వంటి గొప్ప సౌలభ్యం తెచ్చిపెట్టింది; నా పని.",
                     "userName": "jeruss",
                     "professional": "PHP ఫ్రేమ్ అభివృద్ధి"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "విడుదల",
+        "labelVersion": "వెర్షన్",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -224,7 +232,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "బగ్ దిద్దుబాట్లు."
+                        "content": "బగ్ పరిష్కారాలను."
                     }
                 ]
             },
@@ -233,7 +241,7 @@
                 "list": [
                     {
                         "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "బగ్ దిద్దుబాట్లు."
+                        "content": "బగ్ పరిష్కారాలను."
                     },
                     {
                         "platform": "{{Windows}}",
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "విడుదల",
+        "labelVersion": "వెర్షన్",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "అందుబాటులో ఉన్న భాషలు",
-        "ChangeAlert": "పూర్తి స్విచ్ భాష"
+        "SectionName": "లభ్యమయ్యే భాషలు (ఎంటి)",
+        "ChangeAlert": "పూర్తయిన స్విచ్ భాష"
     }
 }

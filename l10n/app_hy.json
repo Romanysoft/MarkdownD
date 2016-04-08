@@ -1,20 +1,20 @@
 {
     "TopBar": {
         "Home": "տուն",
-        "Feature": "Հատկանիշներ",
-        "Documents": "առցանց Օգնություն",
-        "ReleaseNotes": "ՕՆԼԱՅՆ Notes",
-        "Downloads": "Ազատ դատավարությունը",
-        "Buy": "գնում",
-        "Roadmap": "արտադրական գիծը",
-        "ReportIssue": "Հաղորդել խնդիր",
-        "Languages": "լեզու"
+        "Feature": "Հատկություններ",
+        "Documents": "փաստաթղթերը",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "փորձնական",
+        "Buy": "գնել",
+        "Roadmap": "Ճանապարհային քարտեզը",
+        "ReportIssue": "Քննարկվել",
+        "Languages": "լեզուներ"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Markdown գլխավոր խմբագիր լիովին ֆունկցիոնալ. Այն աջակցում է Windows, Linux եւ MacOSX օպերացիոն համակարգը:",
-        "BtnDownload": "Ազատ դատավարությունը",
-        "BtnBuy": "գնում",
+        "ProjectTagline": "Ամբողջ հնարավորություններով markdown խմբագիր. For Windows, Linux եւ MacOSX:",
+        "BtnDownload": "փորձնական",
+        "BtnBuy": "գնել",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Product հիմնական հատկանիշները",
+            "SectionName": "Հիմնական հատկանիշները MarkdownD",
             "list": [
                 "Աջակցում արտահանում է PDF",
-                "Տպել փաստաթուղթը աջակցություն",
-                "Աջակցում ստանդարտ գին / CommonMark եւ gfm (GitHub Հյուրատետր markdown)",
+                "Աջակցում Տպել",
+                "Աջակցության ստանդարտ markdown / CommonMark եւ gfm (GitHub) համով markdown",
                 "Live Preview Support",
-                "Աջակցում տեքստի կոդը բլոկների, սեղաններ, կոդը ծալովի, որոնել եւ փոխարինել, բազմալեզու, HTML անձ կոդը syntax կարեւորելով",
-                "Support TOC (Բովանդակություն), որ արտահայտում emoticons, խնդիրը ցուցակը (խնդիրն քարտեզ), @ (հղումներ)",
+                "Support տեքստի code արգելափակում, սեղաններ, կոդը ծալովի, որոնել եւ փոխարինել, Multiple languages, HTML անձ կոդը - syntax կարեւորելով",
+                "Support Toc (Բովանդակություն), Զմայլիկների արտահայտությունը, TaskLists (խնդիրն քարտեզ), @Links (ՈՒղեցույց)",
                 "Աջակցության վերծանման եւ զտիչ HTML tags եւ ատրիբուտներից",
-                "Support Texas (լատեքսային արտահայտությունը, katex ընկերությունը), սխեմաներ եւ հաջորդականությունը դիագրամների",
-                "Աջակցություն ֆայլեր վերականգնման մեխանիզմ",
-                "Աջակցություն բազմակի խմբագրում, անսահմանափակ թվով"
+                "Support Tex (LaTex արտահայտությունը, katex) տատանման դիագրամ եւ հաջորդականությունը դիագրամ",
+                "Աջակցության Փաստաթուղթը վերականգնման մեխանիզմը"
             ]
         },
         "UserReviews": {
-            "SectionName": "Ինչպես գնահատել MarkdownD",
+            "SectionName": "Սքանչելիքները մարդիկ ասում են, MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD է զարմանալի. Simple: Մաքուր. Կատարելությունը: Իսկը արել.",
+                    "reviewContent": "MarkdownD մեծ է: Պարզ, մաքուր, կատարյալ. Իսկը արել.",
                     "userName": "evanw",
                     "professional": "Մեխանիկա Promotion"
                 },
@@ -57,7 +56,7 @@
                     "professional": "Վեբ ծրագրավորողներ եւ դիզայներներ"
                 },
                 {
-                    "reviewContent": "Ես, իրոք, նման MarkdownD, բերել մեծ հարմարության, իմ աշխատանքը:",
+                    "reviewContent": "Ես, իրոք, նման MarkdownD, բերել մեծ հարմարության. Իմ աշխատանքը.",
                     "userName": "jeruss",
                     "professional": "PHP շրջանակը զարգացման"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "ազատում",
+        "labelVersion": "տարբերակ",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "ազատում",
+        "labelVersion": "տարբերակ",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "գնում",
+        "SectionName": "գնել",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "հասանելի լեզուներ",
-        "ChangeAlert": "Complete անջատիչ լեզուն"
+        "SectionName": "Դուք փնտրել էք - լեզու (MT)",
+        "ChangeAlert": "Ավարտում անջատիչ լեզուն"
     }
 }

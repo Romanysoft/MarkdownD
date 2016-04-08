@@ -1,20 +1,20 @@
 {
     "TopBar": {
         "Home": "domov",
-        "Feature": "rysy",
-        "Documents": "online nápoveda",
-        "ReleaseNotes": "Poznámky k vydaniu",
-        "Downloads": "skúšobná verzia zdarma",
-        "Buy": "nákup",
-        "Roadmap": "Produktový rad",
-        "ReportIssue": "nahlásiť problém",
-        "Languages": "jazyk"
+        "Feature": "Vlastnosti",
+        "Documents": "Dokumenty",
+        "ReleaseNotes": "releasenotes",
+        "Downloads": "pokus",
+        "Buy": "kúpiť",
+        "Roadmap": "plán",
+        "ReportIssue": "problémy",
+        "Languages": "jazyky"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Markdown editor plne funkčné. To podporuje operačný systém Windows, Linux a MacOSX.",
-        "BtnDownload": "skúšobná verzia zdarma",
-        "BtnBuy": "nákup",
+        "ProjectTagline": "Markdown editor plne vybavený. Pre Windows, Linux a MacOSX.",
+        "BtnDownload": "pokus",
+        "BtnBuy": "kúpiť",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Účinky",
+            "SectionName": "Hlavné vlastnosti MarkdownD",
             "list": [
                 "Podpora exportu do PDF",
-                "Vytlačiť opierku dokumentov",
-                "Podporuje bežná cena / CommonMark a GFM (GitHub formátu Markdown)",
+                "podporuje tlač",
+                "Podpora štandardu Markdown / CommonMark a GFM (GitHub) Ochutené Markdown",
                 "Live Support Preview",
-                "Podporuje formátovaný text, bloky kódu, stoly, skladanie kódu, vyhľadávanie a nahrádzanie, multi-jazyk HTML kód entity zvýrazňovanie syntaxe",
-                "Podpora TOC (obsah), expresie emotikony, zoznamu úloh (mapa úloha), @ (odkazy)",
+                "Podpora formátovaný text, bloky kódu, stoly, kód skladacie, vyhľadávanie a nahrádzanie, viac jazykov, HTML kód entity - zvýrazňovanie syntaxe",
+                "Podpora Toc (Obsah), emotikonov výraz, TaskLists (mapa úloha), @Links (link)",
                 "Podpora dekódovania a filtrovanie HTML tagov a atribútov",
-                "Podpora Texas (latex výraz, spoločnosť Menič katiónov), vývojových diagramov a vývojových diagramov",
-                "Podporné súbory mechanizmus obnovy",
-                "Podpora viacerých úprav, neobmedzený počet"
+                "Podpora Tex (LaTeX výraz, Menič katiónov), vývojový diagram a sekvenčný diagram",
+                "Mechanizmus podpora Obnovenie dokumentu"
             ]
         },
         "UserReviews": {
-            "SectionName": "Ako hodnotiť MarkdownD",
+            "SectionName": "Divy ľudia hovoria o MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD je úžasné. Jednoduchá. Čistote. Dokonalosť. Dobrá práca.",
+                    "reviewContent": "MarkdownD je skvelý. Jednoduché, čisté, dokonalé. Dobre spravené.",
                     "userName": "evanw",
                     "professional": "technológia Promotion"
                 },
@@ -57,7 +56,7 @@
                     "professional": "Weboví vývojári a návrhári"
                 },
                 {
-                    "reviewContent": "Moc sa mi páči MarkdownD, priniesla veľké pohodlie, svoju prácu.",
+                    "reviewContent": "Moc sa mi páči MarkdownD, priniesla veľké pohodlie; moja práca.",
                     "userName": "jeruss",
                     "professional": "framework pre vývoj PHP"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "uvoľnenie",
+        "labelVersion": "verzia",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "uvoľnenie",
+        "labelVersion": "verzia",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "nákup",
+        "SectionName": "kúpiť",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "dostupné jazyky",
-        "ChangeAlert": "Kompletný prepínač jazyk"
+        "SectionName": "K dispozícii jazyk (MT)",
+        "ChangeAlert": "Dokončenie switch language"
     }
 }

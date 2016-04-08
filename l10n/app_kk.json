@@ -1,20 +1,20 @@
 {
     "TopBar": {
         "Home": "үй",
-        "Feature": "ерекшеліктері",
-        "Documents": "Онлайн анықтама",
-        "ReleaseNotes": "Release Notes",
-        "Downloads": "Тегін Trial",
-        "Buy": "сатып алу",
-        "Roadmap": "Өнім желісі",
-        "ReportIssue": "Мәселе туралы хабарлау",
-        "Languages": "тіл"
+        "Feature": "Мүмкіндіктер",
+        "Documents": "құжаттар",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "сот",
+        "Buy": "сатып",
+        "Roadmap": "Жол картасы",
+        "ReportIssue": "мәселелері",
+        "Languages": "Тілдер"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "толық функционалды шамасы редакторы. Ол Windows, Linux және MacOSX операциялық жүйесін қолдайды.",
-        "BtnDownload": "Тегін Trial",
-        "BtnBuy": "сатып алу",
+        "ProjectTagline": "Толық функционалды шамасы редакторы. Windows, Linux және MacOSX үшін.",
+        "BtnDownload": "сот",
+        "BtnBuy": "сатып",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Өнім негізгі белгілері",
+            "SectionName": "MarkdownD негізгі ерекшеліктері",
             "list": [
                 "PDF экспорттау тіректері",
-                "құжат қолдау Басып шығару",
-                "стандартты бағасы / CommonMark және ОМФ (шамасы GitHub) қолдайды",
+                "Басып шығару қолдайды",
+                "Қолдау стандартты шамасы / CommonMark және ОМФ (GitHub) Иістендірілген шамасы",
                 "Live Алдын ала қарау қолдау",
-                "Пішімделген мәтінді, коды блоктарын, кестелер, Коджолдарынбүктеу, іздеу және ауыстыру, көп тілді, HTML, ұйым коды синтаксисті бояулауы қолдайды",
-                "Қолдау TOC (Мазмұны), Смайликтер өрнек, тапсырмалар тізімі (міндет картасы), @ (← сілтемелер)",
+                "Қолдау пішімделген мәтін, коды блоктар, кестелер, коды жиналмалы, іздеу және ауыстыру, бірнеше тілдерді, HTML тұлға коды - синтаксис бөлектеу",
+                "Қолдау Toc (Мазмұны), эмодзилерді өрнек, TaskLists (міндет картасы), @Links (сілтеме)",
                 "HTML тегтері мен атрибуттарды декодтау және сүзуді қолдау",
-                "Қолдау Техас (латекс өрнек, Katex компания) графикалық схемалар және диаграммалар тізбегі",
-                "Қолдау файлдар қалпына келтіру механизмі",
-                "бірнеше редакциялау, шексіз санын қолдау"
+                "Қолдау Текс (латекс өрнек, KaTeX), блок-схемасы және реттілігі диаграмма",
+                "Құжатты қалпына келтіру механизміне қолдау"
             ]
         },
         "UserReviews": {
-            "SectionName": "MarkdownD бағалауға қалай",
+            "SectionName": "Керемет нәрселер адам MarkdownD туралы айтады",
             "list": [
                 {
-                    "reviewContent": "MarkdownD ғажайып. Қарапайым. Таза. Жетілдіру. Жақсы жасаған.",
+                    "reviewContent": "MarkdownD зор. Қарапайым, таза, тамаша. Жақсы жасаған.",
                     "userName": "evanw",
                     "professional": "технология Promotion"
                 },
@@ -57,7 +56,7 @@
                     "professional": "Веб әзірлеушілер мен дизайнерлер"
                 },
                 {
-                    "reviewContent": "Мен шынында MarkdownD сияқты үлкен қолайлылық әкелді; жұмысымды.",
+                    "reviewContent": "Мен шынында MarkdownD сияқты үлкен қолайлылық әкелді; менің жұмысым.",
                     "userName": "jeruss",
                     "professional": "PHP Framework дамыту"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "босату",
+        "labelVersion": "нұсқа",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "босату",
+        "labelVersion": "нұсқа",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "сатып алу",
+        "SectionName": "сатып",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Бар тілдері",
-        "ChangeAlert": "Толық қосқыш тілі"
+        "SectionName": "Қол жетімді тілі (МТ)",
+        "ChangeAlert": "Аяқтау қосқыш тілі"
     }
 }

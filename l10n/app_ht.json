@@ -2,18 +2,18 @@
     "TopBar": {
         "Home": "Kay",
         "Feature": "Karakteristik",
-        "Documents": "En jwèt ede",
-        "ReleaseNotes": "Nòt Release",
-        "Downloads": "gratis jijman",
+        "Documents": "Dokiman",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "Jijman",
         "Buy": "Achte",
-        "Roadmap": "pwodwi liy",
-        "ReportIssue": "Rapòte yon pwoblèm",
-        "Languages": "Lang"
+        "Roadmap": "Roadmap",
+        "ReportIssue": "Pwoblèm",
+        "Languages": "lang"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Rediksyon editè okonplè fonksyonèl. Li sipòte Windows, Linux ak makoo sistèm opere.",
-        "BtnDownload": "gratis jijman",
+        "ProjectTagline": "Plen Anons Spesyal editè rediksyon. Pou Windows, Linux ak makoo.",
+        "BtnDownload": "Jijman",
         "BtnBuy": "Achte",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Pwodwi karakteristik prensipal",
+            "SectionName": "Karakteristik prensipal yo nan MarkdownD",
             "list": [
                 "Sipòte ekspòte PDF",
-                "Enprime sipò nan dokiman",
-                "Sipòte estanda pri / CommonMark ak GFM (GitHub nan rediksyon)",
+                "sipòte Enprime",
+                "Sipò estanda rediksyon / CommonMark ak GFM (GitHub) Diferan gou rediksyon",
                 "Live Preview Sipò",
-                "Sipòte fòma tèks, blòk kòd, tab, kòd plisman, rechèch ak ranplase, milti-lang, HTML kòd antite sentaks eklèrsisaj",
-                "Sipò TOC (Table of Contents), ekspresyon ki nan emoticon, lis la travay (kat jeyografik la travay), @ (lyen yo)",
+                "Sipò fòma tèks, blòk kòd, tab, kòd plisman, rechèch ak ranplase, plizyè lang, HTML Kòd antite - sentaks eklèrsisaj",
+                "Sipò vreman (Table of Contents), anoji ekspresyon, TaskLists (travay kat jeyografik), @Links (lyen)",
                 "Sipò Decoder ak filtraj nan HTML Tags ak atribi figi",
-                "Sipò Texas (kapòt an latèks ekspresyon, Katex konpayi), dyagram ak dyagram sekans",
-                "dosye Sipò mekanis rekiperasyon",
-                "Sipò koreksyon miltip, nimewo san limit"
+                "Sipò Tex (kapòt an latèks ekspresyon, KaTeX), koule dyagram ak sekans dyagram",
+                "Sipò Dokiman Recovery Mekanis"
             ]
         },
         "UserReviews": {
-            "SectionName": "Ki jan yo evalye MarkdownD",
+            "SectionName": "bagay bèl bagay moun ap di sou MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD se etonan. Senp. Netwaye. Pèfeksyon. Joliman fè.",
+                    "reviewContent": "MarkdownD se gwo. Senp, pwòp, pafè. Joliman fè.",
                     "userName": "evanw",
                     "professional": "Teknoloji Pwomosyon"
                 },
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "Release",
+        "labelVersion": "Version",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "Release",
+        "labelVersion": "Version",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Lang yo disponib",
-        "ChangeAlert": "Ranpli ak lang switch"
+        "SectionName": "lang ki disponib (MT)",
+        "ChangeAlert": "Kouman pou Ranpli Fòm ak lang switch"
     }
 }

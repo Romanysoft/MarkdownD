@@ -2,19 +2,19 @@
     "TopBar": {
         "Home": "முகப்பு",
         "Feature": "அம்சங்கள்",
-        "Documents": "ஆன்லைன் உதவி",
-        "ReleaseNotes": "வெளியீட்டு அறிக்கை",
-        "Downloads": "இலவச சோதனை",
-        "Buy": "கொள்முதல்",
-        "Roadmap": "தயாரிப்பு வரி",
-        "ReportIssue": "ஒரு பிரச்சனை தெரிவியுங்கள்",
-        "Languages": "மொழி"
+        "Documents": "ஆவணங்கள்",
+        "ReleaseNotes": "வெளியீட்டு குறிப்புகள்",
+        "Downloads": "சோதனை",
+        "Buy": "வாங்க",
+        "Roadmap": "ரோடுமேப்",
+        "ReportIssue": "சிக்கல்கள்",
+        "Languages": "மொழிகள்"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Markdown ஆசிரியர் முழுமையாக செயல்பட்டாலும். இது விண்டோஸ், லினக்ஸ் மற்றும் MacOSX இயங்கு ஆதரிக்கிறது.",
-        "BtnDownload": "இலவச சோதனை",
-        "BtnBuy": "கொள்முதல்",
+        "ProjectTagline": "முழு இடம்பெற்றது Markdown ஆசிரியர். விண்டோஸ், லினக்ஸ் மற்றும் MacOSX ஐந்து.",
+        "BtnDownload": "சோதனை",
+        "BtnBuy": "வாங்க",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "தயாரிப்பு முக்கிய அம்சங்கள்",
+            "SectionName": "MarkdownD முக்கிய அம்சங்கள்",
             "list": [
                 "PDF ஆக ஏற்றுமதி ஆதரிக்கிறது",
-                "ஆவணம் ஆதரவு அச்சு",
-                "ஆதரிக்கிறது நிலையான விலை / CommonMark மற்றும் GFM (, Markdown என்ற மகிழ்ச்சியா)",
+                "அச்சு ஆதரிக்கிறது",
+                "ஆதரவு நிலையான, Markdown / CommonMark மற்றும் GFM (மகிழ்ச்சியா) வாசனையான, Markdown",
                 "நேரடி முன்னோட்டம் ஆதரவு",
-                "வடிவமைக்கப்பட்ட உரை, குறியீடு தொகுதிகள், அட்டவணைகள், குறியீடு மடிப்பு, தேடல் மற்றும் பதிலாக, பல மொழி, HTML நிறுவனம் குறியீடு தொடரியல் தனிப்படுத்தல் ஆதரிக்கிறது",
-                "ஆதரவு கரிமக்கரி (பொருளடக்கத்தை), உணர்ச்சி வெளிப்பாடு, பணி பட்டியல் (பணி வரைபடம்), @ (இணைப்புக்கள்)",
+                "ஆதரவு வடிவமைக்கப்பட்ட உரை, குறியீடு தொகுதிகள், அட்டவணைகள், குறியீடு மடிப்பு, தேடல் மற்றும் பதிலாக, பல மொழிகளில், HTML நிறுவனம் குறியீடு - தொடரியல் தனிப்படுத்தல்",
+                "ஆதரவு Toc (பொருளடக்கம்), உயர் வெளிப்பாடு, TaskLists (பணி வரைபடம்), @Links (இணைப்பு)",
                 "ஆதரவு நீக்கத்திற்கு மற்றும் HTML குறிச்சொற்களை மற்றும் பண்புகளை வடிகட்டி",
-                "ஆதரவு டெக்சாஸ் (பாலை வெளிப்பாடு, Katex நிறுவனம்), ஒழுக்குவரைபடங்கள் மற்றும் தொடர்நிகழ்வு வரைபடங்கள்",
-                "ஆதரவு கோப்புகளை மீட்பு நுட்பத்தை",
-                "பல எடிட்டிங் ஆதரவு, வரம்பற்ற"
+                "ஆதரவு டெக்ஸ் (LaTeX வெளிப்பாடு, KaTeX), வரைபடம் மற்றும் நிகழ்வு வரைபடத்தில் ஓட்டம்",
+                "ஆதரவு ஆவண மீட்பு மெக்கானிசம்"
             ]
         },
         "UserReviews": {
-            "SectionName": "MarkdownD மதிப்பீடு செய்ய எப்படி",
+            "SectionName": "அற்புதமான விஷயங்கள் மக்கள் MarkdownD பற்றி என்ன சொல்கிறீர்கள்",
             "list": [
                 {
-                    "reviewContent": "MarkdownD ஆச்சரியமாக இருக்கிறது. எளிய. சுத்தமான. சரியான. நேர்த்தியாக செய்து.",
+                    "reviewContent": "MarkdownD பெரும் உள்ளது. சரியான, எளிய சுத்தமான,. நோ்த்தியாக செய்யப்பட்டது.",
                     "userName": "evanw",
                     "professional": "தொழில்நுட்ப மேம்பாடு"
                 },
@@ -57,7 +56,7 @@
                     "professional": "வலை வடிவமைப்பாளர்கள் மற்றும் வடிவமைப்பாளர்கள்"
                 },
                 {
-                    "reviewContent": "என் வேலை; நான் MarkdownD போன்ற, பெரிய வசதிக்காக கொண்டு வந்துள்ளது.",
+                    "reviewContent": "உண்மையில் MarkdownD போல் நான், பெரிய வசதிக்காக கொண்டு; என் வேலை.",
                     "userName": "jeruss",
                     "professional": "PHP கட்டமைப்பு வளர்ச்சி"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "வெளியீட்டு",
+        "labelVersion": "பதிப்பு",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "வெளியீட்டு",
+        "labelVersion": "பதிப்பு",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "கொள்முதல்",
+        "SectionName": "வாங்க",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "கிடைக்கும் மொழிகள்",
-        "ChangeAlert": "முழுமையான சுவிட்ச் மொழி"
+        "SectionName": "கிடைக்கும் மொழி (எம்டி)",
+        "ChangeAlert": "நிறைவு சுவிட்ச் மொழி"
     }
 }

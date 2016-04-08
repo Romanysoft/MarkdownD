@@ -2,18 +2,18 @@
     "TopBar": {
         "Home": "ಮುಖಪುಟ",
         "Feature": "ವೈಶಿಷ್ಟ್ಯಗಳು",
-        "Documents": "ಆನ್ಲೈನ್ ಸಹಾಯ",
-        "ReleaseNotes": "ಬಿಡುಗಡೆ ಟಿಪ್ಪಣಿಗಳು",
-        "Downloads": "ಉಚಿತ ಟ್ರಯಲ್",
+        "Documents": "ಡಾಕ್ಯುಮೆಂಟ್ಸ್",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "ಟ್ರಯಲ್",
         "Buy": "ಖರೀದಿ",
-        "Roadmap": "ಉತ್ಪನ್ನ",
-        "ReportIssue": "ಸಮಸ್ಯೆ ವರದಿ",
-        "Languages": "ಭಾಷಾ"
+        "Roadmap": "ಮಾರ್ಗಸೂಚಿ",
+        "ReportIssue": "ತೊಂದರೆಗಳು",
+        "Languages": "ಭಾಷೆಗಳು"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Markdown ಸಂಪಾದಕ ಸಂಪೂರ್ಣವಾಗಿ ಕ್ರಿಯಾತ್ಮಕ. ಇದು ವಿಂಡೋಸ್, ಲಿನಕ್ಸ್ ಮತ್ತು MacOSX ಆಪರೇಟಿಂಗ್ ವ್ಯವಸ್ಥೆಯನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆ.",
-        "BtnDownload": "ಉಚಿತ ಟ್ರಯಲ್",
+        "ProjectTagline": "ಪೂರ್ಣ ವೈಶಿಷ್ಟ್ಯಗೊಳಿಸಿದ Markdown ಸಂಪಾದಕ. ವಿಂಡೋಸ್, ಲಿನಕ್ಸ್ ಮತ್ತು MacOSX ಫಾರ್.",
+        "BtnDownload": "ಟ್ರಯಲ್",
         "BtnBuy": "ಖರೀದಿ",
         "Screens": [
             "{{images/screens/common/c1.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "ಉತ್ಪನ್ನ ಮುಖ್ಯ ಲಕ್ಷಣಗಳು",
+            "SectionName": "MarkdownD ಮುಖ್ಯ ಲಕ್ಷಣಗಳು",
             "list": [
                 "PDF ಗೆ ರಫ್ತು ಬೆಂಬಲಿಸುತ್ತದೆ",
-                "ಮುದ್ರಿಸು ಡಾಕ್ಯುಮೆಂಟ್ ಸಪೋರ್ಟ್",
-                "ಬೆಂಬಲಿಸುತ್ತದೆ ಪ್ರಮಾಣಿತ ಬೆಲೆ / CommonMark ಮತ್ತು GFM (Markdown ಆಫ್ GitHub)",
+                "ಬೆಂಬಲಿಸುತ್ತದೆ ಪ್ರಿಂಟ್",
+                "ಬೆಂಬಲ ಪ್ರಮಾಣಿತ Markdown / CommonMark ಮತ್ತು GFM (GitHub) ಫ್ಲೇವರ್ಡ್ Markdown",
                 "ಲೈವ್ ಪೂರ್ವವೀಕ್ಷಣೆ ಬೆಂಬಲ",
-                "ಫಾರ್ಮ್ಯಾಟ್ ಪಠ್ಯ ಕೋಡ್ ಬ್ಲಾಕ್ಗಳನ್ನು, ಕೋಷ್ಟಕಗಳು, ಕೋಡ್ ಕಾಗದದ, ಹುಡುಕಾಟ ಮತ್ತು ಬದಲಿಗೆ, ಬಹು ಭಾಷೆ, HTML ಘಟಕದ ಕೋಡ್ ಸಿಂಟ್ಯಾಕ್ಸ್ ಹೈಲೈಟ್ ಬೆಂಬಲಿಸುತ್ತದೆ",
-                "ಬೆಂಬಲ ಟಿಒಸಿ (ಪರಿವಿಡಿಯನ್ನು), ಭಾವನೆಯನ್ನು ವ್ಯಕ್ತಪಡಿಸುವಿಕೆಯು ಕಾರ್ಯಪಟ್ಟಿಯನ್ನು (ಕಾರ್ಯ ನಕ್ಷೆ), @ (ಕೊಂಡಿಗಳು)",
+                "ಬೆಂಬಲ ಫಾರ್ಮ್ಯಾಟ್ ಪಠ್ಯ ಕೋಡ್ ಬ್ಲಾಕ್ಗಳನ್ನು, ಕೋಷ್ಟಕಗಳು, ಕೋಡ್ ಕಾಗದದ, ಹುಡುಕಾಟ ಮತ್ತು ಬದಲಿಗೆ, ಬಹು ಭಾಷೆ, HTML ಘಟಕದ ಕೋಡ್ - ವಾಕ್ಯ ಹೈಲೈಟ್",
+                "ಬೆಂಬಲ Toc (ಪರಿವಿಡಿ), ಎಮೊಜಿಯನ್ನು ಅಭಿವ್ಯಕ್ತಿ, TaskLists (ಕಾರ್ಯ ನಕ್ಷೆ), @Links (ಲಿಂಕ್)",
                 "ಬೆಂಬಲ ಡಿಕೋಡಿಂಗ್ ಮತ್ತು HTML ಟ್ಯಾಗ್ಗಳು ಮತ್ತು ಲಕ್ಷಣಗಳು ಫಿಲ್ಟರಿಂಗ್",
-                "ಬೆಂಬಲ ಟೆಕ್ಸಾಸ್ (ಲ್ಯಾಟೆಕ್ಸ್ ಅಭಿವ್ಯಕ್ತಿ, Katex ಕಂಪನಿ), ಫ್ಲೋಚಾರ್ಟ್ಗಳನ್ನು ಮತ್ತು ಅನುಕ್ರಮ ಚಿತ್ರಗಳು",
-                "ಬೆಂಬಲ ಕಡತಗಳನ್ನು ಚೇತರಿಕೆ ಯಾಂತ್ರಿಕ",
-                "ಅನೇಕ ಸಂಪಾದನೆ ಬೆಂಬಲ, ಅನಿಯಮಿತ ಸಂಖ್ಯೆ"
+                "ಬೆಂಬಲ ಟೆಕ್ಸ್ (ಲ್ಯಾಟೆಕ್ಸ್ ಅಭಿವ್ಯಕ್ತಿ, KaTeX), ಹರಿವು ರೇಖಾಚಿತ್ರ ಮತ್ತು ಅನುಕ್ರಮ ನಕ್ಷೆ",
+                "ಬೆಂಬಲ ಡಾಕ್ಯುಮೆಂಟ್ ರಿಕವರಿ ಯಾಂತ್ರಿಕ"
             ]
         },
         "UserReviews": {
-            "SectionName": "MarkdownD ಮೌಲ್ಯಮಾಪನ ಹೇಗೆ",
+            "SectionName": "ಅದ್ಭುತ ವಿಷಯಗಳನ್ನು ಜನರು MarkdownD ಬಗ್ಗೆ ಹೇಳುತ್ತಿದ್ದಾರೆ",
             "list": [
                 {
-                    "reviewContent": "MarkdownD ಅದ್ಭುತ. ಸರಳ. ಸ್ವಚ್ಛಗೊಳಿಸಲು. ಪರಿಪೂರ್ಣತೆ. ಚೆನ್ನಾಗಿ ಮಾಡಲಾಗುತ್ತದೆ.",
+                    "reviewContent": "MarkdownD ಅದ್ಭುತವಾಗಿದೆ. ಸರಳ ಸ್ವಚ್ಛ, ಪರಿಪೂರ್ಣ. ಚೆನ್ನಾಗಿ ಮಾಡಲಾಗುತ್ತದೆ.",
                     "userName": "evanw",
                     "professional": "ತಂತ್ರಜ್ಞಾನ ಪ್ರಚಾರ"
                 },
@@ -57,7 +56,7 @@
                     "professional": "ವೆಬ್ ಅಭಿವರ್ಧಕರು ಮತ್ತು ವಿನ್ಯಾಸಕಾರರು"
                 },
                 {
-                    "reviewContent": "ನನ್ನ ಕೆಲಸ; ನಾನು MarkdownD ನಂತಹ ಮಹಾನ್ ಅನುಕೂಲಕ್ಕಾಗಿ ತಂದಿದೆ.",
+                    "reviewContent": "ನಾನು MarkdownD ನಂತಹ ಮಹಾನ್ ಅನುಕೂಲಕ್ಕಾಗಿ ತಂದಿದೆ; ನನ್ನ ಕೆಲಸ.",
                     "userName": "jeruss",
                     "professional": "ಚೌಕಟ್ಟು ಅಭಿವೃದ್ಧಿ"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "ಬಿಡುಗಡೆ",
+        "labelVersion": "ಆವೃತ್ತಿ",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "ಬಿಡುಗಡೆ",
+        "labelVersion": "ಆವೃತ್ತಿ",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "ಲಭ್ಯವಿರುವ ಭಾಷೆಗಳು",
-        "ChangeAlert": "ಸ್ವಿಚ್ ಭಾಷೆ ಕಂಪ್ಲೀಟ್"
+        "SectionName": "ಲಭ್ಯವಿರುವ ಭಾಷೆ (ಎಂಟಿ)",
+        "ChangeAlert": "ಸ್ವಿಚ್ ಭಾಷೆ ಮುಗಿಸಿ"
     }
 }

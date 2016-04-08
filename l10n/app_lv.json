@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "mājas",
-        "Feature": "Features",
-        "Documents": "tiešsaistes palīdzība",
-        "ReleaseNotes": "laidienu",
-        "Downloads": "Free Trial",
-        "Buy": "pirkums",
-        "Roadmap": "produktu līnija",
-        "ReportIssue": "Ziņot par problēmu",
-        "Languages": "valoda"
+        "Home": "Mājas",
+        "Feature": "Iespējas",
+        "Documents": "dokumenti",
+        "ReleaseNotes": "ReleaseNotes",
+        "Downloads": "izmēģinājums",
+        "Buy": "pirkt",
+        "Roadmap": "Ceļvedis",
+        "ReportIssue": "jautājumi",
+        "Languages": "valodas"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "Markdown redaktors pilnībā funkcionāla. Tā atbalsta Windows, Linux un MacOSX operētājsistēmu.",
-        "BtnDownload": "Free Trial",
-        "BtnBuy": "pirkums",
+        "ProjectTagline": "Pilna Featured Markdown redaktors. Windows, Linux un MacOSX.",
+        "BtnDownload": "izmēģinājums",
+        "BtnBuy": "pirkt",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "Produkta galvenās iezīmes",
+            "SectionName": "Galvenās iezīmes MarkdownD",
             "list": [
                 "Atbalsta eksportē uz PDF",
-                "Izdrukājiet dokumentu atbalsts",
-                "Atbalsta standarta cena / CommonMark un GFM (GitHub of Markdown)",
+                "atbalsta Drukāt",
+                "Atbalsta standarta Markdown / CommonMark un GFM (GitHub) aromātos Markdown",
                 "Live Preview Support",
-                "Atbalsta formatētu tekstu, koda bloki, galdi, kods locīšanas, meklēt un aizstāt, multi-valodu, HTML vienība kods sintakse izceļot",
-                "Atbalsts TOC (satura), izpausme Emocijas, uzdevumu sarakstā (uzdevumu karti), @ (saites)",
+                "Atbalsts formatētu tekstu, kods bloki, galdi, kods locīšanas, meklēt un aizstāt, vairākas valodas, HTML vienība kods - sintakse izceļot",
+                "Atbalsts Toc (Satura), Emoji izteiksme, TaskLists (uzdevumu karti), @Links (saite)",
                 "Atbalsts dekodēšana un filtrēšanas HTML tagiem un atribūtiem",
-                "Atbalsts Texas (lateksa izteiksme, KATEX kompānija), blokshēmas un secības diagrammām",
-                "Atbalsta failus atgūšanas mehānisms",
-                "Atbalsta vairāku rediģēšana, neierobežots skaits"
+                "Atbalsts Tex (Latex izteiksme, KATEX), plūsmas diagramma un secības diagramma",
+                "Atbalsta Dokumentu atgūšana mehānisms"
             ]
         },
         "UserReviews": {
-            "SectionName": "Kā novērtēt MarkdownD",
+            "SectionName": "Brīnišķīgas lietas cilvēki saka par MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD ir pārsteidzošs. Vienkārši. Tīrs. Pilnību. Labi darīts.",
+                    "reviewContent": "MarkdownD ir liels. Vienkāršs, tīrs, perfekts. Labi darīts.",
                     "userName": "evanw",
                     "professional": "Technology Promotion"
                 },
@@ -57,7 +56,7 @@
                     "professional": "Web izstrādātājiem un dizaineriem"
                 },
                 {
-                    "reviewContent": "Man tiešām patīk MarkdownD, ir devusi lielu ērtības, manu darbu.",
+                    "reviewContent": "Man tiešām patīk MarkdownD, ir devusi lielu ērtības; Mans darbs.",
                     "userName": "jeruss",
                     "professional": "PHP sistēmu attīstība"
                 }
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "atbrīvošana",
+        "labelVersion": "versija",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "atbrīvošana",
+        "labelVersion": "versija",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "pirkums",
+        "SectionName": "pirkt",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "pieejamās valodas",
-        "ChangeAlert": "Complete slēdzis valoda"
+        "SectionName": "Pieejams valoda (MT)",
+        "ChangeAlert": "Komplektējošās slēdzis valoda"
     }
 }

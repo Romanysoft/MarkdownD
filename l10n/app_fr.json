@@ -1,20 +1,20 @@
 {
     "TopBar": {
-        "Home": "maison",
-        "Feature": "traits",
-        "Documents": "Aide en ligne",
-        "ReleaseNotes": "notes de version",
-        "Downloads": "Essai gratuit",
-        "Buy": "achat",
-        "Roadmap": "Gamme de produits",
-        "ReportIssue": "Signaler un problème",
-        "Languages": "langue"
+        "Home": "Accueil",
+        "Feature": "Caractéristiques",
+        "Documents": "Documents",
+        "ReleaseNotes": "Notes de version",
+        "Downloads": "Procès",
+        "Buy": "Acheter",
+        "Roadmap": "Feuille de route",
+        "ReportIssue": "Problèmes",
+        "Languages": "Langues"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "éditeur entièrement fonctionnel Markdown. Il prend en charge le système d'exploitation Windows, Linux et MacOSX.",
-        "BtnDownload": "Essai gratuit",
-        "BtnBuy": "achat",
+        "ProjectTagline": "Full-vedette éditeur de Markdown. Pour Windows, Linux et MacOSX.",
+        "BtnDownload": "Procès",
+        "BtnBuy": "Acheter",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
@@ -24,25 +24,24 @@
             "{{images/screens/common/c6.png}}"
         ],
         "Features": {
-            "SectionName": "principales caractéristiques du produit",
+            "SectionName": "Caractéristiques principales de MarkdownD",
             "list": [
                 "Prise en charge de l'exportation au format PDF",
-                "Imprimer le support de document",
-                "Prise en charge des prix standard / CommonMark et GFM (GitHub de Markdown)",
+                "Prise en charge Imprimer",
+                "Standard Support Markdown / CommonMark et GFM (GitHub) Flavored Markdown",
                 "Aperçu Live Support",
-                "Prise en charge du texte formaté, des blocs de code, tables, pliage de code, rechercher et remplacer, en plusieurs langues, le code HTML de l'entité syntaxique",
-                "Soutien TOC (table des matières), l'expression des émoticônes, la liste des tâches (la carte des tâches), @ (liens)",
+                "Soutien du texte formaté, des blocs de code, tables, pliage de code, rechercher et remplacer, plusieurs langues, le code HTML de l'entité - la coloration syntaxique",
+                "Soutien Toc (Table des matières), expression Emoji, Tasklist (tâches), @liens (lien)",
                 "décodage de soutien et le filtrage des balises et attributs HTML",
-                "Soutien au Texas (expression de latex, société Katex), des organigrammes et des diagrammes de séquence",
-                "des fichiers de support de mécanisme de récupération",
-                "Soutien montage multiple, nombre illimité"
+                "Soutien Tex (Expression LaTex, KATEX), diagramme de flux et diagramme de séquence",
+                "Mécanisme d'appui à la récupération de documents"
             ]
         },
         "UserReviews": {
-            "SectionName": "Comment évaluer MarkdownD",
+            "SectionName": "Merveilleux choses que les gens disent à propos de MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD est incroyable. Simple. Clean. Perfection. Bien fait.",
+                    "reviewContent": "MarkdownD est grande. Simple, propre, parfait. Bien fait.",
                     "userName": "evanw",
                     "professional": "promotion de la technologie"
                 },
@@ -84,8 +83,17 @@
         ]
     },
     "ReleaseNotePage": {
-        "labelVersion": "libération",
+        "labelVersion": "Version",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "list": [
+                    {
+                        "platform": "{{Windows,Linux,MacOSX}}",
+                        "content": "{{Markdown processing performance}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "list": [
@@ -248,8 +256,43 @@
         ]
     },
     "VersionPage": {
-        "labelVersion": "libération",
+        "labelVersion": "Version",
         "list": [
+            {
+                "version": "{{2.9}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x86-setup.exe}}",
+                        "size": "{{46.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/47k19s6mvv5h/MarkdownD-v2.9.0-win32-x86-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v2.9-win32-x64-setup.exe}}",
+                        "size": "{{54MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/2o2hxi18cr6v/MarkdownD-v2.9.0-win32-x64-setup.exe}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v2.9.0-darwin-x64.zip}}",
+                        "size": "{{6.33MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/593zcea248yp/MarkdownD-v2.9.0-darwin-x64.zip}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}",
+                        "size": "{{45.9MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/10bqyj6f5g5d/MarkdownD-v2.9.0-linux-ia32-install.tar.gz}}"
+                    },
+                    {
+                        "osUrl": "{{images/download/linux.png}}",
+                        "name": "{{MarkdownD-v2.9.0-linux-x64-install.tar.gz}}",
+                        "size": "{{45.1MB}}",
+                        "downURL": "{{http://www.filefactory.com/file/3hs79zlpjvg5/MarkdownD-v2.9.0-linux-x64-install.tar.gz}}"
+                    }
+                ]
+            },
             {
                 "version": "{{2.8}}",
                 "zipList": [
@@ -516,7 +559,7 @@
         ]
     },
     "BuyPage": {
-        "SectionName": "achat",
+        "SectionName": "Acheter",
         "list": [
             {
                 "name": "{{MarkdownD for windows for Vista, Win7,Win8,Win8.1,Win10}}",
@@ -564,7 +607,7 @@
     },
     "RoadMapPage": {},
     "LanguagesPage": {
-        "SectionName": "Langues disponibles",
-        "ChangeAlert": "Complete changer de langue"
+        "SectionName": "Disponible langue (MT)",
+        "ChangeAlert": "Fin de changer de langue"
     }
 }
