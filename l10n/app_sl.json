@@ -41,24 +41,24 @@
             "SectionName": "Čudovite stvari ljudje govorijo o MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD je super. Preprosta, čista, popolna. Lepo opravljeno.",
+                    "reviewContent": "MarkdownD je omamljanje. Simple. Clean. Popolna. Dobro opravljeno.",
                     "userName": "evanw",
-                    "professional": "Technology Promotion"
+                    "professional": "tehnologija Evangelist"
                 },
                 {
-                    "reviewContent": "MarkdownD delam skoraj vse moje pisanje, ki je zelo malo aplikacij.",
+                    "reviewContent": "MarkdownD je tisto, kar delam precej vse moje pisanje v. To je zelo malo app.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica pisatelj"
+                    "professional": "Writer na Ars Technica"
                 },
                 {
-                    "reviewContent": "Če imate interes v nižjih cenah, MarkdownD je vsekakor vredno prenos.",
-                    "userName": "Priporočene povezave je",
-                    "professional": "Spletni razvijalci in oblikovalci"
+                    "reviewContent": "Če imate interes v Markdown, MarkdownD je vsekakor vredno prenos.",
+                    "userName": "Priporočene povezave",
+                    "professional": "Web Developer in Designer"
                 },
                 {
-                    "reviewContent": "Res mi je všeč MarkdownD, je prinesla veliko udobja; moje delo.",
+                    "reviewContent": "Res mi je všeč MarkdownD, je prinesla veliko udobje za moje delo.",
                     "userName": "jeruss",
-                    "professional": "PHP okvir za razvoj"
+                    "professional": "PHP Framework razvijalce"
                 }
             ]
         }

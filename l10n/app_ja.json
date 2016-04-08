@@ -41,24 +41,24 @@
             "SectionName": "素晴らしいものの人々はMarkdownDについて言っています",
             "list": [
                 {
-                    "reviewContent": "MarkdownDは素晴らしいです。完璧な、きれいな、シンプル。うまく行って。",
+                    "reviewContent": "MarkdownDは素晴らしいです。シンプル。クリーン。パーフェクト。よくやった。",
                     "userName": "evanw",
-                    "professional": "技術振興"
+                    "professional": "テクノロジー・エバンジェリスト"
                 },
                 {
-                    "reviewContent": "MarkdownD私は偉大な小さなアプリケーションですほぼすべての私の文章を、行います。",
+                    "reviewContent": "MarkdownDは、私はほとんどすべての私の書き込みの何をすべきかです。それは偉大な小さなアプリケーションです。",
                     "userName": "ピーター・ブライト",
-                    "professional": "のアルステクニカライター"
+                    "professional": "アルステクニカでライター"
                 },
                 {
-                    "reviewContent": "あなたが低価格に興味を持っている場合は、MarkdownDは間違いなくダウンロードする価値があります。",
-                    "userName": "ライフハッカーの",
+                    "reviewContent": "あなたはマークダウンに興味を持っている場合は、MarkdownDは間違いなく、ダウンロードする価値があります。",
+                    "userName": "ライフハッカー",
                     "professional": "Web開発者やデザイナー"
                 },
                 {
-                    "reviewContent": "私は本当にMarkdownDのように、大きな利便性をもたらしました。私の仕事。",
+                    "reviewContent": "私は本当にMarkdownDのように、私の仕事のために多くの利便性をもたらしています。",
                     "userName": "jeruss",
-                    "professional": "PHPのフレームワーク開発"
+                    "professional": "PHP Framework開発"
                 }
             ]
         }

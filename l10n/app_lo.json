@@ -41,24 +41,24 @@
             "SectionName": "ສິ່ງມະຫັດປະຊາຊົນສິ່ງທີ່ເວົ້າກ່ຽວກັບ MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD ເປັນທີ່ຍິ່ງໃຫຍ່. ງ່າຍດາຍ, ສະອາດ, ທີ່ສົມບູນແບບ. ເຮັດງາມ.",
+                    "reviewContent": "MarkdownD ແມ່ນ stunning. ງ່າຍດາຍ. ທໍາຄວາມສະອາດ. ທີ່ສົມບູນແບບ. ເຮັດໄດ້ດີ.",
                     "userName": "evanw",
-                    "professional": "ການສົ່ງເສີມເຕັກໂນໂລຊີ"
+                    "professional": "ເຕັກໂນໂລຊີ Evangelist"
                 },
                 {
-                    "reviewContent": "MarkdownD ຂ້າພະເຈົ້າເຮັດໄດ້ເກືອບທັງຫມົດລາຍລັກອັກສອນຂອງຂ້າພະເຈົ້າ, ຊຶ່ງເປັນຄໍາຮ້ອງສະຫມັກພຽງເລັກນ້ອຍທີ່ຍິ່ງໃຫຍ່.",
+                    "reviewContent": "MarkdownD ແມ່ນສິ່ງທີ່ຂ້າພະເຈົ້າເຮັດ pretty ຫຼາຍທັງຫມົດຂອງລາຍລັກອັກສອນຂອງຂ້າພະເຈົ້າໃນ. ມັນເປັນ app ພຽງເລັກນ້ອຍທີ່ຍິ່ງໃຫຍ່.",
                     "userName": "Peter ສົດໃສ",
-                    "professional": "writer Ars Technica ຂອງ"
+                    "professional": "Writer ໃນ Ars Technica"
                 },
                 {
-                    "reviewContent": "ຖ້າຫາກວ່າທ່ານມີຄວາມສົນໃຈໃນລາຄາທີ່ຕ່ໍາ, MarkdownD ແມ່ນຕົກເປັນມູນຄ່າການດາວໂຫຼດ.",
-                    "userName": "Lifehacker ຂອງ",
-                    "professional": "ການພັດທະນາເວັບໄຊຕ໌ແລະການອອກແບບ"
+                    "reviewContent": "ຖ້າຫາກວ່າທ່ານມີຄວາມສົນໃຈໃນ Markdown, MarkdownD ແມ່ນຕົກເປັນມູນຄ່າການດາວໂຫລດ.",
+                    "userName": "Lifehacker",
+                    "professional": "ເວັບໄຊຕ໌ຜູ້ພັດທະນາແລະອອກແບບ"
                 },
                 {
-                    "reviewContent": "ຂ້າພະເຈົ້າກໍ່ຄື MarkdownD, ໄດ້ນໍາເອົາຄວາມສະດວກທີ່ຍິ່ງໃຫຍ່; ການເຮັດວຽກຂອງຂ້າພະເຈົ້າ.",
+                    "reviewContent": "ຂ້າພະເຈົ້າກໍ່ຄື MarkdownD, ໄດ້ນໍາເອົາຄວາມສະດວກຫຼາຍສໍາລັບການເຮັດວຽກຂອງຂ້າພະເຈົ້າ.",
                     "userName": "jeruss",
-                    "professional": "ການພັດທະນາໂຄງຮ່າງການ PHP"
+                    "professional": "PHP Framework ພັດທະນາ"
                 }
             ]
         }

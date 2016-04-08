@@ -41,24 +41,24 @@
             "SectionName": "Θαυμάσια πράγματα που οι άνθρωποι λένε για MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD είναι μεγάλη. Απλό, καθαρό, τέλεια. Όμορφα γίνει.",
+                    "reviewContent": "MarkdownD είναι εκπληκτική. Απλός. Καθαρός. Τέλειος. Μπράβο.",
                     "userName": "evanw",
-                    "professional": "τεχνολογία Προώθηση"
+                    "professional": "τεχνολογία Ευαγγελιστής"
                 },
                 {
-                    "reviewContent": "MarkdownD κάνω σχεδόν όλα τα γραπτά μου, η οποία είναι μια μεγάλη μικρή εφαρμογή.",
+                    "reviewContent": "MarkdownD είναι αυτό που κάνω λίγο πολύ όλες της γραφής μου. Είναι μια μεγάλη λίγο app.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica συγγραφέας"
+                    "professional": "Συγγραφέας στο Ars Technica"
                 },
                 {
-                    "reviewContent": "Αν έχετε οποιοδήποτε ενδιαφέρον σε χαμηλότερες τιμές, MarkdownD είναι σίγουρα αξίζει να το κατέβασμα.",
-                    "userName": "Lifehacker του",
-                    "professional": "Web προγραμματιστές και σχεδιαστές"
+                    "reviewContent": "Αν έχετε οποιοδήποτε ενδιαφέρον για Markdown, MarkdownD είναι σίγουρα αξίζει μια λήψη.",
+                    "userName": "Lifehacker",
+                    "professional": "Web Developer και Σχεδιαστής"
                 },
                 {
-                    "reviewContent": "Μου αρέσει πολύ MarkdownD, έχει φέρει μεγάλη ευκολία? δουλειά μου.",
+                    "reviewContent": "Μου αρέσει πολύ MarkdownD, έφερε πολύ ευκολία για την εργασία μου.",
                     "userName": "jeruss",
-                    "professional": "ανάπτυξη πλαισίου PHP"
+                    "professional": "Προγραμματιστής PHP Πλαίσιο"
                 }
             ]
         }

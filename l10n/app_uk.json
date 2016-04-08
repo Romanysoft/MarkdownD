@@ -41,24 +41,24 @@
             "SectionName": "Чудові речі, які люди говорять про MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD великий. Простий, чистий, бездоганний. Добре зроблено.",
+                    "reviewContent": "MarkdownD приголомшує. Простий. Чистий. Відмінно. Добре зроблено.",
                     "userName": "evanw",
-                    "professional": "технології Просування"
+                    "professional": "технологія Євангеліст"
                 },
                 {
-                    "reviewContent": "MarkdownD я майже всі мої записи, що є великим невеликий додаток.",
+                    "reviewContent": "MarkdownD це те, що я роблю в значній мірі всі мої листи в. Це велике невеликий додаток.",
                     "userName": "Пітер Брайт",
-                    "professional": "Ars Technica автор"
+                    "professional": "Письменник в Ars Technica"
                 },
                 {
-                    "reviewContent": "Якщо у вас є які-небудь інтерес до більш низькими цінами, MarkdownD, безумовно, варто завантаження.",
-                    "userName": "Lifehacker-х",
-                    "professional": "Веб-розробники і дизайнери"
+                    "reviewContent": "Якщо у вас є які-небудь інтерес до Markdown, MarkdownD, безумовно, варто завантажити.",
+                    "userName": "LifeHacker",
+                    "professional": "Веб-розробник і дизайнер"
                 },
                 {
-                    "reviewContent": "Мені дуже подобається MarkdownD, приніс велику зручність; моя робота.",
+                    "reviewContent": "Мені дуже подобається MarkdownD, приніс багато зручність для моєї роботи.",
                     "userName": "jeruss",
-                    "professional": "Розробка PHP рамки"
+                    "professional": "PHP Framework Developer"
                 }
             ]
         }

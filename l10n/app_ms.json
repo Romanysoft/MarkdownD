@@ -41,24 +41,24 @@
             "SectionName": "perkara yang indah yang orang katakan tentang MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD hebat. Mudah, bersih, sempurna. Baik dilakukan.",
+                    "reviewContent": "MarkdownD menakjubkan. Simple. Bersih. Perfect. Bagus.",
                     "userName": "evanw",
-                    "professional": "Promosi Teknologi"
+                    "professional": "Teknologi Evangelist"
                 },
                 {
-                    "reviewContent": "MarkdownD saya lakukan hampir semua penulisan saya, yang adalah aplikasi kecil yang hebat.",
+                    "reviewContent": "MarkdownD adalah apa yang saya lakukan cukup banyak semua penulisan saya. Ia adalah satu aplikasi yang hebat sedikit.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica penulis"
+                    "professional": "Writer di Ars Technica"
                 },
                 {
-                    "reviewContent": "Jika anda mempunyai apa-apa kepentingan dalam harga yang lebih rendah, MarkdownD pasti bernilai memuat turun.",
-                    "userName": "Lifehacker ini",
-                    "professional": "pembangun laman web dan pereka"
+                    "reviewContent": "Jika anda mempunyai apa-apa kepentingan dalam turun harga, MarkdownD pasti bernilai muat turun.",
+                    "userName": "LifeHacker",
+                    "professional": "Web Developer dan Designer"
                 },
                 {
-                    "reviewContent": "Saya benar-benar suka MarkdownD, telah membawa kemudahan yang besar; kerja saya.",
+                    "reviewContent": "Saya benar-benar suka MarkdownD, telah membawa banyak kemudahan kepada kerja saya.",
                     "userName": "jeruss",
-                    "professional": "PHP pembangunan rangka kerja"
+                    "professional": "Rangka Kerja PHP Developer"
                 }
             ]
         }

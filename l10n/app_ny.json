@@ -41,24 +41,24 @@
             "SectionName": "zinthu zodabwitsa anthu akunena za MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD ndi wamkulu. Simple, woyera, wangwiro. Mwabwino anachita.",
+                    "reviewContent": "MarkdownD ndi zidzasintha. Simple. Woyera. Wangwiro. Mwachita bwino.",
                     "userName": "evanw",
-                    "professional": "Technology Kupititsa"
+                    "professional": "Technology Mlaliki"
                 },
                 {
-                    "reviewContent": "MarkdownD ndichita pafupifupi kulemba wanga, umene uli waukulu ntchito pang'ono.",
+                    "reviewContent": "MarkdownD ndi zimene ndimachita wokongola kwambiri zonse kulemba wanga. Ndi app wamkulu pang'ono.",
                     "userName": "Peter Bright",
-                    "professional": "Ana asukulu Technica wolemba"
+                    "professional": "Wolemba pa ana asukulu Technica"
                 },
                 {
-                    "reviewContent": "Ngati muli ndi chidwi ndi mitengo m'munsi, MarkdownD ndithudi ofunika otsitsira.",
-                    "userName": "Lifehacker a",
-                    "professional": "kutukula Web ndipo okonza"
+                    "reviewContent": "Ngati muli ndi chidwi Markdown, MarkdownD ndithudi wokwana download.",
+                    "userName": "LifeHacker",
+                    "professional": "Web Wolemba Mapulogalamu ndi Mlengi"
                 },
                 {
-                    "reviewContent": "Ine kwenikweni MarkdownD, wabweretsa mayiko chachikulu; ntchito yanga.",
+                    "reviewContent": "Ine kwenikweni MarkdownD, wabweretsa mayiko kwambiri ntchito yanga.",
                     "userName": "jeruss",
-                    "professional": "Php chitukuko chimango"
+                    "professional": "Php M'chilamulo Wolemba Mapulogalamu"
                 }
             ]
         }

@@ -41,24 +41,24 @@
             "SectionName": "Керемет нәрселер адам MarkdownD туралы айтады",
             "list": [
                 {
-                    "reviewContent": "MarkdownD зор. Қарапайым, таза, тамаша. Жақсы жасаған.",
+                    "reviewContent": "MarkdownD таңғаларлық болып табылады. Қарапайым. Таза. Perfect. Жарайсың.",
                     "userName": "evanw",
-                    "professional": "технология Promotion"
+                    "professional": "технология Евангелист"
                 },
                 {
-                    "reviewContent": "MarkdownD Мен үлкен сәл бағдарлама болып табылады, барлық дерлік менің жазуды, не істеу.",
+                    "reviewContent": "MarkdownD Мен өте көп, барлық менің жазу не істеу болып табылады. Бұл үлкен сәл бағдарламаның.",
                     "userName": "Питер Bright",
-                    "professional": "ның Ars Technica жазушы"
+                    "professional": "Ars Technica кезінде жазушы"
                 },
                 {
-                    "reviewContent": "Егер сіз төменгі бағамен кез келген қызығушылық болса, MarkdownD сөзсіз жүктеу тұр.",
-                    "userName": "Lifehacker ның",
-                    "professional": "Веб әзірлеушілер мен дизайнерлер"
+                    "reviewContent": "Егер сіз қандай да бір белгісін Markdown белгісіне жылы қызығушылық болса, MarkdownD сөзсіз жүктеу тұр.",
+                    "userName": "Lifehacker",
+                    "professional": "Web Developer және Designer"
                 },
                 {
-                    "reviewContent": "Мен шынында MarkdownD сияқты үлкен қолайлылық әкелді; менің жұмысым.",
+                    "reviewContent": "Мен шынында MarkdownD сияқты, менің жұмыс үшін көп ыңғайлылығын әкелді.",
                     "userName": "jeruss",
-                    "professional": "PHP Framework дамыту"
+                    "professional": "PHP Framework Әзірлеуші"
                 }
             ]
         }

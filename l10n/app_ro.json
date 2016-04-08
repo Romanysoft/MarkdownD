@@ -41,24 +41,24 @@
             "SectionName": "lucruri minunate spun oamenii despre MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD este mare. Simplu, curat, perfect. Bine făcut.",
+                    "reviewContent": "MarkdownD este uimitoare. Simplu. Curat. Perfect. Foarte bine.",
                     "userName": "evanw",
-                    "professional": "tehnologie de promovare"
+                    "professional": "tehnologia Evanghelistul"
                 },
                 {
-                    "reviewContent": "MarkdownD Eu fac aproape toate scrisul meu, care este o mare aplicație mică.",
+                    "reviewContent": "MarkdownD este ceea ce fac eu destul de mult toate scrierile mele. Este un mare mic app.",
                     "userName": "Peter Bright",
-                    "professional": "scriitor Ars Technica de"
+                    "professional": "Scriitor la Ars Technica"
                 },
                 {
-                    "reviewContent": "Dacă aveți vreun interes în prețuri mai mici, MarkdownD este cu siguranță în valoare de descărcare.",
-                    "userName": "lui Lifehacker",
-                    "professional": "Dezvoltatorii web și designeri"
+                    "reviewContent": "Dacă aveți vreun interes în Markdown, MarkdownD este cu siguranta merita o descărcare.",
+                    "userName": "Lifehacker",
+                    "professional": "Web Developer si Designer"
                 },
                 {
-                    "reviewContent": "Îmi place foarte mult MarkdownD, a adus o mare comoditate; munca mea.",
+                    "reviewContent": "Îmi place foarte mult MarkdownD, a adus multă comoditate pentru munca mea.",
                     "userName": "jeruss",
-                    "professional": "Dezvoltarea PHP-cadru"
+                    "professional": "Cadru PHP Developer"
                 }
             ]
         }

@@ -41,24 +41,24 @@
             "SectionName": "Սքանչելիքները մարդիկ ասում են, MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD մեծ է: Պարզ, մաքուր, կատարյալ. Իսկը արել.",
+                    "reviewContent": "MarkdownD ցնցող. Պարզ. Մաքուր. Կատարյալ. Լավ է արել:",
                     "userName": "evanw",
-                    "professional": "Մեխանիկա Promotion"
+                    "professional": "Մեխանիկա Evangelist"
                 },
                 {
-                    "reviewContent": "MarkdownD եմ անել գրեթե բոլոր իմ գրավոր, որը մեծ քիչ դիմումը.",
+                    "reviewContent": "MarkdownD այն է, ինչ ես անում, ավելի շատ իմ ամբողջ գրավոր: Դա մի քիչ մեծ ծրագիրը:",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica գրող"
+                    "professional": "Գրող ժամը Ars Technica"
                 },
                 {
-                    "reviewContent": "Եթե ​​դուք ունեք որեւէ հետաքրքրություն ցածր գներով, MarkdownD հաստատ արժե բեռնելիս.",
-                    "userName": "Lifehacker ի",
-                    "professional": "Վեբ ծրագրավորողներ եւ դիզայներներ"
+                    "reviewContent": "Եթե ​​դուք ունեք որեւէ հետաքրքրություն markdown, MarkdownD հաստատ արժանի է ստանալ.",
+                    "userName": "Lifehacker",
+                    "professional": "Web Developer եւ դիզայներ"
                 },
                 {
-                    "reviewContent": "Ես, իրոք, նման MarkdownD, բերել մեծ հարմարության. Իմ աշխատանքը.",
+                    "reviewContent": "Ես, իրոք, նման MarkdownD, բերել շատ հարմարության համար իմ աշխատանքում.",
                     "userName": "jeruss",
-                    "professional": "PHP շրջանակը զարգացման"
+                    "professional": "PHP Framework Developer"
                 }
             ]
         }

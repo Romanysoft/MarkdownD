@@ -41,24 +41,24 @@
             "SectionName": "Прекрасни работи луѓето се велејќи дека за MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD е одлично. Едноставен, чист, совршена. Убаво направено.",
+                    "reviewContent": "MarkdownD е неверојатен. Едноставна. Чист. Совршен. Добро сторено.",
                     "userName": "evanw",
-                    "professional": "технологија Промоција"
+                    "professional": "технологија евангелист"
                 },
                 {
-                    "reviewContent": "MarkdownD правам речиси сите моето пишување, што е голем малку апликација.",
+                    "reviewContent": "MarkdownD е тоа што го правам речиси сите од моето пишување во. Тоа е голем малку стан.",
                     "userName": "Петар Светлата",
-                    "professional": "Арс техника писател"
+                    "professional": "Писател на Арс техника"
                 },
                 {
-                    "reviewContent": "Ако имате било каков интерес за пониски цени, MarkdownD е дефинитивно вреди да ја преземете.",
-                    "userName": "Lifehacker е",
-                    "professional": "Веб програмери и дизајнери"
+                    "reviewContent": "Ако имате било каков интерес за Markdown, MarkdownD е дефинитивно вреди за симнување.",
+                    "userName": "Lifehacker",
+                    "professional": "Веб програмер и дизајнер"
                 },
                 {
-                    "reviewContent": "Навистина ми се допаѓа MarkdownD, ја донесе голема погодност; мојата работа.",
+                    "reviewContent": "Навистина ми се допаѓа MarkdownD, донесе многу погодности за мојата работа.",
                     "userName": "jeruss",
-                    "professional": "рамка за PHP развој"
+                    "professional": "PHP Рамковниот програмери"
                 }
             ]
         }

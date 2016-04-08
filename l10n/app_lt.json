@@ -41,24 +41,24 @@
             "SectionName": "Nuostabių dalykų žmonės sako apie MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD yra puikus. Paprasta, švarus, tobula. Gražiai padaryta.",
+                    "reviewContent": "MarkdownD yra stulbinantis. Paprasta. Švarus. Puikus. Šauniai padirbėta.",
                     "userName": "evanw",
-                    "professional": "technologijos skatinimas"
+                    "professional": "technologijos Evangelistas"
                 },
                 {
-                    "reviewContent": "MarkdownD aš beveik visą savo rašymą, kuris yra labai mažai paraišką.",
+                    "reviewContent": "MarkdownD yra tai, ką aš galiu padaryti beveik visi mano rašymo. Tai puikus mažai app.",
                     "userName": "Petras Šviesus",
-                    "professional": "\"Ars Technica rašytojas"
+                    "professional": "Rašytojas ne Ars Technica"
                 },
                 {
-                    "reviewContent": "Jei turite kokių nors mažesnėmis kainomis susidomėjimą, MarkdownD tikrai verta atsisiųsti.",
-                    "userName": "Lifehacker s",
-                    "professional": "Interneto svetainių kūrėjai ir dizaineriai"
+                    "reviewContent": "Jei turite kokių nors reklamos kainos susidomėjimą, MarkdownD tikrai verta parsisiųsti.",
+                    "userName": "Lifehacker",
+                    "professional": "Kūrėjas ir dizaineris"
                 },
                 {
-                    "reviewContent": "Man tikrai patinka MarkdownD, atnešė didelį patogumą; Mano darbas.",
+                    "reviewContent": "Man tikrai patinka MarkdownD, atnešė daug patogiau už mano darbą.",
                     "userName": "jeruss",
-                    "professional": "PHP pagrindus plėtrai"
+                    "professional": "PHP pagrindų kūrėjas"
                 }
             ]
         }

@@ -41,24 +41,24 @@
             "SectionName": "Csodálatos dolgokat mondanak róla az emberek MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD nagy. Egyszerű, tiszta, tökéletes. Szép munka.",
+                    "reviewContent": "MarkdownD lenyűgöző. Egyszerű. Tiszta. Tökéletes. Szép munka.",
                     "userName": "evanw",
-                    "professional": "Technology Promotion"
+                    "professional": "technológia evangélista"
                 },
                 {
-                    "reviewContent": "MarkdownD én szinte minden írásomat, ami egy remek kis alkalmazás.",
+                    "reviewContent": "MarkdownD amit csinálok elég sok minden írásomat. Ez egy jó kis app.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica író"
+                    "professional": "Író Ars Technica"
                 },
                 {
-                    "reviewContent": "Ha bármilyen érdeklődés az alacsonyabb árak, MarkdownD érdemes letölteni.",
-                    "userName": "Lifehacker a",
-                    "professional": "Web fejlesztők és a tervezők"
+                    "reviewContent": "Ha bármilyen érdeke Markdown, MarkdownD megér egy letöltés.",
+                    "userName": "Lifehacker",
+                    "professional": "Web Developer és a tervező"
                 },
                 {
-                    "reviewContent": "Nagyon szeretem MarkdownD, hozott nagy kényelem; Munkám.",
+                    "reviewContent": "Nagyon szeretem MarkdownD, hozott sok kényelem a munkámat.",
                     "userName": "jeruss",
-                    "professional": "PHP keretrendszer fejlesztése"
+                    "professional": "PHP keretrendszer fejlesztői"
                 }
             ]
         }

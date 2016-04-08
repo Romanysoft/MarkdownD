@@ -41,24 +41,24 @@
             "SectionName": "daoine rudaí iontacha ag rá faoi MarkdownD",
             "list": [
                 {
-                    "reviewContent": "Is MarkdownD mór. Simplí, glan, foirfe. Nicely déanta.",
+                    "reviewContent": "Is MarkdownD iontach seo. Simplí. Clean. Foirfe. An-mhaith.",
                     "userName": "evanw",
-                    "professional": "teicneolaíocht Chun Cinn"
+                    "professional": "teicneolaíocht Evangelist"
                 },
                 {
-                    "reviewContent": "MarkdownD féidir liom beagnach gach mo chuid scríbhneoireachta, a bhfuil iarratas iontach beag.",
+                    "reviewContent": "Is MarkdownD cad is féidir liom go leor i bhfad gach ceann de mo scríbhneoireachta i. Tá sé ina app iontach beag.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica scríbhneoir an"
+                    "professional": "Writer ag Ars Technica"
                 },
                 {
-                    "reviewContent": "Má tá aon leas in praghsanna níos ísle duit, is MarkdownD cinnte fiú a íoslódáil.",
-                    "userName": "Lifehacker ar",
-                    "professional": "forbróirí gréasáin agus dearthóirí"
+                    "reviewContent": "Má tá aon leas in Markdown tú, is MarkdownD cinnte fiú íoslódáil.",
+                    "userName": "Lifehacker",
+                    "professional": "Forbróir Gréasáin agus Dearthóir"
                 },
                 {
-                    "reviewContent": "I really like MarkdownD, thug áis iontach; mo chuid oibre.",
+                    "reviewContent": "I really like MarkdownD, thug áise i bhfad do mo chuid oibre.",
                     "userName": "jeruss",
-                    "professional": "Forbairt réime PHP"
+                    "professional": "Creat PHP Developer"
                 }
             ]
         }

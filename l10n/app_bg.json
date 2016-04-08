@@ -41,24 +41,24 @@
             "SectionName": "Прекрасни неща казват хората за MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD е голяма. Обикновено, чист, перфектен. Добре свършено.",
+                    "reviewContent": "MarkdownD е зашеметяващ. Simple. Clean. Perfect. Много добре.",
                     "userName": "evanw",
-                    "professional": "Технология Промоция"
+                    "professional": "Технология евангелист"
                 },
                 {
-                    "reviewContent": "MarkdownD правя почти всички моето писане, което е много малко приложение.",
+                    "reviewContent": "MarkdownD е това, което правя почти всичко, на писането ми в. Това е чудесен малък ап.",
                     "userName": "Питър Брайт",
-                    "professional": "Ars Technica писател на"
+                    "professional": "Сценарист на Ars Technica"
                 },
                 {
-                    "reviewContent": "Ако имате интерес в по-ниски цени, MarkdownD е определено си струва свалянето.",
-                    "userName": "Lifehacker е",
-                    "professional": "Уеб програмисти и дизайнери"
+                    "reviewContent": "Ако имате интерес в Markdown, MarkdownD е определено си струва за сваляне.",
+                    "userName": "Lifehacker",
+                    "professional": "Web Developer и Designer"
                 },
                 {
-                    "reviewContent": "Аз наистина харесвам MarkdownD, донесе голямо удобство; моята работа.",
+                    "reviewContent": "Аз наистина харесвам MarkdownD, донесе много удобство за работата ми.",
                     "userName": "jeruss",
-                    "professional": "рамка за развитие, PHP"
+                    "professional": "PHP рамка за разработчици"
                 }
             ]
         }

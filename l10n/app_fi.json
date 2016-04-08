@@ -41,24 +41,24 @@
             "SectionName": "Ihania asioita ihmiset sanovat MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD on suuri. Yksinkertainen, puhdas, täydellinen. Hienosti tehty.",
+                    "reviewContent": "MarkdownD on upea. Yksinkertainen. Puhdas. Täydellinen. Hyvin tehty.",
                     "userName": "evanw",
-                    "professional": "Technology Promotion"
+                    "professional": "teknologia evankelista"
                 },
                 {
-                    "reviewContent": "MarkdownD Teen melkein kaikki minun kirjoittaminen, joka on erittäin pieni sovellus.",
+                    "reviewContent": "MarkdownD on mitä teen jokseenkin kaikki minun kirjallisesti. Se on erittäin pieni app.",
                     "userName": "Peter Kirkas",
-                    "professional": "Ars Technica kirjoittaja"
+                    "professional": "Kirjailija Ars Technica"
                 },
                 {
-                    "reviewContent": "Jos on kiinnostusta halvemmalla, MarkdownD on ehdottomasti kannattaa lataamista.",
-                    "userName": "Lifehacker n",
-                    "professional": "Web-kehittäjät ja suunnittelijat"
+                    "reviewContent": "Jos on kiinnostusta Markdown, MarkdownD on ehdottomasti kannattaa ladata.",
+                    "userName": "Lifehacker",
+                    "professional": "Web Developer ja suunnittelija"
                 },
                 {
-                    "reviewContent": "Pidän todella MarkdownD, on tuonut suurta mukavuutta; työni.",
+                    "reviewContent": "Pidän todella MarkdownD, on tuonut paljon mukavuutta työssäni.",
                     "userName": "jeruss",
-                    "professional": "PHP puitteet kehitys"
+                    "professional": "PHP Framework Developer"
                 }
             ]
         }

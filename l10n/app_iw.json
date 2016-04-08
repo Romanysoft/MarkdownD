@@ -41,24 +41,24 @@
             "SectionName": "אנשי דברים נפלאים אומרים על MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD הוא נהדר. פשוט, נקי, מושלם. נעשה באופן יפה.",
+                    "reviewContent": "MarkdownD היא מהממת. פָּשׁוּט. לְנַקוֹת. מושלם. כל הכבוד.",
                     "userName": "evanw",
-                    "professional": "קידום טכנולוגיה"
+                    "professional": "מטיף טכנולוגיה"
                 },
                 {
-                    "reviewContent": "MarkdownD שאני עושה כמעט כל הכתיבה שלי, שבה הוא יישום קטן גדול.",
+                    "reviewContent": "MarkdownD זה מה שאני עושה פחות או יותר את כל הכתיבה שלי. זהו יישום קטן גדול.",
                     "userName": "פיטר מואר",
-                    "professional": "Technica Ars לכותב"
+                    "professional": "סופר ב- Ars Technica"
                 },
                 {
-                    "reviewContent": "אם יש לך עניין מחירים נמוכים, MarkdownD בהחלט שווה הורדה.",
-                    "userName": "Lifehacker של",
-                    "professional": "מפתחי אינטרנט ומעצבים"
+                    "reviewContent": "אם יש לך עניין Markdown, MarkdownD הוא בהחלט שווה הורדה.",
+                    "userName": "Lifehacker",
+                    "professional": "Developer מעצב אינטרנט"
                 },
                 {
-                    "reviewContent": "אני ממש אוהב MarkdownD, הבאתי נוחות רבה; העבודה שלי.",
+                    "reviewContent": "אני ממש אוהב MarkdownD, הבאתי נוחות רבה עבור עבודתי.",
                     "userName": "jeruss",
-                    "professional": "פיתוח במסגרת PHP"
+                    "professional": "Developer Framework PHP"
                 }
             ]
         }

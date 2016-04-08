@@ -41,24 +41,24 @@
             "SectionName": "Wonderful bagay na mga tao ay sinasabi tungkol sa MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD ay malaki. Simple, malinis, perpekto. Maayos na Natapos.",
+                    "reviewContent": "MarkdownD ay napakaganda. Simple. Malinis. Perpekto. Well tapos na.",
                     "userName": "evanw",
-                    "professional": "Technology Promotion"
+                    "professional": "teknolohiya Evangelist"
                 },
                 {
-                    "reviewContent": "MarkdownD gagawin ko halos lahat ng aking pagsulat, na kung saan ay isang magandang maliit na application.",
+                    "reviewContent": "MarkdownD ang siyang ginagawa ko medyo magkano ang lahat ng aking pagsulat sa. Ito ay isang magandang maliit na app.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica manunulat ng"
+                    "professional": "Writer sa Ars Technica"
                 },
                 {
-                    "reviewContent": "Kung mayroon kang anumang mga interes sa mas mababang presyo, MarkdownD ay talagang nagkakahalaga ng pag-download.",
-                    "userName": "Lifehacker ni",
-                    "professional": "Web developer at designer"
+                    "reviewContent": "Kung mayroon kang anumang mga interes sa Markdown, MarkdownD ay talagang nagkakahalaga ng isang pag-download.",
+                    "userName": "LifeHacker",
+                    "professional": "Web Developer at Designer"
                 },
                 {
-                    "reviewContent": "Ko talagang gusto MarkdownD, ay nagdala ng mahusay na kaginhawahan; aking trabaho.",
+                    "reviewContent": "Ko talagang gusto MarkdownD, ay nangagdala convenience para sa aking trabaho.",
                     "userName": "jeruss",
-                    "professional": "PHP framework unlad"
+                    "professional": "PHP Framework Developer"
                 }
             ]
         }

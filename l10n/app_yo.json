@@ -41,24 +41,24 @@
             "SectionName": "Ohun iyanu eniyan ti wa ni wipe nipa MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD jẹ nla. Simple, o mọ, pipe. Dara julọ ṣe.",
+                    "reviewContent": "MarkdownD ni yanilenu. Simple. Mọ. Pipe. Daradara ṣe.",
                     "userName": "evanw",
-                    "professional": "Technology Promotion"
+                    "professional": "Technology Ajihinrere"
                 },
                 {
-                    "reviewContent": "MarkdownD mo ti ṣe fere gbogbo mi kikọ, eyi ti o jẹ nla kan kekere elo.",
+                    "reviewContent": "MarkdownD ni ohun ti mo ti ṣe lẹwa Elo gbogbo awọn ti mi kikọ ni. O ni a nla kekere app.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica onkqwe ti"
+                    "professional": "Onkqwe ni Ars Technica"
                 },
                 {
-                    "reviewContent": "Ti o ba ti o ba ni eyikeyi anfani ni kekere owo, MarkdownD ni pato tọ gbigba.",
-                    "userName": "Lifehacker ká",
-                    "professional": "Ayelujara kóòdù ati awọn apẹẹrẹ"
+                    "reviewContent": "Ti o ba ti o ba ni eyikeyi anfani ni Markdown, MarkdownD ni pato tọ a download.",
+                    "userName": "Lifehacker",
+                    "professional": "Ayelujara Developer ati onise"
                 },
                 {
-                    "reviewContent": "Mo ti gan bi MarkdownD, ti mu nla wewewe; iṣẹ mi.",
+                    "reviewContent": "Mo ti gan bi MarkdownD, ti mu Elo wewewe fun iṣẹ mi.",
                     "userName": "jeruss",
-                    "professional": "PHP ilana idagbasoke"
+                    "professional": "PHP Framework Developer"
                 }
             ]
         }

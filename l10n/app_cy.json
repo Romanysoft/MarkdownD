@@ -41,24 +41,24 @@
             "SectionName": "pethau rhyfeddol pobl yn ei ddweud am MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD yn wych. Syml, yn lân, yn berffaith. wneud 'n glws.",
+                    "reviewContent": "MarkdownD yn drawiadol. Syml. Glân. Perffaith. Da iawn.",
                     "userName": "evanw",
-                    "professional": "Hyrwyddo technoleg"
+                    "professional": "technoleg Efengylwr"
                 },
                 {
-                    "reviewContent": "MarkdownD wyf yn ei wneud bron pob fy ysgrifennu, sydd yn gais bach gwych.",
+                    "reviewContent": "MarkdownD yw'r hyn yr wyf yn ei wneud 'n bert lawer pob un fy ysgrifennu i mewn. Mae'n app bach gwych.",
                     "userName": "peter Bright",
-                    "professional": "Ars Technica awdur"
+                    "professional": "Writer yn Ars Technica"
                 },
                 {
-                    "reviewContent": "Os oes gennych unrhyw ddiddordeb yn prisiau is, MarkdownD yn bendant yn werth ei lawrlwytho.",
-                    "userName": "Lifehacker yn",
-                    "professional": "datblygwyr gwe a dylunwyr"
+                    "reviewContent": "Os oes gennych unrhyw ddiddordeb yn Markdown, MarkdownD yn bendant yn werth download.",
+                    "userName": "Lifehacker",
+                    "professional": "Datblygwr Gwe a Dylunydd"
                 },
                 {
-                    "reviewContent": "Fi 'n sylweddol hoffi MarkdownD, wedi dod â hwylustod mawr; fy ngwaith.",
+                    "reviewContent": "Fi 'n sylweddol hoffi MarkdownD, wedi dod â llawer o cyfleustra ar gyfer fy ngwaith.",
                     "userName": "jeruss",
-                    "professional": "datblygu fframwaith PHP"
+                    "professional": "Datblygwr Fframwaith PHP"
                 }
             ]
         }

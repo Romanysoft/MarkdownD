@@ -41,24 +41,24 @@
             "SectionName": "Harika şeyler insanlar MarkdownD hakkında söylediklerini",
             "list": [
                 {
-                    "reviewContent": "MarkdownD harika. mükemmel, temiz, basit. Güzel yapılır.",
+                    "reviewContent": "MarkdownD çarpıcı. Basit. Temiz. Mükemmel. Aferin.",
                     "userName": "evanw",
-                    "professional": "Teknoloji Promosyon"
+                    "professional": "Teknoloji Evangelist"
                 },
                 {
-                    "reviewContent": "MarkdownD ben büyük bir küçük bir uygulamadır neredeyse tüm yazdıklarımı yapmak.",
+                    "reviewContent": "MarkdownD Hemen hemen tüm Yazımın ne olduğunu. Büyük bir küçük app.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica yazarı"
+                    "professional": "Ars Technica, yazar"
                 },
                 {
-                    "reviewContent": "Eğer düşük fiyatlarla herhangi bir ilgi varsa, MarkdownD indirirken kesinlikle değer.",
-                    "userName": "Lifehacker en",
-                    "professional": "Web geliştiricileri ve tasarımcıları"
+                    "reviewContent": "Eğer Markdown herhangi bir ilgi varsa, MarkdownD kesinlikle bir indirme değer.",
+                    "userName": "LifeHacker",
+                    "professional": "Web Developer ve Tasarımcı"
                 },
                 {
-                    "reviewContent": "Gerçekten MarkdownD gibi, büyük kolaylık getirdi; benim işim.",
+                    "reviewContent": "Gerçekten MarkdownD gibi, benim iş için çok kolaylık getirdi.",
                     "userName": "jeruss",
-                    "professional": "PHP çerçeve geliştirme"
+                    "professional": "PHP Framework Geliştirici"
                 }
             ]
         }

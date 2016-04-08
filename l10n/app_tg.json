@@ -41,24 +41,24 @@
             "SectionName": "чизҳои аҷоиб мардум гуфт: дар бораи MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD бузург аст. Содда, тоза ва комил. Nicely анҷом дода мешавад.",
+                    "reviewContent": "MarkdownD соъиқаи аст. Оддӣ. Тоза. Комил. Офарин.",
                     "userName": "evanw",
-                    "professional": "Пешбурди Технология"
+                    "professional": "Технология башоратдиҳанда"
                 },
                 {
-                    "reviewContent": "MarkdownD ман қариб ҳамаи хаттӣ ман, аст, ки як барномаи бузурги андак.",
+                    "reviewContent": "MarkdownD аст он чӣ ман кор хеле зиёд ҳамаи навиштани ман. Ин як барнома бузурги каме аст.",
                     "userName": "Петрус дурахшон",
-                    "professional": "Нависандаи Ars Technica аз"
+                    "professional": "Нависанда дар Ars Technica"
                 },
                 {
-                    "reviewContent": "Агар шумо ягон манфиати нархи пасттар, MarkdownD бешубҳа ба маблағи аз зеркашии аст.",
-                    "userName": "Русия Lifehacker",
-                    "professional": "таҳиягарон веб ва таҳиякунандагони"
+                    "reviewContent": "Агар шумо ягон шавқ Markdown, MarkdownD аст, бешубҳа ба маблағи як Download.",
+                    "userName": "LifeHacker",
+                    "professional": "Ташкилкунанда веб ва Созандаи"
                 },
                 {
-                    "reviewContent": "Ман дар ҳақиқат мисли MarkdownD, оварда роҳати бузург; кори ман.",
+                    "reviewContent": "Ман дар ҳақиқат мисли MarkdownD, баҳраи зиёд барои кор кардааст.",
                     "userName": "jeruss",
-                    "professional": "рушди заминаи PHP"
+                    "professional": "PHP Чаҳорчӯби ташкилкунанда"
                 }
             ]
         }

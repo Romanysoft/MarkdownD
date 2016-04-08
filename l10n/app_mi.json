@@ -41,24 +41,24 @@
             "SectionName": "Kei te mea faahiahia mea te iwi e pā ana ki MarkdownD",
             "list": [
                 {
-                    "reviewContent": "He nui MarkdownD. Simple, ma, tino tika. Kiri mahi.",
+                    "reviewContent": "Ko nga auheke MarkdownD. Simple. Clean. Perfect. Pai mahi.",
                     "userName": "evanw",
-                    "professional": "hangarau Whakatairanga"
+                    "professional": "hangarau Kaikauwhau"
                 },
                 {
-                    "reviewContent": "MarkdownD mahi ahau tata katoa toku tuhituhi, e he tono nui iti ko.",
+                    "reviewContent": "MarkdownD Ko te aha te mahi ahau tino nui katoa o toku tuhituhi i roto i. Te reira i te taupānga nui iti.",
                     "userName": "Pita Bright",
-                    "professional": "Ars Technica kaituhi o"
+                    "professional": "Kaituhi i Ars Technica"
                 },
                 {
-                    "reviewContent": "Ki te whai koe i tetahi moni i roto i utu raro, MarkdownD he tino utu tikiake.",
-                    "userName": "Lifehacker o",
-                    "professional": "ngā tukutuku me kaihoahoa"
+                    "reviewContent": "Ki te whai koe i tetahi moni i roto i Markdown, he utu he download tino MarkdownD.",
+                    "userName": "LifeHacker",
+                    "professional": "Developer Tukutuku me te Designer"
                 },
                 {
-                    "reviewContent": "Kua kawea mai e ahau tino rite MarkdownD, haratau nui; toku mahi.",
+                    "reviewContent": "tino rite MarkdownD, kua kawea mai e ahau he nui haratau mo toku mahi.",
                     "userName": "jeruss",
-                    "professional": "whanaketanga anga PHP"
+                    "professional": "PHP Anga Developer"
                 }
             ]
         }

@@ -41,24 +41,24 @@
             "SectionName": "bagay bèl bagay moun ap di sou MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD se gwo. Senp, pwòp, pafè. Joliman fè.",
+                    "reviewContent": "MarkdownD se sansasyonèl. Senp. Netwaye. Pafè. Oke fè.",
                     "userName": "evanw",
-                    "professional": "Teknoloji Pwomosyon"
+                    "professional": "Teknoloji Evangelist"
                 },
                 {
-                    "reviewContent": "MarkdownD m 'fè prèske tout ekri mwen, ki se yon aplikasyon gwo ti kras.",
+                    "reviewContent": "MarkdownD se sa m 'fè bèl anpil tout nan ekri m' ki nan. Li se yon gwo app ti kras.",
                     "userName": "Pyè Bright",
-                    "professional": "Ars tecnica ekriven nan"
+                    "professional": "Writer nan Ars tecnica"
                 },
                 {
-                    "reviewContent": "Si w gen nenpòt enterè nan pi ba pri, MarkdownD se definitivman vo Téléchargez.",
-                    "userName": "Lifehacker a",
-                    "professional": "devlopè entènèt ak Designers"
+                    "reviewContent": "Si w gen nenpòt enterè nan rediksyon, MarkdownD se definitivman vo yon download.",
+                    "userName": "Lifehacker",
+                    "professional": "Web Developer ak Designer"
                 },
                 {
-                    "reviewContent": "Mwen vrèman renmen MarkdownD, te pote gwo konvenyans; travay mwen.",
+                    "reviewContent": "Mwen vrèman renmen MarkdownD, te pote anpil konvenyans pou travay mwen.",
                     "userName": "jeruss",
-                    "professional": "PHP fondasyon devlopman"
+                    "professional": "PHP chapant Developer"
                 }
             ]
         }

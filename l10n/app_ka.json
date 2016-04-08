@@ -41,24 +41,24 @@
             "SectionName": "მშვენიერი რამ ხალხი შესახებ MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD არის დიდი. მარტივი, სუფთა, სრულყოფილი. კარგათ შესრულებული.",
+                    "reviewContent": "MarkdownD არის განსაცვიფრებელი. მარტივია. სუფთა. სრულყოფილი. კარგად გაკეთდეს.",
                     "userName": "evanw",
-                    "professional": "ტექნოლოგიების პოპულარიზაცია"
+                    "professional": "ტექნიკა მახარებელი"
                 },
                 {
-                    "reviewContent": "MarkdownD მე თითქმის ყველა ჩემი წერა, რომელიც არის დიდი პატარა პროგრამა.",
+                    "reviewContent": "MarkdownD არის რა გავაკეთო საკმაოდ ბევრი ყველა ჩემი წერის. ეს არის დიდი პატარა ოთახი.",
                     "userName": "პიტერ Bright",
-                    "professional": "Ars ტექნიკა მწერალი"
+                    "professional": "მწერალი Ars ტექნიკა"
                 },
                 {
-                    "reviewContent": "თუ თქვენ გაქვთ რაიმე ინტერესი უფრო დაბალი ფასები, MarkdownD ნამდვილად ღირს ჩამოტვირთვის.",
-                    "userName": "Lifehacker ს",
-                    "professional": "ვებ დეველოპერები და დიზაინერები"
+                    "reviewContent": "თუ თქვენ გაქვთ რაიმე ინტერესი Markdown, MarkdownD ნამდვილად ღირს download.",
+                    "userName": "Lifehacker",
+                    "professional": "ვებ დეველოპერი და დიზაინერი"
                 },
                 {
-                    "reviewContent": "მე ნამდვილად მინდა MarkdownD, რომელმაც დიდი მოხერხებულობით; ჩემი მუშაობა.",
+                    "reviewContent": "მე ნამდვილად მინდა MarkdownD, მოიტანა ბევრი ფონდის ჩემი მუშაობა.",
                     "userName": "jeruss",
-                    "professional": "PHP ფარგლებში განვითარების"
+                    "professional": "PHP ჩარჩო შემქმნელი"
                 }
             ]
         }

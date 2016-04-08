@@ -41,24 +41,24 @@
             "SectionName": "Divy ľudia hovoria o MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD je skvelý. Jednoduché, čisté, dokonalé. Dobre spravené.",
+                    "reviewContent": "MarkdownD je ohromujúci. Jednoduchá. Čistote. Dokonalá. Výborne.",
                     "userName": "evanw",
-                    "professional": "technológia Promotion"
+                    "professional": "Technology Evangelist"
                 },
                 {
-                    "reviewContent": "MarkdownD mám takmer všetky moje písanie, čo je veľký malý aplikácie.",
+                    "reviewContent": "MarkdownD je to, čo mám robiť skoro všetky moje písanie. Je to veľký malý app.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica spisovateľ"
+                    "professional": "Writer na Ars Technica"
                 },
                 {
-                    "reviewContent": "Ak máte žiadny záujem na zníženie cien, MarkdownD rozhodne stojí za stiahnutie.",
-                    "userName": "Lifehacker je",
-                    "professional": "Weboví vývojári a návrhári"
+                    "reviewContent": "Ak máte žiadny záujem na Markdown, MarkdownD je rozhodne stojí za stiahnutie.",
+                    "userName": "Lifehacker",
+                    "professional": "Web Developer a Designer"
                 },
                 {
-                    "reviewContent": "Moc sa mi páči MarkdownD, priniesla veľké pohodlie; moja práca.",
+                    "reviewContent": "Moc sa mi páči MarkdownD, priniesol mnoho pohodlie pre svoju prácu.",
                     "userName": "jeruss",
-                    "professional": "framework pre vývoj PHP"
+                    "professional": "PHP Framework Developer"
                 }
             ]
         }

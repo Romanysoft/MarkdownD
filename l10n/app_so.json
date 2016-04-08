@@ -41,24 +41,24 @@
             "SectionName": "wax dadka Wonderful leh oo ku saabsan MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD waa ku weyn yahay. Simple, nadiif ah, kaamil ah. Xunna sameeyey.",
+                    "reviewContent": "MarkdownD waa cajiib. Simple. Nadiifi. Perfect. Si wanaagsan baad yeeshay.",
                     "userName": "evanw",
-                    "professional": "Technology Gudbinta"
+                    "professional": "Technology Evangelist"
                 },
                 {
-                    "reviewContent": "MarkdownD aan waxan ku sameeyo ku dhowaad dhammaan qoraal aan, taas waa codsi yar weyn.",
+                    "reviewContent": "MarkdownD waa waxa aan soo jiidasho sameeyo waxyaalo badan oo dhan oo aan qoraal ah. Waa app weyn yar.",
                     "userName": "Peter Bright",
-                    "professional": "ARS Technica qoraaga of"
+                    "professional": "Writer at ARS Technica"
                 },
                 {
-                    "reviewContent": "Haddii aad qabto wax xiiso ah in qiimaha hoose, MarkdownD waa xaqiiqo ah oo qiimihiisu soo degsado.",
-                    "userName": "Lifehacker ee",
-                    "professional": "Horumarinta Web iyo samaynta"
+                    "reviewContent": "Haddii aad qabto wax xiiso ah in Markdown, MarkdownD xaqiiqo ah oo qiimihiisu yahay download a.",
+                    "userName": "LifeHacker",
+                    "professional": "Web Developer iyo Designer"
                 },
                 {
-                    "reviewContent": "Waxaan runtii sida MarkdownD, ayaa keenay sahlanaato weyn; shaqadeyda.",
+                    "reviewContent": "Waxaan runtii sida MarkdownD, ayaa keenay dhaw raaxadeeda waxa badan ee aan shaqada.",
                     "userName": "jeruss",
-                    "professional": "PHP horumarinta qaab-dhismeedka"
+                    "professional": "PHP Framework Developer"
                 }
             ]
         }

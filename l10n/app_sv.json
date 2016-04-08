@@ -41,24 +41,24 @@
             "SectionName": "Underbara saker folk säger om MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD är stor. Enkelt, rent, perfekt. Snyggt gjort.",
+                    "reviewContent": "MarkdownD är fantastisk. Enkel. Rena. Perfekt. Bra gjort.",
                     "userName": "evanw",
-                    "professional": "Technology Promotion"
+                    "professional": "teknik Evangelist"
                 },
                 {
-                    "reviewContent": "MarkdownD jag gör nästan allt mitt skrivande, vilket är en stor liten applikation.",
+                    "reviewContent": "MarkdownD är vad jag gör ganska mycket alla mitt skrivande i. Det är en stor liten app.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica författare"
+                    "professional": "Writer på Ars Technica"
                 },
                 {
-                    "reviewContent": "Om du har något intresse i lägre priser, är MarkdownD definitivt värt att ladda ner.",
-                    "userName": "Lifehacker s",
-                    "professional": "Webbutvecklare och designers"
+                    "reviewContent": "Om du har något intresse i Wiki är MarkdownD definitivt värt en nedladdning.",
+                    "userName": "Lifehacker",
+                    "professional": "Webbutvecklare och Designer"
                 },
                 {
-                    "reviewContent": "Jag gillar verkligen MarkdownD, har inneburit stora bekvämlighet; mitt arbete.",
+                    "reviewContent": "Jag gillar verkligen MarkdownD har fört mycket bekvämlighet för mitt arbete.",
                     "userName": "jeruss",
-                    "professional": "PHP utveckling ram"
+                    "professional": "PHP Framework Developer"
                 }
             ]
         }

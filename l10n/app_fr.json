@@ -41,24 +41,24 @@
             "SectionName": "Merveilleux choses que les gens disent à propos de MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD est grande. Simple, propre, parfait. Bien fait.",
+                    "reviewContent": "MarkdownD est magnifique. Simple. Nettoyer. Parfait. Bien joué.",
                     "userName": "evanw",
-                    "professional": "promotion de la technologie"
+                    "professional": "Technology Evangelist"
                 },
                 {
-                    "reviewContent": "MarkdownD je fais presque tout mon écriture, ce qui est une petite application.",
+                    "reviewContent": "MarkdownD est ce que je fais à peu près tous de mon écriture. C'est un super petit app.",
                     "userName": "Peter lumineux",
-                    "professional": "Ars Technica auteur de"
+                    "professional": "Writer à Ars Technica"
                 },
                 {
-                    "reviewContent": "Si vous avez tout intérêt à la baisse des prix, MarkdownD vaut vraiment le téléchargement.",
-                    "userName": "Lifehacker de",
-                    "professional": "Les développeurs Web et les concepteurs"
+                    "reviewContent": "Si vous avez tout intérêt à Markdown, MarkdownD vaut vraiment la peine d'un téléchargement.",
+                    "userName": "LifeHacker",
+                    "professional": "Web Developer et Designer"
                 },
                 {
-                    "reviewContent": "Je aime vraiment MarkdownD, a apporté une grande commodité; mon travail.",
+                    "reviewContent": "Je aime vraiment MarkdownD, a apporté beaucoup de confort pour mon travail.",
                     "userName": "jeruss",
-                    "professional": "élaboration d'un cadre PHP"
+                    "professional": "Développeur PHP Framework"
                 }
             ]
         }

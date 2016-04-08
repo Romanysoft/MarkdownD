@@ -41,24 +41,24 @@
             "SectionName": "mrekullitë njerëzit janë duke thënë se për MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD është e madhe. Thjeshtë, të pastër, të përsosur. bërë mirë.",
+                    "reviewContent": "MarkdownD është mahnitëse. Simple. Të pastër. Perfect. Të lumtë.",
                     "userName": "evanw",
-                    "professional": "Teknologji Promovimi"
+                    "professional": "Teknologji Evangelist"
                 },
                 {
-                    "reviewContent": "MarkdownD bëj pothuajse të gjithë shkrimin tim, e cila është një kërkesë e madhe pak.",
+                    "reviewContent": "MarkdownD është ajo që unë bëj shumë e shumë të gjithë shkrimin tim në. Kjo është një app madhe pak.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica shkrimtar i"
+                    "professional": "Writer në Ars Technica"
                 },
                 {
-                    "reviewContent": "Nëse keni ndonjë interes në çmime më të ulëta, MarkdownD është padyshim një vlerë shkarkimit.",
-                    "userName": "Lifehacker-së",
-                    "professional": "Hartuesit Web dhe designers"
+                    "reviewContent": "Nëse keni ndonjë interes në markdown, MarkdownD është padyshim një vlerë download.",
+                    "userName": "Lifehacker",
+                    "professional": "Web Developer dhe Designer"
                 },
                 {
-                    "reviewContent": "I really like MarkdownD, ka sjellë lehtësi të madhe; Puna ime.",
+                    "reviewContent": "I really like MarkdownD, ka sjellë shumë lehtësi për punën time.",
                     "userName": "jeruss",
-                    "professional": "zhvillimi kuadër PHP"
+                    "professional": "PHP Korniza Developer"
                 }
             ]
         }

@@ -41,24 +41,24 @@
             "SectionName": "Ihe ndị dị ebube ndị mmadụ na-ekwu banyere MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD dị ukwuu. Mfe, dị ọcha, nke zuru okè. Omume ọma mere.",
+                    "reviewContent": "MarkdownD bụ pụtara. Mfe. Dị ọcha. Zuru okè. Ị mere nke ọma.",
                     "userName": "evanw",
-                    "professional": "Technology Promotion"
+                    "professional": "Technology ọkwọrọikọ"
                 },
                 {
-                    "reviewContent": "MarkdownD m na-eme ọ fọrọ nke nta niile m dere ede, nke bụ oké obere ngwa.",
+                    "reviewContent": "MarkdownD bụ ihe m na-eme mara mma nke ukwuu niile m na ede ihe. Ọ bụ oké obere ngwa.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica dere"
+                    "professional": "Edemede na Ars Technica"
                 },
                 {
-                    "reviewContent": "Ọ bụrụ na ị nwere mmasị ọ bụla ala ahịa, MarkdownD kwesịrị nnọọ nbudata.",
-                    "userName": "Lifehacker si",
-                    "professional": "Web mmepe na-emepụta"
+                    "reviewContent": "Ọ bụrụ na ị nwere mmasị ọ bụla Markdown, MarkdownD kwesịrị nnọọ a download.",
+                    "userName": "LifeHacker",
+                    "professional": "Web Developer na Designer"
                 },
                 {
-                    "reviewContent": "M n'ezie dị ka MarkdownD, emewo ka oké mma; ọrụ m.",
+                    "reviewContent": "M n'ezie dị ka MarkdownD, emewo ka ukwuu mma maka ọrụ m.",
                     "userName": "jeruss",
-                    "professional": "PHP kpuchie development"
+                    "professional": "PHP Framework Developer"
                 }
             ]
         }

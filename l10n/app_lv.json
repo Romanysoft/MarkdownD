@@ -41,24 +41,24 @@
             "SectionName": "Brīnišķīgas lietas cilvēki saka par MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD ir liels. Vienkāršs, tīrs, perfekts. Labi darīts.",
+                    "reviewContent": "MarkdownD ir apdullināšanas. Vienkārši. Tīrs. Perfekta. Labi padarīts.",
                     "userName": "evanw",
-                    "professional": "Technology Promotion"
+                    "professional": "tehnoloģija evaņģēlists"
                 },
                 {
-                    "reviewContent": "MarkdownD Man gandrīz visu manu rakstiski, kas ir ļoti maz pieteikumu.",
+                    "reviewContent": "MarkdownD ir tas, ko es daru diezgan daudz visu manu rakstiski. Tā ir lieliska maz app.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica rakstnieks"
+                    "professional": "Rakstnieks Ars Technica"
                 },
                 {
-                    "reviewContent": "Ja Jums ir interese par zemākām cenām, MarkdownD noteikti ir vērts lejupielādēt.",
-                    "userName": "Lifehacker s",
-                    "professional": "Web izstrādātājiem un dizaineriem"
+                    "reviewContent": "Ja Jums ir interese par Markdown, MarkdownD noteikti ir vērts lejuplādēt.",
+                    "userName": "Lifehacker",
+                    "professional": "Web Developer un Designer"
                 },
                 {
-                    "reviewContent": "Man tiešām patīk MarkdownD, ir devusi lielu ērtības; Mans darbs.",
+                    "reviewContent": "Man tiešām patīk MarkdownD, ir devusi daudz ērtības par manu darbu.",
                     "userName": "jeruss",
-                    "professional": "PHP sistēmu attīstība"
+                    "professional": "PHP Framework Izstrādātājs"
                 }
             ]
         }

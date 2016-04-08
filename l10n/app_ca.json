@@ -41,24 +41,24 @@
             "SectionName": "coses meravelloses persones estan dient sobre MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD és gran. Senzill, net, perfecte. Ben fet.",
+                    "reviewContent": "MarkdownD és impressionant. Simple. Neta. Perfecte. Ben fet.",
                     "userName": "evanw",
-                    "professional": "Promoció de la tecnologia"
+                    "professional": "tecnologia Evangelista"
                 },
                 {
-                    "reviewContent": "MarkdownD faig gairebé tot el meu escriptura, que és un petit gran aplicació.",
+                    "reviewContent": "MarkdownD és el que faig gairebé tot de la meva escriptura. És un petit gran aplicació.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica escriptor de"
+                    "professional": "Escriptor a Ars Technica"
                 },
                 {
-                    "reviewContent": "Si vostè té algun interès en preus més baixos, MarkdownD és definitivament val la pena descarregar.",
-                    "userName": "Lifehacker de",
-                    "professional": "Els desenvolupadors web i dissenyadors"
+                    "reviewContent": "Si vostè té algun interès en Markdown, MarkdownD és definitivament val la pena descarregar.",
+                    "userName": "Lifehacker",
+                    "professional": "Web Developer i dissenyador"
                 },
                 {
-                    "reviewContent": "M'agrada molt MarkdownD, ha portat una gran comoditat; el meu treball.",
+                    "reviewContent": "M'agrada molt MarkdownD, ha portat molta conveniència per al meu treball.",
                     "userName": "jeruss",
-                    "professional": "el desenvolupament del marc de PHP"
+                    "professional": "Marc de PHP"
                 }
             ]
         }

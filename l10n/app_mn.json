@@ -41,24 +41,24 @@
             "SectionName": "Гайхамшигт зүйл ард түмэн MarkdownD тухай ярьж байна",
             "list": [
                 {
-                    "reviewContent": "MarkdownD их байна. Энгийн, цэвэр, төгс төгөлдөр. Сайхан хийдэг.",
+                    "reviewContent": "MarkdownD гайхалтай юм. Энгийн. Цэвэр. Төгс. Сайн хийлээ.",
                     "userName": "evanw",
-                    "professional": "Технологийн дэмжих"
+                    "professional": "Технологийн Evangelist"
                 },
                 {
-                    "reviewContent": "MarkdownD би бараг бүх Миний бичих, их бага програм юм байна.",
+                    "reviewContent": "MarkdownD Энэ нь их бага апп шүү би нэлээн их л миний бичиж хийх юм..",
                     "userName": "Петр Bright",
-                    "professional": "-ын ARS Technica зохиолч"
+                    "professional": "ARS Technica дээр Writer"
                 },
                 {
-                    "reviewContent": "Та бага үнийн ямар нэгэн ашиг сонирхол байгаа бол, MarkdownD татаж авах нь мэдээж үнэ цэнэтэй юм.",
-                    "userName": "Lifehacker-ийн",
-                    "professional": "Вэб хөгжүүлэгчид болон дизайнерууд"
+                    "reviewContent": "Та Markdown-д ямар нэгэн ашиг сонирхол байгаа бол, MarkdownD нь татаж авах нь зүйтэй мэдээж юм.",
+                    "userName": "LifeHacker",
+                    "professional": "Web Developer ба Designer"
                 },
                 {
-                    "reviewContent": "үнэхээр MarkdownD шиг би маш их тав тухыг авчирдаг; миний ажил.",
+                    "reviewContent": "Би үнэхээр MarkdownD шиг, миний ажилд маш их тав тухтай авчирсан байна.",
                     "userName": "jeruss",
-                    "professional": "PHP тогтолцоо нь хөгжил"
+                    "professional": "PHP Framework Developer"
                 }
             ]
         }

@@ -41,24 +41,24 @@
             "SectionName": "Zava-mahagaga ny olona hoe momba MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD no lehibe. Simple, madio, tonga lafatra. Tsara anefa izany.",
+                    "reviewContent": "MarkdownD dia manaitra. Simple. Clean. Perfect. Vita tsara.",
                     "userName": "evanw",
-                    "professional": "Technology Promotion"
+                    "professional": "Technology Evangelist"
                 },
                 {
-                    "reviewContent": "MarkdownD ataoko saika ny soratra rehetra, izay lehibe fampiharana kely.",
+                    "reviewContent": "MarkdownD no ataoko tsara tarehy be ny soratra rehetra tao. Tena lehibe fampiharana kely.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica mpanoratra ny"
+                    "professional": "Mpanoratra ao amin'ny Ars Technica"
                 },
                 {
-                    "reviewContent": "Raha toa ka misy liana amin'ny vidiny ambany, MarkdownD dia tena mendrika downloading.",
-                    "userName": "Lifehacker ny",
-                    "professional": "Web mpandraharaha sy ny endrika"
+                    "reviewContent": "Raha toa ka misy liana tamin'ny Markdown, MarkdownD dia tena mendrika ny Download.",
+                    "userName": "LifeHacker",
+                    "professional": "Web Developer sy Designer"
                 },
                 {
-                    "reviewContent": "Tena toy ny MarkdownD, efa nitondra tsy hanahirana be; ny asako.",
+                    "reviewContent": "Tena toy ny MarkdownD, dia nitondra be tsy hanahirana ny asako.",
                     "userName": "jeruss",
-                    "professional": "PHP rafitra fampandrosoana"
+                    "professional": "Framework PHP Developer"
                 }
             ]
         }

@@ -41,24 +41,24 @@
             "SectionName": "Wonderful asju inimesed on öelnud MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD on suur. Lihtne, puhas, täiuslik. Ilusti tehtud.",
+                    "reviewContent": "MarkdownD on suurepärased. Lihtne. Puhas. Täiuslik. Hästi tehtud.",
                     "userName": "evanw",
-                    "professional": "Technology Promotion"
+                    "professional": "tehnoloogia Evangelist"
                 },
                 {
-                    "reviewContent": "MarkdownD ma peaaegu kõik minu kirjalikult, mis on väga väike rakendus.",
+                    "reviewContent": "MarkdownD on see, mida ma teha päris palju kõik minu kirjalikult. See on väga väike rakendus.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica kirjanik"
+                    "professional": "Kirjanik on Ars Technica"
                 },
                 {
-                    "reviewContent": "Kui teil on huvi madalama hinnaga, MarkdownD tasub kindlasti allalaadimist.",
-                    "userName": "Lifehacker on",
-                    "professional": "Web arendajad ja disainerid"
+                    "reviewContent": "Kui teil on huvi Hinnaalandus, MarkdownD tasub kindlasti alla.",
+                    "userName": "LifeHacker",
+                    "professional": "Web Developer ja kunstnik"
                 },
                 {
-                    "reviewContent": "Mulle meeldib MarkdownD, on toonud suure mugavuse; minu töö.",
+                    "reviewContent": "Mulle meeldib MarkdownD, on toonud palju mugavamaks minu töö.",
                     "userName": "jeruss",
-                    "professional": "PHP raames areng"
+                    "professional": "PHP Framework Developer"
                 }
             ]
         }

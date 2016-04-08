@@ -41,24 +41,24 @@
             "SectionName": "सुन्दर मानिसहरूलाई MarkdownD बारेमा भनिरहेका छन्",
             "list": [
                 {
-                    "reviewContent": "MarkdownD ठूलो छ। सरल, स्वच्छ, सिद्ध। राम्रोसँग गरियो।",
+                    "reviewContent": "MarkdownD आश्चर्यजनक छ। सरल। साफ। सिद्ध। राम्रो काम।",
                     "userName": "evanw",
-                    "professional": "प्रौद्योगिकी संवर्धन"
+                    "professional": "प्रौद्योगिकी इंजीलवादी"
                 },
                 {
-                    "reviewContent": "MarkdownD म ठूलो सानो आवेदन छ लगभग सबै मेरो लेखन, के।",
+                    "reviewContent": "MarkdownD यो ठूलो सानो अनुप्रयोग के म मेरो लेखन धेरै सबै राम्रो के छ।।",
                     "userName": "पत्रुस उज्ज्वल",
-                    "professional": "को ARS Technica लेखक"
+                    "professional": "ARS Technica मा लेखक"
                 },
                 {
-                    "reviewContent": "तपाईं कम मूल्यहरु मा कुनै पनि चासो छ भने, MarkdownD निश्चित डाउनलोड लायक छ।",
-                    "userName": "Lifehacker गरेको",
-                    "professional": "वेब विकासकर्ताहरूले र डिजाइनर"
+                    "reviewContent": "तपाईं छुट कुनै पनि चासो छ भने, MarkdownD निश्चित एक डाउनलोड लायक छ।",
+                    "userName": "Lifehacker",
+                    "professional": "वेब डेभलपर र डिजाइनर"
                 },
                 {
-                    "reviewContent": "साँच्चै MarkdownD जस्तै म, ठूलो सुविधा ल्याएको छ; मेरो काम।",
+                    "reviewContent": "म साँच्चै MarkdownD जस्तै, मेरो काम को लागि धेरै सुविधा ल्याएको छ।",
                     "userName": "jeruss",
-                    "professional": "PHP रूपरेखा विकास"
+                    "professional": "PHP फ्रेमवर्क विकासकर्ता"
                 }
             ]
         }

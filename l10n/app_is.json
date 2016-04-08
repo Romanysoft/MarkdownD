@@ -41,24 +41,24 @@
             "SectionName": "Furðuverk fólk er að segja um MarkdownD",
             "list": [
                 {
-                    "reviewContent": "MarkdownD er mikill. Einfalt, hreint, fullkominn. Vel gert.",
+                    "reviewContent": "MarkdownD er töfrandi. Einfalt. Hreint. Perfect. Vel gert.",
                     "userName": "evanw",
-                    "professional": "tækni Efling"
+                    "professional": "tækni Evangelist"
                 },
                 {
-                    "reviewContent": "MarkdownD ég gert næstum allt skrifin mín, sem er a mikill lítill forrit.",
+                    "reviewContent": "MarkdownD er það sem ég geri nánast öll skrifin mín í. Það er a mikill lítill app.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica rithöfundur"
+                    "professional": "Writer á Ars Technica"
                 },
                 {
-                    "reviewContent": "Ef þú hefur áhuga á lægra verði, MarkdownD er sannarlega þess virði að sækja.",
-                    "userName": "Lifehacker er",
-                    "professional": "Vefur verktaki og hönnuðir"
+                    "reviewContent": "Ef þú hefur áhuga á Markdown, MarkdownD er örugglega þess virði að sækja.",
+                    "userName": "Lifehacker",
+                    "professional": "Web Developer og Designer"
                 },
                 {
-                    "reviewContent": "Ég virkilega eins MarkdownD, hefur fært mikil þægindi; vinnan mín.",
+                    "reviewContent": "Ég virkilega eins MarkdownD, hefur fært mikið þægindi fyrir vinnu mína.",
                     "userName": "jeruss",
-                    "professional": "PHP ramma þróun"
+                    "professional": "PHP Framework Developer"
                 }
             ]
         }

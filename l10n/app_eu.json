@@ -41,24 +41,24 @@
             "SectionName": "Wonderful gauza pertsona dira MarkdownD buruz esaten duena",
             "list": [
                 {
-                    "reviewContent": "MarkdownD handia da. Simple, garbi, ezin hobea. Lan bikaina.",
+                    "reviewContent": "MarkdownD harrigarri. Simple. Clean. Perfect. Ongi egina.",
                     "userName": "evanw",
-                    "professional": "Teknologia Sustapena"
+                    "professional": "Teknologia Evangelist"
                 },
                 {
-                    "reviewContent": "MarkdownD ia guztiak nire idazteko, eta hori gutxi aplikazio handia da egin nuen.",
+                    "reviewContent": "MarkdownD da zer polita egin dut askoz guztiak nire idatziz. Apur bat app handia da.",
                     "userName": "Peter Bright",
-                    "professional": "Ars Technica idazlea"
+                    "professional": "Ars Technica at Writer"
                 },
                 {
-                    "reviewContent": "prezio baxuagoak interesa baduzu, MarkdownD merezi da behin betiko deskargatzea.",
-                    "userName": "Lifehacker en",
-                    "professional": "Web diseinatzaile eta"
+                    "reviewContent": "Markdown interesa baduzu, MarkdownD da, zalantzarik download bat merezi.",
+                    "userName": "lifehacker",
+                    "professional": "Web Developer eta festa"
                 },
                 {
-                    "reviewContent": "I benetan MarkdownD bezala, erosotasuna handia ekarri du: nire lana.",
+                    "reviewContent": "I benetan MarkdownD bezala, askoz erosotasuna ekarri du nire lana da.",
                     "userName": "jeruss",
-                    "professional": "PHP framework garapena"
+                    "professional": "PHP Esparru garatzailea"
                 }
             ]
         }
