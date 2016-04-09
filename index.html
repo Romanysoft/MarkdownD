@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/app.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/slicebox.css" media="screen">
 
     <!-- Favicons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/logo_144.png">
@@ -19,8 +20,10 @@
     <link rel="shortcut icon" href="images/ico/logo_64.png">
 
     
+    <script src="js/common/modernizr.custom.46884.js"></script>
     <script src="js/common/jquery-1.12.3.min.js"></script>
     <script src="js/common/artTemplate/3.0/template.js"></script>
+    <script src="js/common/jquery.slicebox.min.js"></script>
     <script src="js/config.js"></script>
     <script src="js/google-analytics.js"></script>
 </head>
@@ -62,9 +65,17 @@
     
     <!-- Scrrens template -->
     <script id="screen-content-tmpl" type="text/html">
-        {{each list as imgUrl}}
-         <img src="{{imgUrl}}">
-        {{/each}}
+        <div class="wrapper">
+            <ul id="sb-slider" class="sb-slider">
+                {{each list as imgUrl}}
+                <li>
+                    <img src="{{imgUrl}}">
+                </li>
+                {{/each}}
+            </ul>
+            <div id="shadow" class="shadow"></div>
+        </div>
+
     </script>
     
     <!--- Features template --->
