@@ -2,17 +2,17 @@
     "TopBar": {
         "Home": "집",
         "Feature": "풍모",
-        "Documents": "서류",
-        "ReleaseNotes": "릴리즈 노트",
-        "Downloads": "시도",
+        "Video": "비디오",
+        "ReleaseNotes": "변경 내역",
+        "Downloads": "다운로드",
         "Buy": "사다",
-        "Roadmap": "로드맵",
+        "Documents": "선적 서류 비치",
         "ReportIssue": "문제",
         "Languages": "언어"
     },
     "Footer": {},
     "HomePage": {
-        "ProjectTagline": "전체 기능을 갖춘 마크 다운 편집기. 윈도우, 리눅스 및에서라도하십시오.",
+        "ProjectTagline": "전체 기능을 갖춘 마크 다운 편집기.",
         "BtnDownload": "시도",
         "BtnBuy": "사다",
         "Screens": [
@@ -41,24 +41,24 @@
             "SectionName": "멋진 것들을 사람들이 MarkdownD 디자이너들은",
             "list": [
                 {
-                    "reviewContent": "MarkdownD은 충격적이다. 단순한. 깨끗한. 완전한. 잘 했어.",
-                    "userName": "evanw",
-                    "professional": "기술 책임자"
+                    "reviewContent": "{{MarkdownD is stunning. Simple. Clean. Perfect. Well done.}}",
+                    "userName": "{{evanw}}",
+                    "professional": "{{Technology Evangelist}}"
                 },
                 {
-                    "reviewContent": "MarkdownD 나는 거의 모든 내 작​​성을 할 것입니다. 그것은 굉장히 작은 응용 프로그램입니다.",
-                    "userName": "피터 밝은",
-                    "professional": "아스 테크니카에서 작가"
+                    "reviewContent": "{{MarkdownD is what I do pretty much all of my writing in. It's a great little app.}}",
+                    "userName": "{{Peter Bright}}",
+                    "professional": "{{Writer at Ars Technica}}"
                 },
                 {
-                    "reviewContent": "당신은 마크 다운에 관심이 있다면, MarkdownD 확실히 다운로드 가치가있다.",
-                    "userName": "Lifehacker에",
-                    "professional": "웹 개발자 및 디자이너"
+                    "reviewContent": "{{If you have any interest in Markdown, MarkdownD is definitely worth a download.}}",
+                    "userName": "{{LifeHacker}}",
+                    "professional": "{{Web Developer and Designer}}"
                 },
                 {
-                    "reviewContent": "정말 MarkdownD처럼, 내 작품에 대해 많은 편의를 가져왔다.",
-                    "userName": "jeruss",
-                    "professional": "PHP 프레임 워크 개발자"
+                    "reviewContent": "{{I really like MarkdownD, has brought much convenience for my work.}}",
+                    "userName": "{{jeruss}}",
+                    "professional": "{{PHP Framework Developer}}"
                 }
             ]
         }
@@ -77,180 +77,6 @@
                     {
                         "description": "{{Export markdown preview document to pdf file on MacOSX}}",
                         "url": "{{videos/docs/export_as_pdf_macos.mp4}}"
-                    }
-                ]
-            }
-        ]
-    },
-    "ReleaseNotePage": {
-        "labelVersion": "번역",
-        "list": [
-            {
-                "version": "{{2.9}}",
-                "updateDate": "{{2016.04.08}}",
-                "list": [
-                    {
-                        "platform": "{{Windows,Linux,MacOSX}}",
-                        "content": "{{Markdown processing performance}}"
-                    }
-                ]
-            },
-            {
-                "version": "{{2.8}}",
-                "list": [
-                    {
-                        "platform": "{{Windows,Linux}}",
-                        "content": "{{[Fixed] MarkdownD starts, quit unexpectedly}}"
-                    },
-                    {
-                        "platform": "{{Windows,Linux}}",
-                        "content": "{{[Fixed] The log file is too large }}"
-                    },
-                    {
-                        "platform": "{{MacOSX,Windows,Linux}}",
-                        "content": "{{[Update] Export as pdf, then, reveal in finder }}"
-                    },
-                    {
-                        "platform": "{{MacOSX}}",
-                        "content": "{{[Fixed] Export as pdf, only export one page. }}"
-                    }
-                ]
-            },
-            {
-                "version": "{{2.7}}",
-                "list": [
-                    {
-                        "platform": "{{MacOSX,Windows,Linux}}",
-                        "content": "{{[Update] BS,Util Upgrade}}"
-                    },
-                    {
-                        "platform": "{{MacOSX,Windows,Linux}}",
-                        "content": "{{[Update] NativeEngine Upgrade}}"
-                    },
-                    {
-                        "platform": "{{Windows,Linux}}",
-                        "content": "{{[Fixed] Fix the application menu bar disappearing after hiding and showing the window.}}"
-                    },
-                    {
-                        "platform": "{{Windows,Linux}}",
-                        "content": "{{[Fixed] Fix crash when freetype 2.6.3 is used in system.}}"
-                    },
-                    {
-                        "platform": "{{Windows,Linux}}",
-                        "content": "{{[Fixed] Fix the exit event of process object not reliable in renderer process.}}"
-                    },
-                    {
-                        "platform": "{{Windows,Linux}}",
-                        "content": "{{[Fixed] Fix crash when calling methods of downloadItem in will-download handler when event.preventDefault is called.}}"
-                    }
-                ]
-            },
-            {
-                "version": "{{2.6}}",
-                "list": [
-                    {
-                        "platform": "{{MacOSX,Windows}}",
-                        "content": "{{[Update] NativeEngine upgrade}}"
-                    }
-                ]
-            },
-            {
-                "version": "{{2.5}}",
-                "list": [
-                    {
-                        "platform": "{{Linux,Windows}}",
-                        "content": "{{[Bug] Fixed Engine menu config}}"
-                    },
-                    {
-                        "platform": "{{Linux,Windows}}",
-                        "content": "{{[Update] Selector upgrade 1.2}}"
-                    },
-                    {
-                        "platform": "{{MacOSX}}",
-                        "content": "{{[Bug] Fixed Quit menu item}}"
-                    },
-                    {
-                        "platform": "{{MacOSX}}",
-                        "content": "{{[Bug] Fixed Print menu item}}"
-                    },
-                    {
-                        "platform": "{{MacOSX}}",
-                        "content": "{{[Update] Native Engine upgrade}}"
-                    }
-                ]
-            },
-            {
-                "version": "{{2.4}}",
-                "list": [
-                    {
-                        "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "{{katex upgrade to ver 0.5.1}}"
-                    },
-                    {
-                        "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "{{intl upgrade to ver 1.0.0}}"
-                    },
-                    {
-                        "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "{{Backbone upgrade to ver 1.2.3}}"
-                    },
-                    {
-                        "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "{{editor.md upgrade to ver 1.5.0}}"
-                    },
-                    {
-                        "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "{{bs and util upgrade}}"
-                    },
-                    {
-                        "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "{{[Bug] Fixed flowChart, sequenceDiagram plugin}}"
-                    },
-                    {
-                        "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "{{[Bug] NativeEngine process_task contions is '&&' run error.}}"
-                    },
-                    {
-                        "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "{{[Bug] Open the most recently used documents that use dock appliction icon, not normal to open.}}"
-                    },
-                    {
-                        "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "{{[Bug] NativeEngine process_task must run success, application can't launch.}}"
-                    },
-                    {
-                        "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "{{[New features] Support print}}"
-                    },
-                    {
-                        "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "{{[New features] Support export markdown preview document to pdf file.}}"
-                    }
-                ]
-            },
-            {
-                "version": "{{2.3}}",
-                "list": [
-                    {
-                        "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "버그 수정."
-                    }
-                ]
-            },
-            {
-                "version": "{{2.2}}",
-                "list": [
-                    {
-                        "platform": "{{MacOSX,Linux,Windows}}",
-                        "content": "버그 수정."
-                    },
-                    {
-                        "platform": "{{Windows}}",
-                        "content": "첫 번째 릴리스."
-                    },
-                    {
-                        "platform": "{{Linux}}",
-                        "content": "첫 번째 릴리스."
                     }
                 ]
             }
@@ -586,12 +412,6 @@
                 "logo": "{{images/buy/buy.png}}",
                 "price": "{{$19.9}}",
                 "buyURL": "{{https://shopper.mycommerce.com/checkout/cart/new/55399-32}}"
-            },
-            {
-                "name": "{{MarkdownD for MacOSX (Mac App Store), for MacOSX 10.7 and later}}",
-                "logo": "{{images/buy/mas.png}}",
-                "price": "{{$19.9}}",
-                "buyURL": "{{https://itunes.apple.com/us/app/markdownd-is-full-featured/id975071094?l=zh&ls=1&mt=12}}"
             },
             {
                 "name": "{{MarkdownD for linux}}",

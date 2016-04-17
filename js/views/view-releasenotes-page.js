@@ -17,6 +17,7 @@
         htmlContent = template('changelog-content-tmpl', {labelVersion:l10n["labelVersion"] || "Version", list:l10n.list});
         $('.section-releasenotes').html(htmlContent);
         
+        window.location.href = RTYConfig.changeLogUrl;
     };
     
     c$.MC_l10n.add(c$.updateReleasenotesPage);
