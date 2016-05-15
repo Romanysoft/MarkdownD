@@ -13,8 +13,10 @@
     "Footer": {},
     "HomePage": {
         "ProjectTagline": "Full-featured Markdown editor.",
-        "BtnDownload": "Trial",
+        "BtnDownload": "Download",
+        "BtnDownloadDescription": "Free | Official trial version.",
         "BtnBuy": "Buy",
+        "BtnBuyDescription": "$20 | Official free upgrade.",
         "Screens": [
             "{{images/screens/common/c1.png}}",
             "{{images/screens/common/c2.png}}",
