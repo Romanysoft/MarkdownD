@@ -439,29 +439,9 @@
                 "buyURL": "{{https://shopper.mycommerce.com/checkout/cart/new/55399-32}}"
             },
             {
-                "name": "{{MarkdownD for Mac}}",
-                "logo": "{{images/buy/mas.png}}",
-                "buyURL": "{{https://itunes.apple.com/us/app/markdownd-is-full-featured/id975071094?l=zh&ls=1&mt=12}}"
-            },
-            {
                 "name": "{{MarkdownD for Linux}}",
                 "logo": "{{images/buy/buy.png}}",
                 "buyURL": "{{https://shopper.mycommerce.com/checkout/cart/new/55399-38}}"
-            },
-            {
-                "name": "{{MarkdownD for Windows}}",
-                "logo": "{{images/buy/taobao.png}}",
-                "buyURL": "{{http://item.taobao.com/item.htm?id=524924021533}}"
-            },
-            {
-                "name": "{{MarkdownD for Mac}}",
-                "logo": "{{images/buy/taobao.png}}",
-                "buyURL": "{{https://item.taobao.com/item.htm?id=522978831683}}"
-            },
-            {
-                "name": "{{MarkdownD for Linux}}",
-                "logo": "{{images/buy/taobao.png}}",
-                "buyURL": "{{https://item.taobao.com/item.htm?id=525049770494}}"
             }
         ]
     },
