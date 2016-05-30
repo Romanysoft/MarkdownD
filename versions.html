@@ -67,8 +67,8 @@
                     <img src="{{#zip.osUrl}}"/>
                     <strong>{{zip.name}}</strong>
                     {{each zip.downURL as url i}}
-                      <a href="{{#url}}">
-                      <sub>&nbsp;&nbsp;downlaod.{{++i}}&nbsp;&nbsp;</sub>
+                      <a href="{{#url}}" title="Download from {{#url}}">
+                      <sup>&nbsp;&nbsp;[{{++i}}]Download&nbsp;&nbsp;</sup>
                       </a>
                     {{/each}}
                     
