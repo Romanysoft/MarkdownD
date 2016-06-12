@@ -532,6 +532,24 @@
         "list": [
             {
                 "name": "{{MarkdownD for Windows}}",
+                "logo": "{{images/buy/taobao.png}}",
+                "regionalLanguage":["zh-CN", "zh-TW"],
+                "buyURL": "{{https://item.taobao.com/item.htm?id=524924021533}}"
+            },  
+            {
+                "name": "{{MarkdownD for Mac}}",
+                "logo": "{{images/buy/taobao.png}}",
+                "regionalLanguage":["zh-CN", "zh-TW"],
+                "buyURL": "{{https://item.taobao.com/item.htm?id=522978831683}}"
+            },   
+            {
+                "name": "{{MarkdownD for Linux}}",
+                "logo": "{{images/buy/taobao.png}}",
+                "regionalLanguage":["zh-CN", "zh-TW"],
+                "buyURL": "{{https://item.taobao.com/item.htm?id=525049770494}}"
+            },             
+            {
+                "name": "{{MarkdownD for Windows}}",
                 "logo": "{{images/buy/buy.png}}",
                 "buyURL": "{{https://shopper.mycommerce.com/checkout/cart/new/55399-37}}"
             },
