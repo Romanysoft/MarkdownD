@@ -89,6 +89,39 @@
         "labelVersion": "Version",
         "list": [
             {
+                "version":"{{3.3}}",
+                "updateDate": "{{2016.06.12}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v3.3.0-win32-x86-setup.exe}}",
+                        "size": "{{40.4MB}}",
+                        "downURL": [
+                          "{{http://www.filefactory.com/file/72fu7edfhc9f/MarkdownD-v3.3.0-win32-x86-setup.exe}}",
+                          "{{https://github.com/Romanysoft/AppShareFile/raw/master/apps/MarkdownD/3.3.0/MarkdownD-v3.3.0-win32-x86-setup.exe}}"
+                        ]
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v3.3.0-win32-x64-setup.exe}}",
+                        "size": "{{46.7MB}}",
+                        "downURL": [
+                          "{{http://www.filefactory.com/file/4aaoc1t3107p/MarkdownD-v3.3.0-win32-x64-setup.exe}}",
+                          "{{https://github.com/Romanysoft/AppShareFile/raw/master/apps/MarkdownD/3.3.0/MarkdownD-v3.3.0-win32-x64-setup.exe}}"
+                        ]
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v3.3.0-darwin-x64.dmg}}",
+                        "size": "{{5.6MB}}",
+                        "downURL": [
+                          "{{http://www.filefactory.com/file/2rq3ifle887r/MarkdownD-v3.3.0-darwin-x64.dmg}}",
+                          "{{https://github.com/Romanysoft/AppShareFile/raw/master/apps/MarkdownD/3.3.0/MarkdownD-v3.3.0-darwin-x64.dmg}}"
+                        ]
+                    }
+                ]
+            },             
+            {
                 "version":"{{3.2}}",
                 "updateDate": "{{2016.06.02}}",
                 "zipList": [
@@ -112,7 +145,7 @@
                     },
                     {
                         "osUrl": "{{images/download/osx.png}}",
-                        "name": "{{MarkdownD-v3.1.0-darwin-x64.dmg}}",
+                        "name": "{{MarkdownD-v3.2.0-darwin-x64.dmg}}",
                         "size": "{{5.7MB}}",
                         "downURL": [
                           "{{http://www.filefactory.com/file/7l4ea68gaswf/MarkdownD-v3.2.0-darwin-x64.dmg}}",
@@ -121,7 +154,7 @@
                     },
                     {
                         "osUrl": "{{images/download/linux.png}}",
-                        "name": "{{MarkdownD-v3.1.0-linux-ia32-install.tar.gz}}",
+                        "name": "{{MarkdownD-v3.2.0-linux-ia32-install.tar.gz}}",
                         "size": "{{49.39MB}}",
                         "downURL": [
                           "{{http://www.filefactory.com/file/72hu531aptz7/MarkdownD-v3.2.0-linux-ia32-install.tar.gz}}",
@@ -130,7 +163,7 @@
                     },
                     {
                         "osUrl": "{{images/download/linux.png}}",
-                        "name": "{{MarkdownD-v3.1.0-linux-x64-install.tar.gz}}",
+                        "name": "{{MarkdownD-v3.2.0-linux-x64-install.tar.gz}}",
                         "size": "{{48.99MB}}",
                         "downURL": [
                           "{{http://www.filefactory.com/file/7g46wpligyrz/MarkdownD-v3.2.0-linux-x64-install.tar.gz}}",
