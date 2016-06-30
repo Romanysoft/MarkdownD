@@ -89,6 +89,39 @@
         "labelVersion": "Version",
         "list": [
             {
+                "version":"{{3.4}}",
+                "updateDate": "{{2016.06.30}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v3.4.0-win32-x86-setup.exe}}",
+                        "size": "{{40.4MB}}",
+                        "downURL": [
+                          "{{http://www.filefactory.com/file/5cvhuw37ghkb/MarkdownD-v3.4.0-win32-x86-setup.exe}}",
+                          "{{https://github.com/Romanysoft/AppShareFile/raw/master/apps/MarkdownD/3.4.0/MarkdownD-v3.4.0-win32-x86-setup.exe}}"
+                        ]
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v3.4.0-win32-x64-setup.exe}}",
+                        "size": "{{46.7MB}}",
+                        "downURL": [
+                          "{{http://www.filefactory.com/file/4gjy4hfzzlkv/MarkdownD-v3.4.0-win32-x64-setup.exe}}",
+                          "{{https://github.com/Romanysoft/AppShareFile/raw/master/apps/MarkdownD/3.4.0/MarkdownD-v3.4.0-win32-x64-setup.exe}}"
+                        ]
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v3.4.0-darwin-x64.dmg}}",
+                        "size": "{{5.6MB}}",
+                        "downURL": [
+                          "{{http://www.filefactory.com/file/1dtpyr8o4y7p/MarkdownD-v3.4.0-darwin-x64.dmg}}",
+                          "{{https://github.com/Romanysoft/AppShareFile/raw/master/apps/MarkdownD/3.4.0/MarkdownD-v3.4.0-darwin-x64.dmg}}"
+                        ]
+                    }
+                ]
+            },             
+            {
                 "version":"{{3.3}}",
                 "updateDate": "{{2016.06.12}}",
                 "zipList": [
