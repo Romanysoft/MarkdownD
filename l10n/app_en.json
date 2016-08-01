@@ -94,7 +94,7 @@
                 "zipList": [
                     {
                         "osUrl": "{{images/download/win32.png}}",
-                        "name": "{{MarkdownD-v3.5.0-win32-x86-setup.exe}}",
+                        "name": "{{MarkdownD-v3.5.0-win32-x86-setup.exe (32 bit)}}",
                         "size": "{{40.4MB}}",
                         "downURL": [
                           "{{http://www.filefactory.com/file/y9elkm4d0n1/MarkdownD-v3.5.0-win32-x86-setup.exe}}",
@@ -103,7 +103,7 @@
                     },
                     {
                         "osUrl": "{{images/download/win32.png}}",
-                        "name": "{{MarkdownD-v3.5.0-win32-x64-setup.exe}}",
+                        "name": "{{MarkdownD-v3.5.0-win32-x64-setup.exe (64 bit)}}",
                         "size": "{{46.7MB}}",
                         "downURL": [
                           "{{http://www.filefactory.com/file/7ad06p5ihz3r/MarkdownD-v3.5.0-win32-x64-setup.exe}}",
