@@ -89,6 +89,40 @@
         "labelVersion": "Version",
         "list": [
             {
+                "version":"{{3.6}}",
+                "updateDate": "{{2016.08.12}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v3.6.0-win32-ia32-setup.exe (32 bit)}}",
+                        "size": "{{40.9MB}}",
+                        "downURL": [
+                          "{{http://www.filefactory.com/file/24lwkuvuciu1/MarkdownD-v3.6.0-win32-ia32-setup.exe}}",
+                          "{{https://github.com/Romanysoft/AppShareFile/raw/master/apps/MarkdownD/3.6.0/MarkdownD-v3.6.0-win32-ia32-setup.exe}}"                            
+                
+                        ]
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v3.6.0-win32-x64-setup.exe (64 bit)}}",
+                        "size": "{{47.4MB}}",
+                        "downURL": [
+                          "{{http://www.filefactory.com/file/4v68xxxmcgh1/MarkdownD-v3.6.0-win32-x64-setup.exe}}",
+                          "{{https://github.com/Romanysoft/AppShareFile/raw/master/apps/MarkdownD/3.6.0/MarkdownD-v3.6.0-win32-x64-setup.exe}}"                            
+                        ]
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v3.6.0-darwin-x64.dmg (MacOSX 64 bit)}}",
+                        "size": "{{5.6MB}}",
+                        "downURL": [
+                          "{{http://www.filefactory.com/file/3xga571cgh0v/MarkdownD-v3.6.0-darwin-x64.dmg}}",
+                          "{{https://github.com/Romanysoft/AppShareFile/raw/master/apps/MarkdownD/3.6.0/MarkdownD-v3.6.0-darwin-x64.dmg}}"                            
+                        ]
+                    }
+                ]
+            },              
+            {
                 "version":"{{3.5}}",
                 "updateDate": "{{2016.07.30}}",
                 "zipList": [
