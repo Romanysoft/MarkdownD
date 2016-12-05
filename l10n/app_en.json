@@ -28,6 +28,7 @@
         "Features": {
             "SectionName": "Main Features of MarkdownD",
             "list": [
+                "Supports exporting to HTML",
                 "Supports exporting to PDF",
                 "Supports Print",
                 "Support standard Markdown/CommonMark and GFM (GitHub) Flavored Markdown",
@@ -88,6 +89,28 @@
     "VersionPage": {
         "labelVersion": "Version",
         "list": [
+            {
+                "version":"{{3.7.2}}",
+                "updateDate": "{{2016.12.05}}",
+                "zipList": [
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v3.7.2-win32-ia32-setup.exe (32 bit)}}",
+                        "size": "{{41.4MB}}",
+                        "downURL": [
+                          "{{http://www.filefactory.com/file/41nkv91couav/MarkdownD-v3.7.2-win32-ia32-setup.exe}}"                         
+                        ]
+                    },
+                    {
+                        "osUrl": "{{images/download/win32.png}}",
+                        "name": "{{MarkdownD-v3.7.2-win32-x64-setup.exe (64 bit)}}",
+                        "size": "{{48MB}}",
+                        "downURL": [
+                          "{{http://www.filefactory.com/file/7d7u14k6rdzx/MarkdownD-v3.7.2-win32-x64-setup.exe}}"                          
+                        ]
+                    }
+                ]
+            },            
             {
                 "version":"{{3.7.1}}",
                 "updateDate": "{{2016.11.07}}",
