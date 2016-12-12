@@ -108,7 +108,15 @@
                         "downURL": [
                           "{{http://www.filefactory.com/file/7d7u14k6rdzx/MarkdownD-v3.7.2-win32-x64-setup.exe}}"                          
                         ]
-                    }
+                    },
+                    {
+                        "osUrl": "{{images/download/osx.png}}",
+                        "name": "{{MarkdownD-v3.7.2-darwin-x64.dmg (MacOSX 64 bit)}}",
+                        "size": "{{7.1MB}}",
+                        "downURL": [
+                          "{{http://www.filefactory.com/file/5dzjehht54kx/MarkdownD-v3.7.2-darwin-x64.zip}}"                           
+                        ]
+                    }                    
                 ]
             },            
             {
