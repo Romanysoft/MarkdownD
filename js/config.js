@@ -5,12 +5,12 @@
         documentTitle:"MarkdownD By Romanysoft",
         supportPlatforms:["Mac","Windows","Linux"],
         googleUA:"UA-76676167-2",
-        gitHome:"//github.com/Romanysoft/MarkdownD",
-        reportIssueUrl:"//github.com/Romanysoft/MarkdownD/issues",
-        changeLogUrl:"//github.com/Romanysoft/MarkdownD/wiki/Changelog",
-        wikiUrl:"//github.com/Romanysoft/MarkdownD/wiki",
-        jumpLocation:"https://www.romanysoft.net/markdownd/",
-        romanysoftHome:"//www.romanysoft.com",
+        gitHome:"//aws.romanysoft.com/",
+        reportIssueUrl:"//aws.romanysoft.com/support-center/",
+        changeLogUrl:"//aws.romanysoft.com/markdownd/",
+        wikiUrl:"//aws.romanysoft.com/markdownd/",
+        jumpLocation:"//aws.romanysoft.com/markdownd/",
+        romanysoftHome:"//aws.romanysoft.com/markdownd/",
         copyright:"Copyright © " + (new Date()).getFullYear() + " Romanysoft LAB."
     };
     
